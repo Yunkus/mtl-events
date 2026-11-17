@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Montreal Events</title>
+<style>
+  :root {
+    --bg: #faf8f5; --surface: #ffffff; --text: #1d1b19; --muted: #6f6a64; --line: #e7e2db;
+    --accent: #d2452c; --chip: #f0ebe4; --chip-on: #1d1b19; --chip-on-text: #faf8f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141312; --surface: #1d1c1a; --text: #efebe6; --muted: #9d968e; --line: #2e2c29;
+            --accent: #ff7a5c; --chip: #262422; --chip-on: #efebe6; --chip-on-text: #141312; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
+  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
+  .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px;
+         padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0 8px; }
+  .chip { border: 0; background: var(--chip); color: var(--text); border-radius: 999px; padding: 5px 11px;
+          font: inherit; font-size: 13px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+  .chip .n { opacity: .6; margin-left: 4px; }
+  .chip.bad { text-decoration: line-through; opacity: .55; }
+  .search { width: 100%; margin: 8px 0 4px; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line);
+            background: var(--surface); color: var(--text); font: inherit; }
+  .day { margin-top: 28px; }
+  .day h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+            margin: 0 0 8px; position: sticky; top: 0; background: var(--bg); padding: 6px 0; }
+  .ev { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .ev time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; padding-top: 1px; }
+  .ev a { color: var(--text); text-decoration: none; font-weight: 600; }
+  .ev a:hover { color: var(--accent); }
+  .ev .where { color: var(--muted); font-size: 13px; }
+  .ev .src { color: var(--accent); font-weight: 600; }
+  .empty { color: var(--muted); margin-top: 40px; text-align: center; }
+  .toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--chip-on);
+           color: var(--chip-on-text); padding: 8px 14px; border-radius: 8px; font-size: 13px; opacity: 0;
+           transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Montreal Events</h1>
+      <div class="meta" id="meta">Loading…</div>
+    </div>
+    <div class="sub">
+      <a class="btn primary" id="gcal" target="_blank" rel="noopener">Add to Google Calendar</a>
+      <a class="btn" id="webcal">Apple / Outlook</a>
+      <button class="btn" id="copy">Copy feed URL</button>
+    </div>
+  </header>
+  <div class="chips" id="chips"></div>
+  <input class="search" id="q" type="search" placeholder="Search artists, titles, rooms…">
+  <main id="list"></main>
+</div>
+<div class="toast" id="toast">Copied</div>
+<script>
+const feedUrl = new URL("calendar.ics", location.href).href;
+document.getElementById("webcal").href = feedUrl.replace(/^https?:/, "webcal:");
+document.getElementById("gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(feedUrl.replace(/^https?:/, "webcal:"));
+document.getElementById("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText(feedUrl); } catch (e) {}
+  const t = document.getElementById("toast"); t.classList.add("show"); setTimeout(() => t.classList.remove("show"), 1400);
+};
+
+let hidden = new Set();
+try { hidden = new Set(JSON.parse(localStorage.getItem("hiddenSources") || "[]")); } catch (e) {}
+const save = () => { try { localStorage.setItem("hiddenSources", JSON.stringify([...hidden])); } catch (e) {} };
+
+const dayFmt = new Intl.DateTimeFormat("en-CA", { weekday: "long", month: "long", day: "numeric", timeZone: "America/Montreal" });
+const timeFmt = new Intl.DateTimeFormat("en-CA", { hour: "numeric", minute: "2-digit", timeZone: "America/Montreal" });
+const keyFmt = new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", day: "2-digit", timeZone: "America/Montreal" });
+
+function parse(e) {
+  // all-day events are plain dates (YYYY-MM-DD); anchor them at noon local so they land on the right day
+  const d = e.all_day ? new Date(e.start + "T12:00:00-05:00") : new Date(e.start);
+  return { ...e, d, key: keyFmt.format(d) };
+}
+
+fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
+  const events = data.events.map(parse);
+  const gen = new Date(data.generated);
+  const bad = Object.entries(data.sources).filter(([, s]) => !s.ok).map(([n]) => n);
+  document.getElementById("meta").textContent =
+    `${events.length} upcoming events · updated ${gen.toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" })}` +
+    (bad.length ? ` · not updating: ${bad.join(", ")}` : "");
+
+  const chips = document.getElementById("chips");
+  const counts = {};
+  events.forEach(e => counts[e.source] = (counts[e.source] || 0) + 1);
+  Object.keys(data.sources).sort().forEach(name => {
+    const b = document.createElement("button");
+    b.className = "chip" + (data.sources[name].ok ? "" : " bad");
+    b.innerHTML = `${name}<span class="n">${counts[name] || 0}</span>`;
+    b.title = data.sources[name].ok ? "Click to show/hide" : data.sources[name].error;
+    b.setAttribute("aria-pressed", String(!hidden.has(name)));
+    b.onclick = () => { hidden.has(name) ? hidden.delete(name) : hidden.add(name); save();
+                        b.setAttribute("aria-pressed", String(!hidden.has(name))); render(); };
+    chips.appendChild(b);
+  });
+
+  const q = document.getElementById("q");
+  q.oninput = render;
+  function render() {
+    const term = q.value.trim().toLowerCase();
+    const shown = events.filter(e => !hidden.has(e.source) &&
+      (!term || (e.title + " " + e.location + " " + e.source).toLowerCase().includes(term)));
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+    if (!shown.length) { list.innerHTML = '<p class="empty">No events match.</p>'; return; }
+    let cur, sec;
+    for (const e of shown) {
+      if (e.key !== cur) {
+        cur = e.key; sec = document.createElement("section"); sec.className = "day";
+        const h = document.createElement("h2"); h.textContent = dayFmt.format(e.d); sec.appendChild(h);
+        list.appendChild(sec);
+      }
+      const row = document.createElement("div"); row.className = "ev";
+      const t = document.createElement("time"); t.textContent = e.all_day ? "—" : timeFmt.format(e.d);
+      const body = document.createElement("div");
+      const a = document.createElement("a"); a.href = e.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = e.title;
+      const w = document.createElement("div"); w.className = "where";
+      const s = document.createElement("span"); s.className = "src"; s.textContent = e.source;
+      w.appendChild(s);
+      if (e.location && e.location !== e.source) w.append(" · " + e.location);
+      body.append(a, w); row.append(t, body); sec.appendChild(row);
+    }
+  }
+  render();
+}).catch(err => { document.getElementById("meta").textContent = "Could not load events.json (" + err + ")"; });
+</script>
+</body>
+</html>
