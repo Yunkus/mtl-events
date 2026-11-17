@@ -30,6 +30,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # put fresh output on top of whatever is on main now (another run may have pushed meanwhile)
+          cp docs/events.json docs/calendar.ics "$RUNNER_TEMP"/
+          git checkout -- docs/events.json docs/calendar.ics
+          git pull --ff-only origin main
+          cp "$RUNNER_TEMP"/events.json "$RUNNER_TEMP"/calendar.ics docs/
           git add docs/events.json docs/calendar.ics
           git diff --cached --quiet || git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
