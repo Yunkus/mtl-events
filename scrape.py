@@ -209,8 +209,9 @@ def red_room() -> list[Ev]:
     return out
 
 
-def eventbrite_5aset() -> list[Ev]:
-    s = soup("https://www.eventbrite.ca/o/5-a-set-120716281994")
+def eventbrite_organizer(org_url: str, source: str) -> list[Ev]:
+    """All upcoming events listed on an Eventbrite organizer page (eventbrite.ca/o/...)."""
+    s = soup(org_url)
     data = json.loads(s.find("script", id="__NEXT_DATA__").string)
     found = {}
 
@@ -232,7 +233,7 @@ def eventbrite_5aset() -> list[Ev]:
         if e.get("end_date"):
             en = datetime.fromisoformat(f"{e['end_date']}T{e.get('end_time') or '23:59:00'}").replace(tzinfo=tz)
         venue = e.get("primary_venue") or {}
-        out.append(Ev("5 à Set", e.get("name") if isinstance(e.get("name"), str) else e.get("name", {}).get("text", ""),
+        out.append(Ev(source, e.get("name") if isinstance(e.get("name"), str) else e.get("name", {}).get("text", ""),
                       st.astimezone(TZ), e["url"], en.astimezone(TZ) if en else None,
                       venue.get("name", "") if isinstance(venue, dict) else ""))
     return out
@@ -303,7 +304,9 @@ SOURCES = {
     "Le Red Room": red_room,
     "Vino Disco": lambda: ra_events("promoter", "133188", "Vino Disco"),
     "Bar Datcha": lambda: ra_events("venue", "94451", "Bar Datcha"),
-    "5 à Set": eventbrite_5aset,
+    "5 à Set": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/5-a-set-120716281994", "5 à Set"),
+    "Le Marché Vintage": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/le-marche-vintage-65263991233",
+                                                      "Le Marché Vintage"),
     "Stereo": lambda: ra_events("venue", "828", "Stereo"),
     "Salon Daomé": lambda: ra_events("venue", "153067", "Salon Daomé"),
     "Turbo Haüs": turbo_haus,

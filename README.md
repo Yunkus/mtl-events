@@ -16,6 +16,7 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 | Vino Disco | Resident Advisor promoter 133188 (what their site embeds) |
 | Bar Datcha | Resident Advisor venue 94451 |
 | 5 à Set | Eventbrite organizer page |
+| Le Marché Vintage | Eventbrite organizer page (vintage pop-up markets) |
 | Stereo | Resident Advisor venue 828 (Tixr blocks automated access) |
 | Salon Daomé | Resident Advisor venue 153067 (ra.co/clubs/153067) |
 | Turbo Haüs | /calendrier month pages, next 3 months |
