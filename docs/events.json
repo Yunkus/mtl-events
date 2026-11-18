@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T10:43-05:00",
+ "generated": "2026-11-18T12:33-05:00",
  "sources": {
   "SAT": {
    "ok": true,
@@ -29,6 +29,10 @@
    "ok": true,
    "count": 1
   },
+  "Le Marché Vintage": {
+   "ok": true,
+   "count": 1
+  },
   "Stereo": {
    "ok": true,
    "count": 7
@@ -43,7 +47,7 @@
   },
   "Le Belmont": {
    "ok": true,
-   "count": 10
+   "count": 11
   }
  },
  "events": [
@@ -246,6 +250,15 @@
    "all_day": false
   },
   {
+   "source": "Le Belmont",
+   "title": "Fréquences Caribéennes - OFF Mundial",
+   "start": "2026-11-20T22:00:00-05:00",
+   "url": "https://www.lebelmont.ca/evenements",
+   "end": "2026-11-21T03:00:00-05:00",
+   "location": "Le Belmont",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "ANYMA ORA', Merina Gris & papaya noon",
    "start": "2026-11-20T22:30:00-05:00",
@@ -316,6 +329,15 @@
    "end": null,
    "location": "Turbo Haüs",
    "all_day": true
+  },
+  {
+   "source": "Le Marché Vintage",
+   "title": "Le marché vintage - vintage pop-up market",
+   "start": "2026-11-21T11:00:00-05:00",
+   "url": "https://www.eventbrite.com/e/le-marche-vintage-vintage-pop-up-market-tickets-2004528514748",
+   "end": "2026-11-21T11:00:00-05:00",
+   "location": "Église catholique Saint-Enfant-Jésus",
+   "all_day": false
   },
   {
    "source": "Casa del Popolo",
