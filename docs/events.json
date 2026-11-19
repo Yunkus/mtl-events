@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-18T12:33-05:00",
+ "generated": "2026-11-18T19:24-05:00",
  "sources": {
   "SAT": {
    "ok": true,
-   "count": 13
+   "count": 14
   },
   "Favourite Library": {
    "ok": true,
@@ -39,7 +39,7 @@
   },
   "Salon Daomé": {
    "ok": true,
-   "count": 8
+   "count": 9
   },
   "Turbo Haüs": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Le Belmont": {
    "ok": true,
-   "count": 11
+   "count": 10
   }
  },
  "events": [
@@ -134,11 +134,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "blesse lancement d'album \"Transit\"",
+   "title": "BLUE SKIES TURN BLACK ET M FOR MONTRÉAL PRÉSENTENT: A GOOD YEAR",
    "start": "2026-11-19T22:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-20-blesse-lancement-d-album-transit",
+   "url": "https://casadelpopolo.com/en/events/2026-11-20-blue-skies-turn-black-et-m-for-montreal-presentent-a-good-year",
    "end": null,
-   "location": "La Sala Rossa",
+   "location": "La Toscadura",
    "all_day": false
   },
   {
@@ -152,11 +152,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "BLUE SKIES TURN BLACK ET M FOR MONTRÉAL PRÉSENTENT: A GOOD YEAR",
+   "title": "blesse lancement d'album \"Transit\"",
    "start": "2026-11-19T22:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-20-blue-skies-turn-black-et-m-for-montreal-presentent-a-good-year",
+   "url": "https://casadelpopolo.com/en/events/2026-11-20-blesse-lancement-d-album-transit",
    "end": null,
-   "location": "La Toscadura",
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -250,15 +250,6 @@
    "all_day": false
   },
   {
-   "source": "Le Belmont",
-   "title": "Fréquences Caribéennes - OFF Mundial",
-   "start": "2026-11-20T22:00:00-05:00",
-   "url": "https://www.lebelmont.ca/evenements",
-   "end": "2026-11-21T03:00:00-05:00",
-   "location": "Le Belmont",
-   "all_day": false
-  },
-  {
    "source": "Casa del Popolo",
    "title": "ANYMA ORA', Merina Gris & papaya noon",
    "start": "2026-11-20T22:30:00-05:00",
@@ -269,20 +260,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Irdens Exantus, Naïma Frank & Dori (LUX)",
-   "start": "2026-11-20T22:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-irdens-exantus-naima-frank-dori-lux",
-   "end": null,
-   "location": "P'tit Ours",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "His His, Absolute Treat, Cam Kahin & Status/Non-Status",
    "start": "2026-11-20T22:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-21-his-his-absolute-treat-cam-kahin-status-non-status",
    "end": null,
    "location": "La Sotterenea",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Irdens Exantus, Naïma Frank & Dori (LUX)",
+   "start": "2026-11-20T22:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-21-irdens-exantus-naima-frank-dori-lux",
+   "end": null,
+   "location": "P'tit Ours",
    "all_day": false
   },
   {
@@ -341,20 +332,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "LIBBY EMBER, SABLE, UNDERPASS",
-   "start": "2026-11-21T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-22-libby-ember-sable-underpass",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Bennett Sobel EP Release Show w/ JayWood",
    "start": "2026-11-21T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-22-bennett-sobel-ep-release-show-w-jaywood",
    "end": null,
    "location": "P'tit Ours",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "LIBBY EMBER, SABLE, UNDERPASS",
+   "start": "2026-11-21T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-22-libby-ember-sable-underpass",
+   "end": null,
+   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
@@ -494,20 +485,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Helaina Mirielle, Felix Quastal, Sarah and Ethan",
-   "start": "2026-11-22T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-23-helaina-mirielle-felix-quastal-sarah-and-ethan",
-   "end": null,
-   "location": "P'tit Ours",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Thierry Du Sablon 4tet et Laurent Perreault-Jolicoeur 4tet",
    "start": "2026-11-22T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-23-thierry-du-sablon-4tet-et-laurent-perreault-jolicoeur-4tet",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Helaina Mirielle, Felix Quastal, Sarah and Ethan",
+   "start": "2026-11-22T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-23-helaina-mirielle-felix-quastal-sarah-and-ethan",
+   "end": null,
+   "location": "P'tit Ours",
    "all_day": false
   },
   {
@@ -548,20 +539,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "MARBLE ASS (1995) - Exposures Trans Film Festival Fundraiser",
-   "start": "2026-11-24T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-25-marble-ass-1995-exposures-trans-film-festival-fundraiser",
-   "end": null,
-   "location": "La Sala Rossa",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Kill Daizy : Growth or Graves",
    "start": "2026-11-24T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-25-kill-daizy-growth-or-graves",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "MARBLE ASS (1995) - Exposures Trans Film Festival Fundraiser",
+   "start": "2026-11-24T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-25-marble-ass-1995-exposures-trans-film-festival-fundraiser",
+   "end": null,
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -710,11 +701,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Mistaken For Wayne \"Whitefish Album Tour\"",
+   "title": "Om-Nom Fest 2026 Nuit 1",
    "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour",
+   "url": "https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1",
    "end": null,
-   "location": "P'tit Ours",
+   "location": "La Sotterenea",
    "all_day": false
   },
   {
@@ -728,11 +719,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Om-Nom Fest 2026 Nuit 1",
+   "title": "Mistaken For Wayne \"Whitefish Album Tour\"",
    "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1",
+   "url": "https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour",
    "end": null,
-   "location": "La Sotterenea",
+   "location": "P'tit Ours",
    "all_day": false
   },
   {
@@ -836,6 +827,15 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
+   "start": "2026-11-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
+   "end": null,
+   "location": "La Toscadura",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Gabriel Béland en spectacles",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
@@ -859,15 +859,6 @@
    "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
    "end": null,
    "location": "La Sala Rossa",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
-   "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
-   "end": null,
-   "location": "La Toscadura",
    "all_day": false
   },
   {
@@ -1025,6 +1016,15 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Rachella Wred, Couvo & Kerri",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
+   "end": null,
+   "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Dogtown, ft. Doodad",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad",
@@ -1039,15 +1039,6 @@
    "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
    "end": null,
    "location": "La Toscadura",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Rachella Wred, Couvo & Kerri",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
-   "end": null,
-   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
@@ -1106,15 +1097,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "GS DE LA LIQS",
    "start": "2026-12-04T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-05-gs-de-la-liqs",
@@ -1124,11 +1106,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "I’ll Be Your Mirror",
+   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
    "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
+   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
    "end": null,
-   "location": "La Toscadura",
+   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
@@ -1138,6 +1120,15 @@
    "url": "https://casadelpopolo.com/en/events/2026-12-05-gs-de-la-liqs-4-5-6-decembre-forfait-billet",
    "end": null,
    "location": "All venues",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "I’ll Be Your Mirror",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
+   "end": null,
+   "location": "La Toscadura",
    "all_day": false
   },
   {
@@ -1183,6 +1174,15 @@
    "url": "https://ra.co/events/2584281",
    "end": "2026-12-05T03:00:00-05:00",
    "location": "Bar Datcha",
+   "all_day": false
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "SLAPPED",
+   "start": "2026-12-04T22:30:00-05:00",
+   "url": "https://ra.co/events/2588738",
+   "end": "2026-12-05T05:00:00-05:00",
+   "location": "Salon Daomé",
    "all_day": false
   },
   {
@@ -1277,11 +1277,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAESLER",
+   "title": "GS DE LA LIQS",
    "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald",
+   "url": "https://casadelpopolo.com/en/events/2026-12-07-gs-de-la-liqs",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -1295,11 +1295,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "GS DE LA LIQS",
+   "title": "Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAESLER",
    "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-07-gs-de-la-liqs",
+   "url": "https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald",
    "end": null,
-   "location": "La Sala Rossa",
+   "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "The Blogs + Bradford Barker + The Vauxhalls",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
+   "end": null,
+   "location": "La Sotterenea",
    "all_day": false
   },
   {
@@ -1313,15 +1322,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
-   "end": null,
-   "location": "La Sala Rossa",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "girl with dream, a.d. walsh , mikee",
    "start": "2026-12-07T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee",
@@ -1331,11 +1331,11 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "The Blogs + Bradford Barker + The Vauxhalls",
+   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
    "end": null,
-   "location": "La Sotterenea",
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -1349,20 +1349,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Scott Helman",
-   "start": "2026-12-08T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests",
-   "end": null,
-   "location": "La Sala Rossa",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "JOON + PERFECT OUTFIT",
    "start": "2026-12-08T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-09-joon-perfect-outfit",
    "end": null,
    "location": "P'tit Ours",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Scott Helman",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests",
+   "end": null,
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -1448,20 +1448,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
-   "start": "2026-12-11T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Sauf les drones @ ce qui nous traverse",
    "start": "2026-12-11T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-12-sauf-les-drones-ce-qui-nous-traverse",
    "end": null,
    "location": "La Sala Rossa",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
+   "start": "2026-12-11T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
+   "end": null,
+   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
@@ -1481,15 +1481,6 @@
    "end": null,
    "location": "Le Red Room",
    "all_day": true
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "1H - John Papadimitriou <johnpapadimitriou57@gmail.com>",
-   "start": "2026-12-12T01:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
-   "end": null,
-   "location": "La Sala Rossa",
-   "all_day": false
   },
   {
    "source": "Casa del Popolo",
@@ -1525,6 +1516,15 @@
    "url": "https://casadelpopolo.com/en/events/2026-12-13-francbatards-montreal-casa-del-popolo",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "John of Sound Album Release Party",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
+   "end": null,
+   "location": "La Sala Rossa",
    "all_day": false
   },
   {
@@ -1574,20 +1574,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
-   "start": "2026-12-13T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "REEL GAY: Glee with Mary Fagdalene & Chiquita Mére",
    "start": "2026-12-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere",
    "end": null,
    "location": "La Sala Rossa",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
+   "start": "2026-12-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
+   "end": null,
+   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
@@ -1628,20 +1628,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "PHLIP - Première mondiale",
-   "start": "2026-12-16T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-14-bravo-music",
-   "end": null,
-   "location": "P'tit Ours",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présente: JORDAN HART + EMILY SCHULTZ",
    "start": "2026-12-16T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-17-blue-skies-turn-black-presente-jordan-hart",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "PHLIP - Première mondiale",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-14-bravo-music",
+   "end": null,
+   "location": "P'tit Ours",
    "all_day": false
   },
   {
@@ -1759,6 +1759,15 @@
    "url": "https://casadelpopolo.com/en/events/2026-12-20-seaver-she-came-to-quit-mort-d-homme",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "SAT",
+   "title": "AFROTONIK DANCE PARTY",
+   "start": "2026-12-19T23:00:00-05:00",
+   "url": "https://sat.qc.ca/en/events/afrotonik-dance-party-12-2026",
+   "end": null,
+   "location": "SAT – SAT Space",
    "all_day": false
   },
   {
@@ -1925,20 +1934,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Woody à la Casa Del Popolo",
-   "start": "2027-01-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Hayden + Invité(e)s",
    "start": "2027-01-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s",
    "end": null,
    "location": "La Sala Rossa",
+   "all_day": false
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Woody à la Casa Del Popolo",
+   "start": "2027-01-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
+   "end": null,
+   "location": "Casa Del Popolo",
    "all_day": false
   },
   {
