@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-20T19:00-05:00",
+ "generated": "2026-11-21T02:12-05:00",
  "sources": {
   "SAT": {
    "ok": true,
-   "count": 14
+   "count": 13
   },
   "Favourite Library": {
    "ok": true,
@@ -11,11 +11,11 @@
   },
   "Casa del Popolo": {
    "ok": true,
-   "count": 125
+   "count": 120
   },
   "Le Red Room": {
    "ok": true,
-   "count": 14
+   "count": 13
   },
   "Vino Disco": {
    "ok": true,
@@ -43,104 +43,14 @@
   },
   "Turbo Haüs": {
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "Le Belmont": {
    "ok": true,
-   "count": 11
+   "count": 9
   }
  },
  "events": [
-  {
-   "source": "Le Red Room",
-   "title": "Technocid x Ascension",
-   "start": "2026-11-20",
-   "url": "https://www.zeffy.com/en-CA/ticketing/technocidxascension",
-   "end": null,
-   "location": "Le Red Room",
-   "all_day": true
-  },
-  {
-   "source": "Le Belmont",
-   "title": "SÉLECTION OFFICIELLE - Hawa B & Afrotronix",
-   "start": "2026-11-20T19:00:00-05:00",
-   "url": "https://www.lebelmont.ca/evenements",
-   "end": "2026-11-20T22:00:00-05:00",
-   "location": "Le Belmont",
-   "all_day": false
-  },
-  {
-   "source": "Turbo Haüs",
-   "title": "Flood + Grandmother + In the Offing ",
-   "start": "2026-11-20T19:30:00-05:00",
-   "url": "https://turbohaus.ca/calendrier/2026/11/20/flood--grandmother--in-the-offing-",
-   "end": null,
-   "location": "Turbo Haüs",
-   "all_day": false
-  },
-  {
-   "source": "SAT",
-   "title": "Club SAT — Turbine • Musik Me Luv",
-   "start": "2026-11-20T22:00:00-05:00",
-   "url": "https://sat.qc.ca/en/events/club-sat-turbine-musik-me-luv-2026",
-   "end": null,
-   "location": "SAT – SAT Space",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "M for Mothland - Xela Edna, Birds of Prrrey, Still Depths, TVOD, BALACLAVA",
-   "start": "2026-11-20T22:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-m-for-mothland-xela-edna-birds-of-prrrey-still-depths-tvod-balaclava",
-   "end": null,
-   "location": "La Sala Rossa",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Afro Mundial Fest",
-   "start": "2026-11-20T22:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-afro-mundial-fest",
-   "end": null,
-   "location": "La Toscadura",
-   "all_day": false
-  },
-  {
-   "source": "Le Belmont",
-   "title": "Fréquences Caribéennes - OFF Mundial",
-   "start": "2026-11-20T22:00:00-05:00",
-   "url": "https://www.lebelmont.ca/evenements",
-   "end": "2026-11-21T03:00:00-05:00",
-   "location": "Le Belmont",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "His His, Absolute Treat, Cam Kahin & Status/Non-Status",
-   "start": "2026-11-20T22:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-his-his-absolute-treat-cam-kahin-status-non-status",
-   "end": null,
-   "location": "La Sotterenea",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Irdens Exantus, Naïma Frank & Dori (LUX)",
-   "start": "2026-11-20T22:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-irdens-exantus-naima-frank-dori-lux",
-   "end": null,
-   "location": "P'tit Ours",
-   "all_day": false
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "ANYMA ORA', Merina Gris & papaya noon",
-   "start": "2026-11-20T22:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-21-anyma-ora-merina-gris-papaya-noon",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "all_day": false
-  },
   {
    "source": "Le Red Room",
    "title": "Next Gems – WhoISee [usa]",
