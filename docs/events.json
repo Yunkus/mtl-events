@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:49-05:00",
+ "generated": "2026-11-24T18:50-05:00",
  "sources": {
   "SAT": {
    "ok": true,
@@ -47,7 +47,7 @@
   },
   "Le Belmont": {
    "ok": true,
-   "count": 9
+   "count": 8
   },
   "MTL Cookbook Club": {
    "ok": true,
@@ -128,15 +128,6 @@
    "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-24-nov-tickets-1996063370273",
    "end": "2026-11-24T21:30:00-05:00",
    "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "all_day": false
-  },
-  {
-   "source": "Le Belmont",
-   "title": "PALAJAM",
-   "start": "2026-11-24T20:30:00-05:00",
-   "url": "https://www.lebelmont.ca/evenements",
-   "end": "2026-11-25T00:30:00-05:00",
-   "location": "Le Belmont",
    "all_day": false
   },
   {
