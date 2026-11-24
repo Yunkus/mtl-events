@@ -5,10 +5,21 @@ X-WR-CALNAME:Montreal Events
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-TIMEZONE:America/Montreal
 BEGIN:VEVENT
+SUMMARY:cine tricot @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261124T180000
+DTEND;TZID=America/Montreal:20261124T210000
+DTSTAMP:20261124T234902Z
+UID:e369d63316c18408bd15@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/hbh85ej7
+LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
+  3K5\, Canada
+URL:https://luma.com/hbh85ej7
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Soirée "Open Haüs" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261124T190000
 DTEND;TZID=America/Montreal:20261124T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:57ae7748ee5ad29acdfc@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/24/soire-
  open-has
@@ -21,7 +32,7 @@ SUMMARY:Festival Triste: « Les larmes de terre » : musique et texte insp
  @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261124T200000
 DTEND;TZID=America/Montreal:20261124T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:eb9d4a89d1c9f42a8f1e@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  5-festival-triste-les-larmes-de-terre-musique-et-texte-inspires-par-la-ter
@@ -36,7 +47,7 @@ SUMMARY:MARBLE ASS (1995) - Exposures Trans Film Festival Fundraiser @ Cas
  a del Popolo
 DTSTART;TZID=America/Montreal:20261124T200000
 DTEND;TZID=America/Montreal:20261124T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ddf0036805310ebc1dcb@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  5-marble-ass-1995-exposures-trans-film-festival-fundraiser
@@ -48,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:Kill Daizy : Growth or Graves @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261124T200000
 DTEND;TZID=America/Montreal:20261124T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c799126a82e8c69a0a77@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  5-kill-daizy-growth-or-graves
@@ -57,10 +68,36 @@ URL:https://casadelpopolo.com/en/events/2026-11-25-kill-daizy-growth-or-gr
  aves
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261124T200000
+DTEND;TZID=America/Montreal:20261124T213000
+DTSTAMP:20261124T234902Z
+UID:4424dbb4c91b6bb2b2d9@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-tickets-1996062728353
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-tickets-1996062728353
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l - 24 Nov. @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261124T200000
+DTEND;TZID=America/Montreal:20261124T213000
+DTSTAMP:20261124T234902Z
+UID:0a0b0ee3d3691a0beab6@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-24-nov-tickets-1996063370273
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-24-nov-tickets-1996063370273
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:PALAJAM @ Le Belmont
 DTSTART;TZID=America/Montreal:20261124T203000
 DTEND;TZID=America/Montreal:20261125T003000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:eb5073d7f62e7502d772@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -70,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:Down2Techno: N0vatek\, No Police\, Ponsif @ Le Red Room
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6768cd6623a1a8d24d5b@mtl-events
 DESCRIPTION:Le Red Room\nhttps://lepointdevente.com/billets/ds6261125001?l
  ang=fr
@@ -78,11 +115,21 @@ LOCATION:Le Red Room
 URL:https://lepointdevente.com/billets/ds6261125001?lang=fr
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Figure Drawing : The Female Form @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261125T183000
+DTEND;TZID=America/Montreal:20261125T200000
+DTSTAMP:20261124T234902Z
+UID:8b7d00b65bbc80feb14e@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/jftov1fw
+LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
+URL:https://luma.com/jftov1fw
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:5 à Set: "The Miseducation of Lauryn Hill" Listening Party/Séanc
  e d'écoute @ 5 à Set
 DTSTART;TZID=America/Montreal:20261125T190000
 DTEND;TZID=America/Montreal:20261125T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5c807efe22591e1ad7de@mtl-events
 DESCRIPTION:5 à Set\nhttps://www.eventbrite.com/e/5-a-set-the-miseducatio
  n-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072
@@ -94,7 +141,7 @@ BEGIN:VEVENT
 SUMMARY:HI-FI AETHER @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261125T200000
 DTEND;TZID=America/Montreal:20261125T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ac5f78531232abcd6572@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  6-hi-fi-aether
@@ -105,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Jam avec Growve" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261125T200000
 DTEND;TZID=America/Montreal:20261125T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:928d8380fdd374308497@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/25/soire-
  open-jam-avec-growve
@@ -117,7 +164,7 @@ SUMMARY:ULTRA FAR with GOOD FEELING and ANDY AND THE DANNYS @ Casa del Pop
  olo
 DTSTART;TZID=America/Montreal:20261125T203000
 DTEND;TZID=America/Montreal:20261125T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:47d6c6013ceac2fb1ed7@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  6-ultra-far-with-good-feeling-and-andy-and-the-dannys
@@ -129,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:Rose Angeline and the Marlboro Pregnant Moms @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261125T210000
 DTEND;TZID=America/Montreal:20261126T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a29fc57861312c3a7603@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  6-rose-angeline-and-the-marlboro-pregnant-moms
@@ -141,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:No Cut November @ Le Red Room
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8b181626c3b178121f84@mtl-events
 DESCRIPTION:Le Red Room\nhttps://fr.ra.co/events/2549283
 LOCATION:Le Red Room
@@ -152,7 +199,7 @@ SUMMARY:Syngja Afterlife Album release show with Danny Pretzel and the Sal
  t of the Earth and Moma @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3652980cce5427fa874f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  7-syngja-afterlife-album-release-show-with-danny-pretzel-and-the-salt-of-t
@@ -165,7 +212,7 @@ BEGIN:VEVENT
 SUMMARY:Noche de Flamenco @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2d14a8014a2ed80bf2b9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  7-noche-de-flamenco
@@ -176,7 +223,7 @@ BEGIN:VEVENT
 SUMMARY:Vino Disco Thursdays: MOONART\, HØSS @ Vino Disco
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261127T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d70ac842c8e5984e52f1@mtl-events
 DESCRIPTION:Vino Disco\nhttps://ra.co/events/2572159
 LOCATION:Vino Disco
@@ -186,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:KILLED + OBELISK + AMRISTIX + COMPUTER SCIENCE @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:0e5efe73a0800f466958@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/26/killed
  --obelisk--amristix--computer-science
@@ -199,7 +246,7 @@ SUMMARY:FEVER VISIONS // EXTRAÑA HUMANA // MERCURE @ P'TIT OURS\, 26 NOV
  @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261126T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:234ca3e0824ce647ed29@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  7-fever-visions-extrana-humana-mercure-p-tit-ours-26-nov
@@ -212,7 +259,7 @@ SUMMARY:WESTELAKEN "IN IT FOR THE LACK" Album Launch with TALEL MCBRIAR &
  KELLY ELIZABETH @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261126T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:30fd9ee21689750c8cc8@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  7-westelaken-in-it-for-the-lack-album-launch-with-talel-mcbriar-kelly-eliz
@@ -225,7 +272,7 @@ BEGIN:VEVENT
 SUMMARY:STVW - PUNK RAVE @ Le Belmont
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261127T013000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b1771deb39e04ea6236a@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -235,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:27 Years of Stereo: Carl Cox - Ostrich @ Stereo
 DTSTART;TZID=America/Montreal:20261126T210000
 DTEND;TZID=America/Montreal:20261127T040000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:da719b2c509e78765fcc@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2570204
 LOCATION:Stereo
@@ -245,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:Emil Paquin\, Jamvvis\, Donalda (live) @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261126T220000
 DTEND;TZID=America/Montreal:20261127T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9219165ecd66dd4c7a0d@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2575107
 LOCATION:Bar Datcha
@@ -255,7 +302,7 @@ BEGIN:VEVENT
 SUMMARY:INEDIT BY UNDERPULSE @ Salon Daomé
 DTSTART;TZID=America/Montreal:20261126T223000
 DTEND;TZID=America/Montreal:20261127T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e768e88af4f5e381085b@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2568609
 LOCATION:Salon Daomé
@@ -265,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:ÉVÉNEMENT PRIVÉ / PRIVATE EVENT @ Le Red Room
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3fe8556c0e72470f7d2c@mtl-events
 DESCRIPTION:Le Red Room\nhttps://leredroom.com/events/evenement-prive-priv
  ate-event-2/
@@ -276,7 +323,7 @@ BEGIN:VEVENT
 SUMMARY:Om-Nom Fest 2026 Nuit 1 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7dcb8276299ce94b31e9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-om-nom-fest-2026-nuit-1
@@ -287,7 +334,7 @@ BEGIN:VEVENT
 SUMMARY:Mistaken For Wayne "Whitefish Album Tour" @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ccfa68d19cd9f1816d08@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-mistaken-for-wayne-whitefish-album-tour
@@ -299,7 +346,7 @@ BEGIN:VEVENT
 SUMMARY:Café Concret edition #55 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7e9a743c846bfdf89fe8@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-cafe-concret-edition-55
@@ -310,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:Om-Nom Fest 2026 Pass du Festival @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:35926d53efdc7e2a3b0b@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-om-nom-fest-2026-pass-du-festival
@@ -322,7 +369,7 @@ BEGIN:VEVENT
 SUMMARY:Cam Kahin  + The Wesleys + Debbie Christ @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:99174e3ed7b085753c08@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/27/cam-ka
  hin---invites
@@ -330,10 +377,36 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/11/27/cam-kahin---invites
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the W
+ ater @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261127T200000
+DTEND;TZID=America/Montreal:20261127T220000
+DTSTAMP:20261124T234902Z
+UID:5ede711f785279d62e85@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/old-port-comedy-show
+ -in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pr
+ o-comedy-show-by-the-water-tickets-2003441019019
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Old Port Comedy Show in Montreal | Pro Comedy Show by the Water - 
+ Nov. 27 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261127T200000
+DTEND;TZID=America/Montreal:20261127T213000
+DTSTAMP:20261124T234902Z
+UID:bc1b9e820e62d838d26f@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/old-port-comedy-show
+ -in-montreal-pro-comedy-show-by-the-water-nov-27-tickets-2003858496706
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-pro-comed
+ y-show-by-the-water-nov-27-tickets-2003858496706
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BLUE SKIES TURN BLACK PRÉSENTE: KIWI JR. @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T203000
 DTEND;TZID=America/Montreal:20261127T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1d35f3c1c46aa4e70716@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-blue-skies-turn-black-presente-kiwi-jr
@@ -345,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:La Groovin’ enflamme la Casa del Popolo ! @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261128T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:371049dbd4ae071e21f6@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  8-la-groovin-enflamme-la-casa-del-popolo
@@ -357,7 +430,7 @@ BEGIN:VEVENT
 SUMMARY:Harry Potter and the Montreal Rave @ Le Belmont
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261128T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4cf642368cd47d20e32f@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -367,7 +440,7 @@ BEGIN:VEVENT
 SUMMARY:ALL NIGHT x Dure Vie @ SAT
 DTSTART;TZID=America/Montreal:20261127T220000
 DTEND;TZID=America/Montreal:20261128T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9880c7ee7f733e924e88@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/all-night-dure-vie-2026
 LOCATION:SAT – SAT Space
@@ -377,7 +450,7 @@ BEGIN:VEVENT
 SUMMARY:Vino Disco Fridays: MilSif & Friends @ Vino Disco
 DTSTART;TZID=America/Montreal:20261127T220000
 DTEND;TZID=America/Montreal:20261128T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:71d57882576c960b1439@mtl-events
 DESCRIPTION:Vino Disco\nhttps://ra.co/events/2572163
 LOCATION:Vino Disco
@@ -387,17 +460,28 @@ BEGIN:VEVENT
 SUMMARY:GABA Collective invites UME @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261127T220000
 DTEND;TZID=America/Montreal:20261128T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7ebcaf41f81511663b5f@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2575146
 LOCATION:Bar Datcha
 URL:https://ra.co/events/2575146
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Paper Skies @ Newspeak
+DTSTART;TZID=America/Montreal:20261127T220000
+DTEND;TZID=America/Montreal:20261128T030000
+DTSTAMP:20261124T234902Z
+UID:79386c5f0c08393141bf@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/paper-skies-tickets-
+ KZDFGX
+LOCATION:Newspeak
+URL:https://www.universe.com/events/paper-skies-tickets-KZDFGX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Zeina\, Ostrich @ Salon Daomé
 DTSTART;TZID=America/Montreal:20261127T223000
 DTEND;TZID=America/Montreal:20261128T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5875c199b41d2ecf5903@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2568610
 LOCATION:Salon Daomé
@@ -407,7 +491,7 @@ BEGIN:VEVENT
 SUMMARY:27 Years of Stereo: Franky Rizardo - Manu @ Stereo
 DTSTART;TZID=America/Montreal:20261127T235900
 DTEND;TZID=America/Montreal:20261128T080000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ffb69f9295382d8bc210@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2570205
 LOCATION:Stereo
@@ -417,7 +501,7 @@ BEGIN:VEVENT
 SUMMARY:Techno Seasons: Fall @ Le Red Room
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6081c41ab7b66f190396@mtl-events
 DESCRIPTION:Le Red Room\nhttps://nevermonday-collective.bloomtickets.ca/ev
  ent/3219
@@ -425,10 +509,21 @@ LOCATION:Le Red Room
 URL:https://nevermonday-collective.bloomtickets.ca/event/3219
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1 year anniversary ★ @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261128T173000
+DTEND;TZID=America/Montreal:20261128T203000
+DTSTAMP:20261124T234902Z
+UID:deac52723d022fcabc67@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/kukqhsgv
+LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
+  3K5\, Canada
+URL:https://luma.com/kukqhsgv
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SAT x EAF x Festival Triste @ SAT
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1e498792187490652e65@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/sat-eaf-festival-triste-2026
 LOCATION:SAT – SAT Space
@@ -438,7 +533,7 @@ BEGIN:VEVENT
 SUMMARY:Om-Nom Fest 2026 Nuit 2 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6dfd803c32f922e65e01@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-om-nom-fest-2026-nuit-2
@@ -450,7 +545,7 @@ SUMMARY:Michael Jerome Browne & the Backbeat Boys (Michael Ball\, Stephen
  Barry\, John McColgan) @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7ac4150ea049cff2736e@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-
@@ -463,7 +558,7 @@ BEGIN:VEVENT
 SUMMARY:Gabriel Béland en spectacles @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b3e0e7bd1944c78b17ce@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-gabriel-beland-en-spectacle
@@ -476,7 +571,7 @@ SUMMARY:STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS
   @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e88301d3fe7d38d97164@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins
@@ -489,7 +584,7 @@ SUMMARY:Vino Disco Saturdays: Ultreme\, Tali Rose\, YVNNI\, Giuliano (EXTE
  NDED 6AM) @ Vino Disco
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261129T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ccedc7f7768a3e71b4b7@mtl-events
 DESCRIPTION:Vino Disco\nhttps://ra.co/events/2572167
 LOCATION:Vino Disco
@@ -499,7 +594,7 @@ BEGIN:VEVENT
 SUMMARY:Historical Feeling et Le Début du Monde @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261128T203000
 DTEND;TZID=America/Montreal:20261128T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:744a0084d3667da04cd9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-onwav-felix-edouard-le-debut-du-monde
@@ -511,7 +606,7 @@ BEGIN:VEVENT
 SUMMARY: Class of 91 + Blurry Eyes + Cleanse + Testa Dura @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261128T210000
 DTEND;TZID=America/Montreal:20261129T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a6e74661e046ad4762cc@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/28/-class
  -of-91--blurry-eyes--cleanse--testa-dura
@@ -523,17 +618,28 @@ BEGIN:VEVENT
 SUMMARY:Bomba Retro - Fiesta 80s\, 90s 2000 @ Le Belmont
 DTSTART;TZID=America/Montreal:20261128T213000
 DTEND;TZID=America/Montreal:20261129T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4110f28659a566a1af23@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
 URL:https://www.lebelmont.ca/evenements
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Suray Sertin @ Newspeak
+DTSTART;TZID=America/Montreal:20261128T220000
+DTEND;TZID=America/Montreal:20261129T030000
+DTSTAMP:20261124T234902Z
+UID:890061010814a880edfd@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/suray-sertin-tickets
+ -TVCRZM
+LOCATION:Newspeak
+URL:https://www.universe.com/events/suray-sertin-tickets-TVCRZM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:T.I.T.S @ Salon Daomé
 DTSTART;TZID=America/Montreal:20261128T223000
 DTEND;TZID=America/Montreal:20261129T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a3abe2cc7084f7f2b055@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2568611
 LOCATION:Salon Daomé
@@ -544,7 +650,7 @@ SUMMARY:NONSTOP: Sydney Sarayeva\, Kridelka\, Hey: Albert\, Benji b2b Colm
  ee\, DUROCHER @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261128T230000
 DTEND;TZID=America/Montreal:20261129T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:02c1796b2a5168b79625@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2565064
 LOCATION:Bar Datcha
@@ -554,7 +660,7 @@ BEGIN:VEVENT
 SUMMARY:27 Years of Stereo: David Morales (All Night Long) @ Stereo
 DTSTART;TZID=America/Montreal:20261128T235900
 DTEND;TZID=America/Montreal:20261129T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a88da78382c13e498ee8@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2570208
 LOCATION:Stereo
@@ -564,7 +670,7 @@ BEGIN:VEVENT
 SUMMARY:David Morales @ Stereo
 DTSTART;TZID=America/Montreal:20261128T235900
 DTEND;TZID=America/Montreal:20261129T080000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:155f94cf70e03a6f49fa@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2537409
 LOCATION:Stereo
@@ -574,7 +680,7 @@ BEGIN:VEVENT
 SUMMARY:Queer Afro-Latin Dance Social @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261129T173000
 DTEND;TZID=America/Montreal:20261129T203000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:644755c5c9f153b019ac@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-2
  9-queer-afro-latin-dance-social
@@ -587,7 +693,7 @@ SUMMARY:Dahomey T-Dance - Don Barbarino\, Uzi\, Pattes de Velour @ Salon D
  aomé
 DTSTART;TZID=America/Montreal:20261129T180000
 DTEND;TZID=America/Montreal:20261129T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7267fbaee663a50c810e@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2577391
 LOCATION:Salon Daomé
@@ -598,7 +704,7 @@ SUMMARY:The Bloodshots + Screaming Demons + The Count Ferrara  @ Turbo Ha
  üs
 DTSTART;TZID=America/Montreal:20261129T190000
 DTEND;TZID=America/Montreal:20261129T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7061019e041897826dc1@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/29/the-bl
  oodshots--screaming-demons--the-count-ferrara-
@@ -610,7 +716,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée Flamenca À trois souffles @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261129T200000
 DTEND;TZID=America/Montreal:20261129T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:12c7550f93586786c715@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-3
  0-soiree-flamenca-a-trois-souffles
@@ -622,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:Hicus and Friends Live at P'tit Ours @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261129T203000
 DTEND;TZID=America/Montreal:20261129T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:91edf73e685380ec23f1@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-3
  0-hicus-and-friends-live-at-p-tit-ours
@@ -634,7 +740,7 @@ BEGIN:VEVENT
 SUMMARY:THE BACKSTAGE @ Turbo Haüs
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:cdd94a673548cab1e7af@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/11/30/the-ba
  ckstage
@@ -645,7 +751,7 @@ BEGIN:VEVENT
 SUMMARY:SPURS @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e150cb12e8b7ec9af107@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  1-spurs
@@ -656,7 +762,7 @@ BEGIN:VEVENT
 SUMMARY:re:mplacé @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1417e3c71b933e2f378d@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  1-re-mplace
@@ -664,10 +770,36 @@ LOCATION:La Sala Rossa
 URL:https://casadelpopolo.com/en/events/2026-12-01-re-mplace
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal @ Laugh
+  It Off
+DTSTART;TZID=America/Montreal:20261130T200000
+DTEND;TZID=America/Montreal:20261130T213000
+DTSTAMP:20261124T234902Z
+UID:64e7ed1f30e75bdba1d4@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-tickets-1992133979359
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-tickets-1992133979359
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on Nove
+ mber 30 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261130T200000
+DTEND;TZID=America/Montreal:20261130T213000
+DTSTAMP:20261124T234902Z
+UID:556ce089efdb5ec7b1f4@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-on-november-30-tickets-2003550340001
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-on-november-30-tickets-2003550340001
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hooper\, Ladybug\, Lovelet @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261130T203000
 DTEND;TZID=America/Montreal:20261130T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ae6048e1275c2436f553@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  1-hooper-ladybug-lovelet
@@ -678,7 +810,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Haüs" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261201T190000
 DTEND;TZID=America/Montreal:20261201T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:279a82cbacea82082ed2@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/1/soire-o
  pen-has
@@ -686,11 +818,37 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/1/soire-open-has
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261201T200000
+DTEND;TZID=America/Montreal:20261201T213000
+DTSTAMP:20261124T234902Z
+UID:1d23675a4a28a2b6b2e7@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004035830115
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Dece
+ mber 1 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261201T200000
+DTEND;TZID=America/Montreal:20261201T213000
+DTSTAMP:20261124T234902Z
+UID:e7e4d465a2b5276a4df2@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-december-1-tickets-2004342070087
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-december-1-tickets-2004342070087
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Margaux Deveze présente Vague à l'âme : l'aube d'un album @ Cas
  a del Popolo
 DTSTART;TZID=America/Montreal:20261201T203000
 DTEND;TZID=America/Montreal:20261201T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1fb40d1860eb6a393aa1@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  2-margaux-deveze-presente-vague-a-l-ame-l-aube-d-un-album
@@ -702,7 +860,7 @@ BEGIN:VEVENT
 SUMMARY:Rachella Wred\, Couvo & Kerri @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:adb35a995e3a8f44ff5c@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  3-rachella-wred-couva-kerri
@@ -714,7 +872,7 @@ BEGIN:VEVENT
 SUMMARY:Anthony Prégent @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3ef1e8e7403420022ccc@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  3-anthony-pregent
@@ -725,7 +883,7 @@ BEGIN:VEVENT
 SUMMARY:Dogtown\, ft. Doodad @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8b1aff743f6ad8d03cfc@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  3-dogtown-ft-doodad
@@ -736,7 +894,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Jam avec Growve" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:fc89b74c33f2ca3e5f11@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/2/soire-o
  pen-jam-avec-growve
@@ -744,10 +902,36 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/2/soire-open-jam-avec-growve
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 2 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261202T200000
+DTEND;TZID=America/Montreal:20261202T213000
+DTSTAMP:20261124T234902Z
+UID:483d72d66cfb5003f395@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-2-tickets-1994071162526
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-2-tickets-1994071162526
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261202T200000
+DTEND;TZID=America/Montreal:20261202T213000
+DTSTAMP:20261124T234902Z
+UID:fb0e036728594150ee95@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265385695
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Groove pour la cause @ Le Red Room
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6a13b9e823e5f0ef4470@mtl-events
 DESCRIPTION:Le Red Room\nhttps://www.zeffy.com/fr-CA/ticketing/groove-pour
  -la-cause
@@ -759,7 +943,7 @@ SUMMARY:Blue Skies Turn Black présente: WILD PINK + HIDING PLACES @ Casa
  del Popolo
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:573ae16038dddced84a4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  4-blue-skies-turn-black-presente-wild-pink-hiding-places
@@ -772,7 +956,7 @@ SUMMARY:Maxime Gervais & les Petits Trous de Balle + Mr Spirale & les Ange
  s @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:fa191cce6c6db82d5852@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/3/maxime-
  gervais--les-petits-trous-de-balle--mr-spirale--les-anges
@@ -784,7 +968,7 @@ BEGIN:VEVENT
 SUMMARY:SAM QUEALY + SUUNCAAT @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261203T203000
 DTEND;TZID=America/Montreal:20261203T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:114c43580278842568db@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  4-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy
@@ -796,7 +980,7 @@ BEGIN:VEVENT
 SUMMARY:EEDM + no cosmos (trio set) @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261203T203000
 DTEND;TZID=America/Montreal:20261203T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:26c4c1347344aae465d0@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  4-eedm-no-cosmos-trio-set
@@ -807,7 +991,7 @@ BEGIN:VEVENT
 SUMMARY:TERRELL\, DJ HIDI & Bisou Bizou @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261203T220000
 DTEND;TZID=America/Montreal:20261204T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:20c24f7f426d7d11fbf7@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2591883
 LOCATION:Bar Datcha
@@ -817,7 +1001,7 @@ BEGIN:VEVENT
 SUMMARY:AVY DUBZ [USA] + MORE @ Le Red Room
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e9d9578e86635126711e@mtl-events
 DESCRIPTION:Le Red Room\nhttps://lepointdevente.com/billets/avydubz-rr?lan
  g=fr
@@ -828,7 +1012,7 @@ BEGIN:VEVENT
 SUMMARY:Handmade 03 @ Favourite Library
 DTSTART;TZID=America/Montreal:20261204T190000
 DTEND;TZID=America/Montreal:20261204T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:908b9159653524f819fd@mtl-events
 DESCRIPTION:Favourite Library\nhttps://www.favouritelibrary.com/#shows
 LOCATION:House show \, Montreal
@@ -838,7 +1022,7 @@ BEGIN:VEVENT
 SUMMARY:GS DE LA LIQS 4-5-6 Décembre Forfait billet @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1d5b4630a4da665059a8@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  5-gs-de-la-liqs-4-5-6-decembre-forfait-billet
@@ -850,7 +1034,7 @@ BEGIN:VEVENT
 SUMMARY:I’ll Be Your Mirror @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:cac0b2608259ca6f85d4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  5-i-ll-be-your-mirror
@@ -861,7 +1045,7 @@ BEGIN:VEVENT
 SUMMARY:GS DE LA LIQS @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:fe3d54888ea8f43df7de@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  5-gs-de-la-liqs
@@ -873,7 +1057,7 @@ SUMMARY:Strange Flowers Presents : A Night of 20-minute Sets Vol. 4 @ Casa
   del Popolo
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:51af3df0f8f51d9464f0@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  5-strange-flowers-presents-a-night-of-20-minute-sets-vol-4
@@ -885,7 +1069,7 @@ BEGIN:VEVENT
 SUMMARY:Nameless Friends + G String + Puberty Well @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a929a8f4b97c11bf15de@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/4/nameles
  s-friends--g-string--puberty-well
@@ -894,10 +1078,36 @@ URL:https://turbohaus.ca/calendrier/2026/12/4/nameless-friends--g-string--
  puberty-well
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Spectacle d’humour au Vieux-Port de Montréal | Humour au bord d
+ e l'eau - @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T213000
+DTSTAMP:20261124T234902Z
+UID:db5ba6db04855f3f9b26@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-au
+ -vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montrea
+ l-humour-au-bord-de-leau--tickets-2003491291385
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour au Vieux-Port de Montréal | Humour au bord d
+ e l'eau @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T220000
+DTSTAMP:20261124T234902Z
+UID:4f14fbcaeff316e97896@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-au
+ -vieux-port-de-montreal-humour-au-bord-de-leau-tickets-2003900177374
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montrea
+ l-humour-au-bord-de-leau-tickets-2003900177374
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Antenna93 / Fresh Wax / No Muzzle @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261204T203000
 DTEND;TZID=America/Montreal:20261204T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:38c3214c67f1daae9a26@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  5-antenna93-folding-nyc-no-muzzle
@@ -909,7 +1119,7 @@ BEGIN:VEVENT
 SUMMARY:2010s Night @ Le Belmont
 DTSTART;TZID=America/Montreal:20261204T210000
 DTEND;TZID=America/Montreal:20261205T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5c17ccc08bccd0027325@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -919,7 +1129,7 @@ BEGIN:VEVENT
 SUMMARY:Club SAT x GABA collective @ SAT
 DTSTART;TZID=America/Montreal:20261204T220000
 DTEND;TZID=America/Montreal:20261205T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8a7e0fec1d8bcabe1d24@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/club-sat-gaba-collective-2026
 LOCATION:SAT – SAT Space
@@ -930,17 +1140,28 @@ SUMMARY:Deep step: ukn_owned\, michael_v23\, Fanella\, MLLE CEE @ Bar Datc
  ha
 DTSTART;TZID=America/Montreal:20261204T220000
 DTEND;TZID=America/Montreal:20261205T050000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:55b1fb3fac95d0996895@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2584281
 LOCATION:Bar Datcha
 URL:https://ra.co/events/2584281
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Loukeman @ Newspeak
+DTSTART;TZID=America/Montreal:20261204T220000
+DTEND;TZID=America/Montreal:20261205T030000
+DTSTAMP:20261124T234902Z
+UID:ca4d757bb7661a899497@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/loukeman-tickets-KWL
+ DZY
+LOCATION:Newspeak
+URL:https://www.universe.com/events/loukeman-tickets-KWLDZY
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SLAPPED @ Salon Daomé
 DTSTART;TZID=America/Montreal:20261204T223000
 DTEND;TZID=America/Montreal:20261205T050000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e86263663fdb75dbb774@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2588738
 LOCATION:Salon Daomé
@@ -951,7 +1172,7 @@ SUMMARY:Euphoria Sessions: Elli Acula - Altinbas (Live) - No Police - Sara
  h Kay @ Stereo
 DTSTART;TZID=America/Montreal:20261204T235900
 DTEND;TZID=America/Montreal:20261205T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ad6f34d065646873ece2@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589175
 LOCATION:Stereo
@@ -961,7 +1182,7 @@ BEGIN:VEVENT
 SUMMARY:Bleeder: Hell on Earth @ Le Red Room
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b0f52a8ebb10668643e3@mtl-events
 DESCRIPTION:Le Red Room\nhttps://fr.ra.co/events/2579658
 LOCATION:Le Red Room
@@ -971,7 +1192,7 @@ BEGIN:VEVENT
 SUMMARY:LA CLASH PODCAST ... LIVE! @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T160000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5505f03daeb699a41706@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/5/la-clas
  h-podcast--live
@@ -983,7 +1204,7 @@ SUMMARY:Heavy Trip & Negative Capabilities present Magic Tuber Stringband
  + Geneviève Heistek + Jesse Eckerlin @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261205T200000
 DTEND;TZID=America/Montreal:20261205T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ca7411a22284055c002d@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  6-heavy-trip-negative-capabilities-present-magic-tuber-stringband-geneviev
@@ -996,7 +1217,7 @@ BEGIN:VEVENT
 SUMMARY:GS DE LA LIQS @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261205T200000
 DTEND;TZID=America/Montreal:20261205T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c5039e8f517889052bfd@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  6-gs-de-la-liqs
@@ -1007,7 +1228,7 @@ BEGIN:VEVENT
 SUMMARY:The Carringtons + Bucky Harris + Armoire @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261205T200000
 DTEND;TZID=America/Montreal:20261205T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1236889990350cb99a0c@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/5/the-car
  ringtons--bucky-harris--armoire
@@ -1016,11 +1237,37 @@ URL:https://turbohaus.ca/calendrier/2026/12/5/the-carringtons--bucky-harri
  s--armoire
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montre
+ al @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T213000
+DTSTAMP:20261124T234902Z
+UID:1df9847ef317a0d112bc@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/saturday-night-comed
+ y-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745
+LOCATION:Kawalees
+URL:https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-come
+ dy-spotlight-in-montreal-tickets-2004467330745
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montre
+ al @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T213000
+DTSTAMP:20261124T234902Z
+UID:54a92ac717d1134b9111@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/saturday-night-comed
+ y-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004561488373
+LOCATION:Kawalees
+URL:https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-come
+ dy-spotlight-in-montreal-tickets-2004561488373
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bodywash <Laughing at Noise> Album Release with Marcel and Mother 
  Tongues @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261205T203000
 DTEND;TZID=America/Montreal:20261205T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:91eb10612bc39e83eedd@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  6-bodywash-laughing-at-noise-album-release-with-marcel-and-mother-tongues
@@ -1032,7 +1279,7 @@ BEGIN:VEVENT
 SUMMARY:This Belongs To You @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261205T213000
 DTEND;TZID=America/Montreal:20261206T003000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a9091e13faa9fca99454@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  6-this-belongs-to-you
@@ -1044,7 +1291,7 @@ SUMMARY:CLASS OF 2095 - DJ Cinéma Quartier Latin\, HEY: ALBERT\, HALO\, .
  ape\, No Police @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261205T220000
 DTEND;TZID=America/Montreal:20261206T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1352a6f0ebe9b387db14@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2584285
 LOCATION:Bar Datcha
@@ -1054,17 +1301,28 @@ BEGIN:VEVENT
 SUMMARY:Ferias x Turbo: DNA @ Stereo
 DTSTART;TZID=America/Montreal:20261205T220000
 DTEND;TZID=America/Montreal:20261206T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:bc55b9f5a8a49bbbcb68@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2583372
 LOCATION:Stereo
 URL:https://ra.co/events/2583372
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Riot Ten @ Newspeak
+DTSTART;TZID=America/Montreal:20261205T220000
+DTEND;TZID=America/Montreal:20261206T030000
+DTSTAMP:20261124T234902Z
+UID:ab0a466f90ee5b3a4d39@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/riot-ten-tickets-FP8
+ 1CN
+LOCATION:Newspeak
+URL:https://www.universe.com/events/riot-ten-tickets-FP81CN
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Stereo x Ferias x Turbo present DNA @ Stereo
 DTSTART;TZID=America/Montreal:20261205T235900
 DTEND;TZID=America/Montreal:20261206T235900
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4daecbfaa6ea3ab752c3@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589182
 LOCATION:Stereo
@@ -1075,7 +1333,7 @@ SUMMARY:Nick Schofield with special guest Moon Mullins (NYC) @ Casa del Po
  polo
 DTSTART;TZID=America/Montreal:20261206T120000
 DTEND;TZID=America/Montreal:20261206T150000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d8fd2392119d8b7dcd3d@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  6-nick-schofield-with-special-guest-moon-mullins-nyc
@@ -1084,11 +1342,37 @@ URL:https://casadelpopolo.com/en/events/2026-12-06-nick-schofield-with-spe
  cial-guest-moon-mullins-nyc
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
+ ntreal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261206T193000
+DTEND;TZID=America/Montreal:20261206T213000
+DTSTAMP:20261124T234902Z
+UID:5382ef73a757f123640b@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-
+ up-comedy-show-in-montreal-tickets-1997803306469
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - 
+ Dec. 6 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261206T193000
+DTEND;TZID=America/Montreal:20261206T213000
+DTSTAMP:20261124T234902Z
+UID:485d0112c4ace4e263cb@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-comedy-show-in-montreal-dec-6-tickets-1997803600348
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy
+ -show-in-montreal-dec-6-tickets-1997803600348
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAES
  LER @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:abd53bf3c563dfee9603@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  7-blue-skies-turn-black-presente-michael-bernard-fitzgerald
@@ -1101,7 +1385,7 @@ SUMMARY:Pascale Pascale/ Hearts of Palm /Ahren Strange @ Sotterenea Dec 6t
  h @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:14873dac69e9dbeb25fd@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  7-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th
@@ -1113,7 +1397,7 @@ BEGIN:VEVENT
 SUMMARY:GS DE LA LIQS @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5c12d63f0a790ad66617@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  7-gs-de-la-liqs
@@ -1124,7 +1408,7 @@ BEGIN:VEVENT
 SUMMARY:The Blogs + Bradford Barker + The Vauxhalls @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:49c6ab53cd1bff1660aa@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  8-the-blogs-bradford-barker-the-vauxhalls
@@ -1136,7 +1420,7 @@ BEGIN:VEVENT
 SUMMARY:Adiós\, CASA! Luan Larobina x Zalam Kao @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2b5dc1fbae153539f2ef@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  8-adios-casa-luan-larobina-x-zalam-kao
@@ -1148,7 +1432,7 @@ BEGIN:VEVENT
 SUMMARY:girl with dream\, a.d. walsh \, mikee @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:92e1cbdcd446974b8a19@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  8-girl-with-dream-a-d-walsh-mikee
@@ -1160,7 +1444,7 @@ BEGIN:VEVENT
 SUMMARY:Emile Patenaude + Bubblegum Flavour @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1d9435ab29f764ec0d86@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  8-emile-patenaude-bubblegum-flavour
@@ -1169,10 +1453,36 @@ URL:https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubbleg
  um-flavour
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
+ augh It Off
+DTSTART;TZID=America/Montreal:20261207T200000
+DTEND;TZID=America/Montreal:20261207T213000
+DTSTAMP:20261124T234902Z
+UID:5fe8b544d4a55c837f99@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-tickets-1996655730037
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy\, D
+ ecember 7 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261207T200000
+DTEND;TZID=America/Montreal:20261207T213000
+DTSTAMP:20261124T234902Z
+UID:d38db88351d5f2813a39@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-december-7-tickets-1996656198438
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-december-7-tickets-1996656198438
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Soirée "Open Haüs" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261208T190000
 DTEND;TZID=America/Montreal:20261208T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b8dc2bae767a19a6cf6a@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/8/soire-o
  pen-has
@@ -1183,7 +1493,7 @@ BEGIN:VEVENT
 SUMMARY:JOON + PERFECT OUTFIT @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261208T200000
 DTEND;TZID=America/Montreal:20261208T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8fc4fa580f5ef1bd4838@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  9-joon-perfect-outfit
@@ -1194,7 +1504,7 @@ BEGIN:VEVENT
 SUMMARY:Scott Helman @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261208T200000
 DTEND;TZID=America/Montreal:20261208T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d2997728a7e32bd16b79@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-0
  9-scott-helman-w-special-guests
@@ -1203,10 +1513,36 @@ URL:https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-
  guests
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261208T200000
+DTEND;TZID=America/Montreal:20261208T213000
+DTSTAMP:20261124T234902Z
+UID:732c42a62a13da95a322@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-tickets-2004341742106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI soirée standup | Le Main spectacle d'humour à Montréal - 
+ 8 décembre @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261208T200000
+DTEND;TZID=America/Montreal:20261208T213000
+DTSTAMP:20261124T234902Z
+UID:92be33ca058beef2841a@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -le-main-spectacle-dhumour-a-montreal-8-decembre-tickets-2004342120237
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhu
+ mour-a-montreal-8-decembre-tickets-2004342120237
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:C-IMPACT/DJ DONINI/HOT HOUSE @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3474bfc9a70c255a8fd4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  0-c-impact-dj-donini-hot-house
@@ -1218,7 +1554,7 @@ BEGIN:VEVENT
 SUMMARY:Lucas Melo & Enzo Lord Mariano et Micha @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9a56bb392a39060d6015@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  0-lucas-melo-enzo-lord-mariano-et-micha
@@ -1230,7 +1566,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Jam avec Growve" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:36353fdbaa53ab4a4dfc@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/9/soire-o
  pen-jam-avec-growve
@@ -1238,10 +1574,36 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/9/soire-open-jam-avec-growve
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 9 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261209T200000
+DTEND;TZID=America/Montreal:20261209T213000
+DTSTAMP:20261124T234902Z
+UID:f5b5908749bbb3d7a2b1@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-9-tickets-1994071206658
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-9-tickets-1994071206658
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261209T200000
+DTEND;TZID=America/Montreal:20261209T213000
+DTSTAMP:20261124T234902Z
+UID:cbd63bf6a65b664ac581@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265386698
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Jingle Bass @ Le Red Room
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e87521055a4ca16e8098@mtl-events
 DESCRIPTION:Le Red Room\nhttps://www.simpletix.com/e/jingle-bass-tickets-2
  99522
@@ -1252,7 +1614,7 @@ BEGIN:VEVENT
 SUMMARY:6flamencos / Entre mis manos @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:56f7aa0cde022bcb9f77@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  1-6flamencos-entre-mis-manos
@@ -1264,7 +1626,7 @@ BEGIN:VEVENT
 SUMMARY:i cant keep up i wont @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:683630bb93cfe5b3a2d0@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  1-i-cant-keep-up-i-wont
@@ -1276,7 +1638,7 @@ SUMMARY:Pseudo Music presents: Axaven + Dustbunny + Zero Proxy @ Casa del
  Popolo
 DTSTART;TZID=America/Montreal:20261210T210000
 DTEND;TZID=America/Montreal:20261211T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f5d992bd69c12b53855f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  1-pseudo-music-presents-axaven-dustbunny
@@ -1288,7 +1650,7 @@ BEGIN:VEVENT
 SUMMARY:Afro night @ Le Belmont
 DTSTART;TZID=America/Montreal:20261210T213000
 DTEND;TZID=America/Montreal:20261211T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ea4febac47ea7e32d61f@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -1299,7 +1661,7 @@ SUMMARY:Mrktbeatz\, dtq3000 (datchatonightqueen) & Gwinestefani @ Bar Datc
  ha
 DTSTART;TZID=America/Montreal:20261210T230000
 DTEND;TZID=America/Montreal:20261211T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9cd776edbd46686c6357@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2584288
 LOCATION:Bar Datcha
@@ -1309,7 +1671,7 @@ BEGIN:VEVENT
 SUMMARY:Black Xmas @ Le Red Room
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:021c580cde3b998ff6ad@mtl-events
 DESCRIPTION:Le Red Room\nhttps://www.stagelinetickets.com/s/eventfly-2-sho
  w
@@ -1320,7 +1682,7 @@ BEGIN:VEVENT
 SUMMARY:Noise for Society Night 1 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261211T200000
 DTEND;TZID=America/Montreal:20261211T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f72cb622dde0368b6869@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  2-noise-for-society-night-1
@@ -1332,7 +1694,7 @@ BEGIN:VEVENT
 SUMMARY:Seelonce + Radio Patente @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261211T200000
 DTEND;TZID=America/Montreal:20261211T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1cf89707b14c418bdfe6@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/11/seelon
  ce--radio-patente
@@ -1343,7 +1705,7 @@ BEGIN:VEVENT
 SUMMARY:Sauf les drones @ ce qui nous traverse @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261211T203000
 DTEND;TZID=America/Montreal:20261211T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f51da97f066e4bd8b794@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  2-sauf-les-drones-ce-qui-nous-traverse
@@ -1355,7 +1717,7 @@ BEGIN:VEVENT
 SUMMARY:Blue Skies Turn Black présente: LILY SEABIRD @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261211T203000
 DTEND;TZID=America/Montreal:20261211T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c92565bfa82134693121@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  2-blue-skies-turn-black-presente-lily-seabird
@@ -1367,17 +1729,27 @@ BEGIN:VEVENT
 SUMMARY:Datcha Nonstop: x3butterfly\, Fieldnote\, Karuna @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261211T230000
 DTEND;TZID=America/Montreal:20261212T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b7809b6509b9f39c1a1e@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2584289
 LOCATION:Bar Datcha
 URL:https://ra.co/events/2584289
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MESTO @ Newspeak
+DTSTART;TZID=America/Montreal:20261211T230000
+DTEND;TZID=America/Montreal:20261212T040000
+DTSTAMP:20261124T234902Z
+UID:4b4955bb2bc31ffe84b0@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/mesto-tickets-1MFDSN
+LOCATION:Newspeak
+URL:https://www.universe.com/events/mesto-tickets-1MFDSN
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Honey Dijon - Lost Heroes @ Stereo
 DTSTART;TZID=America/Montreal:20261211T235900
 DTEND;TZID=America/Montreal:20261212T080000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8c5e6904d31599977869@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589186
 LOCATION:Stereo
@@ -1387,7 +1759,7 @@ BEGIN:VEVENT
 SUMMARY:Midnight Mass @ Le Red Room
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:211fe4402106f3c74585@mtl-events
 DESCRIPTION:Le Red Room\nhttps://www.simpletix.com/e/midnight-mass-tickets
  -301753?fbclid=IwY2xjawVoFLxleHRuA2FlbQIxMABwZG9mBWJyaWQRMThGTUlYR3hXQmlXR
@@ -1403,7 +1775,7 @@ BEGIN:VEVENT
 SUMMARY:9Mania @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261212T180000
 DTEND;TZID=America/Montreal:20261212T210000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:88bf8e9976ae7f927547@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  2-9mania
@@ -1415,7 +1787,7 @@ SUMMARY:Hammer Drop + Criminal Mind + Skullgate + Reality Denied @ Turbo H
  aüs
 DTSTART;TZID=America/Montreal:20261212T190000
 DTEND;TZID=America/Montreal:20261212T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:bcac725096a96b4da509@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/12/hammer
  -drop--criminal-mind--skullgate--reality-denied
@@ -1427,7 +1799,7 @@ BEGIN:VEVENT
 SUMMARY:Noise for Society Night 2 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261212T200000
 DTEND;TZID=America/Montreal:20261212T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:32c9ccb528827966b818@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  3-noise-for-society-night-2
@@ -1439,7 +1811,7 @@ BEGIN:VEVENT
 SUMMARY:John of Sound Album Release Party @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261212T200000
 DTEND;TZID=America/Montreal:20261212T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:857682375b61680ace72@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  3-1h-john-papadimitriou-johnpapadimitriou57-gmail-com
@@ -1451,7 +1823,7 @@ BEGIN:VEVENT
 SUMMARY:Francbâtards @ Montréal Casa Del Popolo @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261212T200000
 DTEND;TZID=America/Montreal:20261212T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:43063c5016871ffb5a91@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  3-francbatards-montreal-casa-del-popolo
@@ -1460,10 +1832,36 @@ URL:https://casadelpopolo.com/en/events/2026-12-13-francbatards-montreal-c
  asa-del-popolo
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal - 12 
+ décembre @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261212T200000
+DTEND;TZID=America/Montreal:20261212T213000
+DTSTAMP:20261124T234902Z
+UID:59478af2f4bb2c31b007@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/samedi-hochelagag-co
+ medie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868
+LOCATION:Davidson Taverne
+URL:https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumou
+ r-a-montreal-12-decembre-tickets-2004569677868
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal @ Lau
+ gh It Off
+DTSTART;TZID=America/Montreal:20261212T200000
+DTEND;TZID=America/Montreal:20261212T213000
+DTSTAMP:20261124T234902Z
+UID:902c2e41984b896c7789@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/samedi-hochelagag-co
+ medie-spectacle-dhumour-a-montreal-tickets-2004849902026
+LOCATION:Davidson Taverne
+URL:https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumou
+ r-a-montreal-tickets-2004849902026
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Avicii Tribute Night @ Le Belmont
 DTSTART;TZID=America/Montreal:20261212T210000
 DTEND;TZID=America/Montreal:20261213T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4b23300784cf8cbb09eb@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -1473,17 +1871,28 @@ BEGIN:VEVENT
 SUMMARY:Joe Claussell\, Jojoflores @ Salon Daomé
 DTSTART;TZID=America/Montreal:20261212T220000
 DTEND;TZID=America/Montreal:20261213T050000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:311bc7718b9794c5ac8b@mtl-events
 DESCRIPTION:Salon Daomé\nhttps://ra.co/events/2584043
 LOCATION:Salon Daomé
 URL:https://ra.co/events/2584043
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Conrad Taylor @ Newspeak
+DTSTART;TZID=America/Montreal:20261212T220000
+DTEND;TZID=America/Montreal:20261213T030000
+DTSTAMP:20261124T234902Z
+UID:21697f7997600ba0aec3@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/conrad-taylor-ticket
+ s-9Y6H0D
+LOCATION:Newspeak
+URL:https://www.universe.com/events/conrad-taylor-tickets-9Y6H0D
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:NONSTOP: Jordan Gardner\, 999ADJ\, Groceries @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261212T230000
 DTEND;TZID=America/Montreal:20261213T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:38a6a7de347c93aab497@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2584291
 LOCATION:Bar Datcha
@@ -1493,18 +1902,29 @@ BEGIN:VEVENT
 SUMMARY:Ahmed Spins - Tali Rose @ Stereo
 DTSTART;TZID=America/Montreal:20261212T235900
 DTEND;TZID=America/Montreal:20261213T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:47b3cda5c132f6cc0925@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589192
 LOCATION:Stereo
 URL:https://ra.co/events/2589192
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ceramic picture frame @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261213T120000
+DTEND;TZID=America/Montreal:20261213T140000
+DTSTAMP:20261124T234902Z
+UID:1ac5db9aeaa2b8682f67@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/36q3zngt
+LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
+  3K5\, Canada
+URL:https://luma.com/36q3zngt
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Amnesty International Punk Write-a-Thon (feat. You Enemy\, Dirty M
  ilk\, Sara Elbourne) @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261213T130000
 DTEND;TZID=America/Montreal:20261213T160000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:491ce669b0fbf5415ec0@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/13/amnest
  y-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne
@@ -1513,10 +1933,20 @@ URL:https://turbohaus.ca/calendrier/2026/12/13/amnesty-international-punk-
  write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MTL Holiday Cookie Swap @ MTL Cookbook Club
+DTSTART;TZID=America/Montreal:20261213T140000
+DTEND;TZID=America/Montreal:20261213T160000
+DTSTAMP:20261124T234902Z
+UID:9b75dedf814cad950dd1@mtl-events
+DESCRIPTION:MTL Cookbook Club\nhttps://luma.com/eimb8vme
+LOCATION:Montréal
+URL:https://luma.com/eimb8vme
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SPURS @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261213T190000
 DTEND;TZID=America/Montreal:20261213T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:cec5f25aa59d7fbbab0f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  4-spurs
@@ -1528,7 +1958,7 @@ SUMMARY:Sunniva • Drivesafe • Pompey - An evening of independent music
   @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261213T193000
 DTEND;TZID=America/Montreal:20261213T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:140f5234b1d214460a86@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  4-sunniva-drivesafe-pompey-an-evening-of-independent-music
@@ -1541,7 +1971,7 @@ SUMMARY:SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN @ Casa del Popo
  lo
 DTSTART;TZID=America/Montreal:20261213T200000
 DTEND;TZID=America/Montreal:20261213T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:aa154f4d4844adeaa144@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  4-some-became-hollow-tubes-numonia-burn-it-down
@@ -1554,7 +1984,7 @@ SUMMARY:REEL GAY: Glee with Mary Fagdalene & Chiquita Mére @ Casa del Pop
  olo
 DTSTART;TZID=America/Montreal:20261213T200000
 DTEND;TZID=America/Montreal:20261213T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:caac6764dd373e5c408b@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  4-reel-gay-glee-with-mary-fagdalene-chiquita-mere
@@ -1566,7 +1996,7 @@ BEGIN:VEVENT
 SUMMARY:THE BACKSTAGE @ Turbo Haüs
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c2e975a2964ca1db70fb@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/14/the-ba
  ckstage
@@ -1578,7 +2008,7 @@ SUMMARY:LECTURE ET LEVÉE DE FONDS - COCO\, de Nathalie Doummar @ Casa del
   Popolo
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b5b2f4849abf8a2990c2@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  5-lecture-et-levee-de-fonds-coco-de-nathalie-doummar
@@ -1591,7 +2021,7 @@ SUMMARY:Similar Senses\, Bubblegum Flavour\, and Amitiés Incorporées @ C
  asa del Popolo
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:83893799bbf1b9e34bd1@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  5-similar-senses-bubblegum-flavour-and-amities-incorporees
@@ -1603,7 +2033,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Haüs" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261215T190000
 DTEND;TZID=America/Montreal:20261215T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:442279aabd471717b7ab@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/15/soire-
  open-has
@@ -1611,10 +2041,36 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/15/soire-open-has
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261215T200000
+DTEND;TZID=America/Montreal:20261215T213000
+DTSTAMP:20261124T234902Z
+UID:f91def58dfb250b4522e@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004035834127
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Dece
+ mber 15 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261215T200000
+DTEND;TZID=America/Montreal:20261215T213000
+DTSTAMP:20261124T234902Z
+UID:c9281618f14f0aa46f21@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-december-15-tickets-2004342090147
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-december-15-tickets-2004342090147
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Himbo Boobini + Vraiment Désolé + Golems @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261215T210000
 DTEND;TZID=America/Montreal:20261216T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:106fd7e3b8b4e07e3def@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  6-himbo-boobini-vraiment-desole
@@ -1626,7 +2082,7 @@ BEGIN:VEVENT
 SUMMARY:PHLIP - Première mondiale @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:438f67f0203ba60f0bc1@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-1
  4-bravo-music
@@ -1638,7 +2094,7 @@ SUMMARY:Blue Skies Turn Black présente: JORDAN HART + EMILY SCHULTZ @ Cas
  a del Popolo
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a9dbfffabcc4b4aaf019@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  7-blue-skies-turn-black-presente-jordan-hart
@@ -1650,7 +2106,7 @@ BEGIN:VEVENT
 SUMMARY:Soirée "Open Jam avec Growve" @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6f57b427c4b4e94d0f37@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/16/soire-
  open-jam-avec-growve
@@ -1658,10 +2114,36 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/16/soire-open-jam-avec-growve
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Spectacle d’humour MERCREDI à Montréal | Open mic à Griffinto
+ wn - 16 déc. @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261216T200000
+DTEND;TZID=America/Montreal:20261216T220000
+DTSTAMP:20261124T234902Z
+UID:31c3341b9906bd0222ad@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-me
+ rcredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open
+ -mic-a-griffintown-16-dec-tickets-2003490982461
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour MERCREDI à Montréal | Open mic à Griffinto
+ wn @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261216T200000
+DTEND;TZID=America/Montreal:20261216T213000
+DTSTAMP:20261124T234902Z
+UID:99ccdfca1ab9f6c11046@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-me
+ rcredi-a-montreal-open-mic-a-griffintown-tickets-2004622056534
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open
+ -mic-a-griffintown-tickets-2004622056534
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BIGDAWGFEST @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261216T203000
 DTEND;TZID=America/Montreal:20261216T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a79d29d41361e3602cb9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  7-bigdawgfest
@@ -1669,10 +2151,21 @@ LOCATION:La Sotterenea
 URL:https://casadelpopolo.com/en/events/2026-12-17-bigdawgfest
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lynnic & ItsArius @ Newspeak
+DTSTART;TZID=America/Montreal:20261216T203000
+DTEND;TZID=America/Montreal:20261216T233000
+DTSTAMP:20261124T234902Z
+UID:9edbafafa89de6db1c62@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/itsarius-lynnic-tick
+ ets-V825HJ
+LOCATION:Newspeak
+URL:https://www.universe.com/events/itsarius-lynnic-tickets-V825HJ
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:V I IV le vent II @ Le Red Room
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8e961be18c2c6a2a4b63@mtl-events
 DESCRIPTION:Le Red Room\nhttps://lineup-event.com/fr/event/v-i-iv-le-vent-
  ii
@@ -1683,7 +2176,7 @@ BEGIN:VEVENT
 SUMMARY:Cabaret syndical des Wobs du communautaire de Mtl @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261217T190000
 DTEND;TZID=America/Montreal:20261217T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b11f6a378b424ac6af0d@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/17/cabare
  t-syndical-des-wobs-du-communautaire-de-mtl
@@ -1696,7 +2189,7 @@ SUMMARY:X + Hayley Bleho + Steora (formally Paradise Sprites) @ Casa del P
  opolo
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c02d7b071757167e28d9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  8-x-hayley-bleho-steora-formally-paradise-sprites
@@ -1708,7 +2201,7 @@ BEGIN:VEVENT
 SUMMARY:Joel Betts with Lauryn Macfarlane @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1a1a924c4e4659ac73e3@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  8-joel-betts-live
@@ -1719,7 +2212,7 @@ BEGIN:VEVENT
 SUMMARY:Road to Northern Invasion 2027 – Mtl @ Le Red Room
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f5d0f5d5ea32b69f4951@mtl-events
 DESCRIPTION:Le Red Room\nhttps://lepointdevente.com/billets/rtni27-mtl
 LOCATION:Le Red Room
@@ -1729,7 +2222,7 @@ BEGIN:VEVENT
 SUMMARY:SPURSs @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T190000
 DTEND;TZID=America/Montreal:20261218T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8b3f2682076255f5964a@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-spurss
@@ -1740,7 +2233,7 @@ BEGIN:VEVENT
 SUMMARY:Raquel and friends - a stand-up comedy show @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T193000
 DTEND;TZID=America/Montreal:20261218T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4599be07fdff86d6786f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-raquel-and-friends-a-stand-up-comedy-show
@@ -1752,7 +2245,7 @@ BEGIN:VEVENT
 SUMMARY:Good Question: A Christmas Party @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T193000
 DTEND;TZID=America/Montreal:20261218T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:02e46d9ae4909ebff0f9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-good-question-a-christmas-party
@@ -1764,7 +2257,7 @@ BEGIN:VEVENT
 SUMMARY:Matt Large presents: Ashley MacIsaac @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T200000
 DTEND;TZID=America/Montreal:20261218T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:67ad4699f1b359e21826@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-matt-large-presents-ashley-macisaac
@@ -1776,7 +2269,7 @@ BEGIN:VEVENT
 SUMMARY:Montalbán + Caro. D + Norm Dionne @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:506b4d73a4e2c1ffb292@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-montalban
@@ -1787,7 +2280,7 @@ BEGIN:VEVENT
 SUMMARY:Hear 2 move @ SAT
 DTSTART;TZID=America/Montreal:20261218T220000
 DTEND;TZID=America/Montreal:20261219T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7559ff33804de0080312@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/hear-2-move
 LOCATION:SAT – SAT Space
@@ -1797,7 +2290,7 @@ BEGIN:VEVENT
 SUMMARY:Hicky & Kalo (All Night Long) @ Stereo
 DTSTART;TZID=America/Montreal:20261218T235900
 DTEND;TZID=America/Montreal:20261219T080000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1faff4d86af60cc35bc8@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589194
 LOCATION:Stereo
@@ -1807,7 +2300,7 @@ BEGIN:VEVENT
 SUMMARY:CANICULE TROPICALE @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261219T100000
 DTEND;TZID=America/Montreal:20261219T130000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:bc8e3d394915cba422c0@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  9-canicule-tropicale
@@ -1818,7 +2311,7 @@ BEGIN:VEVENT
 SUMMARY:Souper Stompin' Sing Along avec Lake of Stew @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261219T190000
 DTEND;TZID=America/Montreal:20261219T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2f70483eb2dd0a297e8c@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  0-souper-stumping-sing-along-avec-lake-of-stew
@@ -1830,7 +2323,7 @@ BEGIN:VEVENT
 SUMMARY:SEAVER + SHE CAME TO QUIT + MORT D'HOMME @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261219T203000
 DTEND;TZID=America/Montreal:20261219T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4ce5e84e2bc3500a045a@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  0-seaver-she-came-to-quit-mort-d-homme
@@ -1842,7 +2335,7 @@ BEGIN:VEVENT
 SUMMARY:AFROTONIK DANCE PARTY @ SAT
 DTSTART;TZID=America/Montreal:20261219T230000
 DTEND;TZID=America/Montreal:20261220T020000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:33fadc314247364d1281@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/afrotonik-dance-party-12-2026
 LOCATION:SAT – SAT Space
@@ -1853,7 +2346,7 @@ SUMMARY:NONSTOP Piano Bisengo: San Farafina & Pierre Kwenders\, Dez @ Bar
  Datcha
 DTSTART;TZID=America/Montreal:20261219T230000
 DTEND;TZID=America/Montreal:20261220T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1742d81a774293cb9b0a@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2591884
 LOCATION:Bar Datcha
@@ -1863,17 +2356,27 @@ BEGIN:VEVENT
 SUMMARY:Resist: Abel (All Night Long) @ Stereo
 DTSTART;TZID=America/Montreal:20261219T235900
 DTEND;TZID=America/Montreal:20261220T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b7fc6ac05a8e16756e22@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589195
 LOCATION:Stereo
 URL:https://ra.co/events/2589195
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Vision board 2027 @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261220T180000
+DTEND;TZID=America/Montreal:20261220T200000
+DTSTAMP:20261124T234902Z
+UID:ece5c438a1b74f820854@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/drbw07zz
+LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
+URL:https://luma.com/drbw07zz
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Very Lensky Christmas @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261220T190000
 DTEND;TZID=America/Montreal:20261220T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c2a4e18a0a4c5d0087b5@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  1-a-very-lensky-christmas
@@ -1884,7 +2387,7 @@ BEGIN:VEVENT
 SUMMARY:Clayborne + Jetsam + Power Drop @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261220T193000
 DTEND;TZID=America/Montreal:20261220T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3b961bd5ade671e4a4c6@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/20/claybo
  rne--jetsam--power-drop
@@ -1896,7 +2399,7 @@ BEGIN:VEVENT
 SUMMARY:THE BACKSTAGE @ Turbo Haüs
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:85e645c7ef78ce27117e@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/21/the-ba
  ckstage
@@ -1907,7 +2410,7 @@ BEGIN:VEVENT
 SUMMARY:LE QUIZ DES SIMPSONS @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261222T193000
 DTEND;TZID=America/Montreal:20261222T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b0874798692b6e830cf3@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/22/le-qui
  z-des-simpsons
@@ -1918,7 +2421,7 @@ BEGIN:VEVENT
 SUMMARY:A CHRISTMAS HONKY TONK DANCE NIGHT @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261222T200000
 DTEND;TZID=America/Montreal:20261222T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:86ad7df67dbed4e810c4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  3-a-christmas-honky-tonk-dance-night
@@ -1927,11 +2430,37 @@ URL:https://casadelpopolo.com/en/events/2026-12-23-a-christmas-honky-tonk-
  dance-night
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal @
+  Laugh It Off
+DTSTART;TZID=America/Montreal:20261222T200000
+DTEND;TZID=America/Montreal:20261222T220000
+DTSTAMP:20261124T234902Z
+UID:480dbf289ddbd95bbb04@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/shake-it-off-standup
+ -comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194
+LOCATION:Savoir Faire
+URL:https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-sav
+ oir-faire-montreal-tickets-2004940228194
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal o
+ n Dec. 22 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261222T200000
+DTEND;TZID=America/Montreal:20261222T220000
+DTSTAMP:20261124T234902Z
+UID:d0fb1659cec5df711b05@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/shake-it-off-standup
+ -comedy-dancing-at-savoir-faire-montreal-on-dec-22-tickets-2004940952360
+LOCATION:Savoir Faire
+URL:https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-sav
+ oir-faire-montreal-on-dec-22-tickets-2004940952360
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Norman Nawrockis 12th annual Rad Non-Xmas Music Bash! @ Casa del P
  opolo
 DTSTART;TZID=America/Montreal:20261223T200000
 DTEND;TZID=America/Montreal:20261223T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c8b23ffcdffeb4a48c24@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  4-norman-nawrockis-12th-annual-rad-non-xmas-music-bash
@@ -1940,10 +2469,36 @@ URL:https://casadelpopolo.com/en/events/2026-12-24-norman-nawrockis-12th-a
  nnual-rad-non-xmas-music-bash
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261223T200000
+DTEND;TZID=America/Montreal:20261223T213000
+DTSTAMP:20261124T234902Z
+UID:63c7e970e9b72333665d@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2004412839761
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 23 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261223T200000
+DTEND;TZID=America/Montreal:20261223T213000
+DTSTAMP:20261124T234902Z
+UID:2b724bd16410cd25d410@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-23-tickets-2005213634961
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-23-tickets-2005213634961
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FERMÉS // CLOSED  @ Turbo Haüs
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:bf41284f097723109d20@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/24/ferms-
  -closed-
@@ -1954,7 +2509,7 @@ BEGIN:VEVENT
 SUMMARY:FERMÉS // CLOSED  @ Turbo Haüs
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:946b09c89364dd855f8d@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/25/ferms-
  -closed-
@@ -1965,7 +2520,7 @@ BEGIN:VEVENT
 SUMMARY:PLUR: BassXmas @ Le Red Room
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2d5c6bf1205648bf0bd6@mtl-events
 DESCRIPTION:Le Red Room\nhttps://lepointdevente.com/billets/0s7261226001
 LOCATION:Le Red Room
@@ -1975,7 +2530,7 @@ BEGIN:VEVENT
 SUMMARY:Stereo x Analog Volts: Anthea - Oshana - Taimur @ Stereo
 DTSTART;TZID=America/Montreal:20261226T235900
 DTEND;TZID=America/Montreal:20261227T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2f987eb80e13459fb185@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589197
 LOCATION:Stereo
@@ -1985,7 +2540,7 @@ BEGIN:VEVENT
 SUMMARY:Le Réveillon du P'tit Gros Bison @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261227T200000
 DTEND;TZID=America/Montreal:20261227T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d3a5282495039eb34235@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-2
  8-le-reveillon-du-p-tit-gros-bison
@@ -1994,10 +2549,36 @@ URL:https://casadelpopolo.com/en/events/2026-12-28-le-reveillon-du-p-tit-g
  ros-bison
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal @ Laugh
+  It Off
+DTSTART;TZID=America/Montreal:20261228T200000
+DTEND;TZID=America/Montreal:20261228T220000
+DTSTAMP:20261124T234902Z
+UID:13471164f7f464e551af@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-tickets-2004273653451
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-tickets-2004273653451
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on Dece
+ mber 28 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261228T200000
+DTEND;TZID=America/Montreal:20261228T213000
+DTSTAMP:20261124T234902Z
+UID:936727b13ca66b4f3632@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-on-december-28-tickets-2004273723661
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-on-december-28-tickets-2004273723661
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:These Guys + Black Moon + The Enemy is a Computer @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261230T190000
 DTEND;TZID=America/Montreal:20261230T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8b577cf651403575233c@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/30/these-
  guys--black-moon--the-enemy-is-a-computer
@@ -2006,10 +2587,36 @@ URL:https://turbohaus.ca/calendrier/2026/12/30/these-guys--black-moon--the
  -enemy-is-a-computer
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261230T200000
+DTEND;TZID=America/Montreal:20261230T213000
+DTSTAMP:20261124T234902Z
+UID:bc37432de95e6efbd4d0@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2005213600859
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Year's Eve (Eve) Comedy Show at Lord William Pub - December 30
+  @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261230T200000
+DTEND;TZID=America/Montreal:20261230T213000
+DTSTAMP:20261124T234902Z
+UID:f0a40a22d4ee67f2eaf0@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/new-years-eve-eve-co
+ medy-show-at-lord-william-pub-december-30-tickets-2005213638973
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/new-years-eve-eve-comedy-show-at-lord-will
+ iam-pub-december-30-tickets-2005213638973
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SAT NYE 2026 (ALL NIGHT) @ SAT
 DTSTART;TZID=America/Montreal:20261231T220000
 DTEND;TZID=America/Montreal:20270101T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:db91905f6798fbfadf93@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/sat-nye-2026
 LOCATION:SAT – Other
@@ -2020,17 +2627,29 @@ SUMMARY:RESO NONSTOP NYE: Tali Rose\, Duza\, Back5pin\, Colmee b2b DUROCHE
  R @ Bar Datcha
 DTSTART;TZID=America/Montreal:20261231T220000
 DTEND;TZID=America/Montreal:20270101T060000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:821231da9ec005f7dd05@mtl-events
 DESCRIPTION:Bar Datcha\nhttps://ra.co/events/2590274
 LOCATION:Bar Datcha
 URL:https://ra.co/events/2590274
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Discorinho Extravaganza (Nouvel An) @ Newspeak
+DTSTART;TZID=America/Montreal:20261231T220000
+DTEND;TZID=America/Montreal:20270101T030000
+DTSTAMP:20261124T234902Z
+UID:b5bc74e9dbf201dc8330@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/discorinho-extravaga
+ nza-nouvel-an-tickets-WBVQJG
+LOCATION:Newspeak
+URL:https://www.universe.com/events/discorinho-extravaganza-nouvel-an-tick
+ ets-WBVQJG
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:NYE: John Digweed - Simply City @ Stereo
 DTSTART;TZID=America/Montreal:20270101T010000
 DTEND;TZID=America/Montreal:20270101T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:15c75f4f039af3a240e0@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589203
 LOCATION:Stereo
@@ -2040,17 +2659,69 @@ BEGIN:VEVENT
 SUMMARY:Day 1: Chus & Ceballos (All Night Long) @ Stereo
 DTSTART;TZID=America/Montreal:20270101T235900
 DTEND;TZID=America/Montreal:20270102T090000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9191dc34a3c783a8fa9a@mtl-events
 DESCRIPTION:Stereo\nhttps://ra.co/events/2589207
 LOCATION:Stereo
 URL:https://ra.co/events/2589207
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
+ ntreal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270103T193000
+DTEND;TZID=America/Montreal:20270103T213000
+DTSTAMP:20261124T234902Z
+UID:e5d2d6e4fcec398c2d3a@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-
+ up-comedy-show-in-montreal-tickets-2004632871883
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - 
+ January 3 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270103T193000
+DTEND;TZID=America/Montreal:20270103T213000
+DTSTAMP:20261124T234902Z
+UID:e8bd51e8bc66033dc7eb@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-comedy-show-in-montreal-january-3-tickets-2004633631154
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy
+ -show-in-montreal-january-3-tickets-2004633631154
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
+ augh It Off
+DTSTART;TZID=America/Montreal:20270104T200000
+DTEND;TZID=America/Montreal:20270104T213000
+DTSTAMP:20261124T234902Z
+UID:ee98d2b8f385411032e8@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-tickets-2005095870725
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy\, J
+ anuary 4 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270104T200000
+DTEND;TZID=America/Montreal:20270104T213000
+DTSTAMP:20261124T234902Z
+UID:5b9802a49eaced329602@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-january-4-tickets-2005095919872
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-january-4-tickets-2005095919872
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ryosuke Kiyasu [performance solo au snare drum] @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270105T200000
 DTEND;TZID=America/Montreal:20270105T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9ab06919cb9c24eaa641@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-0
  6-ryosuke-kiyasu-performance-solo-au-snare-drum
@@ -2059,10 +2730,36 @@ URL:https://casadelpopolo.com/en/events/2027-01-06-ryosuke-kiyasu-performa
  nce-solo-au-snare-drum
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270106T200000
+DTEND;TZID=America/Montreal:20270106T213000
+DTSTAMP:20261124T234902Z
+UID:b3fbe621a4d7acdba804@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265390710
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Janu
+ ary 6 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270106T200000
+DTEND;TZID=America/Montreal:20270106T213000
+DTSTAMP:20261124T234902Z
+UID:90c87e9edcca2c6df514@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-january-6-tickets-2005213640979
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-january-6-tickets-2005213640979
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bass Cathedral 2027 @ Le Belmont
 DTSTART;TZID=America/Montreal:20270108T210000
 DTEND;TZID=America/Montreal:20270109T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:0558e78232e5f00e1732@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -2072,7 +2769,7 @@ BEGIN:VEVENT
 SUMMARY:Bass Cathedral 2027 @ Le Belmont
 DTSTART;TZID=America/Montreal:20270109T210000
 DTEND;TZID=America/Montreal:20270110T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:15d7566aa682a05369d4@mtl-events
 DESCRIPTION:Le Belmont\nhttps://www.lebelmont.ca/evenements
 LOCATION:Le Belmont
@@ -2082,7 +2779,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270109T220000
 DTEND;TZID=America/Montreal:20270110T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ab98dbdb9c25181f20a9@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2093,7 +2790,7 @@ SUMMARY:Dômesicle x Chez.Kito.Kat Records   — Nene H • Safia Nihil
  • Vivian Li (live) @ SAT
 DTSTART;TZID=America/Montreal:20270109T220000
 DTEND;TZID=America/Montreal:20270110T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:dabdbe8ec93bb8da4172@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-chez-kito-kat-rec
  ords-winter-2027
@@ -2105,7 +2802,7 @@ BEGIN:VEVENT
 SUMMARY:Keenan Trevon: Flowers After Dark Tour @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270110T200000
 DTEND;TZID=America/Montreal:20270110T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:0c9c8c423e318dc4b937@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-11-0
  6-keenan-trevon-make-it-make-sense-tour
@@ -2114,10 +2811,36 @@ URL:https://casadelpopolo.com/en/events/2026-11-06-keenan-trevon-make-it-m
  ake-sense-tour
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270112T200000
+DTEND;TZID=America/Montreal:20270112T213000
+DTSTAMP:20261124T234902Z
+UID:7758de034d6085642911@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-tickets-2004341752136
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI soirée standup | Le Main spectacle d'humour à Montréal - 
+ 12 janvier @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270112T200000
+DTEND;TZID=America/Montreal:20270112T213000
+DTSTAMP:20261124T234902Z
+UID:8c63189b659e476f4ab9@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -le-main-spectacle-dhumour-a-montreal-12-janvier-tickets-2004694210348
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhu
+ mour-a-montreal-12-janvier-tickets-2004694210348
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hirzer/Valdepeñas\, Sara Rossy @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270113T200000
 DTEND;TZID=America/Montreal:20270113T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:454a6312f4d864c6ff8f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-1
  4-hirzer-valdepenas-sara-rossy
@@ -2126,10 +2849,23 @@ URL:https://casadelpopolo.com/en/events/2027-01-14-hirzer-valdepenas-sara-
  rossy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270113T200000
+DTEND;TZID=America/Montreal:20270113T213000
+DTSTAMP:20261124T234902Z
+UID:eff52acd9e17801286cf@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265391713
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vino Disco Fridays: House Montreal @ Vino Disco
 DTSTART;TZID=America/Montreal:20270115T200000
 DTEND;TZID=America/Montreal:20270116T030000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:12240ef1d511365eddfd@mtl-events
 DESCRIPTION:Vino Disco\nhttps://ra.co/events/2578287
 LOCATION:Vino Disco
@@ -2139,7 +2875,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270116T220000
 DTEND;TZID=America/Montreal:20270117T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3f6a03b478c871be2c57@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2149,7 +2885,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle x Homegrown Harvest — Ciel • Lia Plutonic @ SAT
 DTSTART;TZID=America/Montreal:20270116T220000
 DTEND;TZID=America/Montreal:20270117T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:05d8ef57aaf90f9d5fa1@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-homegrown-harvest
  -winter-2027
@@ -2161,7 +2897,7 @@ SUMMARY:H ii Regions + ⛈🛰⛈ (weather Satellite) + Lily Finnegan ( dr
  ums ) + Sam Shalabi ( guitar ) @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270117T200000
 DTEND;TZID=America/Montreal:20270117T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b16a1991216544ea7c52@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-1
  8-h-ii-regions-weather-satellite-lily-finnegan-drums-sam-shalabi-guitar
@@ -2173,7 +2909,7 @@ BEGIN:VEVENT
 SUMMARY:good shows presents: @ avec Wendy Eisenberg @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270118T193000
 DTEND;TZID=America/Montreal:20270118T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c60fb7349d5343b55db8@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-1
  9-good-shows-presents-avec-invitees-speciaux
@@ -2182,10 +2918,49 @@ URL:https://casadelpopolo.com/en/events/2027-01-19-good-shows-presents-ave
  c-invitees-speciaux
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270119T200000
+DTEND;TZID=America/Montreal:20270119T220000
+DTSTAMP:20261124T234902Z
+UID:28e44a8c31db9e275a36@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004692060919
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Janu
+ ary 19 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270119T200000
+DTEND;TZID=America/Montreal:20270119T213000
+DTSTAMP:20261124T234902Z
+UID:8e3be12daec1d66fbf7f@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-january-19-tickets-2004692451086
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-january-19-tickets-2004692451086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270120T200000
+DTEND;TZID=America/Montreal:20270120T213000
+DTSTAMP:20261124T234902Z
+UID:f4a087bb84c1cf832abc@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265392716
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ratpiss + Neverless.am + Eden Will Burn + Angel Spit @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20270122T200000
 DTEND;TZID=America/Montreal:20270122T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8c85558f3b02fb04981b@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2027/1/22/ratpiss
  --neverlessam--eden-will-burn--angel-spit
@@ -2197,7 +2972,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270123T220000
 DTEND;TZID=America/Montreal:20270124T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a0d982c499c7bafc9a50@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2208,7 +2983,7 @@ SUMMARY:Dômesicle x Format x OCTOV — Measure Divide • KORVN • Esthe
  r Côté @ SAT
 DTSTART;TZID=America/Montreal:20270123T220000
 DTEND;TZID=America/Montreal:20270124T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1d9835f7d197a9df70b7@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-format-x-octov-wi
  nter-2027
@@ -2216,10 +2991,42 @@ LOCATION:SAT – Satosphere
 URL:https://sat.qc.ca/en/events/domesicle-x-format-x-octov-winter-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ZORZA's internet niche fame Tour @ Newspeak
+DTSTART;TZID=America/Montreal:20270123T220000
+DTEND;TZID=America/Montreal:20270124T030000
+DTSTAMP:20261124T234902Z
+UID:349babdedac44681ae37@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/zorza-tickets-42C0FX
+LOCATION:Newspeak
+URL:https://www.universe.com/events/zorza-tickets-42C0FX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KatzPascale @ Newspeak
+DTSTART;TZID=America/Montreal:20270125T190000
+DTEND;TZID=America/Montreal:20270125T223000
+DTSTAMP:20261124T234902Z
+UID:70374021290b46407efb@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/katzpascale-tickets-
+ Z5SK29
+LOCATION:Newspeak
+URL:https://www.universe.com/events/katzpascale-tickets-Z5SK29
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clarion @ Newspeak
+DTSTART;TZID=America/Montreal:20270126T190000
+DTEND;TZID=America/Montreal:20270126T220000
+DTSTAMP:20261124T234902Z
+UID:893b09dca49c77c58fea@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/clarion-tickets-PG6Q
+ TL
+LOCATION:Newspeak
+URL:https://www.universe.com/events/clarion-tickets-PG6QTL
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Woody à la Casa Del Popolo @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270128T200000
 DTEND;TZID=America/Montreal:20270128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f5e827d5e9d0660905c4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-2
  9-woody-a-la-casa-del-popolo
@@ -2231,7 +3038,7 @@ BEGIN:VEVENT
 SUMMARY:Hayden + Invité(e)s @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270128T200000
 DTEND;TZID=America/Montreal:20270128T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1ba5c52e3d1b269a8d99@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-2
  9-hayden-invite-e-s
@@ -2242,7 +3049,7 @@ BEGIN:VEVENT
 SUMMARY:Proleter w/ Special Guests @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270129T200000
 DTEND;TZID=America/Montreal:20270129T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:4ea5949212ffc3a1bf17@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-3
  0-proleter-w-special-guests
@@ -2251,10 +3058,21 @@ URL:https://casadelpopolo.com/en/events/2027-01-30-proleter-w-special-gues
  ts
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:DJ SWISHA @ Newspeak
+DTSTART;TZID=America/Montreal:20270129T220000
+DTEND;TZID=America/Montreal:20270130T030000
+DTSTAMP:20261124T234902Z
+UID:23f254cbe34a39213d47@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/dj-swisha-tickets-KN
+ YQ4S
+LOCATION:Newspeak
+URL:https://www.universe.com/events/dj-swisha-tickets-KNYQ4S
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Klangkarussell Live: Americas 2027 Tour @ SAT
 DTSTART;TZID=America/Montreal:20270130T190000
 DTEND;TZID=America/Montreal:20270130T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:c1a0c8bf312259ff07d6@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/klangkarussell-2027
 LOCATION:SAT – SAT Space
@@ -2264,7 +3082,7 @@ BEGIN:VEVENT
 SUMMARY:Tom Gershwin Quartet @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270130T203000
 DTEND;TZID=America/Montreal:20270130T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b43637a0781a4d71ccde@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-01-3
  1-tom-gershwin-quartet
@@ -2275,7 +3093,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270130T220000
 DTEND;TZID=America/Montreal:20270131T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ed83ac692804171da0e2@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2285,7 +3103,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle x GLOSS — Frankie Teardrop • ZDBT • Syd Woz @ SAT
 DTSTART;TZID=America/Montreal:20270130T220000
 DTEND;TZID=America/Montreal:20270131T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:6e8d611ccb3c3543eb26@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-gloss-winter-2027
 LOCATION:SAT – Satosphere
@@ -2296,7 +3114,7 @@ SUMMARY:Blue Skies Turn Black présentent TARA CLERKIN TRIO @ Casa del Pop
  olo
 DTSTART;TZID=America/Montreal:20270202T200000
 DTEND;TZID=America/Montreal:20270202T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1ef1c413813026ff59b4@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-02-0
  3-blue-skies-turn-black-presentent-tara-clerkin-trio
@@ -2308,7 +3126,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270206T220000
 DTEND;TZID=America/Montreal:20270207T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d0716a3605b872649510@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2318,7 +3136,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle — Jacques Greene • Cirque Cosmic @ SAT
 DTSTART;TZID=America/Montreal:20270206T220000
 DTEND;TZID=America/Montreal:20270207T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:96c617abf80883b247de@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-jacques-greene-wint
  er-2027
@@ -2326,11 +3144,21 @@ LOCATION:SAT – Satosphere
 URL:https://sat.qc.ca/en/events/domesicle-jacques-greene-winter-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HILLS @ Newspeak
+DTSTART;TZID=America/Montreal:20270206T230000
+DTEND;TZID=America/Montreal:20270207T040000
+DTSTAMP:20261124T234902Z
+UID:5af7d482324d88b38fb5@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/hills-tickets-C7R8LP
+LOCATION:Newspeak
+URL:https://www.universe.com/events/hills-tickets-C7R8LP
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Morgan Garrett avec/ Perfect Outfit & Dumb Chamber @ Casa del Popo
  lo
 DTSTART;TZID=America/Montreal:20270208T193000
 DTEND;TZID=America/Montreal:20270208T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:8ccb59c11f04c8b6c162@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-02-0
  9-morgan-garrett-avec-perfect-outfit-dumb-chamber
@@ -2342,7 +3170,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270213T220000
 DTEND;TZID=America/Montreal:20270214T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:030e0957cc891b0a2982@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2352,7 +3180,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle x Ferias — Alina b2b Guthrie @ SAT
 DTSTART;TZID=America/Montreal:20270213T220000
 DTEND;TZID=America/Montreal:20270214T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:dcfbcda00a6e525440bc@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-ferias-winter-202
  7
@@ -2360,10 +3188,21 @@ LOCATION:SAT – Satosphere
 URL:https://sat.qc.ca/en/events/domesicle-x-ferias-winter-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Romare [LIVE] @ Newspeak
+DTSTART;TZID=America/Montreal:20270220T190000
+DTEND;TZID=America/Montreal:20270220T220000
+DTSTAMP:20261124T234902Z
+UID:26d75adf4ecc52aab372@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/romare-live-tickets-
+ V3QM9Y
+LOCATION:Newspeak
+URL:https://www.universe.com/events/romare-live-tickets-V3QM9Y
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270220T220000
 DTEND;TZID=America/Montreal:20270221T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9620f6af9fb76e4de79a@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2374,7 +3213,7 @@ SUMMARY:Dômesicle x Kizi Garden — K2D3 b2b Waner • Anatohl (live) •
   Inside Blur (live) • Naïko @ SAT
 DTSTART;TZID=America/Montreal:20270220T220000
 DTEND;TZID=America/Montreal:20270221T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:f1275749600dd78190df@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-kizi-garden-winte
  r-2027
@@ -2385,7 +3224,7 @@ BEGIN:VEVENT
 SUMMARY:mokina (+ friends) Jardim Celeste Album Launch @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270225T200000
 DTEND;TZID=America/Montreal:20270225T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:59565ba94bd39db53a6a@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-02-2
  6-mokina-friends-jardim-celeste-album-launch
@@ -2397,7 +3236,7 @@ BEGIN:VEVENT
 SUMMARY:JONAH YANO @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270227T083000
 DTEND;TZID=America/Montreal:20270227T113000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:aecc7a223a367cf92833@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-02-2
  7-jonah-yano
@@ -2405,10 +3244,21 @@ LOCATION:La Sala Rossa
 URL:https://casadelpopolo.com/en/events/2027-02-27-jonah-yano
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Devault @ Newspeak
+DTSTART;TZID=America/Montreal:20270227T230000
+DTEND;TZID=America/Montreal:20270228T040000
+DTSTAMP:20261124T234902Z
+UID:482e743ab27f4f2addd3@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/devault-tickets-BZFQ
+ HV
+LOCATION:Newspeak
+URL:https://www.universe.com/events/devault-tickets-BZFQHV
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270306T220000
 DTEND;TZID=America/Montreal:20270307T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1ce632be06050a3f113f@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2418,17 +3268,28 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle x T.I.T.S. — Philippa Pacho • No Police @ SAT
 DTSTART;TZID=America/Montreal:20270306T220000
 DTEND;TZID=America/Montreal:20270307T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:0ea61a0250aef9491823@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-tits-winter-2027
 LOCATION:SAT – Satosphere
 URL:https://sat.qc.ca/en/events/domesicle-x-tits-winter-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Joshwa @ Newspeak
+DTSTART;TZID=America/Montreal:20270306T230000
+DTEND;TZID=America/Montreal:20270307T040000
+DTSTAMP:20261124T234902Z
+UID:44851965cc3298797145@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/joshwa-tickets-1B28L
+ F
+LOCATION:Newspeak
+URL:https://www.universe.com/events/joshwa-tickets-1B28LF
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MODO-LIVE presents... JOHNNIE GUILBERT @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270310T190000
 DTEND;TZID=America/Montreal:20270310T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:7de978859e6bc3ce8942@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-1
  1-modo-live-presents-johnnie-guilbert
@@ -2440,7 +3301,7 @@ BEGIN:VEVENT
 SUMMARY:LAND OF TALK x SOAK @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270312T203000
 DTEND;TZID=America/Montreal:20270312T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:12456be9c58fe148d7c9@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-1
  3-land-of-talk-x-soak
@@ -2451,7 +3312,7 @@ BEGIN:VEVENT
 SUMMARY:Pierre Kwenders @ SAT
 DTSTART;TZID=America/Montreal:20270313T190000
 DTEND;TZID=America/Montreal:20270313T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:e4ccd0ef78414986f139@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/pierre-kwenders-2026
 LOCATION:SAT – SAT Space
@@ -2461,7 +3322,7 @@ BEGIN:VEVENT
 SUMMARY:The Song that Saved my Life @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270313T193000
 DTEND;TZID=America/Montreal:20270313T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:65f44ab42f793f017cec@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-1
  4-the-song-that-saved-my-life
@@ -2473,7 +3334,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270313T220000
 DTEND;TZID=America/Montreal:20270314T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:bd9edc5068ba1bf79d89@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2484,7 +3345,7 @@ SUMMARY:Dômesicle x GABA collective — PELO b2b LEX FERENDA • LOLA SCO
  TT b3b DAMACADAM b3b BRI • NAË b2b SELECT @ SAT
 DTSTART;TZID=America/Montreal:20270313T220000
 DTEND;TZID=America/Montreal:20270314T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:595b3e87cd0075e03783@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-gaba-collective-w
  inter-2027
@@ -2496,7 +3357,7 @@ SUMMARY:Efrim Manuel Menuck and Tashi Dorji Present BLOOM AND RUIN - Night
   #1 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270317T200000
 DTEND;TZID=America/Montreal:20270317T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:2bcc04f093f4b8219100@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-1
  8-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-1
@@ -2509,7 +3370,7 @@ SUMMARY:Efrim Manuel Menuck and Tashi Dorji Present BLOOM AND RUIN - Night
   #2 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270318T200000
 DTEND;TZID=America/Montreal:20270318T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:d83970cec32c37f1f476@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-1
  9-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-2
@@ -2518,10 +3379,21 @@ URL:https://casadelpopolo.com/en/events/2027-03-19-efrim-manuel-menuck-and
  -tashi-dorji-present-bloom-and-ruin-night-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:In Parallel @ Newspeak
+DTSTART;TZID=America/Montreal:20270318T200000
+DTEND;TZID=America/Montreal:20270319T010000
+DTSTAMP:20261124T234902Z
+UID:decc95d798a1d37d97f3@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/in-parallel-tickets-
+ J5VP80
+LOCATION:Newspeak
+URL:https://www.universe.com/events/in-parallel-tickets-J5VP80
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:RYLEY WALKER @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270320T200000
 DTEND;TZID=America/Montreal:20270320T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a38c1b049d10355a4e71@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-2
  1-ryley-walker
@@ -2533,7 +3405,7 @@ SUMMARY:Blue Skies Turn Black présente: FLOWER FACE + Invité(e)s @ Casa
  del Popolo
 DTSTART;TZID=America/Montreal:20270320T203000
 DTEND;TZID=America/Montreal:20270320T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:1876d0161f5b5416fe4c@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  1-blue-skies-turn-black-presente-flower-face-invite-e-s
@@ -2545,7 +3417,7 @@ BEGIN:VEVENT
 SUMMARY:Dômesicle Winter 2027 @ SAT
 DTSTART;TZID=America/Montreal:20270320T220000
 DTEND;TZID=America/Montreal:20270321T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:a24da27304dd9143ee2d@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-winter-2027
 LOCATION:SAT – Satosphere
@@ -2556,7 +3428,7 @@ SUMMARY:Dômesicle x La Rama Records — Gene Tellem b4b Emiliano C b4b Kr
  is Guilty b4b Terrell @ SAT
 DTSTART;TZID=America/Montreal:20270320T220000
 DTEND;TZID=America/Montreal:20270321T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:3d2446d25c82d1f5a3c3@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/domesicle-x-la-rama-records-w
  inter-2027
@@ -2564,10 +3436,21 @@ LOCATION:SAT – Satosphere
 URL:https://sat.qc.ca/en/events/domesicle-x-la-rama-records-winter-2027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Angrybaby @ Newspeak
+DTSTART;TZID=America/Montreal:20270320T220000
+DTEND;TZID=America/Montreal:20270321T030000
+DTSTAMP:20261124T234902Z
+UID:b69616cb7c2fc059741e@mtl-events
+DESCRIPTION:Newspeak\nhttps://www.universe.com/events/angrybaby-tickets-L7
+ G081
+LOCATION:Newspeak
+URL:https://www.universe.com/events/angrybaby-tickets-L7G081
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Anthony Prégent @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270324T200000
 DTEND;TZID=America/Montreal:20270324T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:ab8e33e8bc38964006bb@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-2
  5-anthony-pregent
@@ -2578,7 +3461,7 @@ BEGIN:VEVENT
 SUMMARY:Jersey @ SAT
 DTSTART;TZID=America/Montreal:20270327T220000
 DTEND;TZID=America/Montreal:20270328T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:88df69b06ff379f55456@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/jersey-2026
 LOCATION:SAT – SAT Space
@@ -2588,7 +3471,7 @@ BEGIN:VEVENT
 SUMMARY:Joanne Robertson + Kool Music @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270330T200000
 DTEND;TZID=America/Montreal:20270330T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:cfb590f3f0dd8d6d8936@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-03-3
  1-joanne-robertson-kool-music
@@ -2600,7 +3483,7 @@ BEGIN:VEVENT
 SUMMARY:VLAD HOLIDAY @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270402T203000
 DTEND;TZID=America/Montreal:20270402T233000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:de65284feec867dc65d5@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-04-0
  3-vlad-holiday
@@ -2611,7 +3494,7 @@ BEGIN:VEVENT
 SUMMARY:Club SAT — Adrian Sherwood (UK) (Live) • Honeydrip @ SAT
 DTSTART;TZID=America/Montreal:20270403T220000
 DTEND;TZID=America/Montreal:20270404T010000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:9b8f220f0928ac157bda@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/club-sat-adrian-sherwood-hone
  ydrip-2027
@@ -2622,7 +3505,7 @@ BEGIN:VEVENT
 SUMMARY:Stephan Crump • solo bass @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270404T200000
 DTEND;TZID=America/Montreal:20270404T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:5f4b230f6b5576412388@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-04-0
  5-stephan-crump-solo-bass
@@ -2633,7 +3516,7 @@ BEGIN:VEVENT
 SUMMARY:Colin Léo - Léger Stress @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270408T200000
 DTEND;TZID=America/Montreal:20270408T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b674ac5e8812a63d613f@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-04-0
  9-colin-leo-leger-stress
@@ -2644,7 +3527,7 @@ BEGIN:VEVENT
 SUMMARY:Klangphonics: the ZEST tour @ SAT
 DTSTART;TZID=America/Montreal:20270430T190000
 DTEND;TZID=America/Montreal:20270430T220000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:675288d4b7afccd8d83c@mtl-events
 DESCRIPTION:SAT\nhttps://sat.qc.ca/en/events/klangphonics-the-zest-tour-20
  26
@@ -2655,7 +3538,7 @@ BEGIN:VEVENT
 SUMMARY:Via Castello East Canada Tour @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270430T193000
 DTEND;TZID=America/Montreal:20270430T223000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:b732fde6bbc9f021cd28@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-04-3
  0-via-castello-east-canada-tour
@@ -2667,7 +3550,7 @@ BEGIN:VEVENT
 SUMMARY:Hudson Freeman @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20270520T200000
 DTEND;TZID=America/Montreal:20270520T230000
-DTSTAMP:20261124T222845Z
+DTSTAMP:20261124T234902Z
 UID:cc1c0931b20cb78dd31d@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2027-05-2
  1-hudson-freeman

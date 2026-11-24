@@ -21,6 +21,10 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 | Salon Daomé | Resident Advisor venue 153067 (ra.co/clubs/153067) |
 | Turbo Haüs | /calendrier month pages, next 3 months |
 | Le Belmont | /evenements (Wix events) |
+| MTL Cookbook Club | Luma calendar page (luma.com/mtlcookbookclub) |
+| Soft Studio Days | Luma host profile (what their /events page links to) |
+| Laugh It Off | the site's own events feed (Eventbrite shows), next 60 days only |
+| Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
 
 **Not included: Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 

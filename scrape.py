@@ -297,6 +297,79 @@ def le_belmont() -> list[Ev]:
     return out
 
 
+def _luma_ev(e: dict, source: str) -> Ev:
+    geo = e.get("geo_address_info") or {}
+    loc = geo.get("full_address") or geo.get("address") or geo.get("city") or ""
+    return Ev(source, e["name"], iso(e["start_at"]), "https://luma.com/" + e["url"],
+              iso(e["end_at"]) if e.get("end_at") else None, loc)
+
+
+def luma_calendar(page_url: str, source: str) -> list[Ev]:
+    """A Luma calendar page (luma.com/<calendar>): upcoming events from its embedded page data."""
+    s = soup(page_url)
+    data = json.loads(s.find("script", id="__NEXT_DATA__").string)
+    found = {}
+
+    def walk(o):
+        if isinstance(o, dict):
+            if "start_at" in o and "name" in o and "url" in o and "api_id" in o:
+                found[o["api_id"]] = o
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(data)
+    return [_luma_ev(e, source) for e in found.values()]
+
+
+def luma_user(user_api_id: str, source: str) -> list[Ev]:
+    """Upcoming events hosted by a Luma user profile (luma.com/user/<name>)."""
+    out, cursor = [], None
+    while True:
+        params = {"user_api_id": user_api_id, "period": "future", "pagination_limit": 50}
+        if cursor:
+            params["pagination_cursor"] = cursor
+        d = get("https://api.lu.ma/user/profile/events-hosting", params=params).json()
+        out += [_luma_ev(x["event"], source) for x in d.get("entries", [])]
+        if not d.get("has_more") or not d.get("next_cursor"):
+            return out
+        cursor = d["next_cursor"]
+
+
+def laugh_it_off() -> list[Ev]:
+    d = get("https://www.laughitoffmtl.ca/api/events").json()
+    horizon = datetime.now(TZ) + timedelta(days=60)   # weekly shows are listed a year out; keep 2 months
+    out = []
+    for e in d.get("events", []):
+        st = iso(e["startUtc"]) if e.get("startUtc") else iso(e["start"])
+        if st > horizon:
+            continue
+        en = iso(e["endUtc"]) if e.get("endUtc") else None
+        out.append(Ev("Laugh It Off", e["name"], st, e["url"], en, e.get("venue") or ""))
+    return out
+
+
+def newspeak() -> list[Ev]:
+    """Newspeak's site links each show to Universe; Universe's listing API has the dates."""
+    html = get("https://www.newspeakmtl.com/").text
+    slugs = dict.fromkeys(re.findall(r"universe\.com/events/([a-z0-9-]+-[A-Z0-9]{6})", html))
+    out = []
+    for slug in slugs:
+        try:
+            d = get(f"https://www.universe.com/api/v2/listings/{slug}").json()
+        except requests.RequestException:
+            continue
+        lst = d.get("listing") or {}
+        for e in d.get("events", []):
+            if e.get("state") not in (None, "normal"):
+                continue
+            out.append(Ev("Newspeak", lst.get("title") or slug, iso(e["start_time"]),
+                          f"https://www.universe.com/events/{slug}",
+                          iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak"))
+    return out
+
+
 SOURCES = {
     "SAT": sat,
     "Favourite Library": favourite_library,
@@ -311,6 +384,10 @@ SOURCES = {
     "Salon Daomé": lambda: ra_events("venue", "153067", "Salon Daomé"),
     "Turbo Haüs": turbo_haus,
     "Le Belmont": le_belmont,
+    "MTL Cookbook Club": lambda: luma_calendar("https://luma.com/mtlcookbookclub", "MTL Cookbook Club"),
+    "Soft Studio Days": lambda: luma_user("usr-RktHUOe1HAU874v", "Soft Studio Days"),
+    "Laugh It Off": laugh_it_off,
+    "Newspeak": newspeak,
 }
 
 

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T17:28-05:00",
+ "generated": "2026-11-24T18:49-05:00",
  "sources": {
   "SAT": {
    "ok": true,
@@ -48,9 +48,34 @@
   "Le Belmont": {
    "ok": true,
    "count": 9
+  },
+  "MTL Cookbook Club": {
+   "ok": true,
+   "count": 1
+  },
+  "Soft Studio Days": {
+   "ok": true,
+   "count": 5
+  },
+  "Laugh It Off": {
+   "ok": true,
+   "count": 48
+  },
+  "Newspeak": {
+   "ok": true,
+   "count": 18
   }
  },
  "events": [
+  {
+   "source": "Soft Studio Days",
+   "title": "cine tricot",
+   "start": "2026-11-24T18:00:00-05:00",
+   "url": "https://luma.com/hbh85ej7",
+   "end": "2026-11-24T21:00:00-05:00",
+   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "all_day": false
+  },
   {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Haüs\"",
@@ -88,6 +113,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
+   "start": "2026-11-24T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-1996062728353",
+   "end": "2026-11-24T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal - 24 Nov.",
+   "start": "2026-11-24T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-24-nov-tickets-1996063370273",
+   "end": "2026-11-24T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
    "source": "Le Belmont",
    "title": "PALAJAM",
    "start": "2026-11-24T20:30:00-05:00",
@@ -104,6 +147,15 @@
    "end": null,
    "location": "Le Red Room",
    "all_day": true
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "Figure Drawing : The Female Form",
+   "start": "2026-11-25T18:30:00-05:00",
+   "url": "https://luma.com/jftov1fw",
+   "end": "2026-11-25T20:00:00-05:00",
+   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
+   "all_day": false
   },
   {
    "source": "5 à Set",
@@ -304,6 +356,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the Water",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019",
+   "end": "2026-11-27T22:00:00-05:00",
+   "location": "Marché des Éclusiers",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Old Port Comedy Show in Montreal | Pro Comedy Show by the Water - Nov. 27",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-pro-comedy-show-by-the-water-nov-27-tickets-2003858496706",
+   "end": "2026-11-27T21:30:00-05:00",
+   "location": "Marché des Éclusiers",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "BLUE SKIES TURN BLACK PRÉSENTE: KIWI JR.",
    "start": "2026-11-27T20:30:00-05:00",
@@ -358,6 +428,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "Paper Skies",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://www.universe.com/events/paper-skies-tickets-KZDFGX",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Salon Daomé",
    "title": "Zeina, Ostrich",
    "start": "2026-11-27T22:30:00-05:00",
@@ -383,6 +462,15 @@
    "end": null,
    "location": "Le Red Room",
    "all_day": true
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "1 year anniversary ★",
+   "start": "2026-11-28T17:30:00-05:00",
+   "url": "https://luma.com/kukqhsgv",
+   "end": "2026-11-28T20:30:00-05:00",
+   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "all_day": false
   },
   {
    "source": "SAT",
@@ -463,6 +551,15 @@
    "url": "https://www.lebelmont.ca/evenements",
    "end": "2026-11-29T03:00:00-05:00",
    "location": "Le Belmont",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Suray Sertin",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://www.universe.com/events/suray-sertin-tickets-TVCRZM",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -574,6 +671,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
+   "start": "2026-11-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-1992133979359",
+   "end": "2026-11-30T21:30:00-05:00",
+   "location": "Honey Martin",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on November 30",
+   "start": "2026-11-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-november-30-tickets-2003550340001",
+   "end": "2026-11-30T21:30:00-05:00",
+   "location": "Honey Martin",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Hooper, Ladybug, Lovelet",
    "start": "2026-11-30T20:30:00-05:00",
@@ -589,6 +704,24 @@
    "url": "https://turbohaus.ca/calendrier/2026/12/1/soire-open-has",
    "end": null,
    "location": "Turbo Haüs",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2026-12-01T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115",
+   "end": "2026-12-01T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 1",
+   "start": "2026-12-01T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-1-tickets-2004342070087",
+   "end": "2026-12-01T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
    "all_day": false
   },
   {
@@ -634,6 +767,24 @@
    "url": "https://turbohaus.ca/calendrier/2026/12/2/soire-open-jam-avec-growve",
    "end": null,
    "location": "Turbo Haüs",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 2",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-2-tickets-1994071162526",
+   "end": "2026-12-02T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695",
+   "end": "2026-12-02T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -754,6 +905,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau -",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385",
+   "end": "2026-12-04T21:30:00-05:00",
+   "location": "Marché des Éclusiers",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau-tickets-2003900177374",
+   "end": "2026-12-04T22:00:00-05:00",
+   "location": "Marché des Éclusiers",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Antenna93 / Fresh Wax / No Muzzle",
    "start": "2026-12-04T20:30:00-05:00",
@@ -787,6 +956,15 @@
    "url": "https://ra.co/events/2584281",
    "end": "2026-12-05T05:00:00-05:00",
    "location": "Bar Datcha",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Loukeman",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://www.universe.com/events/loukeman-tickets-KWLDZY",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -853,6 +1031,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
+   "start": "2026-12-05T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745",
+   "end": "2026-12-05T21:30:00-05:00",
+   "location": "Kawalees",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
+   "start": "2026-12-05T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004561488373",
+   "end": "2026-12-05T21:30:00-05:00",
+   "location": "Kawalees",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Bodywash <Laughing at Noise> Album Release with Marcel and Mother Tongues",
    "start": "2026-12-05T20:30:00-05:00",
@@ -889,6 +1085,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "Riot Ten",
+   "start": "2026-12-05T22:00:00-05:00",
+   "url": "https://www.universe.com/events/riot-ten-tickets-FP81CN",
+   "end": "2026-12-06T03:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Stereo",
    "title": "Stereo x Ferias x Turbo present DNA",
    "start": "2026-12-05T23:59:00-05:00",
@@ -904,6 +1109,24 @@
    "url": "https://casadelpopolo.com/en/events/2026-12-06-nick-schofield-with-special-guest-moon-mullins-nyc",
    "end": null,
    "location": "P'tit Ours",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469",
+   "end": "2026-12-06T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - Dec. 6",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-dec-6-tickets-1997803600348",
+   "end": "2026-12-06T21:30:00-05:00",
+   "location": "Café Social B Hive",
    "all_day": false
   },
   {
@@ -970,6 +1193,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037",
+   "end": "2026-12-07T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, December 7",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-december-7-tickets-1996656198438",
+   "end": "2026-12-07T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "all_day": false
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Haüs\"",
    "start": "2026-12-08T19:00:00-05:00",
@@ -997,6 +1238,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106",
+   "end": "2026-12-08T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 8 décembre",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-8-decembre-tickets-2004342120237",
+   "end": "2026-12-08T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "C-IMPACT/DJ DONINI/HOT HOUSE",
    "start": "2026-12-09T20:00:00-05:00",
@@ -1021,6 +1280,24 @@
    "url": "https://turbohaus.ca/calendrier/2026/12/9/soire-open-jam-avec-growve",
    "end": null,
    "location": "Turbo Haüs",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 9",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-9-tickets-1994071206658",
+   "end": "2026-12-09T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698",
+   "end": "2026-12-09T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -1132,6 +1409,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "MESTO",
+   "start": "2026-12-11T23:00:00-05:00",
+   "url": "https://www.universe.com/events/mesto-tickets-1MFDSN",
+   "end": "2026-12-12T04:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Stereo",
    "title": "Honey Dijon - Lost Heroes",
    "start": "2026-12-11T23:59:00-05:00",
@@ -1195,6 +1481,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal - 12 décembre",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868",
+   "end": "2026-12-12T21:30:00-05:00",
+   "location": "Davidson Taverne",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-tickets-2004849902026",
+   "end": "2026-12-12T21:30:00-05:00",
+   "location": "Davidson Taverne",
+   "all_day": false
+  },
+  {
    "source": "Le Belmont",
    "title": "Avicii Tribute Night",
    "start": "2026-12-12T21:00:00-05:00",
@@ -1210,6 +1514,15 @@
    "url": "https://ra.co/events/2584043",
    "end": "2026-12-13T05:00:00-05:00",
    "location": "Salon Daomé",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Conrad Taylor",
+   "start": "2026-12-12T22:00:00-05:00",
+   "url": "https://www.universe.com/events/conrad-taylor-tickets-9Y6H0D",
+   "end": "2026-12-13T03:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -1231,12 +1544,30 @@
    "all_day": false
   },
   {
+   "source": "Soft Studio Days",
+   "title": "ceramic picture frame",
+   "start": "2026-12-13T12:00:00-05:00",
+   "url": "https://luma.com/36q3zngt",
+   "end": "2026-12-13T14:00:00-05:00",
+   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "all_day": false
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Amnesty International Punk Write-a-Thon (feat. You Enemy, Dirty Milk, Sara Elbourne)",
    "start": "2026-12-13T13:00:00-05:00",
    "url": "https://turbohaus.ca/calendrier/2026/12/13/amnesty-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne",
    "end": null,
    "location": "Turbo Haüs",
+   "all_day": false
+  },
+  {
+   "source": "MTL Cookbook Club",
+   "title": "MTL Holiday Cookie Swap",
+   "start": "2026-12-13T14:00:00-05:00",
+   "url": "https://luma.com/eimb8vme",
+   "end": "2026-12-13T16:00:00-05:00",
+   "location": "Montréal",
    "all_day": false
   },
   {
@@ -1312,6 +1643,24 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2026-12-15T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127",
+   "end": "2026-12-15T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 15",
+   "start": "2026-12-15T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-15-tickets-2004342090147",
+   "end": "2026-12-15T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Himbo Boobini + Vraiment Désolé + Golems",
    "start": "2026-12-15T21:00:00-05:00",
@@ -1348,12 +1697,39 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown - 16 déc.",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461",
+   "end": "2026-12-16T22:00:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-tickets-2004622056534",
+   "end": "2026-12-16T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "BIGDAWGFEST",
    "start": "2026-12-16T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-17-bigdawgfest",
    "end": null,
    "location": "La Sotterenea",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Lynnic & ItsArius",
+   "start": "2026-12-16T20:30:00-05:00",
+   "url": "https://www.universe.com/events/itsarius-lynnic-tickets-V825HJ",
+   "end": "2026-12-16T23:30:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -1519,6 +1895,15 @@
    "all_day": false
   },
   {
+   "source": "Soft Studio Days",
+   "title": "Vision board 2027",
+   "start": "2026-12-20T18:00:00-05:00",
+   "url": "https://luma.com/drbw07zz",
+   "end": "2026-12-20T20:00:00-05:00",
+   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "A Very Lensky Christmas",
    "start": "2026-12-20T19:00:00-05:00",
@@ -1564,12 +1949,48 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal",
+   "start": "2026-12-22T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194",
+   "end": "2026-12-22T22:00:00-05:00",
+   "location": "Savoir Faire",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal on Dec. 22",
+   "start": "2026-12-22T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-on-dec-22-tickets-2004940952360",
+   "end": "2026-12-22T22:00:00-05:00",
+   "location": "Savoir Faire",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Norman Nawrockis 12th annual Rad Non-Xmas Music Bash!",
    "start": "2026-12-23T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-24-norman-nawrockis-12th-annual-rad-non-xmas-music-bash",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761",
+   "end": "2026-12-23T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 23",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-23-tickets-2005213634961",
+   "end": "2026-12-23T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -1618,12 +2039,48 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
+   "start": "2026-12-28T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-2004273653451",
+   "end": "2026-12-28T22:00:00-05:00",
+   "location": "Honey Martin",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on December 28",
+   "start": "2026-12-28T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-december-28-tickets-2004273723661",
+   "end": "2026-12-28T21:30:00-05:00",
+   "location": "Honey Martin",
+   "all_day": false
+  },
+  {
    "source": "Turbo Haüs",
    "title": "These Guys + Black Moon + The Enemy is a Computer",
    "start": "2026-12-30T19:00:00-05:00",
    "url": "https://turbohaus.ca/calendrier/2026/12/30/these-guys--black-moon--the-enemy-is-a-computer",
    "end": null,
    "location": "Turbo Haüs",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859",
+   "end": "2026-12-30T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "New Year's Eve (Eve) Comedy Show at Lord William Pub - December 30",
+   "start": "2026-12-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/new-years-eve-eve-comedy-show-at-lord-william-pub-december-30-tickets-2005213638973",
+   "end": "2026-12-30T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -1645,6 +2102,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "Discorinho Extravaganza (Nouvel An)",
+   "start": "2026-12-31T22:00:00-05:00",
+   "url": "https://www.universe.com/events/discorinho-extravaganza-nouvel-an-tickets-WBVQJG",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Stereo",
    "title": "NYE: John Digweed - Simply City",
    "start": "2027-01-01T01:00:00-05:00",
@@ -1663,12 +2129,66 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2027-01-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883",
+   "end": "2027-01-03T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - January 3",
+   "start": "2027-01-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-january-3-tickets-2004633631154",
+   "end": "2027-01-03T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
+   "start": "2027-01-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725",
+   "end": "2027-01-04T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, January 4",
+   "start": "2027-01-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-january-4-tickets-2005095919872",
+   "end": "2027-01-04T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Ryosuke Kiyasu [performance solo au snare drum]",
    "start": "2027-01-05T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-06-ryosuke-kiyasu-performance-solo-au-snare-drum",
    "end": null,
    "location": "La Sotterenea",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-06T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710",
+   "end": "2027-01-06T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - January 6",
+   "start": "2027-01-06T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-january-6-tickets-2005213640979",
+   "end": "2027-01-06T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -1717,12 +2237,39 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
+   "start": "2027-01-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136",
+   "end": "2027-01-12T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 12 janvier",
+   "start": "2027-01-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-12-janvier-tickets-2004694210348",
+   "end": "2027-01-12T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Hirzer/Valdepeñas, Sara Rossy",
    "start": "2027-01-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-14-hirzer-valdepenas-sara-rossy",
    "end": null,
    "location": "Casa Del Popolo",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-13T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713",
+   "end": "2027-01-13T21:30:00-05:00",
+   "location": "Lord William Pub",
    "all_day": false
   },
   {
@@ -1771,6 +2318,33 @@
    "all_day": false
   },
   {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2027-01-19T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919",
+   "end": "2027-01-19T22:00:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on January 19",
+   "start": "2027-01-19T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-january-19-tickets-2004692451086",
+   "end": "2027-01-19T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "all_day": false
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-20T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716",
+   "end": "2027-01-20T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "all_day": false
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Ratpiss + Neverless.am + Eden Will Burn + Angel Spit",
    "start": "2027-01-22T20:00:00-05:00",
@@ -1798,6 +2372,33 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "ZORZA's internet niche fame Tour",
+   "start": "2027-01-23T22:00:00-05:00",
+   "url": "https://www.universe.com/events/zorza-tickets-42C0FX",
+   "end": "2027-01-24T03:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "KatzPascale",
+   "start": "2027-01-25T19:00:00-05:00",
+   "url": "https://www.universe.com/events/katzpascale-tickets-Z5SK29",
+   "end": "2027-01-25T22:30:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Clarion",
+   "start": "2027-01-26T19:00:00-05:00",
+   "url": "https://www.universe.com/events/clarion-tickets-PG6QTL",
+   "end": "2027-01-26T22:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Woody à la Casa Del Popolo",
    "start": "2027-01-28T20:00:00-05:00",
@@ -1822,6 +2423,15 @@
    "url": "https://casadelpopolo.com/en/events/2027-01-30-proleter-w-special-guests",
    "end": null,
    "location": "La Sala Rossa",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "DJ SWISHA",
+   "start": "2027-01-29T22:00:00-05:00",
+   "url": "https://www.universe.com/events/dj-swisha-tickets-KNYQ4S",
+   "end": "2027-01-30T03:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -1888,6 +2498,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "HILLS",
+   "start": "2027-02-06T23:00:00-05:00",
+   "url": "https://www.universe.com/events/hills-tickets-C7R8LP",
+   "end": "2027-02-07T04:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Morgan Garrett avec/ Perfect Outfit & Dumb Chamber",
    "start": "2027-02-08T19:30:00-05:00",
@@ -1912,6 +2531,15 @@
    "url": "https://sat.qc.ca/en/events/domesicle-x-ferias-winter-2027",
    "end": null,
    "location": "SAT – Satosphere",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Romare [LIVE]",
+   "start": "2027-02-20T19:00:00-05:00",
+   "url": "https://www.universe.com/events/romare-live-tickets-V3QM9Y",
+   "end": "2027-02-20T22:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -1951,6 +2579,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "Devault",
+   "start": "2027-02-27T23:00:00-05:00",
+   "url": "https://www.universe.com/events/devault-tickets-BZFQHV",
+   "end": "2027-02-28T04:00:00-05:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "SAT",
    "title": "Dômesicle Winter 2027",
    "start": "2027-03-06T22:00:00-05:00",
@@ -1966,6 +2603,15 @@
    "url": "https://sat.qc.ca/en/events/domesicle-x-tits-winter-2027",
    "end": null,
    "location": "SAT – Satosphere",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Joshwa",
+   "start": "2027-03-06T23:00:00-05:00",
+   "url": "https://www.universe.com/events/joshwa-tickets-1B28LF",
+   "end": "2027-03-07T04:00:00-05:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
@@ -2041,6 +2687,15 @@
    "all_day": false
   },
   {
+   "source": "Newspeak",
+   "title": "In Parallel",
+   "start": "2027-03-18T20:00:00-04:00",
+   "url": "https://www.universe.com/events/in-parallel-tickets-J5VP80",
+   "end": "2027-03-19T01:00:00-04:00",
+   "location": "Newspeak",
+   "all_day": false
+  },
+  {
    "source": "Casa del Popolo",
    "title": "RYLEY WALKER",
    "start": "2027-03-20T20:00:00-04:00",
@@ -2074,6 +2729,15 @@
    "url": "https://sat.qc.ca/en/events/domesicle-x-la-rama-records-winter-2027",
    "end": null,
    "location": "SAT – Satosphere",
+   "all_day": false
+  },
+  {
+   "source": "Newspeak",
+   "title": "Angrybaby",
+   "start": "2027-03-20T22:00:00-04:00",
+   "url": "https://www.universe.com/events/angrybaby-tickets-L7G081",
+   "end": "2027-03-21T03:00:00-04:00",
+   "location": "Newspeak",
    "all_day": false
   },
   {
