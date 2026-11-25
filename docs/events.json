@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:12-05:00",
+ "generated": "2026-11-25T16:13-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -14,7 +14,7 @@
   "bars": {
    "title": "Montreal Bar Nights",
    "feed": "bars.ics",
-   "count": 161
+   "count": 164
   },
   "museums": {
    "title": "Montreal Museums",
@@ -115,7 +115,7 @@
   },
   "Comedy Open Mics": {
    "ok": true,
-   "count": 45,
+   "count": 48,
    "tab": "bars"
   },
   "Karaoke Nights": {
@@ -4474,7 +4474,7 @@
    "end": null,
    "location": "Upstairs Jazz Bar & Grill, 1254 Mackay St Montreal QC",
    "kind": "",
-   "free": null,
+   "free": true,
    "price": "",
    "all_day": false,
    "tab": "bars",
@@ -5042,6 +5042,20 @@
   },
   {
    "source": "Comedy Open Mics",
+   "title": "Comedy Open Mic at Upstairs Jazz Bar & Grill",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Upstairs Jazz Bar & Grill, 1254 Mackay St Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "07d083bfbe2519dbc922"
+  },
+  {
+   "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Burgundy Lion",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "",
@@ -5602,6 +5616,20 @@
   },
   {
    "source": "Comedy Open Mics",
+   "title": "Comedy Open Mic at Upstairs Jazz Bar & Grill",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Upstairs Jazz Bar & Grill, 1254 Mackay St Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c05b3de405cfc90ee5b6"
+  },
+  {
+   "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Burgundy Lion",
    "start": "2026-12-09T20:00:00-05:00",
    "url": "",
@@ -6159,6 +6187,20 @@
    "all_day": false,
    "tab": "bars",
    "id": "8035853886e1f07d52a1"
+  },
+  {
+   "source": "Comedy Open Mics",
+   "title": "Comedy Open Mic at Upstairs Jazz Bar & Grill",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Upstairs Jazz Bar & Grill, 1254 Mackay St Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "63d9813c9468e3097ec2"
   },
   {
    "source": "Comedy Open Mics",
