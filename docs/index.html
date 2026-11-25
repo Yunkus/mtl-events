@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Montreal Events</title>
 <style>
-  /* Palette (San Marco): 139O #442e2d brown · 145V #505565 slate · 152B #7a8085 grey
-     185Y #a69c8d taupe · 146Y #cdc4b6 greige · P333 #e3e0db off-white */
+  /* Palette: #342729 espresso · #493539 plum · #abaebe lavender grey · #e2e0db off-white · #abbeb5 sage
+     (a deeper lavender is used for small secondary text on the light background, for contrast) */
   :root {
-    --brown: #442e2d; --slate: #505565; --grey: #7a8085; --taupe: #a69c8d; --greige: #cdc4b6; --off: #e3e0db;
-    --bg: var(--off); --surface: #efedea; --text: var(--brown); --muted: var(--slate); --line: var(--greige);
-    --accent: var(--slate); --accent-ink: var(--slate); --on-accent: var(--off); --pick: var(--brown);
-    --chip: var(--greige); --chip-on: var(--brown); --chip-on-text: var(--off);
-    --band: var(--brown); --band-text: var(--off); --band-muted: var(--greige); --band-line: var(--taupe);
-    --free: var(--off); --free-bg: var(--slate);
+    --espresso: #342729; --plum: #493539; --lavender: #abaebe; --off: #e2e0db; --sage: #abbeb5;
+    --bg: var(--off); --surface: #eeece8; --text: var(--espresso); --muted: #5d5868; --line: #c8c9d1;
+    --accent: var(--plum); --accent-ink: var(--plum); --on-accent: var(--off); --pick: var(--plum);
+    --chip: var(--lavender); --chip-on: var(--espresso); --chip-on-text: var(--off);
+    --band: var(--espresso); --band-text: var(--off); --band-muted: var(--lavender); --band-line: var(--plum);
+    --band-primary: var(--sage); --band-primary-text: var(--espresso); --mark: var(--sage);
+    --free: var(--espresso); --free-bg: var(--sage);
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #2b2526; --surface: #362f30; --text: var(--off); --muted: var(--taupe); --line: #4a4243;
-            --accent: var(--greige); --accent-ink: #a9aebf; --on-accent: var(--brown); --pick: var(--greige);
-            --chip: #3d3536; --chip-on: var(--off); --chip-on-text: var(--brown);
-            --free: var(--brown); --free-bg: #a9aebf; }
+    :root { --bg: #271d1f; --surface: var(--espresso); --text: var(--off); --muted: var(--lavender); --line: var(--plum);
+            --accent: var(--lavender); --accent-ink: var(--sage); --on-accent: var(--espresso); --pick: var(--sage);
+            --chip: var(--plum); --chip-on: var(--off); --chip-on-text: var(--espresso); --band-line: #6a5257; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
@@ -30,16 +30,16 @@
   header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
   h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
   h1::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px;
-               background: var(--taupe); margin-right: 10px; vertical-align: 4px; }
+               background: var(--mark); margin-right: 10px; vertical-align: 4px; }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
   .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px;
          padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; white-space: nowrap; }
   .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
-  .band .btn.primary, .bar .btn.primary { background: var(--off); border-color: var(--off); color: var(--brown); }
+  .band .btn.primary, .bar .btn.primary { background: var(--band-primary); border-color: var(--band-primary); color: var(--band-primary-text); }
   .band .btn:not(.primary), .bar .btn:not(.primary) { background: transparent; color: var(--band-text); border-color: var(--band-line); }
-  .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--off); }
+  .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--band-text); }
   .tabs { display: flex; gap: 4px; margin: 18px 0 0; flex-wrap: wrap; }
   .tab { border: 0; background: none; color: var(--band-muted); font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
          padding: 9px 12px; border-radius: 8px 8px 0 0; }
@@ -82,7 +82,7 @@
   .times button[aria-pressed="true"] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
   .empty { color: var(--muted); margin-top: 40px; text-align: center; }
-  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 4px solid var(--taupe);
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 4px solid var(--mark);
          box-shadow: 0 -4px 18px rgba(0,0,0,.08); transform: translateY(110%); transition: transform .2s; z-index: 5; }
   .bar.show { transform: none; }
   .bar .in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
