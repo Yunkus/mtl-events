@@ -741,6 +741,8 @@ EVENT_SOURCES = {
     "Bar Le Ritz PDB": bar_le_ritz,
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
     "New City Gas": new_city_gas,
+    # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
+    "Eastern Bloc": lambda: ra_events("venue", "147287", "Eastern Bloc"),
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),

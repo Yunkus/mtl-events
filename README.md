@@ -52,6 +52,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Bar Le Ritz PDB | barleritzpdb.com events (Squarespace `?format=json`); name from each event's heading, price from its Universe ticket page |
 | Système | Resident Advisor venue 201918 (what systememtl.com links to) |
 | New City Gas | newcitygas.com/en/events, then each event page's schema.org data (times). No prices: the pages show a placeholder and Tixr blocks automated access. |
+| Eastern Bloc | Resident Advisor venue 147287 (parties, Sight+Sound). It mostly announces on Instagram, which can't be read automatically. |
 
 ### Museums tab (`docs/museums.ics`)
 
