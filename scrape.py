@@ -13,7 +13,7 @@ import json
 import re
 import sys
 import traceback
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -49,6 +49,8 @@ class Ev:
     kind: str = ""                       # "exhibition", or a museum event type
     free: bool | None = None             # True = free, False = paid, None = unknown
     price: str = ""                      # short display text, e.g. "$10" or "$15–20"
+    price_lo: float | None = None        # lowest ticket price (0 when free), for the "Under $20" filter
+    genres: list[str] = field(default_factory=list)   # e.g. ["Techno", "Electronic"]
 
     @property
     def all_day(self) -> bool:
@@ -69,6 +71,7 @@ def priced(e: "Ev", free: bool | None, lo: float | None = None, hi: float | None
         free = (hi or lo) == 0
     e.free = free
     e.price = "" if free else (text or money(lo, hi))
+    e.price_lo = 0.0 if free else lo
     return e
 
 
@@ -148,7 +151,7 @@ def ra_query(query: str) -> dict:
     return data["data"]
 
 
-RA_FIELDS = "id title startTime endTime contentUrl cost venue { name }"
+RA_FIELDS = "id title startTime endTime contentUrl cost venue { name } genres { name }"
 
 
 def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
@@ -158,6 +161,7 @@ def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
     for e in d[kind]["events"]:
         ev = Ev(source, e["title"], iso(e["startTime"]), "https://ra.co" + e["contentUrl"],
                 iso(e["endTime"]) if e.get("endTime") else None, (e.get("venue") or {}).get("name", ""))
+        ev.genres = genres_in(" ".join(g["name"] for g in e.get("genres") or []))   # RA's own tags, when set
         out.append(priced(ev, *price_from_text(e.get("cost") or "")))
     return out
 
@@ -764,6 +768,140 @@ EVENT_SOURCES = {
     "Added by hand": by_hand,   # events carry their own chip name (e.g. "Trivia Nights")
 }
 
+
+# ------------------------------------------------------------- cleanup step
+# Festival passes / ticket bundles are listed like events but aren't one.
+PASS_TITLES = re.compile(r"\bpass(?:e)?\s+(?:du|de|for|festival|week-?end|journ)|\bfestival\s+pass\b|\bforfait\b|"
+                         r"\bpasseport\b|\b(?:day|weekend|week-end|full)\s+pass\b", re.I)
+_MON = (r"(?:jan(?:uary|vier)?|feb(?:ruary)?|f[ée]v(?:rier)?|mar(?:ch|s)?|apr(?:il)?|avr(?:il)?|may|mai|jun(?:e)?|juin|"
+        r"jul(?:y)?|juil(?:let)?|aug(?:ust)?|ao[uû]t?|sep(?:t(?:ember|embre)?)?|oct(?:ober|obre)?|nov(?:ember|embre)?|"
+        r"dec(?:ember)?|d[ée]c(?:embre)?)\.?")
+_DAY = r"\d{1,2}(?:st|nd|rd|th|er)?"
+_DATE = rf"(?:(?:mon|tue|wed|thu|fri|sat|sun)\w*\.?,?\s+)?(?:{_MON}\s+{_DAY}|{_DAY}\s+{_MON})(?:,?\s+\d{{4}})?"
+TRAILING_DATE = re.compile(rf"\s*(?:[-–—,|]|\bon\b|\ble\b)\s*{_DATE}\s*$", re.I)
+# Several venues file every show under one place; drop "same time, same place" repeats for these
+# (Laugh It Off lists each night as a series AND as a dated show; SAT adds a generic "Dômesicle Winter" next to each night)
+SAME_SLOT_DUPES = {"Laugh It Off", "SAT"}
+
+
+def _plain(s: str) -> str:
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", s.lower()) if not unicodedata.combining(c))
+
+
+def tidy_title(e: Ev) -> str:
+    """Take the venue and date back out of titles like 'X @ P'TIT OURS, 26 NOV' or 'Show - December 2'."""
+    t = clean(e.title)
+    t = TRAILING_DATE.sub("", t)
+    m = re.search(r"\s+(?:@|\bat\b)\s+([^@]+)$", t)
+    if m:   # '@ venue' or 'at venue' at the end, only when it names this venue (keeps "CIGARETTES @ SUNSET")
+        where = _plain(f"{e.location} {e.source} casa del popolo sala rossa sotterenea p'tit ours toscadura")
+        words = [w for w in re.findall(r"[a-z']{4,}", _plain(m.group(1))) if w not in ("montreal", "presents")]
+        if words and all(w in where or re.fullmatch(_DATE, w, re.I) for w in words):
+            t = t[:m.start()]
+    t = TRAILING_DATE.sub("", t)
+    return re.sub(r"[\s|/,:–—-]+$", "", t).strip() or clean(e.title)
+
+
+def sane_date(e: Ev) -> bool:
+    """Drop dates that can't be right: a show more than 18 months out, or ending before it starts.
+    (Exhibitions may legitimately have opened years ago, e.g. the Planétarium's Aurorae, on since 2015.)"""
+    start = e.start if isinstance(e.start, date) and not isinstance(e.start, datetime) else e.start.date()
+    if e.kind != "exhibition" and start > date.today() + timedelta(days=550):
+        return False
+    if e.end is not None and type(e.end) is type(e.start) and e.end < e.start:
+        return False
+    return True
+
+
+def clean_events(evs: list[Ev]) -> list[Ev]:
+    out = []
+    for e in evs:
+        if SKIP_TITLES.match(e.title) or PASS_TITLES.search(e.title):
+            continue
+        e.title = tidy_title(e)
+        out.append(e)
+    keep: dict[tuple, Ev] = {}
+    for e in out:
+        if e.source not in SAME_SLOT_DUPES:
+            keep[(id(e),)] = e
+            continue
+        k = (e.source, e.start, e.location)
+        best = keep.get(k)
+        # prefer the one with price info, then the more specific (longer) title
+        if best is None or (e.price_lo is not None, len(e.title)) > (best.price_lo is not None, len(best.title)):
+            keep[k] = e
+    return list(keep.values())
+
+
+# ---------------------------------------------------------------- genre tags
+# Matched against titles (and RA's own genre names). Order = order shown on the page.
+GENRES = [
+    ("Techno", r"techno|\bacid\b|hard ?groove|\bminimal\b|industrial|\bebm\b"),
+    ("House", r"\bhouse\b|amapiano"),
+    ("Disco", r"disco"),
+    ("Bass & DnB", r"\bbass\b|drum ?(?:&|and|n) ?bass|\bdnb\b|jungle|dubstep|\bdub\b|breakbeat|riddim"),
+    ("Hip-hop & R&B", r"hip[ -]?hop|\brap\b|r&b|\brnb\b|\bsoul\b|\btrap\b"),
+    ("Afro & Latin", r"\bafro|latin|salsa|cumbia|reggaeton|\bbaile\b|brazil|br[ée]sil|bossa|tropical|dancehall|kizomba|zouk"),
+    ("Flamenco", r"flamenc"),
+    ("Jazz & Blues", r"jazz|blues|\bswing\b|bebop|big band|quartet"),
+    ("Folk & Country", r"\bfolk|country|bluegrass|honky|string ?band|americana|banjo|sing ?along|yiddish|greek"),
+    ("Punk & Hardcore", r"punk|hardcore|grunge|crust|\boi!"),
+    ("Metal", r"metal|\bdoom\b|sludge|grindcore|thrash"),
+    ("Rock & Indie", r"\brock\b|indie|shoegaze|psych|surf rock|garage rock"),
+    ("Experimental", r"experiment|\bnoise\b|drone|ambient|modular|improv|avant|electroacoust|snare drum"),
+    ("Pop & Throwback", r"\bpop\b|\b(?:19)?[6-9]0'?s\b|\b2000s?\b|\b2010s\b|tribute|hommage|cover set|throwback|dance party"),
+    ("Electronic", r"electro|[ée]lectro|\bdj\b|dj set|\bb2b\b|\brave\b|all night long|club\b|\bbpm\b"),
+    ("Dance", r"\bdance\b|\bdanse\b|ballroom|vogue|t-dance"),
+    ("Comedy", r"comed|com[ée]die|stand-?up|humou?r|\broast\b"),
+    ("Listening Party", r"listening party|s[ée]ance d'[ée]coute"),
+    ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk"),
+    ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot"),
+    ("Food & Drink", r"\bcookies?\b|\bcook|\bcuisine\b|\bfood\b|\bbouffe\b|\bwines?\b|\bvins?\b|\btasting\b|d[ée]gustation|potluck|\bbrunch\b"),
+]
+_GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
+ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
+# When a title says nothing about the music: what the venue mostly does.
+VENUE_GENRES = {
+    "Stereo": ["Electronic", "House"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
+    "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
+    "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
+    "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],
+    "Turbo Haüs": ["Punk & Hardcore", "Rock & Indie"], "Le Belmont": ["Pop & Throwback", "Dance"],
+    # live-band rooms that mostly book indie / alternative acts (titles are usually just band names)
+    "Casa del Popolo": ["Rock & Indie"], "Théâtre Fairmount": ["Rock & Indie"], "Bar Le Ritz PDB": ["Rock & Indie"],
+    "Favourite Library": ["Rock & Indie"], "L'Escogriffe": ["Rock & Indie"],
+    "Laugh It Off": ["Comedy"], "Comedy Open Mics": ["Comedy"],
+    "Soft Studio Days": ["Art & Workshops"], "MTL Cookbook Club": ["Food & Drink"], "5 à Set": ["Listening Party"],
+    "Le Marché Vintage": ["Art & Workshops"],
+}
+
+
+def genres_in(text: str) -> list[str]:
+    found = [g for g, rx in _GENRE_RX if rx.search(text or "")]
+    if ELECTRONIC_KIDS & set(found) and "Electronic" not in found:
+        found.append("Electronic")
+    return found
+
+
+def tag_genres(e: Ev, tab: str) -> None:
+    if tab in ("museums", "movies"):
+        return
+    tags = list(dict.fromkeys(e.genres + genres_in(e.title)))
+    non_music = ("Comedy", "Dance", "Listening Party", "Talks & Quizzes", "Art & Workshops", "Food & Drink")
+    music = [g for g in tags if g not in non_music]
+    # venue defaults: music venues only in Music & Dance; other sources (comedy, workshops) everywhere,
+    # and never on a night the title already marks as comedy / a talk / a quiz
+    defaults = VENUE_GENRES.get(e.source, [])
+    music_defaults = [g for g in defaults if g not in non_music]
+    if not music and not (set(tags) & {"Comedy", "Talks & Quizzes"}):
+        tags += [g for g in defaults if (tab == "music" or g not in music_defaults) and g not in tags]
+    elif not tags:
+        tags += [g for g in defaults if g not in music_defaults]
+    order = [g for g, _ in GENRES]
+    e.genres = sorted(set(tags), key=order.index)
+
+
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
 OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
@@ -884,12 +1022,15 @@ def main() -> int:
     for sources, pick_tab, home_tab in SOURCE_GROUPS:
         for name, fn in sources.items():
             try:
-                evs = [e for e in fn() if last_moment(e) >= cutoff and not SKIP_TITLES.match(e.title)]
+                evs = [e for e in fn() if last_moment(e) >= cutoff and sane_date(e)]
+                evs = clean_events(evs)   # passes out, venue/date out of titles, same-slot repeats merged
                 for e in evs:   # no price data, but the title says it's free
                     if e.free is None and e.kind != "exhibition" and FREE_TEXT.search(e.title):
-                        e.free = True
+                        e.free, e.price_lo = True, 0.0
                 for e in evs:
-                    by_tab[pick_tab(e)].append(e)
+                    tab = pick_tab(e)
+                    tag_genres(e, tab)
+                    by_tab[tab].append(e)
                 status[name] = {"ok": True, "count": len(evs), "tab": home_tab(name)}
                 print(f"  ok   {home_tab(name):8} {name:20} {len(evs):3} events")
             except Exception as ex:  # one broken site must not break the whole feed
@@ -908,7 +1049,7 @@ def main() -> int:
     (OUT / feed).write_bytes(build_ics(sorted((e for t in members for e in by_tab[t]), key=sort_key), title))
 
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"),
-               "tabs": tabs, "sources": status, "events": payload_events}
+               "tabs": tabs, "sources": status, "genres": [g for g, _ in GENRES], "events": payload_events}
     (OUT / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(payload_events)} events written to {OUT}")
     return 0 if any(s["ok"] for s in status.values()) else 1

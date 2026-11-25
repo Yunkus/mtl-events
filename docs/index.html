@@ -78,6 +78,13 @@
   .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free-bg); }
   .chip.special.pick[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .sep { width: 1px; background: var(--line); margin: 2px 4px; }
+  .chips { flex-direction: column; gap: 8px; }
+  .chiprow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .chiprow:empty { display: none; }
+  .rowlabel { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-right: 2px; }
+  .chip.special.genre[aria-pressed="true"] { background: var(--amber); color: var(--black); border-color: var(--amber); }
+  .ev .tags { font-size: 12px; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
+  .ev .unknown { color: var(--muted); font-style: italic; }
   .search { width: 100%; margin: 12px 0 4px; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line);
             background: var(--surface); color: var(--text); font: inherit; }
   .day { margin-top: 28px; }
@@ -185,7 +192,11 @@ const store = {
 };
 let hidden = new Set(store.get("hiddenSources", []));
 let museumView = store.get("museumView", "events");
-let freeOnly = store.get("freeOnly", false);
+// quick filters: price ("any" | "free" | "under20"), when ("any" | "tonight" | "weekend"),
+// start time ("any" | "early" | "late"), genres (any of the ticked ones)
+let price = store.get("priceFilter", store.get("freeOnly", false) ? "free" : "any");
+let when = "any", slot = "any";
+let genreSel = new Set();
 let picksOnly = false;
 let picked = new Set(store.get("picked", []));
 
@@ -362,24 +373,83 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (n != null) b.appendChild(el("span", "n", n));
     b.setAttribute("aria-pressed", String(on)); b.onclick = onclick; return b;
   }
+  // ---------- quick filters
+  const hourFmt = new Intl.DateTimeFormat("en-CA", { hour: "numeric", hourCycle: "h23", timeZone: TZ });
+  const hourOf = e => (e.all_day ? null : +hourFmt.format(e.d));
+  const isLate = e => { const h = hourOf(e); return h != null && (h >= 22 || h < 5); };   // 10 pm or later, incl. after midnight
+  const isEarly = e => { const h = hourOf(e); return h != null && !isLate(e); };
+  const weekendKeys = (() => {   // Fri–Sun of this week (the rest of it, if we're already in it)
+    const dow = noon(today).getDay();   // 0 Sun … 6 Sat
+    const start = dow === 0 || dow >= 5 ? 0 : 5 - dow, end = dow === 0 ? 0 : 7 - dow;
+    const keys = new Set(); for (let i = start; i <= end; i++) keys.add(shiftDay(today, i)); return keys;
+  })();
+  const priceKnown = e => e.free || e.price_lo != null;
+  const hasPrices = list => list.some(priceKnown);
+  const genreTabs = ["music", "other", "date"];
+  function passes(e, list) {
+    if (when === "tonight" && !onDay(e, today)) return false;
+    if (when === "weekend" && ![...weekendKeys].some(k => onDay(e, k))) return false;
+    if (slot === "late" && !isLate(e)) return false;
+    if (slot === "early" && !isEarly(e)) return false;
+    if (price !== "any" && hasPrices(list) && priceKnown(e)) {   // unknown prices stay visible, marked as such
+      if (price === "free" && !e.free) return false;
+      if (price === "under20" && !(e.free || e.price_lo < 20)) return false;
+    }
+    if (genreSel.size && genreTabs.includes(tab) && !(e.genres || []).some(g => genreSel.has(g))) return false;
+    return true;
+  }
+  function opt(label, on, n, onclick, cls = "") {
+    const b = special(label, on, cls, n, onclick); return b;
+  }
+  function chipRow(...kids) { const r = el("div", "chiprow"); r.append(...kids.filter(Boolean)); return r; }
+
   function buildChips() {
     const chips = $("chips"); chips.innerHTML = "";
     if (tab === "date") buildDateBar(chips);
     const inTab = events.filter(e => (tab === "date" ? onDay(e, dayPick) : e.tab === tab));
-    chips.appendChild(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; buildChips(); render(); }));
-    if (inTab.some(e => e.free)) {
-      chips.appendChild(special("Free only", freeOnly, "", inTab.filter(e => e.free).length,
-        () => { freeOnly = !freeOnly; store.set("freeOnly", freeOnly); buildChips(); render(); }));
+    const redo = () => { buildChips(); render(); };
+    const row1 = chipRow(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; redo(); }));
+    if (tab !== "date" && !(tab === "museums" && museumView === "exhibitions")) {
+      row1.append(el("span", "sep"),
+        opt("Tonight", when === "tonight", inTab.filter(e => onDay(e, today)).length, () => { when = when === "tonight" ? "any" : "tonight"; redo(); }),
+        opt("This weekend", when === "weekend", null, () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
+    }
+    if (inTab.some(e => !e.all_day)) {
+      row1.append(el("span", "sep"),
+        opt("Early shows", slot === "early", null, () => { slot = slot === "early" ? "any" : "early"; redo(); }),
+        opt("Late night 10 pm+", slot === "late", null, () => { slot = slot === "late" ? "any" : "late"; redo(); }));
+    }
+    if (hasPrices(inTab)) {
+      const setPrice = v => () => { price = price === v ? "any" : v; store.set("priceFilter", price); redo(); };
+      row1.append(el("span", "sep"),
+        opt("Free", price === "free", inTab.filter(e => e.free).length, setPrice("free"), "free-chip"),
+        opt("Under $20", price === "under20", inTab.filter(e => e.free || (e.price_lo != null && e.price_lo < 20)).length, setPrice("under20"), "free-chip"));
+    }
+    chips.appendChild(row1);
+    if (genreTabs.includes(tab)) {
+      const counts = {};
+      inTab.forEach(e => (e.genres || []).forEach(g => counts[g] = (counts[g] || 0) + 1));
+      const names = Object.keys(counts);
+      if (names.length) {
+        const order = data.genres || [...new Set(events.flatMap(e => e.genres || []))];   // the scraper's genre order
+        genreSel = new Set([...genreSel].filter(g => counts[g]));
+        const row = chipRow(el("span", "rowlabel", "Genre"));
+        names.sort((a, b) => order.indexOf(a) - order.indexOf(b)).forEach(g => row.appendChild(
+          opt(g, genreSel.has(g), counts[g], () => { genreSel.has(g) ? genreSel.delete(g) : genreSel.add(g); redo(); }, "genre")));
+        chips.appendChild(row);
+      }
     }
     if (tab === "date") return;
-    chips.appendChild(el("span", "sep"));
+    const venues = chipRow();
+    chips.appendChild(venues);
+    const add = b => venues.appendChild(b);
     if (tab === "museums") {   // two views instead of source filters
       for (const [v, label] of [["events", "Events"], ["exhibitions", "Exhibitions"]]) {
         const n = inTab.filter(e => (e.kind === "exhibition") === (v === "exhibitions")).length;
         const b = el("button", "chip"); b.append(label, el("span", "n", n));
         b.setAttribute("aria-pressed", String(museumView === v));
         b.onclick = () => { museumView = v; store.set("museumView", v); buildChips(); render(); };
-        chips.appendChild(b);
+        add(b);
       }
       return;
     }
@@ -389,7 +459,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const names = new Set(Object.keys(counts));
     // (a source that found events filed under other names, like "Added by hand", gets no chip of its own)
     Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || (EVENT_TABS.includes(tab) && !sources[n].count))) names.add(n); });
-    if (names.size < 2) { chips.lastChild.remove(); return; }
+    if (names.size < 2) { venues.remove(); return; }
     [...names].sort().forEach(name => {
       const s = sources[name];
       const b = el("button", "chip" + (s && !s.ok ? " bad" : ""));
@@ -398,7 +468,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       b.setAttribute("aria-pressed", String(!hidden.has(name)));
       b.onclick = () => { hidden.has(name) ? hidden.delete(name) : hidden.add(name); store.set("hiddenSources", [...hidden]);
                           b.setAttribute("aria-pressed", String(!hidden.has(name))); render(); };
-      chips.appendChild(b);
+      add(b);
     });
   }
 
@@ -454,7 +524,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       if (e.location && e.location !== e.source) w.append(" · " + e.location);
     }
     if (!e.free && e.price) w.append(" · " + e.price);
+    else if (!e.free && price !== "any" && e.tab !== "museums") w.appendChild(el("span", "unknown", " · price unknown"));
     body.appendChild(w);
+    if (e.genres && e.genres.length) body.appendChild(el("div", "tags", e.genres.join(" · ")));
     row.appendChild(body); sec.appendChild(row);
   }
 
@@ -462,8 +534,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const term = $("q").value.trim().toLowerCase();
     const list = $("list"); list.innerHTML = "";
     if (tab === "date") return renderDay(list, term);
-    const freeFilter = freeOnly && events.some(e => e.tab === tab && e.free);   // tabs without price data ignore it
-    let shown = events.filter(e => e.tab === tab && matches(e, term) && (!freeFilter || e.free) && (!picksOnly || picked.has(e.id)));
+    const inTab = events.filter(e => e.tab === tab);
+    let shown = inTab.filter(e => matches(e, term) && passes(e, inTab) && (!picksOnly || picked.has(e.id)));
     if (tab === "museums") {
       shown = shown.filter(e => (e.kind === "exhibition") === (museumView === "exhibitions"));
       if (museumView === "exhibitions") return renderExhibitions(list, shown);
@@ -484,8 +556,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
 
   function renderDay(list, term) {
     const all = events.filter(e => onDay(e, dayPick));
-    const freeFilter = freeOnly && all.some(e => e.free);
-    const shown = all.filter(e => matches(e, term) && (!freeFilter || e.free) && (!picksOnly || picked.has(e.id)));
+    const shown = all.filter(e => matches(e, term) && passes(e, all) && (!picksOnly || picked.has(e.id)));
     for (const [label, test] of DAY_GROUPS) {
       const items = shown.filter(test);
       if (!items.length) continue;

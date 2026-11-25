@@ -18,6 +18,23 @@ Laugh It Off, Universe), "GRATUIT // FREE" (Turbo Haüs), a museum page whose pr
 "free of charge", or a title that says free / gratuit. Paid events show their price when the source has it.
 Le Red Room, Le Belmont, Favourite Library and the cinemas don't publish prices in a readable form.
 
+## Cleanup, genres and filters
+
+Every source goes through a cleanup step (`clean_events` in `scrape.py`):
+
+- festival passes / ticket bundles ("Pass du Festival", "Forfait billet") are dropped
+- titles lose a trailing date ("… - December 2", "… on November 30") and a trailing "@ venue" when it names the venue
+- Laugh It Off and SAT list some nights twice at the same time and place (a series entry plus the dated show); only one is kept
+- dates that can't be right are dropped (a show more than 18 months out, or ending before it starts).
+  Long-running exhibitions keep their real opening date (the Planétarium's *Aurorae* has run since 2015).
+
+Genres (`GENRES` in `scrape.py`) come from keywords in the title, Resident Advisor's own genre tags,
+and, when a title says nothing about the music, a default per venue (`VENUE_GENRES`: Stereo and New City Gas
+are electronic, Turbo Haüs punk and rock, Casa del Popolo / Fairmount / Le Ritz indie, and so on).
+
+On the page: Tonight, This weekend, Early shows / Late night (10 pm+), Free / Under $20 (events with no
+known price stay listed, marked "price unknown"), and a Genre row on Music & Dance, Other Events and By Date.
+
 ## Music & Dance vs Other Events
 
 Each event in the venue list below goes to **Music & Dance** unless:
