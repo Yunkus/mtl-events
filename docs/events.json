@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T16:44-05:00",
+ "generated": "2026-11-25T18:00-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 246
+   "count": 296
   },
   "other": {
    "title": "Montreal Other Events",
@@ -111,6 +111,16 @@
   "Boiler Room": {
    "ok": true,
    "count": 0,
+   "tab": "music"
+  },
+  "Bar Le Ritz PDB": {
+   "ok": true,
+   "count": 28,
+   "tab": "music"
+  },
+  "Système": {
+   "ok": true,
+   "count": 22,
    "tab": "music"
   },
   "Trivia Nights": {
@@ -333,6 +343,34 @@
    "id": "b1771deb39e04ea6236a"
   },
   {
+   "source": "Système",
+   "title": "play-do x puzzle present: puddle 001",
+   "start": "2026-11-26T20:30:00-05:00",
+   "url": "https://ra.co/events/2563870",
+   "end": "2026-11-27T03:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "6f552ddfe765318fa06b"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "GHOSTWOMAN",
+   "start": "2026-11-26T20:30:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/ghostwoman-bar-le-ritz-pdb/202601126-25bhh-ngtlb-c2xwh-egb2b-hwn-p2crlo",
+   "end": "2026-11-26T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "all_day": false,
+   "tab": "music",
+   "id": "4f848bcaa1ae707b4d9b"
+  },
+  {
    "source": "Stereo",
    "title": "27 Years of Stereo: Carl Cox - Ostrich",
    "start": "2026-11-26T21:00:00-05:00",
@@ -543,6 +581,20 @@
    "id": "79386c5f0c08393141bf"
   },
   {
+   "source": "Système",
+   "title": "Festival Triste x Humidex Records",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://ra.co/events/2563871",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e33efb60dde5b829b372"
+  },
+  {
    "source": "Salon Daomé",
    "title": "Zeina, Ostrich",
    "start": "2026-11-27T22:30:00-05:00",
@@ -555,6 +607,20 @@
    "all_day": false,
    "tab": "music",
    "id": "5875c199b41d2ecf5903"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "SUPER TASTE PRÉSENTE DANCE PARTY 2000",
+   "start": "2026-11-27T23:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/danceparty2000-bar-le-ritz-pdb/202601127-25bhh-ngtlb-c2xwh-egb2b-hwn-p2crlo-ghd7x",
+   "end": "2026-11-28T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$22",
+   "all_day": false,
+   "tab": "music",
+   "id": "44f115af0e66e5a67cff"
   },
   {
    "source": "Stereo",
@@ -725,6 +791,20 @@
    "id": "890061010814a880edfd"
   },
   {
+   "source": "Système",
+   "title": "Sugar + CPR Annie + wetdogg + DJ Frog",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://ra.co/events/2563872",
+   "end": "2026-11-29T06:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9bce22ce8e9df33a7c30"
+  },
+  {
    "source": "Salon Daomé",
    "title": "T.I.T.S",
    "start": "2026-11-28T22:30:00-05:00",
@@ -793,6 +873,20 @@
    "all_day": false,
    "tab": "music",
    "id": "7267fbaee663a50c810e"
+  },
+  {
+   "source": "Système",
+   "title": "Tupi Collective",
+   "start": "2026-11-29T18:00:00-05:00",
+   "url": "https://ra.co/events/2572226",
+   "end": "2026-11-30T01:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "0b54bf6ffbd96d572839"
   },
   {
    "source": "Turbo Haüs",
@@ -1061,6 +1155,20 @@
    "id": "20c24f7f426d7d11fbf7"
   },
   {
+   "source": "Système",
+   "title": "Lost Heroes - Glowzi - Lexis",
+   "start": "2026-12-03T22:00:00-05:00",
+   "url": "https://ra.co/events/2584813",
+   "end": "2026-12-04T03:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "all_day": false,
+   "tab": "music",
+   "id": "1d8d0c7d8ed27fc0b081"
+  },
+  {
    "source": "Salon Daomé",
    "title": "RTR - Rooftop Records",
    "start": "2026-12-03T22:30:00-05:00",
@@ -1173,6 +1281,20 @@
    "id": "a929a8f4b97c11bf15de"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "UK CALLING (LIVE)",
+   "start": "2026-12-04T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/uk-calling-bar-le-ritz-pdb/20261204-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz",
+   "end": "2026-12-04T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$40",
+   "all_day": false,
+   "tab": "music",
+   "id": "6cd416e1bd87bdf139d5"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Antenna93 / Fresh Wax / No Muzzle",
    "start": "2026-12-04T20:30:00-05:00",
@@ -1241,6 +1363,20 @@
    "all_day": false,
    "tab": "music",
    "id": "ca4d757bb7661a899497"
+  },
+  {
+   "source": "Système",
+   "title": "LE 10EME ANNIVERSAIRE DE LA RAMA",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://ra.co/events/2584818",
+   "end": "2026-12-05T06:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "all_day": false,
+   "tab": "music",
+   "id": "68162e9bf4e06e52d9aa"
   },
   {
    "source": "Salon Daomé",
@@ -1327,6 +1463,20 @@
    "id": "1236889990350cb99a0c"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "WEEKENDS NEVER ENDED",
+   "start": "2026-12-05T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/weekends-nev-bar-le-ritz-pdb/20261205-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-57dsd",
+   "end": "2026-12-06T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "all_day": false,
+   "tab": "music",
+   "id": "4ed8c2e7d5c350578049"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Bodywash <Laughing at Noise> Album Release with Marcel and Mother Tongues",
    "start": "2026-12-05T20:30:00-05:00",
@@ -1397,6 +1547,20 @@
    "id": "ab0a466f90ee5b3a4d39"
   },
   {
+   "source": "Système",
+   "title": "Akpossoul, MINZI ROBERTA, Gone Deville",
+   "start": "2026-12-05T22:00:00-05:00",
+   "url": "https://ra.co/events/2584827",
+   "end": "2026-12-06T04:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "all_day": false,
+   "tab": "music",
+   "id": "043c55f6ee8e501c1917"
+  },
+  {
    "source": "Stereo",
    "title": "Stereo x Ferias x Turbo present DNA",
    "start": "2026-12-05T23:59:00-05:00",
@@ -1423,6 +1587,20 @@
    "all_day": false,
    "tab": "music",
    "id": "d8fd2392119d8b7dcd3d"
+  },
+  {
+   "source": "Système",
+   "title": "Les Soirées Système",
+   "start": "2026-12-06T18:00:00-05:00",
+   "url": "https://ra.co/events/2593272",
+   "end": "2026-12-07T01:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "3e879c5df2e810bac0d4"
   },
   {
    "source": "Turbo Haüs",
@@ -1649,6 +1827,20 @@
    "id": "e87521055a4ca16e8098"
   },
   {
+   "source": "Système",
+   "title": "Drink n Draw",
+   "start": "2026-12-10T19:00:00-05:00",
+   "url": "https://ra.co/events/2584442",
+   "end": "2026-12-10T22:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c66dad638818af45ff67"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "6flamencos / Entre mis manos",
    "start": "2026-12-10T20:00:00-05:00",
@@ -1703,6 +1895,20 @@
    "all_day": false,
    "tab": "music",
    "id": "ea4febac47ea7e32d61f"
+  },
+  {
+   "source": "Système",
+   "title": "Bwi-Bwi + Xia",
+   "start": "2026-12-10T22:00:00-05:00",
+   "url": "https://ra.co/events/2584443",
+   "end": "2026-12-11T03:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "6ae38fd9cbe5b9014200"
   },
   {
    "source": "Bar Datcha",
@@ -1761,6 +1967,20 @@
    "id": "1cf89707b14c418bdfe6"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "PALOMINE ALBUM RELEASE",
+   "start": "2026-12-11T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/palomine-bar-le-ritz-pdb/20261211-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-jsalhl",
+   "end": "2026-12-11T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "all_day": false,
+   "tab": "music",
+   "id": "69022bc9b95a3689623d"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présente: LILY SEABIRD",
    "start": "2026-12-11T20:30:00-05:00",
@@ -1787,6 +2007,20 @@
    "all_day": false,
    "tab": "music",
    "id": "f51da97f066e4bd8b794"
+  },
+  {
+   "source": "Système",
+   "title": "arkan x Système",
+   "start": "2026-12-11T22:00:00-05:00",
+   "url": "https://ra.co/events/2584439",
+   "end": "2026-12-12T06:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "afbc26b05ab64092333e"
   },
   {
    "source": "Bar Datcha",
@@ -1971,6 +2205,34 @@
    "id": "21697f7997600ba0aec3"
   },
   {
+   "source": "Système",
+   "title": "Rave It Like the '90s",
+   "start": "2026-12-12T22:00:00-05:00",
+   "url": "https://ra.co/events/2584444",
+   "end": "2026-12-13T05:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "544dfae13b776403294c"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "ACID DREAMS",
+   "start": "2026-12-12T22:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/acid-dreams-bar-le-ritz-pdb/20261212-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-bdcht",
+   "end": "2026-12-13T15:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "all_day": false,
+   "tab": "music",
+   "id": "77ade220329931fb1328"
+  },
+  {
    "source": "Bar Datcha",
    "title": "NONSTOP: Midnite Club presents Jordan Gardner, 999ADJ, Groceries",
    "start": "2026-12-12T23:00:00-05:00",
@@ -1999,6 +2261,20 @@
    "id": "47b3cda5c132f6cc0925"
   },
   {
+   "source": "Système",
+   "title": "With Care // Avec Tendresse. A Holiday Market",
+   "start": "2026-12-13T12:00:00-05:00",
+   "url": "https://ra.co/events/2584450",
+   "end": "2026-12-13T17:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "5e35b4b7db657bf530b1"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Amnesty International Punk Write-a-Thon (feat. You Enemy, Dirty Milk, Sara Elbourne)",
    "start": "2026-12-13T13:00:00-05:00",
@@ -2011,6 +2287,20 @@
    "all_day": false,
    "tab": "music",
    "id": "491ce669b0fbf5415ec0"
+  },
+  {
+   "source": "Système",
+   "title": "Les Soirées Système",
+   "start": "2026-12-13T18:00:00-05:00",
+   "url": "https://ra.co/events/2593275",
+   "end": "2026-12-14T01:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "0862c211e94427c027cd"
   },
   {
    "source": "Casa del Popolo",
@@ -2067,6 +2357,20 @@
    "all_day": false,
    "tab": "music",
    "id": "caac6764dd373e5c408b"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "KYLE GORDON",
+   "start": "2026-12-13T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/kyle-gordon-bar-le-ritz-pdb/20261213-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l",
+   "end": "2026-12-13T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$37",
+   "all_day": false,
+   "tab": "music",
+   "id": "984c9d239ed1c9fb00a6"
   },
   {
    "source": "Turbo Haüs",
@@ -2265,6 +2569,20 @@
    "id": "3c3e88b432b3fc0e3801"
   },
   {
+   "source": "Système",
+   "title": "Hashman Deejay + Aram",
+   "start": "2026-12-17T22:00:00-05:00",
+   "url": "https://ra.co/events/2593287",
+   "end": "2026-12-18T03:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "1f84e2949472a1ccc9d2"
+  },
+  {
    "source": "Le Red Room",
    "title": "Road to Northern Invasion 2027 – Mtl",
    "start": "2026-12-18",
@@ -2349,6 +2667,34 @@
    "id": "7559ff33804de0080312"
   },
   {
+   "source": "Système",
+   "title": "N10.AS: Congrats! You're here",
+   "start": "2026-12-18T22:00:00-05:00",
+   "url": "https://ra.co/events/2593290",
+   "end": "2026-12-19T04:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "3b2958b551a53e17434c"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "siliCON VALLEY: THE TECH SCANDAL RAVE",
+   "start": "2026-12-18T23:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/sili-con-bar-le-ritz-pdb/20261218-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-9cb6a",
+   "end": "2026-12-19T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$19",
+   "all_day": false,
+   "tab": "music",
+   "id": "daa4984727a9afa13098"
+  },
+  {
    "source": "Stereo",
    "title": "Hicky & Kalo (All Night Long)",
    "start": "2026-12-18T23:59:00-05:00",
@@ -2405,6 +2751,20 @@
    "id": "4ce5e84e2bc3500a045a"
   },
   {
+   "source": "Système",
+   "title": "Groovy Castle",
+   "start": "2026-12-19T22:00:00-05:00",
+   "url": "https://ra.co/events/2593296",
+   "end": "2026-12-20T05:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b2ab1c48e58a39794e3c"
+  },
+  {
    "source": "SAT",
    "title": "AFROTONIK DANCE PARTY",
    "start": "2026-12-19T23:00:00-05:00",
@@ -2445,6 +2805,20 @@
    "all_day": false,
    "tab": "music",
    "id": "b7fc6ac05a8e16756e22"
+  },
+  {
+   "source": "Système",
+   "title": "Les Soirées Système",
+   "start": "2026-12-20T18:00:00-05:00",
+   "url": "https://ra.co/events/2593300",
+   "end": "2026-12-21T01:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "82893ee920bad4468d5d"
   },
   {
    "source": "Casa del Popolo",
@@ -2531,6 +2905,20 @@
    "id": "2d5c6bf1205648bf0bd6"
   },
   {
+   "source": "Système",
+   "title": "DéCaDANSE",
+   "start": "2026-12-26T23:00:00-05:00",
+   "url": "https://ra.co/events/2593306",
+   "end": "2026-12-27T05:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b0a1853d8ca8a66f600e"
+  },
+  {
    "source": "Stereo",
    "title": "Stereo x Analog Volts: Anthea - Oshana - Taimur",
    "start": "2026-12-26T23:59:00-05:00",
@@ -2543,6 +2931,20 @@
    "all_day": false,
    "tab": "music",
    "id": "2f987eb80e13459fb185"
+  },
+  {
+   "source": "Système",
+   "title": "Les Soirées Système",
+   "start": "2026-12-27T18:00:00-05:00",
+   "url": "https://ra.co/events/2593307",
+   "end": "2026-12-28T01:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "a7f369746e8f291e4410"
   },
   {
    "source": "Casa del Popolo",
@@ -2613,6 +3015,34 @@
    "all_day": false,
    "tab": "music",
    "id": "b5bc74e9dbf201dc8330"
+  },
+  {
+   "source": "Système",
+   "title": "A Ferias New Year",
+   "start": "2026-12-31T22:00:00-05:00",
+   "url": "https://ra.co/events/2593197",
+   "end": "2027-01-01T08:00:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "1124e6c6d9c224bb15dc"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "VOULEZ-VOUS 2027",
+   "start": "2026-12-31T22:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/voulez-vous2027-bar-le-ritz-pdb/20261231-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-2w96m",
+   "end": "2027-01-01T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$26",
+   "all_day": false,
+   "tab": "music",
+   "id": "cb207ebacd826d1e920d"
   },
   {
    "source": "Stereo",
@@ -2895,6 +3325,20 @@
    "id": "893b09dca49c77c58fea"
   },
   {
+   "source": "Système",
+   "title": "Ourson",
+   "start": "2027-01-28T19:00:00-05:00",
+   "url": "https://ra.co/events/2572947",
+   "end": "2027-01-28T23:59:00-05:00",
+   "location": "Système",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "all_day": false,
+   "tab": "music",
+   "id": "6cda94909ac517f00917"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Woody à la Casa Del Popolo",
    "start": "2027-01-28T20:00:00-05:00",
@@ -3021,6 +3465,20 @@
    "id": "1ef1c413813026ff59b4"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "GIRL ULTRA",
+   "start": "2027-02-06T19:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/girl-ultra-bar-le-ritz-pdb/20270206-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek-ybc5",
+   "end": "2027-02-06T22:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$34",
+   "all_day": false,
+   "tab": "music",
+   "id": "70369ccea896b26d3bc0"
+  },
+  {
    "source": "SAT",
    "title": "Dômesicle Winter 2027",
    "start": "2027-02-06T22:00:00-05:00",
@@ -3061,6 +3519,20 @@
    "all_day": false,
    "tab": "music",
    "id": "5af7d482324d88b38fb5"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "DANCE PARTY 2000",
+   "start": "2027-02-06T23:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/dance-party2000-bar-le-ritz-pdb/20270206-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek-ybc5-nmfd3",
+   "end": "2027-02-07T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$21",
+   "all_day": false,
+   "tab": "music",
+   "id": "23f144f0beb2ba6f0914"
   },
   {
    "source": "Casa del Popolo",
@@ -3147,6 +3619,20 @@
    "id": "f1275749600dd78190df"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "MORMOR",
+   "start": "2027-02-24T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/mor-mor-bar-le-ritz-pdb/20261202-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek",
+   "end": "2027-02-24T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "all_day": false,
+   "tab": "music",
+   "id": "aefe6dab53bdf3e75580"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "mokina (+ friends) Jardim Celeste Album Launch",
    "start": "2027-02-25T20:00:00-05:00",
@@ -3175,6 +3661,34 @@
    "id": "55590aacf3911c3c883b"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "THE JACK WHARFF BAND",
+   "start": "2027-02-26T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/jack-wharff-bar-le-ritz-pdb/20270226-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek-8r7h5r-dp23d",
+   "end": "2027-02-26T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$35",
+   "all_day": false,
+   "tab": "music",
+   "id": "96b3b0c913630aa4ea3b"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "POP PRINCESS: AN ADÉLA-INSPIRED DANCE NIGHT",
+   "start": "2027-02-26T23:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/adela-party-bar-le-ritz-pdb/20270226-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek-8r7h5r-dp23d-3lrll",
+   "end": "2027-02-27T03:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$19",
+   "all_day": false,
+   "tab": "music",
+   "id": "fa6a278bd45c3a126f16"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "JONAH YANO",
    "start": "2027-02-27T08:30:00-05:00",
@@ -3187,6 +3701,20 @@
    "all_day": false,
    "tab": "music",
    "id": "aecc7a223a367cf92833"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "renforshort",
+   "start": "2027-02-27T19:30:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/renforshort-bar-le-ritz-pdb/20270227-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-zshek-8r7h5r",
+   "end": "2027-02-27T22:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "all_day": false,
+   "tab": "music",
+   "id": "94d61894ced6d580c99e"
   },
   {
    "source": "Casa del Popolo",
@@ -3215,6 +3743,20 @@
    "all_day": false,
    "tab": "music",
    "id": "482e743ab27f4f2addd3"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "EARTH TO EVE",
+   "start": "2027-03-05T19:30:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/earth-to-eve-bar-le-ritz-pdb/20270305-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-h4tew-p8e9y",
+   "end": "2027-03-05T22:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "all_day": false,
+   "tab": "music",
+   "id": "b626325e77e7c6112ca6"
   },
   {
    "source": "SAT",
@@ -3271,6 +3813,34 @@
    "all_day": false,
    "tab": "music",
    "id": "7de978859e6bc3ce8942"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "WAY DYNAMIC",
+   "start": "2027-03-10T20:00:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/way-dynamic-bar-le-ritz-pdb/20260921-25bhh-ngtlb-c2xwh-dc3y4eleh-s9aax",
+   "end": "2027-03-10T23:00:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$29",
+   "all_day": false,
+   "tab": "music",
+   "id": "d5bf6fee597390db8ee6"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "CIGARETTES @ SUNSET",
+   "start": "2027-03-12T19:30:00.179000-05:00",
+   "url": "https://www.barleritzpdb.com/vnements/cigarettes-sunset-bar-le-ritz-pdb/20270312-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-h4tew-mnys6",
+   "end": "2027-03-12T22:30:00.179000-05:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$37",
+   "all_day": false,
+   "tab": "music",
+   "id": "bc11c233271ca7c7199e"
   },
   {
    "source": "Casa del Popolo",
@@ -3343,6 +3913,20 @@
    "id": "595b3e87cd0075e03783"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "VALENCIA GRACE",
+   "start": "2027-03-14T20:30:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/valencia-grace-bar-le-ritz-pdb/20270314-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h",
+   "end": "2027-03-14T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$113",
+   "all_day": false,
+   "tab": "music",
+   "id": "acd33ecd94e95fade494"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Efrim Manuel Menuck and Tashi Dorji Present BLOOM AND RUIN - Night #1",
    "start": "2027-03-17T20:00:00-04:00",
@@ -3383,6 +3967,34 @@
    "all_day": false,
    "tab": "music",
    "id": "decc95d798a1d37d97f3"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "CAROLINE ROSE",
+   "start": "2027-03-19T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/caroline-rose-bar-le-ritz-pdb/20270319-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-h4tew",
+   "end": "2027-03-19T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$34",
+   "all_day": false,
+   "tab": "music",
+   "id": "7e4bd7eda106b32758d9"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "DECLAN J DONOVAN",
+   "start": "2027-03-20T19:30:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/declan-j-donovan-bar-le-ritz-pdb/20270320-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-h4tew-hmbzm",
+   "end": "2027-03-20T22:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$114",
+   "all_day": false,
+   "tab": "music",
+   "id": "fa595b790dbf907fd1e2"
   },
   {
    "source": "Casa del Popolo",
@@ -3511,6 +4123,20 @@
    "id": "de65284feec867dc65d5"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "BRYAN ANDREWS",
+   "start": "2027-04-03T19:30:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/bryan-andrews-bar-le-ritz-pdb/20270403-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-bemk6rn-yhngw-b22fa",
+   "end": "2027-04-03T22:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$34",
+   "all_day": false,
+   "tab": "music",
+   "id": "5b1d8be195eec2b84347"
+  },
+  {
    "source": "SAT",
    "title": "Club SAT — Adrian Sherwood (UK) (Live) • Honeydrip",
    "start": "2027-04-03T22:00:00-04:00",
@@ -3539,6 +4165,20 @@
    "id": "5f4b230f6b5576412388"
   },
   {
+   "source": "Bar Le Ritz PDB",
+   "title": "BENEFIT CONCERT FOR WOMEN AWARE / FEMMES AVERTIES",
+   "start": "2027-04-08T19:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/women-aware-bar-le-ritz-pdb/20270408-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-bemk6rn-yhngw-b22fa-jnrd",
+   "end": "2027-04-08T22:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$29",
+   "all_day": false,
+   "tab": "music",
+   "id": "8f226683205ffb3c75ab"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Colin Léo - Léger Stress",
    "start": "2027-04-08T20:00:00-04:00",
@@ -3551,6 +4191,48 @@
    "all_day": false,
    "tab": "music",
    "id": "b674ac5e8812a63d613f"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "RIKAS",
+   "start": "2027-04-11T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/rikas-bar-le-ritz-pdb/20270411-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-bemk6rn-yhngw",
+   "end": "2027-04-11T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$29",
+   "all_day": false,
+   "tab": "music",
+   "id": "b65a7b891f30c63700b0"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "HOTEL MIRA",
+   "start": "2027-04-18T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/hotel-mira-bar-le-ritz-pdb/20270418-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w",
+   "end": "2027-04-18T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$29",
+   "all_day": false,
+   "tab": "music",
+   "id": "1a22eaad86f83b7e452c"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "PEEL DREAM MAGAZINE",
+   "start": "2027-04-28T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/peel-dream-magazine-bar-le-ritz-pdb/20270428-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-bemk6rn-yhngw-9zhxma",
+   "end": "2027-04-28T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$27",
+   "all_day": false,
+   "tab": "music",
+   "id": "6a63bfaeffa070b780ba"
   },
   {
    "source": "SAT",
@@ -3579,6 +4261,34 @@
    "all_day": false,
    "tab": "music",
    "id": "b732fde6bbc9f021cd28"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "MADRA SALACH",
+   "start": "2027-05-06T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/madra-salach-bar-le-ritz-pdb/20270506-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-4sagm-gj3aw",
+   "end": "2027-05-06T23:00:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$34",
+   "all_day": false,
+   "tab": "music",
+   "id": "1b2843972e596a12536f"
+  },
+  {
+   "source": "Bar Le Ritz PDB",
+   "title": "GURRIERS",
+   "start": "2027-05-08T20:00:00.179000-04:00",
+   "url": "https://www.barleritzpdb.com/vnements/gurriers-bar-le-ritz-pdb/20270508-25bhh-ngtlb-c2xwh-egb2b-hwn-dtxbz-cnt3l-mmw6h-fhh4w-4sagm",
+   "end": "2027-05-08T22:30:00.179000-04:00",
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
+   "kind": "",
+   "free": false,
+   "price": "$35",
+   "all_day": false,
+   "tab": "music",
+   "id": "ff016448a712e2db3450"
   },
   {
    "source": "Casa del Popolo",

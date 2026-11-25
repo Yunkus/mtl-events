@@ -49,6 +49,8 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Soft Studio Days | Luma host profile (what their /events page links to) |
 | Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
 | Boiler Room | boilerroom.tv/city/montreal (page data). It lists past shows too; only upcoming ones appear. |
+| Bar Le Ritz PDB | barleritzpdb.com events (Squarespace `?format=json`); name from each event's heading, price from its Universe ticket page |
+| Système | Resident Advisor venue 201918 (what systememtl.com links to) |
 
 ### Museums tab (`docs/museums.ics`)
 

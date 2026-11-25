@@ -432,6 +432,40 @@ def newspeak() -> list[Ev]:
     return out
 
 
+def universe_price(slug: str) -> tuple[bool | None, float | None, float | None]:
+    """(free, lowest, highest) from a Universe listing (universe.com/events/<slug>)."""
+    try:
+        lst = get(f"https://www.universe.com/api/v2/listings/{slug}").json().get("listing") or {}
+    except (requests.RequestException, ValueError):
+        return None, None, None
+    if lst.get("free"):
+        return True, None, None
+    return None, lst.get("price"), None
+
+
+def bar_le_ritz() -> list[Ev]:
+    """Bar Le Ritz PDB (Squarespace events page). The item title is just the date; the show's name is the
+    first heading in its description. Prices come from the Universe ticket link when there is one."""
+    base = "https://www.barleritzpdb.com"
+    d = get(f"{base}/", params={"format": "json"}).json()
+    out = []
+    for it in d.get("upcoming", []):
+        body = BeautifulSoup(it.get("body") or "", "html.parser")
+        head = body.find(["h1", "h2", "h3", "h4"])
+        title = clean(head.get_text(" ")) if head else clean(it.get("title"))
+        start = datetime.fromtimestamp(it["startDate"] / 1000, TZ)
+        end = datetime.fromtimestamp(it["endDate"] / 1000, TZ) if it.get("endDate") else None
+        ev = Ev("Bar Le Ritz PDB", title, start, base + it["fullUrl"], end, "Bar Le Ritz PDB, 179 Rue Jean-Talon O")
+        uni = next((m.group(1) for a in body.find_all("a", href=True)
+                    if (m := re.search(r"universe\.com/events/([a-z0-9-]+-[A-Z0-9]{6})", a["href"]))), None)
+        if uni:
+            priced(ev, *universe_price(uni))
+        else:
+            priced(ev, *price_from_text(" ".join(re.findall(r"\d+\s?\$|\$\s?\d+|gratuit|free", body.get_text(" "), re.I))))
+        out.append(ev)
+    return out
+
+
 def next_flight_text(html: str) -> str:
     """The data a Next.js app page streams in `self.__next_f.push([1, "..."])` script chunks, joined."""
     chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
@@ -672,6 +706,8 @@ EVENT_SOURCES = {
     "Laugh It Off": laugh_it_off,
     "Newspeak": newspeak,
     "Boiler Room": boiler_room,
+    "Bar Le Ritz PDB": bar_le_ritz,
+    "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
