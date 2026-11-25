@@ -485,6 +485,24 @@ def badslava(path: str, source: str, default_type: str, weeks: int = 4) -> list[
     return out
 
 
+# Weekly nights known first-hand, with no website to read.
+# (filter chip, title, weekday 0=Mon, start time, location, free)
+WEEKLY_BY_HAND = [
+    ("Trivia Nights", "Trivia Night at Honey Martin", 1, time(21, 30),
+     "Honey Martin, 5916 Sherbrooke St W Montreal QC", True),
+]
+
+
+def by_hand(weeks: int = 4) -> list[Ev]:
+    today = datetime.now(TZ).date()
+    out = []
+    for source, title, weekday, t, loc, free in WEEKLY_BY_HAND:
+        first = today + timedelta(days=(weekday - today.weekday()) % 7)
+        for w in range(weeks):
+            out.append(priced(Ev(source, title, local(first + timedelta(weeks=w), t), "", location=loc), free))
+    return out
+
+
 # ------------------------------------------------------------------ museums
 EN_ABBR = {m[:3]: i for m, i in EN_MONTHS.items()}
 
@@ -627,13 +645,14 @@ EVENT_SOURCES = {
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
     "Karaoke Nights": lambda: badslava("karaoke-nights.php?city=Montreal&state=QC", "Karaoke Nights", "Karaoke"),
+    "Added by hand": by_hand,   # events carry their own chip name (e.g. "Trivia Nights")
 }
 
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
-OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
+OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
 # Recurring bar nights get their own tab:
-BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights"}
+BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
 OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
                           r"book launch|lancement de livre|open mic comedy", re.I)

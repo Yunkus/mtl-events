@@ -299,7 +299,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     inTab.forEach(e => counts[e.source] = (counts[e.source] || 0) + 1);
     // chips = sources with events in this tab, plus sources that failed (shown crossed out)
     const names = new Set(Object.keys(counts));
-    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || EVENT_TABS.includes(tab))) names.add(n); });
+    // (a source that found events filed under other names, like "Added by hand", gets no chip of its own)
+    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || (EVENT_TABS.includes(tab) && !sources[n].count))) names.add(n); });
     if (names.size < 2) { chips.lastChild.remove(); return; }
     [...names].sort().forEach(name => {
       const s = sources[name];

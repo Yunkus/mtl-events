@@ -22,7 +22,7 @@ Le Red Room, Le Belmont, Favourite Library and the cinemas don't publish prices 
 
 Each event in the venue list below goes to **Music & Dance** unless:
 
-- its source is in `OTHER_SOURCES` in `scrape.py` (Laugh It Off, MTL Cookbook Club, Soft Studio Days,
+- its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days,
   Le Marché Vintage, 5 à Set), or
 - its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings…),
   which catches the non-music nights at music venues.
@@ -47,7 +47,6 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Le Belmont | /evenements (Wix events) |
 | MTL Cookbook Club | Luma calendar page (luma.com/mtlcookbookclub) |
 | Soft Studio Days | Luma host profile (what their /events page links to) |
-| Laugh It Off | the site's own events feed (Eventbrite shows), next 60 days only |
 | Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
 
 ### Museums tab (`docs/museums.ics`)
@@ -70,6 +69,8 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Source | How it's fetched |
 |---|---|
 | Trivia Nights, Comedy Open Mics, Karaoke Nights | badslava.com Montreal listings (trivia, comedy open mics, karaoke). The site shows one week; nights its detail page marks "Weekly" are repeated for 4 weeks. No links, since these are bar nights. Free/price comes from the detail page's "Event Cost". |
+| Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
+| Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 
 **Not included: Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
