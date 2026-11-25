@@ -1,99 +1,107 @@
 {
- "generated": "2026-11-25T15:42-05:00",
+ "generated": "2026-11-25T15:52-05:00",
  "tabs": {
-  "events": {
-   "title": "Montreal Events",
-   "feed": "calendar.ics"
+  "music": {
+   "title": "Montreal Music & Dance",
+   "feed": "music.ics",
+   "count": 246
+  },
+  "other": {
+   "title": "Montreal Other Events",
+   "feed": "other.ics",
+   "count": 57
   },
   "museums": {
    "title": "Montreal Museums",
-   "feed": "museums.ics"
+   "feed": "museums.ics",
+   "count": 56
   },
   "movies": {
    "title": "Montreal Movies",
-   "feed": "movies.ics"
+   "feed": "movies.ics",
+   "count": 401
   }
  },
  "sources": {
   "SAT": {
    "ok": true,
    "count": 31,
-   "tab": "events"
+   "tab": "music"
   },
   "Favourite Library": {
    "ok": true,
    "count": 1,
-   "tab": "events"
+   "tab": "music"
   },
   "Casa del Popolo": {
    "ok": true,
    "count": 118,
-   "tab": "events"
+   "tab": "music"
   },
   "Le Red Room": {
    "ok": true,
-   "count": 13,
-   "tab": "events"
+   "count": 12,
+   "tab": "music"
   },
   "Vino Disco": {
    "ok": true,
    "count": 4,
-   "tab": "events"
+   "tab": "music"
   },
   "Bar Datcha": {
    "ok": true,
    "count": 11,
-   "tab": "events"
+   "tab": "music"
   },
   "5 à Set": {
    "ok": true,
    "count": 1,
-   "tab": "events"
+   "tab": "other"
   },
   "Le Marché Vintage": {
    "ok": true,
    "count": 0,
-   "tab": "events"
+   "tab": "other"
   },
   "Stereo": {
    "ok": true,
    "count": 13,
-   "tab": "events"
+   "tab": "music"
   },
   "Salon Daomé": {
    "ok": true,
    "count": 7,
-   "tab": "events"
+   "tab": "music"
   },
   "Turbo Haüs": {
    "ok": true,
-   "count": 30,
-   "tab": "events"
+   "count": 28,
+   "tab": "music"
   },
   "Le Belmont": {
    "ok": true,
    "count": 8,
-   "tab": "events"
+   "tab": "music"
   },
   "MTL Cookbook Club": {
    "ok": true,
    "count": 1,
-   "tab": "events"
+   "tab": "other"
   },
   "Soft Studio Days": {
    "ok": true,
    "count": 4,
-   "tab": "events"
+   "tab": "other"
   },
   "Laugh It Off": {
    "ok": true,
    "count": 46,
-   "tab": "events"
+   "tab": "other"
   },
   "Newspeak": {
    "ok": true,
    "count": 18,
-   "tab": "events"
+   "tab": "music"
   },
   "Musées Montréal": {
    "ok": true,
@@ -121,29 +129,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Soft Studio Days",
-   "title": "Figure Drawing : The Female Form",
-   "start": "2026-11-25T18:30:00-05:00",
-   "url": "https://luma.com/jftov1fw",
-   "end": "2026-11-25T20:00:00-05:00",
-   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "5 à Set",
-   "title": "5 à Set: \"The Miseducation of Lauryn Hill\" Listening Party/Séance d'écoute",
-   "start": "2026-11-25T19:00:00-05:00",
-   "url": "https://www.eventbrite.com/e/5-a-set-the-miseducation-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072",
-   "end": "2026-11-25T19:00:00-05:00",
-   "location": "Alfred Café Buvette Griffintown",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -154,7 +140,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -165,7 +151,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -176,7 +162,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -187,7 +173,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -198,7 +184,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -209,7 +195,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -220,7 +206,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Vino Disco",
@@ -231,7 +217,7 @@
    "location": "Vino Disco",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -242,7 +228,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -253,7 +239,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -264,7 +250,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -275,7 +261,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -286,7 +272,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -297,7 +283,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -308,18 +294,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Le Red Room",
-   "title": "ÉVÉNEMENT PRIVÉ / PRIVATE EVENT",
-   "start": "2026-11-27",
-   "url": "https://leredroom.com/events/evenement-prive-private-event-2/",
-   "end": null,
-   "location": "Le Red Room",
-   "kind": "",
-   "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -330,7 +305,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -341,7 +316,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -352,7 +327,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -363,7 +338,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -374,29 +349,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the Water",
-   "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019",
-   "end": "2026-11-27T22:00:00-05:00",
-   "location": "Marché des Éclusiers",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Old Port Comedy Show in Montreal | Pro Comedy Show by the Water - Nov. 27",
-   "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-pro-comedy-show-by-the-water-nov-27-tickets-2003858496706",
-   "end": "2026-11-27T21:30:00-05:00",
-   "location": "Marché des Éclusiers",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -407,7 +360,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -418,7 +371,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -429,7 +382,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -440,7 +393,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Vino Disco",
@@ -451,7 +404,7 @@
    "location": "Vino Disco",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -462,7 +415,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -473,7 +426,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -484,7 +437,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -495,7 +448,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -506,18 +459,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Soft Studio Days",
-   "title": "1 year anniversary ★",
-   "start": "2026-11-28T17:30:00-05:00",
-   "url": "https://luma.com/kukqhsgv",
-   "end": "2026-11-28T20:30:00-05:00",
-   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -528,7 +470,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -539,7 +481,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -550,7 +492,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -561,7 +503,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -572,7 +514,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Vino Disco",
@@ -583,7 +525,7 @@
    "location": "Vino Disco",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -594,7 +536,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -605,7 +547,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -616,7 +558,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -627,7 +569,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -638,7 +580,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -649,7 +591,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -660,7 +602,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -671,7 +613,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -682,7 +624,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -693,7 +635,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -704,7 +646,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -715,7 +657,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -726,7 +668,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -737,7 +679,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -748,29 +690,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
-   "start": "2026-11-30T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-1992133979359",
-   "end": "2026-11-30T21:30:00-05:00",
-   "location": "Honey Martin",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on November 30",
-   "start": "2026-11-30T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-november-30-tickets-2003550340001",
-   "end": "2026-11-30T21:30:00-05:00",
-   "location": "Honey Martin",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -781,7 +701,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -792,29 +712,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
-   "start": "2026-12-01T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115",
-   "end": "2026-12-01T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 1",
-   "start": "2026-12-01T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-1-tickets-2004342070087",
-   "end": "2026-12-01T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -825,7 +723,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -836,7 +734,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -847,7 +745,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -858,7 +756,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -869,29 +767,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 2",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-2-tickets-1994071162526",
-   "end": "2026-12-02T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695",
-   "end": "2026-12-02T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -902,7 +778,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -913,7 +789,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -924,7 +800,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -935,7 +811,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -946,7 +822,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -957,7 +833,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -968,7 +844,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -979,7 +855,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Favourite Library",
@@ -990,7 +866,7 @@
    "location": "House show , Montreal",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1001,7 +877,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1012,7 +888,7 @@
    "location": "All venues",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1023,7 +899,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1034,7 +910,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1045,29 +921,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau -",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385",
-   "end": "2026-12-04T21:30:00-05:00",
-   "location": "Marché des Éclusiers",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau-tickets-2003900177374",
-   "end": "2026-12-04T22:00:00-05:00",
-   "location": "Marché des Éclusiers",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1078,7 +932,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -1089,7 +943,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -1100,7 +954,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -1111,7 +965,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -1122,7 +976,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -1133,7 +987,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -1144,7 +998,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -1155,18 +1009,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Turbo Haüs",
-   "title": "LA CLASH PODCAST ... LIVE!",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live",
-   "end": null,
-   "location": "Turbo Haüs",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1177,7 +1020,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1188,7 +1031,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1199,29 +1042,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
-   "start": "2026-12-05T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745",
-   "end": "2026-12-05T21:30:00-05:00",
-   "location": "Kawalees",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
-   "start": "2026-12-05T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004561488373",
-   "end": "2026-12-05T21:30:00-05:00",
-   "location": "Kawalees",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1232,7 +1053,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1243,7 +1064,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -1254,7 +1075,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -1265,7 +1086,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -1276,7 +1097,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -1287,7 +1108,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1298,7 +1119,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1309,40 +1130,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
-   "start": "2026-12-06T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469",
-   "end": "2026-12-06T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - Dec. 6",
-   "start": "2026-12-06T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-dec-6-tickets-1997803600348",
-   "end": "2026-12-06T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Pascale Pascale/ Hearts of Palm /Ahren Strange @ Sotterenea Dec 6th",
-   "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1353,7 +1141,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1364,7 +1152,18 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Pascale Pascale/ Hearts of Palm /Ahren Strange @ Sotterenea Dec 6th",
+   "start": "2026-12-06T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "all_day": false,
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1375,7 +1174,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1386,18 +1185,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1408,7 +1196,18 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "all_day": false,
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1419,29 +1218,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037",
-   "end": "2026-12-07T21:30:00-05:00",
-   "location": "Memento! - Brasserie Artisanale",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, December 7",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-december-7-tickets-1996656198438",
-   "end": "2026-12-07T21:30:00-05:00",
-   "location": "Memento! - Brasserie Artisanale",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1452,7 +1229,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1463,7 +1240,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1474,29 +1251,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
-   "start": "2026-12-08T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106",
-   "end": "2026-12-08T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 8 décembre",
-   "start": "2026-12-08T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-8-decembre-tickets-2004342120237",
-   "end": "2026-12-08T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1507,7 +1262,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1518,7 +1273,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1529,29 +1284,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 9",
-   "start": "2026-12-09T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-9-tickets-1994071206658",
-   "end": "2026-12-09T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2026-12-09T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698",
-   "end": "2026-12-09T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -1562,7 +1295,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1573,7 +1306,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1584,7 +1317,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1595,7 +1328,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -1606,7 +1339,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -1617,7 +1350,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -1628,7 +1361,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1639,7 +1372,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1650,7 +1383,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1661,7 +1394,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1672,7 +1405,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -1683,7 +1416,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -1694,7 +1427,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -1705,7 +1438,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -1716,7 +1449,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1727,7 +1460,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1738,7 +1471,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1749,7 +1482,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1760,7 +1493,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1771,29 +1504,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal - 12 décembre",
-   "start": "2026-12-12T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868",
-   "end": "2026-12-12T21:30:00-05:00",
-   "location": "Davidson Taverne",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal",
-   "start": "2026-12-12T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-tickets-2004849902026",
-   "end": "2026-12-12T21:30:00-05:00",
-   "location": "Davidson Taverne",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1804,7 +1515,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -1815,7 +1526,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Salon Daomé",
@@ -1826,7 +1537,7 @@
    "location": "Salon Daomé",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -1837,7 +1548,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -1848,7 +1559,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -1859,18 +1570,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Soft Studio Days",
-   "title": "ceramic picture frame",
-   "start": "2026-12-13T12:00:00-05:00",
-   "url": "https://luma.com/36q3zngt",
-   "end": "2026-12-13T14:00:00-05:00",
-   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1881,18 +1581,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "MTL Cookbook Club",
-   "title": "MTL Holiday Cookie Swap",
-   "start": "2026-12-13T15:00:00-05:00",
-   "url": "https://luma.com/eimb8vme",
-   "end": "2026-12-13T17:00:00-05:00",
-   "location": "Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1903,7 +1592,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1914,7 +1603,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1925,7 +1614,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1936,7 +1625,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1947,18 +1636,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "LECTURE ET LEVÉE DE FONDS - COCO, de Nathalie Doummar",
-   "start": "2026-12-14T19:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-15-lecture-et-levee-de-fonds-coco-de-nathalie-doummar",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -1969,7 +1647,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -1980,29 +1658,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
-   "start": "2026-12-15T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127",
-   "end": "2026-12-15T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 15",
-   "start": "2026-12-15T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-15-tickets-2004342090147",
-   "end": "2026-12-15T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2013,7 +1669,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2024,7 +1680,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2035,7 +1691,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2046,29 +1702,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown - 16 déc.",
-   "start": "2026-12-16T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461",
-   "end": "2026-12-16T22:00:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown",
-   "start": "2026-12-16T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-tickets-2004622056534",
-   "end": "2026-12-16T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2079,7 +1713,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2090,7 +1724,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -2101,7 +1735,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2112,7 +1746,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2123,7 +1757,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2134,7 +1768,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2145,7 +1779,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -2156,7 +1790,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2167,18 +1801,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Raquel and friends - a stand-up comedy show - EARLY SHOW",
-   "start": "2026-12-18T19:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-19-raquel-and-friends-a-stand-up-comedy-show",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2189,7 +1812,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2200,7 +1823,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2211,18 +1834,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "The Roast Of 2026",
-   "start": "2026-12-18T21:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-19-the-roast-of-2026",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2233,7 +1845,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -2244,7 +1856,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2255,7 +1867,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2266,7 +1878,7 @@
    "location": "Sala Resto",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2277,7 +1889,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2288,7 +1900,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -2299,7 +1911,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -2310,18 +1922,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Soft Studio Days",
-   "title": "Vision board 2027",
-   "start": "2026-12-20T18:00:00-05:00",
-   "url": "https://luma.com/drbw07zz",
-   "end": "2026-12-20T20:00:00-05:00",
-   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2332,7 +1933,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2343,7 +1944,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2354,18 +1955,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Turbo Haüs",
-   "title": "LE QUIZ DES SIMPSONS",
-   "start": "2026-12-22T19:30:00-05:00",
-   "url": "https://turbohaus.ca/calendrier/2026/12/22/le-quiz-des-simpsons",
-   "end": null,
-   "location": "Turbo Haüs",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2376,29 +1966,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal",
-   "start": "2026-12-22T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194",
-   "end": "2026-12-22T22:00:00-05:00",
-   "location": "Savoir Faire",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal on Dec. 22",
-   "start": "2026-12-22T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-on-dec-22-tickets-2004940952360",
-   "end": "2026-12-22T22:00:00-05:00",
-   "location": "Savoir Faire",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2409,51 +1977,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2026-12-23T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761",
-   "end": "2026-12-23T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 23",
-   "start": "2026-12-23T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-23-tickets-2005213634961",
-   "end": "2026-12-23T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Turbo Haüs",
-   "title": "FERMÉS // CLOSED ",
-   "start": "2026-12-24",
-   "url": "https://turbohaus.ca/calendrier/2026/12/24/ferms--closed-",
-   "end": null,
-   "location": "Turbo Haüs",
-   "kind": "",
-   "all_day": true,
-   "tab": "events"
-  },
-  {
-   "source": "Turbo Haüs",
-   "title": "FERMÉS // CLOSED ",
-   "start": "2026-12-25",
-   "url": "https://turbohaus.ca/calendrier/2026/12/25/ferms--closed-",
-   "end": null,
-   "location": "Turbo Haüs",
-   "kind": "",
-   "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Red Room",
@@ -2464,7 +1988,7 @@
    "location": "Le Red Room",
    "kind": "",
    "all_day": true,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -2475,7 +1999,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2486,29 +2010,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
-   "start": "2026-12-28T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-2004273653451",
-   "end": "2026-12-28T22:00:00-05:00",
-   "location": "Honey Martin",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on December 28",
-   "start": "2026-12-28T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-december-28-tickets-2004273723661",
-   "end": "2026-12-28T21:30:00-05:00",
-   "location": "Honey Martin",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2519,29 +2021,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2026-12-30T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859",
-   "end": "2026-12-30T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "New Year's Eve (Eve) Comedy Show at Lord William Pub - December 30",
-   "start": "2026-12-30T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/new-years-eve-eve-comedy-show-at-lord-william-pub-december-30-tickets-2005213638973",
-   "end": "2026-12-30T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2552,7 +2032,7 @@
    "location": "SAT – Other",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Bar Datcha",
@@ -2563,7 +2043,7 @@
    "location": "Bar Datcha",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2574,7 +2054,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -2585,7 +2065,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Stereo",
@@ -2596,51 +2076,7 @@
    "location": "Stereo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
-   "start": "2027-01-03T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883",
-   "end": "2027-01-03T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - January 3",
-   "start": "2027-01-03T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-january-3-tickets-2004633631154",
-   "end": "2027-01-03T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
-   "start": "2027-01-04T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725",
-   "end": "2027-01-04T21:30:00-05:00",
-   "location": "Memento! - Brasserie Artisanale",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, January 4",
-   "start": "2027-01-04T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-january-4-tickets-2005095919872",
-   "end": "2027-01-04T21:30:00-05:00",
-   "location": "Memento! - Brasserie Artisanale",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2651,29 +2087,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2027-01-06T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710",
-   "end": "2027-01-06T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - January 6",
-   "start": "2027-01-06T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-january-6-tickets-2005213640979",
-   "end": "2027-01-06T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -2684,7 +2098,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Le Belmont",
@@ -2695,7 +2109,7 @@
    "location": "Le Belmont",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2706,7 +2120,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2717,7 +2131,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2728,29 +2142,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
-   "start": "2027-01-12T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136",
-   "end": "2027-01-12T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 12 janvier",
-   "start": "2027-01-12T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-12-janvier-tickets-2004694210348",
-   "end": "2027-01-12T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2761,18 +2153,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2027-01-13T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713",
-   "end": "2027-01-13T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Vino Disco",
@@ -2783,7 +2164,7 @@
    "location": "Vino Disco",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2794,7 +2175,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2805,7 +2186,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2816,7 +2197,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2827,40 +2208,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
-   "start": "2027-01-19T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919",
-   "end": "2027-01-19T22:00:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on January 19",
-   "start": "2027-01-19T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-january-19-tickets-2004692451086",
-   "end": "2027-01-19T21:30:00-05:00",
-   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
-   "start": "2027-01-20T20:00:00-05:00",
-   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716",
-   "end": "2027-01-20T21:30:00-05:00",
-   "location": "Lord William Pub",
-   "kind": "",
-   "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Turbo Haüs",
@@ -2871,7 +2219,7 @@
    "location": "Turbo Haüs",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2882,7 +2230,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2893,7 +2241,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2904,7 +2252,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2915,7 +2263,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2926,7 +2274,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2937,7 +2285,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2948,7 +2296,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2959,7 +2307,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -2970,7 +2318,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -2981,7 +2329,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -2992,7 +2340,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3003,7 +2351,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3014,7 +2362,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3025,7 +2373,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3036,7 +2384,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3047,7 +2395,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3058,7 +2406,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3069,7 +2417,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3080,7 +2428,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3091,7 +2439,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3102,7 +2450,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3113,7 +2461,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3124,7 +2472,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3135,7 +2483,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3146,7 +2494,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3157,7 +2505,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3168,7 +2516,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3179,7 +2527,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3190,7 +2538,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3201,7 +2549,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3212,7 +2560,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3223,7 +2571,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3234,7 +2582,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3245,7 +2593,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3256,7 +2604,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3267,7 +2615,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3278,7 +2626,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3289,7 +2637,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3300,7 +2648,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3311,7 +2659,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3322,7 +2670,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3333,7 +2681,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3344,7 +2692,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3355,7 +2703,7 @@
    "location": "SAT – Satosphere",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Newspeak",
@@ -3366,7 +2714,7 @@
    "location": "Newspeak",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3377,7 +2725,7 @@
    "location": "La Toscadura",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3388,7 +2736,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3399,7 +2747,7 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3410,7 +2758,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3421,7 +2769,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3432,7 +2780,7 @@
    "location": "P'tit Ours",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3443,7 +2791,7 @@
    "location": "Casa Del Popolo",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "SAT",
@@ -3454,7 +2802,7 @@
    "location": "SAT – SAT Space",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3465,7 +2813,7 @@
    "location": "La Sotterenea",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
   },
   {
    "source": "Casa del Popolo",
@@ -3476,7 +2824,634 @@
    "location": "La Sala Rossa",
    "kind": "",
    "all_day": false,
-   "tab": "events"
+   "tab": "music"
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "Figure Drawing : The Female Form",
+   "start": "2026-11-25T18:30:00-05:00",
+   "url": "https://luma.com/jftov1fw",
+   "end": "2026-11-25T20:00:00-05:00",
+   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "5 à Set",
+   "title": "5 à Set: \"The Miseducation of Lauryn Hill\" Listening Party/Séance d'écoute",
+   "start": "2026-11-25T19:00:00-05:00",
+   "url": "https://www.eventbrite.com/e/5-a-set-the-miseducation-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072",
+   "end": "2026-11-25T19:00:00-05:00",
+   "location": "Alfred Café Buvette Griffintown",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the Water",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019",
+   "end": "2026-11-27T22:00:00-05:00",
+   "location": "Marché des Éclusiers",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Old Port Comedy Show in Montreal | Pro Comedy Show by the Water - Nov. 27",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-pro-comedy-show-by-the-water-nov-27-tickets-2003858496706",
+   "end": "2026-11-27T21:30:00-05:00",
+   "location": "Marché des Éclusiers",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "1 year anniversary ★",
+   "start": "2026-11-28T17:30:00-05:00",
+   "url": "https://luma.com/kukqhsgv",
+   "end": "2026-11-28T20:30:00-05:00",
+   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
+   "start": "2026-11-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-1992133979359",
+   "end": "2026-11-30T21:30:00-05:00",
+   "location": "Honey Martin",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on November 30",
+   "start": "2026-11-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-november-30-tickets-2003550340001",
+   "end": "2026-11-30T21:30:00-05:00",
+   "location": "Honey Martin",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2026-12-01T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115",
+   "end": "2026-12-01T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 1",
+   "start": "2026-12-01T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-1-tickets-2004342070087",
+   "end": "2026-12-01T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 2",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-2-tickets-1994071162526",
+   "end": "2026-12-02T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695",
+   "end": "2026-12-02T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau -",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385",
+   "end": "2026-12-04T21:30:00-05:00",
+   "location": "Marché des Éclusiers",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour au Vieux-Port de Montréal | Humour au bord de l'eau",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau-tickets-2003900177374",
+   "end": "2026-12-04T22:00:00-05:00",
+   "location": "Marché des Éclusiers",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Turbo Haüs",
+   "title": "LA CLASH PODCAST ... LIVE!",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live",
+   "end": null,
+   "location": "Turbo Haüs",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
+   "start": "2026-12-05T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745",
+   "end": "2026-12-05T21:30:00-05:00",
+   "location": "Kawalees",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
+   "start": "2026-12-05T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004561488373",
+   "end": "2026-12-05T21:30:00-05:00",
+   "location": "Kawalees",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469",
+   "end": "2026-12-06T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - Dec. 6",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-dec-6-tickets-1997803600348",
+   "end": "2026-12-06T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037",
+   "end": "2026-12-07T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, December 7",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-december-7-tickets-1996656198438",
+   "end": "2026-12-07T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106",
+   "end": "2026-12-08T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 8 décembre",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-8-decembre-tickets-2004342120237",
+   "end": "2026-12-08T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 9",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-9-tickets-1994071206658",
+   "end": "2026-12-09T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698",
+   "end": "2026-12-09T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal - 12 décembre",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868",
+   "end": "2026-12-12T21:30:00-05:00",
+   "location": "Davidson Taverne",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-tickets-2004849902026",
+   "end": "2026-12-12T21:30:00-05:00",
+   "location": "Davidson Taverne",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "ceramic picture frame",
+   "start": "2026-12-13T12:00:00-05:00",
+   "url": "https://luma.com/36q3zngt",
+   "end": "2026-12-13T14:00:00-05:00",
+   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "MTL Cookbook Club",
+   "title": "MTL Holiday Cookie Swap",
+   "start": "2026-12-13T15:00:00-05:00",
+   "url": "https://luma.com/eimb8vme",
+   "end": "2026-12-13T17:00:00-05:00",
+   "location": "Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "LECTURE ET LEVÉE DE FONDS - COCO, de Nathalie Doummar",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-15-lecture-et-levee-de-fonds-coco-de-nathalie-doummar",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2026-12-15T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127",
+   "end": "2026-12-15T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on December 15",
+   "start": "2026-12-15T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-december-15-tickets-2004342090147",
+   "end": "2026-12-15T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown - 16 déc.",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461",
+   "end": "2026-12-16T22:00:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Spectacle d’humour MERCREDI à Montréal | Open mic à Griffintown",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-tickets-2004622056534",
+   "end": "2026-12-16T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Raquel and friends - a stand-up comedy show - EARLY SHOW",
+   "start": "2026-12-18T19:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-19-raquel-and-friends-a-stand-up-comedy-show",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "The Roast Of 2026",
+   "start": "2026-12-18T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-19-the-roast-of-2026",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Soft Studio Days",
+   "title": "Vision board 2027",
+   "start": "2026-12-20T18:00:00-05:00",
+   "url": "https://luma.com/drbw07zz",
+   "end": "2026-12-20T20:00:00-05:00",
+   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Turbo Haüs",
+   "title": "LE QUIZ DES SIMPSONS",
+   "start": "2026-12-22T19:30:00-05:00",
+   "url": "https://turbohaus.ca/calendrier/2026/12/22/le-quiz-des-simpsons",
+   "end": null,
+   "location": "Turbo Haüs",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal",
+   "start": "2026-12-22T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194",
+   "end": "2026-12-22T22:00:00-05:00",
+   "location": "Savoir Faire",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal on Dec. 22",
+   "start": "2026-12-22T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-on-dec-22-tickets-2004940952360",
+   "end": "2026-12-22T22:00:00-05:00",
+   "location": "Savoir Faire",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761",
+   "end": "2026-12-23T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - December 23",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-december-23-tickets-2005213634961",
+   "end": "2026-12-23T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
+   "start": "2026-12-28T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-2004273653451",
+   "end": "2026-12-28T22:00:00-05:00",
+   "location": "Honey Martin",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on December 28",
+   "start": "2026-12-28T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-on-december-28-tickets-2004273723661",
+   "end": "2026-12-28T21:30:00-05:00",
+   "location": "Honey Martin",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2026-12-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859",
+   "end": "2026-12-30T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "New Year's Eve (Eve) Comedy Show at Lord William Pub - December 30",
+   "start": "2026-12-30T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/new-years-eve-eve-comedy-show-at-lord-william-pub-december-30-tickets-2005213638973",
+   "end": "2026-12-30T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2027-01-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883",
+   "end": "2027-01-03T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - January 3",
+   "start": "2027-01-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy-show-in-montreal-january-3-tickets-2004633631154",
+   "end": "2027-01-03T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy",
+   "start": "2027-01-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725",
+   "end": "2027-01-04T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy, January 4",
+   "start": "2027-01-04T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-january-4-tickets-2005095919872",
+   "end": "2027-01-04T21:30:00-05:00",
+   "location": "Memento! - Brasserie Artisanale",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-06T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710",
+   "end": "2027-01-06T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - January 6",
+   "start": "2027-01-06T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic-in-griffintown-january-6-tickets-2005213640979",
+   "end": "2027-01-06T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréal",
+   "start": "2027-01-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136",
+   "end": "2027-01-12T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "MARDI soirée standup | Le Main spectacle d'humour à Montréal - 12 janvier",
+   "start": "2027-01-12T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhumour-a-montreal-12-janvier-tickets-2004694210348",
+   "end": "2027-01-12T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-13T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713",
+   "end": "2027-01-13T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montreal",
+   "start": "2027-01-19T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919",
+   "end": "2027-01-19T22:00:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on January 19",
+   "start": "2027-01-19T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-show-in-montreal-on-january-19-tickets-2004692451086",
+   "end": "2027-01-19T21:30:00-05:00",
+   "location": "Bootlegger Cocktail Bar & Cuisine Montréal",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
+   "start": "2027-01-20T20:00:00-05:00",
+   "url": "https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716",
+   "end": "2027-01-20T21:30:00-05:00",
+   "location": "Lord William Pub",
+   "kind": "",
+   "all_day": false,
+   "tab": "other"
   },
   {
    "source": "Musées Montréal",

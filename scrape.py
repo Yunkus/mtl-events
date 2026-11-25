@@ -486,13 +486,35 @@ EVENT_SOURCES = {
     "Newspeak": newspeak,
 }
 
-# tab id -> (title, feed file, sources)
+# Events are split into "Music and Dance" and "Other Events".
+# Whole sources that are never music:
+OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
+# Non-music nights at music venues (comedy, talks, quizzes...):
+OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
+                          r"book launch|lancement de livre|open mic comedy", re.I)
+# Venue placeholders that aren't events at all:
+SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv[ée]\s*/\s*private event)\W*$", re.I)
+
+
+def event_tab(e: Ev) -> str:
+    return "other" if e.source in OTHER_SOURCES or OTHER_TITLES.search(e.title) else "music"
+
+
+# tab id -> (title, feed file); order = order on the page
 TABS = {
-    "events": ("Montreal Events", "calendar.ics", EVENT_SOURCES),
-    "museums": ("Montreal Museums", "museums.ics", {"Musées Montréal": musees_montreal}),
-    "movies": ("Montreal Movies", "movies.ics", {"Cinéma Cinéma": cinema_cinema,
-                                                  "Cinéma Moderne": cinema_moderne}),
+    "music": ("Montreal Music & Dance", "music.ics"),
+    "other": ("Montreal Other Events", "other.ics"),
+    "museums": ("Montreal Museums", "museums.ics"),
+    "movies": ("Montreal Movies", "movies.ics"),
 }
+# (sources, function choosing each event's tab, tab to file the source's status under)
+SOURCE_GROUPS = [
+    (EVENT_SOURCES, event_tab, lambda name: "other" if name in OTHER_SOURCES else "music"),
+    ({"Musées Montréal": musees_montreal}, lambda e: "museums", lambda name: "museums"),
+    ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
+]
+# calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change
+COMBINED = ("Montreal Events", "calendar.ics", {"music", "other"})
 
 
 # ------------------------------------------------------------------- output
@@ -565,23 +587,30 @@ def main() -> int:
     def sort_key(e):
         return e.start if not e.all_day else datetime.combine(e.start, time(0), TZ)
 
-    payload_events, status, tabs = [], {}, {}
-    for tab, (title, feed, sources) in TABS.items():
-        tab_events = []
+    by_tab: dict[str, list[Ev]] = {t: [] for t in TABS}
+    status = {}
+    for sources, pick_tab, home_tab in SOURCE_GROUPS:
         for name, fn in sources.items():
             try:
-                evs = [e for e in fn() if last_moment(e) >= cutoff]
-                tab_events += evs
-                status[name] = {"ok": True, "count": len(evs), "tab": tab}
-                print(f"  ok   {tab:8} {name:20} {len(evs):3} events")
+                evs = [e for e in fn() if last_moment(e) >= cutoff and not SKIP_TITLES.match(e.title)]
+                for e in evs:
+                    by_tab[pick_tab(e)].append(e)
+                status[name] = {"ok": True, "count": len(evs), "tab": home_tab(name)}
+                print(f"  ok   {home_tab(name):8} {name:20} {len(evs):3} events")
             except Exception as ex:  # one broken site must not break the whole feed
-                status[name] = {"ok": False, "error": f"{type(ex).__name__}: {ex}"[:300], "tab": tab}
-                print(f"  FAIL {tab:8} {name:20} {ex}")
+                status[name] = {"ok": False, "error": f"{type(ex).__name__}: {ex}"[:300], "tab": home_tab(name)}
+                print(f"  FAIL {home_tab(name):8} {name:20} {ex}")
                 traceback.print_exc(limit=2)
-        tab_events.sort(key=sort_key)
-        (OUT / feed).write_bytes(build_ics(tab_events, title))
-        payload_events += [to_json(e, tab) for e in tab_events]
-        tabs[tab] = {"title": title, "feed": feed}
+
+    payload_events, tabs = [], {}
+    for tab, (title, feed) in TABS.items():
+        by_tab[tab].sort(key=sort_key)
+        (OUT / feed).write_bytes(build_ics(by_tab[tab], title))
+        payload_events += [to_json(e, tab) for e in by_tab[tab]]
+        tabs[tab] = {"title": title, "feed": feed, "count": len(by_tab[tab])}
+        print(f"  {tab:8} {len(by_tab[tab]):4}")
+    title, feed, members = COMBINED
+    (OUT / feed).write_bytes(build_ics(sorted((e for t in members for e in by_tab[t]), key=sort_key), title))
 
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"),
                "tabs": tabs, "sources": status, "events": payload_events}

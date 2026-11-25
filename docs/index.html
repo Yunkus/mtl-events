@@ -78,9 +78,10 @@
 </div>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { events: "Events", museums: "Museums", movies: "Movies" };
-const PLACEHOLDER = { events: "Search artists, titles, rooms…", museums: "Search exhibitions, museums…",
-                      movies: "Search films, cinemas…" };
+const TAB_LABEL = { music: "Music & Dance", other: "Other Events", museums: "Museums", movies: "Movies" };
+const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
+                      museums: "Search exhibitions, museums…", movies: "Search films, cinemas…" };
+const EVENT_TABS = ["music", "other"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -113,8 +114,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const gen = new Date(data.generated).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" });
 
   const tabIds = Object.keys(tabsInfo);
-  let tab = location.hash.slice(1);
-  if (!tabIds.includes(tab)) tab = store.get("tab", "events");
+  const fix = t => (t === "events" ? "music" : t);   // the old single Events tab
+  let tab = fix(location.hash.slice(1));
+  if (!tabIds.includes(tab)) tab = fix(store.get("tab", "music"));
   if (!tabIds.includes(tab)) tab = tabIds[0];
 
   const tabsEl = $("tabs");
@@ -163,7 +165,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     events.forEach(e => { if (e.tab === tab) counts[e.source] = (counts[e.source] || 0) + 1; });
     // chips = sources with events in this tab, plus sources that failed (shown crossed out)
     const names = new Set(Object.keys(counts));
-    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || tab === "events")) names.add(n); });
+    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || EVENT_TABS.includes(tab))) names.add(n); });
     if (names.size < 2) return;
     [...names].sort().forEach(name => {
       const s = sources[name];
@@ -247,7 +249,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     }
   }
 
-  window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (tabIds.includes(h) && h !== tab) select(h); });
+  window.addEventListener("hashchange", () => { const h = fix(location.hash.slice(1)); if (tabIds.includes(h) && h !== tab) select(h); });
   select(tab);
 }).catch(err => { $("meta").textContent = "Could not load events.json (" + err + ")"; });
 </script>

@@ -1,0 +1,729 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Montreal Event Calendar//EN
+X-WR-CALNAME:Montreal Other Events
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-WR-TIMEZONE:America/Montreal
+BEGIN:VEVENT
+SUMMARY:Figure Drawing : The Female Form @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261125T183000
+DTEND;TZID=America/Montreal:20261125T200000
+DTSTAMP:20261125T205210Z
+UID:8b7d00b65bbc80feb14e@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/jftov1fw
+LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
+URL:https://luma.com/jftov1fw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5 à Set: "The Miseducation of Lauryn Hill" Listening Party/Séanc
+ e d'écoute @ 5 à Set
+DTSTART;TZID=America/Montreal:20261125T190000
+DTEND;TZID=America/Montreal:20261125T220000
+DTSTAMP:20261125T205210Z
+UID:5c807efe22591e1ad7de@mtl-events
+DESCRIPTION:5 à Set\nhttps://www.eventbrite.com/e/5-a-set-the-miseducatio
+ n-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072
+LOCATION:Alfred Café Buvette Griffintown
+URL:https://www.eventbrite.com/e/5-a-set-the-miseducation-of-lauryn-hill-l
+ istening-partyseance-decoute-tickets-2005209660072
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the W
+ ater @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261127T200000
+DTEND;TZID=America/Montreal:20261127T220000
+DTSTAMP:20261125T205210Z
+UID:5ede711f785279d62e85@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/old-port-comedy-show
+ -in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pr
+ o-comedy-show-by-the-water-tickets-2003441019019
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Old Port Comedy Show in Montreal | Pro Comedy Show by the Water - 
+ Nov. 27 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261127T200000
+DTEND;TZID=America/Montreal:20261127T213000
+DTSTAMP:20261125T205210Z
+UID:bc1b9e820e62d838d26f@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/old-port-comedy-show
+ -in-montreal-pro-comedy-show-by-the-water-nov-27-tickets-2003858496706
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-pro-comed
+ y-show-by-the-water-nov-27-tickets-2003858496706
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1 year anniversary ★ @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261128T173000
+DTEND;TZID=America/Montreal:20261128T203000
+DTSTAMP:20261125T205210Z
+UID:deac52723d022fcabc67@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/kukqhsgv
+LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
+  3K5\, Canada
+URL:https://luma.com/kukqhsgv
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal @ Laugh
+  It Off
+DTSTART;TZID=America/Montreal:20261130T200000
+DTEND;TZID=America/Montreal:20261130T213000
+DTSTAMP:20261125T205210Z
+UID:64e7ed1f30e75bdba1d4@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-tickets-1992133979359
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-tickets-1992133979359
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on Nove
+ mber 30 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261130T200000
+DTEND;TZID=America/Montreal:20261130T213000
+DTSTAMP:20261125T205210Z
+UID:556ce089efdb5ec7b1f4@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-on-november-30-tickets-2003550340001
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-on-november-30-tickets-2003550340001
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261201T200000
+DTEND;TZID=America/Montreal:20261201T213000
+DTSTAMP:20261125T205210Z
+UID:1d23675a4a28a2b6b2e7@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004035830115
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Dece
+ mber 1 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261201T200000
+DTEND;TZID=America/Montreal:20261201T213000
+DTSTAMP:20261125T205210Z
+UID:e7e4d465a2b5276a4df2@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-december-1-tickets-2004342070087
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-december-1-tickets-2004342070087
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 2 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261202T200000
+DTEND;TZID=America/Montreal:20261202T213000
+DTSTAMP:20261125T205210Z
+UID:483d72d66cfb5003f395@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-2-tickets-1994071162526
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-2-tickets-1994071162526
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261202T200000
+DTEND;TZID=America/Montreal:20261202T213000
+DTSTAMP:20261125T205210Z
+UID:fb0e036728594150ee95@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265385695
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour au Vieux-Port de Montréal | Humour au bord d
+ e l'eau - @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T213000
+DTSTAMP:20261125T205210Z
+UID:db5ba6db04855f3f9b26@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-au
+ -vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montrea
+ l-humour-au-bord-de-leau--tickets-2003491291385
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour au Vieux-Port de Montréal | Humour au bord d
+ e l'eau @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T220000
+DTSTAMP:20261125T205210Z
+UID:4f14fbcaeff316e97896@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-au
+ -vieux-port-de-montreal-humour-au-bord-de-leau-tickets-2003900177374
+LOCATION:Marché des Éclusiers
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montrea
+ l-humour-au-bord-de-leau-tickets-2003900177374
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LA CLASH PODCAST ... LIVE! @ Turbo Haüs
+DTSTART;TZID=America/Montreal:20261205T130000
+DTEND;TZID=America/Montreal:20261205T160000
+DTSTAMP:20261125T205210Z
+UID:5505f03daeb699a41706@mtl-events
+DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/5/la-clas
+ h-podcast--live
+LOCATION:Turbo Haüs
+URL:https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montre
+ al @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T213000
+DTSTAMP:20261125T205210Z
+UID:1df9847ef317a0d112bc@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/saturday-night-comed
+ y-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745
+LOCATION:Kawalees
+URL:https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-come
+ dy-spotlight-in-montreal-tickets-2004467330745
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montre
+ al @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T213000
+DTSTAMP:20261125T205210Z
+UID:54a92ac717d1134b9111@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/saturday-night-comed
+ y-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004561488373
+LOCATION:Kawalees
+URL:https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-come
+ dy-spotlight-in-montreal-tickets-2004561488373
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
+ ntreal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261206T193000
+DTEND;TZID=America/Montreal:20261206T213000
+DTSTAMP:20261125T205210Z
+UID:5382ef73a757f123640b@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-
+ up-comedy-show-in-montreal-tickets-1997803306469
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - 
+ Dec. 6 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261206T193000
+DTEND;TZID=America/Montreal:20261206T213000
+DTSTAMP:20261125T205210Z
+UID:485d0112c4ace4e263cb@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-comedy-show-in-montreal-dec-6-tickets-1997803600348
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy
+ -show-in-montreal-dec-6-tickets-1997803600348
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
+ augh It Off
+DTSTART;TZID=America/Montreal:20261207T200000
+DTEND;TZID=America/Montreal:20261207T213000
+DTSTAMP:20261125T205210Z
+UID:5fe8b544d4a55c837f99@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-tickets-1996655730037
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy\, D
+ ecember 7 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261207T200000
+DTEND;TZID=America/Montreal:20261207T213000
+DTSTAMP:20261125T205210Z
+UID:d38db88351d5f2813a39@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-december-7-tickets-1996656198438
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-december-7-tickets-1996656198438
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261208T200000
+DTEND;TZID=America/Montreal:20261208T213000
+DTSTAMP:20261125T205210Z
+UID:732c42a62a13da95a322@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-tickets-2004341742106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI soirée standup | Le Main spectacle d'humour à Montréal - 
+ 8 décembre @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261208T200000
+DTEND;TZID=America/Montreal:20261208T213000
+DTSTAMP:20261125T205210Z
+UID:92be33ca058beef2841a@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -le-main-spectacle-dhumour-a-montreal-8-decembre-tickets-2004342120237
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhu
+ mour-a-montreal-8-decembre-tickets-2004342120237
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 9 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261209T200000
+DTEND;TZID=America/Montreal:20261209T213000
+DTSTAMP:20261125T205210Z
+UID:f5b5908749bbb3d7a2b1@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-9-tickets-1994071206658
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-9-tickets-1994071206658
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261209T200000
+DTEND;TZID=America/Montreal:20261209T213000
+DTSTAMP:20261125T205210Z
+UID:cbd63bf6a65b664ac581@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265386698
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal - 12 
+ décembre @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261212T200000
+DTEND;TZID=America/Montreal:20261212T213000
+DTSTAMP:20261125T205210Z
+UID:59478af2f4bb2c31b007@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/samedi-hochelagag-co
+ medie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868
+LOCATION:Davidson Taverne
+URL:https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumou
+ r-a-montreal-12-decembre-tickets-2004569677868
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal @ Lau
+ gh It Off
+DTSTART;TZID=America/Montreal:20261212T200000
+DTEND;TZID=America/Montreal:20261212T213000
+DTSTAMP:20261125T205210Z
+UID:902c2e41984b896c7789@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/samedi-hochelagag-co
+ medie-spectacle-dhumour-a-montreal-tickets-2004849902026
+LOCATION:Davidson Taverne
+URL:https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumou
+ r-a-montreal-tickets-2004849902026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ceramic picture frame @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261213T120000
+DTEND;TZID=America/Montreal:20261213T140000
+DTSTAMP:20261125T205210Z
+UID:1ac5db9aeaa2b8682f67@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/36q3zngt
+LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
+  3K5\, Canada
+URL:https://luma.com/36q3zngt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MTL Holiday Cookie Swap @ MTL Cookbook Club
+DTSTART;TZID=America/Montreal:20261213T150000
+DTEND;TZID=America/Montreal:20261213T170000
+DTSTAMP:20261125T205210Z
+UID:f2775b1dae62ca676949@mtl-events
+DESCRIPTION:MTL Cookbook Club\nhttps://luma.com/eimb8vme
+LOCATION:Montréal
+URL:https://luma.com/eimb8vme
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LECTURE ET LEVÉE DE FONDS - COCO\, de Nathalie Doummar @ Casa del
+  Popolo
+DTSTART;TZID=America/Montreal:20261214T190000
+DTEND;TZID=America/Montreal:20261214T220000
+DTSTAMP:20261125T205210Z
+UID:b5b2f4849abf8a2990c2@mtl-events
+DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
+ 5-lecture-et-levee-de-fonds-coco-de-nathalie-doummar
+LOCATION:La Sala Rossa
+URL:https://casadelpopolo.com/en/events/2026-12-15-lecture-et-levee-de-fon
+ ds-coco-de-nathalie-doummar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261215T200000
+DTEND;TZID=America/Montreal:20261215T213000
+DTSTAMP:20261125T205210Z
+UID:f91def58dfb250b4522e@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004035834127
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Dece
+ mber 15 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261215T200000
+DTEND;TZID=America/Montreal:20261215T213000
+DTSTAMP:20261125T205210Z
+UID:c9281618f14f0aa46f21@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-december-15-tickets-2004342090147
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-december-15-tickets-2004342090147
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour MERCREDI à Montréal | Open mic à Griffinto
+ wn - 16 déc. @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261216T200000
+DTEND;TZID=America/Montreal:20261216T220000
+DTSTAMP:20261125T205210Z
+UID:31c3341b9906bd0222ad@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-me
+ rcredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open
+ -mic-a-griffintown-16-dec-tickets-2003490982461
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spectacle d’humour MERCREDI à Montréal | Open mic à Griffinto
+ wn @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261216T200000
+DTEND;TZID=America/Montreal:20261216T213000
+DTSTAMP:20261125T205210Z
+UID:99ccdfca1ab9f6c11046@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/spectacle-dhumour-me
+ rcredi-a-montreal-open-mic-a-griffintown-tickets-2004622056534
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open
+ -mic-a-griffintown-tickets-2004622056534
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Raquel and friends - a stand-up comedy show - EARLY SHOW @ Casa de
+ l Popolo
+DTSTART;TZID=America/Montreal:20261218T193000
+DTEND;TZID=America/Montreal:20261218T223000
+DTSTAMP:20261125T205210Z
+UID:4599be07fdff86d6786f@mtl-events
+DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
+ 9-raquel-and-friends-a-stand-up-comedy-show
+LOCATION:P'tit Ours
+URL:https://casadelpopolo.com/en/events/2026-12-19-raquel-and-friends-a-st
+ and-up-comedy-show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Roast Of 2026 @ Casa del Popolo
+DTSTART;TZID=America/Montreal:20261218T210000
+DTEND;TZID=America/Montreal:20261219T000000
+DTSTAMP:20261125T205210Z
+UID:299f6321d63b30b96bd9@mtl-events
+DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
+ 9-the-roast-of-2026
+LOCATION:P'tit Ours
+URL:https://casadelpopolo.com/en/events/2026-12-19-the-roast-of-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vision board 2027 @ Soft Studio Days
+DTSTART;TZID=America/Montreal:20261220T180000
+DTEND;TZID=America/Montreal:20261220T200000
+DTSTAMP:20261125T205210Z
+UID:ece5c438a1b74f820854@mtl-events
+DESCRIPTION:Soft Studio Days\nhttps://luma.com/drbw07zz
+LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
+URL:https://luma.com/drbw07zz
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LE QUIZ DES SIMPSONS @ Turbo Haüs
+DTSTART;TZID=America/Montreal:20261222T193000
+DTEND;TZID=America/Montreal:20261222T223000
+DTSTAMP:20261125T205210Z
+UID:b0874798692b6e830cf3@mtl-events
+DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/22/le-qui
+ z-des-simpsons
+LOCATION:Turbo Haüs
+URL:https://turbohaus.ca/calendrier/2026/12/22/le-quiz-des-simpsons
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal @
+  Laugh It Off
+DTSTART;TZID=America/Montreal:20261222T200000
+DTEND;TZID=America/Montreal:20261222T220000
+DTSTAMP:20261125T205210Z
+UID:480dbf289ddbd95bbb04@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/shake-it-off-standup
+ -comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194
+LOCATION:Savoir Faire
+URL:https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-sav
+ oir-faire-montreal-tickets-2004940228194
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shake It Off | Standup Comedy & Dancing at Savoir Faire Montreal o
+ n Dec. 22 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261222T200000
+DTEND;TZID=America/Montreal:20261222T220000
+DTSTAMP:20261125T205210Z
+UID:d0fb1659cec5df711b05@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/shake-it-off-standup
+ -comedy-dancing-at-savoir-faire-montreal-on-dec-22-tickets-2004940952360
+LOCATION:Savoir Faire
+URL:https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-sav
+ oir-faire-montreal-on-dec-22-tickets-2004940952360
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261223T200000
+DTEND;TZID=America/Montreal:20261223T213000
+DTSTAMP:20261125T205210Z
+UID:63c7e970e9b72333665d@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2004412839761
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Dece
+ mber 23 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261223T200000
+DTEND;TZID=America/Montreal:20261223T213000
+DTSTAMP:20261125T205210Z
+UID:2b724bd16410cd25d410@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-december-23-tickets-2005213634961
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-december-23-tickets-2005213634961
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal @ Laugh
+  It Off
+DTSTART;TZID=America/Montreal:20261228T200000
+DTEND;TZID=America/Montreal:20261228T220000
+DTSTAMP:20261125T205210Z
+UID:13471164f7f464e551af@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-tickets-2004273653451
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-tickets-2004273653451
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal on Dece
+ mber 28 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261228T200000
+DTEND;TZID=America/Montreal:20261228T213000
+DTSTAMP:20261125T205210Z
+UID:936727b13ca66b4f3632@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/monday-stand-up-come
+ dy-show-free-comedy-show-in-montreal-on-december-28-tickets-2004273723661
+LOCATION:Honey Martin
+URL:https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-sh
+ ow-in-montreal-on-december-28-tickets-2004273723661
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261230T200000
+DTEND;TZID=America/Montreal:20261230T213000
+DTSTAMP:20261125T205210Z
+UID:bc37432de95e6efbd4d0@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2005213600859
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Year's Eve (Eve) Comedy Show at Lord William Pub - December 30
+  @ Laugh It Off
+DTSTART;TZID=America/Montreal:20261230T200000
+DTEND;TZID=America/Montreal:20261230T213000
+DTSTAMP:20261125T205210Z
+UID:f0a40a22d4ee67f2eaf0@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/new-years-eve-eve-co
+ medy-show-at-lord-william-pub-december-30-tickets-2005213638973
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/new-years-eve-eve-comedy-show-at-lord-will
+ iam-pub-december-30-tickets-2005213638973
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
+ ntreal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270103T193000
+DTEND;TZID=America/Montreal:20270103T213000
+DTSTAMP:20261125T205210Z
+UID:e5d2d6e4fcec398c2d3a@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-
+ up-comedy-show-in-montreal-tickets-2004632871883
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Comedy Show in Montreal - 
+ January 3 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270103T193000
+DTEND;TZID=America/Montreal:20270103T213000
+DTSTAMP:20261125T205210Z
+UID:e8bd51e8bc66033dc7eb@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/sunday-weekend-wrap-
+ up-social-mixer-comedy-show-in-montreal-january-3-tickets-2004633631154
+LOCATION:Café Social B Hive
+URL:https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-comedy
+ -show-in-montreal-january-3-tickets-2004633631154
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
+ augh It Off
+DTSTART;TZID=America/Montreal:20270104T200000
+DTEND;TZID=America/Montreal:20270104T213000
+DTSTAMP:20261125T205210Z
+UID:ee98d2b8f385411032e8@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-tickets-2005095870725
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy\, J
+ anuary 4 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270104T200000
+DTEND;TZID=America/Montreal:20270104T213000
+DTSTAMP:20261125T205210Z
+UID:5b9802a49eaced329602@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/the-canal-comedy-sho
+ w-in-montreal-monday-pro-stand-up-comedy-january-4-tickets-2005095919872
+LOCATION:Memento! - Brasserie Artisanale
+URL:https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-p
+ ro-stand-up-comedy-january-4-tickets-2005095919872
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270106T200000
+DTEND;TZID=America/Montreal:20270106T213000
+DTSTAMP:20261125T205210Z
+UID:b3fbe621a4d7acdba804@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265390710
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Comedy Show in Montreal | Open Mic in Griffintown - Janu
+ ary 6 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270106T200000
+DTEND;TZID=America/Montreal:20270106T213000
+DTSTAMP:20261125T205210Z
+UID:90c87e9edcca2c6df514@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-comedy-sho
+ w-in-montreal-open-mic-in-griffintown-january-6-tickets-2005213640979
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-comedy-show-in-montreal-open-mic
+ -in-griffintown-january-6-tickets-2005213640979
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
+ l @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270112T200000
+DTEND;TZID=America/Montreal:20270112T213000
+DTSTAMP:20261125T205210Z
+UID:7758de034d6085642911@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle
+ -dhumour-a-montreal-tickets-2004341752136
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MARDI soirée standup | Le Main spectacle d'humour à Montréal - 
+ 12 janvier @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270112T200000
+DTEND;TZID=America/Montreal:20270112T213000
+DTSTAMP:20261125T205210Z
+UID:8c63189b659e476f4ab9@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/mardi-soiree-standup
+ -le-main-spectacle-dhumour-a-montreal-12-janvier-tickets-2004694210348
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/mardi-soiree-standup-le-main-spectacle-dhu
+ mour-a-montreal-12-janvier-tickets-2004694210348
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270113T200000
+DTEND;TZID=America/Montreal:20270113T213000
+DTSTAMP:20261125T205210Z
+UID:eff52acd9e17801286cf@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265391713
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
+ eal @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270119T200000
+DTEND;TZID=America/Montreal:20270119T220000
+DTSTAMP:20261125T205210Z
+UID:28e44a8c31db9e275a36@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-night-pro-st
+ and-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main
+ -comedy-night-in-montreal-tickets-2004692060919
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TUESDAY Pro Comedy Show | The Main Comedy Show in Montreal on Janu
+ ary 19 @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270119T200000
+DTEND;TZID=America/Montreal:20270119T213000
+DTSTAMP:20261125T205210Z
+UID:8e3be12daec1d66fbf7f@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/tuesday-pro-comedy-s
+ how-the-main-comedy-show-in-montreal-on-january-19-tickets-2004692451086
+LOCATION:Bootlegger Cocktail Bar & Cuisine Montréal
+URL:https://www.eventbrite.ca/e/tuesday-pro-comedy-show-the-main-comedy-sh
+ ow-in-montreal-on-january-19-tickets-2004692451086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
+ intown @ Laugh It Off
+DTSTART;TZID=America/Montreal:20270120T200000
+DTEND;TZID=America/Montreal:20270120T213000
+DTSTAMP:20261125T205210Z
+UID:f4a087bb84c1cf832abc@mtl-events
+DESCRIPTION:Laugh It Off\nhttps://www.eventbrite.ca/e/wednesday-night-come
+ dy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716
+LOCATION:Lord William Pub
+URL:https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-op
+ en-mic-comedy-in-griffintown-tickets-2003265392716
+END:VEVENT
+END:VCALENDAR

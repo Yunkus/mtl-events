@@ -3,10 +3,22 @@
 Scrapes upcoming events from a list of Montreal venues every 6 hours and publishes:
 
 - `docs/index.html` – a filterable web page
-- `docs/calendar.ics`, `docs/museums.ics`, `docs/movies.ics` – one feed per tab (Events, Museums, Movies)
-  that you subscribe to in Google / Apple / Outlook Calendar
+- one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
+  `music.ics` (Music & Dance), `other.ics` (Other Events), `museums.ics`, `movies.ics`.
+  `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
-## Sources
+## Music & Dance vs Other Events
+
+Each event in the venue list below goes to **Music & Dance** unless:
+
+- its source is in `OTHER_SOURCES` in `scrape.py` (Laugh It Off, MTL Cookbook Club, Soft Studio Days,
+  Le Marché Vintage, 5 à Set), or
+- its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings…),
+  which catches the non-music nights at music venues.
+
+"Closed" and "private event" placeholders are dropped.
+
+## Sources (Music & Dance and Other Events tabs)
 
 | Venue | How it's fetched |
 |---|---|
