@@ -47,10 +47,45 @@ class Ev:
     end: datetime | date | None = None   # for exhibitions: the last day (inclusive)
     location: str = ""
     kind: str = ""                       # "exhibition", or a museum event type
+    free: bool | None = None             # True = free, False = paid, None = unknown
+    price: str = ""                      # short display text, e.g. "$10" or "$15–20"
 
     @property
     def all_day(self) -> bool:
         return not isinstance(self.start, datetime)
+
+
+def money(lo: float | None, hi: float | None = None) -> str:
+    """'$10', '$15–20' (rounded to whole dollars)."""
+    if lo is None:
+        return ""
+    a, b = round(lo), round(hi) if hi is not None else None
+    return f"${a}" if b is None or b == a else f"${a}–{b}"
+
+
+def priced(e: "Ev", free: bool | None, lo: float | None = None, hi: float | None = None, text: str = "") -> "Ev":
+    """Attach price info to an event. A zero price counts as free."""
+    if free is None and lo is not None:
+        free = (hi or lo) == 0
+    e.free = free
+    e.price = "" if free else (text or money(lo, hi))
+    return e
+
+
+FREE_TEXT = re.compile(r"\b(free|gratuit[e]?|entrée libre|free entry|free admission|no cover)\b", re.I)
+
+
+def price_from_text(text: str) -> tuple[bool | None, float | None, float | None]:
+    """(free, lowest, highest) from a short price string like 'GRATUIT // FREE', '15$ PWYC', '$10.00', '10-20'."""
+    text = clean(text)
+    if not text:
+        return None, None, None
+    if FREE_TEXT.search(text) and not re.search(r"\d", text):
+        return True, None, None
+    nums = [float(x.replace(",", ".")) for x in re.findall(r"(\d+(?:[.,]\d{1,2})?)", text)]
+    if nums:
+        return max(nums) == 0, min(nums), max(nums)
+    return None, None, None
 
 
 # ----------------------------------------------------------------- helpers
@@ -113,7 +148,7 @@ def ra_query(query: str) -> dict:
     return data["data"]
 
 
-RA_FIELDS = "id title startTime endTime contentUrl venue { name }"
+RA_FIELDS = "id title startTime endTime contentUrl cost venue { name }"
 
 
 def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
@@ -121,9 +156,9 @@ def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
     d = ra_query(f'{{ {kind}(id: "{ra_id}") {{ events(type: LATEST, limit: 100) {{ {RA_FIELDS} }} }} }}')
     out = []
     for e in d[kind]["events"]:
-        out.append(Ev(source, e["title"], iso(e["startTime"]), "https://ra.co" + e["contentUrl"],
-                      iso(e["endTime"]) if e.get("endTime") else None,
-                      (e.get("venue") or {}).get("name", "")))
+        ev = Ev(source, e["title"], iso(e["startTime"]), "https://ra.co" + e["contentUrl"],
+                iso(e["endTime"]) if e.get("endTime") else None, (e.get("venue") or {}).get("name", ""))
+        out.append(priced(ev, *price_from_text(e.get("cost") or "")))
     return out
 
 
@@ -132,7 +167,7 @@ def sat() -> list[Ev]:
     q = """query($after: String) { events(first: 50, after: $after,
              where: {language: EN, futureItemsOnly: true}) {
         nodes { title link datePicker event { infocontent {
-            startdate enddate dayhourlength category { slug } espace { ... on Espace { title } } } } }
+            startdate enddate dayhourlength category { slug } tarifs { montant } espace { ... on Espace { title } } } } }
         pageInfo { hasNextPage endCursor } } }"""
     out, after = [], None
     while True:
@@ -148,10 +183,12 @@ def sat() -> list[Ev]:
             t = parse_time(hours)
             espace = ic.get("espace") or {}
             loc = "SAT" + (f" – {espace['title']}" if isinstance(espace, dict) and espace.get("title") else "")
+            amounts = [float(x["montant"]) for x in (ic.get("tarifs") or []) if x.get("montant") is not None]
             dates = n.get("datePicker") or [ic["startdate"]]
             for ds in dates:
                 d = datetime.strptime(ds, "%d/%m/%Y").date()
-                out.append(Ev("SAT", n["title"], local(d, t), n["link"], location=loc))
+                e = Ev("SAT", n["title"], local(d, t), n["link"], location=loc)
+                out.append(priced(e, None, min(amounts), max(amounts)) if amounts else e)
         if not ev["pageInfo"]["hasNextPage"]:
             return out
         after = ev["pageInfo"]["endCursor"]
@@ -191,8 +228,11 @@ def casa_del_popolo() -> list[Ev]:
         d = date(int(m.group(3)), EN_MONTHS[m.group(1).lower()], int(m.group(2)))
         divs = [clean(x.get_text()) for x in card.find_all("div", recursive=False)]
         t = next((parse_time(x) for x in divs if parse_time(x)), None)
-        out.append(Ev("Casa del Popolo", clean(heads[1].get_text()), local(d, t), base + more["href"],
-                      location=clean(heads[2].get_text())))
+        ev = Ev("Casa del Popolo", clean(heads[1].get_text()), local(d, t), base + more["href"],
+                location=clean(heads[2].get_text()))
+        cost = next((x for x in divs if re.fullmatch(r"(\$\s?[\d.,]+.*|.*\b(free|gratuit)\b.*)", x, re.I)
+                     and len(x) < 40), "")
+        out.append(priced(ev, *price_from_text(cost)))
     return out
 
 
@@ -236,9 +276,14 @@ def eventbrite_organizer(org_url: str, source: str) -> list[Ev]:
         if e.get("end_date"):
             en = datetime.fromisoformat(f"{e['end_date']}T{e.get('end_time') or '23:59:00'}").replace(tzinfo=tz)
         venue = e.get("primary_venue") or {}
-        out.append(Ev(source, e.get("name") if isinstance(e.get("name"), str) else e.get("name", {}).get("text", ""),
-                      st.astimezone(TZ), e["url"], en.astimezone(TZ) if en else None,
-                      venue.get("name", "") if isinstance(venue, dict) else ""))
+        ev = Ev(source, e.get("name") if isinstance(e.get("name"), str) else e.get("name", {}).get("text", ""),
+                st.astimezone(TZ), e["url"], en.astimezone(TZ) if en else None,
+                venue.get("name", "") if isinstance(venue, dict) else "")
+        ta = e.get("ticket_availability") or {}
+        lo = (ta.get("minimum_ticket_price") or {}).get("major_value")
+        hi = (ta.get("maximum_ticket_price") or {}).get("major_value")
+        out.append(priced(ev, True if ta.get("is_free") else None,
+                          float(lo) if lo else None, float(hi) if hi else None))
     return out
 
 
@@ -249,10 +294,13 @@ def turbo_haus() -> list[Ev]:
     # The month grid has dates (recurring shows already expanded) but often no times;
     # the CMS API has each show's start time, keyed by slug.
     slug_time: dict[str, time] = {}
+    slug_price: dict[str, str] = {}
     try:
         api = get(f"{base}/api/events", params={"limit": 5000, "depth": 0, "select[slug]": "true",
-                                                 "select[startsAt]": "true"}).json()
+                                                 "select[startsAt]": "true", "select[priceText]": "true"}).json()
         for doc in api.get("docs", []):
+            if doc.get("slug") and doc.get("priceText"):
+                slug_price[doc["slug"]] = doc["priceText"]
             if doc.get("slug") and doc.get("startsAt"):
                 t = iso(doc["startsAt"]).time()
                 if t != time(0, 0):          # midnight = no time set
@@ -274,7 +322,8 @@ def turbo_haus() -> list[Ev]:
             t_el = a.select_one(".font-mono")
             t = (parse_time(t_el.get_text()) if t_el else None) or slug_time.get(m.group(4))
             d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
-            out.append(Ev("Turbo Haüs", title, local(d, t), base + a["href"], location="Turbo Haüs"))
+            ev = Ev("Turbo Haüs", title, local(d, t), base + a["href"], location="Turbo Haüs")
+            out.append(priced(ev, *price_from_text(slug_price.get(m.group(4), ""))))
     # prefer entries that carry a time (the list view) over the bare grid cell for the same event
     best = {}
     for e in out:
@@ -300,30 +349,38 @@ def le_belmont() -> list[Ev]:
     return out
 
 
-def _luma_ev(e: dict, source: str) -> Ev:
+def _luma_ev(e: dict, source: str, ticket_info: dict | None = None) -> Ev:
     geo = e.get("geo_address_info") or {}
     loc = geo.get("full_address") or geo.get("address") or geo.get("city") or ""
-    return Ev(source, e["name"], iso(e["start_at"]), "https://luma.com/" + e["url"],
-              iso(e["end_at"]) if e.get("end_at") else None, loc)
+    ev = Ev(source, e["name"], iso(e["start_at"]), "https://luma.com/" + e["url"],
+            iso(e["end_at"]) if e.get("end_at") else None, loc)
+    ti = ticket_info or {}
+    if ti.get("is_free"):
+        return priced(ev, True)
+    lo = (ti.get("price") or {}).get("cents")
+    hi = (ti.get("max_price") or {}).get("cents") if isinstance(ti.get("max_price"), dict) else None
+    return priced(ev, None, lo / 100 if lo is not None else None, hi / 100 if hi is not None else None)
 
 
 def luma_calendar(page_url: str, source: str) -> list[Ev]:
     """A Luma calendar page (luma.com/<calendar>): upcoming events from its embedded page data."""
     s = soup(page_url)
     data = json.loads(s.find("script", id="__NEXT_DATA__").string)
-    found = {}
+    found, tickets = {}, {}
 
     def walk(o):
         if isinstance(o, dict):
             if "start_at" in o and "name" in o and "url" in o and "api_id" in o:
                 found[o["api_id"]] = o
+            if isinstance(o.get("event"), dict) and isinstance(o.get("ticket_info"), dict):
+                tickets[o["event"].get("api_id")] = o["ticket_info"]
             for v in o.values():
                 walk(v)
         elif isinstance(o, list):
             for v in o:
                 walk(v)
     walk(data)
-    return [_luma_ev(e, source) for e in found.values()]
+    return [_luma_ev(e, source, tickets.get(k)) for k, e in found.items()]
 
 
 def luma_user(user_api_id: str, source: str) -> list[Ev]:
@@ -334,7 +391,7 @@ def luma_user(user_api_id: str, source: str) -> list[Ev]:
         if cursor:
             params["pagination_cursor"] = cursor
         d = get("https://api.lu.ma/user/profile/events-hosting", params=params).json()
-        out += [_luma_ev(x["event"], source) for x in d.get("entries", [])]
+        out += [_luma_ev(x["event"], source, x.get("ticket_info")) for x in d.get("entries", [])]
         if not d.get("has_more") or not d.get("next_cursor"):
             return out
         cursor = d["next_cursor"]
@@ -349,7 +406,8 @@ def laugh_it_off() -> list[Ev]:
         if st > horizon:
             continue
         en = iso(e["endUtc"]) if e.get("endUtc") else None
-        out.append(Ev("Laugh It Off", e["name"], st, e["url"], en, e.get("venue") or ""))
+        ev = Ev("Laugh It Off", e["name"], st, e["url"], en, e.get("venue") or "")
+        out.append(priced(ev, True if e.get("isFree") else None, e.get("priceMin"), e.get("priceMax")))
     return out
 
 
@@ -367,9 +425,10 @@ def newspeak() -> list[Ev]:
         for e in d.get("events", []):
             if e.get("state") not in (None, "normal"):
                 continue
-            out.append(Ev("Newspeak", lst.get("title") or slug, iso(e["start_time"]),
-                          f"https://www.universe.com/events/{slug}",
-                          iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak"))
+            ev = Ev("Newspeak", lst.get("title") or slug, iso(e["start_time"]),
+                    f"https://www.universe.com/events/{slug}",
+                    iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak")
+            out.append(priced(ev, True if lst.get("free") else None, lst.get("price")))
     return out
 
 
@@ -380,6 +439,28 @@ EN_ABBR = {m[:3]: i for m, i in EN_MONTHS.items()}
 def _en_date(s: str) -> date:
     m = re.match(r"([A-Za-z]{3})[a-z]* (\d{1,2}), (\d{4})", s.strip())
     return date(int(m.group(3)), EN_ABBR[m.group(1).lower()], int(m.group(2)))
+
+
+MUSEUM_FREE = re.compile(r"free of charge|\bit[’']s free\b|\bis free\b|\bfree (?:bilingual|admission|entry|event|"
+                         r"activity|presentation|meeting|guided|tour|workshop)|\bgratuit", re.I)
+
+
+def museum_price(url: str) -> tuple[bool | None, float | None, float | None]:
+    """An event page's 'Prices' list ('Adult : $15.00', 'Children : Free'), or wording like 'free of charge'.
+    Free only when every listed price is free."""
+    main = soup(url).find("main")
+    text = clean(main.get_text(" ")) if main else ""
+    text = text.split(" Address ")[0]
+    sec = re.search(r"\bPrices\b(.*?)(?:\bDates\b|$)", text)
+    if sec:
+        vals = re.findall(r":\s*(Free|\$\s?[\d.,]+)", sec.group(1), re.I)
+        nums = [0.0 if v.lower() == "free" else float(v.strip("$ ").replace(",", "")) for v in vals]
+        if nums:
+            paid = [n for n in nums if n > 0]
+            return (True, None, None) if not paid else (False, min(paid), max(paid))
+    if MUSEUM_FREE.search(text):
+        return True, None, None
+    return None, None, None
 
 
 def musees_montreal() -> list[Ev]:
@@ -396,8 +477,13 @@ def musees_montreal() -> list[Ev]:
                 out.append(Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
                               _en_date(m.group(2)), x.get("museum_name") or "", "exhibition"))
             elif m := re.match(r"starting on (.+)$", fd):
-                out.append(Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
-                              location=x.get("museum_name") or "", kind=x.get("type_text") or "Event"))
+                ev = Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
+                        location=x.get("museum_name") or "", kind=x.get("type_text") or "Event")
+                try:
+                    priced(ev, *museum_price(x["url"]))
+                except requests.RequestException:
+                    pass
+                out.append(ev)
         page += 1
     return out
 
@@ -524,6 +610,7 @@ def to_json(e: Ev, tab: str) -> dict:
     d["end"] = e.end.isoformat() if e.end else None
     d["all_day"] = e.all_day
     d["tab"] = tab
+    d["id"] = stable_uid(e)
     return d
 
 
@@ -540,7 +627,8 @@ def ics_entries(e: Ev, today: date):
         end = e.end
     else:
         end = e.start + (timedelta(days=1) if e.all_day else timedelta(hours=3))
-    yield f"{e.title} @ {e.location if e.source == 'Musées Montréal' and e.location else e.source}", e.start, end
+    where = e.location if e.source == "Musées Montréal" and e.location else e.source
+    yield f"{'FREE · ' if e.free else ''}{e.title} @ {where}", e.start, end
 
 
 def build_ics(events: list[Ev], name: str) -> bytes:
@@ -563,7 +651,8 @@ def build_ics(events: list[Ev], name: str) -> bytes:
             if e.location:
                 v.add("location", e.location)
             v.add("url", e.url)
-            v.add("description", f"{e.source}\n{e.url}")
+            cost = "Free" if e.free else e.price
+            v.add("description", f"{e.source}{chr(10) + cost if cost else ''}\n{e.url}")
             cal.add_component(v)
     return cal.to_ical()
 
@@ -593,6 +682,9 @@ def main() -> int:
         for name, fn in sources.items():
             try:
                 evs = [e for e in fn() if last_moment(e) >= cutoff and not SKIP_TITLES.match(e.title)]
+                for e in evs:   # no price data, but the title says it's free
+                    if e.free is None and e.kind != "exhibition" and FREE_TEXT.search(e.title):
+                        e.free = True
                 for e in evs:
                     by_tab[pick_tab(e)].append(e)
                 status[name] = {"ok": True, "count": len(evs), "tab": home_tab(name)}

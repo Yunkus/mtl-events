@@ -7,6 +7,17 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
   `music.ics` (Music & Dance), `other.ics` (Other Events), `museums.ics`, `movies.ics`.
   `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
+On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
+downloads just those as a `.ics` file (opens in Apple Calendar / Outlook, or import into Google Calendar),
+or gives one "Add to Google Calendar" link per event. Selections are saved in your browser only.
+
+## Free events
+
+Events are marked **FREE** when the source says so: a price of zero, a free flag (Eventbrite, Luma,
+Laugh It Off, Universe), "GRATUIT // FREE" (Turbo Haüs), a museum page whose prices are all free or that says
+"free of charge", or a title that says free / gratuit. Paid events show their price when the source has it.
+Le Red Room, Le Belmont, Favourite Library and the cinemas don't publish prices in a readable form.
+
 ## Music & Dance vs Other Events
 
 Each event in the venue list below goes to **Music & Dance** unless:
