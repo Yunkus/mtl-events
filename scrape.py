@@ -428,25 +428,34 @@ def newspeak() -> list[Ev]:
             ev = Ev("Newspeak", lst.get("title") or slug, iso(e["start_time"]),
                     f"https://www.universe.com/events/{slug}",
                     iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak")
-            out.append(priced(ev, True if lst.get("free") else None, lst.get("price")))
+            out.append(priced(ev, *universe_rates(d)))
     return out
 
 
-def universe_price(slug: str) -> tuple[bool | None, float | None, float | None]:
-    """(free, lowest, highest) from a Universe listing (universe.com/events/<slug>)."""
-    try:
-        lst = get(f"https://www.universe.com/api/v2/listings/{slug}").json().get("listing") or {}
-    except (requests.RequestException, ValueError):
-        return None, None, None
+def universe_rates(d: dict) -> tuple[bool | None, float | None, float | None]:
+    """(free, lowest, highest) from a Universe listing response. Uses every ticket type ("rates"):
+    the listing's own "price" can be the VIP price."""
+    lst = d.get("listing") or {}
     if lst.get("free"):
         return True, None, None
+    prices = [float(r["price"]) for r in d.get("rates") or [] if isinstance(r.get("price"), (int, float))]
+    if prices:
+        return None, min(prices), max(prices)
     return None, lst.get("price"), None
 
 
-def bar_le_ritz() -> list[Ev]:
-    """Bar Le Ritz PDB (Squarespace events page). The item title is just the date; the show's name is the
-    first heading in its description. Prices come from the Universe ticket link when there is one."""
-    base = "https://www.barleritzpdb.com"
+def universe_price(slug: str) -> tuple[bool | None, float | None, float | None]:
+    """(free, lowest, highest) for a Universe event (universe.com/events/<slug>)."""
+    try:
+        return universe_rates(get(f"https://www.universe.com/api/v2/listings/{slug}").json())
+    except (requests.RequestException, ValueError):
+        return None, None, None
+
+
+def squarespace_shows(base: str, source: str, location: str) -> list[Ev]:
+    """Squarespace events page (Bar Le Ritz PDB, Théâtre Fairmount: same group, same layout). The item title
+    is just the date; the show's name is the first heading in its description. Prices come from the
+    Universe ticket link when there is one."""
     d = get(f"{base}/", params={"format": "json"}).json()
     out = []
     for it in d.get("upcoming", []):
@@ -455,7 +464,7 @@ def bar_le_ritz() -> list[Ev]:
         title = clean(head.get_text(" ")) if head else clean(it.get("title"))
         start = datetime.fromtimestamp(it["startDate"] / 1000, TZ)
         end = datetime.fromtimestamp(it["endDate"] / 1000, TZ) if it.get("endDate") else None
-        ev = Ev("Bar Le Ritz PDB", title, start, base + it["fullUrl"], end, "Bar Le Ritz PDB, 179 Rue Jean-Talon O")
+        ev = Ev(source, title, start, base + it["fullUrl"], end, location)
         uni = next((m.group(1) for a in body.find_all("a", href=True)
                     if (m := re.search(r"universe\.com/events/([a-z0-9-]+-[A-Z0-9]{6})", a["href"]))), None)
         if uni:
@@ -738,7 +747,12 @@ EVENT_SOURCES = {
     "Laugh It Off": laugh_it_off,
     "Newspeak": newspeak,
     "Boiler Room": boiler_room,
-    "Bar Le Ritz PDB": bar_le_ritz,
+    "Bar Le Ritz PDB": lambda: squarespace_shows("https://www.barleritzpdb.com", "Bar Le Ritz PDB",
+                                                 "Bar Le Ritz PDB, 179 Rue Jean-Talon O"),
+    "Théâtre Fairmount": lambda: squarespace_shows("https://www.theatrefairmount.com", "Théâtre Fairmount",
+                                                   "Théâtre Fairmount, 5240 Av. du Parc"),
+    "L'Escogriffe": lambda: ra_events("venue", "124247", "L'Escogriffe"),   # its own site is a Facebook page
+    "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
     "New City Gas": new_city_gas,
     # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
@@ -757,7 +771,7 @@ OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", 
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
 OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
-                          r"book launch|lancement de livre|open mic comedy", re.I)
+                          r"book launch|lancement de livre|open mic comedy|conf[ée]rence", re.I)
 # Venue placeholders that aren't events at all:
 SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv[ée]\s*/\s*private event)\W*$", re.I)
 

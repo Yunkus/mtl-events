@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-25T18:06-05:00",
+ "generated": "2026-11-25T18:15-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 305
+   "count": 343
   },
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 11
+   "count": 12
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -118,6 +118,21 @@
    "count": 28,
    "tab": "music"
   },
+  "Théâtre Fairmount": {
+   "ok": true,
+   "count": 33,
+   "tab": "music"
+  },
+  "L'Escogriffe": {
+   "ok": true,
+   "count": 0,
+   "tab": "music"
+  },
+  "Ausgang Plaza": {
+   "ok": true,
+   "count": 6,
+   "tab": "music"
+  },
   "Système": {
    "ok": true,
    "count": 22,
@@ -183,6 +198,20 @@
    "all_day": true,
    "tab": "music",
    "id": "6768cd6623a1a8d24d5b"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "IVAN DECKER: MIDDLE CHILD",
+   "start": "2026-11-25T19:30:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/ivan-decker-theatre-fairmount/20261125-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-433g8-zej3x-wggfw-s8dnha",
+   "end": "2026-11-25T22:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$46",
+   "all_day": false,
+   "tab": "music",
+   "id": "481969d8f988caf9a8df"
   },
   {
    "source": "Casa del Popolo",
@@ -375,7 +404,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–37",
    "all_day": false,
    "tab": "music",
    "id": "4f848bcaa1ae707b4d9b"
@@ -421,6 +450,20 @@
    "all_day": false,
    "tab": "music",
    "id": "e768e88af4f5e381085b"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "KORPIKLAANI",
+   "start": "2026-11-27T19:30:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/korpliklaani-theatre-fairmount/20261127-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-433g8-zej3x-wggfw-l62l2",
+   "end": "2026-11-27T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$48–53",
+   "all_day": false,
+   "tab": "music",
+   "id": "c1162d8e6f7f9003f83d"
   },
   {
    "source": "Casa del Popolo",
@@ -599,7 +642,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$27",
+   "price": "$27–32",
    "all_day": false,
    "tab": "music",
    "id": "79386c5f0c08393141bf"
@@ -641,7 +684,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$22",
+   "price": "$22–30",
    "all_day": false,
    "tab": "music",
    "id": "44f115af0e66e5a67cff"
@@ -801,6 +844,20 @@
    "id": "e566e1a63a4c154fcc24"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "TEMPLES",
+   "start": "2026-11-28T21:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/temples-theatre-fairmount/20261128-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3",
+   "end": "2026-11-28T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40–43",
+   "all_day": false,
+   "tab": "music",
+   "id": "8d18f2507049a7164e1a"
+  },
+  {
    "source": "Le Belmont",
    "title": "Bomba Retro - Fiesta 80s, 90s 2000",
    "start": "2026-11-28T21:30:00-05:00",
@@ -823,10 +880,24 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$26",
+   "price": "$26–31",
    "all_day": false,
    "tab": "music",
    "id": "890061010814a880edfd"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "Laylit #154 with Saliah (UK)",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://ra.co/events/2547668",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": false,
+   "price": "$25–35",
+   "all_day": false,
+   "tab": "music",
+   "id": "db8e4ce04c41fa42c4a7"
   },
   {
    "source": "Système",
@@ -1011,6 +1082,20 @@
    "id": "1417e3c71b933e2f378d"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "VENNA",
+   "start": "2026-11-30T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/venna-theatre-fairmount/20261130-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-lche5",
+   "end": "2026-11-30T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$37–44",
+   "all_day": false,
+   "tab": "music",
+   "id": "1153d490017d74a56cd8"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Hooper, Ladybug, Lovelet",
    "start": "2026-11-30T20:30:00-05:00",
@@ -1051,6 +1136,20 @@
    "all_day": false,
    "tab": "music",
    "id": "1fb40d1860eb6a393aa1"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "BABY JANE",
+   "start": "2026-12-02T19:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/under-the-lights-theatre-fairmount/20261203-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-tt7z3-2nad3",
+   "end": "2026-12-02T22:30:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$36–97",
+   "all_day": false,
+   "tab": "music",
+   "id": "6d79428dd7c25baf3ce8"
   },
   {
    "source": "Casa del Popolo",
@@ -1121,6 +1220,48 @@
    "all_day": true,
    "tab": "music",
    "id": "6a13b9e823e5f0ef4470"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "Soirée de lancement",
+   "start": "2026-12-03T19:00:00-05:00",
+   "url": "https://ra.co/events/2584809",
+   "end": "2026-12-03T22:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "83428f1e72989843fbae"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "Festival De La House",
+   "start": "2026-12-03T19:00:00-05:00",
+   "url": "https://ra.co/events/2579323",
+   "end": "2026-12-06T23:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "all_day": false,
+   "tab": "music",
+   "id": "fb3b36f7f0a3bb9ecea4"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "UNDER THE LIGHTS: THE MUSIC OF A CHARLIE BROWN CHRISTMAS",
+   "start": "2026-12-03T19:30:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/under-the-lights-theatre-fairmount/20261203-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-tt7z3",
+   "end": "2026-12-03T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$33–54",
+   "all_day": false,
+   "tab": "music",
+   "id": "cb791c51b4106506d217"
   },
   {
    "source": "Casa del Popolo",
@@ -1333,6 +1474,20 @@
    "id": "6cd416e1bd87bdf139d5"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "MIXTAPE 90s",
+   "start": "2026-12-04T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/mixtape-90-s-theatre-fairmount/20261204-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-tt7z3-8dhc4",
+   "end": "2026-12-04T23:59:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$22–119",
+   "all_day": false,
+   "tab": "music",
+   "id": "885b8f94d5b675e8741c"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Antenna93 / Fresh Wax / No Muzzle",
    "start": "2026-12-04T20:30:00-05:00",
@@ -1397,10 +1552,24 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–39",
    "all_day": false,
    "tab": "music",
    "id": "ca4d757bb7661a899497"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "Dee Diggs X JADALAREIGN X BLACKGOLD",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://ra.co/events/2584819",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "all_day": false,
+   "tab": "music",
+   "id": "def9a7828c2e41f8caff"
   },
   {
    "source": "Système",
@@ -1459,6 +1628,20 @@
    "id": "b0f52a8ebb10668643e3"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "THE CHOSEN BATTLE VI",
+   "start": "2026-12-05T19:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/the-chosen-battle-theatre-fairmount/20261205-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-tt7z3-nmc8h",
+   "end": "2026-12-05T23:59:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40–45",
+   "all_day": false,
+   "tab": "music",
+   "id": "005b524d5eb8bf66877b"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Heavy Trip & Negative Capabilities present Magic Tuber Stringband + Geneviève Heistek + Jesse Eckerlin",
    "start": "2026-12-05T20:00:00-05:00",
@@ -1509,7 +1692,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$20",
+   "price": "$20–35",
    "all_day": false,
    "tab": "music",
    "id": "4ed8c2e7d5c350578049"
@@ -1527,6 +1710,20 @@
    "all_day": false,
    "tab": "music",
    "id": "91eb10612bc39e83eedd"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "DE LA HOUSE & BALLROOM4COMMUNITY présentent Amarji King, MOON, Ekitwanda & G MAKO",
+   "start": "2026-12-05T21:00:00-05:00",
+   "url": "https://ra.co/events/2584824",
+   "end": "2026-12-06T03:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "all_day": false,
+   "tab": "music",
+   "id": "c85c36a39c2aa4c64cca"
   },
   {
    "source": "Casa del Popolo",
@@ -1579,7 +1776,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$36",
+   "price": "$36–42",
    "all_day": false,
    "tab": "music",
    "id": "ab0a466f90ee5b3a4d39"
@@ -1851,6 +2048,20 @@
    "id": "36353fdbaa53ab4a4dfc"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "KING BUFFALO",
+   "start": "2026-12-09T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/king-buffalo-theatre-fairmount/20261209-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht",
+   "end": "2026-12-09T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$37–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "0e13f8095cab7460ff85"
+  },
+  {
    "source": "Le Red Room",
    "title": "Jingle Bass",
    "start": "2026-12-10",
@@ -2013,7 +2224,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$15",
+   "price": "$15–20",
    "all_day": false,
    "tab": "music",
    "id": "69022bc9b95a3689623d"
@@ -2083,7 +2294,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$37",
+   "price": "$37–47",
    "all_day": false,
    "tab": "music",
    "id": "4b4955bb2bc31ffe84b0"
@@ -2237,7 +2448,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$31",
+   "price": "$31–37",
    "all_day": false,
    "tab": "music",
    "id": "21697f7997600ba0aec3"
@@ -2405,7 +2616,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$37",
+   "price": "$37–42",
    "all_day": false,
    "tab": "music",
    "id": "984c9d239ed1c9fb00a6"
@@ -2437,6 +2648,20 @@
    "all_day": false,
    "tab": "music",
    "id": "83893799bbf1b9e34bd1"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "UNKLE",
+   "start": "2026-12-14T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/unkle-theatre-fairmount/20261214-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-n54tc",
+   "end": "2026-12-14T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40–50",
+   "all_day": false,
+   "tab": "music",
+   "id": "4dd87f94fa817184fe5c"
   },
   {
    "source": "Turbo Haüs",
@@ -2531,7 +2756,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$42",
+   "price": "$42–47",
    "all_day": false,
    "tab": "music",
    "id": "9edbafafa89de6db1c62"
@@ -2727,7 +2952,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$19",
+   "price": "$19–22",
    "all_day": false,
    "tab": "music",
    "id": "daa4984727a9afa13098"
@@ -3133,10 +3358,24 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$26",
+   "price": "$26–36",
    "all_day": false,
    "tab": "music",
    "id": "cb207ebacd826d1e920d"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "HEATED RIVALRY NYE",
+   "start": "2026-12-31T22:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/heated-rivalry-nye-theatre-fairmount/20261231-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-n54tc-wt6x",
+   "end": "2027-01-01T02:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$26–48",
+   "all_day": false,
+   "tab": "music",
+   "id": "c6d7589d6ffb9ba59456"
   },
   {
    "source": "Stereo",
@@ -3385,7 +3624,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–39",
    "all_day": false,
    "tab": "music",
    "id": "349babdedac44681ae37"
@@ -3399,7 +3638,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–39",
    "all_day": false,
    "tab": "music",
    "id": "70374021290b46407efb"
@@ -3413,7 +3652,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$37",
+   "price": "$37–43",
    "all_day": false,
    "tab": "music",
    "id": "893b09dca49c77c58fea"
@@ -3483,7 +3722,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–39",
    "all_day": false,
    "tab": "music",
    "id": "23f254cbe34a39213d47"
@@ -3545,6 +3784,20 @@
    "id": "6e8d611ccb3c3543eb26"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "feeble little horse",
+   "start": "2027-02-01T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/feeble-little-horse-theatre-fairmount/20261012-g3bn5-a4zkr-hwk6t-44pc7-5rpxb",
+   "end": "2027-02-01T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$32–37",
+   "all_day": false,
+   "tab": "music",
+   "id": "093e632942ceaaa3a73f"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présentent TARA CLERKIN TRIO",
    "start": "2027-02-02T20:00:00-05:00",
@@ -3559,6 +3812,20 @@
    "id": "1ef1c413813026ff59b4"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "ROMAIN GARCIA (DJ set)",
+   "start": "2027-02-05T22:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/romain-garcia-theatre-fairmount/20270205-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22",
+   "end": "2027-02-06T03:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$31–36",
+   "all_day": false,
+   "tab": "music",
+   "id": "c02374f037db3965930d"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "GIRL ULTRA",
    "start": "2027-02-06T19:00:00.179000-05:00",
@@ -3567,7 +3834,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–39",
    "all_day": false,
    "tab": "music",
    "id": "70369ccea896b26d3bc0"
@@ -3609,7 +3876,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$37",
+   "price": "$37–47",
    "all_day": false,
    "tab": "music",
    "id": "5af7d482324d88b38fb5"
@@ -3623,7 +3890,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$21",
+   "price": "$21–30",
    "all_day": false,
    "tab": "music",
    "id": "23f144f0beb2ba6f0914"
@@ -3641,6 +3908,20 @@
    "all_day": false,
    "tab": "music",
    "id": "8ccb59c11f04c8b6c162"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "MODESELEKTOR",
+   "start": "2027-02-11T19:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/modeselektor-theatre-fairmount/20270211-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-6kbch",
+   "end": "2027-02-11T22:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$47–52",
+   "all_day": false,
+   "tab": "music",
+   "id": "257445af8e1cf0e1555f"
   },
   {
    "source": "SAT",
@@ -3693,7 +3974,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–42",
    "all_day": false,
    "tab": "music",
    "id": "26d75adf4ecc52aab372"
@@ -3735,7 +4016,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–35",
    "all_day": false,
    "tab": "music",
    "id": "aefe6dab53bdf3e75580"
@@ -3769,6 +4050,20 @@
    "id": "55590aacf3911c3c883b"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "BABYFXCE E",
+   "start": "2027-02-25T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/babyfxce-e-theatre-fairmount/20270225-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-yczjs-reahh",
+   "end": "2027-02-25T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$42–291",
+   "all_day": false,
+   "tab": "music",
+   "id": "a4be0d2160d075fee9ae"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "THE JACK WHARFF BAND",
    "start": "2027-02-26T20:00:00.179000-05:00",
@@ -3777,10 +4072,24 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$35",
+   "price": "$35–40",
    "all_day": false,
    "tab": "music",
    "id": "96b3b0c913630aa4ea3b"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "MEI SEMONES",
+   "start": "2027-02-26T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/mei-semones-theatre-fairmount/20270226-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-yczjs",
+   "end": "2027-02-26T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$34–97",
+   "all_day": false,
+   "tab": "music",
+   "id": "6a857431320b19af7b96"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -3791,7 +4100,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$19",
+   "price": "$19–22",
    "all_day": false,
    "tab": "music",
    "id": "fa6a278bd45c3a126f16"
@@ -3819,7 +4128,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–35",
    "all_day": false,
    "tab": "music",
    "id": "94d61894ced6d580c99e"
@@ -3861,7 +4170,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$35",
+   "price": "$35–39",
    "all_day": false,
    "tab": "music",
    "id": "482e743ab27f4f2addd3"
@@ -3875,10 +4184,38 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–115",
    "all_day": false,
    "tab": "music",
    "id": "b626325e77e7c6112ca6"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "ROAR",
+   "start": "2027-03-05T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/roar-theatre-fairmount/20270305-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-nxc4a-r6tem-kgl6-wplya",
+   "end": "2027-03-05T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$42–48",
+   "all_day": false,
+   "tab": "music",
+   "id": "8a0814879a642cb2dce1"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "GUS DAPPERTON",
+   "start": "2027-03-06T20:00:00.628000-05:00",
+   "url": "https://www.theatrefairmount.com/vnements/gus-dapperton-theatre-fairmount/20270306-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-nxc4a-r6tem-kgl6",
+   "end": "2027-03-06T23:00:00.628000-05:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$32–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "c2bf51a63b4c700cec20"
   },
   {
    "source": "SAT",
@@ -3917,7 +4254,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–42",
    "all_day": false,
    "tab": "music",
    "id": "44851965cc3298797145"
@@ -3945,7 +4282,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$29",
+   "price": "$29–32",
    "all_day": false,
    "tab": "music",
    "id": "d5bf6fee597390db8ee6"
@@ -3959,7 +4296,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$37",
+   "price": "$37–42",
    "all_day": false,
    "tab": "music",
    "id": "bc11c233271ca7c7199e"
@@ -4057,7 +4394,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$113",
+   "price": "$41–113",
    "all_day": false,
    "tab": "music",
    "id": "acd33ecd94e95fade494"
@@ -4075,6 +4412,20 @@
    "all_day": false,
    "tab": "music",
    "id": "2bcc04f093f4b8219100"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "WASIA PROJECT",
+   "start": "2027-03-17T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/wasia-project-theatre-fairmount/20270317-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-nxc4a",
+   "end": "2027-03-17T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$50–260",
+   "all_day": false,
+   "tab": "music",
+   "id": "861d9878e39ee97e9ac4"
   },
   {
    "source": "Casa del Popolo",
@@ -4099,10 +4450,24 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$32",
+   "price": "$32–42",
    "all_day": false,
    "tab": "music",
    "id": "decc95d798a1d37d97f3"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "SUPERCHUNK",
+   "start": "2027-03-18T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/superchunk-theatre-fairmount/20270318-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-nxc4a-r6tem-kgl6-4fgjm-2g48",
+   "end": "2027-03-18T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$37–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "654782acbc42a0844534"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -4113,7 +4478,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–37",
    "all_day": false,
    "tab": "music",
    "id": "7e4bd7eda106b32758d9"
@@ -4127,7 +4492,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$114",
+   "price": "$42–114",
    "all_day": false,
    "tab": "music",
    "id": "fa595b790dbf907fd1e2"
@@ -4145,6 +4510,20 @@
    "all_day": false,
    "tab": "music",
    "id": "a38c1b049d10355a4e71"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "ZAINAB JOHNSON",
+   "start": "2027-03-20T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/zainab-johnson-theatre-fairmount/20270320-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-nxc4a-57cp3",
+   "end": "2027-03-20T23:30:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40",
+   "all_day": false,
+   "tab": "music",
+   "id": "08b594a762018040e666"
   },
   {
    "source": "Casa del Popolo",
@@ -4197,7 +4576,7 @@
    "location": "Newspeak",
    "kind": "",
    "free": false,
-   "price": "$36",
+   "price": "$36–42",
    "all_day": false,
    "tab": "music",
    "id": "b69616cb7c2fc059741e"
@@ -4215,6 +4594,34 @@
    "all_day": false,
    "tab": "music",
    "id": "ab8e33e8bc38964006bb"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "CAMEL POWER CLUB",
+   "start": "2027-03-26T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/camel-power-club-theatre-fairmount/20270326-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-z4f52",
+   "end": "2027-03-26T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$37–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "6ed08a47cd96a047bc1b"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "THIS IS THE KIT",
+   "start": "2027-03-27T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/this-is-the-kit-theatre-fairmount/20270327-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2",
+   "end": "2027-03-27T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$36–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "36572ea7384a47f8624f"
   },
   {
    "source": "SAT",
@@ -4245,6 +4652,20 @@
    "id": "cfb590f3f0dd8d6d8936"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "CHARO RESPONSABLE",
+   "start": "2027-04-01T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/charo-res-theatre-fairmount/20270401-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3-sg247-m38eb",
+   "end": "2027-04-01T21:30:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40",
+   "all_day": false,
+   "tab": "music",
+   "id": "8219f24ad855466e75cb"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "VLAD HOLIDAY",
    "start": "2027-04-02T20:30:00-04:00",
@@ -4259,6 +4680,20 @@
    "id": "de65284feec867dc65d5"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "AKRIILA",
+   "start": "2027-04-03T19:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/akriila-theatre-fairmount/20270403-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3-sg247-m38eb-l33a9",
+   "end": "2027-04-03T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$36–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "fb6979c7517ff4f1b89c"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "BRYAN ANDREWS",
    "start": "2027-04-03T19:30:00.179000-04:00",
@@ -4267,7 +4702,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–37",
    "all_day": false,
    "tab": "music",
    "id": "5b1d8be195eec2b84347"
@@ -4329,6 +4764,20 @@
    "id": "b674ac5e8812a63d613f"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "ELDER",
+   "start": "2027-04-10T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/elder-theatre-fairmount/20270410-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3-sg247-e72j9",
+   "end": "2027-04-10T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$47",
+   "all_day": false,
+   "tab": "music",
+   "id": "834ea062596e9e88b06d"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "RIKAS",
    "start": "2027-04-11T20:00:00.179000-04:00",
@@ -4337,10 +4786,38 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$29",
+   "price": "$29–32",
    "all_day": false,
    "tab": "music",
    "id": "b65a7b891f30c63700b0"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "CHASING ABBEY",
+   "start": "2027-04-17T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/chasing-abbey-theatre-fairmount/20270417-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3-sg247",
+   "end": "2027-04-17T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$37–48",
+   "all_day": false,
+   "tab": "music",
+   "id": "8b02efdd85633ab7a9c4"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "PISS",
+   "start": "2027-04-17T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/piss-theatre-fairmount/20270417-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3-sg247-43rj7",
+   "end": "2027-04-17T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$32–37",
+   "all_day": false,
+   "tab": "music",
+   "id": "06f90c9526a347c604cd"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -4351,10 +4828,38 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$29",
+   "price": "$29–35",
    "all_day": false,
    "tab": "music",
    "id": "1a22eaad86f83b7e452c"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "SHAINA HAYES",
+   "start": "2027-04-22T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/shaina-hayes-theatre-fairmount/20270422-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3",
+   "end": "2027-04-22T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "all_day": false,
+   "tab": "music",
+   "id": "e8abf33c3291253c555f"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "COLLECT 200",
+   "start": "2027-04-23T19:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/collect-200-theatre-fairmount/20261107-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-7hxfs-djmpa",
+   "end": "2027-04-23T20:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$36–42",
+   "all_day": false,
+   "tab": "music",
+   "id": "2a78072ff699ddd49da7"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -4365,7 +4870,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$27",
+   "price": "$27–32",
    "all_day": false,
    "tab": "music",
    "id": "6a63bfaeffa070b780ba"
@@ -4399,6 +4904,34 @@
    "id": "b732fde6bbc9f021cd28"
   },
   {
+   "source": "Théâtre Fairmount",
+   "title": "BROKEN BY THE SCREAM",
+   "start": "2027-05-03T19:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/broken-by-the-scream-theatre-fairmount/20270503-g3bn5-a4zkr-hwk6t-44pc7-td99j-ancjy-akncz",
+   "end": "2027-05-03T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$42–47",
+   "all_day": false,
+   "tab": "music",
+   "id": "8cdd884dfe7154f38455"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "THE LIMIÑANAS",
+   "start": "2027-05-05T20:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/the-liminanas-theatre-fairmount/20261026-g3bn5-a4zkr-hwk6t-44pc7-td99j-ancjy",
+   "end": "2027-05-05T23:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$32–37",
+   "all_day": false,
+   "tab": "music",
+   "id": "437ae91b89b04b8a6006"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "MADRA SALACH",
    "start": "2027-05-06T20:00:00.179000-04:00",
@@ -4407,7 +4940,7 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$34",
+   "price": "$34–37",
    "all_day": false,
    "tab": "music",
    "id": "1b2843972e596a12536f"
@@ -4421,10 +4954,24 @@
    "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O",
    "kind": "",
    "free": false,
-   "price": "$35",
+   "price": "$35–41",
    "all_day": false,
    "tab": "music",
    "id": "ff016448a712e2db3450"
+  },
+  {
+   "source": "Théâtre Fairmount",
+   "title": "LENAIG À MONTRÉAL",
+   "start": "2027-05-13T20:30:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/lenaig-theatre-fairmount/20270513-g3bn5-a4zkr-hwk6t-44pc7-td99j-ancjy-lc9fw",
+   "end": "2027-05-13T21:30:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$41",
+   "all_day": false,
+   "tab": "music",
+   "id": "4ad212e144b36cee8b09"
   },
   {
    "source": "Casa del Popolo",
@@ -4481,6 +5028,20 @@
    "all_day": false,
    "tab": "other",
    "id": "deac52723d022fcabc67"
+  },
+  {
+   "source": "Ausgang Plaza",
+   "title": "CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal",
+   "start": "2026-12-04T17:00:00-05:00",
+   "url": "https://ra.co/events/2584817",
+   "end": "2026-12-04T19:00:00-05:00",
+   "location": "Ausgang Plaza",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "all_day": false,
+   "tab": "other",
+   "id": "b706fb854a84316ba2be"
   },
   {
    "source": "Turbo Haüs",

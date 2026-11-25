@@ -10,46 +10,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="preload" href="fonts/YoungSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <style>
-  /* 70s lounge: amber glass and embers, one dark view on every device.
-     walnut #1c140f / #2a1e16 · cream #f2e6cf · brass-tan #c7a97c · amber glass #e39b2d / #a85a12
-     ember #5a1f0f / #3a140b · chip ember #4a1a0e · glowing ember #c2481f */
-  /* Young Serif (SIL Open Font License, fonts/YoungSerif-OFL.txt) for titles and headings */
-  @font-face { font-family: "Young Serif"; src: url("fonts/YoungSerif-Regular.ttf") format("truetype");
-               font-weight: 400; font-style: normal; font-display: swap; }
+  /* Bright amber, dark amber, black and cloud white (greys are only shades between black and white).
+     black #0b0b0b · panels #161616 · lines #2a2a2a · cloud white #f2f2ee · dimmed white #a9a9a5
+     bright amber #ffb000 · dark amber #c46a00 */
   :root {
     color-scheme: dark;
-    --walnut: #1c140f; --walnut-2: #2a1e16; --walnut-line: #3d2c20; --cream: #f2e6cf; --tan: #c7a97c;
-    --amber: #e39b2d; --amber-deep: #a85a12; --ember: #5a1f0f; --ember-deep: #3a140b; --ember-chip: #4a1a0e; --ember-glow: #c2481f;
-    --bg: var(--walnut); --surface: var(--walnut-2); --text: var(--cream); --muted: var(--tan); --line: var(--walnut-line);
-    --accent: var(--amber); --accent-ink: var(--amber); --on-accent: var(--walnut); --pick: var(--amber);
-    --chip: var(--ember-chip); --chip-on: var(--amber); --chip-on-text: var(--walnut);
-    --band: linear-gradient(180deg, var(--ember) 0%, var(--ember-deep) 100%); --band-text: var(--cream);
-    --band-muted: #e8b48f; --band-line: #9a4a2c;
-    --band-primary: var(--amber); --band-primary-text: var(--walnut); --mark: var(--amber);
-    --free: var(--cream); --free-bg: var(--ember-glow); --picked-row: rgba(227, 155, 45, .13);
+    --black: #0b0b0b; --black-2: #161616; --black-line: #2a2a2a; --cloud: #f2f2ee; --cloud-dim: #a9a9a5;
+    --amber: #ffb000; --amber-dark: #c46a00;
+    --bg: var(--black); --surface: var(--black-2); --text: var(--cloud); --muted: var(--cloud-dim); --line: var(--black-line);
+    --accent: var(--amber); --accent-ink: var(--amber); --on-accent: var(--black); --pick: var(--amber);
+    --chip: var(--black-2); --chip-on: var(--amber); --chip-on-text: var(--black);
+    --band: linear-gradient(180deg, #181818 0%, var(--black) 100%); --band-text: var(--cloud);
+    --band-muted: var(--cloud-dim); --band-line: var(--amber-dark);
+    --band-primary: var(--amber); --band-primary-text: var(--black); --mark: var(--amber);
+    --free: var(--black); --free-bg: var(--amber-dark); --picked-row: rgba(255, 176, 0, .12);
     --serif: "Young Serif", Georgia, "Times New Roman", serif;
     --sans: Calibri, Carlito, "Segoe UI", system-ui, sans-serif;
   }
-  ::placeholder { color: var(--tan); }
+  ::placeholder { color: var(--cloud-dim); }
   * { box-sizing: border-box; }
   body { margin: 0; color: var(--text); min-height: 100vh;
-         background: radial-gradient(120% 60% at 50% 0%, rgba(227, 155, 45, .10), transparent 60%), var(--bg);
+         background: radial-gradient(120% 60% at 50% 0%, rgba(255, 176, 0, .07), transparent 60%), var(--bg);
          font: 16px/1.45 var(--sans); }
   .wrap { max-width: 860px; margin: 0 auto; padding: 8px 16px 96px; }
-  .band { background: var(--band); color: var(--band-text); border-bottom: 2px solid var(--amber-deep); }
+  .band { background: var(--band); color: var(--band-text); border-bottom: 2px solid var(--amber-dark); }
   .band .in { max-width: 860px; margin: 0 auto; padding: 24px 16px 0; }
   header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
   h1 { margin: 0; font: 400 32px/1.15 var(--serif); letter-spacing: -0.01em; }
   h1::before { content: ""; display: inline-block; width: 13px; height: 13px; border-radius: 50%; margin-right: 11px; vertical-align: 5px;
-               background: radial-gradient(circle at 35% 30%, #ffd58a, var(--amber) 45%, var(--amber-deep));
-               box-shadow: 0 0 12px rgba(227, 155, 45, .55); }   /* a little amber glass bead */
+               background: radial-gradient(circle at 35% 30%, var(--cloud), var(--amber) 40%, var(--amber-dark));
+               box-shadow: 0 0 12px rgba(255, 176, 0, .55); }   /* a little amber glass bead */
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
   .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px;
          padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; white-space: nowrap; }
-  .btn.primary { background: linear-gradient(180deg, var(--amber), #cf841c); border-color: var(--amber-deep); color: var(--on-accent); font-weight: 600; }
-  .band .btn.primary, .bar .btn.primary { background: linear-gradient(180deg, var(--amber), #cf841c); border-color: var(--amber-deep); color: var(--band-primary-text); }
+  .btn.primary { background: linear-gradient(180deg, var(--amber), #f09a00); border-color: var(--amber-dark); color: var(--on-accent); font-weight: 600; }
+  .band .btn.primary, .bar .btn.primary { background: linear-gradient(180deg, var(--amber), #f09a00); border-color: var(--amber-dark); color: var(--band-primary-text); }
   .band .btn:not(.primary), .bar .btn:not(.primary) { background: transparent; color: var(--band-text); border-color: var(--band-line); }
   .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--band-text); }
   .tabs { display: flex; gap: 4px; margin: 18px 0 0; flex-wrap: wrap; }
@@ -60,16 +57,16 @@
   .tab .n { font: 400 13px/1 var(--sans); margin-left: 4px; opacity: .8; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
   .chips:empty { display: none; }
-  /* venue chips: filled ember when shown, outlined when hidden */
-  .chip { border: 1px solid var(--ember-chip); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
+  /* venue chips: filled with a dark-amber edge when shown, faint outline when hidden */
+  .chip { border: 1px solid var(--black-line); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
           font: inherit; font-size: 13px; cursor: pointer; }
-  .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--chip); color: var(--text); }
+  .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--amber-dark); color: var(--text); }
   .chip .n { font-weight: 400; margin-left: 4px; }
   .chip.bad { text-decoration: line-through; opacity: .55; }
-  .chip.special { border: 1px solid var(--tan); background: transparent; color: var(--text); }
+  .chip.special { border: 1px solid var(--cloud-dim); background: transparent; color: var(--text); }
   .datebar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; width: 100%; margin-bottom: 6px; }
   .datebar input[type=date] { font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: var(--surface);
-                              border: 1px solid var(--tan); border-radius: 8px; padding: 5px 10px; }
+                              border: 1px solid var(--amber-dark); border-radius: 8px; padding: 5px 10px; }
   .datebar .btn { padding: 5px 11px; font-size: 15px; }
   .day.group h2 { color: var(--amber); font: 400 19px/1.2 var(--serif); text-transform: none; letter-spacing: 0; }
   .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free-bg); }
@@ -99,14 +96,14 @@
   .times button[aria-pressed="true"] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
   .empty { color: var(--muted); margin-top: 40px; text-align: center; }
-  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 2px solid var(--amber);
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 2px solid var(--amber-dark);
          transform: translateY(110%); transition: transform .2s; z-index: 5; }
   .bar.show { transform: none; }
   .bar .in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .bar .count { font-weight: 600; margin-right: auto; }
   dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text);
            width: min(560px, calc(100vw - 32px)); padding: 0; }
-  dialog::backdrop { background: rgba(28, 20, 15, .8); }
+  dialog::backdrop { background: rgba(0, 0, 0, .8); }
   dialog .hd { padding: 16px 18px 8px; } dialog h3 { margin: 0 0 4px; font: 400 20px/1.2 var(--serif); }
   dialog .list { max-height: 55vh; overflow: auto; padding: 0 18px; }
   dialog .row { display: flex; gap: 10px; align-items: center; justify-content: space-between; padding: 8px 0; border-top: 1px solid var(--line); }

@@ -24,7 +24,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 
 - its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days,
   Le Marché Vintage, 5 à Set), or
-- its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings…),
+- its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings, conferences…),
   which catches the non-music nights at music venues.
 
 "Closed" and "private event" placeholders are dropped.
@@ -49,10 +49,12 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Soft Studio Days | Luma host profile (what their /events page links to) |
 | Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
 | Boiler Room | boilerroom.tv/city/montreal (page data). It lists past shows too; only upcoming ones appear. |
-| Bar Le Ritz PDB | barleritzpdb.com events (Squarespace `?format=json`); name from each event's heading, price from its Universe ticket page |
+| Bar Le Ritz PDB, Théâtre Fairmount | each site's Squarespace events (`?format=json`); name from each event's heading, price range from its Universe ticket types |
 | Système | Resident Advisor venue 201918 (what systememtl.com links to) |
 | New City Gas | newcitygas.com/en/events, then each event page's schema.org data (times). No prices: the pages show a placeholder and Tixr blocks automated access. |
 | Eastern Bloc | Resident Advisor venue 147287 (parties, Sight+Sound). It mostly announces on Instagram, which can't be read automatically. |
+| L'Escogriffe | Resident Advisor venue 124247 (its own site is a Facebook page; lists shows on RA only occasionally) |
+| Ausgang Plaza | Resident Advisor venue 158331 |
 
 ### Museums tab (`docs/museums.ics`)
 

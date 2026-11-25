@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Figure Drawing : The Female Form @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261125T183000
 DTEND;TZID=America/Montreal:20261125T200000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:8b7d00b65bbc80feb14e@mtl-events
 DESCRIPTION:Soft Studio Days\n$23\nhttps://luma.com/jftov1fw
 LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
@@ -19,7 +19,7 @@ SUMMARY:5 à Set: "The Miseducation of Lauryn Hill" Listening Party/Séanc
  e d'écoute @ 5 à Set
 DTSTART;TZID=America/Montreal:20261125T190000
 DTEND;TZID=America/Montreal:20261125T220000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:5c807efe22591e1ad7de@mtl-events
 DESCRIPTION:5 à Set\n$21\nhttps://www.eventbrite.com/e/5-a-set-the-misedu
  cation-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072
@@ -31,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:1 year anniversary ★ @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261128T173000
 DTEND;TZID=America/Montreal:20261128T203000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:deac52723d022fcabc67@mtl-events
 DESCRIPTION:Soft Studio Days\n$40\nhttps://luma.com/kukqhsgv
 LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
@@ -39,10 +39,21 @@ LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
 URL:https://luma.com/kukqhsgv
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · CONFÉRENCE DE DANSE - Construction de la communauté de l
+ a house danse à Montréal @ Ausgang Plaza
+DTSTART;TZID=America/Montreal:20261204T170000
+DTEND;TZID=America/Montreal:20261204T190000
+DTSTAMP:20261125T231500Z
+UID:b706fb854a84316ba2be@mtl-events
+DESCRIPTION:Ausgang Plaza\nFree\nhttps://ra.co/events/2584817
+LOCATION:Ausgang Plaza
+URL:https://ra.co/events/2584817
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LA CLASH PODCAST ... LIVE! @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T160000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:5505f03daeb699a41706@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/5/la-clas
  h-podcast--live
@@ -53,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:ceramic picture frame @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261213T120000
 DTEND;TZID=America/Montreal:20261213T140000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:1ac5db9aeaa2b8682f67@mtl-events
 DESCRIPTION:Soft Studio Days\n$65\nhttps://luma.com/36q3zngt
 LOCATION:soft studio days\, 2000 Av. Northcliffe #216\, Montréal\, QC H4A
@@ -64,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:MTL Holiday Cookie Swap @ MTL Cookbook Club
 DTSTART;TZID=America/Montreal:20261213T150000
 DTEND;TZID=America/Montreal:20261213T170000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:f2775b1dae62ca676949@mtl-events
 DESCRIPTION:MTL Cookbook Club\n$25\nhttps://luma.com/eimb8vme
 LOCATION:Montréal
@@ -75,7 +86,7 @@ SUMMARY:LECTURE ET LEVÉE DE FONDS - COCO\, de Nathalie Doummar @ Casa del
   Popolo
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:b5b2f4849abf8a2990c2@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  5-lecture-et-levee-de-fonds-coco-de-nathalie-doummar
@@ -88,7 +99,7 @@ SUMMARY:Raquel and friends - a stand-up comedy show - EARLY SHOW @ Casa de
  l Popolo
 DTSTART;TZID=America/Montreal:20261218T193000
 DTEND;TZID=America/Montreal:20261218T223000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:4599be07fdff86d6786f@mtl-events
 DESCRIPTION:Casa del Popolo\n$10\nhttps://casadelpopolo.com/en/events/2026
  -12-19-raquel-and-friends-a-stand-up-comedy-show
@@ -100,7 +111,7 @@ BEGIN:VEVENT
 SUMMARY:The Roast Of 2026 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:299f6321d63b30b96bd9@mtl-events
 DESCRIPTION:Casa del Popolo\n$12\nhttps://casadelpopolo.com/en/events/2026
  -12-19-the-roast-of-2026
@@ -111,7 +122,7 @@ BEGIN:VEVENT
 SUMMARY:Vision board 2027 @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261220T180000
 DTEND;TZID=America/Montreal:20261220T200000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:ece5c438a1b74f820854@mtl-events
 DESCRIPTION:Soft Studio Days\n$32\nhttps://luma.com/drbw07zz
 LOCATION:2000 Av. Northcliffe\, Montréal\, QC H4A 3K5\, Canada
@@ -121,7 +132,7 @@ BEGIN:VEVENT
 SUMMARY:LE QUIZ DES SIMPSONS @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261222T193000
 DTEND;TZID=America/Montreal:20261222T223000
-DTSTAMP:20261125T230637Z
+DTSTAMP:20261125T231500Z
 UID:b0874798692b6e830cf3@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/22/le-qui
  z-des-simpsons
