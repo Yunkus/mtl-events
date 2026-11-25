@@ -631,8 +631,9 @@ EVENT_SOURCES = {
 
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
-OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set",
-                 "Trivia Nights", "Comedy Open Mics", "Karaoke Nights"}
+OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
+# Recurring bar nights get their own tab:
+BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
 OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
                           r"book launch|lancement de livre|open mic comedy", re.I)
@@ -641,19 +642,26 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 
 
 def event_tab(e: Ev) -> str:
+    if e.source in BAR_SOURCES:
+        return "bars"
     return "other" if e.source in OTHER_SOURCES or OTHER_TITLES.search(e.title) else "music"
+
+
+def source_tab(name: str) -> str:
+    return "bars" if name in BAR_SOURCES else "other" if name in OTHER_SOURCES else "music"
 
 
 # tab id -> (title, feed file); order = order on the page
 TABS = {
     "music": ("Montreal Music & Dance", "music.ics"),
     "other": ("Montreal Other Events", "other.ics"),
+    "bars": ("Montreal Bar Nights", "bars.ics"),
     "museums": ("Montreal Museums", "museums.ics"),
     "movies": ("Montreal Movies", "movies.ics"),
 }
 # (sources, function choosing each event's tab, tab to file the source's status under)
 SOURCE_GROUPS = [
-    (EVENT_SOURCES, event_tab, lambda name: "other" if name in OTHER_SOURCES else "music"),
+    (EVENT_SOURCES, event_tab, source_tab),
     ({"Musées Montréal": musees_montreal}, lambda e: "museums", lambda name: "museums"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]

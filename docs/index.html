@@ -122,10 +122,10 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", other: "Other Events", museums: "Museums", movies: "Movies" };
+const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", museums: "Museums", movies: "Movies" };
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
-                      museums: "Search exhibitions, museums…", movies: "Search films, cinemas…" };
-const EVENT_TABS = ["music", "other"];   // tabs filtered by venue chips
+                      bars: "Search bars, streets…", museums: "Search exhibitions, museums…", movies: "Search films, cinemas…" };
+const EVENT_TABS = ["music", "other", "bars"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },

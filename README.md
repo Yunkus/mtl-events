@@ -4,7 +4,7 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 
 - `docs/index.html` – a filterable web page
 - one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
-  `music.ics` (Music & Dance), `other.ics` (Other Events), `museums.ics`, `movies.ics`.
+  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `museums.ics`, `movies.ics`.
   `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
 On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
@@ -65,7 +65,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 
 The movies feed has every showtime (several hundred). Subscribe to it only if you want that in your calendar.
 
-### Bar nights (Other Events tab)
+### Bar Nights tab (`docs/bars.ics`)
 
 | Source | How it's fetched |
 |---|---|
