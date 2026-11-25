@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T18:01-05:00",
+ "generated": "2026-11-25T18:04-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 296
+   "count": 305
   },
   "other": {
    "title": "Montreal Other Events",
@@ -121,6 +121,11 @@
   "Système": {
    "ok": true,
    "count": 22,
+   "tab": "music"
+  },
+  "New City Gas": {
+   "ok": true,
+   "count": 9,
    "tab": "music"
   },
   "Trivia Nights": {
@@ -525,6 +530,20 @@
    "id": "4cf642368cd47d20e32f"
   },
   {
+   "source": "New City Gas",
+   "title": "IAN ASHER",
+   "start": "2026-11-27T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ian-asher-208811/",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c9b4e66e1a3a7a85cbba"
+  },
+  {
    "source": "SAT",
    "title": "ALL NIGHT x Dure Vie",
    "start": "2026-11-27T22:00:00-05:00",
@@ -761,6 +780,20 @@
    "all_day": false,
    "tab": "music",
    "id": "a6e74661e046ad4762cc"
+  },
+  {
+   "source": "New City Gas",
+   "title": "[DSTRKT] LAYTON GIORDANI",
+   "start": "2026-11-28T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/layton-giordani-202728/",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e566e1a63a4c154fcc24"
   },
   {
    "source": "Le Belmont",
@@ -2751,6 +2784,20 @@
    "id": "4ce5e84e2bc3500a045a"
   },
   {
+   "source": "New City Gas",
+   "title": "DJ PAULY D",
+   "start": "2026-12-19T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/dj-pauly-d-216008/",
+   "end": "2026-12-20T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "3212a7ff0599f3789e2f"
+  },
+  {
    "source": "Système",
    "title": "Groovy Castle",
    "start": "2026-12-19T22:00:00-05:00",
@@ -2961,6 +3008,20 @@
    "id": "d3a5282495039eb34235"
   },
   {
+   "source": "New City Gas",
+   "title": "Josh Baker, Jay Pryor",
+   "start": "2026-12-29T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/",
+   "end": "2026-12-30T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "dcb37b00f347abef4844"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "These Guys + Black Moon + The Enemy is a Computer",
    "start": "2026-12-30T19:00:00-05:00",
@@ -2973,6 +3034,34 @@
    "all_day": false,
    "tab": "music",
    "id": "8b577cf651403575233c"
+  },
+  {
+   "source": "New City Gas",
+   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9093d0621d0f2e51cc47"
+  },
+  {
+   "source": "New City Gas",
+   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/pauza-214314/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d331956490315be88dd5"
   },
   {
    "source": "SAT",
@@ -3577,6 +3666,20 @@
    "id": "dcfbcda00a6e525440bc"
   },
   {
+   "source": "New City Gas",
+   "title": "TWINSICK",
+   "start": "2027-02-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/twinsick-206983/",
+   "end": "2027-02-14T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2dc247f8b4acb2e2aa99"
+  },
+  {
    "source": "Newspeak",
    "title": "Romare [LIVE]",
    "start": "2027-02-20T19:00:00-05:00",
@@ -3729,6 +3832,20 @@
    "all_day": false,
    "tab": "music",
    "id": "ac3c3a390ffbaea7b7ee"
+  },
+  {
+   "source": "New City Gas",
+   "title": "ELY OAKS",
+   "start": "2027-02-27T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ely-oaks-207891/",
+   "end": "2027-02-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "0bc63f97026ea3699a0e"
   },
   {
    "source": "Newspeak",
@@ -3911,6 +4028,20 @@
    "all_day": false,
    "tab": "music",
    "id": "595b3e87cd0075e03783"
+  },
+  {
+   "source": "New City Gas",
+   "title": "D.O.D",
+   "start": "2027-03-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/d-o-d-211258/",
+   "end": "2027-03-14T03:00:00-04:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "994417a4178055745341"
   },
   {
    "source": "Bar Le Ritz PDB",
