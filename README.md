@@ -48,6 +48,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | MTL Cookbook Club | Luma calendar page (luma.com/mtlcookbookclub) |
 | Soft Studio Days | Luma host profile (what their /events page links to) |
 | Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
+| Boiler Room | boilerroom.tv/city/montreal (page data). It lists past shows too; only upcoming ones appear. |
 
 ### Museums tab (`docs/museums.ics`)
 

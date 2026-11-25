@@ -432,6 +432,36 @@ def newspeak() -> list[Ev]:
     return out
 
 
+def next_flight_text(html: str) -> str:
+    """The data a Next.js app page streams in `self.__next_f.push([1, "..."])` script chunks, joined."""
+    chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
+    return "".join(json.loads(f'"{c}"') for c in chunks)
+
+
+def boiler_room() -> list[Ev]:
+    """boilerroom.tv/city/montreal lists every Montreal show (past ones too; old ones drop at the cutoff)."""
+    base = "https://boilerroom.tv"
+    t = next_flight_text(get(f"{base}/city/montreal/").text)
+    out, seen = [], set()
+    for m in re.finditer(r'"start":"([^"]+)"', t):
+        before = t[max(0, m.start() - 1200):m.start()]
+        titles = re.findall(r'"children":"((?:[^"\\]|\\.){3,160})"\}\]', before)
+        hrefs = re.findall(r'"href":"(/session/[^"]+)"', before)
+        if not titles:
+            continue
+        url = base + hrefs[-1] if hrefs else f"{base}/city/montreal/"
+        if url in seen:
+            continue
+        seen.add(url)
+        title = json.loads(f'"{titles[-1]}"')
+        if "boiler room" not in title.lower():
+            title = f"Boiler Room {title}"
+        out.append(Ev("Boiler Room", title, iso(m.group(1)), url, location="Montréal"))
+    if not out and '"start"' not in t:
+        raise RuntimeError("no events found on the page (layout changed?)")
+    return out
+
+
 # ------------------------------------------------------------ bar nights
 BADSLAVA = "https://badslava.com/"
 _badslava_details: dict[str, dict[str, str]] = {}
@@ -641,6 +671,7 @@ EVENT_SOURCES = {
     "Soft Studio Days": lambda: luma_user("usr-RktHUOe1HAU874v", "Soft Studio Days"),
     "Laugh It Off": laugh_it_off,
     "Newspeak": newspeak,
+    "Boiler Room": boiler_room,
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
