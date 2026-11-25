@@ -5,18 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Montreal Events</title>
 <style>
-  /* Only these five colours are used, on every device (no separate dark mode):
-     #342729 espresso · #493539 plum · #abaebe lavender grey · #e2e0db off-white · #abbeb5 sage */
+  /* One dark view on every device, using only these five colours:
+     #342729 espresso (page) · #493539 plum (header, panels, lines) · #e2e0db off-white (text)
+     #abaebe lavender grey (secondary text) · #abbeb5 sage (highlights) */
   :root {
-    color-scheme: light;
+    color-scheme: dark;
     --espresso: #342729; --plum: #493539; --lavender: #abaebe; --off: #e2e0db; --sage: #abbeb5;
-    --bg: var(--off); --surface: var(--off); --text: var(--espresso); --muted: var(--plum); --line: var(--lavender);
-    --accent: var(--plum); --accent-ink: var(--plum); --on-accent: var(--off); --pick: var(--plum);
-    --chip: var(--lavender); --chip-on: var(--espresso); --chip-on-text: var(--off);
-    --band: var(--espresso); --band-text: var(--off); --band-muted: var(--lavender); --band-line: var(--plum);
+    --bg: var(--espresso); --surface: var(--plum); --text: var(--off); --muted: var(--lavender); --line: var(--plum);
+    --accent: var(--sage); --accent-ink: var(--sage); --on-accent: var(--espresso); --pick: var(--sage);
+    --chip: var(--plum); --chip-on: var(--off); --chip-on-text: var(--espresso);
+    --band: var(--plum); --band-text: var(--off); --band-muted: var(--lavender); --band-line: var(--lavender);
     --band-primary: var(--sage); --band-primary-text: var(--espresso); --mark: var(--sage);
-    --free: var(--espresso); --free-bg: var(--sage); --picked-row: var(--lavender);
+    --free: var(--espresso); --free-bg: var(--sage); --picked-row: var(--plum);
   }
+  ::placeholder { color: var(--lavender); }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
@@ -44,13 +46,18 @@
   .tab .n { font-weight: 400; margin-left: 4px; font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
   .chips:empty { display: none; }
-  /* venue chips: filled greige when shown, outlined and faded when hidden */
-  .chip { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
+  /* venue chips: filled plum when shown, outlined when hidden */
+  .chip { border: 1px solid var(--plum); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
           font: inherit; font-size: 13px; cursor: pointer; }
   .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--chip); color: var(--text); }
   .chip .n { font-weight: 400; margin-left: 4px; }
   .chip.bad { text-decoration: line-through; opacity: .55; }
-  .chip.special { border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+  .chip.special { border: 1px solid var(--lavender); background: transparent; color: var(--text); }
+  .datebar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; width: 100%; margin-bottom: 6px; }
+  .datebar input[type=date] { font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: var(--plum);
+                              border: 1px solid var(--lavender); border-radius: 8px; padding: 5px 10px; }
+  .datebar .btn { padding: 5px 11px; font-size: 15px; }
+  .group h2 { color: var(--sage); }
   .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free); }
   .chip.special.pick[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .sep { width: 1px; background: var(--line); margin: 2px 4px; }
@@ -136,9 +143,20 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", museums: "Museums", movies: "Movies" };
+const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", museums: "Museums", movies: "Movies",
+                    date: "By Date" };
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
-                      bars: "Search bars, streets…", museums: "Search exhibitions, museums…", movies: "Search films, cinemas…" };
+                      bars: "Search bars, streets…", museums: "Search exhibitions, museums…", movies: "Search films, cinemas…",
+                      date: "Search this day…" };
+// "By Date" view: everything on one day, in this order of types
+const DAY_GROUPS = [
+  ["Music & Dance", e => e.tab === "music"],
+  ["Other Events", e => e.tab === "other"],
+  ["Bar Nights", e => e.tab === "bars"],
+  ["Museum events", e => e.tab === "museums" && e.kind !== "exhibition"],
+  ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
+  ["Movies", e => e.tab === "movies"],
+];
 const EVENT_TABS = ["music", "other", "bars"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
@@ -223,20 +241,25 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const gen = new Date(data.generated).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" });
 
   const tabIds = Object.keys(tabsInfo);
-  const fix = t => (t === "events" ? "music" : t);   // the old single Events tab
+  const allTabs = [...tabIds, "date"];
+  // "#events" is the old single Events tab; "#date/2026-12-05" opens By Date on that day
+  const fix = t => (t === "events" ? "music" : t.startsWith("date") ? "date" : t);
+  const lastDay = events.reduce((m, e) => (e.key > m ? e.key : m), today);
+  let dayPick = (location.hash.match(/^#date\/(\d{4}-\d{2}-\d{2})$/) || [])[1] || today;
   let tab = fix(location.hash.slice(1));
-  if (!tabIds.includes(tab)) tab = fix(store.get("tab", "music"));
-  if (!tabIds.includes(tab)) tab = tabIds[0];
+  if (!allTabs.includes(tab)) tab = fix(store.get("tab", "music"));
+  if (!allTabs.includes(tab)) tab = tabIds[0];
 
   const tabsEl = $("tabs");
   const tabBtns = {};
-  for (const id of tabIds) {
+  for (const id of allTabs) {
     const b = el("button", "tab"); b.setAttribute("role", "tab");
-    b.append(TAB_LABEL[id] || id, el("span", "n", events.filter(e => e.tab === id).length));
+    b.append(TAB_LABEL[id] || id);
+    if (id !== "date") b.appendChild(el("span", "n", events.filter(e => e.tab === id).length));
     b.onclick = () => select(id);
     tabsEl.appendChild(b); tabBtns[id] = b;
   }
-  const feedUrl = () => new URL(tabsInfo[tab].feed, location.href).href;
+  const feedUrl = () => new URL((tabsInfo[tab] || tabsInfo[tabIds[0]]).feed, location.href).href;
   $("copy").onclick = async () => { try { await navigator.clipboard.writeText(feedUrl()); } catch (e) {} toast("Feed URL copied"); };
   $("q").oninput = render;
 
@@ -270,19 +293,48 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   $("clear").onclick = () => { picked.clear(); savePicks(); if (picksOnly) picksOnly = false; buildChips(); render(); };
 
   function select(id) {
-    tab = id; store.set("tab", id); history.replaceState(null, "", "#" + id);
+    tab = id; store.set("tab", id);
     for (const [k, b] of Object.entries(tabBtns)) b.setAttribute("aria-selected", String(k === id));
+    $("q").placeholder = PLACEHOLDER[id] || "Search…";
+    document.querySelector(".sub").style.display = id === "date" ? "none" : "";   // no feed for a single day
+    if (id === "date") { setDay(dayPick); return; }
+    history.replaceState(null, "", "#" + id);
     const info = tabsInfo[id];
     $("title").textContent = info.title; document.title = info.title;
     const url = feedUrl();
     $("webcal").href = url.replace(/^https?:/, "webcal:");
     $("gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(url.replace(/^https?:/, "webcal:"));
-    $("q").placeholder = PLACEHOLDER[id] || "Search…";
     const bad = Object.keys(sources).filter(n => srcTab(n) === id && !sources[n].ok);
     $("meta").textContent = `${events.filter(e => e.tab === id).length} upcoming · updated ${gen}` +
       (bad.length ? ` · not updating: ${bad.join(", ")}` : "");
     $("hint").textContent = id === "movies" ? "Tap showtimes to select them." : "Tick events to add just those to your calendar.";
     buildChips(); render();
+  }
+
+  // ---------- By Date view
+  const shiftDay = (s, n) => { const d = new Date(s + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const onDay = (e, day) => e.kind === "exhibition" ? e.start <= day && (e.end || e.start) >= day : e.key === day;
+  function setDay(day) {
+    dayPick = day < today ? today : day;
+    history.replaceState(null, "", "#date/" + dayPick);
+    const n = events.filter(e => onDay(e, dayPick) && e.kind !== "exhibition").length;
+    $("title").textContent = dayFmt.format(noon(dayPick)); document.title = "Montreal · " + dayFmt.format(noon(dayPick));
+    $("meta").textContent = `${n} event${n === 1 ? "" : "s"} that day, grouped by type · updated ${gen}`;
+    $("hint").textContent = "Tick events (or tap movie showtimes) to add just those to your calendar.";
+    buildChips(); render();
+  }
+  function buildDateBar(chips) {
+    const bar = el("div", "datebar");
+    const prev = el("button", "btn", "‹"); prev.title = "Previous day"; prev.disabled = dayPick <= today;
+    prev.onclick = () => setDay(shiftDay(dayPick, -1));
+    const input = el("input"); input.type = "date"; input.value = dayPick; input.min = today; input.max = lastDay;
+    input.setAttribute("aria-label", "Choose a date");
+    input.onchange = () => { if (input.value) setDay(input.value); };
+    const next = el("button", "btn", "›"); next.title = "Next day";
+    next.onclick = () => setDay(shiftDay(dayPick, 1));
+    const now = el("button", "btn", "Today"); now.onclick = () => setDay(today);
+    bar.append(prev, input, next, now);
+    chips.appendChild(bar);
   }
 
   function special(label, on, cls, n, onclick) {
@@ -292,12 +344,14 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
   function buildChips() {
     const chips = $("chips"); chips.innerHTML = "";
-    const inTab = events.filter(e => e.tab === tab);
+    if (tab === "date") buildDateBar(chips);
+    const inTab = events.filter(e => (tab === "date" ? onDay(e, dayPick) : e.tab === tab));
     chips.appendChild(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; buildChips(); render(); }));
     if (inTab.some(e => e.free)) {
       chips.appendChild(special("Free only", freeOnly, "", inTab.filter(e => e.free).length,
         () => { freeOnly = !freeOnly; store.set("freeOnly", freeOnly); buildChips(); render(); }));
     }
+    if (tab === "date") return;
     chips.appendChild(el("span", "sep"));
     if (tab === "museums") {   // two views instead of source filters
       for (const [v, label] of [["events", "Events"], ["exhibitions", "Exhibitions"]]) {
@@ -347,9 +401,47 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     return frag;
   }
 
+  // One row for an event, styled by its own type (e.tab), so the By Date view can mix types.
+  function addRow(e, sec, groups) {
+    if (e.tab === "movies") {   // one row per film per cinema per day, a toggle per showtime
+      const g = e.key + "|" + e.source + "|" + e.title;
+      if (!groups.has(g)) {
+        const row = el("div", "ev movie"); const body = el("div");
+        body.appendChild(titleLine(e));
+        const w = el("div", "where"); w.appendChild(el("span", "src", e.source)); body.appendChild(w);
+        const times = el("div", "times"); body.appendChild(times);
+        row.appendChild(body); sec.appendChild(row); groups.set(g, times);
+      }
+      const b = el("button", null, timeFmt.format(e.d));
+      b.setAttribute("aria-pressed", String(picked.has(e.id)));
+      b.title = "Select this showtime";
+      b.onclick = () => { toggle(e.id); b.setAttribute("aria-pressed", String(picked.has(e.id))); if (picksOnly) render(); };
+      groups.get(g).appendChild(b);
+      return;
+    }
+    if (e.kind === "exhibition") return exhibitionRow(e, sec, "until " + fmtShort(e.end));
+    const row = el("div", "ev");
+    row.appendChild(checkbox(e, row));
+    row.appendChild(el("time", null, e.all_day ? "—" : timeFmt.format(e.d)));
+    const body = el("div");
+    body.appendChild(titleLine(e));
+    const w = el("div", "where");
+    if (e.tab === "museums") {
+      w.appendChild(el("span", "src", e.location || e.source));
+      if (e.kind) w.append(" · " + e.kind);
+    } else {
+      w.appendChild(el("span", "src", e.source));
+      if (e.location && e.location !== e.source) w.append(" · " + e.location);
+    }
+    if (!e.free && e.price) w.append(" · " + e.price);
+    body.appendChild(w);
+    row.appendChild(body); sec.appendChild(row);
+  }
+
   function render() {
     const term = $("q").value.trim().toLowerCase();
     const list = $("list"); list.innerHTML = "";
+    if (tab === "date") return renderDay(list, term);
     const freeFilter = freeOnly && events.some(e => e.tab === tab && e.free);   // tabs without price data ignore it
     let shown = events.filter(e => e.tab === tab && matches(e, term) && (!freeFilter || e.free) && (!picksOnly || picked.has(e.id)));
     if (tab === "museums") {
@@ -360,70 +452,64 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     }
     if (!shown.length) { list.innerHTML = `<p class="empty">${picksOnly ? "Nothing selected in this tab yet." : "Nothing matches."}</p>`; return; }
     let cur, sec;
-    const groups = new Map();   // movies: one row per film per cinema per day, a toggle per showtime
+    const groups = new Map();
     for (const e of shown) {
       if (e.key !== cur) {
         cur = e.key; sec = el("section", "day"); sec.appendChild(el("h2", null, dayFmt.format(e.d)));
         list.appendChild(sec);
       }
-      if (tab === "movies") {
-        const g = e.key + "|" + e.source + "|" + e.title;
-        if (!groups.has(g)) {
-          const row = el("div", "ev movie"); const body = el("div");
-          body.appendChild(titleLine(e));
-          const w = el("div", "where"); w.appendChild(el("span", "src", e.source)); body.appendChild(w);
-          const times = el("div", "times"); body.appendChild(times);
-          row.appendChild(body); sec.appendChild(row); groups.set(g, times);
-        }
-        const b = el("button", null, timeFmt.format(e.d));
-        b.setAttribute("aria-pressed", String(picked.has(e.id)));
-        b.title = "Select this showtime";
-        b.onclick = () => { toggle(e.id); b.setAttribute("aria-pressed", String(picked.has(e.id))); if (picksOnly) render(); };
-        groups.get(g).appendChild(b);
-        continue;
-      }
-      const row = el("div", "ev");
-      row.appendChild(checkbox(e, row));
-      row.appendChild(el("time", null, e.all_day ? "—" : timeFmt.format(e.d)));
-      const body = el("div");
-      body.appendChild(titleLine(e));
-      const w = el("div", "where");
-      if (tab === "museums") {
-        w.appendChild(el("span", "src", e.location || e.source));
-        if (e.kind) w.append(" · " + e.kind);
-      } else {
-        w.appendChild(el("span", "src", e.source));
-        if (e.location && e.location !== e.source) w.append(" · " + e.location);
-      }
-      if (!e.free && e.price) w.append(" · " + e.price);
-      body.appendChild(w);
-      row.appendChild(body); sec.appendChild(row);
+      addRow(e, sec, groups);
     }
+  }
+
+  function renderDay(list, term) {
+    const all = events.filter(e => onDay(e, dayPick));
+    const freeFilter = freeOnly && all.some(e => e.free);
+    const shown = all.filter(e => matches(e, term) && (!freeFilter || e.free) && (!picksOnly || picked.has(e.id)));
+    for (const [label, test] of DAY_GROUPS) {
+      const items = shown.filter(test);
+      if (!items.length) continue;
+      const count = label === "Movies" ? new Set(items.map(e => e.source + "|" + e.title)).size + " films" : items.length;
+      const sec = el("section", "day group"); sec.appendChild(el("h2", null, `${label} · ${count}`));
+      const groups = new Map();
+      for (const e of items) addRow(e, sec, groups);
+      list.appendChild(sec);
+    }
+    if (!list.children.length) {
+      list.innerHTML = `<p class="empty">${all.length ? "Nothing matches." : "Nothing listed for this day yet."}</p>`;
+    }
+  }
+
+  const fmtShort = s => { const d = noon(s); return (d.getFullYear() === new Date().getFullYear() ? shortFmt : shortYFmt).format(d); };
+  function exhibitionRow(e, sec, when) {
+    const row = el("div", "ev wide");
+    row.append(checkbox(e, row), el("time", null, when));
+    const body = el("div"); body.appendChild(titleLine(e));
+    const w = el("div", "where"); w.appendChild(el("span", "src", e.location || e.source));
+    body.appendChild(w); row.appendChild(body); sec.appendChild(row);
   }
 
   function renderExhibitions(list, shown) {
     if (!shown.length) { list.innerHTML = '<p class="empty">Nothing matches.</p>'; return; }
-    const fmt = s => { const d = noon(s); return (d.getFullYear() === new Date().getFullYear() ? shortFmt : shortYFmt).format(d); };
     const now = shown.filter(e => e.start <= today).sort((a, b) => a.end.localeCompare(b.end));
     const soon = shown.filter(e => e.start > today).sort((a, b) => a.start.localeCompare(b.start));
     for (const [label, items, when] of [
-      ["On now · closing soonest first", now, e => "until " + fmt(e.end)],
-      ["Opening soon", soon, e => fmt(e.start) + " – " + fmt(e.end)],
+      ["On now · closing soonest first", now, e => "until " + fmtShort(e.end)],
+      ["Opening soon", soon, e => fmtShort(e.start) + " – " + fmtShort(e.end)],
     ]) {
       if (!items.length) continue;
       const sec = el("section", "day"); sec.appendChild(el("h2", null, label));
-      for (const e of items) {
-        const row = el("div", "ev wide");
-        row.append(checkbox(e, row), el("time", null, when(e)));
-        const body = el("div"); body.appendChild(titleLine(e));
-        const w = el("div", "where"); w.appendChild(el("span", "src", e.location || e.source));
-        body.appendChild(w); row.appendChild(body); sec.appendChild(row);
-      }
+      for (const e of items) exhibitionRow(e, sec, when(e));
       list.appendChild(sec);
     }
   }
 
-  window.addEventListener("hashchange", () => { const h = fix(location.hash.slice(1)); if (tabIds.includes(h) && h !== tab) select(h); });
+  window.addEventListener("hashchange", () => {
+    const h = fix(location.hash.slice(1));
+    const d = (location.hash.match(/^#date\/(\d{4}-\d{2}-\d{2})$/) || [])[1];
+    if (h === "date" && d && d !== dayPick) { dayPick = d; select("date"); }
+    else if (allTabs.includes(h) && h !== tab) select(h);
+  });
   store.set("picked", [...picked]);
   updateBar();
   select(tab);
