@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T18:04-05:00",
+ "generated": "2026-11-25T18:06-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -126,6 +126,11 @@
   "New City Gas": {
    "ok": true,
    "count": 9,
+   "tab": "music"
+  },
+  "Eastern Bloc": {
+   "ok": true,
+   "count": 0,
    "tab": "music"
   },
   "Trivia Nights": {
