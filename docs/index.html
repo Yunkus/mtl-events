@@ -4,60 +4,68 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Montreal Events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
 <style>
-  /* One dark view on every device, using only these five colours:
-     #342729 espresso (page) · #493539 plum (header, panels, lines) · #e2e0db off-white (text)
-     #abaebe lavender grey (secondary text, venue names) · #505565 slate blue (badges, buttons, checkboxes) */
+  /* 70s lounge: amber glass and house plants, one dark view on every device.
+     walnut #1c140f / #2a1e16 · cream #f2e6cf · brass-tan #c7a97c · amber glass #e39b2d / #a85a12
+     fern #2f3d26 / #243020 · avocado #8a9a4b */
   :root {
     color-scheme: dark;
-    --espresso: #342729; --plum: #493539; --lavender: #abaebe; --off: #e2e0db; --slate: #505565;
-    --bg: var(--espresso); --surface: var(--plum); --text: var(--off); --muted: var(--lavender); --line: var(--plum);
-    --accent: var(--slate); --accent-ink: var(--lavender); --on-accent: var(--off); --pick: var(--slate);
-    --chip: var(--plum); --chip-on: var(--off); --chip-on-text: var(--espresso);
-    --band: var(--plum); --band-text: var(--off); --band-muted: var(--lavender); --band-line: var(--lavender);
-    --band-primary: var(--slate); --band-primary-text: var(--off); --mark: var(--slate);
-    --free: var(--off); --free-bg: var(--slate); --picked-row: var(--plum);
+    --walnut: #1c140f; --walnut-2: #2a1e16; --walnut-line: #3d2c20; --cream: #f2e6cf; --tan: #c7a97c;
+    --amber: #e39b2d; --amber-deep: #a85a12; --fern: #2f3d26; --fern-deep: #243020; --avocado: #8a9a4b;
+    --bg: var(--walnut); --surface: var(--walnut-2); --text: var(--cream); --muted: var(--tan); --line: var(--walnut-line);
+    --accent: var(--amber); --accent-ink: var(--amber); --on-accent: var(--walnut); --pick: var(--amber);
+    --chip: var(--fern); --chip-on: var(--amber); --chip-on-text: var(--walnut);
+    --band: linear-gradient(180deg, var(--fern) 0%, var(--fern-deep) 100%); --band-text: var(--cream);
+    --band-muted: #b9c08f; --band-line: #6b7a45;
+    --band-primary: var(--amber); --band-primary-text: var(--walnut); --mark: var(--amber);
+    --free: var(--walnut); --free-bg: var(--avocado); --picked-row: rgba(227, 155, 45, .13);
+    --serif: "Fraunces", Georgia, "Times New Roman", serif;
   }
-  ::placeholder { color: var(--lavender); }
+  ::placeholder { color: var(--tan); }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
+  body { margin: 0; color: var(--text); min-height: 100vh;
+         background: radial-gradient(120% 60% at 50% 0%, rgba(227, 155, 45, .10), transparent 60%), var(--bg);
          font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   .wrap { max-width: 860px; margin: 0 auto; padding: 8px 16px 96px; }
-  .band { background: var(--band); color: var(--band-text); }
+  .band { background: var(--band); color: var(--band-text); border-bottom: 2px solid var(--amber-deep); }
   .band .in { max-width: 860px; margin: 0 auto; padding: 24px 16px 0; }
   header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
-  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
-  h1::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px;
-               background: var(--mark); margin-right: 10px; vertical-align: 4px; }
+  h1 { margin: 0; font: 600 32px/1.15 var(--serif); letter-spacing: -0.01em; }
+  h1::before { content: ""; display: inline-block; width: 13px; height: 13px; border-radius: 50%; margin-right: 11px; vertical-align: 5px;
+               background: radial-gradient(circle at 35% 30%, #ffd58a, var(--amber) 45%, var(--amber-deep));
+               box-shadow: 0 0 12px rgba(227, 155, 45, .55); }   /* a little amber glass bead */
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
   .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px;
          padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; white-space: nowrap; }
-  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
-  .band .btn.primary, .bar .btn.primary { background: var(--band-primary); border-color: var(--band-primary); color: var(--band-primary-text); }
+  .btn.primary { background: linear-gradient(180deg, var(--amber), #cf841c); border-color: var(--amber-deep); color: var(--on-accent); font-weight: 600; }
+  .band .btn.primary, .bar .btn.primary { background: linear-gradient(180deg, var(--amber), #cf841c); border-color: var(--amber-deep); color: var(--band-primary-text); }
   .band .btn:not(.primary), .bar .btn:not(.primary) { background: transparent; color: var(--band-text); border-color: var(--band-line); }
   .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--band-text); }
   .tabs { display: flex; gap: 4px; margin: 18px 0 0; flex-wrap: wrap; }
-  .tab { border: 0; background: none; color: var(--band-muted); font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
+  .tab { border: 0; background: none; color: var(--band-muted); font: 600 16px/1.2 var(--serif); cursor: pointer; white-space: nowrap;
          padding: 9px 12px; border-radius: 8px 8px 0 0; }
   .tab:hover { color: var(--band-text); }
-  .tab[aria-selected="true"] { color: var(--text); background: var(--bg); }   /* folder tab joining the page */
-  .tab .n { font-weight: 400; margin-left: 4px; font-size: 13px; }
+  .tab[aria-selected="true"] { color: var(--amber); background: var(--bg); box-shadow: inset 0 2px 0 var(--amber); }   /* folder tab joining the page */
+  .tab .n { font: 400 13px/1 system-ui, sans-serif; margin-left: 4px; opacity: .8; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
   .chips:empty { display: none; }
-  /* venue chips: filled plum when shown, outlined when hidden */
-  .chip { border: 1px solid var(--plum); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
+  /* venue chips: filled fern when shown, outlined when hidden */
+  .chip { border: 1px solid var(--fern); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
           font: inherit; font-size: 13px; cursor: pointer; }
   .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--chip); color: var(--text); }
   .chip .n { font-weight: 400; margin-left: 4px; }
   .chip.bad { text-decoration: line-through; opacity: .55; }
-  .chip.special { border: 1px solid var(--lavender); background: transparent; color: var(--text); }
+  .chip.special { border: 1px solid var(--tan); background: transparent; color: var(--text); }
   .datebar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; width: 100%; margin-bottom: 6px; }
-  .datebar input[type=date] { font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: var(--plum);
-                              border: 1px solid var(--lavender); border-radius: 8px; padding: 5px 10px; }
+  .datebar input[type=date] { font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: var(--surface);
+                              border: 1px solid var(--tan); border-radius: 8px; padding: 5px 10px; }
   .datebar .btn { padding: 5px 11px; font-size: 15px; }
-  .group h2 { color: var(--off); }
+  .day.group h2 { color: var(--amber); font: 600 19px/1.2 var(--serif); text-transform: none; letter-spacing: 0; }
   .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free-bg); }
   .chip.special.pick[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .sep { width: 1px; background: var(--line); margin: 2px 4px; }
@@ -85,14 +93,14 @@
   .times button[aria-pressed="true"] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
   .empty { color: var(--muted); margin-top: 40px; text-align: center; }
-  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 4px solid var(--mark);
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 2px solid var(--amber);
          transform: translateY(110%); transition: transform .2s; z-index: 5; }
   .bar.show { transform: none; }
   .bar .in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .bar .count { font-weight: 600; margin-right: auto; }
   dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text);
            width: min(560px, calc(100vw - 32px)); padding: 0; }
-  dialog::backdrop { background: var(--espresso); opacity: .85; }
+  dialog::backdrop { background: rgba(28, 20, 15, .8); }
   dialog .hd { padding: 16px 18px 8px; } dialog h3 { margin: 0 0 4px; font-size: 18px; }
   dialog .list { max-height: 55vh; overflow: auto; padding: 0 18px; }
   dialog .row { display: flex; gap: 10px; align-items: center; justify-content: space-between; padding: 8px 0; border-top: 1px solid var(--line); }
