@@ -466,6 +466,38 @@ def bar_le_ritz() -> list[Ev]:
     return out
 
 
+def jsonld_event(url: str) -> dict | None:
+    """The schema.org Event a page describes in its <script type="application/ld+json">, if any."""
+    for sc in soup(url).find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(sc.string or "")
+        except ValueError:
+            continue
+        for d in (data if isinstance(data, list) else data.get("@graph", [data])):
+            if isinstance(d, dict) and d.get("@type") in ("Event", "MusicEvent") and d.get("startDate"):
+                return d
+    return None
+
+
+def new_city_gas() -> list[Ev]:
+    """New City Gas: event links from the events page, then each event page's schema.org data (times, prices)."""
+    s = soup("https://newcitygas.com/en/events/")
+    urls = dict.fromkeys(a["href"].split("#")[0] for a in s.select("a[href*='/en/event/']"))
+    out = []
+    for url in urls:
+        try:
+            d = jsonld_event(url)
+        except requests.RequestException:
+            continue
+        if not d:
+            continue
+        # (no prices: every page lists "General Admission 25.00", NYE included, which looks like a template
+        #  placeholder; real prices are on Tixr, which blocks automated access)
+        out.append(Ev("New City Gas", clean(d.get("name") or ""), iso(d["startDate"]), url,
+                      iso(d["endDate"]) if d.get("endDate") else None, "New City Gas, 950 rue Ottawa"))
+    return out
+
+
 def next_flight_text(html: str) -> str:
     """The data a Next.js app page streams in `self.__next_f.push([1, "..."])` script chunks, joined."""
     chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
@@ -708,6 +740,7 @@ EVENT_SOURCES = {
     "Boiler Room": boiler_room,
     "Bar Le Ritz PDB": bar_le_ritz,
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
+    "New City Gas": new_city_gas,
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
