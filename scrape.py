@@ -3,7 +3,9 @@
 Run:  python scrape.py
 Outputs (in ./docs, served by GitHub Pages):
   events.json   - all events, used by index.html
-  calendar.ics  - subscribable iCalendar feed (all venues)
+  calendar.ics  - subscribable iCalendar feed, Events tab
+  museums.ics   - Museums tab feed
+  movies.ics    - Movies tab feed
 """
 from __future__ import annotations
 
@@ -42,8 +44,9 @@ class Ev:
     title: str
     start: datetime | date          # aware datetime, or date for all-day
     url: str
-    end: datetime | date | None = None
+    end: datetime | date | None = None   # for exhibitions: the last day (inclusive)
     location: str = ""
+    kind: str = ""                       # "exhibition", or a museum event type
 
     @property
     def all_day(self) -> bool:
@@ -370,7 +373,100 @@ def newspeak() -> list[Ev]:
     return out
 
 
-SOURCES = {
+# ------------------------------------------------------------------ museums
+EN_ABBR = {m[:3]: i for m, i in EN_MONTHS.items()}
+
+
+def _en_date(s: str) -> date:
+    m = re.match(r"([A-Za-z]{3})[a-z]* (\d{1,2}), (\d{4})", s.strip())
+    return date(int(m.group(3)), EN_ABBR[m.group(1).lower()], int(m.group(2)))
+
+
+def musees_montreal() -> list[Ev]:
+    """museesmontreal.org listing: dated events (one day) and temporary/upcoming exhibitions (date range).
+    Permanent exhibitions have no dates and are skipped."""
+    api = "https://museesmontreal.org/en/api/public/exhibitions-and-events-list"
+    out, page, last = [], 1, 1
+    while page <= last:
+        d = get(api, params={"page": page, "search": "", "filters": "{}"}).json()
+        last = int(d.get("last_page") or 1)
+        for x in d["data"]:
+            fd = x.get("formatted_date") or ""
+            if m := re.match(r"from (.+?) to (.+)$", fd):
+                out.append(Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
+                              _en_date(m.group(2)), x.get("museum_name") or "", "exhibition"))
+            elif m := re.match(r"starting on (.+)$", fd):
+                out.append(Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
+                              location=x.get("museum_name") or "", kind=x.get("type_text") or "Event"))
+        page += 1
+    return out
+
+
+# ------------------------------------------------------------------- movies
+CC_CINEMAS = {1: "Cinéma Beaubien", 2: "Cinéma du Parc", 3: "Cinéma du Musée"}
+
+
+def cinema_cinema(days: int = 14) -> list[Ev]:
+    """Cinéma Beaubien / du Parc / du Musée. The /horaire page embeds one day of showtimes (?date=YYYY-MM-DD)."""
+    base = "https://cinemacinema.ca"
+    rep = re.compile(r'\{cinema_id:(\d+),representation_id:(\d+),film_id:(\d+),titre:"((?:[^"\\]|\\.)*)",'
+                     r'representation_date:"(\d{4}-\d{2}-\d{2})[^"]*",version:"([^"]*)",heure_debut:"([^"]*)"')
+    out, seen = [], set()
+    today = datetime.now(TZ).date()
+    for i in range(days):
+        day = today + timedelta(days=i)
+        r = get(f"{base}/fr/horaire", params={"date": day.isoformat()})
+        r.encoding = "utf-8"          # the server sends no charset
+        html = r.text
+        film_url = {m.group(2): base + m.group(1) for m in re.finditer(r'href="(/fr/films/[a-z0-9-]+-(\d+))"', html)}
+        minutes = {m.group(2): int(m.group(1))
+                   for m in re.finditer(r"duree:(\d+),representations:\[\{cinema_id:\d+,representation_id:\d+,"
+                                        r"film_id:(\d+)", html)}
+        for m in rep.finditer(html):
+            cid, rid, fid, titre, ds, version, heure = m.groups()
+            t = parse_time(heure)
+            if rid in seen or not t:
+                continue
+            seen.add(rid)
+            start = datetime.combine(date.fromisoformat(ds), t, TZ)
+            title = json.loads(f'"{titre}"') + (f" ({version})" if version else "")
+            cinema = CC_CINEMAS.get(int(cid), "Cinéma Cinéma")
+            end = start + timedelta(minutes=minutes[fid]) if minutes.get(fid) else None
+            out.append(Ev(cinema, title, start, film_url.get(fid, f"{base}/fr/horaire?date={ds}"), end, cinema))
+    return out
+
+
+def cinema_moderne() -> list[Ev]:
+    """Cinéma Moderne's /horaire month calendar (this month and next)."""
+    base = "https://www.cinemamoderne.com/horaire/"
+    today = date.today()
+    nxt = date(today.year + today.month // 12, today.month % 12 + 1, 1)
+    out, seen = [], set()
+    for url in (base, f"{base}{nxt.year}/{nxt.month:02d}"):
+        s = soup(url)
+        for ev in s.select("div.cm-Cal__day__event"):
+            a = ev.select_one(".cm-Cal__day__event__title a[href]")
+            meta = ev.select_one(".cm-Card__meta .tablet-inline") or ev.select_one(".cm-Card__meta")
+            title_el = ev.select_one(".cm-Card__title")
+            if not (a and meta and title_el):
+                continue
+            m = re.search(r"(\d{1,2})\s+([a-zéû]+)", meta.get_text().lower())
+            t = parse_time(meta.get_text())
+            if not m or m.group(2) not in FR_MONTHS or not t:
+                continue
+            mo, dy = FR_MONTHS[m.group(2)], int(m.group(1))
+            start = datetime.combine(date(guess_year(mo, dy), mo, dy), t, TZ)
+            key = (a["href"], start)
+            if key in seen:
+                continue
+            seen.add(key)
+            dur = re.search(r"\b(\d{1,3})\s*minutes", ev.get_text(" "))
+            out.append(Ev("Cinéma Moderne", clean(title_el.get_text(" ")), start, a["href"],
+                          start + timedelta(minutes=int(dur.group(1))) if dur else None, "Cinéma Moderne"))
+    return out
+
+
+EVENT_SOURCES = {
     "SAT": sat,
     "Favourite Library": favourite_library,
     "Casa del Popolo": casa_del_popolo,
@@ -390,41 +486,63 @@ SOURCES = {
     "Newspeak": newspeak,
 }
 
+# tab id -> (title, feed file, sources)
+TABS = {
+    "events": ("Montreal Events", "calendar.ics", EVENT_SOURCES),
+    "museums": ("Montreal Museums", "museums.ics", {"Musées Montréal": musees_montreal}),
+    "movies": ("Montreal Movies", "movies.ics", {"Cinéma Cinéma": cinema_cinema,
+                                                  "Cinéma Moderne": cinema_moderne}),
+}
+
 
 # ------------------------------------------------------------------- output
-def to_json(e: Ev) -> dict:
+def to_json(e: Ev, tab: str) -> dict:
     d = asdict(e)
     d["start"] = e.start.isoformat()
     d["end"] = e.end.isoformat() if e.end else None
     d["all_day"] = e.all_day
+    d["tab"] = tab
     return d
 
 
-def build_ics(events: list[Ev]) -> bytes:
+def ics_entries(e: Ev, today: date):
+    """(summary, start, end) for the feed. A months-long exhibition would cover the whole calendar,
+    so it becomes two one-day entries instead: its opening day (if still ahead) and its last day."""
+    if e.kind == "exhibition":
+        if e.start >= today:
+            yield f"Opens: {e.title} @ {e.location}", e.start, e.start + timedelta(days=1)
+        if e.end and e.end != e.start:
+            yield f"Last day: {e.title} @ {e.location}", e.end, e.end + timedelta(days=1)
+        return
+    if e.end and type(e.end) is type(e.start) and e.end > e.start:
+        end = e.end
+    else:
+        end = e.start + (timedelta(days=1) if e.all_day else timedelta(hours=3))
+    yield f"{e.title} @ {e.location if e.source == 'Musées Montréal' and e.location else e.source}", e.start, end
+
+
+def build_ics(events: list[Ev], name: str) -> bytes:
     cal = Calendar()
     cal.add("prodid", "-//Montreal Event Calendar//EN")
     cal.add("version", "2.0")
-    cal.add("x-wr-calname", "Montreal Events")
+    cal.add("x-wr-calname", name)
     cal.add("x-wr-timezone", "America/Montreal")
     cal.add("refresh-interval;value=duration", "PT6H")
     now = datetime.now(timezone.utc)
+    today = datetime.now(TZ).date()
     for e in events:
-        v = ICalEvent()
-        v.add("uid", f"{stable_uid(e)}@mtl-events")
-        v.add("dtstamp", now)
-        v.add("summary", f"{e.title} @ {e.source}")
-        v.add("dtstart", e.start)
-        if e.end and type(e.end) is type(e.start) and e.end > e.start:
-            v.add("dtend", e.end)
-        elif e.all_day:
-            v.add("dtend", e.start + timedelta(days=1))
-        else:
-            v.add("dtend", e.start + timedelta(hours=3))
-        if e.location:
-            v.add("location", e.location)
-        v.add("url", e.url)
-        v.add("description", f"{e.source}\n{e.url}")
-        cal.add_component(v)
+        for n, (summary, start, end) in enumerate(ics_entries(e, today)):
+            v = ICalEvent()
+            v.add("uid", f"{stable_uid(e)}{'-' + str(n) if n else ''}@mtl-events")
+            v.add("dtstamp", now)
+            v.add("summary", summary)
+            v.add("dtstart", start)
+            v.add("dtend", end)
+            if e.location:
+                v.add("location", e.location)
+            v.add("url", e.url)
+            v.add("description", f"{e.source}\n{e.url}")
+            cal.add_component(v)
     return cal.to_ical()
 
 
@@ -433,32 +551,42 @@ def stable_uid(e: Ev) -> str:
     return hashlib.sha1(f"{e.source}|{e.url}|{e.start.isoformat()}".encode()).hexdigest()[:20]
 
 
+def last_moment(e: Ev) -> datetime:
+    """When an event stops being worth listing: its start (or, for exhibitions, the end of its last day)."""
+    d = e.end if e.kind == "exhibition" and e.end else e.start
+    return d if isinstance(d, datetime) else datetime.combine(d, time(23, 59), TZ)
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(exist_ok=True)
     cutoff = datetime.combine(datetime.now(TZ).date(), time(0), TZ)  # keep everything from today on
-    all_events, status = [], {}
-    for name, fn in SOURCES.items():
-        try:
-            evs = fn()
-            evs = [e for e in evs if (e.start if not e.all_day else datetime.combine(e.start, time(23, 59), TZ)) >= cutoff]
-            all_events += evs
-            status[name] = {"ok": True, "count": len(evs)}
-            print(f"  ok   {name:20} {len(evs):3} events")
-        except Exception as ex:  # one broken site must not break the whole feed
-            status[name] = {"ok": False, "error": f"{type(ex).__name__}: {ex}"[:300]}
-            print(f"  FAIL {name:20} {ex}")
-            traceback.print_exc(limit=2)
 
     def sort_key(e):
         return e.start if not e.all_day else datetime.combine(e.start, time(0), TZ)
-    all_events.sort(key=sort_key)
+
+    payload_events, status, tabs = [], {}, {}
+    for tab, (title, feed, sources) in TABS.items():
+        tab_events = []
+        for name, fn in sources.items():
+            try:
+                evs = [e for e in fn() if last_moment(e) >= cutoff]
+                tab_events += evs
+                status[name] = {"ok": True, "count": len(evs), "tab": tab}
+                print(f"  ok   {tab:8} {name:20} {len(evs):3} events")
+            except Exception as ex:  # one broken site must not break the whole feed
+                status[name] = {"ok": False, "error": f"{type(ex).__name__}: {ex}"[:300], "tab": tab}
+                print(f"  FAIL {tab:8} {name:20} {ex}")
+                traceback.print_exc(limit=2)
+        tab_events.sort(key=sort_key)
+        (OUT / feed).write_bytes(build_ics(tab_events, title))
+        payload_events += [to_json(e, tab) for e in tab_events]
+        tabs[tab] = {"title": title, "feed": feed}
 
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"),
-               "sources": status, "events": [to_json(e) for e in all_events]}
+               "tabs": tabs, "sources": status, "events": payload_events}
     (OUT / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    (OUT / "calendar.ics").write_bytes(build_ics(all_events))
-    print(f"\n{len(all_events)} events written to {OUT}")
+    print(f"\n{len(payload_events)} events written to {OUT}")
     return 0 if any(s["ok"] for s in status.values()) else 1
 
 

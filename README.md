@@ -3,7 +3,8 @@
 Scrapes upcoming events from a list of Montreal venues every 6 hours and publishes:
 
 - `docs/index.html` – a filterable web page
-- `docs/calendar.ics` – a feed you subscribe to in Google / Apple / Outlook Calendar
+- `docs/calendar.ics`, `docs/museums.ics`, `docs/movies.ics` – one feed per tab (Events, Museums, Movies)
+  that you subscribe to in Google / Apple / Outlook Calendar
 
 ## Sources
 
@@ -25,6 +26,21 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 | Soft Studio Days | Luma host profile (what their /events page links to) |
 | Laugh It Off | the site's own events feed (Eventbrite shows), next 60 days only |
 | Newspeak | Universe ticket links on newspeakmtl.com, dates from Universe |
+
+### Museums tab (`docs/museums.ics`)
+
+| Source | How it's fetched |
+|---|---|
+| Musées Montréal | museesmontreal.org listing API. Dated events plus temporary/upcoming exhibitions; permanent exhibitions have no dates and are skipped. In the feed, each exhibition appears twice: on its opening day (if it hasn't opened yet) and on its last day. |
+
+### Movies tab (`docs/movies.ics`)
+
+| Source | How it's fetched |
+|---|---|
+| Cinéma Beaubien, Cinéma du Parc, Cinéma du Musée | cinemacinema.ca `/fr/horaire?date=…`, next 14 days |
+| Cinéma Moderne | `/horaire` month calendar, this month and next |
+
+The movies feed has every showtime (several hundred). Subscribe to it only if you want that in your calendar.
 
 **Not included: Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
@@ -52,5 +68,6 @@ python scrape.py
 
 ## Adding a venue
 
-Write a function in `scrape.py` that returns a list of `Ev(...)` and add it to `SOURCES`.
+Write a function in `scrape.py` that returns a list of `Ev(...)` and add it to `EVENT_SOURCES`
+(or to the museums/movies entry in `TABS`).
 If the venue is on Resident Advisor, you only need one line: `lambda: ra_events("venue", "<id>", "<Name>")`.
