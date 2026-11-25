@@ -432,6 +432,59 @@ def newspeak() -> list[Ev]:
     return out
 
 
+# ------------------------------------------------------------ bar nights
+BADSLAVA = "https://badslava.com/"
+_badslava_details: dict[str, dict[str, str]] = {}
+
+
+def _badslava_detail(event_id: str) -> dict[str, str]:
+    """details.php fields: 'Event Type', 'Event Frequency', 'Event Cost', ..."""
+    if event_id not in _badslava_details:
+        info = {}
+        try:
+            for td in soup(f"{BADSLAVA}details.php?id={event_id}").select("td"):
+                b = td.find("b")
+                if b and b.get_text().strip().endswith(":"):
+                    label = b.get_text().strip().rstrip(":").strip()
+                    b.extract()
+                    info[label] = clean(td.get_text(" "))
+        except requests.RequestException:
+            pass
+        _badslava_details[event_id] = info
+    return _badslava_details[event_id]
+
+
+def badslava(path: str, source: str, default_type: str, weeks: int = 4) -> list[Ev]:
+    """badslava.com weekly listings for Montreal (one week shown; weekly nights are repeated for `weeks` weeks).
+    These are bar nights, so events get no link."""
+    s = soup(BADSLAVA + path)
+    out, day = [], None
+    for tr in s.select("table tr"):
+        th = tr.find("th")
+        if th:
+            m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{2})", th.get_text())
+            day = date(2000 + int(m.group(3)), int(m.group(1)), int(m.group(2))) if m else None
+            continue
+        tds = tr.find_all("td")
+        a = tr.select_one("a[href*='details.php']")
+        if not day or len(tds) < 2 or not a:
+            continue
+        t = parse_time(tds[0].get_text())
+        bar = clean(a.find("b").get_text()) if a.find("b") else ""
+        address = clean(a.get_text(" ")).replace(bar, "", 1).strip()
+        info = _badslava_detail(re.search(r"id=(\d+)", a["href"]).group(1))
+        kind = info.get("Event Type") or default_type
+        if default_type.split()[0].lower() not in kind.lower():   # comedy page says just "Open Mic"
+            kind = f"{default_type.split()[0]} {kind}"
+        free, lo, hi = price_from_text(info.get("Event Cost", ""))
+        repeat = weeks if info.get("Event Frequency", "").lower() == "weekly" else 1
+        for w in range(repeat):
+            ev = Ev(source, f"{kind} at {bar}", local(day + timedelta(weeks=w), t), "",
+                    location=f"{bar}, {address}" if address else bar)
+            out.append(priced(ev, free, lo, hi))
+    return out
+
+
 # ------------------------------------------------------------------ museums
 EN_ABBR = {m[:3]: i for m, i in EN_MONTHS.items()}
 
@@ -570,11 +623,16 @@ EVENT_SOURCES = {
     "Soft Studio Days": lambda: luma_user("usr-RktHUOe1HAU874v", "Soft Studio Days"),
     "Laugh It Off": laugh_it_off,
     "Newspeak": newspeak,
+    "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
+    "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
+                                         "Comedy Open Mic"),
+    "Karaoke Nights": lambda: badslava("karaoke-nights.php?city=Montreal&state=QC", "Karaoke Nights", "Karaoke"),
 }
 
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
-OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set"}
+OTHER_SOURCES = {"Laugh It Off", "MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set",
+                 "Trivia Nights", "Comedy Open Mics", "Karaoke Nights"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
 OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
                           r"book launch|lancement de livre|open mic comedy", re.I)
@@ -650,16 +708,18 @@ def build_ics(events: list[Ev], name: str) -> bytes:
             v.add("dtend", end)
             if e.location:
                 v.add("location", e.location)
-            v.add("url", e.url)
+            if e.url:
+                v.add("url", e.url)
             cost = "Free" if e.free else e.price
-            v.add("description", f"{e.source}{chr(10) + cost if cost else ''}\n{e.url}")
+            v.add("description", "\n".join(x for x in (e.source, cost, e.url) if x))
             cal.add_component(v)
     return cal.to_ical()
 
 
 def stable_uid(e: Ev) -> str:
     import hashlib
-    return hashlib.sha1(f"{e.source}|{e.url}|{e.start.isoformat()}".encode()).hexdigest()[:20]
+    key = e.url or f"{e.title}|{e.location}"   # link-less events (bar nights) are told apart by title and place
+    return hashlib.sha1(f"{e.source}|{key}|{e.start.isoformat()}".encode()).hexdigest()[:20]
 
 
 def last_moment(e: Ev) -> datetime:

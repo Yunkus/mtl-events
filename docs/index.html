@@ -53,7 +53,7 @@
   .ev.on { background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%); }
   .ev time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; padding-top: 1px; }
   .ev input[type=checkbox] { width: 18px; height: 18px; margin: 2px 0 0 2px; accent-color: var(--accent); cursor: pointer; }
-  .ev a.t { color: var(--text); text-decoration: none; font-weight: 600; }
+  .ev .t { color: var(--text); text-decoration: none; font-weight: 600; }
   .ev a.t:hover { color: var(--accent); }
   .ev .where { color: var(--muted); font-size: 13px; }
   .ev .src { color: var(--accent); font-weight: 600; }
@@ -183,7 +183,8 @@ function ics(evs) {
     L.push("BEGIN:VEVENT", `UID:${e.id}${i ? "-" + i : ""}@mtl-events`, `DTSTAMP:${stamp}`,
       allDay ? `DTSTART;VALUE=DATE:${ymd(s)}` : `DTSTART:${utc(s)}`,
       allDay ? `DTEND;VALUE=DATE:${ymd(en)}` : `DTEND:${utc(en)}`,
-      `SUMMARY:${esc(sum)}`, `DESCRIPTION:${esc(details(e))}`, `URL:${e.url}`);
+      `SUMMARY:${esc(sum)}`, `DESCRIPTION:${esc(details(e))}`);
+    if (e.url) L.push(`URL:${e.url}`);
     if (e.location) L.push(`LOCATION:${esc(e.location)}`);
     L.push("END:VEVENT");
   });
@@ -326,7 +327,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
   function titleLine(e) {
     const frag = document.createDocumentFragment();
-    frag.appendChild(link(e.url, "t", e.title));
+    frag.appendChild(e.url ? link(e.url, "t", e.title) : el("span", "t", e.title));   // bar nights have no page
     if (e.free) frag.appendChild(el("span", "free", "FREE"));
     return frag;
   }

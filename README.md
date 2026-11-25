@@ -65,6 +65,12 @@ Each event in the venue list below goes to **Music & Dance** unless:
 
 The movies feed has every showtime (several hundred). Subscribe to it only if you want that in your calendar.
 
+### Bar nights (Other Events tab)
+
+| Source | How it's fetched |
+|---|---|
+| Trivia Nights, Comedy Open Mics, Karaoke Nights | badslava.com Montreal listings (trivia, comedy open mics, karaoke). The site shows one week; nights its detail page marks "Weekly" are repeated for 4 weeks. No links, since these are bar nights. Free/price comes from the detail page's "Event Cost". |
+
 **Not included: Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
 If a site changes its layout, that one source fails and the others keep working. The web page shows the broken one crossed out.
