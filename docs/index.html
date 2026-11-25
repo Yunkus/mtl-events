@@ -10,23 +10,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="preload" href="fonts/YoungSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <style>
-  /* 70s lounge: amber glass and house plants, one dark view on every device.
+  /* 70s lounge: amber glass and embers, one dark view on every device.
      walnut #1c140f / #2a1e16 · cream #f2e6cf · brass-tan #c7a97c · amber glass #e39b2d / #a85a12
-     fern #2f3d26 / #243020 · avocado #8a9a4b */
+     ember #5a1f0f / #3a140b · chip ember #4a1a0e · glowing ember #c2481f */
   /* Young Serif (SIL Open Font License, fonts/YoungSerif-OFL.txt) for titles and headings */
   @font-face { font-family: "Young Serif"; src: url("fonts/YoungSerif-Regular.ttf") format("truetype");
                font-weight: 400; font-style: normal; font-display: swap; }
   :root {
     color-scheme: dark;
     --walnut: #1c140f; --walnut-2: #2a1e16; --walnut-line: #3d2c20; --cream: #f2e6cf; --tan: #c7a97c;
-    --amber: #e39b2d; --amber-deep: #a85a12; --fern: #2f3d26; --fern-deep: #243020; --avocado: #8a9a4b;
+    --amber: #e39b2d; --amber-deep: #a85a12; --ember: #5a1f0f; --ember-deep: #3a140b; --ember-chip: #4a1a0e; --ember-glow: #c2481f;
     --bg: var(--walnut); --surface: var(--walnut-2); --text: var(--cream); --muted: var(--tan); --line: var(--walnut-line);
     --accent: var(--amber); --accent-ink: var(--amber); --on-accent: var(--walnut); --pick: var(--amber);
-    --chip: var(--fern); --chip-on: var(--amber); --chip-on-text: var(--walnut);
-    --band: linear-gradient(180deg, var(--fern) 0%, var(--fern-deep) 100%); --band-text: var(--cream);
-    --band-muted: #b9c08f; --band-line: #6b7a45;
+    --chip: var(--ember-chip); --chip-on: var(--amber); --chip-on-text: var(--walnut);
+    --band: linear-gradient(180deg, var(--ember) 0%, var(--ember-deep) 100%); --band-text: var(--cream);
+    --band-muted: #e8b48f; --band-line: #9a4a2c;
     --band-primary: var(--amber); --band-primary-text: var(--walnut); --mark: var(--amber);
-    --free: var(--walnut); --free-bg: var(--avocado); --picked-row: rgba(227, 155, 45, .13);
+    --free: var(--cream); --free-bg: var(--ember-glow); --picked-row: rgba(227, 155, 45, .13);
     --serif: "Young Serif", Georgia, "Times New Roman", serif;
     --sans: Calibri, Carlito, "Segoe UI", system-ui, sans-serif;
   }
@@ -60,8 +60,8 @@
   .tab .n { font: 400 13px/1 var(--sans); margin-left: 4px; opacity: .8; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
   .chips:empty { display: none; }
-  /* venue chips: filled fern when shown, outlined when hidden */
-  .chip { border: 1px solid var(--fern); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
+  /* venue chips: filled ember when shown, outlined when hidden */
+  .chip { border: 1px solid var(--ember-chip); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
           font: inherit; font-size: 13px; cursor: pointer; }
   .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--chip); color: var(--text); }
   .chip .n { font-weight: 400; margin-left: 4px; }
