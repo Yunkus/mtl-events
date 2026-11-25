@@ -5,53 +5,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Montreal Events</title>
 <style>
-  /* Palette: #FF9808 orange · #ECCEA8 beige · #A98585 dusty rose · #494848 charcoal
-     (deeper/lighter shades of the same hues are used where small text needs contrast) */
+  /* Palette (San Marco): 139O #442e2d brown · 145V #505565 slate · 152B #7a8085 grey
+     185Y #a69c8d taupe · 146Y #cdc4b6 greige · P333 #e3e0db off-white */
   :root {
-    --orange: #FF9808; --beige: #ECCEA8; --rose: #A98585; --charcoal: #494848;
-    --bg: #F4E4CE; --surface: #FBF3E7; --text: var(--charcoal); --muted: #7A5C5C; --line: #DCC3A4;
-    --accent: var(--orange); --accent-ink: #A35A00; --on-accent: var(--charcoal);
-    --chip: var(--beige); --chip-on: var(--charcoal); --chip-on-text: var(--beige);
-    --band: var(--charcoal); --band-text: var(--beige); --band-muted: #CDAEAE; --band-line: #5E5C5C;
-    --free: var(--charcoal); --free-bg: var(--orange);
+    --brown: #442e2d; --slate: #505565; --grey: #7a8085; --taupe: #a69c8d; --greige: #cdc4b6; --off: #e3e0db;
+    --bg: var(--off); --surface: #efedea; --text: var(--brown); --muted: var(--slate); --line: var(--greige);
+    --accent: var(--slate); --accent-ink: var(--slate); --on-accent: var(--off); --pick: var(--brown);
+    --chip: var(--greige); --chip-on: var(--brown); --chip-on-text: var(--off);
+    --band: var(--brown); --band-text: var(--off); --band-muted: var(--greige); --band-line: var(--taupe);
+    --free: var(--off); --free-bg: var(--slate);
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #3B3A3A; --surface: var(--charcoal); --text: var(--beige); --muted: #C9A9A9; --line: #5E5C5C;
-            --accent-ink: #FFB04A; --chip: var(--charcoal); --chip-on: var(--beige); --chip-on-text: var(--charcoal);
-            --band: #2C2B2B; --band-line: #484646; }
+    :root { --bg: #2b2526; --surface: #362f30; --text: var(--off); --muted: var(--taupe); --line: #4a4243;
+            --accent: var(--greige); --accent-ink: #a9aebf; --on-accent: var(--brown); --pick: var(--greige);
+            --chip: #3d3536; --chip-on: var(--off); --chip-on-text: var(--brown);
+            --free: var(--brown); --free-bg: #a9aebf; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   .wrap { max-width: 860px; margin: 0 auto; padding: 8px 16px 96px; }
-  .band { background: var(--band); color: var(--band-text); border-bottom: 4px solid var(--orange); }
+  .band { background: var(--band); color: var(--band-text); }
   .band .in { max-width: 860px; margin: 0 auto; padding: 24px 16px 0; }
   header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
   h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
-  h1::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 50%;
-               background: var(--orange); margin-right: 10px; vertical-align: 4px; }
+  h1::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px;
+               background: var(--taupe); margin-right: 10px; vertical-align: 4px; }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
   .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px;
          padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; white-space: nowrap; }
   .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
-  .band .btn:not(.primary), .bar .btn:not(.primary) { background: transparent; color: var(--band-text); border-color: var(--rose); }
-  .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--orange); color: var(--orange); }
+  .band .btn.primary, .bar .btn.primary { background: var(--off); border-color: var(--off); color: var(--brown); }
+  .band .btn:not(.primary), .bar .btn:not(.primary) { background: transparent; color: var(--band-text); border-color: var(--band-line); }
+  .band .btn:not(.primary):hover, .bar .btn:not(.primary):hover { border-color: var(--off); }
   .tabs { display: flex; gap: 4px; margin: 18px 0 0; flex-wrap: wrap; }
   .tab { border: 0; background: none; color: var(--band-muted); font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
          padding: 9px 12px; border-radius: 8px 8px 0 0; }
   .tab:hover { color: var(--band-text); }
-  .tab[aria-selected="true"] { color: var(--charcoal); background: var(--orange); }
+  .tab[aria-selected="true"] { color: var(--text); background: var(--bg); }   /* folder tab joining the page */
   .tab .n { font-weight: 400; opacity: .7; margin-left: 4px; font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 8px; }
   .chips:empty { display: none; }
-  .chip { border: 0; background: var(--chip); color: var(--text); border-radius: 999px; padding: 5px 11px;
+  /* venue chips: filled greige when shown, outlined and faded when hidden */
+  .chip { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px;
           font: inherit; font-size: 13px; cursor: pointer; }
-  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+  .chip[aria-pressed="true"] { background: var(--chip); border-color: var(--chip); color: var(--text); }
   .chip .n { opacity: .6; margin-left: 4px; }
   .chip.bad { text-decoration: line-through; opacity: .55; }
-  .chip.special { border: 1px solid var(--line); background: var(--surface); }
+  .chip.special { border: 1px solid var(--line); background: var(--surface); color: var(--text); }
   .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free); }
   .chip.special.pick[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .sep { width: 1px; background: var(--line); margin: 2px 4px; }
@@ -63,9 +66,9 @@
   .ev { display: grid; grid-template-columns: 26px 64px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); align-items: start; }
   .ev.wide { grid-template-columns: 26px 110px 1fr; }
   .ev.movie { grid-template-columns: 1fr; }
-  .ev.on { background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%); }
+  .ev.on { background: linear-gradient(90deg, color-mix(in srgb, var(--pick) 10%, transparent), transparent 70%); }
   .ev time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; padding-top: 1px; }
-  .ev input[type=checkbox] { width: 18px; height: 18px; margin: 2px 0 0 2px; accent-color: var(--accent); cursor: pointer; }
+  .ev input[type=checkbox] { width: 18px; height: 18px; margin: 2px 0 0 2px; accent-color: var(--pick); cursor: pointer; }
   .ev .t { color: var(--text); text-decoration: none; font-weight: 600; }
   .ev a.t:hover { color: var(--accent-ink); }
   .ev .where { color: var(--muted); font-size: 13px; }
@@ -76,10 +79,10 @@
   .times button { font: inherit; font-size: 13px; font-variant-numeric: tabular-nums; color: var(--text); background: var(--surface);
                   border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; cursor: pointer; }
   .times button:hover { border-color: var(--accent); }
-  .times button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
+  .times button[aria-pressed="true"] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
   .empty { color: var(--muted); margin-top: 40px; text-align: center; }
-  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 4px solid var(--orange);
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--band); color: var(--band-text); border-top: 4px solid var(--taupe);
          box-shadow: 0 -4px 18px rgba(0,0,0,.08); transform: translateY(110%); transition: transform .2s; z-index: 5; }
   .bar.show { transform: none; }
   .bar .in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
