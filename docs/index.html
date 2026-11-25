@@ -7,16 +7,16 @@
 <style>
   /* One dark view on every device, using only these five colours:
      #342729 espresso (page) · #493539 plum (header, panels, lines) · #e2e0db off-white (text)
-     #abaebe lavender grey (secondary text) · #abbeb5 sage (highlights) */
+     #abaebe lavender grey (secondary text, venue names) · #505565 slate blue (badges, buttons, checkboxes) */
   :root {
     color-scheme: dark;
-    --espresso: #342729; --plum: #493539; --lavender: #abaebe; --off: #e2e0db; --sage: #abbeb5;
+    --espresso: #342729; --plum: #493539; --lavender: #abaebe; --off: #e2e0db; --slate: #505565;
     --bg: var(--espresso); --surface: var(--plum); --text: var(--off); --muted: var(--lavender); --line: var(--plum);
-    --accent: var(--sage); --accent-ink: var(--sage); --on-accent: var(--espresso); --pick: var(--sage);
+    --accent: var(--slate); --accent-ink: var(--lavender); --on-accent: var(--off); --pick: var(--slate);
     --chip: var(--plum); --chip-on: var(--off); --chip-on-text: var(--espresso);
     --band: var(--plum); --band-text: var(--off); --band-muted: var(--lavender); --band-line: var(--lavender);
-    --band-primary: var(--sage); --band-primary-text: var(--espresso); --mark: var(--sage);
-    --free: var(--espresso); --free-bg: var(--sage); --picked-row: var(--plum);
+    --band-primary: var(--slate); --band-primary-text: var(--off); --mark: var(--slate);
+    --free: var(--off); --free-bg: var(--slate); --picked-row: var(--plum);
   }
   ::placeholder { color: var(--lavender); }
   * { box-sizing: border-box; }
@@ -57,8 +57,8 @@
   .datebar input[type=date] { font: inherit; font-size: 15px; font-weight: 600; color: var(--text); background: var(--plum);
                               border: 1px solid var(--lavender); border-radius: 8px; padding: 5px 10px; }
   .datebar .btn { padding: 5px 11px; font-size: 15px; }
-  .group h2 { color: var(--sage); }
-  .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free); }
+  .group h2 { color: var(--off); }
+  .chip.special[aria-pressed="true"] { background: var(--free-bg); color: var(--free); border-color: var(--free-bg); }
   .chip.special.pick[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .sep { width: 1px; background: var(--line); margin: 2px 4px; }
   .search { width: 100%; margin: 12px 0 4px; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line);
