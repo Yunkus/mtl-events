@@ -4,15 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Montreal Events</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Carlito: free stand-in with Calibri's exact metrics, for devices without Calibri (phones, Macs) -->
-<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="preload" href="fonts/YoungSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/ShareTech-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <style>
   /* Bright amber, dark amber, black and cloud white (greys are only shades between black and white).
      black #0b0b0b · panels #161616 · lines #2a2a2a · cloud white #f2f2ee · dimmed white #a9a9a5
      bright amber #ffb000 · dark amber #c46a00 */
+  /* Fonts shipped with the site (SIL Open Font License; licences in fonts/):
+     Young Serif for titles and headings, Share Tech for all other text */
+  @font-face { font-family: "Young Serif"; src: url("fonts/YoungSerif-Regular.ttf") format("truetype");
+               font-weight: 400; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Share Tech"; src: url("fonts/ShareTech-Regular.ttf") format("truetype");
+               font-weight: 400; font-style: normal; font-display: swap; }
   :root {
     color-scheme: dark;
     --black: #0b0b0b; --black-2: #161616; --black-line: #2a2a2a; --cloud: #f2f2ee; --cloud-dim: #a9a9a5;
@@ -25,7 +28,7 @@
     --band-primary: var(--amber); --band-primary-text: var(--black); --mark: var(--amber);
     --free: var(--black); --free-bg: var(--amber-dark); --picked-row: rgba(255, 176, 0, .12);
     --serif: "Young Serif", Georgia, "Times New Roman", serif;
-    --sans: Calibri, Carlito, "Segoe UI", system-ui, sans-serif;
+    --sans: "Share Tech", "Segoe UI", system-ui, sans-serif;
   }
   ::placeholder { color: var(--cloud-dim); }
   * { box-sizing: border-box; }
