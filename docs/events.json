@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:07-05:00",
+ "generated": "2026-11-25T16:08-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -7461,7 +7461,7 @@
    "source": "Cinéma Beaubien",
    "title": "MURMURES (SD)",
    "start": "2026-11-25T09:50:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/murmures-2277",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T11:10:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7469,13 +7469,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "72637e43d5c66877358d"
+   "id": "66716b5e3b8684dfd03d"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "LES RAYONS ET LES OMBRES (VOF)",
    "start": "2026-11-25T10:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/les-rayons-et-les-ombres-2278",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T13:20:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7483,13 +7483,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "54eeebd0c188d6168b28"
+   "id": "65103b2ac6ed761da881"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "AUTOFICTION (VOSTF)",
    "start": "2026-11-25T10:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/autofiction-2293",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T12:01:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7497,13 +7497,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "035ad2d9fbeab13dbaa5"
+   "id": "f9d817e8063275a88748"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "VILLENEUVE: L'ASCENSION... (VOF)",
    "start": "2026-11-25T10:30:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T12:16:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7511,13 +7511,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "33e7075ade4824bbad3f"
+   "id": "1b6016fbf0052eaa7991"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "PAULINE JULIEN : FEMME PAYS (VOF)",
    "start": "2026-11-25T10:50:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/pauline-julien-femme-pays-2116",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T12:40:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7525,13 +7525,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "c936c2e7dbaea9f2e3f3"
+   "id": "c746eae7b5e8a516cdf9"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "VILLENEUVE: L'ASCENSION... (VOF)",
    "start": "2026-11-25T11:50:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T13:36:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7539,13 +7539,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "f5897c1449be4f566b83"
+   "id": "7bee0d74a3f624dc6c41"
   },
   {
    "source": "Cinéma du Parc",
    "title": "LA BOLA NEGRA (VOSTF)",
    "start": "2026-11-25T12:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/la-bola-negra-2280",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T14:50:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7553,13 +7553,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "d8ead44100a763a45e37"
+   "id": "c2b5c027c850acc4702e"
   },
   {
    "source": "Cinéma du Parc",
    "title": "VOUS POUVEZ TOUT VOIR (VOASTF)",
    "start": "2026-11-25T12:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/vous-pouvez-tout-voir-2284",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T15:15:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7567,13 +7567,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "a3af75c1f3cb8ed118da"
+   "id": "97af364b5db23597da89"
   },
   {
    "source": "Cinéma du Parc",
    "title": "CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF)",
    "start": "2026-11-25T12:30:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/cheval-sauvage-numero-neuf-2275",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T14:28:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7581,13 +7581,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "ac43b1270c5e38fea3a0"
+   "id": "99c28ba2cf0fabf80df8"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "AUTOFICTION (VOSTF)",
    "start": "2026-11-25T12:40:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/autofiction-2293",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T14:31:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7595,13 +7595,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "5f2fde791e4f1b0e1ba6"
+   "id": "36596f87dbbf7053706e"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "FJORD (VOSTF)",
    "start": "2026-11-25T13:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/fjord-2231",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T15:46:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7609,13 +7609,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "79621b125f396a0b5cd7"
+   "id": "e23edaf3cd4701ba0924"
   },
   {
    "source": "Cinéma du Musée",
    "title": "MINOTAURE (VOSTF)",
    "start": "2026-11-25T13:55:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/minotaure-2290",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T16:17:00-05:00",
    "location": "Cinéma du Musée",
    "kind": "",
@@ -7623,13 +7623,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "0fc307628eccf167df17"
+   "id": "cf799597fb1e7ef06cd1"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "MURMURES (SD)",
    "start": "2026-11-25T14:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/murmures-2277",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T15:20:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7637,7 +7637,7 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "314e6fa32789bbc38f3e"
+   "id": "e3aa7b939bec9ab4a63f"
   },
   {
    "source": "Cinéma Moderne",
@@ -7657,7 +7657,7 @@
    "source": "Cinéma Beaubien",
    "title": "MARQUER LE CONGO (VOF)",
    "start": "2026-11-25T15:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/marquer-le-congo-2304",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T16:28:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7665,13 +7665,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "ce4975f770cb42be95f0"
+   "id": "21066b7c6e6a1b49ef33"
   },
   {
    "source": "Cinéma du Parc",
    "title": "NAZA (VOSTA)",
    "start": "2026-11-25T15:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/naza-2279",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T16:27:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7679,13 +7679,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "9a37eb32960a40eed7b8"
+   "id": "33e00a20c63432a4e325"
   },
   {
    "source": "Cinéma du Parc",
    "title": "CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF)",
    "start": "2026-11-25T15:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/cheval-sauvage-numero-neuf-2275",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T17:18:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7693,13 +7693,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "aa2a6c5f457d0a9b5c52"
+   "id": "a92e8ec96112caa02c6c"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "LES RAYONS ET LES OMBRES (VOF)",
    "start": "2026-11-25T15:40:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/les-rayons-et-les-ombres-2278",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T19:00:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7707,13 +7707,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "a9c1ddca59cebeac2966"
+   "id": "67b4e5dbb02753cd5625"
   },
   {
    "source": "Cinéma du Parc",
    "title": "FJORD (VOSTA)",
    "start": "2026-11-25T15:45:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/fjord-2230",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T18:11:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7721,13 +7721,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "f93269facc0074f0e7d6"
+   "id": "d67410f51a0a6ea06bc8"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "VILLENEUVE: L'ASCENSION... (VOF)",
    "start": "2026-11-25T16:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T17:46:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7735,13 +7735,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "76355b3346c830a844f3"
+   "id": "e1d0a770c908f5a754e1"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "HANTÉE (VOF)",
    "start": "2026-11-25T16:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/hantee-2119",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T18:04:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7749,13 +7749,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "b0f97895b30c31daf912"
+   "id": "6aaf09d210a18c936618"
   },
   {
    "source": "Cinéma du Musée",
    "title": "NAZA (VOSTA)",
    "start": "2026-11-25T17:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/naza-2279",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T18:17:00-05:00",
    "location": "Cinéma du Musée",
    "kind": "",
@@ -7763,13 +7763,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "9044b67346106ec9e4e9"
+   "id": "4b3cf2fe189df9d8f2f5"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "PAULINE JULIEN : FEMME PAYS (VOF)",
    "start": "2026-11-25T17:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/pauline-julien-femme-pays-2116",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T18:50:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7777,13 +7777,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "c746c18dac0443bd19d1"
+   "id": "ac2ff41443f2707597b8"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "MURMURES (SD)",
    "start": "2026-11-25T17:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/murmures-2277",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T18:30:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7791,13 +7791,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "317eca340a22e0a0a310"
+   "id": "4dc8ccf9a7a33ba84fa7"
   },
   {
    "source": "Cinéma du Parc",
    "title": "VOUS POUVEZ TOUT VOIR (VOASTF)",
    "start": "2026-11-25T17:25:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/vous-pouvez-tout-voir-2284",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T20:20:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7805,13 +7805,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "d76d10a068e6893fda31"
+   "id": "bf3e6d7cbcd7ba40ab8f"
   },
   {
    "source": "Cinéma du Parc",
    "title": "RIDM",
    "start": "2026-11-25T18:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/rencontres-internationales-du-documentaire-de-montreal-331",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T19:30:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7819,13 +7819,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "94905902c2cad54ce542"
+   "id": "ddb71d702e96d666599f"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "25e: PAULINE JULIEN... (VOF)",
    "start": "2026-11-25T18:30:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/pauline-julien-intime-et-politique-2185",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T19:47:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7833,13 +7833,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "5fc9e0214183b73a4739"
+   "id": "4fb1f6e113c3f189e231"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "AUTOFICTION (VOSTF)",
    "start": "2026-11-25T18:35:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/autofiction-2293",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T20:26:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7847,13 +7847,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "b94506e03a6126670a0b"
+   "id": "4f662a897746b2d36611"
   },
   {
    "source": "Cinéma du Parc",
    "title": "CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF)",
    "start": "2026-11-25T18:45:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/cheval-sauvage-numero-neuf-2275",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T20:43:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7861,13 +7861,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "fed137331c5be4f045f9"
+   "id": "7acc8a5671e3f6a183d5"
   },
   {
    "source": "Cinéma du Musée",
    "title": "FATHERLAND (VOSTA)",
    "start": "2026-11-25T19:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/fatherland-2273",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T20:22:00-05:00",
    "location": "Cinéma du Musée",
    "kind": "",
@@ -7875,13 +7875,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "23982143a76b75a477ce"
+   "id": "55a67d3a7723d22bcb7c"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "PAULINE JULIEN : FEMME PAYS (VOF)",
    "start": "2026-11-25T19:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/pauline-julien-femme-pays-2116",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T20:50:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7889,13 +7889,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "3081654d6c9c1a24bf0c"
+   "id": "c7404e4947167f3deeef"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "VILLENEUVE: L'ASCENSION... (VOF)",
    "start": "2026-11-25T19:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T21:06:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7903,7 +7903,7 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "039eb9b8add1a69486cd"
+   "id": "b904d570ff269b5bc7bc"
   },
   {
    "source": "Cinéma Moderne",
@@ -7923,7 +7923,7 @@
    "source": "Cinéma Beaubien",
    "title": "LES RAYONS ET LES OMBRES (VOF)",
    "start": "2026-11-25T19:40:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/les-rayons-et-les-ombres-2278",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:00:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7931,13 +7931,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "f7bff78cec1f599cd61a"
+   "id": "51794b000c65a4ebe344"
   },
   {
    "source": "Cinéma du Parc",
    "title": "RIDM",
    "start": "2026-11-25T20:15:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/rencontres-internationales-du-documentaire-de-montreal-331",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T21:45:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7945,13 +7945,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "ade19b09a4d201f34ea8"
+   "id": "58c3b8c2be576cbb8c34"
   },
   {
    "source": "Cinéma du Parc",
    "title": "LA BOLA NEGRA (VOSTA)",
    "start": "2026-11-25T21:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/la-bola-negra-2281",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:40:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -7959,13 +7959,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "82d178c55d878dcfef31"
+   "id": "0185043d2add2552fe75"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "FJORD (VOSTF)",
    "start": "2026-11-25T21:00:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/fjord-2231",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:26:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -7973,7 +7973,7 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "b0b780d180ba6ded5d3e"
+   "id": "4ae087c32001f0cb93ec"
   },
   {
    "source": "Cinéma Moderne",
@@ -7993,7 +7993,7 @@
    "source": "Cinéma du Musée",
    "title": "YOUR MOTHER YOUR MOTHER... (VOA)",
    "start": "2026-11-25T21:05:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/your-mother-your-mother-your-mother-2381",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T22:57:00-05:00",
    "location": "Cinéma du Musée",
    "kind": "",
@@ -8001,13 +8001,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "985b5d8bcc5895f2ba76"
+   "id": "8e2aa881550597e03101"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "VILLENEUVE: L'ASCENSION... (VOF)",
    "start": "2026-11-25T21:10:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T22:56:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -8015,13 +8015,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "3afda335afe830b22007"
+   "id": "0fc1f1800cb8ad642a2f"
   },
   {
    "source": "Cinéma du Parc",
    "title": "CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF)",
    "start": "2026-11-25T21:15:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/cheval-sauvage-numero-neuf-2275",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:13:00-05:00",
    "location": "Cinéma du Parc",
    "kind": "",
@@ -8029,13 +8029,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "8b7d2581a2306fb1a242"
+   "id": "7ba991c902d4abf808b6"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "AUTOFICTION (VOSTF)",
    "start": "2026-11-25T21:20:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/autofiction-2293",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:11:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -8043,13 +8043,13 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "26137a98936a3ab4a53e"
+   "id": "bf594ee0b5b2ea6527dd"
   },
   {
    "source": "Cinéma Beaubien",
    "title": "LA MEILLEURE FAÇON, C'EST... (VOF)",
    "start": "2026-11-25T21:40:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/la-meilleure-facon-c-est-par-accident-2115",
+   "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
    "end": "2026-11-25T23:31:00-05:00",
    "location": "Cinéma Beaubien",
    "kind": "",
@@ -8057,7 +8057,7 @@
    "price": "",
    "all_day": false,
    "tab": "movies",
-   "id": "73a3834619a63e66022c"
+   "id": "ab6f39e728d496a4687f"
   },
   {
    "source": "Cinéma Beaubien",
