@@ -108,6 +108,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Le Red Room | /evenements page (dates only, no times) |
 | Vino Disco | Resident Advisor promoter 133188 (what their site embeds) |
 | Bar Datcha | Resident Advisor venue 94451 |
+| Barbossa | Resident Advisor venue 179148 (its own site is a Facebook page; Fever lists no events). Few nights are posted at a time, so it is in `QUIET_OK`. |
 | 5 à Set | Eventbrite organizer page |
 | Le Marché Vintage | Eventbrite organizer page (vintage pop-up markets) |
 | Stereo | Resident Advisor venue 828 (Tixr blocks automated access) |

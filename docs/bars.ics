@@ -9,7 +9,7 @@ SUMMARY:FREE · Trivia Night at Ye Olde Orchard Pub and Grill @ Trivia Nig
  hts
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7bfd3bc41fde03a28057@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Ye Olde Orchard Pub and Grill\, 1189 Rue de la Montagne Montreal 
@@ -20,7 +20,7 @@ SUMMARY:FREE · Trivia Night at Broue Pub Brouhaha Ahuntsic @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6d1e3f84ee08f54cdc06@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Broue Pub Brouhaha Ahuntsic\, 10295 Av. Papineau Montreal QC
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Turbo Haüs @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c13fea149519f5e6e506@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Turbo Haüs\, 2040 R. Saint-Denis Montreal QC
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar Le Ritz PDB @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261126T200000
 DTEND;TZID=America/Montreal:20261126T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1d55712d07740bd5dc6e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon Ouest Montreal QC
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Madame Smith @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261126T233000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:49504ab286b5ae19d59c@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Madame Smith\, 4061 Rue Ontario E Montreal QC
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Cafe Campus @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261126T210000
 DTEND;TZID=America/Montreal:20261127T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:edd5a6b4afffce964ce7@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Cafe Campus\, 57 Rue Prince Arthur E Montreal QC
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at L'Astral 2000 @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261126T210000
 DTEND;TZID=America/Montreal:20261127T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5720635e60d52862ce7e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:L'Astral 2000\, 1845 Rue Ontario E Montreal QC
@@ -74,7 +74,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Brasserie des Patriotes @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261126T220000
 DTEND;TZID=America/Montreal:20261127T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d420a0c1c77214d14d54@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Brasserie des Patriotes\, 3363 Rue Ontario E Montreal QC
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Mic Karaoke Lounge @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T150000
 DTEND;TZID=America/Montreal:20261127T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f7a6cde938e5e0412423@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Mic Karaoke Lounge\, 1695 Boulevard De Maisonneuve Ouest Montr
@@ -93,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at CEO Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T180000
 DTEND;TZID=America/Montreal:20261127T210000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:836fc10b315a364d6022@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:CEO Karaoke\, 1008 Rue Clark Montreal QC
@@ -102,7 +102,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at La Tetro Coop @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T190000
 DTEND;TZID=America/Montreal:20261127T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6849199394eaf47d5fb5@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:La Tetro Coop\, 8628 Rue Hochelaga Montreal QC
@@ -111,7 +111,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Karaoke Bar 3 Minots @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T190000
 DTEND;TZID=America/Montreal:20261127T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:439c852fc8909a2219df@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Karaoke Bar 3 Minots\, 3812 Boulevard Saint-Laurent Montreal QC
@@ -121,7 +121,7 @@ SUMMARY:Old Port Comedy Show in Montreal | FRIDAY Pro Comedy Show by the W
  ater @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5ede711f785279d62e85@mtl-events
 DESCRIPTION:Laugh It Off\n$20–26\nhttps://www.eventbrite.ca/e/old-port-c
  omedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441
@@ -134,7 +134,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Zoe Karaoke & Cocktails @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:fb003af0ce66aadba984@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Zoe Karaoke & Cocktails\, 3296 Rue Jean-Talon E Montreal QC
@@ -143,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Date Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261128T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:113bf3747d36337fa897@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Date Karaoke\, 1218 Rue Sainte-Catherine E Montreal QC
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Au Vieux St-Hubert @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261128T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:830b6981eb0b3077e76e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Au Vieux St-Hubert\, 1241 Rue St-Hubert Montreal QC
@@ -161,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Normandie @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261128T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0b59e1868fc59a0ad955@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Normandie\, 1295 Rue Atateken Montreal QC
@@ -170,7 +170,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Bar La Remise @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261127T220000
 DTEND;TZID=America/Montreal:20261128T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0226170ba464ee3dde06@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Bar La Remise\, 540 Rue Boucher Montreal QC
@@ -179,7 +179,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Pang Pang Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261128T150000
 DTEND;TZID=America/Montreal:20261128T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9f29fc9be998a203b91f@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Pang Pang Karaoke\, 1226 Rue Mackay Montreal QC
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Typhoon Lounge @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261129T193000
 DTEND;TZID=America/Montreal:20261129T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d455521e2f7c6cd22947@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Typhoon Lounge\, 5752 Av de Monkland Montreal QC
@@ -197,7 +197,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Bishop & Bagg @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261129T193000
 DTEND;TZID=America/Montreal:20261129T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ed920af6370dc91cd7d2@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Bishop & Bagg\, 52 Saint Viateur St. West Montreal QC
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Grumpys Bar @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261129T200000
 DTEND;TZID=America/Montreal:20261129T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:544642c31badc6b49dcd@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -215,7 +215,7 @@ BEGIN:VEVENT
 SUMMARY:Comedy Open Mic at Bar Bifteck St-Laurent @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261129T200000
 DTEND;TZID=America/Montreal:20261129T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:82c26ca138dedb09cdc1@mtl-events
 DESCRIPTION:Comedy Open Mics
 LOCATION:Bar Bifteck St-Laurent\, 3702 Boul. Saint-Laurent Montreal QC
@@ -224,7 +224,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Wiggle Room @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261129T200000
 DTEND;TZID=America/Montreal:20261129T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:99225e20e673c06839bc@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Wiggle Room\, 3874 St Laurent Blvd Montreal QC
@@ -233,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Chez Baptiste @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b6240f100baa47a77573@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Chez Baptiste\, 1045 Mont-Royal Ave E Montreal QC
@@ -242,7 +242,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar La Succursale @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6d5d6597d772ae0ec424@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar La Succursale\, 3188 Rue Masson Montreal QC
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barrelmans @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f078704c4d5b7511b0d7@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barrelmans\, 410 Rue Saint-Pierre Montreal QC
@@ -260,7 +260,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Le Vestiaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2bddb6af6c3a2f00cbd8@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Le Vestiaire\, 6634 Rue St-Hubert Montreal QC
@@ -269,7 +269,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Lord William Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:deb1d58267bb3fcbadc0@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Lord William Pub\, 265 Rue des Seigneurs Montreal QC
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at McKibbin's (St-Laurent) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:319bd8eabd4a949ba427@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:McKibbin's (St-Laurent)\, 3515 Boul. Saint-Laurent Montreal QC
@@ -287,7 +287,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Nestor @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ba169a6a273c261c1f14@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Nestor\, 6289 Rue St-Hubert Montreal QC
@@ -296,7 +296,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Burgundy Lion @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:29079cb2495d941a2bb5@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -305,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Blind Pig @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8e3fb461600110ec572c@mtl-events
 DESCRIPTION:Trivia Nights\n$5
 LOCATION:Bar Blind Pig\, 3882 Ontario St E Montreal QC
@@ -314,7 +314,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barfly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:27a4402103fc1ea81eaf@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barfly\, 4062 Boul. Saint-Laurent Montreal QC
@@ -323,7 +323,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub McCarold @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:11468148f933a4812fff@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub McCarold\, 5400 Chem. de la Côte-des-Neiges Montreal QC
@@ -332,7 +332,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Wolf & Workman @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:125639c87d0c7e5914b2@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Wolf & Workman\, 139 Saint-Paul St W Montreal QC
@@ -342,7 +342,7 @@ SUMMARY:FREE · MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal
   @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:64e7ed1f30e75bdba1d4@mtl-events
 DESCRIPTION:Laugh It Off\nFree\nhttps://www.eventbrite.ca/e/monday-stand-u
  p-comedy-show-free-comedy-show-in-montreal-tickets-1992133979359
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at McKibbin’s @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a5e3b0fab2883f836b17@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:McKibbin’s\, 1426 Bishop St Montreal QC
@@ -363,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Le Fouvrac @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4542686a2a686607228d@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Le Fouvrac\, 1404 Rue Fleury E Montreal QC
@@ -373,7 +373,7 @@ SUMMARY:FREE · Comedy Open Mic at Taverne le Chic Regal @ Comedy Open Mic
  s
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6bccca4cddee6d338c62@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Taverne le Chic Regal\, 2567 Rue Centre Montreal QC
@@ -382,7 +382,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Café Campus @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:11d30d62ac85060893a5@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Café Campus\, 57 Rue Prince-Arthur E Montreal QC
@@ -391,7 +391,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at The Old Dublin Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6f75cdf6c4fb0c787691@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:The Old Dublin Pub\, 636 Rue Cathcart Montreal QC
@@ -400,7 +400,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Hurley's Irish Pub @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261130T223000
 DTEND;TZID=America/Montreal:20261201T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:037456ff517d933ae6fb@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -409,7 +409,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar K Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261201T170000
 DTEND;TZID=America/Montreal:20261201T200000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3746129444ce03ce9907@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar K Karaoke\, 2110 Rue Crescent Montreal QC
@@ -418,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at 4 Origines (Pointe-St-Charles) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T190000
 DTEND;TZID=America/Montreal:20261201T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8ae43bf4e4286918479f@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:4 Origines (Pointe-St-Charles)\, 1304 Saint-Patrick St. Montreal 
@@ -428,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T190000
 DTEND;TZID=America/Montreal:20261201T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ced505bfc4f7c384b16c@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -437,7 +437,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Maison Publique McLean's @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T190000
 DTEND;TZID=America/Montreal:20261201T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:038b4fa3ec7a5041fde7@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Maison Publique McLean's\, 1420 Peel St Montreal QC
@@ -447,7 +447,7 @@ SUMMARY:Trivia Night at Origine Brass (4 Origines\, Dorval) @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261201T190000
 DTEND;TZID=America/Montreal:20261201T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3f7381b85112c72f28aa@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Origine Brass (4 Origines\, Dorval)\, 2220 Boul Hymus Dorval QC
@@ -456,7 +456,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at MVP Resto-Bar Sportif @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T193000
 DTEND;TZID=America/Montreal:20261201T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6c80a9b648ebfed1c98c@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:MVP Resto-Bar Sportif\, 200 Rue Sainte-Catherine E Montreal QC
@@ -465,7 +465,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Memento! @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T193000
 DTEND;TZID=America/Montreal:20261201T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b97910e36194450d50bc@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Memento!\, 2471 Rue Saint-Patrick Montreal QC
@@ -475,7 +475,7 @@ SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
  eal @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261201T200000
 DTEND;TZID=America/Montreal:20261201T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1d23675a4a28a2b6b2e7@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/tuesday-ni
  ght-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-20040358
@@ -488,7 +488,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Comedy Nest @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261201T200000
 DTEND;TZID=America/Montreal:20261201T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:aa43280b563bd937f9d2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Comedy Nest\, 2313 Sainte-Catherine St. West 3rd Floor Montre
@@ -498,7 +498,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at STUDIO CAGIBI @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261201T200000
 DTEND;TZID=America/Montreal:20261201T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f932b9c159f706996ea2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:STUDIO CAGIBI\, 3675 Rue Saint-Dominique Montreal QC
@@ -508,7 +508,7 @@ SUMMARY:FREE · Comedy Open Mic at Theatre Sainte-Catherine @ Comedy Open
  Mics
 DTSTART;TZID=America/Montreal:20261201T210000
 DTEND;TZID=America/Montreal:20261202T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:bd20328955b4cc5c9729@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Theatre Sainte-Catherine\, 264 St Catherine St E Montreal QC
@@ -517,7 +517,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Honey Martin @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261201T213000
 DTEND;TZID=America/Montreal:20261202T003000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:29b53933ddd4b4595001@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Honey Martin\, 5916 Sherbrooke St W Montreal QC
@@ -526,7 +526,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Grumpys Bar @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261201T223000
 DTEND;TZID=America/Montreal:20261202T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c3b775ca2bedb1c5a575@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -535,7 +535,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Louks Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7642c4bc7cdc14c181a2@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Louks Pub\, 1345 Rue Notre Dame Montreal QC
@@ -544,7 +544,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Waverly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a7f9dc0463517f0ae5a9@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Waverly\, 5550 Boul. Saint-Laurent Montreal QC
@@ -553,7 +553,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4a8721035c74905c45bd@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -562,7 +562,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Microbrasserie Folklore @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6ca5f0f8a3678b4ade55@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Microbrasserie Folklore\, 133 Labrosse Ave Pointe-Claire QC
@@ -571,7 +571,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at The Wheel Club @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T193000
 DTEND;TZID=America/Montreal:20261202T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6c319d1ccce3281279fe@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:The Wheel Club\, 3373 Cavendish Blvd Montreal QC
@@ -580,7 +580,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at PGSS Inc. Thomson House @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T193000
 DTEND;TZID=America/Montreal:20261202T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:48f7c2845472dcecec6f@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:PGSS Inc. Thomson House\, 3650 Rue McTavish Montreal QC
@@ -590,7 +590,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:fb0e036728594150ee95@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200326
@@ -603,7 +603,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at La Petite Grenouille @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a9b919fbd02c6e937f3f@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:La Petite Grenouille\, 3435 St Laurent Blvd Montreal QC
@@ -612,7 +612,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Brasserie Dieu Du Ciel @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c83a499aa6e87c10b68e@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Brasserie Dieu Du Ciel\, 21 Av. Laurier O Montreal QC
@@ -621,7 +621,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Bar Le Ritz PDB @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c04a9b3464ce5d11d690@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon O Montreal QC
@@ -631,7 +631,7 @@ SUMMARY:FREE · Comedy Open Mic at Upstairs Jazz Bar & Grill @ Comedy Open
   Mics
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:07d083bfbe2519dbc922@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Upstairs Jazz Bar & Grill\, 1254 Mackay St Montreal QC
@@ -640,7 +640,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Burgundy Lion @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:797e420fafadf65b326e@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -649,7 +649,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Hurley's Irish Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7d16de9b299687c6baa5@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -658,7 +658,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Kellys Orchard @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8e6bbaac249ab11f3687@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Kellys Orchard\, 88 Ave Donegani Pointe-Claire QC
@@ -667,7 +667,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Orchard Pub & Grill @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261202T200000
 DTEND;TZID=America/Montreal:20261202T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8d4791e29cfe1ac7c1cc@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Orchard Pub & Grill\, 5563 Monkland Ave Montreal QC
@@ -677,7 +677,7 @@ SUMMARY:FREE · Trivia Night at Ye Olde Orchard Pub and Grill @ Trivia Nig
  hts
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:32f36fa80f5393d5f40d@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Ye Olde Orchard Pub and Grill\, 1189 Rue de la Montagne Montreal 
@@ -688,7 +688,7 @@ SUMMARY:FREE · Trivia Night at Broue Pub Brouhaha Ahuntsic @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ffc0ddc4662ec30af616@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Broue Pub Brouhaha Ahuntsic\, 10295 Av. Papineau Montreal QC
@@ -697,7 +697,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Turbo Haüs @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0fea4848a96c4ea3e4bc@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Turbo Haüs\, 2040 R. Saint-Denis Montreal QC
@@ -706,7 +706,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar Le Ritz PDB @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2399efbc4fa7528a99a6@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon Ouest Montreal QC
@@ -715,7 +715,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Madame Smith @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261203T203000
 DTEND;TZID=America/Montreal:20261203T233000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:fbb1d75946beeb58fea3@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Madame Smith\, 4061 Rue Ontario E Montreal QC
@@ -724,7 +724,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Cafe Campus @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261203T210000
 DTEND;TZID=America/Montreal:20261204T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5c0fce8a21c080b63cb4@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Cafe Campus\, 57 Rue Prince Arthur E Montreal QC
@@ -733,7 +733,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at L'Astral 2000 @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261203T210000
 DTEND;TZID=America/Montreal:20261204T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3ad289aa1f823ff58c6a@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:L'Astral 2000\, 1845 Rue Ontario E Montreal QC
@@ -742,7 +742,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Brasserie des Patriotes @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261203T220000
 DTEND;TZID=America/Montreal:20261204T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:144ed229c3ba4fca950c@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Brasserie des Patriotes\, 3363 Rue Ontario E Montreal QC
@@ -751,7 +751,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Mic Karaoke Lounge @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T150000
 DTEND;TZID=America/Montreal:20261204T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:cd2b9db6e64a44c66cc3@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Mic Karaoke Lounge\, 1695 Boulevard De Maisonneuve Ouest Montr
@@ -761,7 +761,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at CEO Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T180000
 DTEND;TZID=America/Montreal:20261204T210000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:92c56e5f79e0185d381b@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:CEO Karaoke\, 1008 Rue Clark Montreal QC
@@ -770,7 +770,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at La Tetro Coop @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T190000
 DTEND;TZID=America/Montreal:20261204T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:84d7c3b4a51d136a80e7@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:La Tetro Coop\, 8628 Rue Hochelaga Montreal QC
@@ -779,7 +779,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Karaoke Bar 3 Minots @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T190000
 DTEND;TZID=America/Montreal:20261204T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:edfbb17352b676d10151@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Karaoke Bar 3 Minots\, 3812 Boulevard Saint-Laurent Montreal QC
@@ -789,7 +789,7 @@ SUMMARY:Spectacle d’humour au Vieux-Port de Montréal | Humour au bord d
  e l'eau @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:db5ba6db04855f3f9b26@mtl-events
 DESCRIPTION:Laugh It Off\n$20–26\nhttps://www.eventbrite.ca/e/spectacle-
  dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau--tickets-20034912
@@ -802,7 +802,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Zoe Karaoke & Cocktails @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T200000
 DTEND;TZID=America/Montreal:20261204T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ec4870c78e7c928a5dba@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Zoe Karaoke & Cocktails\, 3296 Rue Jean-Talon E Montreal QC
@@ -811,7 +811,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Date Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T210000
 DTEND;TZID=America/Montreal:20261205T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:61c9a84f73058370c146@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Date Karaoke\, 1218 Rue Sainte-Catherine E Montreal QC
@@ -820,7 +820,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Au Vieux St-Hubert @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T210000
 DTEND;TZID=America/Montreal:20261205T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7b9ff4e97ecc539d0118@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Au Vieux St-Hubert\, 1241 Rue St-Hubert Montreal QC
@@ -829,7 +829,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Normandie @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T210000
 DTEND;TZID=America/Montreal:20261205T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e63edf2494265d4fbfb1@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Normandie\, 1295 Rue Atateken Montreal QC
@@ -838,7 +838,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Bar La Remise @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261204T220000
 DTEND;TZID=America/Montreal:20261205T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9541fe37a0ffb442c6e0@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Bar La Remise\, 540 Rue Boucher Montreal QC
@@ -847,7 +847,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Pang Pang Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261205T150000
 DTEND;TZID=America/Montreal:20261205T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a5d4c3a94f651f65ed77@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Pang Pang Karaoke\, 1226 Rue Mackay Montreal QC
@@ -857,7 +857,7 @@ SUMMARY:SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montre
  al @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261205T200000
 DTEND;TZID=America/Montreal:20261205T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1df9847ef317a0d112bc@mtl-events
 DESCRIPTION:Laugh It Off\n$20–26\nhttps://www.eventbrite.ca/e/saturday-n
  ight-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-200446733
@@ -871,7 +871,7 @@ SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
  ntreal @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261206T193000
 DTEND;TZID=America/Montreal:20261206T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5382ef73a757f123640b@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/sunday-wee
  kend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803
@@ -884,7 +884,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Typhoon Lounge @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261206T193000
 DTEND;TZID=America/Montreal:20261206T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:eab10a4a11024459d904@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Typhoon Lounge\, 5752 Av de Monkland Montreal QC
@@ -893,7 +893,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Bishop & Bagg @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261206T193000
 DTEND;TZID=America/Montreal:20261206T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:01c97af80961d73773ea@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Bishop & Bagg\, 52 Saint Viateur St. West Montreal QC
@@ -902,7 +902,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Grumpys Bar @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5bded4b94257272d556b@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -911,7 +911,7 @@ BEGIN:VEVENT
 SUMMARY:Comedy Open Mic at Bar Bifteck St-Laurent @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:bf7bf1643a81134b8898@mtl-events
 DESCRIPTION:Comedy Open Mics
 LOCATION:Bar Bifteck St-Laurent\, 3702 Boul. Saint-Laurent Montreal QC
@@ -920,7 +920,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Wiggle Room @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261206T200000
 DTEND;TZID=America/Montreal:20261206T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:684555be89e2e8b79a9c@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Wiggle Room\, 3874 St Laurent Blvd Montreal QC
@@ -929,7 +929,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Chez Baptiste @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d030512a58a870502222@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Chez Baptiste\, 1045 Mont-Royal Ave E Montreal QC
@@ -938,7 +938,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar La Succursale @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:09e02a6d7d123251a940@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar La Succursale\, 3188 Rue Masson Montreal QC
@@ -947,7 +947,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barrelmans @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ef816ee4b83a946c16a2@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barrelmans\, 410 Rue Saint-Pierre Montreal QC
@@ -956,7 +956,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Le Vestiaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3740c46884ea62953c39@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Le Vestiaire\, 6634 Rue St-Hubert Montreal QC
@@ -965,7 +965,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Lord William Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d07aa7a52104a4844507@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Lord William Pub\, 265 Rue des Seigneurs Montreal QC
@@ -974,7 +974,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at McKibbin's (St-Laurent) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:428b45c3c264f724aa52@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:McKibbin's (St-Laurent)\, 3515 Boul. Saint-Laurent Montreal QC
@@ -983,7 +983,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Nestor @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:259b7ed0fe87c74fcd7a@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Nestor\, 6289 Rue St-Hubert Montreal QC
@@ -992,7 +992,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Burgundy Lion @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ed0bbdbde857be6fd03d@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -1001,7 +1001,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Blind Pig @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:40e120defadb0164e7e2@mtl-events
 DESCRIPTION:Trivia Nights\n$5
 LOCATION:Bar Blind Pig\, 3882 Ontario St E Montreal QC
@@ -1010,7 +1010,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barfly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f95d100cc502450bc19e@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barfly\, 4062 Boul. Saint-Laurent Montreal QC
@@ -1019,7 +1019,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub McCarold @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1b4d18256849200ee04b@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub McCarold\, 5400 Chem. de la Côte-des-Neiges Montreal QC
@@ -1028,7 +1028,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Wolf & Workman @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:042f123bc148f2087c1e@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Wolf & Workman\, 139 Saint-Paul St W Montreal QC
@@ -1038,7 +1038,7 @@ SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
  augh It Off
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5fe8b544d4a55c837f99@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/the-canal-
  comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037
@@ -1050,7 +1050,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at McKibbin’s @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3235639190c3bb22272d@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:McKibbin’s\, 1426 Bishop St Montreal QC
@@ -1059,7 +1059,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Le Fouvrac @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:15d79fde51ea139db060@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Le Fouvrac\, 1404 Rue Fleury E Montreal QC
@@ -1069,7 +1069,7 @@ SUMMARY:FREE · Comedy Open Mic at Taverne le Chic Regal @ Comedy Open Mic
  s
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1bfe8f6ac3184f7d140d@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Taverne le Chic Regal\, 2567 Rue Centre Montreal QC
@@ -1078,7 +1078,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Café Campus @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:bf5c74496fcc65f788e1@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Café Campus\, 57 Rue Prince-Arthur E Montreal QC
@@ -1087,7 +1087,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at The Old Dublin Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261207T200000
 DTEND;TZID=America/Montreal:20261207T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ff07f127ce52c916d7e1@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:The Old Dublin Pub\, 636 Rue Cathcart Montreal QC
@@ -1096,7 +1096,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Hurley's Irish Pub @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261207T223000
 DTEND;TZID=America/Montreal:20261208T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0a5779e9a334a9c6220b@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -1105,7 +1105,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar K Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261208T170000
 DTEND;TZID=America/Montreal:20261208T200000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:19c1271c8f3f2671d28e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar K Karaoke\, 2110 Rue Crescent Montreal QC
@@ -1114,7 +1114,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at 4 Origines (Pointe-St-Charles) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T190000
 DTEND;TZID=America/Montreal:20261208T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b22ccda22724218d2d0f@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:4 Origines (Pointe-St-Charles)\, 1304 Saint-Patrick St. Montreal 
@@ -1124,7 +1124,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T190000
 DTEND;TZID=America/Montreal:20261208T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4eaa94c462d4cb1ef0dc@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -1133,7 +1133,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Maison Publique McLean's @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T190000
 DTEND;TZID=America/Montreal:20261208T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:89821d84ea393bde33bd@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Maison Publique McLean's\, 1420 Peel St Montreal QC
@@ -1143,7 +1143,7 @@ SUMMARY:Trivia Night at Origine Brass (4 Origines\, Dorval) @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261208T190000
 DTEND;TZID=America/Montreal:20261208T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:08e4ff040dabe3c2959b@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Origine Brass (4 Origines\, Dorval)\, 2220 Boul Hymus Dorval QC
@@ -1152,7 +1152,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at MVP Resto-Bar Sportif @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T193000
 DTEND;TZID=America/Montreal:20261208T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:62eb5168536bdfe790eb@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:MVP Resto-Bar Sportif\, 200 Rue Sainte-Catherine E Montreal QC
@@ -1161,7 +1161,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Memento! @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T193000
 DTEND;TZID=America/Montreal:20261208T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4f0a0ff55d9306e65487@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Memento!\, 2471 Rue Saint-Patrick Montreal QC
@@ -1171,7 +1171,7 @@ SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
  l @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261208T200000
 DTEND;TZID=America/Montreal:20261208T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:732c42a62a13da95a322@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/mardi-soir
  ee-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106
@@ -1183,7 +1183,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Comedy Nest @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261208T200000
 DTEND;TZID=America/Montreal:20261208T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8657b72b0dab9ff38ba3@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Comedy Nest\, 2313 Sainte-Catherine St. West 3rd Floor Montre
@@ -1193,7 +1193,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at STUDIO CAGIBI @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261208T200000
 DTEND;TZID=America/Montreal:20261208T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c46ba92674439e64751a@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:STUDIO CAGIBI\, 3675 Rue Saint-Dominique Montreal QC
@@ -1203,7 +1203,7 @@ SUMMARY:FREE · Comedy Open Mic at Theatre Sainte-Catherine @ Comedy Open
  Mics
 DTSTART;TZID=America/Montreal:20261208T210000
 DTEND;TZID=America/Montreal:20261209T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ec293280feda18c76e0e@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Theatre Sainte-Catherine\, 264 St Catherine St E Montreal QC
@@ -1212,7 +1212,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Honey Martin @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261208T213000
 DTEND;TZID=America/Montreal:20261209T003000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:cc132ad5634e44e25ff3@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Honey Martin\, 5916 Sherbrooke St W Montreal QC
@@ -1221,7 +1221,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Grumpys Bar @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261208T223000
 DTEND;TZID=America/Montreal:20261209T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ab59d9c962ec56016ed1@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -1230,7 +1230,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Louks Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5807d735f3169255ad88@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Louks Pub\, 1345 Rue Notre Dame Montreal QC
@@ -1239,7 +1239,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Waverly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:17ff3d49e8c0d50cf393@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Waverly\, 5550 Boul. Saint-Laurent Montreal QC
@@ -1248,7 +1248,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b89f1d7324f8e861abf3@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -1257,7 +1257,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Microbrasserie Folklore @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:34cfe0f8629f2dd3c7a6@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Microbrasserie Folklore\, 133 Labrosse Ave Pointe-Claire QC
@@ -1266,7 +1266,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at The Wheel Club @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:42361cbf4e7c6ef555d4@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:The Wheel Club\, 3373 Cavendish Blvd Montreal QC
@@ -1275,7 +1275,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at PGSS Inc. Thomson House @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:88a172c9ea50eb3701b9@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:PGSS Inc. Thomson House\, 3650 Rue McTavish Montreal QC
@@ -1285,7 +1285,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:cbd63bf6a65b664ac581@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200326
@@ -1298,7 +1298,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at La Petite Grenouille @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e89a893a8465cf0b5353@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:La Petite Grenouille\, 3435 St Laurent Blvd Montreal QC
@@ -1307,7 +1307,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Brasserie Dieu Du Ciel @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1da86df26985e7aef5ab@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Brasserie Dieu Du Ciel\, 21 Av. Laurier O Montreal QC
@@ -1316,7 +1316,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Bar Le Ritz PDB @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:613606638ef30a906f94@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon O Montreal QC
@@ -1326,7 +1326,7 @@ SUMMARY:FREE · Comedy Open Mic at Upstairs Jazz Bar & Grill @ Comedy Open
   Mics
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c05b3de405cfc90ee5b6@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Upstairs Jazz Bar & Grill\, 1254 Mackay St Montreal QC
@@ -1335,7 +1335,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Burgundy Lion @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:233e51e5eb7f779ef039@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -1344,7 +1344,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Hurley's Irish Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1006f8c15405c188ec40@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -1353,7 +1353,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Kellys Orchard @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4de286f0169827c448b3@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Kellys Orchard\, 88 Ave Donegani Pointe-Claire QC
@@ -1362,7 +1362,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Orchard Pub & Grill @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261209T200000
 DTEND;TZID=America/Montreal:20261209T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7383bc3119a14f5cd7f3@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Orchard Pub & Grill\, 5563 Monkland Ave Montreal QC
@@ -1372,7 +1372,7 @@ SUMMARY:FREE · Trivia Night at Ye Olde Orchard Pub and Grill @ Trivia Nig
  hts
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d97fe502aaaaee59c11f@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Ye Olde Orchard Pub and Grill\, 1189 Rue de la Montagne Montreal 
@@ -1383,7 +1383,7 @@ SUMMARY:FREE · Trivia Night at Broue Pub Brouhaha Ahuntsic @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:344fcd0e2d0f23fb8b75@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Broue Pub Brouhaha Ahuntsic\, 10295 Av. Papineau Montreal QC
@@ -1392,7 +1392,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Turbo Haüs @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8919fa08ebb1e448caf7@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Turbo Haüs\, 2040 R. Saint-Denis Montreal QC
@@ -1401,7 +1401,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar Le Ritz PDB @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261210T200000
 DTEND;TZID=America/Montreal:20261210T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:53943f4e901fd5ddc653@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon Ouest Montreal QC
@@ -1410,7 +1410,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Madame Smith @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261210T203000
 DTEND;TZID=America/Montreal:20261210T233000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3637f4fdbc0fa292f8e4@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Madame Smith\, 4061 Rue Ontario E Montreal QC
@@ -1419,7 +1419,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Cafe Campus @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261210T210000
 DTEND;TZID=America/Montreal:20261211T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a50205e4b739a9a8ccec@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Cafe Campus\, 57 Rue Prince Arthur E Montreal QC
@@ -1428,7 +1428,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at L'Astral 2000 @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261210T210000
 DTEND;TZID=America/Montreal:20261211T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b7ebab6c53b5e92ddf47@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:L'Astral 2000\, 1845 Rue Ontario E Montreal QC
@@ -1437,7 +1437,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Brasserie des Patriotes @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261210T220000
 DTEND;TZID=America/Montreal:20261211T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:32e9f855594304a1d0fc@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Brasserie des Patriotes\, 3363 Rue Ontario E Montreal QC
@@ -1446,7 +1446,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Mic Karaoke Lounge @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T150000
 DTEND;TZID=America/Montreal:20261211T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:cf493dc209a60c5c6fa4@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Mic Karaoke Lounge\, 1695 Boulevard De Maisonneuve Ouest Montr
@@ -1456,7 +1456,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at CEO Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T180000
 DTEND;TZID=America/Montreal:20261211T210000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d7565c701e1ee2e4388e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:CEO Karaoke\, 1008 Rue Clark Montreal QC
@@ -1465,7 +1465,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at La Tetro Coop @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T190000
 DTEND;TZID=America/Montreal:20261211T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6cc796def3adad9f20c5@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:La Tetro Coop\, 8628 Rue Hochelaga Montreal QC
@@ -1474,7 +1474,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Karaoke Bar 3 Minots @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T190000
 DTEND;TZID=America/Montreal:20261211T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f1600300064bb3220780@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Karaoke Bar 3 Minots\, 3812 Boulevard Saint-Laurent Montreal QC
@@ -1483,7 +1483,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Zoe Karaoke & Cocktails @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T200000
 DTEND;TZID=America/Montreal:20261211T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:958df47ac2f3873f3059@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Zoe Karaoke & Cocktails\, 3296 Rue Jean-Talon E Montreal QC
@@ -1492,7 +1492,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Date Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T210000
 DTEND;TZID=America/Montreal:20261212T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7569a63f9e90d69eda56@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Date Karaoke\, 1218 Rue Sainte-Catherine E Montreal QC
@@ -1501,7 +1501,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Au Vieux St-Hubert @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T210000
 DTEND;TZID=America/Montreal:20261212T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:01ce2655dc1388aa2e7c@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Au Vieux St-Hubert\, 1241 Rue St-Hubert Montreal QC
@@ -1510,7 +1510,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Normandie @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T210000
 DTEND;TZID=America/Montreal:20261212T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:489ee2c4cab0b13124d9@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Normandie\, 1295 Rue Atateken Montreal QC
@@ -1519,7 +1519,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Bar La Remise @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261211T220000
 DTEND;TZID=America/Montreal:20261212T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:33e610f1923fe5697571@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Bar La Remise\, 540 Rue Boucher Montreal QC
@@ -1528,7 +1528,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Pang Pang Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261212T150000
 DTEND;TZID=America/Montreal:20261212T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a709a1f83b6ebf795d3d@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Pang Pang Karaoke\, 1226 Rue Mackay Montreal QC
@@ -1538,7 +1538,7 @@ SUMMARY:SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal @ Lau
  gh It Off
 DTSTART;TZID=America/Montreal:20261212T200000
 DTEND;TZID=America/Montreal:20261212T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:59478af2f4bb2c31b007@mtl-events
 DESCRIPTION:Laugh It Off\n$20–26\nhttps://www.eventbrite.ca/e/samedi-hoc
  helagag-comedie-spectacle-dhumour-a-montreal-12-decembre-tickets-200456967
@@ -1551,7 +1551,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Typhoon Lounge @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261213T193000
 DTEND;TZID=America/Montreal:20261213T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3e2ed292134b808a7229@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Typhoon Lounge\, 5752 Av de Monkland Montreal QC
@@ -1560,7 +1560,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Bishop & Bagg @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261213T193000
 DTEND;TZID=America/Montreal:20261213T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:420bca247c158c57562b@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Bishop & Bagg\, 52 Saint Viateur St. West Montreal QC
@@ -1569,7 +1569,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Grumpys Bar @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261213T200000
 DTEND;TZID=America/Montreal:20261213T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a87eea7fee40488c0626@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -1578,7 +1578,7 @@ BEGIN:VEVENT
 SUMMARY:Comedy Open Mic at Bar Bifteck St-Laurent @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261213T200000
 DTEND;TZID=America/Montreal:20261213T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9d3483ed617d330800f8@mtl-events
 DESCRIPTION:Comedy Open Mics
 LOCATION:Bar Bifteck St-Laurent\, 3702 Boul. Saint-Laurent Montreal QC
@@ -1587,7 +1587,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Wiggle Room @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261213T200000
 DTEND;TZID=America/Montreal:20261213T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2e71dc8eb85c439f48ff@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Wiggle Room\, 3874 St Laurent Blvd Montreal QC
@@ -1596,7 +1596,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Chez Baptiste @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:34a0a916de57747b5337@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Chez Baptiste\, 1045 Mont-Royal Ave E Montreal QC
@@ -1605,7 +1605,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar La Succursale @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1d4cb49a0ed498a188b8@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar La Succursale\, 3188 Rue Masson Montreal QC
@@ -1614,7 +1614,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barrelmans @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2545949f4a1cf8db939e@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barrelmans\, 410 Rue Saint-Pierre Montreal QC
@@ -1623,7 +1623,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Le Vestiaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8dfd45063ba43ee5c9c7@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Le Vestiaire\, 6634 Rue St-Hubert Montreal QC
@@ -1632,7 +1632,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Lord William Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:10906f9e420e417671c1@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Lord William Pub\, 265 Rue des Seigneurs Montreal QC
@@ -1641,7 +1641,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at McKibbin's (St-Laurent) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b5279669b0cbe84449d8@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:McKibbin's (St-Laurent)\, 3515 Boul. Saint-Laurent Montreal QC
@@ -1650,7 +1650,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Nestor @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:dbbaaeff590fea5ce018@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Nestor\, 6289 Rue St-Hubert Montreal QC
@@ -1659,7 +1659,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Burgundy Lion @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:568b18a079b3a1e74151@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -1668,7 +1668,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Blind Pig @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e75a981ff6f8bbe0fefa@mtl-events
 DESCRIPTION:Trivia Nights\n$5
 LOCATION:Bar Blind Pig\, 3882 Ontario St E Montreal QC
@@ -1677,7 +1677,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barfly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:fca7976dc16a7c03bfbb@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barfly\, 4062 Boul. Saint-Laurent Montreal QC
@@ -1686,7 +1686,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub McCarold @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0b4e24bdef17a888c5d9@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub McCarold\, 5400 Chem. de la Côte-des-Neiges Montreal QC
@@ -1695,7 +1695,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Wolf & Workman @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T193000
 DTEND;TZID=America/Montreal:20261214T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8d92b88e2f30452ff030@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Wolf & Workman\, 139 Saint-Paul St W Montreal QC
@@ -1704,7 +1704,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at McKibbin’s @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T200000
 DTEND;TZID=America/Montreal:20261214T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a7bcbc4ceba9ae85252e@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:McKibbin’s\, 1426 Bishop St Montreal QC
@@ -1713,7 +1713,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Le Fouvrac @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T200000
 DTEND;TZID=America/Montreal:20261214T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:89e61351ab3735cce037@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Le Fouvrac\, 1404 Rue Fleury E Montreal QC
@@ -1723,7 +1723,7 @@ SUMMARY:FREE · Comedy Open Mic at Taverne le Chic Regal @ Comedy Open Mic
  s
 DTSTART;TZID=America/Montreal:20261214T200000
 DTEND;TZID=America/Montreal:20261214T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ae53077a52943094d1cc@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Taverne le Chic Regal\, 2567 Rue Centre Montreal QC
@@ -1732,7 +1732,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Café Campus @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261214T200000
 DTEND;TZID=America/Montreal:20261214T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4bcf1b30de5f8ffbe8c2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Café Campus\, 57 Rue Prince-Arthur E Montreal QC
@@ -1741,7 +1741,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at The Old Dublin Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261214T200000
 DTEND;TZID=America/Montreal:20261214T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:315c7c61d38f4121d153@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:The Old Dublin Pub\, 636 Rue Cathcart Montreal QC
@@ -1750,7 +1750,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Hurley's Irish Pub @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261214T223000
 DTEND;TZID=America/Montreal:20261215T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:11a3a949324654e441ed@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -1759,7 +1759,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar K Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261215T170000
 DTEND;TZID=America/Montreal:20261215T200000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2d5e6939c07821ed424e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar K Karaoke\, 2110 Rue Crescent Montreal QC
@@ -1768,7 +1768,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at 4 Origines (Pointe-St-Charles) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T190000
 DTEND;TZID=America/Montreal:20261215T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:efc9793f2f9e6ac724f8@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:4 Origines (Pointe-St-Charles)\, 1304 Saint-Patrick St. Montreal 
@@ -1778,7 +1778,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T190000
 DTEND;TZID=America/Montreal:20261215T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e31d4ad78c59813abac3@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -1787,7 +1787,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Maison Publique McLean's @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T190000
 DTEND;TZID=America/Montreal:20261215T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a0a4a55b1c682a124118@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Maison Publique McLean's\, 1420 Peel St Montreal QC
@@ -1797,7 +1797,7 @@ SUMMARY:Trivia Night at Origine Brass (4 Origines\, Dorval) @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261215T190000
 DTEND;TZID=America/Montreal:20261215T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b70b54c30519c889659d@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Origine Brass (4 Origines\, Dorval)\, 2220 Boul Hymus Dorval QC
@@ -1806,7 +1806,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at MVP Resto-Bar Sportif @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T193000
 DTEND;TZID=America/Montreal:20261215T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4cef78a1d0152bd6ddee@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:MVP Resto-Bar Sportif\, 200 Rue Sainte-Catherine E Montreal QC
@@ -1815,7 +1815,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Memento! @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T193000
 DTEND;TZID=America/Montreal:20261215T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a5c4dc0146416642431c@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Memento!\, 2471 Rue Saint-Patrick Montreal QC
@@ -1825,7 +1825,7 @@ SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
  eal @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261215T200000
 DTEND;TZID=America/Montreal:20261215T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f91def58dfb250b4522e@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/tuesday-ni
  ght-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-20040358
@@ -1838,7 +1838,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Comedy Nest @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261215T200000
 DTEND;TZID=America/Montreal:20261215T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8d96613c45b6dc9d5a00@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Comedy Nest\, 2313 Sainte-Catherine St. West 3rd Floor Montre
@@ -1848,7 +1848,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at STUDIO CAGIBI @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261215T200000
 DTEND;TZID=America/Montreal:20261215T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9278edbc84d77fcb2dee@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:STUDIO CAGIBI\, 3675 Rue Saint-Dominique Montreal QC
@@ -1858,7 +1858,7 @@ SUMMARY:FREE · Comedy Open Mic at Theatre Sainte-Catherine @ Comedy Open
  Mics
 DTSTART;TZID=America/Montreal:20261215T210000
 DTEND;TZID=America/Montreal:20261216T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:cda1ae0a8197f41e07df@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Theatre Sainte-Catherine\, 264 St Catherine St E Montreal QC
@@ -1867,7 +1867,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Honey Martin @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261215T213000
 DTEND;TZID=America/Montreal:20261216T003000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0b92ea08aaf93556e3a1@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Honey Martin\, 5916 Sherbrooke St W Montreal QC
@@ -1876,7 +1876,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Grumpys Bar @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261215T223000
 DTEND;TZID=America/Montreal:20261216T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f1347b8bb42e1d194ea0@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -1885,7 +1885,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Louks Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T190000
 DTEND;TZID=America/Montreal:20261216T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:65e34816c7bef4772de5@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Louks Pub\, 1345 Rue Notre Dame Montreal QC
@@ -1894,7 +1894,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Waverly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T190000
 DTEND;TZID=America/Montreal:20261216T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:19898e063392b2089df8@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Waverly\, 5550 Boul. Saint-Laurent Montreal QC
@@ -1903,7 +1903,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T190000
 DTEND;TZID=America/Montreal:20261216T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f7ad985e157492454ef8@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -1912,7 +1912,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Microbrasserie Folklore @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T190000
 DTEND;TZID=America/Montreal:20261216T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:92f1b2eb9acf528b34eb@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Microbrasserie Folklore\, 133 Labrosse Ave Pointe-Claire QC
@@ -1921,7 +1921,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at The Wheel Club @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T193000
 DTEND;TZID=America/Montreal:20261216T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:660380ce975054dd4270@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:The Wheel Club\, 3373 Cavendish Blvd Montreal QC
@@ -1930,7 +1930,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at PGSS Inc. Thomson House @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T193000
 DTEND;TZID=America/Montreal:20261216T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7f2309903cc3c9472a3f@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:PGSS Inc. Thomson House\, 3650 Rue McTavish Montreal QC
@@ -1940,7 +1940,7 @@ SUMMARY:Spectacle d’humour MERCREDI à Montréal | Open mic à Griffinto
  wn @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:31c3341b9906bd0222ad@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/spectacle-d
  humour-mercredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-200349098
@@ -1953,7 +1953,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at La Petite Grenouille @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:82a32d5fe0eab59ffbbf@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:La Petite Grenouille\, 3435 St Laurent Blvd Montreal QC
@@ -1962,7 +1962,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Brasserie Dieu Du Ciel @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e5482c1ab59227b0b609@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Brasserie Dieu Du Ciel\, 21 Av. Laurier O Montreal QC
@@ -1971,7 +1971,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Bar Le Ritz PDB @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8035853886e1f07d52a1@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon O Montreal QC
@@ -1981,7 +1981,7 @@ SUMMARY:FREE · Comedy Open Mic at Upstairs Jazz Bar & Grill @ Comedy Open
   Mics
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:63d9813c9468e3097ec2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Upstairs Jazz Bar & Grill\, 1254 Mackay St Montreal QC
@@ -1990,7 +1990,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Burgundy Lion @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3d12e162e71d6c3a7c49@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -1999,7 +1999,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Hurley's Irish Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:330d83da42881301cccc@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -2008,7 +2008,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Kellys Orchard @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b581dc34d25df0f0f2d3@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Kellys Orchard\, 88 Ave Donegani Pointe-Claire QC
@@ -2017,7 +2017,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Orchard Pub & Grill @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261216T200000
 DTEND;TZID=America/Montreal:20261216T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6a8fafe87dfd2080d6fe@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Orchard Pub & Grill\, 5563 Monkland Ave Montreal QC
@@ -2027,7 +2027,7 @@ SUMMARY:FREE · Trivia Night at Ye Olde Orchard Pub and Grill @ Trivia Nig
  hts
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9b89188d6f94b2c8a588@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Ye Olde Orchard Pub and Grill\, 1189 Rue de la Montagne Montreal 
@@ -2038,7 +2038,7 @@ SUMMARY:FREE · Trivia Night at Broue Pub Brouhaha Ahuntsic @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:bdbb8631d89a8a980f62@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Broue Pub Brouhaha Ahuntsic\, 10295 Av. Papineau Montreal QC
@@ -2047,7 +2047,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Turbo Haüs @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f4189ce928ffbcde55f2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Turbo Haüs\, 2040 R. Saint-Denis Montreal QC
@@ -2056,7 +2056,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar Le Ritz PDB @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261217T200000
 DTEND;TZID=America/Montreal:20261217T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d3522bf1601127e94a51@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar Le Ritz PDB\, 179 Rue Jean-Talon Ouest Montreal QC
@@ -2065,7 +2065,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Madame Smith @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261217T203000
 DTEND;TZID=America/Montreal:20261217T233000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ed31f3ae9bf3e26c31ed@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Madame Smith\, 4061 Rue Ontario E Montreal QC
@@ -2074,7 +2074,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Cafe Campus @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261217T210000
 DTEND;TZID=America/Montreal:20261218T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:6730c5991fb339019c02@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Cafe Campus\, 57 Rue Prince Arthur E Montreal QC
@@ -2083,7 +2083,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at L'Astral 2000 @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261217T210000
 DTEND;TZID=America/Montreal:20261218T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:befa231133fe35bc762c@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:L'Astral 2000\, 1845 Rue Ontario E Montreal QC
@@ -2092,7 +2092,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Brasserie des Patriotes @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261217T220000
 DTEND;TZID=America/Montreal:20261218T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0c36e66553aa25556f49@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Brasserie des Patriotes\, 3363 Rue Ontario E Montreal QC
@@ -2101,7 +2101,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Mic Karaoke Lounge @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T150000
 DTEND;TZID=America/Montreal:20261218T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:68cbe0a705c350197647@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Mic Karaoke Lounge\, 1695 Boulevard De Maisonneuve Ouest Montr
@@ -2111,7 +2111,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at CEO Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T180000
 DTEND;TZID=America/Montreal:20261218T210000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:eabdda575bd37d845e0e@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:CEO Karaoke\, 1008 Rue Clark Montreal QC
@@ -2120,7 +2120,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at La Tetro Coop @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T190000
 DTEND;TZID=America/Montreal:20261218T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c70e8e29a6efaf003843@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:La Tetro Coop\, 8628 Rue Hochelaga Montreal QC
@@ -2129,7 +2129,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Karaoke Bar 3 Minots @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T190000
 DTEND;TZID=America/Montreal:20261218T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0e360251486942018b92@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Karaoke Bar 3 Minots\, 3812 Boulevard Saint-Laurent Montreal QC
@@ -2138,7 +2138,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Zoe Karaoke & Cocktails @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T200000
 DTEND;TZID=America/Montreal:20261218T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4ab420b9f36ca6d96632@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Zoe Karaoke & Cocktails\, 3296 Rue Jean-Talon E Montreal QC
@@ -2147,7 +2147,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Le Date Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e7950f5426b5bfea2c9a@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Le Date Karaoke\, 1218 Rue Sainte-Catherine E Montreal QC
@@ -2156,7 +2156,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Au Vieux St-Hubert @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:29b1da4d47aa7401aa87@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Au Vieux St-Hubert\, 1241 Rue St-Hubert Montreal QC
@@ -2165,7 +2165,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Normandie @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7b3312e75286dd6ecb99@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Normandie\, 1295 Rue Atateken Montreal QC
@@ -2174,7 +2174,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Taverne Bar La Remise @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261218T220000
 DTEND;TZID=America/Montreal:20261219T010000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c083740f333e17e520e1@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Taverne Bar La Remise\, 540 Rue Boucher Montreal QC
@@ -2183,7 +2183,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Pang Pang Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261219T150000
 DTEND;TZID=America/Montreal:20261219T180000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4e41d18fee4c7d9666d2@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Pang Pang Karaoke\, 1226 Rue Mackay Montreal QC
@@ -2192,7 +2192,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Typhoon Lounge @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261220T193000
 DTEND;TZID=America/Montreal:20261220T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e93fd069339179b60a2b@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Typhoon Lounge\, 5752 Av de Monkland Montreal QC
@@ -2201,7 +2201,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Bishop & Bagg @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261220T193000
 DTEND;TZID=America/Montreal:20261220T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:8b722cde58ff42a1ffb0@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Bishop & Bagg\, 52 Saint Viateur St. West Montreal QC
@@ -2210,7 +2210,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Grumpys Bar @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261220T200000
 DTEND;TZID=America/Montreal:20261220T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:5281efa4f3894fdac302@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -2219,7 +2219,7 @@ BEGIN:VEVENT
 SUMMARY:Comedy Open Mic at Bar Bifteck St-Laurent @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261220T200000
 DTEND;TZID=America/Montreal:20261220T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f603bb84b057db0307f0@mtl-events
 DESCRIPTION:Comedy Open Mics
 LOCATION:Bar Bifteck St-Laurent\, 3702 Boul. Saint-Laurent Montreal QC
@@ -2228,7 +2228,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Wiggle Room @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261220T200000
 DTEND;TZID=America/Montreal:20261220T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:af54c412f726d63bf739@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Wiggle Room\, 3874 St Laurent Blvd Montreal QC
@@ -2237,7 +2237,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Chez Baptiste @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e7737a019edea8de3c91@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Chez Baptiste\, 1045 Mont-Royal Ave E Montreal QC
@@ -2246,7 +2246,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar La Succursale @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3ad427a5b5664ad2dae9@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar La Succursale\, 3188 Rue Masson Montreal QC
@@ -2255,7 +2255,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barrelmans @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4102a5dd051ac3ee3f8f@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barrelmans\, 410 Rue Saint-Pierre Montreal QC
@@ -2264,7 +2264,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Le Vestiaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d47864fffde937af3c7b@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Le Vestiaire\, 6634 Rue St-Hubert Montreal QC
@@ -2273,7 +2273,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Lord William Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:34a54996464bfff09ef3@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Lord William Pub\, 265 Rue des Seigneurs Montreal QC
@@ -2282,7 +2282,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at McKibbin's (St-Laurent) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0aa1a2aa06fe0898b64a@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:McKibbin's (St-Laurent)\, 3515 Boul. Saint-Laurent Montreal QC
@@ -2291,7 +2291,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Nestor @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T190000
 DTEND;TZID=America/Montreal:20261221T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7725b1ae8db013bef275@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Nestor\, 6289 Rue St-Hubert Montreal QC
@@ -2300,7 +2300,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Burgundy Lion @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T193000
 DTEND;TZID=America/Montreal:20261221T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:4afd01ca486e85ca846f@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Burgundy Lion\, 2496 R. Notre Dame O Montreal QC
@@ -2309,7 +2309,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Blind Pig @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T193000
 DTEND;TZID=America/Montreal:20261221T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7fb92854235134f55225@mtl-events
 DESCRIPTION:Trivia Nights\n$5
 LOCATION:Bar Blind Pig\, 3882 Ontario St E Montreal QC
@@ -2318,7 +2318,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Barfly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T193000
 DTEND;TZID=America/Montreal:20261221T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:67ae2058356def9b7797@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Barfly\, 4062 Boul. Saint-Laurent Montreal QC
@@ -2327,7 +2327,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub McCarold @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T193000
 DTEND;TZID=America/Montreal:20261221T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2d0d7558deddabf0723a@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub McCarold\, 5400 Chem. de la Côte-des-Neiges Montreal QC
@@ -2336,7 +2336,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Pub Wolf & Workman @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T193000
 DTEND;TZID=America/Montreal:20261221T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:2530d16bdf149bd7d65e@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Pub Wolf & Workman\, 139 Saint-Paul St W Montreal QC
@@ -2345,7 +2345,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at McKibbin’s @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T200000
 DTEND;TZID=America/Montreal:20261221T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:75606e8cc97d3deb04b1@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:McKibbin’s\, 1426 Bishop St Montreal QC
@@ -2354,7 +2354,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Le Fouvrac @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T200000
 DTEND;TZID=America/Montreal:20261221T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:3a8352381fe2969525a6@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Le Fouvrac\, 1404 Rue Fleury E Montreal QC
@@ -2364,7 +2364,7 @@ SUMMARY:FREE · Comedy Open Mic at Taverne le Chic Regal @ Comedy Open Mic
  s
 DTSTART;TZID=America/Montreal:20261221T200000
 DTEND;TZID=America/Montreal:20261221T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9ef063e507be8cee32ad@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Taverne le Chic Regal\, 2567 Rue Centre Montreal QC
@@ -2373,7 +2373,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Café Campus @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261221T200000
 DTEND;TZID=America/Montreal:20261221T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:1a19433a2e4843161659@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Café Campus\, 57 Rue Prince-Arthur E Montreal QC
@@ -2382,7 +2382,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at The Old Dublin Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261221T200000
 DTEND;TZID=America/Montreal:20261221T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:04624e4c0729a666a49a@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:The Old Dublin Pub\, 636 Rue Cathcart Montreal QC
@@ -2391,7 +2391,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Hurley's Irish Pub @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261221T223000
 DTEND;TZID=America/Montreal:20261222T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:41307c85937c8b79ce3f@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -2400,7 +2400,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Karaoke Night at Bar K Karaoke @ Karaoke Nights
 DTSTART;TZID=America/Montreal:20261222T170000
 DTEND;TZID=America/Montreal:20261222T200000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b03bb50b41b8e7bb1bc4@mtl-events
 DESCRIPTION:Karaoke Nights\nFree
 LOCATION:Bar K Karaoke\, 2110 Rue Crescent Montreal QC
@@ -2409,7 +2409,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at 4 Origines (Pointe-St-Charles) @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T190000
 DTEND;TZID=America/Montreal:20261222T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c8c3b9a734c32ca721c0@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:4 Origines (Pointe-St-Charles)\, 1304 Saint-Patrick St. Montreal 
@@ -2419,7 +2419,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T190000
 DTEND;TZID=America/Montreal:20261222T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:d1dbb84a913ef286c3cf@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -2428,7 +2428,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Maison Publique McLean's @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T190000
 DTEND;TZID=America/Montreal:20261222T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c3d6594ee1c43e6bc362@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Maison Publique McLean's\, 1420 Peel St Montreal QC
@@ -2438,7 +2438,7 @@ SUMMARY:Trivia Night at Origine Brass (4 Origines\, Dorval) @ Trivia Night
  s
 DTSTART;TZID=America/Montreal:20261222T190000
 DTEND;TZID=America/Montreal:20261222T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:a91e4629ce02bafc8444@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Origine Brass (4 Origines\, Dorval)\, 2220 Boul Hymus Dorval QC
@@ -2447,7 +2447,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at MVP Resto-Bar Sportif @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T193000
 DTEND;TZID=America/Montreal:20261222T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:098f29272c4f900294e2@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:MVP Resto-Bar Sportif\, 200 Rue Sainte-Catherine E Montreal QC
@@ -2456,7 +2456,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Memento! @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T193000
 DTEND;TZID=America/Montreal:20261222T223000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7ed8b211be013b47f904@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Memento!\, 2471 Rue Saint-Patrick Montreal QC
@@ -2465,7 +2465,7 @@ BEGIN:VEVENT
 SUMMARY:Shake It Off | Standup Comedy & Dancing @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261222T200000
 DTEND;TZID=America/Montreal:20261222T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:480dbf289ddbd95bbb04@mtl-events
 DESCRIPTION:Laugh It Off\n$20–26\nhttps://www.eventbrite.ca/e/shake-it-o
  ff-standup-comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194
@@ -2477,7 +2477,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at The Comedy Nest @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261222T200000
 DTEND;TZID=America/Montreal:20261222T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:0481548a9fe8e8b418f7@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:The Comedy Nest\, 2313 Sainte-Catherine St. West 3rd Floor Montre
@@ -2487,7 +2487,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at STUDIO CAGIBI @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261222T200000
 DTEND;TZID=America/Montreal:20261222T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:59b4aeb484584504a5a2@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:STUDIO CAGIBI\, 3675 Rue Saint-Dominique Montreal QC
@@ -2497,7 +2497,7 @@ SUMMARY:FREE · Comedy Open Mic at Theatre Sainte-Catherine @ Comedy Open
  Mics
 DTSTART;TZID=America/Montreal:20261222T210000
 DTEND;TZID=America/Montreal:20261223T000000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b90e93ae5afafce291d6@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Theatre Sainte-Catherine\, 264 St Catherine St E Montreal QC
@@ -2506,7 +2506,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Trivia Night at Honey Martin @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261222T213000
 DTEND;TZID=America/Montreal:20261223T003000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:443da9bee64977d57509@mtl-events
 DESCRIPTION:Trivia Nights\nFree
 LOCATION:Honey Martin\, 5916 Sherbrooke St W Montreal QC
@@ -2515,7 +2515,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Comedy Open Mic at Grumpys Bar @ Comedy Open Mics
 DTSTART;TZID=America/Montreal:20261222T223000
 DTEND;TZID=America/Montreal:20261223T013000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:989edeb0e85394662203@mtl-events
 DESCRIPTION:Comedy Open Mics\nFree
 LOCATION:Grumpys Bar\, 1242 R. Bishop Montreal QC
@@ -2524,7 +2524,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Bar Waverly @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T190000
 DTEND;TZID=America/Montreal:20261223T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:9b850773cc2220b59799@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Bar Waverly\, 5550 Boul. Saint-Laurent Montreal QC
@@ -2533,7 +2533,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at L'Adversaire @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T190000
 DTEND;TZID=America/Montreal:20261223T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:af549631fcc6947f94e1@mtl-events
 DESCRIPTION:Trivia Nights\n$3
 LOCATION:L'Adversaire\, 4303 Rue Sainte-Catherine E Montreal QC
@@ -2542,7 +2542,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Microbrasserie Folklore @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T190000
 DTEND;TZID=America/Montreal:20261223T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b79d09009b0bf1383f66@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Microbrasserie Folklore\, 133 Labrosse Ave Pointe-Claire QC
@@ -2552,7 +2552,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261223T200000
 DTEND;TZID=America/Montreal:20261223T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:63c7e970e9b72333665d@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200441
@@ -2565,7 +2565,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Hurley's Irish Pub @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T200000
 DTEND;TZID=America/Montreal:20261223T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:26e4d30cfbbf4df9ef99@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Hurley's Irish Pub\, 1225 Rue Crescent Montreal QC
@@ -2574,7 +2574,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Kellys Orchard @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T200000
 DTEND;TZID=America/Montreal:20261223T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:c4f787112580681da437@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Kellys Orchard\, 88 Ave Donegani Pointe-Claire QC
@@ -2583,7 +2583,7 @@ BEGIN:VEVENT
 SUMMARY:Trivia Night at Orchard Pub & Grill @ Trivia Nights
 DTSTART;TZID=America/Montreal:20261223T200000
 DTEND;TZID=America/Montreal:20261223T230000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:69d7da5412004ee9a9a2@mtl-events
 DESCRIPTION:Trivia Nights
 LOCATION:Orchard Pub & Grill\, 5563 Monkland Ave Montreal QC
@@ -2593,7 +2593,7 @@ SUMMARY:FREE · MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal
   @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261228T200000
 DTEND;TZID=America/Montreal:20261228T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:13471164f7f464e551af@mtl-events
 DESCRIPTION:Laugh It Off\nFree\nhttps://www.eventbrite.ca/e/monday-stand-u
  p-comedy-show-free-comedy-show-in-montreal-tickets-2004273653451
@@ -2606,7 +2606,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20261230T200000
 DTEND;TZID=America/Montreal:20261230T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:bc37432de95e6efbd4d0@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/wednesday-
  night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-20052
@@ -2620,7 +2620,7 @@ SUMMARY:SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Mo
  ntreal @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270103T193000
 DTEND;TZID=America/Montreal:20270103T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:e5d2d6e4fcec398c2d3a@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/sunday-wee
  kend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632
@@ -2634,7 +2634,7 @@ SUMMARY:The Canal Comedy Show in Montreal | MONDAY Pro Stand-Up Comedy @ L
  augh It Off
 DTSTART;TZID=America/Montreal:20270104T200000
 DTEND;TZID=America/Montreal:20270104T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:ee98d2b8f385411032e8@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/the-canal-
  comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725
@@ -2647,7 +2647,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270106T200000
 DTEND;TZID=America/Montreal:20270106T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:b3fbe621a4d7acdba804@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200326
@@ -2661,7 +2661,7 @@ SUMMARY:MARDI Soirée Standup Pro | Le Main Spectacle d'Humour à Montréa
  l @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270112T200000
 DTEND;TZID=America/Montreal:20270112T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:7758de034d6085642911@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/mardi-soir
  ee-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136
@@ -2674,7 +2674,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270113T200000
 DTEND;TZID=America/Montreal:20270113T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:eff52acd9e17801286cf@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200326
@@ -2688,7 +2688,7 @@ SUMMARY:TUESDAY Night Pro Stand-Up Comedy | The Main Comedy Night in Montr
  eal @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270119T200000
 DTEND;TZID=America/Montreal:20270119T220000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:28e44a8c31db9e275a36@mtl-events
 DESCRIPTION:Laugh It Off\n$14–20\nhttps://www.eventbrite.ca/e/tuesday-ni
  ght-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-20046920
@@ -2702,7 +2702,7 @@ SUMMARY:WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griff
  intown @ Laugh It Off
 DTSTART;TZID=America/Montreal:20270120T200000
 DTEND;TZID=America/Montreal:20270120T213000
-DTSTAMP:20261126T064537Z
+DTSTAMP:20261126T065303Z
 UID:f4a087bb84c1cf832abc@mtl-events
 DESCRIPTION:Laugh It Off\n$8–14\nhttps://www.eventbrite.ca/e/wednesday-n
  ight-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-200326

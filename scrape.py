@@ -1364,6 +1364,8 @@ EVENT_SOURCES = {
     "Le Red Room": red_room,
     "Vino Disco": lambda: ra_events("promoter", "133188", "Vino Disco"),
     "Bar Datcha": lambda: ra_events("venue", "94451", "Bar Datcha"),
+    # Barbossa (3956A St-Laurent): its own site is a Facebook page; its club nights go on RA venue 179148
+    "Barbossa": lambda: ra_events("venue", "179148", "Barbossa"),
     "5 à Set": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/5-a-set-120716281994", "5 à Set"),
     "Le Marché Vintage": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/le-marche-vintage-65263991233",
                                                       "Le Marché Vintage"),
@@ -2037,6 +2039,7 @@ QUIET_OK = {
     "L'Escogriffe",              # posts on RA only occasionally (last: Aug 2026)
     "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
     "Espace Transmission",       # RA venue; last event July 2026
+    "Barbossa",                  # RA venue; posts a night or two at a time, announces mostly on Facebook
     "Espace Transmission (site)",  # site is an archive (newest entry Nov 2024); the reader parses it fine
 }
 

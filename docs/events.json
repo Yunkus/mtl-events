@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T01:45-05:00",
+ "generated": "2026-11-26T01:53-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 350
+   "count": 351
   },
   "other": {
    "title": "Montreal Other Events",
@@ -81,12 +81,20 @@
    "zero_streak": 0,
    "zero_alerted": false
   },
+  "Barbossa": {
+   "ok": true,
+   "count": 1,
+   "tab": "music",
+   "last_count": 1,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
   "5 à Set": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 18,
+   "zero_streak": 19,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -94,7 +102,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 45,
+   "zero_streak": 46,
    "zero_alerted": true
   },
   "Stereo": {
@@ -166,7 +174,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 45,
+   "zero_streak": 46,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -190,7 +198,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 45,
+   "zero_streak": 46,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -230,7 +238,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 35,
+   "zero_streak": 36,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -246,7 +254,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 30,
+   "zero_streak": 31,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -302,7 +310,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 45,
+   "zero_streak": 46,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -390,7 +398,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 35,
+   "zero_streak": 36,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -1007,6 +1015,28 @@
    "tab": "music",
    "id": "7ebcaf41f81511663b5f",
    "added": ""
+  },
+  {
+   "source": "Barbossa",
+   "title": "Electric Avenues",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://ra.co/events/2589888",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "Barbossa",
+   "kind": "",
+   "free": false,
+   "price": "$7",
+   "price_lo": 7.0,
+   "genres": [
+    "Bass & DnB",
+    "Electronic"
+   ],
+   "image": "img/deae5df796714aeb.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "bc707869bd17eb27ed15",
+   "about": "Deep cuts and Club Bangers from 3 DJs from the Montreal Underground.\n\nSpecial Guest Venus in Foil (Toronto) is a veteran of the circuit with impeccable taste, and sets full of unexpected gems.\n\nExpect:\n\nBass,\n\nUK House and Techno,\n\nElectro,\n\nand maybe some Eddy Grant tracks\n\n:))))))))))))))))))))))))))))))))))))))))))))))))\n\nC U THERE!",
+   "added": "2026-11-26"
   },
   {
    "source": "Newspeak",
@@ -14550,6 +14580,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Après-midi cinéma",
    "start": "2026-11-28T14:00:00-05:00",
@@ -14591,27 +14642,6 @@
    "id": "03986455e6e7740d89a2",
    "about": "Dans une ambiance conviviale, laissez-vous aller à l'écriture créative.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -14809,6 +14839,28 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Film"
+   ],
+   "image": "img/bd32f61f9b548c6f.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -14830,26 +14882,28 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows",
-    "Film"
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
    ],
-   "image": "img/bd32f61f9b548c6f.webp",
+   "image": "img/27174f84671e64c1.webp",
    "all_day": false,
    "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -14913,30 +14967,6 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
-   ],
-   "image": "img/27174f84671e64c1.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -15156,6 +15186,25 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Juste une illusion de Eric Toledano et Olivier Nakache - Ciné-Club du Plateau-Mont-Royal",
    "start": "2026-12-01T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/juste-une-illusion-de-eric-toledano-et-olivier-nakache-cine-club-du-plateau-mont-royal-119481",
@@ -15173,25 +15222,6 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -15746,27 +15776,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -15787,23 +15796,25 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Introduction à la machine à coudre",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
-   "end": null,
-   "location": "Fabricathèque du Sud-Ouest",
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/5147650d3c801653.webp",
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
    "all_day": false,
    "tab": "city",
-   "id": "25fc5f1a4831f6d1cd8b",
-   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
-   "added": "2026-11-26"
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -15828,6 +15839,25 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Introduction à la machine à coudre",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
+   "end": null,
+   "location": "Fabricathèque du Sud-Ouest",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/5147650d3c801653.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25fc5f1a4831f6d1cd8b",
+   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Musique avec toi",
    "start": "2026-12-05T10:30:00-05:00",
@@ -15845,6 +15875,27 @@
    "id": "7ca6a1a836c9b6d159f9",
    "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Activité de cuisine",
+   "start": "2026-12-05T11:00:00-05:00",
+   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
+   "end": null,
+   "location": "Mini-bibliothèque de Chameran",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Food & Drink"
+   ],
+   "image": "img/0cc635d9e9dd2324.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "333639c0958f35fd4d94",
+   "about": "Avec C'est moi le chef!",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -15870,27 +15921,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Activité de cuisine",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
-   "end": null,
-   "location": "Mini-bibliothèque de Chameran",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Food & Drink"
-   ],
-   "image": "img/0cc635d9e9dd2324.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "333639c0958f35fd4d94",
-   "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Callisthénie (complet / sold out)",
    "start": "2026-12-05T11:45:00-05:00",
    "url": "https://montreal.ca/evenements/callisthenie-118745",
@@ -15906,28 +15936,6 @@
    "tab": "city",
    "id": "d4a9f9b5623a24229fc2",
    "about": "Venez découvrir une mise forme sans équipement avec la callisthénie.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atelier de confection de couronne de Noël",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
-   "end": "2026-12-05T15:30:00-05:00",
-   "location": "Maison Robert-Bélanger",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Art & Workshops"
-   ],
-   "image": "img/24b6dcd0ea23b581.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "b6724db457192ee6518d",
-   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
    "added": "2026-11-26"
   },
   {
@@ -15952,6 +15960,28 @@
    "id": "3b46f9b3c244e8b0b516",
    "about": "Quelques jours avant Noël, un mononcle hirsute et malcommode voit sa chère quiétude troublée par l’arrivée des petits cousins, créatures sans foi ni loi dont l’enthousiasme débordant emporte tout sur son passage.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Atelier de confection de couronne de Noël",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Maison Robert-Bélanger",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Art & Workshops"
+   ],
+   "image": "img/24b6dcd0ea23b581.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "b6724db457192ee6518d",
+   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17067,28 +17097,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
-  },
-  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -17106,25 +17114,6 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
   },
   {
    "source": "Other city venues",
@@ -17148,6 +17137,47 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -17313,27 +17343,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Voisinages – Le Vent du Nord",
-   "start": "2026-12-10T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
-   "end": "2026-12-10T21:30:00-05:00",
-   "location": "Quai 5160 – Maison de la culture de Verdun",
-   "kind": "",
-   "free": false,
-   "price": "$14",
-   "price_lo": 14.5,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/dce433368540e265.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "10d070fcb5f7ba07a8a6",
-   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Spectacle en rodage - Virginie Fortin",
    "start": "2026-12-10T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/spectacle-en-rodage-virginie-fortin-108321",
@@ -17372,6 +17381,27 @@
    "tab": "city",
    "id": "02328a868b7193dd4c2e",
    "about": "Est-ce qu'un acteur orphelin de père peut devenir autre chose qu'un clown? René Bazinet et David-Alexandre Després, deux légendes circassiennes qui ont grandi sans papa, tentent d'y répondre en observant leur souffrance de l'abandon et leur désir de plaire.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Voisinages – Le Vent du Nord",
+   "start": "2026-12-10T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
+   "end": "2026-12-10T21:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/dce433368540e265.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "10d070fcb5f7ba07a8a6",
+   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
    "added": ""
   },
   {
