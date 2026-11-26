@@ -60,5 +60,6 @@ self.addEventListener("fetch", e => {
     if (/\.(json|ics)$/.test(url.pathname)) return e.respondWith(networkFirst(req));
     return e.respondWith(shellFirst(req));
   }
-  if (req.destination === "image") return e.respondWith(imageCache(req));
+  // (map tiles are left to the browser's own cache: hundreds of them would push event pictures out of this one)
+  if (req.destination === "image" && url.hostname !== "tile.openstreetmap.org") return e.respondWith(imageCache(req));
 });

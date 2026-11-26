@@ -218,6 +218,43 @@
     .chips:not(.open) .chiprow { display: none; }
     .chips:not(.open) { margin: 6px 0 0; }
   }
+
+  /* ---- List / Map toggle and the map view */
+  .searchrow { display: flex; gap: 8px; align-items: center; margin: 12px 0 4px; }
+  .searchrow .search { margin: 0; flex: 1; min-width: 0; }
+  .seg { display: inline-flex; border: 1px solid var(--amber-dark); border-radius: 8px; overflow: hidden; flex: none; }
+  .seg button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 14px; padding: 8px 14px; cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--amber-dark); }
+  .seg button[aria-pressed="true"] { background: var(--amber); color: var(--black); }
+  #mapwrap { margin-top: 14px; }
+  #mapwrap[hidden] { display: none; }
+  #map { height: min(68vh, 640px); min-height: 340px; border-radius: 12px; border: 1px solid var(--line); background: #111;
+         isolation: isolate; z-index: 0; }   /* keeps Leaflet's own layers under the page's bars and dialogs */
+  .mapnote { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .pin { display: grid; place-items: center; border-radius: 50%; background: var(--amber); color: var(--black);
+         border: 2px solid var(--black); box-shadow: 0 0 0 2px rgba(255, 176, 0, .35), 0 2px 6px rgba(0, 0, 0, .6);
+         font: 700 13px/1 var(--sans); }
+  .leaflet-container { font: 14px/1.4 var(--sans); background: #111; }
+  /* the standard (light) OpenStreetMap tiles turned into a dark map: invert, turn the hues back, then dim */
+  .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) grayscale(.55) brightness(.8) contrast(1.05); }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--text);
+                                                       border: 1px solid var(--amber-dark); box-shadow: 0 6px 24px rgba(0, 0, 0, .7); }
+  .leaflet-popup-content { margin: 12px 12px 10px; }
+  .leaflet-container a.leaflet-popup-close-button { color: var(--muted); width: 30px; height: 30px; font-size: 22px; }
+  .leaflet-control-zoom a { background: var(--surface); color: var(--text); border-color: var(--line); }
+  .leaflet-control-zoom a:hover { background: var(--black-line); color: var(--amber); }
+  .leaflet-control-attribution { background: rgba(11, 11, 11, .75) !important; color: var(--muted); }
+  .leaflet-control-attribution a { color: var(--cloud-dim); }
+  .mpop h4 { margin: 0 24px 2px 0; font: 700 16px/1.2 var(--sans); color: var(--amber); }
+  .mpop .msub { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+  .mpop .mday { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; margin: 8px 0 2px; }
+  .mrow { display: block; width: 100%; text-align: left; border: 0; border-top: 1px solid var(--line); background: none;
+          color: var(--text); font: inherit; padding: 7px 0; cursor: pointer; }
+  .mrow:hover .mt { color: var(--amber); }
+  .mrow .mt { font-weight: 600; font-size: 14px; }
+  .mrow .mm { color: var(--muted); font-size: 12px; }
+  .mrow .mm b { color: var(--amber); font-weight: 600; }
+  .mrow .free { margin-left: 4px; }
 </style>
 </head>
 <body>
@@ -241,9 +278,19 @@
 <div class="wrap">
   <button class="filterbtn" id="filterbtn" aria-expanded="false" aria-controls="chips"><span>Filters</span><span class="on" id="filteron"></span></button>
   <div class="chips" id="chips"></div>
-  <input class="search" id="q" type="search">
+  <div class="searchrow">
+    <input class="search" id="q" type="search">
+    <div class="seg" role="group" aria-label="View">
+      <button id="vlist" aria-pressed="true">List</button>
+      <button id="vmap" aria-pressed="false">Map</button>
+    </div>
+  </div>
   <div class="hint" id="hint"></div>
   <main id="list"></main>
+  <section id="mapwrap" hidden aria-label="Map of venues">
+    <div id="map"></div>
+    <div class="mapnote" id="mapnote"></div>
+  </section>
 </div>
 <div class="bar" id="bar"><div class="in">
   <span class="count" id="count"></span>
@@ -302,6 +349,7 @@ let when = "any", slot = "any", fresh = false;   // fresh: only "New since your 
 let genreSel = new Set();
 let picksOnly = false;
 let picked = new Set(store.get("picked", []));
+let view = store.get("view", "list") === "map" ? "map" : "list";   // "list" | "map"
 
 const TZ = "America/Montreal";
 const dayFmt = new Intl.DateTimeFormat("en-CA", { weekday: "long", month: "long", day: "numeric", timeZone: TZ });
@@ -718,6 +766,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   function render() {
     const term = $("q").value.trim().toLowerCase();
     const list = $("list"); list.innerHTML = "";
+    list.hidden = view === "map"; $("mapwrap").hidden = view !== "map"; $("hint").hidden = view === "map";
+    if (view === "map") return renderMap(visible(term));
     if (tab === "date") return renderDay(list, term);
     const inTab = events.filter(e => e.tab === tab);
     let shown = inTab.filter(e => matches(e, term) && passes(e, inTab) && (!picksOnly || picked.has(e.id)));
@@ -829,6 +879,149 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       list.appendChild(sec);
     }
   }
+
+  // ---------- map view: one pin per place, listing the events that pass the current filters
+  // The events the list would show right now (tab, search, Selected, venue chips, quick filters, museum view).
+  function visible(term) {
+    if (tab === "date") {
+      const all = events.filter(e => onDay(e, dayPick));
+      return all.filter(e => matches(e, term) && passes(e, all) && (!picksOnly || picked.has(e.id)));
+    }
+    const inTab = events.filter(e => e.tab === tab);
+    let shown = inTab.filter(e => matches(e, term) && passes(e, inTab) && (!picksOnly || picked.has(e.id)));
+    if (tab === "museums") {
+      shown = shown.filter(e => placeKinds.has(placeKind(e)));
+      if (museumView === "events") return shown.filter(e => e.kind !== "exhibition");
+      return shown.filter(e => e.kind === "exhibition" && (museumView === "now" ? e.start <= today : e.start > today));
+    }
+    return picksOnly ? shown : shown.filter(e => !hidden.has(e.source));
+  }
+  // Leaflet (cdnjs, pinned version + integrity hash) is only fetched the first time the map is opened
+  const LEAFLET = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/";
+  let leafletReady = null;
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve();
+    if (leafletReady) return leafletReady;
+    const css = el("link"); css.rel = "stylesheet"; css.href = LEAFLET + "leaflet.min.css"; css.crossOrigin = "anonymous";
+    css.integrity = "sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==";
+    css.referrerPolicy = "no-referrer";
+    document.head.insertBefore(css, document.querySelector("style"));   // the page's own styles override Leaflet's
+    leafletReady = new Promise((ok, fail) => {
+      const s = el("script"); s.src = LEAFLET + "leaflet.min.js"; s.crossOrigin = "anonymous"; s.referrerPolicy = "no-referrer";
+      s.integrity = "sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==";
+      s.onload = ok; s.onerror = () => { leafletReady = null; s.remove(); fail(new Error("map library didn't load")); };
+      document.head.appendChild(s);
+    });
+    return leafletReady;
+  }
+  let map = null, pinLayer = null, fittedFor = null;
+  function setupMap() {
+    map = L.map("map", { zoomControl: false }).setView([45.515, -73.58], 13);
+    L.control.zoom({ position: "bottomleft" }).addTo(map);   // top left would sit on the pins' lists
+    // OpenStreetMap's own tiles (free, no key; CARTO's dark ones now ask for a key), darkened in CSS (.leaflet-tile-pane)
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',
+    }).addTo(map);
+    pinLayer = L.layerGroup().addTo(map);
+  }
+  // What a pin is called: the room / bar / library when the location names one, else the venue
+  function placeName(e) {
+    const loc = (e.location || "").split(",")[0].trim();
+    if (e.tab === "museums") return loc || e.source;
+    return loc && !sameish(loc, e.source) && !/^montr[ée]al$/i.test(loc) ? loc : e.source;
+  }
+  function renderMap(shown) {
+    const note = $("mapnote");
+    note.textContent = "Loading map…";
+    loadLeaflet().then(() => {
+      if (view !== "map") return;
+      if (!map) setupMap();
+      map.invalidateSize();   // the box was hidden while the list showed
+      drawPins(shown);
+    }).catch(err => { note.textContent = "The map couldn't load (" + err.message + "). Switch to List to see the events."; });
+  }
+  function drawPins(shown) {
+    pinLayer.clearLayers();
+    const places = new Map();
+    let off = 0;
+    for (const e of shown) {
+      if (e.lat == null || e.lng == null) { off++; continue; }
+      const k = e.lat.toFixed(5) + "," + e.lng.toFixed(5);
+      if (!places.has(k)) places.set(k, { lat: e.lat, lng: e.lng, evs: [] });
+      places.get(k).evs.push(e);
+    }
+    const bounds = [];
+    for (const p of places.values()) {
+      const n = p.evs.length, size = Math.round(26 + Math.min(n, 20) * 0.6);
+      const icon = L.divIcon({ className: "", html: `<div class="pin" style="width:${size}px;height:${size}px">${n}</div>`,
+                               iconSize: [size, size], iconAnchor: [size / 2, size / 2], popupAnchor: [0, -size / 2] });
+      const names = [...new Set(p.evs.map(placeName))];
+      const m = L.marker([p.lat, p.lng], { icon, title: names.slice(0, 2).join(" / "), keyboard: true, riseOnHover: true });
+      m.bindPopup(() => placePopup(p.evs, names), { maxWidth: 300, minWidth: 220, maxHeight: 320, autoPanPadding: [16, 16] });
+      pinLayer.addLayer(m); bounds.push([p.lat, p.lng]);
+    }
+    const n = shown.length - off;
+    $("mapnote").textContent = !shown.length ? "Nothing matches the current filters."
+      : `${n} event${n === 1 ? "" : "s"} at ${places.size} place${places.size === 1 ? "" : "s"}` +
+        (off ? ` · ${off} without a known address (see List)` : "") + " · tap a pin to see what's on";
+    // frame the pins when the map opens and when the tab or a filter changes; typing a search or opening a pin's
+    // list keeps where the visitor is looking
+    const fitKey = JSON.stringify([tab, tab === "date" ? dayPick : "", when, slot, price, fresh, picksOnly, [...genreSel],
+                                   tab === "museums" ? [museumView, ...placeKinds] : [...hidden]]);
+    if (bounds.length && fittedFor !== fitKey) {
+      fittedFor = fitKey;
+      map.fitBounds(bounds, { padding: [30, 30], maxZoom: 15 });
+    }
+  }
+  // A pin's list: by day, then time; repeats of one title on a day (film showtimes) share a row
+  function placePopup(evs, names) {
+    const box = el("div", "mpop");
+    box.appendChild(el("h4", null, names.slice(0, 2).join(" / ") + (names.length > 2 ? " +" : "")));
+    box.appendChild(el("div", "msub", `${evs.length} event${evs.length === 1 ? "" : "s"}`));
+    const sorted = [...evs].sort((a, b) => (a.kind === "exhibition") - (b.kind === "exhibition") || a.d - b.d);
+    const rows = new Map();
+    for (const e of sorted) {
+      const k = (e.kind === "exhibition" ? "ongoing" : e.key) + "|" + e.title;
+      if (!rows.has(k)) rows.set(k, []);
+      rows.get(k).push(e);
+    }
+    let day = null, shownRows = 0;
+    const MAX = 40;
+    for (const group of rows.values()) {
+      if (shownRows === MAX) { box.appendChild(el("div", "msub", `+ ${rows.size - MAX} more · narrow it down with the filters`)); break; }
+      const e = group[0];
+      const dk = e.kind === "exhibition" ? "ongoing" : e.key;
+      if (dk !== day) {
+        day = dk;
+        box.appendChild(el("div", "mday", dk === "ongoing" ? "Ongoing" : dk === today ? "Tonight · " + dayFmt.format(e.d) : dayFmt.format(e.d)));
+      }
+      const b = el("button", "mrow"); b.type = "button";
+      const t = el("div", "mt", e.title);
+      if (e.free) t.appendChild(el("span", "free", "FREE"));
+      const meta = el("div", "mm");
+      const when = e.kind === "exhibition" ? (e.start <= today ? "until " + fmtShort(e.end) : fmtShort(e.start) + " – " + fmtShort(e.end))
+                 : e.all_day ? "Time TBA" : group.map(x => timeFmt.format(x.d)).join(", ");
+      meta.appendChild(el("b", null, when));
+      const room = placeName(e);
+      if (names.length > 1 || !sameish(room, names[0])) meta.append(" · " + room);
+      if (!e.free && e.price) meta.append(" · " + e.price);
+      b.append(t, meta);
+      b.onclick = () => openDetail(e);
+      box.appendChild(b); shownRows++;
+    }
+    return box;
+  }
+  function setView(v) {
+    view = v; store.set("view", v);
+    $("vlist").setAttribute("aria-pressed", String(v === "list"));
+    $("vmap").setAttribute("aria-pressed", String(v === "map"));
+    render();
+  }
+  $("vlist").onclick = () => setView("list");
+  $("vmap").onclick = () => setView("map");
+  $("vlist").setAttribute("aria-pressed", String(view === "list"));
+  $("vmap").setAttribute("aria-pressed", String(view === "map"));
 
   // ---------- detail panel
   // First act on a bill, for the "Listen" links: drop "X presents:", then cut at +, /, b2b, w/, " - ", " x "…
