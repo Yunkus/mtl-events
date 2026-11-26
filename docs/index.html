@@ -195,7 +195,7 @@ let hidden = new Set(store.get("hiddenSources", []));
 // Museums & Galleries: which shows ("now" | "soon" | "events") and which kinds of place (museum / gallery)
 let museumView = { events: "events", exhibitions: "now" }[store.get("museumView", "now")] || store.get("museumView", "now");
 let placeKinds = new Set(store.get("placeKinds", ["museum", "gallery"]));
-const MUSEUM_SOURCES = new Set(["Musées Montréal"]);   // everything else in that tab is a gallery / art centre
+const MUSEUM_SOURCES = new Set(["Musées Montréal", "MBAM", "McCord Museum"]);   // everything else in that tab is a gallery / art centre
 const placeKind = e => (MUSEUM_SOURCES.has(e.source) ? "museum" : "gallery");
 // quick filters: price ("any" | "free" | "under20"), when ("any" | "tonight" | "weekend"),
 // start time ("any" | "early" | "late"), genres (any of the ticked ones)

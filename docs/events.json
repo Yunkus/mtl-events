@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:03-05:00",
+ "generated": "2026-11-25T21:11-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -19,12 +19,12 @@
   "museums": {
    "title": "Montreal Museums & Galleries",
    "feed": "museums.ics",
-   "count": 71
+   "count": 76
   },
   "movies": {
    "title": "Montreal Movies",
    "feed": "movies.ics",
-   "count": 401
+   "count": 412
   }
  },
  "sources": {
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 15
+   "zero_streak": 16
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 15
+   "zero_streak": 16
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 15
+   "zero_streak": 16
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -201,7 +201,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 5
+   "zero_streak": 6
   },
   "StereoBar": {
    "ok": true,
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 15
+   "zero_streak": 16
   },
   "Trivia Nights": {
    "ok": true,
@@ -299,7 +299,28 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 5
+   "zero_streak": 6
+  },
+  "MBAM La Buvette": {
+   "ok": true,
+   "count": 1,
+   "tab": "museums",
+   "last_count": 1,
+   "zero_streak": 0
+  },
+  "McCord After Hours": {
+   "ok": true,
+   "count": 0,
+   "tab": "museums",
+   "last_count": 0,
+   "zero_streak": 1
+  },
+  "Montreal Art Center": {
+   "ok": true,
+   "count": 15,
+   "tab": "museums",
+   "last_count": 15,
+   "zero_streak": 0
   },
   "Cinéma Cinéma": {
    "ok": true,
@@ -10740,6 +10761,22 @@
    "id": "2fe9495e3053dd59877b"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "Emerging Artists Exhibition",
+   "start": "2026-11-14",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-11-28",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "684acfa632d07ee5b7f3"
+  },
+  {
    "source": "Musées Montréal",
    "title": "Anne Kahane: Structures",
    "start": "2026-11-19",
@@ -10948,6 +10985,38 @@
    "id": "3657548d7c62931e86e1"
   },
   {
+   "source": "MBAM",
+   "title": "La Buvette",
+   "start": "2026-12-03T18:00:00-05:00",
+   "url": "https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/",
+   "end": "2026-12-03T22:00:00-05:00",
+   "location": "Montreal Museum of Fine Arts, 1380 rue Sherbrooke O",
+   "kind": "Event",
+   "free": false,
+   "price": "$32",
+   "price_lo": 32.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "88dd243a2b4183277b72"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Open Mic / New Talents with Rully Marten",
+   "start": "2026-12-03T18:30:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-03T23:30:00.585000-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "dddaf4a51a5f08458901"
+  },
+  {
    "source": "Fais-moi l'art",
    "title": "Peinture Afro-Hivernal: All My Niggas Abstract (AMNA) — Malcom Odd",
    "start": "2026-12-04",
@@ -10962,6 +11031,22 @@
    "all_day": true,
    "tab": "museums",
    "id": "ae6aec07ca1e36dafb3a"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "'I'll Carry You With Me' Exhibit by Jane Aimée Soleil",
+   "start": "2026-12-04",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-11",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "e9bf8a6af838b07b03db"
   },
   {
    "source": "Fais-moi l'art",
@@ -11026,6 +11111,22 @@
    "all_day": true,
    "tab": "museums",
    "id": "ecc27aa4e6cf0d86f61f"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Les 3'PS Live!",
+   "start": "2026-12-12T18:30:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-12T23:00:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "24c10710ddb0eb240829"
   },
   {
    "source": "Musées Montréal",
@@ -12372,6 +12473,22 @@
    "id": "573915b875bd4703d908"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "Film Club Night: V for Vendetta",
+   "start": "2026-11-26T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-11-26T21:20:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "7062e379f61ead4f7a25"
+  },
+  {
    "source": "Cinéma du Musée",
    "title": "LA BOLA NEGRA (VOSTA)",
    "start": "2026-11-26T18:00:00-05:00",
@@ -13634,6 +13751,22 @@
    "all_day": false,
    "tab": "movies",
    "id": "b519aef1e42738c34a8e"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Clueless",
+   "start": "2026-11-28T15:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-11-28T17:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "24c4081dc29cb07b5d9e"
   },
   {
    "source": "Cinéma du Parc",
@@ -16852,6 +16985,22 @@
    "id": "c3d7701076638d0aab46"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "Film Club Night: Carol",
+   "start": "2026-12-03T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-03T21:20:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "e0f9fbbfe773f132b036"
+  },
+  {
    "source": "Cinéma du Musée",
    "title": "CINÉ-HISTOIRE: ADIEU MA... (VOSTF)",
    "start": "2026-12-03T18:00:00-05:00",
@@ -17332,6 +17481,22 @@
    "id": "3acd1f50b5333a55ccc9"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "Catch me If You Can",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-05T17:20:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "3a476c2142125d4e6fc4"
+  },
+  {
    "source": "Cinéma du Parc",
    "title": "FBRÉSILIEN: LE JOURNAL DE... (VOSTF)",
    "start": "2026-12-05T17:00:00-05:00",
@@ -17346,6 +17511,22 @@
    "all_day": false,
    "tab": "movies",
    "id": "c263bc448e3f80ea4989"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Kiss Kiss Bang Bang (2005)",
+   "start": "2026-12-05T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-05T19:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "4f231a99e8c4f7f7ae4d"
   },
   {
    "source": "Cinéma Moderne",
@@ -17588,6 +17769,22 @@
    "id": "54bd18664f8cacdb5c42"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "Dune: Part 2",
+   "start": "2026-12-11T19:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-11T21:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "92b2b26261070b4b50d3"
+  },
+  {
    "source": "Cinéma Moderne",
    "title": "Fatherland (VOSTF)",
    "start": "2026-12-12T11:45:00-05:00",
@@ -17620,6 +17817,22 @@
    "id": "dcfe1acb2e0212d53633"
   },
   {
+   "source": "Montreal Art Center",
+   "title": "The Truman Show (1998)",
+   "start": "2026-12-12T15:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-12T16:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "b1e6eeccae148446dd84"
+  },
+  {
    "source": "Cinéma Moderne",
    "title": "Once Upon a Time in Harlem (VOA)",
    "start": "2026-12-12T16:00:00-05:00",
@@ -17634,6 +17847,22 @@
    "all_day": false,
    "tab": "movies",
    "id": "119a34c1eb0ea678788a"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Black Christmas (1974)",
+   "start": "2026-12-12T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-12T19:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "e7fb664108bdf2a1f605"
   },
   {
    "source": "Cinéma Moderne",
@@ -17666,6 +17895,54 @@
    "all_day": false,
    "tab": "movies",
    "id": "f36aca094aab9959ffd6"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Film Club Night: 23 Décembre",
+   "start": "2026-12-17T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-17T22:00:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "0c3b0f77440ff38e3c5e"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Harry Potter and the Sorcerer's Stone",
+   "start": "2026-12-19T15:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-19T17:30:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "ef501bb114c04fb46430"
+  },
+  {
+   "source": "Montreal Art Center",
+   "title": "Eyes Wide Shut",
+   "start": "2026-12-19T18:00:00-05:00",
+   "url": "https://www.montrealartcenter.com/our-events",
+   "end": "2026-12-19T20:40:00-05:00",
+   "location": "Montreal Art Center, 1844 rue William",
+   "kind": "Screening",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "movies",
+   "id": "c0b8ab6b14b8881dc400"
   }
  ]
 }

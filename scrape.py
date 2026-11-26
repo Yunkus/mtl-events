@@ -338,20 +338,94 @@ def turbo_haus() -> list[Ev]:
     return list(best.values())
 
 
-def le_belmont() -> list[Ev]:
-    html = get("https://www.lebelmont.ca/evenements").text
+def wix_events(url: str, source: str, location: str) -> list[Ev]:
+    """A Wix Events page: each event's data has "scheduling":{"config":{… "startDate", "endDate"} … "title"."""
+    html = get(url).text
     out, seen = [], set()
     pat = re.compile(r'"scheduling":\{"config":\{[^{}]*?"startDate":"([^"]+)","endDate":"([^"]+)".*?'
                      r'"title":"((?:[^"\\]|\\.)*)"', re.S)
     for m in pat.finditer(html):
-        title = json.loads(f'"{m.group(3)}"')
+        title = clean(json.loads(f'"{m.group(3)}"'))
         key = (title, m.group(1))
         if key in seen:
             continue
         seen.add(key)
-        out.append(Ev("Le Belmont", title, iso(m.group(1)), "https://www.lebelmont.ca/evenements",
-                      iso(m.group(2)), "Le Belmont"))
+        out.append(Ev(source, title, iso(m.group(1)), url, iso(m.group(2)), location))
     return out
+
+
+def le_belmont() -> list[Ev]:
+    return wix_events("https://www.lebelmont.ca/evenements", "Le Belmont", "Le Belmont")
+
+
+def montreal_art_center() -> list[Ev]:
+    """Montreal Art Center & Museum (1844 rue William; Wix events): film club, screenings, open mics,
+    exhibition openings. Kinds: films → "Screening", exhibits → "Vernissage", the rest → "Event"."""
+    out = wix_events("https://www.montrealartcenter.com/our-events", "Montreal Art Center",
+                     "Montreal Art Center, 1844 rue William")
+    for e in out:
+        e.kind = ("Screening" if re.search(r"film club|projection|screening|cin[ée]", e.title, re.I) else
+                  "Vernissage" if re.search(r"exhibit|exposition|vernissage", e.title, re.I) else "Event")
+        if e.kind == "Screening":
+            e.title = re.sub(r"^\s*projection\s*:\s*", "", e.title, flags=re.I)   # 'Projection: Clueless' -> 'Clueless'
+        elif e.end and (e.end.date() - e.start.date()).days >= 1:   # a show running over several days
+            e.start, e.end, e.kind = e.start.date(), e.end.date(), "exhibition"
+    return out
+
+
+def mbam_series(slug_prefix: str, source: str = "MBAM") -> list[Ev]:
+    """Montreal Museum of Fine Arts: each date of a series has its own page (/en/activities/la-buvette-03-12-26/),
+    listed in the English sitemap. Date from the page's schema.org Event, time and price from its text."""
+    sm = get("https://www.mbam.qc.ca/en/sitemap-xml/").text
+    urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if f"/activities/{slug_prefix}" in u]
+    out = []
+    for u in urls:
+        try:
+            s = soup(u)
+        except requests.RequestException:
+            continue
+        ld = None
+        for sc in s.find_all("script", type="application/ld+json"):
+            try:
+                d = json.loads(sc.string or "", strict=False)
+            except ValueError:
+                continue
+            if isinstance(d, dict) and d.get("@type") == "Event" and d.get("startDate"):
+                ld = d
+                break
+        if not ld:
+            continue
+        text = clean(s.get_text(" "))
+        t = None
+        m = re.search(r"\d{4}\s+at\s+(\d{1,2}:\d{2}\s*[ap]m)", text, re.I)
+        if m:
+            t = parse_time(m.group(1))
+        ev = Ev(source, clean(ld.get("name") or ""), local(date.fromisoformat(ld["startDate"][:10]), t), u,
+                location="Montreal Museum of Fine Arts, 1380 rue Sherbrooke O", kind="Event")
+        length = re.search(r"Length\s+(\d+)h(\d{2})?", text)
+        if length and t:
+            ev.end = ev.start + timedelta(hours=int(length.group(1)), minutes=int(length.group(2) or 0))
+        price = re.search(r"\$\s?(\d+(?:\.\d{2})?)", text)
+        out.append(priced(ev, None, float(price.group(1))) if price else ev)
+    return out
+
+
+def mccord_after_hours() -> list[Ev]:
+    """McCord Stewart Museum 'After Hours': the page's 'Next event' spot says 'Stay tuned!' until a date is set;
+    when it shows an English date ('Thursday, January 22, 2027 … 6 pm'), that becomes the event."""
+    url = "https://www.musee-mccord-stewart.ca/en/young-mccord/mccord-after-hours/"
+    text = clean(soup(url).get_text(" "))
+    i = text.find("Next event")
+    part = text[i:i + 400] if i >= 0 else ""
+    part = part.split("A few photos")[0]
+    m = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+"
+                  r"(\d{1,2})(?:st|nd|rd|th)?(?:,\s*(\d{4}))?", part)
+    if not m:
+        return []
+    mo, dy = EN_MONTHS[m.group(1).lower()], int(m.group(2))
+    d = date(int(m.group(3)) if m.group(3) else guess_year(mo, dy), mo, dy)
+    return [Ev("McCord Museum", "After Hours at the McCord", local(d, parse_time(part[m.end():m.end() + 80])), url,
+               location="McCord Stewart Museum, 690 rue Sherbrooke O", kind="Event")]
 
 
 def _luma_ev(e: dict, source: str, ticket_info: dict | None = None) -> Ev:
@@ -1245,7 +1319,12 @@ SOURCE_GROUPS = [
     (EVENT_SOURCES, event_tab, source_tab),
     ({"Musées Montréal": musees_montreal, "DARE-DARE": dare_dare, "Occurrence": occurrence,
       "Fais-moi l'art": fais_moi_lart, "FOIL": foil,
-      "Espace Transmission (site)": espace_transmission_site}, lambda e: "museums", lambda name: "museums"),
+      "Espace Transmission (site)": espace_transmission_site,
+      "MBAM La Buvette": lambda: mbam_series("la-buvette"), "McCord After Hours": mccord_after_hours},
+     lambda e: "museums", lambda name: "museums"),
+    # Montreal Art Center: its film screenings go to Movies, exhibitions and events to Museums & Galleries
+    ({"Montreal Art Center": montreal_art_center}, lambda e: "movies" if e.kind == "Screening" else "museums",
+     lambda name: "museums"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]
 # calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change
