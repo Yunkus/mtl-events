@@ -1999,6 +1999,7 @@ OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", 
                  "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours",
                  "Marchés publics", "Holiday markets", "Ateliers & Saveurs"}
 # Run by the City of Montreal (montreal.ca): their own tab
+FREE_TO_BARS = {"Bootlegger", "Bistro à Jojo"}   # their free nights go in Bar Nights; paid ones stay in Music & Dance
 CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues"}
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand", "TriviaNearMe"}
@@ -2012,6 +2013,8 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 def event_tab(e: Ev) -> str:
     if e.kind == "Oyster deal":
         return "oysters"
+    if e.source in FREE_TO_BARS and e.free:   # free bar music (Jojo's 5 pm sets, Bootlegger's DJs) sits with the bar nights
+        return "bars"
     if e.source in CITY_SOURCES:
         return "city"
     if e.source in BAR_SOURCES:

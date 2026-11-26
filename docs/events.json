@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T02:48-05:00",
+ "generated": "2026-11-26T02:50-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 426
+   "count": 411
   },
   "other": {
    "title": "Montreal Other Events",
@@ -14,7 +14,7 @@
   "bars": {
    "title": "Montreal Bar Nights",
    "feed": "bars.ics",
-   "count": 292
+   "count": 323
   },
   "city": {
    "title": "Montreal City Events",
@@ -531,48 +531,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Matt Rock",
-   "start": "2026-11-26T17:00:00-05:00",
-   "url": "",
-   "end": "2026-11-27T03:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "05d735131f5eaacf2874",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Caleb Taylor",
-   "start": "2026-11-26T17:00:00-05:00",
-   "url": "",
-   "end": "2026-11-26T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "74d8848f9bb6513726e2",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Quai des Brumes",
    "title": "5@7 Lancement – Khi de Mars « c’est peut-être un peu à cause de moi »",
    "start": "2026-11-26T17:00:00-05:00",
@@ -893,27 +851,6 @@
    "tab": "music",
    "id": "e768e88af4f5e381085b",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Andrée Dupré Duo",
-   "start": "2026-11-27T17:00:00-05:00",
-   "url": "",
-   "end": "2026-11-27T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "e1e2811fcaed3773cd9c",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -1406,27 +1343,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Mick Martel",
-   "start": "2026-11-28T17:00:00-05:00",
-   "url": "",
-   "end": "2026-11-28T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "04b2873d5262bae2cfb7",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Dièse Onze",
    "title": "Donny Lives",
    "start": "2026-11-28T19:00:00-05:00",
@@ -1844,27 +1760,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Fredy Freedom",
-   "start": "2026-11-29T17:00:00-05:00",
-   "url": "",
-   "end": "2026-11-29T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "c4f342b0f6ce30d8725d",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Quai des Brumes",
    "title": "5@7 Myriam Gendron",
    "start": "2026-11-29T17:00:00-05:00",
@@ -2089,27 +1984,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Mick Martel",
-   "start": "2026-11-30T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-01T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "33bdfd94ea439e714d12",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Casa del Popolo",
    "title": "SPURS",
    "start": "2026-11-30T19:00:00-05:00",
@@ -2205,27 +2079,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Fredy Freedom",
-   "start": "2026-12-01T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-02T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "43a43cb87f6d1a38e2a9",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Dièse Onze",
    "title": "Les Mardis Big Band avec Yves Turgeon et le Big Band YT",
    "start": "2026-12-01T19:00:00-05:00",
@@ -2305,27 +2158,6 @@
    "tab": "music",
    "id": "f1eb32dbb01ace8f5df5",
    "about": "Jacques Kuba Seguin (invité) - trompette\n\nAlex Bellegarde - Contrebasse\n\nEric St-Jean - Piano\n\nMartin Auguste - Batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Stef Dumont",
-   "start": "2026-12-02T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "c300b5383a677124355e",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
    "added": "2026-11-26"
   },
   {
@@ -2462,27 +2294,6 @@
    "tab": "music",
    "id": "6a13b9e823e5f0ef4470",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Philippe Berghella",
-   "start": "2026-12-03T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-03T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "6acedc837eaeb487532e",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Ausgang Plaza",
@@ -2728,27 +2539,6 @@
    "id": "e9d9578e86635126711e",
    "about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics.",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Andrée Dupré Duo",
-   "start": "2026-12-04T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-04T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "925186e2b5beab2895d1",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -3200,27 +2990,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Stef Dumont",
-   "start": "2026-12-05T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-05T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "40365622f2670502d0ff",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Dièse Onze",
    "title": "Ron DI Lauro Sextet joue Kind of Blue",
    "start": "2026-12-05T19:00:00-05:00",
@@ -3574,27 +3343,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Caleb Taylor",
-   "start": "2026-12-06T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-06T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "9f4b8dc0c9bca03749e0",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Système",
    "title": "Les Soirées Système",
    "start": "2026-12-06T18:00:00-05:00",
@@ -3712,27 +3460,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Mick Martel",
-   "start": "2026-12-07T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-08T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "7a3089182e1db669b388",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Turbo Haüs",
    "title": "20 ans de DAM : et maintenant, demain !",
    "start": "2026-12-07T19:00:00-05:00",
@@ -3824,27 +3551,6 @@
    "tab": "music",
    "id": "49c6ab53cd1bff1660aa",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Caleb Taylor",
-   "start": "2026-12-08T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-09T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "fdd3587630805f5a9b40",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -3944,27 +3650,6 @@
    "tab": "music",
    "id": "bf14fef9871169e88ebe",
    "about": "Nicolas Riverin (invité) - trompette\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Alan Springer",
-   "start": "2026-12-09T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "88372943b83a4954b4bc",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
    "added": "2026-11-26"
   },
   {
@@ -4089,27 +3774,6 @@
    "id": "e87521055a4ca16e8098",
    "about": "Pixel Production come back with a new Event.For this holiday season (Dec 10, Redroom) get ready to hit a wall of bass with this fire lineup :DropdeadgorgeousKio B2B Frank SorrowDRESloan PorterPixelLightz B2B MoloUnseenDont forget your ticket and come headb",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Alex Laverdière",
-   "start": "2026-12-10T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-10T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "d401d85f1851db20467d",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -4332,27 +3996,6 @@
    "tab": "music",
    "id": "021c580cde3b998ff6ad",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Mick Martel",
-   "start": "2026-12-11T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-11T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "3fcb6a17c6a5a892d13b",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -4663,27 +4306,6 @@
    "id": "211fe4402106f3c74585",
    "about": "Midnight Mass : Confession générale avant la fin du monde​Un dernier péché avant que l'année ne trépasse ?​Pour clore cette saison en beauté, la Midnight Mass se transforme en sanctuaire des noctambules. Oubliez la messe de minuit de mamie : ici, on vient",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Stef Dumont",
-   "start": "2026-12-12T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-12T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "dfa97742fb40c6296432",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -5094,27 +4716,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Mélanie Charrier",
-   "start": "2026-12-13T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-13T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "f5040f38c62294ebcd9c",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Système",
    "title": "Les Soirées Système",
    "start": "2026-12-13T18:00:00-05:00",
@@ -5271,27 +4872,6 @@
    "added": ""
   },
   {
-   "source": "Bistro à Jojo",
-   "title": "Mick Martel",
-   "start": "2026-12-14T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-15T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "10ccc906887e351e52a0",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Casa del Popolo",
    "title": "Similar Senses, Bubblegum Flavour, and Amitiés Incorporées",
    "start": "2026-12-14T19:30:00-05:00",
@@ -5327,27 +4907,6 @@
    "id": "4dd87f94fa817184fe5c",
    "about": "Présenté par Greenland et evenko Avec: Invité(e)s Portes: 7PM | Spectacle: 8PM | Tous âges",
    "added": ""
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Alec McElcheran",
-   "start": "2026-12-15T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-16T00:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "b88abde917a665e4003e",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -5429,27 +4988,6 @@
    "tab": "music",
    "id": "4023781207120d06f111",
    "about": "Dejan Brown (invité) - saxophone\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Bistro à Jojo",
-   "title": "Alan Springer",
-   "start": "2026-12-16T17:00:00-05:00",
-   "url": "",
-   "end": "2026-12-16T21:00:00-05:00",
-   "location": "Bistro à Jojo, 1627 rue St-Denis",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "",
-   "all_day": false,
-   "tab": "music",
-   "id": "4c64f8b478b084b04a17",
-   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
    "added": "2026-11-26"
   },
   {
@@ -9962,6 +9500,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Matt Rock",
+   "start": "2026-11-26T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-27T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "05d735131f5eaacf2874",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-11-26T20:00:00-05:00",
@@ -10135,6 +9694,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Andrée Dupré Duo",
+   "start": "2026-11-27T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-27T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "e1e2811fcaed3773cd9c",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at CEO Karaoke",
    "start": "2026-11-27T18:00:00-05:00",
@@ -10228,6 +9808,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-11-27T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-11-28T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4273e6e1a7962d052baa",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Le Date Karaoke",
    "start": "2026-11-27T21:00:00-05:00",
@@ -10316,6 +9917,69 @@
    "tab": "bars",
    "id": "9f29fc9be998a203b91f",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-11-28T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-28T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "04b2873d5262bae2cfb7",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-11-28T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-11-29T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "5f2ff137ea3e73586a02",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Fredy Freedom",
+   "start": "2026-11-29T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-29T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c4f342b0f6ce30d8725d",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -10417,6 +10081,27 @@
    "tab": "bars",
    "id": "99225e20e673c06839bc",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-11-30T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-01T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "33bdfd94ea439e714d12",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -10812,6 +10497,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Fredy Freedom",
+   "start": "2026-12-01T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-02T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "43a43cb87f6d1a38e2a9",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Bar K Karaoke",
    "start": "2026-12-01T17:00:00-05:00",
@@ -11074,6 +10780,27 @@
    "tab": "bars",
    "id": "c3b775ca2bedb1c5a575",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-02T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c300b5383a677124355e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -11382,6 +11109,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Philippe Berghella",
+   "start": "2026-12-03T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-03T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6acedc837eaeb487532e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-12-03T20:00:00-05:00",
@@ -11555,6 +11303,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Andrée Dupré Duo",
+   "start": "2026-12-04T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-04T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "925186e2b5beab2895d1",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at CEO Karaoke",
    "start": "2026-12-04T18:00:00-05:00",
@@ -11648,6 +11417,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-04T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-05T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "91964c792088383393d5",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Le Date Karaoke",
    "start": "2026-12-04T21:00:00-05:00",
@@ -11738,6 +11528,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-05T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-05T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "40365622f2670502d0ff",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Laugh It Off",
    "title": "SATURDAY Night Comedy in Mile End | The Comedy Spotlight in Montreal",
    "start": "2026-12-05T20:00:00-05:00",
@@ -11757,6 +11568,48 @@
    "id": "1df9847ef317a0d112bc",
    "about": "A Saturday night spotlight on professional standup comedians at Kawalees, an Arabic cultural cabaret on Avenue du Parc in Mile End.",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-05T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-06T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "88376ecc7cff753f3252",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Caleb Taylor",
+   "start": "2026-12-06T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "9f4b8dc0c9bca03749e0",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -11879,6 +11732,27 @@
    "tab": "bars",
    "id": "684555be89e2e8b79a9c",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-07T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-08T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7a3089182e1db669b388",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -12274,6 +12148,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Caleb Taylor",
+   "start": "2026-12-08T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-09T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "fdd3587630805f5a9b40",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Bar K Karaoke",
    "start": "2026-12-08T17:00:00-05:00",
@@ -12537,6 +12432,27 @@
    "tab": "bars",
    "id": "ab59d9c962ec56016ed1",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alan Springer",
+   "start": "2026-12-09T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "88372943b83a4954b4bc",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -12845,6 +12761,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Alex Laverdière",
+   "start": "2026-12-10T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-10T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "d401d85f1851db20467d",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-12-10T20:00:00-05:00",
@@ -13018,6 +12955,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-11T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-11T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3fcb6a17c6a5a892d13b",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at CEO Karaoke",
    "start": "2026-12-11T18:00:00-05:00",
@@ -13088,6 +13046,27 @@
    "tab": "bars",
    "id": "958df47ac2f3873f3059",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-11T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-12T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3d807e8741391dc467ec",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Karaoke Nights",
@@ -13180,6 +13159,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-12T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-12T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "dfa97742fb40c6296432",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Laugh It Off",
    "title": "SAMEDI HochelaGAG Comédie | Spectacle d'humour à Montréal",
    "start": "2026-12-12T20:00:00-05:00",
@@ -13199,6 +13199,48 @@
    "id": "59478af2f4bb2c31b007",
    "about": "Le samedi soir, c’est stand-up en français au Lady Davidson, la taverne qui fait vibrer Hochelaga depuis 1934.",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-12T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-13T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "63692c8a8b8a269636a9",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mélanie Charrier",
+   "start": "2026-12-13T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-13T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f5040f38c62294ebcd9c",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -13300,6 +13342,27 @@
    "tab": "bars",
    "id": "2e71dc8eb85c439f48ff",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-14T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-15T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "10ccc906887e351e52a0",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -13674,6 +13737,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Alec McElcheran",
+   "start": "2026-12-15T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-16T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b88abde917a665e4003e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Bar K Karaoke",
    "start": "2026-12-15T17:00:00-05:00",
@@ -13936,6 +14020,27 @@
    "tab": "bars",
    "id": "f1347b8bb42e1d194ea0",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alan Springer",
+   "start": "2026-12-16T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-16T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4c64f8b478b084b04a17",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -14490,6 +14595,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-18T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-19T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "fa5974cce4e868a8a02a",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Le Date Karaoke",
    "start": "2026-12-18T21:00:00-05:00",
@@ -14578,6 +14704,27 @@
    "tab": "bars",
    "id": "4e41d18fee4c7d9666d2",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-19T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-20T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f60844fcbfb2cb073a9f",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -15621,6 +15768,48 @@
    "tab": "bars",
    "id": "69d7da5412004ee9a9a2",
    "about": "Wednesday night pub trivia at 8pm. Quiz Master Jay Devine brings 50 new questions every week. Winners get a $50 bar tab prize",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-25T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-26T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "9711cc65a8e8fb05ab7d",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-26T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-27T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c093babc6586f7a18ae0",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
    "added": "2026-11-26"
   },
   {
