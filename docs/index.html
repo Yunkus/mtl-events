@@ -63,19 +63,17 @@
   .wordmark { display: block; width: min(440px, 100%); height: auto; margin-bottom: 10px; }
   .brand > div { min-width: 0; flex: 1; }
   @media (max-width: 560px) { .logo { height: 64px; margin: -2px 0; } .wordmark { width: 100%; } }
-  /* tap the logo and it wobbles like jello: squash and stretch from the base, with a sideways shear that dies down */
-  .logo { cursor: pointer; -webkit-tap-highlight-color: transparent; transform-origin: 50% 100%; }
-  .logo.jiggle { animation: jiggle .9s ease-out; }
+  /* tap the logo and a soft ripple runs out from its centre: small swells that fade */
+  .logo { cursor: pointer; -webkit-tap-highlight-color: transparent; transform-origin: 50% 50%; }
+  .logo.jiggle { animation: jiggle .8s ease-in-out; }
   @keyframes jiggle {
-    0%   { transform: scale(1, 1) skewX(0); }
-    12%  { transform: scale(1.18, .82) skewX(0); }
-    24%  { transform: scale(.88, 1.14) skewX(-9deg); }
-    36%  { transform: scale(1.1, .92) skewX(7deg); }
-    48%  { transform: scale(.95, 1.06) skewX(-4.5deg); }
-    60%  { transform: scale(1.04, .97) skewX(2.5deg); }
-    72%  { transform: scale(.98, 1.02) skewX(-1.2deg); }
-    86%  { transform: scale(1.01, .99) skewX(.5deg); }
-    100% { transform: scale(1, 1) skewX(0); }
+    0%   { transform: scale(1, 1); }
+    15%  { transform: scale(1.05, 1.035); }
+    32%  { transform: scale(.975, .985); }
+    50%  { transform: scale(1.025, 1.018); }
+    68%  { transform: scale(.992, .995); }
+    84%  { transform: scale(1.006, 1.004); }
+    100% { transform: scale(1, 1); }
   }
   @media (prefers-reduced-motion: reduce) { .logo.jiggle { animation-duration: .3s; } }
   .meta { color: var(--muted); font-size: 13px; }
