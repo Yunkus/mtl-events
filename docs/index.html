@@ -247,10 +247,12 @@
   .band .sub .menu .btn:hover { background: rgba(255, 176, 0, .1); }
   .sub .menu small { display: block; color: var(--muted); font-size: 12px; padding: 4px 10px 2px; white-space: normal; }
 
-  /* ---- tabs: one row that scrolls sideways */
-  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
-  .tabs::-webkit-scrollbar { display: none; }
-  .tab { flex: none; }
+  /* ---- tabs: all visible, no sideways scrolling. Full names on wide screens (wrapping if needed),
+     short names below 860px, and a 4 × 2 grid with the count under each name on phones */
+  .tabs { flex-wrap: wrap; gap: 2px; }
+  .tab { flex: none; padding-left: 9px; padding-right: 9px; }
+  .tab .ls { display: none; }
+  @media (max-width: 860px) { .tab .lf { display: none; } .tab .ls { display: inline; } }
 
   /* ---- phones: compact header so tonight's events show without scrolling */
   @media (max-width: 640px) {
@@ -262,9 +264,11 @@
     .meta { font-size: 12px; }
     .band .meta { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .sub { flex: none; }
-    .tabs { margin-top: 10px; margin-right: -16px; padding-right: 16px;
-            -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
-    .tab { padding: 8px 10px; font-size: 15px; }
+    .tabs { margin-top: 10px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+    .tab { padding: 6px 2px 5px; font-size: 14px; text-align: center; border-radius: 8px; display: flex; flex-direction: column;
+           align-items: center; gap: 2px; min-width: 0; }
+    .tab .n { margin: 0; font-size: 11px; }
+    .tab[aria-selected="true"] { box-shadow: inset 0 0 0 1px var(--amber-dark), inset 0 2px 0 var(--amber); }
     .search { margin-top: 8px; }
     .picks { margin-top: 14px; }
   }
@@ -335,6 +339,8 @@
 const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", city: "City Events", oysters: "Oysters",
                     museums: "Museums & Galleries", movies: "Movies",
                     date: "By Date" };
+const TAB_SHORT = { music: "Music", other: "Other", bars: "Bars", city: "City", oysters: "Oysters", museums: "Museums",
+                    movies: "Movies", date: "By Date" };   // narrow screens
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
                       bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", oysters: "Search restaurants, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
                       date: "Search this day…" };
@@ -467,7 +473,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const tabBtns = {};
   for (const id of allTabs) {
     const b = el("button", "tab"); b.setAttribute("role", "tab");
-    b.append(TAB_LABEL[id] || id);
+    b.append(el("span", "lf", id === "museums" ? "Museums" : TAB_LABEL[id] || id),   // "& Galleries" won't fit on one row
+             el("span", "ls", TAB_SHORT[id] || TAB_LABEL[id] || id));
     if (id !== "date") b.appendChild(el("span", "n", ""));
     b.onclick = () => select(id);
     tabsEl.appendChild(b); tabBtns[id] = b;
@@ -516,7 +523,6 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     $("sub").open = false;
     if (id === "music") genreSel.forEach(g => { if (!MUSIC_GENRES.has(g)) genreSel.delete(g); });   // not listed there
     $("subnote").textContent = `Every event in ${TAB_LABEL[id] || "this tab"}, in your calendar. It updates by itself.`;
-    tabBtns[id].scrollIntoView({ block: "nearest", inline: "nearest" });
     if (id === "date") { setDay(dayPick); return; }
     history.replaceState(null, "", "#" + id);
     const info = tabsInfo[id];
