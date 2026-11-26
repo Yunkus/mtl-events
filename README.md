@@ -60,7 +60,7 @@ are listed (checked 2026-11-26); each repeats for the next 3 weeks. Deals change
 
 ## Alerts
 
-Room names are tidied through `ROOM_NAMES` in `scrape.py` (raw value → one clean name, e.g. "Casa Del Popolo" → "Casa del Popolo", "ESC, H2X 2T3" → "ESC, 2023 boul. Saint-Laurent"); add a line when a new spelling shows up.
+Room names are tidied through `ROOM_NAMES` in `scrape.py` (raw value → one clean name, e.g. "Casa Del Popolo" → "Casa del Popolo", "ESC, H2X 2T3" → "ESC, 2023 boul. Saint-Laurent", "SAT – SAT Space" → "SAT"); add a line when a new spelling shows up.
 
 A source empty for 8 updates in a row (2 days) also opens an issue once, unless it's in `QUIET_OK` in
 `scrape.py` (sources checked by hand and known to be quiet, like McCord After Hours between dates).

@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-26T03:24-05:00",
+ "generated": "2026-11-26T13:04-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 411
+   "count": 426
   },
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 40
+   "count": 39
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -19,7 +19,7 @@
   "city": {
    "title": "Montreal City Events",
    "feed": "city.ics",
-   "count": 162
+   "count": 164
   },
   "oysters": {
    "title": "Montreal Oyster Deals",
@@ -56,17 +56,17 @@
   },
   "Casa del Popolo": {
    "ok": true,
-   "count": 113,
+   "count": 127,
    "tab": "music",
-   "last_count": 113,
+   "last_count": 127,
    "zero_streak": 0,
    "zero_alerted": false
   },
   "Le Red Room": {
    "ok": true,
-   "count": 11,
+   "count": 12,
    "tab": "music",
-   "last_count": 11,
+   "last_count": 12,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -304,25 +304,25 @@
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 162,
+   "count": 160,
    "tab": "city",
-   "last_count": 162,
+   "last_count": 160,
    "zero_streak": 0,
    "zero_alerted": false
   },
   "Marchés publics": {
    "ok": true,
    "count": 4,
-   "tab": "other",
+   "tab": "city",
    "last_count": 4,
    "zero_streak": 0,
    "zero_alerted": false
   },
   "Ateliers & Saveurs": {
    "ok": true,
-   "count": 21,
+   "count": 24,
    "tab": "other",
-   "last_count": 21,
+   "last_count": 24,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -745,11 +745,11 @@
    "genres": [
     "Electronic"
    ],
-   "image": "img/9b2924970d39a9f2.webp",
+   "image": "img/eac918f2b391ed36.webp",
    "all_day": false,
    "tab": "music",
    "id": "6f552ddfe765318fa06b",
-   "about": "Following a successful first event last summer, puzzle and play-do reunite once again at Système on Thursday Nov 26th for their multidisciplinary sapphic event including food, installations, live music, performances and DJs.",
+   "about": "Following a successful first event last summer, puzzle and play-do reunite once again at Système on Thursday Nov 26th for their multidisciplinary sapphic event including food, installations, live music, performances and DJs. This time we're starting the event with a combination of food and power-point presentations under the topic 'thirst trap'…",
    "added": ""
   },
   {
@@ -1054,7 +1054,7 @@
    "start": "2026-11-27T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/all-night-dure-vie-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$19–37",
@@ -1248,8 +1248,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -1370,7 +1369,7 @@
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/sat-eaf-festival-triste-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$17–26",
@@ -1386,20 +1385,38 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Gabriel Béland en spectacles",
+   "title": "Om-Nom Fest 2026 Nuit 2",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2",
    "end": null,
-   "location": "Casa del Popolo",
+   "location": "La Sotterenea",
    "kind": "",
    "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
+   "price": "$25",
+   "price_lo": 25.01,
    "genres": [],
-   "image": "img/f15752548cb1e4ef.webp",
+   "image": "img/b61ad2588a16ec86.webp",
    "all_day": false,
    "tab": "music",
-   "id": "b3e0e7bd1944c78b17ce",
+   "id": "6dfd803c32f922e65e01",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
+   "start": "2026-11-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/4a04129555fa16ad.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "e88301d3fe7d38d97164",
    "added": ""
   },
   {
@@ -1436,24 +1453,6 @@
    "all_day": false,
    "tab": "music",
    "id": "e88301d3fe7d38d97164",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Om-Nom Fest 2026 Nuit 2",
-   "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "free": false,
-   "price": "$25",
-   "price_lo": 25.01,
-   "genres": [],
-   "image": "img/b61ad2588a16ec86.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "6dfd803c32f922e65e01",
    "added": ""
   },
   {
@@ -1536,25 +1535,6 @@
    "all_day": false,
    "tab": "music",
    "id": "e566e1a63a4c154fcc24",
-   "added": ""
-  },
-  {
-   "source": "Théâtre Fairmount",
-   "title": "TEMPLES",
-   "start": "2026-11-28T21:00:00.628000-05:00",
-   "url": "https://www.theatrefairmount.com/vnements/temples-theatre-fairmount/20261128-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3",
-   "end": "2026-11-28T23:00:00.628000-05:00",
-   "location": "Théâtre Fairmount, 5240 Av. du Parc",
-   "kind": "",
-   "free": false,
-   "price": "$40–43",
-   "price_lo": 40.25,
-   "genres": [],
-   "image": "img/07d7a80c83faff92.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "8d18f2507049a7164e1a",
-   "about": "The BLISS Tour Présenté par MODO-LIVE & I am the Eggplant Avec: GIFT Portes: 8PM | Spectacle: 9PM | 18+",
    "added": ""
   },
   {
@@ -1776,7 +1756,6 @@
    "all_day": false,
    "tab": "music",
    "id": "ddac11c74df917bc557f",
-   "about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics.",
    "added": ""
   },
   {
@@ -1935,8 +1914,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "img/aa1402f5b5df39f1.webp",
    "all_day": false,
@@ -1976,8 +1954,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -2113,8 +2090,7 @@
    "price": "$15",
    "price_lo": 15.0,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -2204,6 +2180,42 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Dogtown, ft. Doodad",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.5,
+   "genres": [],
+   "image": "img/f1184847a2b51ab9.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "8b1aff743f6ad8d03cfc",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Anthony Prégent",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [],
+   "image": "img/2a46fffc21aca73d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3ef1e8e7403420022ccc",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Rachella Wred, Couvo & Kerri",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
@@ -2221,22 +2233,25 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Dogtown, ft. Doodad",
+   "source": "Bootlegger",
+   "title": "Groovy Jazz Wednesday",
    "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad",
-   "end": null,
-   "location": "P'tit Ours",
+   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
+   "end": "2026-12-02T23:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
    "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.5,
-   "genres": [],
-   "image": "img/f1184847a2b51ab9.webp",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "img/3b75cde8f5fea653.webp",
    "all_day": false,
    "tab": "music",
-   "id": "8b1aff743f6ad8d03cfc",
-   "added": ""
+   "id": "8b848ce85c5e47870b71",
+   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -2445,24 +2460,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "EEDM + no cosmos (trio set)",
-   "start": "2026-12-03T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-04-eedm-no-cosmos-trio-set",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/3f850c17d1962ba4.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "26c4c1347344aae465d0",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "SAM QUEALY + SUUNCAAT",
    "start": "2026-12-03T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy",
@@ -2477,6 +2474,24 @@
    "all_day": false,
    "tab": "music",
    "id": "114c43580278842568db",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "EEDM + no cosmos (trio set)",
+   "start": "2026-12-03T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-04-eedm-no-cosmos-trio-set",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/3f850c17d1962ba4.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "26c4c1347344aae465d0",
    "added": ""
   },
   {
@@ -2581,7 +2596,6 @@
    "all_day": true,
    "tab": "music",
    "id": "e9d9578e86635126711e",
-   "about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics.",
    "added": ""
   },
   {
@@ -2805,7 +2819,7 @@
    "start": "2026-12-04T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/club-sat-gaba-collective-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$16–29",
@@ -3252,8 +3266,7 @@
    "price_lo": null,
    "genres": [
     "Afro & Latin",
-    "Electronic",
-    "Film"
+    "Electronic"
    ],
    "image": "img/d3deed28349c2b80.webp",
    "all_day": false,
@@ -3338,8 +3351,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -3400,7 +3412,7 @@
    "genres": [
     "Electronic"
    ],
-   "image": "",
+   "image": "img/7b7100a31866948e.webp",
    "all_day": false,
    "tab": "music",
    "id": "3e879c5df2e810bac0d4",
@@ -3448,24 +3460,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Pascale Pascale/ Hearts of Palm /Ahren Strange",
-   "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "free": false,
-   "price": "$10",
-   "price_lo": 10.0,
-   "genres": [],
-   "image": "img/bcc157bb6bf8465a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "14873dac69e9dbeb25fd",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAESLER",
    "start": "2026-12-06T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald",
@@ -3483,6 +3477,24 @@
    "added": ""
   },
   {
+   "source": "Casa del Popolo",
+   "title": "Pascale Pascale/ Hearts of Palm /Ahren Strange",
+   "start": "2026-12-06T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [],
+   "image": "img/bcc157bb6bf8465a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "14873dac69e9dbeb25fd",
+   "added": ""
+  },
+  {
    "source": "Bootlegger",
    "title": "Sunday Live Jazz Band",
    "start": "2026-12-06T21:00:00-05:00",
@@ -3494,8 +3506,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "img/aa1402f5b5df39f1.webp",
    "all_day": false,
@@ -3516,8 +3527,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -3548,20 +3558,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
+   "title": "Emile Patenaude + Bubblegum Flavour",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
    "end": null,
-   "location": "La Sala Rossa",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
-   "price": "$25",
-   "price_lo": 25.0,
+   "price": "$12",
+   "price_lo": 12.0,
    "genres": [],
-   "image": "img/7b2a9dbc6a7e00a5.webp",
+   "image": "img/a52155c7884e15c0.webp",
    "all_day": false,
    "tab": "music",
-   "id": "2b5dc1fbae153539f2ef",
+   "id": "1d9435ab29f764ec0d86",
    "added": ""
   },
   {
@@ -3602,20 +3612,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Emile Patenaude + Bubblegum Flavour",
+   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
    "end": null,
-   "location": "Casa del Popolo",
+   "location": "La Sala Rossa",
    "kind": "",
    "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
+   "price": "$25",
+   "price_lo": 25.0,
    "genres": [],
-   "image": "img/a52155c7884e15c0.webp",
+   "image": "img/7b2a9dbc6a7e00a5.webp",
    "all_day": false,
    "tab": "music",
-   "id": "1d9435ab29f764ec0d86",
+   "id": "2b5dc1fbae153539f2ef",
    "added": ""
   },
   {
@@ -3630,8 +3640,7 @@
    "price": "$15",
    "price_lo": 15.0,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -3720,6 +3729,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Lucas Melo & Enzo Lord Mariano et Micha",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-10-lucas-melo-enzo-lord-mariano-et-micha",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/2444648ba9b74ae5.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9a56bb392a39060d6015",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "C-IMPACT/DJ DONINI/HOT HOUSE",
    "start": "2026-12-09T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-10-c-impact-dj-donini-hot-house",
@@ -3740,22 +3767,25 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Lucas Melo & Enzo Lord Mariano et Micha",
+   "source": "Bootlegger",
+   "title": "Groovy Jazz Wednesday",
    "start": "2026-12-09T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-10-lucas-melo-enzo-lord-mariano-et-micha",
-   "end": null,
-   "location": "P'tit Ours",
+   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
+   "end": "2026-12-09T23:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
    "kind": "",
    "free": null,
    "price": "",
    "price_lo": null,
-   "genres": [],
-   "image": "img/2444648ba9b74ae5.webp",
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "img/3b75cde8f5fea653.webp",
    "all_day": false,
    "tab": "music",
-   "id": "9a56bb392a39060d6015",
-   "added": ""
+   "id": "17d595a736142b780268",
+   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bootlegger",
@@ -4302,8 +4332,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -4772,10 +4801,9 @@
    "price_lo": 0.0,
    "genres": [
     "Electronic",
-    "Holiday Season",
-    "Markets & Fairs"
+    "Holiday Season"
    ],
-   "image": "",
+   "image": "img/9ca1af266ff90a0a.webp",
    "all_day": false,
    "tab": "music",
    "id": "5e35b4b7db657bf530b1",
@@ -4816,7 +4844,7 @@
    "genres": [
     "Electronic"
    ],
-   "image": "",
+   "image": "img/218d82566bb38272.webp",
    "all_day": false,
    "tab": "music",
    "id": "0862c211e94427c027cd",
@@ -4861,24 +4889,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "REEL GAY: Glee with Mary Fagdalene & Chiquita Mére",
-   "start": "2026-12-13T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.9,
-   "genres": [],
-   "image": "img/2777c46085dcd8f8.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "caac6764dd373e5c408b",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
    "start": "2026-12-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
@@ -4893,6 +4903,24 @@
    "all_day": false,
    "tab": "music",
    "id": "aa154f4d4844adeaa144",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "REEL GAY: Glee with Mary Fagdalene & Chiquita Mére",
+   "start": "2026-12-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.9,
+   "genres": [],
+   "image": "img/2777c46085dcd8f8.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "caac6764dd373e5c408b",
    "added": ""
   },
   {
@@ -4928,8 +4956,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "img/aa1402f5b5df39f1.webp",
    "all_day": false,
@@ -4950,8 +4977,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -5029,8 +5055,7 @@
    "price": "$15",
    "price_lo": 15.0,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "",
    "all_day": false,
@@ -5059,6 +5084,26 @@
    "tab": "music",
    "id": "442279aabd471717b7ab",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "PET LION *The Holiday Show* avec invitée spéciale JULIE NEFF",
+   "start": "2026-12-15T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-16-pet-lion-the-holiday-show-avec-invitee-speciale-julie-neff",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/2af6753d2395589d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "bad350caaa7d41c870f8",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -5302,20 +5347,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Joel Betts with Lauryn Macfarlane",
+   "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
    "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
    "end": null,
-   "location": "Casa del Popolo",
+   "location": "P'tit Ours",
    "kind": "",
    "free": false,
-   "price": "$13",
-   "price_lo": 13.19,
+   "price": "$6",
+   "price_lo": 6.44,
    "genres": [],
-   "image": "img/eec02ae3f1b7e50e.webp",
+   "image": "img/7f26124d8de55a2f.webp",
    "all_day": false,
    "tab": "music",
-   "id": "1a1a924c4e4659ac73e3",
+   "id": "c02d7b071757167e28d9",
    "added": ""
   },
   {
@@ -5338,20 +5383,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
+   "title": "Joel Betts with Lauryn Macfarlane",
    "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
    "end": null,
-   "location": "P'tit Ours",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
-   "price": "$6",
-   "price_lo": 6.44,
+   "price": "$13",
+   "price_lo": 13.19,
    "genres": [],
-   "image": "img/7f26124d8de55a2f.webp",
+   "image": "img/eec02ae3f1b7e50e.webp",
    "all_day": false,
    "tab": "music",
-   "id": "c02d7b071757167e28d9",
+   "id": "1a1a924c4e4659ac73e3",
    "added": ""
   },
   {
@@ -5388,7 +5433,7 @@
    "genres": [
     "Electronic"
    ],
-   "image": "img/3df7905288688b75.webp",
+   "image": "img/eecb17ca8734f6b5.webp",
    "all_day": false,
    "tab": "music",
    "id": "1f84e2949472a1ccc9d2",
@@ -5540,7 +5585,7 @@
    "start": "2026-12-18T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/hear-2-move",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$36–66",
@@ -5639,6 +5684,28 @@
    "added": ""
   },
   {
+   "source": "Le Red Room",
+   "title": "Nightmare Before Noël 2026 w/ KRACAA",
+   "start": "2026-12-19",
+   "url": "https://lepointdevente.com/billets/nbn2026-kracaa?lang=fr",
+   "end": null,
+   "location": "Le Red Room",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Techno",
+    "Electronic",
+    "Holiday Season"
+   ],
+   "image": "img/c0f120a424db4a2d.webp",
+   "all_day": true,
+   "tab": "music",
+   "id": "284ed1243eb3ae29df22",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "CANICULE TROPICALE",
    "start": "2026-12-19T10:00:00-05:00",
@@ -5664,7 +5731,7 @@
    "start": "2026-12-19T19:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-20-souper-stumping-sing-along-avec-lake-of-stew",
    "end": null,
-   "location": "La Sala Rossa (restaurant)",
+   "location": "La Sala Rossa",
    "kind": "",
    "free": false,
    "price": "$23",
@@ -5806,7 +5873,7 @@
    "start": "2026-12-19T23:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/afrotonik-dance-party-12-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$16–40",
@@ -5876,7 +5943,7 @@
    "genres": [
     "Electronic"
    ],
-   "image": "",
+   "image": "img/fdbfcc615c03e5d8.webp",
    "all_day": false,
    "tab": "music",
    "id": "82893ee920bad4468d5d",
@@ -5936,8 +6003,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Jazz & Blues",
-    "Live Music"
+    "Jazz & Blues"
    ],
    "image": "img/aa1402f5b5df39f1.webp",
    "all_day": false,
@@ -6172,7 +6238,7 @@
    "genres": [
     "Electronic"
    ],
-   "image": "",
+   "image": "img/5caa689e92fcb760.webp",
    "all_day": false,
    "tab": "music",
    "id": "a7f369746e8f291e4410",
@@ -6263,26 +6329,6 @@
   },
   {
    "source": "New City Gas",
-   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
-   "start": "2026-12-31T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
-   "end": "2027-01-01T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/905013781b4e8fc9.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "9093d0621d0f2e51cc47",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
    "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
    "start": "2026-12-31T21:00:00-05:00",
    "url": "https://newcitygas.com/en/event/pauza-214314/",
@@ -6299,6 +6345,26 @@
    "all_day": false,
    "tab": "music",
    "id": "d331956490315be88dd5",
+   "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/905013781b4e8fc9.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9093d0621d0f2e51cc47",
    "added": ""
   },
   {
@@ -6378,7 +6444,7 @@
     "Electronic",
     "Holiday Season"
    ],
-   "image": "",
+   "image": "img/16149816e3a29703.webp",
    "all_day": false,
    "tab": "music",
    "id": "1124e6c6d9c224bb15dc",
@@ -6553,7 +6619,7 @@
    "start": "2027-01-09T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-chez-kito-kat-records-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -6695,7 +6761,7 @@
    "start": "2027-01-16T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-homegrown-harvest-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -6726,6 +6792,27 @@
    "tab": "music",
    "id": "b16a1991216544ea7c52",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "DJ Cihan Abla – 90’s Pop-Up Night | Montreal",
+   "start": "2027-01-17T22:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-01-18-dj-cihan-abla-90-s-pop-up-night-montreal",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$35",
+   "price_lo": 35.0,
+   "genres": [
+    "Pop & Throwback",
+    "Electronic"
+   ],
+   "image": "img/4aa71a2206f0f36b.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "8b9233c5ac31e8da4e45",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -6835,7 +6922,7 @@
    "start": "2027-01-23T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-format-x-octov-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7053,7 +7140,7 @@
    "start": "2027-01-30T19:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/klangkarussell-2027",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$24–34",
@@ -7115,7 +7202,7 @@
    "start": "2027-01-30T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-gloss-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7277,7 +7364,7 @@
    "start": "2027-02-06T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-jacques-greene-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7371,12 +7458,214 @@
    "added": ""
   },
   {
+   "source": "Casa del Popolo",
+   "title": "Muhoza + Jaywood + Guests",
+   "start": "2027-02-11T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-12-muhoza-jaywood-guests",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/078325c79bd399e1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "b2ab87315a385d67baa2",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "No Joy + Xela Edna + Billie Lynx",
+   "start": "2027-02-11T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-12-no-joy-xela-edna-billie-lynx",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.0,
+   "genres": [],
+   "image": "img/cb7160ed8230e532.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "ad2464cd2c03d52eafc1",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "BIG SIS + Virginie B + Zéa Calla",
+   "start": "2027-02-11T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-12-big-sis-virginie-b-zea-calla",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [],
+   "image": "img/06b1d7c9309a67c4.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1604513c818429df4811",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Mardi Gras Montréal : Le Winston Band & Less Toches",
+   "start": "2027-02-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-13-mardi-gras-montreal-le-winston-band-less-toches",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": false,
+   "price": "$19",
+   "price_lo": 19.1,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/567e85b50d50e028.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d98b7655f9e746e4a081",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Zoon + Pnoom + Ways of Hiding",
+   "start": "2027-02-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-13-zoon-pnoom-ways-of-hiding",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/62cb4eb082cbc9f2.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "272ae78a47447cba79b1",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "U.S. Girls + Birds of Prrrey + Baby Berserk",
+   "start": "2027-02-12T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-13-u-s-girls-birds-of-prrrey-baby-berserk",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.0,
+   "genres": [],
+   "image": "img/345e02fb2b784cbf.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "e9b9d653a02bc84630dd",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Nelligan + Jed Arbour + Carences",
+   "start": "2027-02-12T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-13-nelligan-jed-arbour-carences",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/5f60b77ba597f389.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "6b0a72b7e9a65e20afcb",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Toody Cole & Her Band + Retail Simps + Lemongrab",
+   "start": "2027-02-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-toody-cole-her-band-retail-simps-lemongrab",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "price_lo": 30.0,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/2e6728a887690553.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "6ec68d78c5aee3632009",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Anna Arrobas + Scarlett Rose + ebb",
+   "start": "2027-02-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-anna-arrobas-scarlett-rose-ebb",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/e08cf1a0d4f195b9.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "772aef2e5d797972df06",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Slash Need + GENRE IS DEATH + Johny Couteau",
+   "start": "2027-02-13T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-slash-need-genre-is-death-johny-couteau",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [],
+   "image": "img/cf6a3680398a287a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "93baf2c43bd6d6bf83eb",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Computer Science + Dear Evangeline + UZU + Cheap",
+   "start": "2027-02-13T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-computer-science-dear-evangeline-uzu-cheap",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/dc965790bfd3ebe1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "a1997697b63c118ace08",
+   "added": "2026-11-26"
+  },
+  {
    "source": "SAT",
    "title": "Dômesicle x Ferias — Alina b2b Guthrie",
    "start": "2027-02-13T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-ferias-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7458,7 +7747,7 @@
    "start": "2027-02-20T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-kizi-garden-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7495,24 +7784,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "mokina (+ friends) Jardim Celeste Album Launch",
-   "start": "2027-02-25T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$22",
-   "price_lo": 22.0,
-   "genres": [],
-   "image": "img/d03b8e9852429665.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "59565ba94bd39db53a6a",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Mile End Tantshoyz + Glenti: A Yiddish and Greek Dance Party",
    "start": "2027-02-25T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-02-26-mile-end-tantshoyz-glenti-a-yiddish-and-greek-dance-party",
@@ -7531,6 +7802,24 @@
    "all_day": false,
    "tab": "music",
    "id": "55590aacf3911c3c883b",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "mokina (+ friends) Jardim Celeste Album Launch",
+   "start": "2027-02-25T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$22",
+   "price_lo": 22.0,
+   "genres": [],
+   "image": "img/d03b8e9852429665.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "59565ba94bd39db53a6a",
    "added": ""
   },
   {
@@ -7776,7 +8065,7 @@
    "start": "2027-03-06T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-tits-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -7910,7 +8199,7 @@
    "start": "2027-03-13T19:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/pierre-kwenders-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$30",
@@ -7948,7 +8237,7 @@
    "start": "2027-03-13T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-gaba-collective-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -8002,6 +8291,24 @@
    "id": "acd33ecd94e95fade494",
    "about": "Présenté par Blue Skies Turn Black Avec: Invité(e)s Portes: 7:30PM | Spectacle: 8:30PM | 18+",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Jon & Roy w/ Special Guests",
+   "start": "2027-03-17T20:00:00-04:00",
+   "url": "https://casadelpopolo.com/en/events/2027-03-18-jon-roy-w-special-guests",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$26",
+   "price_lo": 26.09,
+   "genres": [],
+   "image": "img/2b1a84ae02d5f060.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9aa939946f150e088872",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -8181,7 +8488,7 @@
    "start": "2027-03-20T22:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/domesicle-x-la-rama-records-winter-2027",
    "end": null,
-   "location": "SAT – Satosphere",
+   "location": "SAT – Satosphère",
    "kind": "",
    "free": false,
    "price": "$18–33",
@@ -8279,7 +8586,7 @@
    "start": "2027-03-27T22:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/jersey-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$36–41",
@@ -8394,7 +8701,7 @@
    "start": "2027-04-03T22:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/club-sat-adrian-sherwood-honeydrip-2027",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$30–35",
@@ -8571,6 +8878,25 @@
   },
   {
    "source": "Théâtre Fairmount",
+   "title": "TEMPLES",
+   "start": "2027-04-21T21:00:00.628000-04:00",
+   "url": "https://www.theatrefairmount.com/vnements/temples-theatre-fairmount/20261128-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3",
+   "end": "2027-04-21T22:00:00.628000-04:00",
+   "location": "Théâtre Fairmount, 5240 Av. du Parc",
+   "kind": "",
+   "free": false,
+   "price": "$40–43",
+   "price_lo": 40.25,
+   "genres": [],
+   "image": "img/07d7a80c83faff92.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "5c873a38848c993a87be",
+   "about": "The BLISS Tour Présenté par MODO-LIVE & I am the Eggplant Avec: GIFT Portes: 8PM | Spectacle: 9PM | 18+",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Théâtre Fairmount",
    "title": "SHAINA HAYES",
    "start": "2027-04-22T20:00:00.628000-04:00",
    "url": "https://www.theatrefairmount.com/vnements/shaina-hayes-theatre-fairmount/20270422-g3bn5-a4zkr-hwk6t-44pc7-td99j-d2hwd-55k3-ya9ht-83x22-54lx2-8r9s3",
@@ -8636,7 +8962,7 @@
    "start": "2027-04-30T19:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/klangphonics-the-zest-tour-2026",
    "end": null,
-   "location": "SAT – Espace SAT",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$36–41",
@@ -8854,29 +9180,6 @@
    "added": ""
   },
   {
-   "source": "Marchés publics",
-   "title": "Le temps des Fêtes au Marché Maisonneuve",
-   "start": "2026-11-28",
-   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-maisonneuve",
-   "end": "2026-11-29",
-   "location": "Marché Maisonneuve",
-   "kind": "exhibition",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/76/mpmtempsdesfetesrs2000x935msn.png?itok=GJTOmTv2",
-   "all_day": true,
-   "tab": "other",
-   "id": "c75ba1c721bd835cfe0b",
-   "about": "Temps des Fêtes au Marché Maisonneuve les 28-29 nov. Marché d'exposants et animations familiales gratuites. Célébrez Noël à Montréal!",
-   "added": ""
-  },
-  {
    "source": "Ateliers & Saveurs",
    "title": "La Pâtisserie: Macarons au caramel à la fleur de sel",
    "start": "2026-11-28T09:30:00-05:00",
@@ -8897,6 +9200,28 @@
    "id": "589e2735ac39908e6732",
    "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 28 novembre 09:30 à 12:30.",
    "added": ""
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Tendance Cocktails: Sensual",
+   "start": "2026-11-28T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil-avec-la-cachaca/62780",
+   "end": "2026-11-28T14:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$65",
+   "price_lo": 65.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/f063ede37834f544.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "739dd27ac7c7c9e96cca",
+   "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 28 novembre 12:00 à 14:00.",
+   "added": "2026-11-26"
   },
   {
    "source": "Ateliers & Saveurs",
@@ -8965,6 +9290,27 @@
   },
   {
    "source": "Ateliers & Saveurs",
+   "title": "Cuisine Du Monde: Ladoo coco",
+   "start": "2026-11-29T11:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/16693/sur-la-route-de-linde-un-voyage-tout-en-saveurs-a-votre-arrivee-un-tamarin-indian-sour-vous-sera-servi-une-invitation-a-levasion-des-la-premiere-gorgee/62730",
+   "end": "2026-11-29T14:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$105",
+   "price_lo": 105.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/90fdb0cffe80fe34.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "080d43898ba289ae9d02",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Ateliers & Saveurs",
    "title": "Le Menu Gourmand: Millefeuille croustillant, crème au chocolat noir et crème anglaise",
    "start": "2026-11-29T15:30:00-05:00",
    "url": "https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729",
@@ -8984,6 +9330,28 @@
    "id": "bfccaa567f2e8abf46d6",
    "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 15:30 à 18:30.",
    "added": ""
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Crème Diplomate, biscuits doigts de dame, fruits rouges, coulis de fraise",
+   "start": "2026-11-29T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/18944/recevoir-comme-un-chef-a-la-maison-un-verre-de-bulles-offert/62700",
+   "end": "2026-11-29T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/2e900dd1069b119f.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "0e21a34afea848063164",
+   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 18:00 à 21:00.",
+   "added": "2026-11-26"
   },
   {
    "source": "Ateliers & Saveurs",
@@ -9049,29 +9417,6 @@
    "tab": "other",
    "id": "c5b78054892a906b6eda",
    "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 03 décembre 18:00 à 20:00.",
-   "added": ""
-  },
-  {
-   "source": "Marchés publics",
-   "title": "Le temps des Fêtes au Marché Jean-Talon",
-   "start": "2026-12-04",
-   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
-   "end": "2026-12-06",
-   "location": "Marché Jean-Talon",
-   "kind": "exhibition",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
-   "all_day": true,
-   "tab": "other",
-   "id": "f1ecc333322673945c85",
-   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
    "added": ""
   },
   {
@@ -9441,29 +9786,6 @@
    "added": ""
   },
   {
-   "source": "Marchés publics",
-   "title": "Le temps des Fêtes au Marché Jean-Talon",
-   "start": "2026-12-11",
-   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
-   "end": "2026-12-13",
-   "location": "Marché Jean-Talon",
-   "kind": "exhibition",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
-   "all_day": true,
-   "tab": "other",
-   "id": "9c915786e45494fea664",
-   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
-   "added": ""
-  },
-  {
    "source": "Soft Studio Days",
    "title": "ceramic picture frame",
    "start": "2026-12-13T12:00:00-05:00",
@@ -9527,29 +9849,6 @@
    "added": ""
   },
   {
-   "source": "Marchés publics",
-   "title": "Le temps des Fêtes au Marché Jean-Talon",
-   "start": "2026-12-18",
-   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
-   "end": "2026-12-20",
-   "location": "Marché Jean-Talon",
-   "kind": "exhibition",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
-   "all_day": true,
-   "tab": "other",
-   "id": "fad610f58c38650de051",
-   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
-   "added": ""
-  },
-  {
    "source": "Casa del Popolo",
    "title": "Raquel and friends - a stand-up comedy show - EARLY SHOW",
    "start": "2026-12-18T19:30:00-05:00",
@@ -9578,8 +9877,8 @@
    "location": "P'tit Ours",
    "kind": "",
    "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
+   "price": "$22",
+   "price_lo": 22.0,
    "genres": [
     "Comedy"
    ],
@@ -16561,6 +16860,29 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Maisonneuve",
+   "start": "2026-11-28",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-maisonneuve",
+   "end": "2026-11-29",
+   "location": "Marché Maisonneuve",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/76/mpmtempsdesfetesrs2000x935msn.png?itok=GJTOmTv2",
+   "all_day": true,
+   "tab": "city",
+   "id": "c75ba1c721bd835cfe0b",
+   "about": "Temps des Fêtes au Marché Maisonneuve les 28-29 nov. Marché d'exposants et animations familiales gratuites. Célébrez Noël à Montréal!",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Café Réparation de Saint-Laurent",
    "start": "2026-11-28T10:00:00-05:00",
@@ -17645,6 +17967,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Marie Denise Pelletier - Noël, parle‑moi",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
+   "end": null,
+   "location": "Salle de spectacle de l’église Jean XXIII",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/736881ef640e4b21.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4e51d5791c7dcb5222",
+   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "La ferme ou comment nourrir un futur intelligent ATSA",
    "start": "2026-12-03T19:30:00-05:00",
@@ -17666,27 +18009,6 @@
    "id": "fe4f58e00ec86e33fb91",
    "about": "La FERME ou comment nourrir un futur intelligent est une pièce de théâtre documentaire qui dénonce avec humour et poésie les impacts non choisis de l'intelligence artificielle dans nos vies. Public : 14 ans et +",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Marie Denise Pelletier - Noël, parle‑moi",
-   "start": "2026-12-03T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
-   "end": null,
-   "location": "Salle de spectacle de l’église Jean XXIII",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season"
-   ],
-   "image": "img/736881ef640e4b21.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4e51d5791c7dcb5222",
-   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17792,6 +18114,29 @@
    "tab": "city",
    "id": "36a5c4629cb4609189f8",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
+   "added": ""
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-04",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-06",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
+   "all_day": true,
+   "tab": "city",
+   "id": "f1ecc333322673945c85",
+   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
    "added": ""
   },
   {
@@ -17903,27 +18248,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -17941,6 +18265,27 @@
    "tab": "city",
    "id": "5d3261ce84e3d1627887",
    "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
    "added": ""
   },
   {
@@ -18022,28 +18367,6 @@
    "tab": "city",
    "id": "333639c0958f35fd4d94",
    "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Mange, lis, aime : Rapatriement, d’Ève Guerra",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/mange-lis-aime-rapatriement-deve-guerra-118336",
-   "end": "2026-12-05T12:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes",
-    "Food & Drink"
-   ],
-   "image": "img/79348c62074afb52.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e7a7162b78f9a88bce59",
-   "about": "Mange, lis, aime : un voyage culinaire et littéraire. Découvrez la culture d’un pays ou d’un peuple grâce à la lecture d’un livre et la dégustation de mets traditionnels.",
    "added": "2026-11-26"
   },
   {
@@ -18233,6 +18556,46 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Étoile vagabonde - Compagnie musicale La Nef",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
+   "end": "2026-12-05T14:45:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows"
+   ],
+   "image": "img/4769cf2163815d8a.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "bf8463243dcad9cb9d4d",
+   "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Mario a un incroyable talent",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/mario-un-incroyable-talent-118330",
+   "end": "2026-12-05T14:55:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/c1e242875598be47.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "918626990d06b016a40c",
+   "about": "Un spectacle drôle et surprenant. Découvrez la talent de l'interprète Hugues Sarra-Bournet en famille.",
+   "added": ""
+  },
+  {
    "source": "Maisons de la culture",
    "title": "L’étrange Noël de monsieur Bougris - Qu’en dit Raton?",
    "start": "2026-12-05T14:00:00-05:00",
@@ -18254,25 +18617,6 @@
    "tab": "city",
    "id": "2ff7cb5fef98d04c23fb",
    "about": "Un Noël pas comme les autres attend Monsieur Bougris! 🎁 Inspiré des grands classiques du temps des Fêtes, ce spectacle mêle humour, musique, danse et tendresse pour raconter l’histoire d’un homme qui a oublié la magie de Noël. Une aventure festive qui réchauffe les cœurs de toute la famille. 🎄❤️",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Mario a un incroyable talent",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/mario-un-incroyable-talent-118330",
-   "end": "2026-12-05T14:55:00-05:00",
-   "location": "Maison de la culture Marie-Uguay",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/c1e242875598be47.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "918626990d06b016a40c",
-   "about": "Un spectacle drôle et surprenant. Découvrez la talent de l'interprète Hugues Sarra-Bournet en famille.",
    "added": ""
   },
   {
@@ -18423,28 +18767,6 @@
    "tab": "city",
    "id": "e9b040822cb960a6edba",
    "about": "As-tu été gentil(le) cette année? Bien sûr! Viens t'amuser avec nous! Les lutins ont préparé une série d'activités pour toi!",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Partageons le monde",
-   "start": "2026-12-06T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/partageons-le-monde-118618",
-   "end": "2026-12-06T11:20:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Dance",
-    "Art & Workshops"
-   ],
-   "image": "img/76a5d4901f4280a0.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "d62c6b53c4d4a551d6fb",
-   "about": "Arts visuels, contes, jeux, danse et musique : découvrez divers médiums artistiques et la richesse des cultures lors de cet atelier parents-enfants.",
    "added": "2026-11-26"
   },
   {
@@ -19555,6 +19877,52 @@
    "tab": "city",
    "id": "f97f46e15113edd9177c",
    "about": "Le Benoit Paradis Trio est un projet de chanson qui se démarque dans le paysage musical québécois par son esthétique « jazz sans prétentions », ses textes drôles et grinçants, son côté théâtral assumé et le haut niveau musical de ses interprètes.",
+   "added": ""
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-11",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-13",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
+   "all_day": true,
+   "tab": "city",
+   "id": "9c915786e45494fea664",
+   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
+   "added": ""
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-18",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-20",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
+   "all_day": true,
+   "tab": "city",
+   "id": "fad610f58c38650de051",
+   "about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!",
    "added": ""
   },
   {
@@ -21633,7 +22001,7 @@
    "all_day": true,
    "tab": "museums",
    "id": "684acfa632d07ee5b7f3",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Musées Montréal",
@@ -21895,7 +22263,7 @@
    "all_day": false,
    "tab": "museums",
    "id": "dddaf4a51a5f08458901",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Fais-moi l'art",
@@ -21931,7 +22299,7 @@
    "all_day": true,
    "tab": "museums",
    "id": "e9bf8a6af838b07b03db",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Fais-moi l'art",
@@ -22024,7 +22392,7 @@
    "all_day": false,
    "tab": "museums",
    "id": "24c10710ddb0eb240829",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Musées Montréal",
@@ -22817,7 +23185,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "7062e379f61ead4f7a25",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma du Musée",
@@ -24336,7 +24704,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "24c4081dc29cb07b5d9e",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma du Parc",
@@ -28173,7 +28541,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "e0f9fbbfe773f132b036",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma du Musée",
@@ -28761,7 +29129,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "3a476c2142125d4e6fc4",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma du Parc",
@@ -28798,7 +29166,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "4f231a99e8c4f7f7ae4d",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma Moderne",
@@ -29158,7 +29526,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "92b2b26261070b4b50d3",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma Moderne",
@@ -29214,7 +29582,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "b1e6eeccae148446dd84",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma Moderne",
@@ -29251,7 +29619,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "e7fb664108bdf2a1f605",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma Moderne",
@@ -29307,7 +29675,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "0c3b0f77440ff38e3c5e",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Montreal Art Center",
@@ -29325,7 +29693,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "ef501bb114c04fb46430",
-   "added": ""
+   "added": "2026-11-26"
   },
   {
    "source": "Montreal Art Center",
@@ -29343,7 +29711,7 @@
    "all_day": false,
    "tab": "movies",
    "id": "c0b8ab6b14b8881dc400",
-   "added": ""
+   "added": "2026-11-26"
   }
  ]
 }

@@ -1014,9 +1014,10 @@ def trivianearme(weeks: int = 4) -> list[Ev]:
 # add a line when a new spelling shows up.
 ROOM_NAMES = {
     "casa del popolo": "Casa del Popolo",
-    "sala resto": "La Sala Rossa (restaurant)",
+    "sala resto": "La Sala Rossa",            # the Sala Rossa's restaurant room
     "sat – other": "SAT",
-    "sat – sat space": "SAT – Espace SAT",
+    "sat – sat space": "SAT",                 # the main hall; "SAT" alone means the same building
+    "sat – satosphere": "SAT – Satosphère",
     "esc, h2x 2t3": "ESC, 2023 boul. Saint-Laurent",
     "esc": "ESC, 2023 boul. Saint-Laurent",
     "2000 av. northcliffe, montréal, qc h4a 3k5, canada": "Soft Studio Days, 2000 av. Northcliffe #216",
@@ -1989,6 +1990,12 @@ def tag_genres(e: Ev, tab: str) -> None:
     if e.source in JAZZ_ROOMS:   # a "Quartet" at a jazz club isn't classical; "Matt Rock" plays the blues
         tags = [g for g in tags if g not in ("Classical & Choral", "Rock & Indie", "Pop & Throwback")]
         tags = tags + ["Jazz & Blues"] if "Jazz & Blues" not in tags else tags
+    if tab == "music":
+        music_tags = [g for g in tags if g not in non_music and g != "Live Music"]
+        if music_tags:
+            # "Live Music" only says it's a band when nothing better is known; a DJ called "DJ Cinéma" isn't a film,
+            # a market held at a club isn't music. (Holiday Season stays: Christmas and New Year shows.)
+            tags = [g for g in tags if g not in ("Live Music", "Film", "Markets & Fairs")]
     order = [g for g, _ in GENRES]
     e.genres = sorted(set(tags), key=order.index)
 
@@ -1997,10 +2004,11 @@ def tag_genres(e: Ev, tab: str) -> None:
 # Whole sources that are never music:
 OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library",
                  "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours",
-                 "Marchés publics", "Holiday markets", "Ateliers & Saveurs"}
+                 "Holiday markets", "Ateliers & Saveurs"}
 # Run by the City of Montreal (montreal.ca): their own tab
 FREE_TO_BARS = {"Bootlegger", "Bistro à Jojo"}   # their free nights go in Bar Nights; paid ones stay in Music & Dance
-CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues"}
+CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues",
+                "Marchés publics"}   # the public markets (Jean-Talon, Atwater, Maisonneuve…)
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand", "TriviaNearMe"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
