@@ -254,21 +254,23 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", museums: "Museums & Galleries", movies: "Movies",
+const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", city: "City Events",
+                    museums: "Museums & Galleries", movies: "Movies",
                     date: "By Date" };
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
-                      bars: "Search bars, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
+                      bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
                       date: "Search this day…" };
 // "By Date" view: everything on one day, in this order of types
 const DAY_GROUPS = [
   ["Music & Dance", e => e.tab === "music"],
   ["Other Events", e => e.tab === "other"],
   ["Bar Nights", e => e.tab === "bars"],
+  ["City Events", e => e.tab === "city"],
   ["Museum events", e => e.tab === "museums" && e.kind !== "exhibition"],
   ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
   ["Movies", e => e.tab === "movies"],
 ];
-const EVENT_TABS = ["music", "other", "bars"];   // tabs filtered by venue chips
+const EVENT_TABS = ["music", "other", "bars", "city"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -486,7 +488,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   })();
   const priceKnown = e => e.free || e.price_lo != null;
   const hasPrices = list => list.some(priceKnown);
-  const genreTabs = ["music", "other", "date"];
+  const genreTabs = ["music", "other", "city", "date"];
   // Current filter settings; counts pass overrides to ask "how many if this button were on?"
   const cur = () => ({ when, slot, price, genres: genreSel, fresh });
   function passes(e, list, st = cur()) {
@@ -716,10 +718,15 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (!shown.length) { list.innerHTML = `<p class="empty">${picksOnly ? "Nothing selected in this tab yet." : "Nothing matches."}</p>`; return; }
     // "Tonight's picks": big cards on top of Music & Dance and Other Events when no filter or search is on
     const filtering = term || picksOnly || fresh || when !== "any" || slot !== "any" || price !== "any" || genreSel.size;
-    if ((tab === "music" || tab === "other") && !filtering) {
+    if ((tab === "music" || tab === "other" || tab === "city") && !filtering) {
       const daysAgo = s => s ? (noon(today) - noon(s)) / 864e5 : 99;
+      const g = e => new Set(e.genres || []);
+      const SHOWY = ["Live Music", "Theatre & Shows", "Classical & Choral", "Comedy", "Film", "Jazz & Blues", "Dance"];
       const score = e => (e.pick ? 10 : 0) + (daysAgo(e.added) <= 3 ? 3 : 0) + (isNew(e) ? 2 : 0)
-                         + (e.free || e.price_lo != null ? 1 : 0) + (e.genres && e.genres.length ? .5 : 0);
+                         + (e.free || e.price_lo != null ? 1 : 0) + (e.genres && e.genres.length ? .5 : 0)
+                         + (SHOWY.some(x => g(e).has(x)) ? 1.5 : 0)                          // a night out…
+                         - (g(e).has("Civic & Community") ? 4 : 0) - (g(e).has("Talks & Quizzes") ? 1 : 0)   // …not a meeting
+                         - (/sold out|complet\b/i.test(e.title) ? 5 : 0);                                        // nor a sold-out one
       const tonight = shown.filter(e => e.key === today && e.image && e.kind !== "exhibition")
                            .sort((a, b) => score(b) - score(a) || a.d - b.d).slice(0, 4);
       if (tonight.length >= 2) {

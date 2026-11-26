@@ -4,7 +4,7 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 
 - `docs/index.html` – a filterable web page
 - one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
-  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `museums.ics`, `movies.ics`.
+  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `city.ics` (City Events), `museums.ics`, `movies.ics`.
   `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
 On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
@@ -148,7 +148,7 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 | Added by hand (one-off) | `ONE_OFF_BY_HAND` in `scrape.py`: single events from organizers whose pages can't be read automatically (e.g. Heures ouvrables on Instagram / Zeffy). The tab follows the source name; past dates drop off. |
-| Ville de Montréal (Maisons de la culture, Bibliothèques de Montréal) — Other Events | montreal.ca/evenements, next 14 days: every Maison de la culture event, and adult cultural library events (talks, author meetings, readings, concerts, screenings; no storytime, homework help, chess…). Price and description from each event page. (biblio.montreal.ca itself sits behind a bot check.) |
+| Ville de Montréal — **City Events tab** (`docs/city.ics`) | montreal.ca/evenements, next 14 days, everything put on by the City: every Maison de la culture event; adult cultural library events (talks, author meetings, readings, concerts, screenings; no storytime, homework help, chess…); and shows, concerts, talks, workshops and park events at other city venues (cultural and community centres, halls, parks). Left out: council meetings, fitness classes, conversation groups, kids'/teen activities, postponed events. Sold-out shows are marked. (biblio.montreal.ca itself sits behind a bot check.) |
 | Marchés publics — Other Events | marchespublics-mtl.com events: each weekend range ('4 - 6 décembre 2026') is one multi-day entry; toddler workshops skipped |
 | Ateliers & Saveurs — Other Events | the public agenda pages (cooking, cocktail, wine): Montreal branches, next 14 days, classes with places left. Their JSON feed answers 403, so it isn't used. |
 | Holiday markets — Other Events | `SEASONAL_BY_HAND` in `scrape.py` (Grand Marché de Noël, Village de Noël at Atwater; dates from mtl.org). Multi-day entries show under "Ongoing". |
