@@ -53,6 +53,8 @@ class Ev:
     genres: list[str] = field(default_factory=list)   # e.g. ["Techno", "Electronic"]
     blurb: str = ""                      # short description from the venue (used for tags; not published)
     image: str = ""                      # flyer / poster / photo URL, when the source has one
+    lat: float | None = None             # where it is, for the map (see place_events)
+    lng: float | None = None
 
     @property
     def all_day(self) -> bool:
@@ -1580,6 +1582,8 @@ def to_json(e: Ev, tab: str) -> dict:
     blurb = re.sub(r"\s*\|?\s*BILLETS\s*\|\s*TICKETS\s*$", "", d.pop("blurb", "") or "").strip()
     if blurb:   # a short "about" for the detail panel (not the whole description)
         d["about"] = blurb if len(blurb) <= 280 else blurb[:277].rsplit(" ", 1)[0] + "…"
+    if e.lat is None or e.lng is None:
+        d.pop("lat"); d.pop("lng")
     d["added"] = FIRST_SEEN.get(d["id"], "")
     if any(p.lower() in e.title.lower() for p in EDITOR_PICKS):
         d["pick"] = True
@@ -1701,6 +1705,195 @@ def fill_images(events: list[Ev], budget: int = 120) -> None:
                            encoding="utf-8")
 
 
+# --------------------------------------------------------------------- map
+# Fixed venues: (lat, lng), checked against each venue's street address on 2026-11-26. Keys are matched against
+# an event's location first ("La Sala Rossa", "Turbo Haüs, 2040 R. Saint-Denis…", "SAT – Satosphere"), then its
+# source. Everything else is looked up once on OpenStreetMap (see geocode).
+VENUE_COORDS: dict[str, tuple[float, float]] = {
+    "Stereo": (45.51594, -73.55814),                # 858 Sainte-Catherine E
+    "StereoBar": (45.51604, -73.55821),             # 856 Sainte-Catherine E
+    "SAT": (45.50966, -73.56258),                   # 1201 Saint-Laurent (all its rooms)
+    "Casa del Popolo": (45.52180, -73.59043),       # 4873 Saint-Laurent
+    "La Sala Rossa": (45.52177, -73.59049),         # 4848 Saint-Laurent
+    "La Sotterenea": (45.52177, -73.59049),         # Sala Rossa's basement
+    "Sala Resto": (45.52177, -73.59049),
+    "La Toscadura": (45.51925, -73.58491),          # 4388 Saint-Laurent
+    "P'tit Ours": (45.52264, -73.60270),            # 5589 av. du Parc
+    "Turbo Haüs": (45.51605, -73.56592),            # 2040 Saint-Denis
+    "Théâtre Fairmount": (45.52048, -73.59851),     # 5240 av. du Parc
+    "Bar Le Ritz PDB": (45.53273, -73.62036),       # 179 Jean-Talon O
+    "New City Gas": (45.49513, -73.55752),          # 950 Ottawa
+    "Quai des Brumes": (45.52392, -73.58251),       # 4481 Saint-Denis
+    "L'Escogriffe": (45.52391, -73.58230),          # 4467 Saint-Denis
+    "Le Belmont": (45.52013, -73.58602),            # 4483 Saint-Laurent
+    "Le Red Room": (45.51632, -73.56588),           # 2037 Saint-Denis
+    "Newspeak": (45.51246, -73.56215),              # 1403 Sainte-Élisabeth
+    "Vino Disco": (45.50915, -73.56287),            # 1192 Saint-Laurent
+    "Bar Datcha": (45.52188, -73.59365),            # 98 Laurier O
+    "Salon Daomé": (45.52007, -73.58583),           # 4465 Saint-Laurent
+    "Ausgang Plaza": (45.53635, -73.60385),         # 6524 Saint-Hubert
+    "Sans Soleil": (45.50656, -73.56051),           # 1002 Saint-Urbain
+    "Blue Room": (45.51657, -73.57904),             # 3956 Saint-Laurent
+    "Système": (45.54052, -73.61250),               # 7119 Saint-Hubert
+    "Eastern Bloc": (45.54465, -73.65583),          # 55 de Louvain O
+    "Espace Transmission": (45.54067, -73.58203),   # 5435 des Érables
+    "Montreal Art Center": (45.48698, -73.56716),   # 1844 William
+    "FOIL": (45.52901, -73.61232),                  # 6560 Waverly
+    "MBAM": (45.49870, -73.57938),                  # 1380 Sherbrooke O
+    "Montreal Museum of Fine Arts": (45.49870, -73.57938),
+    "McCord Museum": (45.50443, -73.57369),         # 690 Sherbrooke O
+    "Occurrence": (45.52719, -73.59564),            # 5455 de Gaspé
+    "Cinéma Beaubien": (45.54807, -73.59209),       # 2396 Beaubien E
+    "Cinéma du Parc": (45.51046, -73.57500),        # 3575 av. du Parc
+    "Cinéma du Musée": (45.49869, -73.58002),       # 1379A Sherbrooke O
+    "Cinéma Moderne": (45.52340, -73.59390),        # 5150 Saint-Laurent
+    "Place des Festivals": (45.50744, -73.56737),
+    "Place du Marché Atwater": (45.47853, -73.57605),   # 138 Atwater
+    # Other Events places OpenStreetMap doesn't know by name
+    "Ateliers & Saveurs Vieux-Montréal": (45.50335, -73.55653),        # 444 Saint-François-Xavier
+    "Ateliers & Saveurs Time Out Market": (45.50300, -73.57128),       # 705 Sainte-Catherine O
+    "Ateliers & Saveurs Plateau Mont-Royal": (45.52163, -73.59011),    # 4832 Saint-Laurent
+    "Maison de la culture Marie-Uguay": (45.45769, -73.59545),         # 6052 boul. Monk
+    "Maison de la culture Notre-Dame-de-Grâce – Botrel": (45.47559, -73.61507),     # 3755 Botrel
+    "Maison de la culture Notre-Dame-de-Grâce – Monkland": (45.46638, -73.63096),   # 6400 Monkland
+    "Maison de la culture de Côte-des-Neiges": (45.49592, -73.62229),  # 5290 Côte-des-Neiges
+    "Maison de la culture du Plateau-Mont-Royal": (45.52488, -73.58246),   # 465 Mont-Royal E
+    "Maison de la culture de Parc-Extension": (45.53154, -73.62949),   # 421 Saint-Roch
+    "Maison de la culture de Rosemont–La Petite-Patrie": (45.54741, -73.59829),   # 6707 De Lorimier
+    "Bibliothèque William-G.-Boll": (45.50262, -73.81455),             # 110 Cartier (Roxboro)
+    "Bibliothèque de Notre-Dame-de-Grâce": (45.47559, -73.61507),      # 3755 Botrel (with the Maison de la culture)
+}
+_VENUE_KEYS = sorted(((re.sub(r"[^a-z0-9]+", " ", _plain(k)).strip(), v) for k, v in VENUE_COORDS.items()),
+                     key=lambda kv: -len(kv[0]))
+GEO_CACHE = OUT / "geo_cache.json"   # location text -> [lat, lng], or the date it wasn't found; kept between runs
+# Locations that are no place in particular
+NO_PLACE = re.compile(r"^\W*(montr[ée]al|house show\b.*|online|en ligne|tba|tbd|to be announced|secret location)\W*$", re.I)
+NOMINATIM = "https://nominatim.openstreetmap.org/search"
+MTL_BOX = "-74.10,45.75,-73.30,45.35"   # Greater Montreal (lon/lat of two corners): results outside it are ignored
+
+
+def _venue_coords(text: str) -> tuple[float, float] | None:
+    p = re.sub(r"[^a-z0-9]+", " ", _plain(text or "")).strip()
+    for k, v in _VENUE_KEYS:
+        if p == k or p.startswith(k + " "):
+            return v
+    return None
+
+
+def _street(addr: str) -> str:
+    """'2496 R. Notre Dame O Montreal QC' -> '2496 Rue Notre Dame Ouest, Montréal'; '1426 Bishop St' -> '1426 Rue Bishop'."""
+    a = re.sub(r"\s*,?\s*montr[ée]al\b.*$", "", addr, flags=re.I)
+    a = re.sub(r"\bR\.\s*", "Rue ", a)
+    a = re.sub(r"\bAv\.?(?=\s)", "Avenue", a, flags=re.I)
+    a = re.sub(r"\b(?:Boul\.?|Blvd\.?|Bd)(?=\s)", "Boulevard", a, flags=re.I)
+    a = re.sub(r"\bSt\.?\s+Catherine\b", "Sainte-Catherine", a, flags=re.I)
+    m = re.match(r"^(\d+)\s+(.+?)\s+(St|Street|Ave|Avenue|Blvd|Rd|Road)\.?(?=\s|$)(.*)$", a, re.I)
+    if m:   # English order ('Bishop St') -> French order ('Rue Bishop')
+        kind = {"st": "Rue", "street": "Rue", "ave": "Avenue", "avenue": "Avenue", "blvd": "Boulevard",
+                "rd": "Chemin", "road": "Chemin"}[m.group(3).lower()]
+        a = f"{m.group(1)} {kind} {m.group(2)}{m.group(4)}"
+    a = re.sub(r"\bSt\.?\s+(?=[A-Z])", "Saint-", a)
+    a = re.sub(r"\s(?:O|W|West)\.?$", " Ouest", a.strip())
+    a = re.sub(r"\s(?:E|East)\.?$", " Est", a)
+    return clean(a) + ", Montréal"
+
+
+def _geo_queries(loc: str) -> list[str]:
+    """What to ask OpenStreetMap for a free-text location, best guess first: the whole text; for 'Bar name, 123 Street'
+    the street address, tidied; for 'Biosphère - Espace pour la vie' the part before the dash. Floors, suites and
+    notes in brackets are dropped; ', Montréal' is added when missing."""
+    loc = re.sub(r"\([^)]*\)|#\s?\d+\w*|\b\d+(?:st|nd|rd|th|e|ème)?\s+(?:floor|étage)\b|\b(?:suite|local|espace)\s+\d+\w*",
+                 " ", loc, flags=re.I)
+    loc = re.sub(r"\s+,", ",", clean(loc)).strip(" ,")
+    city = lambda s: s if re.search(r"montr[ée]al|\bQC\b|québec|quebec", s, re.I) else s + ", Montréal"
+    out = [city(loc)]
+    parts = [p.strip() for p in re.split(r",|\s[-–—]\s", loc) if p.strip()]
+    addr = next((p for p in re.split(r",", loc)[1:] if re.match(r"\s*\d", p)), None)
+    if addr:
+        out.append(_street(addr.strip()))
+    elif len(parts) > 1 and not re.match(r"\d", parts[0]):
+        out += [city(p) for p in parts[:2]]
+    return list(dict.fromkeys(out))
+
+
+def geocode(query: str) -> tuple[float, float] | None:
+    """One OpenStreetMap Nominatim search, limited to Greater Montreal. Usage policy: at most 1 request a second,
+    an identifying User-Agent, results cached (geo_cache.json) so each place is asked about only once."""
+    import os
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    ua = "go-out-montreal-calendar/1.0" + (f" (+https://github.com/{repo})" if repo else "")
+    r = requests.get(NOMINATIM, timeout=30, headers={"User-Agent": ua, "Accept-Language": "fr,en"},
+                     params={"q": query, "format": "jsonv2", "limit": 1, "countrycodes": "ca",
+                             "viewbox": MTL_BOX, "bounded": 1})
+    r.raise_for_status()
+    hits = r.json()
+    if not hits:
+        return None
+    if not re.match(r"\s*\d", query):
+        # A search by name can land on a look-alike ('Maison de la culture de Parc-Extension' -> 'Maison de la culture
+        # Claude-Léveillée'): keep it only if the place's name shares a distinctive word with the query.
+        words = lambda s: set(re.findall(r"[a-z0-9]{4,}", _plain(s))) - GEO_COMMON_WORDS
+        want = words(query.rsplit(",", 1)[0] if query.endswith("Montréal") else query)
+        if want and not want & words(hits[0].get("name") or ""):
+            return None
+    return round(float(hits[0]["lat"]), 5), round(float(hits[0]["lon"]), 5)
+
+
+GEO_COMMON_WORDS = {"maison", "culture", "bibliotheque", "montreal", "musee", "museum", "galerie", "gallery", "centre",
+                    "site", "historic", "historique", "historical", "pour", "espace", "avec", "with", "brasserie",
+                    "cuisine", "cocktail", "taverne", "artisanale", "quebec", "canada", "lieu", "patrimonial", "heritage",
+                    "local", "history", "complex", "archaeology"}
+
+
+def place_events(events: list[Ev], budget: int = 150, retry_days: int = 30) -> None:
+    """Give each event a lat/lng for the map: fixed venues from VENUE_COORDS, other locations from OpenStreetMap
+    (at most `budget` new places per run, 1 request a second; places not found are tried again after `retry_days`)."""
+    import time as _time
+    try:
+        cache = json.loads(GEO_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    today = datetime.now(TZ).date()
+    last_call = 0.0
+    stopped = False
+    placed = 0
+    for e in events:
+        loc = clean(e.location)
+        hit = _venue_coords(loc) if loc else None
+        if not hit and (not loc or loc.lower() == e.source.lower() or NO_PLACE.match(loc)):
+            hit = _venue_coords(e.source)   # "Montréal" or no location: the source's own venue, if it has one
+        if not hit and loc and not NO_PLACE.match(loc):
+            c = cache.get(loc)
+            stale = isinstance(c, str) and (today - date.fromisoformat(c)).days >= retry_days
+            if (c is None or stale) and budget > 0 and not stopped:
+                budget -= 1
+                found = None
+                for q in _geo_queries(loc):
+                    wait = 1.1 - (_time.monotonic() - last_call)
+                    if wait > 0:
+                        _time.sleep(wait)
+                    try:
+                        found = geocode(q)
+                    except (requests.RequestException, ValueError) as ex:
+                        print(f"    (OpenStreetMap lookup stopped for this run: {ex})")
+                        stopped = True   # blocked or down: don't keep knocking; try the rest next run
+                        break
+                    finally:
+                        last_call = _time.monotonic()
+                    if found:
+                        break
+                if not stopped:
+                    cache[loc] = list(found) if found else today.isoformat()
+                c = cache.get(loc)
+            if isinstance(c, list):
+                hit = tuple(c)
+        if hit:
+            e.lat, e.lng = hit
+            placed += 1
+    print(f"  map: {placed} of {len(events)} events placed")
+    GEO_CACHE.write_text(json.dumps(dict(sorted(cache.items())), ensure_ascii=False, indent=0), encoding="utf-8")
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(exist_ok=True)
@@ -1731,6 +1924,11 @@ def main() -> int:
                 traceback.print_exc(limit=2)
 
     fill_images([e for evs in by_tab.values() for e in evs])
+    try:
+        place_events([e for evs in by_tab.values() for e in evs])
+    except Exception as ex:   # the map is a nice-to-have: never let it stop the feed
+        print(f"  (placing events on the map failed: {ex})")
+        traceback.print_exc(limit=2)
     update_first_seen([e for evs in by_tab.values() for e in evs])
     payload_events, tabs = [], {}
     for tab, (title, feed) in TABS.items():
