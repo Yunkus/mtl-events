@@ -4,7 +4,7 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 
 - `docs/index.html` – a filterable web page
 - one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
-  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `city.ics` (City Events), `museums.ics`, `movies.ics`.
+  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `city.ics` (City Events), `oysters.ics` (Oysters), `museums.ics`, `movies.ics`.
   `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
 On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
@@ -50,6 +50,13 @@ Type row on Other Events, City Events and By Date: the 8 biggest, the rest behin
 the counts on the tabs, follows the other active filters and the search box, so a combination with no results
 shows 0 before you tap it. Venues with nothing upcoming
 get no button.
+
+## Oysters tab
+
+Discounted oyster nights, by hand in `OYSTER_DEALS` in `scrape.py`: place, address, days, hours, price per
+oyster, conditions, and where the deal was confirmed. Only deals confirmed by the place itself or a 2026 source
+are listed (checked 2026-11-26); each repeats for the next 3 weeks. Deals change with the season and supply
+(an Atlantic oyster parasite pushed prices up in 2026), so re-check them every few months.
 
 ## Alerts
 

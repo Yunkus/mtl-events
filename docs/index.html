@@ -332,11 +332,11 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", city: "City Events",
+const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", city: "City Events", oysters: "Oysters",
                     museums: "Museums & Galleries", movies: "Movies",
                     date: "By Date" };
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
-                      bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
+                      bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", oysters: "Search restaurants, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
                       date: "Search this day…" };
 // "By Date" view: everything on one day, in this order of types
 const DAY_GROUPS = [
@@ -344,11 +344,12 @@ const DAY_GROUPS = [
   ["Other Events", e => e.tab === "other"],
   ["Bar Nights", e => e.tab === "bars"],
   ["City Events", e => e.tab === "city"],
+  ["Oyster deals", e => e.tab === "oysters"],
   ["Museum events", e => e.tab === "museums" && e.kind !== "exhibition"],
   ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
   ["Movies", e => e.tab === "movies"],
 ];
-const EVENT_TABS = ["music", "other", "bars", "city"];   // tabs filtered by venue chips
+const EVENT_TABS = ["music", "other", "bars", "city", "oysters"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -526,7 +527,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const bad = Object.keys(sources).filter(n => srcTab(n) === id && !sources[n].ok);
     $("meta").textContent = `${events.filter(e => e.tab === id).length} upcoming · updated ${gen}` +
       (bad.length ? ` · not updating: ${bad.join(", ")}` : "");
-    $("hint").textContent = id === "movies" ? "Tap showtimes to select them." : "Tick events to add just those to your calendar.";
+    $("hint").textContent = id === "movies" ? "Tap showtimes to select them."
+      : id === "oysters" ? "Price per oyster. Each deal was confirmed on Nov 26, 2026 (tap one to see where). They change with the season and supply, so call ahead."
+      : "Tick events to add just those to your calendar.";
     buildChips(); render();
   }
 
@@ -586,7 +589,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (st.when === "weekend" && ![...weekendKeys].some(k => onDay(e, k))) return false;
     if (st.slot === "late" && !isLate(e)) return false;
     if (st.slot === "early" && !isEarly(e)) return false;
-    if (st.price !== "any" && hasPrices(list) && priceKnown(e)) {   // unknown prices stay visible, marked as such
+    if (st.price !== "any" && e.tab !== "oysters" && hasPrices(list) && priceKnown(e)) {   // unknown prices stay visible, marked as such; oyster prices are per oyster
       if (st.price === "free" && !e.free) return false;
       if (st.price === "under20" && !(e.free || e.price_lo < 20)) return false;
     }
@@ -654,12 +657,12 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
         opt("This weekend", when === "weekend", cnt({ when: "weekend" }), () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
     }
     const exhibitionView = tab === "museums" && museumView !== "events";   // shows have no start time or price
-    if (!exhibitionView && inTab.some(e => !e.all_day)) {
+    if (!exhibitionView && tab !== "oysters" && inTab.some(e => !e.all_day)) {
       row1.append(el("span", "sep"),
         opt("Early shows", slot === "early", cnt({ slot: "early" }), () => { slot = slot === "early" ? "any" : "early"; redo(); }),
         opt("Late night 10 pm+", slot === "late", cnt({ slot: "late" }), () => { slot = slot === "late" ? "any" : "late"; redo(); }));
     }
-    if (!exhibitionView && hasPrices(inTab)) {
+    if (!exhibitionView && hasPrices(inTab) && tab !== "oysters") {   // oyster prices are per oyster
       const setPrice = v => () => { price = price === v ? "any" : v; store.set("priceFilter", price); redo(); };
       // price counts are the events known to match (unknown prices stay listed but aren't counted)
       row1.append(el("span", "sep"),

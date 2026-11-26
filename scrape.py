@@ -1124,6 +1124,54 @@ IGLOOFEST_2027 = [
 ]
 
 
+# Oyster deals (Oysters tab). Only deals confirmed by the place itself or a 2026 source; checked 2026-11-26.
+# Deals change with the season and supply, so each listing says where it was confirmed.
+# (place, address, weekdays 0=Mon, start, end or None for "to closing", price per oyster or None,
+#  price text, conditions, where it was confirmed, link)
+OYSTER_DEALS = [
+    ("Bar Dominion", "1243 rue Metcalfe", [6, 0], time(16, 0), None, 1.0, "$1 / oyster",
+     "All evening, Sundays and Mondays.", "Restomontreal, Jan 2026",
+     "https://www.restomontreal.ca/article/bar-dominion-makes-sundays-and-mondays-delicious/2496/en/"),
+    ("La Part des Anges", "5425 rue Chapleau", [2, 3, 4, 5, 6], time(17, 0), None, 1.0, "$1 / oyster",
+     "Every day it's open (Wed–Sun), 5 pm to closing, while supplies last. Up to 12 per person at $1, then regular "
+     "price; $15 minimum spend per person.", "the restaurant's own site",
+     "https://www.lapartdesanges.ca/huitres-1-montreal-rosemont"),
+    ("Joséphine", "4007 rue Saint-Denis", [2], time(17, 0), None, 1.25, "$1.25 / oyster",
+     "Wednesdays. Not combinable with other offers.", "the restaurant's promotions page (Restomontreal)",
+     "https://www.restomontreal.ca/resto/josephine-montreal/12440/en/promos/"),
+    ("Joséphine", "4007 rue Saint-Denis", [1, 3, 4, 5], time(17, 0), time(19, 0), None, "half price",
+     "Happy hour (5 à 7), Tuesday to Saturday: oysters at half price. (On Wednesdays the $1.25 deal applies "
+     "instead.)", "the restaurant's promotions page (Restomontreal)",
+     "https://www.restomontreal.ca/resto/josephine-montreal/12440/en/promos/"),
+    ("Chez Victoire", "1453 avenue du Mont-Royal Est", [2], time(17, 0), None, 1.0, "$1 / oyster",
+     "Wednesdays.", "Tastet, Oct 2026", "https://tastet.ca/en/lists/where-to-eat-great-oysters-in-montreal/"),
+    ("Bootlegger", "3481 boul. Saint-Laurent", [6], time(17, 0), None, 1.0, "$1 / oyster",
+     "Sundays (jazz night), while supplies last; the bar says to come early and reserve. Depends on arrivals.",
+     "the bar's own site (Sept 2026) and Restomontreal (Aug 2026)",
+     "https://barbootlegger.com/one-dollar-oysters-montreal/"),
+    ("Le Majestique", "4105 boul. Saint-Laurent", [0, 1, 2, 3, 4, 5, 6], time(17, 0), time(19, 0), 2.5,
+     "$2.50 / oyster", "Happy hour, until 7 pm (the source doesn't say which days; call ahead).",
+     "Tastet, Oct 2026", "https://tastet.ca/en/lists/where-to-eat-great-oysters-in-montreal/"),
+]
+OYSTER_PLACES = {d[0] for d in OYSTER_DEALS}
+
+
+def oyster_deals(weeks: int = 3) -> list[Ev]:
+    today = datetime.now(TZ).date()
+    out = []
+    for place, addr, days, start, end, each, label, terms, where, url in OYSTER_DEALS:
+        for w in range(weeks):
+            for wd in days:
+                d = today + timedelta(days=(wd - today.weekday()) % 7 + 7 * w)
+                s = local(d, start)
+                title = f"{'Half-price' if each is None else label.split(' /')[0]} oysters at {place}"
+                ev = Ev(place, title, s, url, local(d, end) if end else None, f"{place}, {addr}", kind="Oyster deal")
+                ev.desc = f"{terms}\n\nConfirmed by {where}; checked Nov 26, 2026. Deals change with the season, so call ahead."
+                ev.genres = ["Food & Drink"]
+                out.append(priced(ev, False, each, text=label))
+    return out
+
+
 def by_hand(weeks: int = 4) -> list[Ev]:
     today = datetime.now(TZ).date()
     out = []
@@ -1720,6 +1768,7 @@ EVENT_SOURCES = {
                                          "Comedy Open Mic"),
     "Karaoke Nights": lambda: badslava("karaoke-nights.php?city=Montreal&state=QC", "Karaoke Nights", "Karaoke"),
     "Added by hand": by_hand,   # events carry their own chip name (e.g. "Trivia Nights")
+    "Oyster deals": oyster_deals,   # Oysters tab; each place is its own chip
     # more bar trivia (after badslava and the by-hand list, so those win when both list the same night)
     "TriviaNearMe": trivianearme,
 }
@@ -1910,7 +1959,7 @@ JAZZ_ROOMS = {"Dièse Onze", "Bistro à Jojo"}
 
 
 def tag_genres(e: Ev, tab: str) -> None:
-    if tab in ("museums", "movies"):
+    if tab in ("museums", "movies", "oysters"):
         return
     tags = list(dict.fromkeys(e.genres + genres_in(e.title) + genres_in(e.blurb)))
     if is_comedy(e):
@@ -1961,6 +2010,8 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 
 
 def event_tab(e: Ev) -> str:
+    if e.kind == "Oyster deal":
+        return "oysters"
     if e.source in CITY_SOURCES:
         return "city"
     if e.source in BAR_SOURCES:
@@ -1969,6 +2020,8 @@ def event_tab(e: Ev) -> str:
 
 
 def source_tab(name: str) -> str:
+    if name == "Oyster deals":
+        return "oysters"
     if name in CITY_SOURCES:
         return "city"
     return "bars" if name in BAR_SOURCES else "other" if name in OTHER_SOURCES else "music"
@@ -1980,6 +2033,7 @@ TABS = {
     "other": ("Montreal Other Events", "other.ics"),
     "bars": ("Montreal Bar Nights", "bars.ics"),
     "city": ("Montreal City Events", "city.ics"),
+    "oysters": ("Montreal Oyster Deals", "oysters.ics"),
     "museums": ("Montreal Museums & Galleries", "museums.ics"),
     "movies": ("Montreal Movies", "movies.ics"),
 }
@@ -2160,6 +2214,7 @@ def fill_page_info(events: list[Ev], budget: int = 250) -> None:
         if e.url:
             titles[e.url].add(e.title.lower())
     wanted = [e for e in events if e.url and len(titles[e.url]) <= 3 and not any(d in e.url for d in NO_IMAGE_LOOKUP)
+              and e.kind != "Oyster deal"   # their links are guides and promo pages: the picture isn't the place's
               and (not e.image or not (e.desc or e.blurb))]
     todo = list(dict.fromkeys(e.url for e in wanted if "about" not in cache.get(e.url, {})))[:budget]
 
