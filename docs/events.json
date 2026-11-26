@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T02:44-05:00",
+ "generated": "2026-11-26T02:48-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 443
+   "count": 426
   },
   "other": {
    "title": "Montreal Other Events",
@@ -111,12 +111,11 @@
    "zero_alerted": false
   },
   "Bootlegger": {
-   "ok": true,
-   "count": 17,
+   "ok": false,
+   "error": "ConnectionError: HTTPSConnectionPool(host='barbootlegger.com', port=443): Max retries exceeded with url: /event/ (Caused by NewConnectionError(\"HTTPSConnection(host='barbootlegger.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
    "tab": "music",
    "last_count": 17,
-   "zero_streak": 0,
-   "zero_alerted": false
+   "fail_streak": 1
   },
   "LATEX.": {
    "ok": true,
@@ -131,7 +130,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 27,
+   "zero_streak": 28,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -139,7 +138,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 54,
+   "zero_streak": 55,
    "zero_alerted": true
   },
   "Stereo": {
@@ -211,7 +210,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 54,
+   "zero_streak": 55,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -243,8 +242,8 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 7,
-   "zero_alerted": false
+   "zero_streak": 8,
+   "zero_alerted": true
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -283,7 +282,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 44,
+   "zero_streak": 45,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -299,7 +298,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 39,
+   "zero_streak": 40,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -355,7 +354,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 54,
+   "zero_streak": 55,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -451,7 +450,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 44,
+   "zero_streak": 45,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -1072,27 +1071,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-11-27T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-11-28T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "4273e6e1a7962d052baa",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Le Belmont",
    "title": "Harry Potter and the Montreal Rave",
    "start": "2026-11-27T21:00:00-05:00",
@@ -1603,27 +1581,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-11-28T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-11-29T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "5f2ff137ea3e73586a02",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Turbo Haüs",
    "title": "Class of 91 + Blurry Eyes + Cleanse + Testa Dura",
    "start": "2026-11-28T21:00:00-05:00",
@@ -2071,28 +2028,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Sunday Live Jazz Band",
-   "start": "2026-11-29T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
-   "end": "2026-11-29T23:59:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues",
-    "Live Music"
-   ],
-   "image": "img/aa1402f5b5df39f1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "d3426582c54b375cc812",
-   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Quai des Brumes",
    "title": "Tarikuna",
    "start": "2026-11-29T21:00:00-05:00",
@@ -2465,27 +2400,6 @@
    "tab": "music",
    "id": "8b1aff743f6ad8d03cfc",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Groovy Jazz Wednesday",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
-   "end": "2026-12-02T23:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "img/3b75cde8f5fea653.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "8b848ce85c5e47870b71",
-   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
-   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -3013,27 +2927,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-04T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-05T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "91964c792088383393d5",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Le Belmont",
    "title": "2010s Night",
    "start": "2026-12-04T21:00:00-05:00",
@@ -3493,27 +3386,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-05T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-06T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "88376ecc7cff753f3252",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Ausgang Plaza",
    "title": "DE LA HOUSE & BALLROOM4COMMUNITY présentent Amarji King, MOON, Ekitwanda & G MAKO",
    "start": "2026-12-05T21:00:00-05:00",
@@ -3817,28 +3689,6 @@
    "tab": "music",
    "id": "abd53bf3c563dfee9603",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Sunday Live Jazz Band",
-   "start": "2026-12-06T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
-   "end": "2026-12-06T23:59:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues",
-    "Live Music"
-   ],
-   "image": "img/aa1402f5b5df39f1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "f807c5bf5121c11e7b87",
-   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
-   "added": "2026-11-26"
   },
   {
    "source": "Bistro à Jojo",
@@ -4155,27 +4005,6 @@
    "tab": "music",
    "id": "9a56bb392a39060d6015",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Groovy Jazz Wednesday",
-   "start": "2026-12-09T20:00:00-05:00",
-   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
-   "end": "2026-12-09T23:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "img/3b75cde8f5fea653.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "17d595a736142b780268",
-   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
-   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -4667,27 +4496,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-11T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-12T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3d807e8741391dc467ec",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Blue Room",
    "title": "Powr Hauz 2",
    "start": "2026-12-11T22:00:00-05:00",
@@ -5032,27 +4840,6 @@
    "tab": "music",
    "id": "fe9facaff45723aec608",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-12T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-13T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "63692c8a8b8a269636a9",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
   },
   {
    "source": "Le Belmont",
@@ -5442,28 +5229,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Sunday Live Jazz Band",
-   "start": "2026-12-13T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
-   "end": "2026-12-13T23:59:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues",
-    "Live Music"
-   ],
-   "image": "img/aa1402f5b5df39f1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "0311ccd656b7544edc9d",
-   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bistro à Jojo",
    "title": "David Segreti Band",
    "start": "2026-12-13T22:30:00-05:00",
@@ -5722,27 +5487,6 @@
    "tab": "music",
    "id": "a9dbfffabcc4b4aaf019",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Groovy Jazz Wednesday",
-   "start": "2026-12-16T20:00:00-05:00",
-   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
-   "end": "2026-12-16T23:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "img/3b75cde8f5fea653.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "699d01fafdc591ff87ed",
-   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
-   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -6123,27 +5867,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-18T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-19T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "fa5974cce4e868a8a02a",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "SAT",
    "title": "Hear 2 move",
    "start": "2026-12-18T22:00:00-05:00",
@@ -6349,27 +6072,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-19T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-20T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "f60844fcbfb2cb073a9f",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "New City Gas",
    "title": "DJ PAULY D",
    "start": "2026-12-19T21:00:00-05:00",
@@ -6555,28 +6257,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Sunday Live Jazz Band",
-   "start": "2026-12-20T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
-   "end": "2026-12-20T23:59:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues",
-    "Live Music"
-   ],
-   "image": "img/aa1402f5b5df39f1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "d35b4bfc6d3281c2320f",
-   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Turbo Haüs",
    "title": "THE BACKSTAGE",
    "start": "2026-12-21",
@@ -6683,27 +6363,6 @@
    "added": ""
   },
   {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-25T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-26T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "9711cc65a8e8fb05ab7d",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "StereoBar",
    "title": "Ugly Sweater Xmas x In Too Deep: Manu - Manuel Falardeau - Latour",
    "start": "2026-12-25T22:00:00-05:00",
@@ -6747,27 +6406,6 @@
    "id": "2d5c6bf1205648bf0bd6",
    "about": "Discover a multitude of events in your area and please your loved ones. Buy tickets in just a few clicks.",
    "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Friday & Saturday DJ Nights",
-   "start": "2026-12-26T21:00:00-05:00",
-   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
-   "end": "2026-12-27T02:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/0db915462424798a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "c093babc6586f7a18ae0",
-   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
-   "added": "2026-11-26"
   },
   {
    "source": "StereoBar",
@@ -16987,6 +16625,28 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Film"
+   ],
+   "image": "img/bd32f61f9b548c6f.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -17008,26 +16668,28 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows",
-    "Film"
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
    ],
-   "image": "img/bd32f61f9b548c6f.webp",
+   "image": "img/27174f84671e64c1.webp",
    "all_day": false,
    "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -17091,30 +16753,6 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
-   ],
-   "image": "img/27174f84671e64c1.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -17223,27 +16861,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/9c01230ab86d83eb.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -17267,25 +16884,23 @@
   },
   {
    "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
+   "title": "Atelier création de nid",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/c077796121e86375.webp",
+   "image": "img/9c01230ab86d83eb.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
    "added": "2026-11-26"
   },
   {
@@ -17333,23 +16948,27 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17370,6 +16989,25 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -17541,27 +17179,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -17581,6 +17198,27 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -17666,27 +17304,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Marie Denise Pelletier - Noël, parle‑moi",
-   "start": "2026-12-03T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
-   "end": null,
-   "location": "Salle de spectacle de l’église Jean XXIII",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season"
-   ],
-   "image": "img/736881ef640e4b21.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4e51d5791c7dcb5222",
-   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "La ferme ou comment nourrir un futur intelligent ATSA",
    "start": "2026-12-03T19:30:00-05:00",
@@ -17708,6 +17325,27 @@
    "id": "fe4f58e00ec86e33fb91",
    "about": "La FERME ou comment nourrir un futur intelligent est une pièce de théâtre documentaire qui dénonce avec humour et poésie les impacts non choisis de l'intelligence artificielle dans nos vies. Public : 14 ans et +",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Marie Denise Pelletier - Noël, parle‑moi",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
+   "end": null,
+   "location": "Salle de spectacle de l’église Jean XXIII",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/736881ef640e4b21.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4e51d5791c7dcb5222",
+   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17924,27 +17562,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Conférence musicale : De lutte en turlutte",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
-   "end": "2026-12-05T12:00:00-05:00",
-   "location": "Bibliothèque Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/6560a4eff48cb428.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "5d3261ce84e3d1627887",
-   "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Écrire un texte littéraire",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
@@ -17962,6 +17579,27 @@
    "tab": "city",
    "id": "db5248f599c2742085e3",
    "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Conférence musicale : De lutte en turlutte",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
+   "end": "2026-12-05T12:00:00-05:00",
+   "location": "Bibliothèque Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/6560a4eff48cb428.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "5d3261ce84e3d1627887",
+   "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
    "added": ""
   },
   {
@@ -18759,27 +18397,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Plus fort que moi - Kirk Jones",
-   "start": "2026-12-07T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
-   "end": "2026-12-07T15:00:00-05:00",
-   "location": "L’Entrepôt - maison de la culture de Lachine",
-   "kind": "",
-   "free": false,
-   "price": "$6",
-   "price_lo": 6.5,
-   "genres": [
-    "Film"
-   ],
-   "image": "img/ed19f3fae0e8559f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4554339f9fb0efccae",
-   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Other city venues",
    "title": "FAB-ZINES : Zine pop-up",
    "start": "2026-12-07T14:00:00-05:00",
@@ -18799,6 +18416,27 @@
    "tab": "city",
    "id": "d5372c20a9727722f90a",
    "about": "Activité gratuite de création de zines de la FabricARThèque.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Plus fort que moi - Kirk Jones",
+   "start": "2026-12-07T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
+   "end": "2026-12-07T15:00:00-05:00",
+   "location": "L’Entrepôt - maison de la culture de Lachine",
+   "kind": "",
+   "free": false,
+   "price": "$6",
+   "price_lo": 6.5,
+   "genres": [
+    "Film"
+   ],
+   "image": "img/ed19f3fae0e8559f.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4554339f9fb0efccae",
+   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
    "added": "2026-11-26"
   },
   {
@@ -18887,6 +18525,25 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Portes ouvertes sur la modernisation de la réglementation d'urbanisme de Côte-des-Neiges",
+   "start": "2026-12-08T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564",
+   "end": "2026-12-08T20:00:00-05:00",
+   "location": "Pavillon du parc de la Savane",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/df54680754a45997.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "0ca7819f91d6f470a423",
+   "about": "Venez découvrir les impacts de la modernisation du règlement d'urbanisme selon le Plan d’urbanisme et de mobilité 2050 (PUM 2050) sur le secteur nord de l'arrondissement et échanger avec les équipes de l’arrondissement.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Club de lecture de la bibliothèque du Plateau-Mont-Royal",
    "start": "2026-12-08T13:00:00-05:00",
@@ -18908,25 +18565,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Portes ouvertes sur la modernisation de la réglementation d'urbanisme de Côte-des-Neiges",
-   "start": "2026-12-08T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564",
-   "end": "2026-12-08T20:00:00-05:00",
-   "location": "Pavillon du parc de la Savane",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/df54680754a45997.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "0ca7819f91d6f470a423",
-   "about": "Venez découvrir les impacts de la modernisation du règlement d'urbanisme selon le Plan d’urbanisme et de mobilité 2050 (PUM 2050) sur le secteur nord de l'arrondissement et échanger avec les équipes de l’arrondissement.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Café rencontre des personnes aînées",
    "start": "2026-12-08T13:30:00-05:00",
@@ -18945,49 +18583,6 @@
    "tab": "city",
    "id": "f0151a145a8563b19e57",
    "about": "Les bibliothèques de Lachine organisent régulièrement des activités culturelles, des animations, des formations ou des conférences gratuites. Soyez des nôtres!",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Rencontre avec Jimmy Suzan",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
-   "end": "2026-12-08T19:30:00-05:00",
-   "location": "Bibliothèque de Parc-Extension",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes",
-    "Art & Workshops"
-   ],
-   "image": "img/da56038e278dcbac.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e771523b006807350535",
-   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture du mardi soir",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
-   "end": "2026-12-08T19:45:00-05:00",
-   "location": "Bibliothèque Langelier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/44a44bec5abbb4bf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "a0a6e10499530cd8c28c",
-   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
    "added": ""
   },
   {
@@ -19031,6 +18626,49 @@
    "id": "56286bbd5c8fc1903a20",
    "about": "Initiez-vous aux techniques de sérigraphie et repartez avec vos propres créations originales.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture du mardi soir",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
+   "end": "2026-12-08T19:45:00-05:00",
+   "location": "Bibliothèque Langelier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/44a44bec5abbb4bf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "a0a6e10499530cd8c28c",
+   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Rencontre avec Jimmy Suzan",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
+   "end": "2026-12-08T19:30:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "image": "img/da56038e278dcbac.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "e771523b006807350535",
+   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
+   "added": ""
   },
   {
    "source": "Other city venues",
