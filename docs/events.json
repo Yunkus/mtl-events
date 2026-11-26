@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-25T19:22-05:00",
+ "generated": "2026-11-25T19:23-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 347
+   "count": 346
   },
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 12
+   "count": 13
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -36,7 +36,7 @@
   "Favourite Library": {
    "ok": true,
    "count": 1,
-   "tab": "music"
+   "tab": "other"
   },
   "Casa del Popolo": {
    "ok": true,
@@ -1871,24 +1871,6 @@
    "all_day": true,
    "tab": "music",
    "id": "e9d9578e86635126711e"
-  },
-  {
-   "source": "Favourite Library",
-   "title": "Handmade 03",
-   "start": "2026-12-04T19:00:00-05:00",
-   "url": "https://www.favouritelibrary.com/#shows",
-   "end": null,
-   "location": "House show , Montreal",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Rock & Indie"
-   ],
-   "all_day": false,
-   "tab": "music",
-   "id": "908b9159653524f819fd"
   },
   {
    "source": "Casa del Popolo",
@@ -6634,6 +6616,22 @@
    "all_day": false,
    "tab": "other",
    "id": "b706fb854a84316ba2be"
+  },
+  {
+   "source": "Favourite Library",
+   "title": "Handmade 03",
+   "start": "2026-12-04T19:00:00-05:00",
+   "url": "https://www.favouritelibrary.com/#shows",
+   "end": null,
+   "location": "House show , Montreal",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "908b9159653524f819fd"
   },
   {
    "source": "Turbo Haüs",

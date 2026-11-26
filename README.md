@@ -39,7 +39,7 @@ known price stay listed, marked "price unknown"), and a Genre row on Music & Dan
 
 Each event in the venue list below goes to **Music & Dance** unless:
 
-- its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days,
+- its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days, Favourite Library,
   Le Marché Vintage, 5 à Set), or
 - its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings, conferences…),
   which catches the non-music nights at music venues.
