@@ -63,6 +63,19 @@
   .wordmark { display: block; width: min(440px, 100%); height: auto; margin-bottom: 10px; }
   .brand > div { min-width: 0; flex: 1; }
   @media (max-width: 560px) { .logo { height: 64px; margin: -2px 0; } .wordmark { width: 100%; } }
+  /* tap the logo and it jiggles */
+  .logo { cursor: pointer; -webkit-tap-highlight-color: transparent; transform-origin: 50% 60%; }
+  .logo.jiggle { animation: jiggle .6s cubic-bezier(.36,.07,.19,.97); }
+  @keyframes jiggle {
+    0% { transform: rotate(0) scale(1); }
+    15% { transform: rotate(-12deg) scale(1.08); }
+    30% { transform: rotate(10deg) scale(1.08); }
+    45% { transform: rotate(-7deg) scale(1.04); }
+    60% { transform: rotate(5deg) scale(1.02); }
+    75% { transform: rotate(-2deg); }
+    100% { transform: rotate(0) scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce) { .logo.jiggle { animation-duration: .3s; } }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
@@ -933,6 +946,14 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
 // installable app + offline: see sw.js
 if ("serviceWorker" in navigator && location.protocol === "https:")
   navigator.serviceWorker.register("sw.js").catch(() => {});
+// tap the logo and it jiggles (again on every tap)
+(() => {
+  const logo = document.querySelector(".logo");
+  logo.addEventListener("click", () => {
+    logo.classList.remove("jiggle"); void logo.offsetWidth; logo.classList.add("jiggle");
+  });
+  logo.addEventListener("animationend", () => logo.classList.remove("jiggle"));
+})();
 </script>
 </body>
 </html>
