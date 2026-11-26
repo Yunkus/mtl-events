@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T094500
 DTEND;TZID=America/Montreal:20261126T113600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3972796a6bd32efaa815@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -19,7 +19,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T100000
 DTEND;TZID=America/Montreal:20261126T132000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:26895153c027614c3c27@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T101000
 DTEND;TZID=America/Montreal:20261126T113000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0dfe9d76d0315fae5a62@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T103000
 DTEND;TZID=America/Montreal:20261126T121600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a870b0401969dfa106ff@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -53,7 +53,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T105000
 DTEND;TZID=America/Montreal:20261126T124000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:04524ae9401278418755@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -64,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T120000
 DTEND;TZID=America/Montreal:20261126T144000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d5762f0160de58c6bfdb@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2281
@@ -75,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T120500
 DTEND;TZID=America/Montreal:20261126T135100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:081fed4a32b5c69eae93@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T121000
 DTEND;TZID=America/Montreal:20261126T150500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6547def231bb8f2b9682@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T121500
 DTEND;TZID=America/Montreal:20261126T140600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:567476eb14f4e60edcd7@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T123000
 DTEND;TZID=America/Montreal:20261126T142800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:543cc75ec9d68c96616f@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:LA PATRIE (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261126T125000
 DTEND;TZID=America/Montreal:20261126T141200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b39b72f97f3fc282732a@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/la-patrie-
  2274
@@ -131,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T130000
 DTEND;TZID=America/Montreal:20261126T145000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:160b486d4a124d688a42@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -142,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T131500
 DTEND;TZID=America/Montreal:20261126T154100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6b8e21aa076763a2288d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -152,7 +152,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T140000
 DTEND;TZID=America/Montreal:20261126T152000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c99af2c8a14a4580f3bf@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -163,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:LA PATRIE (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T143000
 DTEND;TZID=America/Montreal:20261126T155200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9dc3f59556a15005a97e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/la-patrie-2
  274
@@ -174,7 +174,7 @@ BEGIN:VEVENT
 SUMMARY:MARQUER LE CONGO (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T145000
 DTEND;TZID=America/Montreal:20261126T160800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a0d1e4f21263c98d4d6d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/marquer-le-
  congo-2304
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:MINOTAUR (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261126T145500
 DTEND;TZID=America/Montreal:20261126T171700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bc1f6950a560170ed18b@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/minotaur-2
  291
@@ -196,7 +196,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T151000
 DTEND;TZID=America/Montreal:20261126T170800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a432c09de567a8c547c6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:NAZA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T152000
 DTEND;TZID=America/Montreal:20261126T163700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e87b75d8cb83275816ed@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/naza-2282
 LOCATION:Cinéma du Parc
@@ -217,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T153000
 DTEND;TZID=America/Montreal:20261126T185000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4625d2d84892f5d05a87@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -228,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T153500
 DTEND;TZID=America/Montreal:20261126T181500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:efce675ff9113e7164ae@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2280
@@ -239,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T160000
 DTEND;TZID=America/Montreal:20261126T174600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f1131d26e0c18a146566@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T162000
 DTEND;TZID=America/Montreal:20261126T180400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5e0c8c195146a24d7c8a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -261,7 +261,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T163000
 DTEND;TZID=America/Montreal:20261126T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4ee18af93afc9d5b39bc@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -272,7 +272,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T164500
 DTEND;TZID=America/Montreal:20261126T180500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:278a70754e4ff5fc90c6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -283,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T172500
 DTEND;TZID=America/Montreal:20261126T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:73c3e58c991094987973@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -294,7 +294,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T174500
 DTEND;TZID=America/Montreal:20261126T191500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:573915b875bd4703d908@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -306,7 +306,7 @@ BEGIN:VEVENT
 SUMMARY:Film Club Night: V for Vendetta @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261126T180000
 DTEND;TZID=America/Montreal:20261126T212000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:7062e379f61ead4f7a25@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -317,7 +317,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261126T180000
 DTEND;TZID=America/Montreal:20261126T204000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fac8abc4c6cf862af1db@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/la-bola-ne
  gra-2281
@@ -328,7 +328,7 @@ BEGIN:VEVENT
 SUMMARY:Naza (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261126T180000
 DTEND;TZID=America/Montreal:20261126T191700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ddd011550bdf58127205@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/n
  aza/
@@ -339,7 +339,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T183000
 DTEND;TZID=America/Montreal:20261126T201600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1fd96d3919c0e7f5b02a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -351,7 +351,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T184000
 DTEND;TZID=America/Montreal:20261126T200000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6161cce1d687e3ef3710@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -362,7 +362,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T184500
 DTEND;TZID=America/Montreal:20261126T204300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6163fad76f73508a7273@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -373,7 +373,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T185000
 DTEND;TZID=America/Montreal:20261126T204100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:db5ebecc4ed5ecd0f328@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -384,7 +384,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T190000
 DTEND;TZID=America/Montreal:20261126T205000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0fb2db55664e54f799f3@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -395,7 +395,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T193000
 DTEND;TZID=America/Montreal:20261126T225000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f98036d8284eb4993ad3@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -406,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261126T220000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:15e60ca2507d0091aad8@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -418,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T203000
 DTEND;TZID=America/Montreal:20261126T225600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0f458760364afe51c2df@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -428,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T210000
 DTEND;TZID=America/Montreal:20261126T230200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d3aaf906b4494ab9664a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -439,7 +439,7 @@ BEGIN:VEVENT
 SUMMARY:LA MEILLEURE FAÇON\, C'EST... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T210000
 DTEND;TZID=America/Montreal:20261126T225100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:16648eca520978f42d97@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/la-meilleur
  e-facon-c-est-par-accident-2115
@@ -451,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261126T211500
 DTEND;TZID=America/Montreal:20261126T231300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5e2906030fd88b03cc30@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -462,7 +462,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T212000
 DTEND;TZID=America/Montreal:20261126T231100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e019e8eb9c9c2282ab8b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -473,7 +473,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261126T212000
 DTEND;TZID=America/Montreal:20261126T230600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0131d65d4b3e6cb42b9d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -485,7 +485,7 @@ BEGIN:VEVENT
 SUMMARY:KEN RUSSELL’S THE DEVILS (VOASTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261126T212000
 DTEND;TZID=America/Montreal:20261126T231400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:aac1a1e87f55f758201a@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/ken-russel
  l-s-the-devils-2253
@@ -496,7 +496,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T094500
 DTEND;TZID=America/Montreal:20261127T130500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b09abe002f49c6b0002e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -507,7 +507,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T100000
 DTEND;TZID=America/Montreal:20261127T115000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a29692960d550879bfc3@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -518,7 +518,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T101000
 DTEND;TZID=America/Montreal:20261127T113000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e2ac06de2e89551d3b27@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -529,7 +529,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T103000
 DTEND;TZID=America/Montreal:20261127T121600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a6984447e6749ba6f3f8@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -541,7 +541,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T105000
 DTEND;TZID=America/Montreal:20261127T122400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:abcf37578c8453e7bc6e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -552,7 +552,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T114500
 DTEND;TZID=America/Montreal:20261127T134300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cf769068e59e23d7b9fe@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -563,7 +563,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T120000
 DTEND;TZID=America/Montreal:20261127T140200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e28c2082174228b0cfac@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -574,7 +574,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T121500
 DTEND;TZID=America/Montreal:20261127T140600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d2ce2b42e28cad9a91ea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -585,7 +585,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T121500
 DTEND;TZID=America/Montreal:20261127T145500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d83a5f4e27f6fbca6522@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2280
@@ -596,7 +596,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T122000
 DTEND;TZID=America/Montreal:20261127T140800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:edfab77159975d28ed7d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -607,7 +607,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T130000
 DTEND;TZID=America/Montreal:20261127T152600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8f96b9b8308285e4b17e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -617,7 +617,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T131000
 DTEND;TZID=America/Montreal:20261127T145600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d6885c150edf664297f9@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -629,7 +629,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T134500
 DTEND;TZID=America/Montreal:20261127T150500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:11764d52d01fe1921e0c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -640,7 +640,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T143000
 DTEND;TZID=America/Montreal:20261127T163200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e35575adcf811f8a95cc@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -651,7 +651,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T144000
 DTEND;TZID=America/Montreal:20261127T162600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:024bcd30ebe159b8bd71@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -663,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T150000
 DTEND;TZID=America/Montreal:20261127T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2fcf30504b3db0e14780@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -674,7 +674,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T150000
 DTEND;TZID=America/Montreal:20261127T175500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d4952b008669426ea5a6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -685,7 +685,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T153000
 DTEND;TZID=America/Montreal:20261127T175600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8b0be54212a48146e5d6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/fjord-2230
 LOCATION:Cinéma du Parc
@@ -695,7 +695,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T154000
 DTEND;TZID=America/Montreal:20261127T173000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fd85487a5ea6b2d26773@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -706,7 +706,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T154500
 DTEND;TZID=America/Montreal:20261127T173300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f481f01e84a6c0f999ea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -717,7 +717,7 @@ BEGIN:VEVENT
 SUMMARY:FATHERLAND (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261127T154500
 DTEND;TZID=America/Montreal:20261127T170700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a169d420193c506145e1@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/fatherland
  -2273
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T160000
 DTEND;TZID=America/Montreal:20261127T175100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:108f8d5641bf3cad4e55@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -739,7 +739,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T170000
 DTEND;TZID=America/Montreal:20261127T184400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9f4e6015b9280d35615e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -749,7 +749,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T173000
 DTEND;TZID=America/Montreal:20261127T190000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e3e6cfe6f5eac49b2740@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -761,7 +761,7 @@ BEGIN:VEVENT
 SUMMARY:MINOTAURE (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261127T175000
 DTEND;TZID=America/Montreal:20261127T201200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:986ce822673d34c08998@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/minotaure-
  2290
@@ -772,7 +772,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T181000
 DTEND;TZID=America/Montreal:20261127T193000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c075b97ff19a7450182d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -783,7 +783,7 @@ BEGIN:VEVENT
 SUMMARY:Festival Triste – D’Est (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261127T181500
 DTEND;TZID=America/Montreal:20261127T201000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5e85cf9eb3ef803802cf@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  estival-triste-dest/
@@ -794,7 +794,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T182000
 DTEND;TZID=America/Montreal:20261127T200800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1afb8616e9bc1199ac9e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -805,7 +805,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T183000
 DTEND;TZID=America/Montreal:20261127T202800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:958cc40da4ef601e1ca7@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -816,7 +816,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T183000
 DTEND;TZID=America/Montreal:20261127T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8aa15e682224279e6b68@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -827,7 +827,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T184500
 DTEND;TZID=America/Montreal:20261127T204700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:72cee0fbcaaba8c644a2@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -838,7 +838,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T190000
 DTEND;TZID=America/Montreal:20261127T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8555d19071a38506aa38@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -850,7 +850,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T191500
 DTEND;TZID=America/Montreal:20261127T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:70fb7bec9cd81bb83fdd@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -861,7 +861,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T232000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ad2b8fa9e3c0406946a6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -872,7 +872,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T213000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ebdc743897ac72e15c4a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -884,7 +884,7 @@ BEGIN:VEVENT
 SUMMARY:Minotaure (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261127T204500
 DTEND;TZID=America/Montreal:20261127T230600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:57bc9b6591b6087332ff@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/m
  inotaure/
@@ -895,7 +895,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T205000
 DTEND;TZID=America/Montreal:20261127T224100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2616c21417ffb9c9a01c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -906,7 +906,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261127T224800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:af3c73116d54d087ec26@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -917,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:PRIMETIME (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261127T210000
 DTEND;TZID=America/Montreal:20261127T224900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2c47451a573562b1c856@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/primetime-
  2392
@@ -928,7 +928,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T210500
 DTEND;TZID=America/Montreal:20261127T230300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c3cd14fa4209cfda3652@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -939,7 +939,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T212000
 DTEND;TZID=America/Montreal:20261127T225400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2a4164e10e74e5a6ca7b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -950,7 +950,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261127T213000
 DTEND;TZID=America/Montreal:20261127T233200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:32fb74e8078b51f204c1@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -961,7 +961,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261127T213000
 DTEND;TZID=America/Montreal:20261127T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:aad003554bc9f1fa1c37@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -973,7 +973,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T094500
 DTEND;TZID=America/Montreal:20261128T110500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bd8b3a75b8e2d15bfb14@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -984,7 +984,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T095000
 DTEND;TZID=America/Montreal:20261128T113800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8a9c6d10a5b4b396217f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -995,7 +995,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T100000
 DTEND;TZID=America/Montreal:20261128T132000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:99fd09360707c7f9ded7@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1006,7 +1006,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything (VOSTF) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261128T100000
 DTEND;TZID=America/Montreal:20261128T125500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c50a38f9d7ee708780c2@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/y
  ou-can-see-everything/
@@ -1017,7 +1017,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T101000
 DTEND;TZID=America/Montreal:20261128T120000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8b1ee77805ee6fb0d98c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1028,7 +1028,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T102000
 DTEND;TZID=America/Montreal:20261128T121100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:493355c65ea0ff48d346@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1039,7 +1039,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T114500
 DTEND;TZID=America/Montreal:20261128T133100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3ecebc7655ef18100ee0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1051,7 +1051,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T120000
 DTEND;TZID=America/Montreal:20261128T140200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ac24b6d2e97246bd702f@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1062,7 +1062,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T121500
 DTEND;TZID=America/Montreal:20261128T140300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9c6f3221abf05c3f2e15@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1073,7 +1073,7 @@ BEGIN:VEVENT
 SUMMARY:FATHERLAND (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261128T124000
 DTEND;TZID=America/Montreal:20261128T140200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4f7fe6be14f95474aa30@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/fatherland
  -2273
@@ -1084,7 +1084,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T124000
 DTEND;TZID=America/Montreal:20261128T150600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:15c92487cbd26169b55f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -1094,7 +1094,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T130000
 DTEND;TZID=America/Montreal:20261128T143000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:7e394672dfc4528f8f5a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1106,7 +1106,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T130000
 DTEND;TZID=America/Montreal:20261128T142000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9042ae78b694d0ee0f2a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -1117,7 +1117,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T130000
 DTEND;TZID=America/Montreal:20261128T145800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fbde639648a801a1c531@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1128,7 +1128,7 @@ BEGIN:VEVENT
 SUMMARY:Raise the Red Lantern: 35e anniversaire (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261128T133000
 DTEND;TZID=America/Montreal:20261128T153500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4de74c77d49f449e1099@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/r
  aise-the-red-lantern-35e-anniversaire/
@@ -1140,7 +1140,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T134500
 DTEND;TZID=America/Montreal:20261128T151900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c5362ae4e1a929f29748@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -1151,7 +1151,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T142000
 DTEND;TZID=America/Montreal:20261128T174000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cde6518dd320a53e8dea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1162,7 +1162,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T143500
 DTEND;TZID=America/Montreal:20261128T162100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bb8962f474fffa3b0667@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1174,7 +1174,7 @@ BEGIN:VEVENT
 SUMMARY:MINOTAUR (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261128T144500
 DTEND;TZID=America/Montreal:20261128T170700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b4c10286438419fdfdd9@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/minotaur-2
  291
@@ -1185,7 +1185,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T144500
 DTEND;TZID=America/Montreal:20261128T174000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b519aef1e42738c34a8e@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -1196,7 +1196,7 @@ BEGIN:VEVENT
 SUMMARY:Clueless @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261128T150000
 DTEND;TZID=America/Montreal:20261128T174000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:24c4081dc29cb07b5d9e@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -1207,7 +1207,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T150000
 DTEND;TZID=America/Montreal:20261128T163000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:196b638dec989b24c2ea@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1219,7 +1219,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T154500
 DTEND;TZID=America/Montreal:20261128T174700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fa0028b70730c9e9f0f7@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1230,7 +1230,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T155000
 DTEND;TZID=America/Montreal:20261128T173400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:076722f3e0aac21b2923@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -1240,7 +1240,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T160000
 DTEND;TZID=America/Montreal:20261128T175100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e3e4a16b5aeca9c79ecc@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1251,7 +1251,7 @@ BEGIN:VEVENT
 SUMMARY:Festival Triste – Safe (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261128T160000
 DTEND;TZID=America/Montreal:20261128T175900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:459b043819782ee00bc0@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  estival-triste-safe/
@@ -1262,7 +1262,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T162000
 DTEND;TZID=America/Montreal:20261128T181000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0b9b5fa86a24787be635@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1273,7 +1273,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T165500
 DTEND;TZID=America/Montreal:20261128T184100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:adc266b950d8d494c1ed@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1285,7 +1285,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T173000
 DTEND;TZID=America/Montreal:20261128T190000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b892ded33e9c3cc7a222@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1297,7 +1297,7 @@ BEGIN:VEVENT
 SUMMARY:MESSY LEGENDS (VOASTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261128T180000
 DTEND;TZID=America/Montreal:20261128T200000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:82019a223f4c60169d9a@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/messy-lege
  nds-2313
@@ -1308,7 +1308,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T181000
 DTEND;TZID=America/Montreal:20261128T193000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:40b3bf8d8477f63b733c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -1319,7 +1319,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T182000
 DTEND;TZID=America/Montreal:20261128T200800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e073b6721aa4ef0f774a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1330,7 +1330,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T183000
 DTEND;TZID=America/Montreal:20261128T202800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:7fa99f8e2a27218d2bf7@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1341,7 +1341,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T183000
 DTEND;TZID=America/Montreal:20261128T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:10c0a970a4db09a5f8e6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1352,7 +1352,7 @@ BEGIN:VEVENT
 SUMMARY:Festival Triste – The Heiress (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261128T183000
 DTEND;TZID=America/Montreal:20261128T202500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:94e4125530fa90c2a1d7@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  estival-triste-the-heiress/
@@ -1364,7 +1364,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T184500
 DTEND;TZID=America/Montreal:20261128T204700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ea2d83912425551e0c82@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1375,7 +1375,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T190000
 DTEND;TZID=America/Montreal:20261128T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5aa7be5eb6cb7527ecd7@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1387,7 +1387,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T191500
 DTEND;TZID=America/Montreal:20261128T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:51614c2a8d431ce15075@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -1398,7 +1398,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T200000
 DTEND;TZID=America/Montreal:20261128T232000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6cfd6a52e9839c36254b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1409,7 +1409,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T201500
 DTEND;TZID=America/Montreal:20261128T214500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:177182ac6a7d5c9a44c2@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1421,7 +1421,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T205000
 DTEND;TZID=America/Montreal:20261128T224100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1e68e440eb12b304971e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1432,7 +1432,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T210000
 DTEND;TZID=America/Montreal:20261128T224800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:06bd66f1eaf1baf8ff45@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1444,7 +1444,7 @@ SUMMARY:La meilleure façon\, c’est par accident (VOSTA + Q&A) @ Cinéma
   Moderne
 DTSTART;TZID=America/Montreal:20261128T210000
 DTEND;TZID=America/Montreal:20261128T225100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3fe08c1bf5a2667ee979@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/l
  a-meilleure-facon-cest-par-accident/
@@ -1456,7 +1456,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T210500
 DTEND;TZID=America/Montreal:20261128T230300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:84dd355dcb507b8e2889@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1467,7 +1467,7 @@ BEGIN:VEVENT
 SUMMARY:KEN RUSSELL’S THE DEVILS (VOASTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261128T211500
 DTEND;TZID=America/Montreal:20261128T230900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:76c01d677032f89f52d1@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/ken-russel
  l-s-the-devils-2253
@@ -1478,7 +1478,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T212000
 DTEND;TZID=America/Montreal:20261128T225400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:925260df1ad8155f2bb4@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -1489,7 +1489,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261128T213000
 DTEND;TZID=America/Montreal:20261128T233200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:464f8bf1e956d02a980d@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1500,7 +1500,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261128T213000
 DTEND;TZID=America/Montreal:20261128T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6d94d32be0b2229e5434@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1512,7 +1512,7 @@ BEGIN:VEVENT
 SUMMARY:The History of Concrete (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T093000
 DTEND;TZID=America/Montreal:20261129T111200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0ef439b499a46721f052@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/t
  he-history-of-concrete/
@@ -1523,7 +1523,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T094500
 DTEND;TZID=America/Montreal:20261129T110500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3bcb881ba93a11c34f4c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -1534,7 +1534,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T100000
 DTEND;TZID=America/Montreal:20261129T132000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a2d47fcef08b78605751@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1545,7 +1545,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T101000
 DTEND;TZID=America/Montreal:20261129T115800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b09cdb65e3792b82a20b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1556,7 +1556,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T102000
 DTEND;TZID=America/Montreal:20261129T121100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6d1ea8177d447eb63764@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1567,7 +1567,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T103000
 DTEND;TZID=America/Montreal:20261129T122000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4198aa4ff468baf04698@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1578,7 +1578,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T114500
 DTEND;TZID=America/Montreal:20261129T133100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ed402960112da26e4df0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1590,7 +1590,7 @@ BEGIN:VEVENT
 SUMMARY:Raise the Red Lantern: 35e anniversaire (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T114500
 DTEND;TZID=America/Montreal:20261129T135000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:dc8a44fcb16805b4e0d8@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/r
  aise-the-red-lantern-35e-anniversaire/
@@ -1602,7 +1602,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T123500
 DTEND;TZID=America/Montreal:20261129T141900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:09926fb5baf88c2a37ea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -1612,7 +1612,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T124500
 DTEND;TZID=America/Montreal:20261129T144300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:dc4c523510bf57037b40@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1623,7 +1623,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T125000
 DTEND;TZID=America/Montreal:20261129T151600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:64b86fea319c06855bab@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -1633,7 +1633,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T130000
 DTEND;TZID=America/Montreal:20261129T143000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:da02ade820376b716b66@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1645,7 +1645,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T130000
 DTEND;TZID=America/Montreal:20261129T145000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9f305140b0f638ff160f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1656,7 +1656,7 @@ BEGIN:VEVENT
 SUMMARY:MUSK (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261129T130000
 DTEND;TZID=America/Montreal:20261129T165500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:835ba4d94a14f8d2c113@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/musk-2340
 LOCATION:Cinéma du Musée
@@ -1666,7 +1666,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T131500
 DTEND;TZID=America/Montreal:20261129T151700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6d1d7aeb5b068790f528@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1677,7 +1677,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T140000
 DTEND;TZID=America/Montreal:20261129T152000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1cbe14a9422e3369698b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -1688,7 +1688,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T142000
 DTEND;TZID=America/Montreal:20261129T174000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ef3b337714eccf11b994@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1699,7 +1699,7 @@ BEGIN:VEVENT
 SUMMARY:Minotaure (VOSTF) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T143000
 DTEND;TZID=America/Montreal:20261129T165100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2f7c5f52b30823cfb4a5@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/m
  inotaure/
@@ -1710,7 +1710,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T145000
 DTEND;TZID=America/Montreal:20261129T163600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:257edafa8059e2e76daf@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1722,7 +1722,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T163000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a34bd1c9e645049a9592@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1734,7 +1734,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T151500
 DTEND;TZID=America/Montreal:20261129T175500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2ce49efdbfddbcec9c35@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2281
@@ -1745,7 +1745,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T155000
 DTEND;TZID=America/Montreal:20261129T173800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:577846f103ebe655b5a9@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1756,7 +1756,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T160000
 DTEND;TZID=America/Montreal:20261129T180200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e47e9ddf2bcfae2bf132@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1767,7 +1767,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T160000
 DTEND;TZID=America/Montreal:20261129T175100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:32eee215b716eeb32393@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1778,7 +1778,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T163000
 DTEND;TZID=America/Montreal:20261129T181600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cfdf157434b09cfd8489@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1790,7 +1790,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T170000
 DTEND;TZID=America/Montreal:20261129T183000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:da7f730a0a0914ccd81f@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1802,7 +1802,7 @@ BEGIN:VEVENT
 SUMMARY:Festival Triste – D’Est (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T170000
 DTEND;TZID=America/Montreal:20261129T185500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4c8fa1e0df8f50db56ca@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  estival-triste-dest/
@@ -1813,7 +1813,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T171000
 DTEND;TZID=America/Montreal:20261129T184400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5fdd9c7984607859b4c1@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -1824,7 +1824,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T181000
 DTEND;TZID=America/Montreal:20261129T193000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3c9024f94fa24059a875@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -1835,7 +1835,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T182000
 DTEND;TZID=America/Montreal:20261129T200800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fe1239e4c2fd256d95e5@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1846,7 +1846,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T183000
 DTEND;TZID=America/Montreal:20261129T202800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:00ca86d2bdce2d2c068b@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1857,7 +1857,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T183000
 DTEND;TZID=America/Montreal:20261129T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:710587d6c23e4e353ee6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -1868,7 +1868,7 @@ BEGIN:VEVENT
 SUMMARY:CFS: TAXI DRIVER 16MM (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261129T183000
 DTEND;TZID=America/Montreal:20261129T202400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:10add0debe1608deab5d@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/taxi-drive
  r-50th-anniversary-in-16mm-nyc-edition-2256
@@ -1880,7 +1880,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T184500
 DTEND;TZID=America/Montreal:20261129T204700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:254cbc603b9952505a3c@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -1891,7 +1891,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T190000
 DTEND;TZID=America/Montreal:20261129T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d12d3f72e27496eecd14@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -1903,7 +1903,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T191500
 DTEND;TZID=America/Montreal:20261129T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5fbecfe5a2b4bc41a696@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -1914,7 +1914,7 @@ BEGIN:VEVENT
 SUMMARY:Festival Triste – Bushman (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T193000
 DTEND;TZID=America/Montreal:20261129T204300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f71e4572e59945aad512@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  estival-triste-bushman/
@@ -1925,7 +1925,7 @@ BEGIN:VEVENT
 SUMMARY:RIDM @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T194500
 DTEND;TZID=America/Montreal:20261129T211500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3cbdf41a2318f294d1f2@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/rencontres-i
  nternationales-du-documentaire-de-montreal-331
@@ -1937,7 +1937,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T200000
 DTEND;TZID=America/Montreal:20261129T232000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:05cb8abe89e7e3bce14f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -1948,7 +1948,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T205000
 DTEND;TZID=America/Montreal:20261129T224100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:073f203deef7a43e1b61@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -1959,7 +1959,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T210000
 DTEND;TZID=America/Montreal:20261129T224800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1ddc5806fe7106a82dec@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -1970,7 +1970,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T210500
 DTEND;TZID=America/Montreal:20261129T230300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b5b92bae40dd66ccc7fd@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -1981,7 +1981,7 @@ BEGIN:VEVENT
 SUMMARY:Naza (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261129T211500
 DTEND;TZID=America/Montreal:20261129T223200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:19257efa62e11810c5a7@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/n
  aza/
@@ -1992,7 +1992,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T212000
 DTEND;TZID=America/Montreal:20261129T225400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9e3f33302e78cdfbf79e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2003,7 +2003,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261129T213000
 DTEND;TZID=America/Montreal:20261129T233200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5ab7da1f6dd805bb0361@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2014,7 +2014,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261129T213000
 DTEND;TZID=America/Montreal:20261129T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ad632dcb15d9e6917ede@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2026,7 +2026,7 @@ BEGIN:VEVENT
 SUMMARY:PRIMETIME (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261129T213000
 DTEND;TZID=America/Montreal:20261129T231900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3f56339cc196c62335ae@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/primetime-
  2392
@@ -2037,7 +2037,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T094500
 DTEND;TZID=America/Montreal:20261130T130500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5b9fdbc2bbcb337a351c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2048,7 +2048,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T100000
 DTEND;TZID=America/Montreal:20261130T115000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9bfe453fcbfc8e0b9b5c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2059,7 +2059,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T101000
 DTEND;TZID=America/Montreal:20261130T113000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:69eed6a3e7cf5d176e45@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2070,7 +2070,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T103000
 DTEND;TZID=America/Montreal:20261130T121600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:90dee30816f7e88f39d0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2082,7 +2082,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T105000
 DTEND;TZID=America/Montreal:20261130T122400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:df45a15428eae813e3fc@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2093,7 +2093,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T120000
 DTEND;TZID=America/Montreal:20261130T144000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:41badbc85ff7db03abe4@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2281
@@ -2104,7 +2104,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T121000
 DTEND;TZID=America/Montreal:20261130T140800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8c1237f4011cfe213d45@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2115,7 +2115,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T121500
 DTEND;TZID=America/Montreal:20261130T140600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a684250f2b55e82546ad@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2126,7 +2126,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T122000
 DTEND;TZID=America/Montreal:20261130T140800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6a360f0580e83dd0d44a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2137,7 +2137,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T122500
 DTEND;TZID=America/Montreal:20261130T142700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5f4c7d019a6756de6e2e@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2148,7 +2148,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T130000
 DTEND;TZID=America/Montreal:20261130T152600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1ea493debeefe9a6d52d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -2158,7 +2158,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T131000
 DTEND;TZID=America/Montreal:20261130T145600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:7873085e68557c9cff6e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2170,7 +2170,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T134500
 DTEND;TZID=America/Montreal:20261130T150500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e4264f609ae2514d48a8@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2181,7 +2181,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T144000
 DTEND;TZID=America/Montreal:20261130T162600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4f2d0e0f03f6fd24f6a0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2193,7 +2193,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T144000
 DTEND;TZID=America/Montreal:20261130T170600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:af3a81759adfcf743846@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/fjord-2230
 LOCATION:Cinéma du Parc
@@ -2203,7 +2203,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T150000
 DTEND;TZID=America/Montreal:20261130T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ecd750323781521b8a19@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2214,7 +2214,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T151000
 DTEND;TZID=America/Montreal:20261130T180500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e404f85e18d190c1987a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -2225,7 +2225,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T153000
 DTEND;TZID=America/Montreal:20261130T173200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:496108eafd8d8a9fd6fa@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2236,7 +2236,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T154000
 DTEND;TZID=America/Montreal:20261130T173000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ee67aa71ff77f97c4d10@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2247,7 +2247,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T154500
 DTEND;TZID=America/Montreal:20261130T173300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0f139efea69c1cdd4def@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2258,7 +2258,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T160000
 DTEND;TZID=America/Montreal:20261130T175100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fea54453871c24e2d8dd@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2269,7 +2269,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T170000
 DTEND;TZID=America/Montreal:20261130T184400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:61922b471821bce0abef@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -2279,7 +2279,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T180000
 DTEND;TZID=America/Montreal:20261130T204000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c71b2af682f2c2f545e1@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2280
@@ -2290,7 +2290,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T181000
 DTEND;TZID=America/Montreal:20261130T193000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:eb4e7675dd86daebdbb3@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2301,7 +2301,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T181500
 DTEND;TZID=America/Montreal:20261130T201300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cba58426b7080c32a6fa@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2312,7 +2312,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T182000
 DTEND;TZID=America/Montreal:20261130T200800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e4408daeb21a427a5d94@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2323,7 +2323,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T183000
 DTEND;TZID=America/Montreal:20261130T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a5910ab6e94f77cca5b8@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2334,7 +2334,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T184500
 DTEND;TZID=America/Montreal:20261130T204700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4a7471e50a9e1d91f54f@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2345,7 +2345,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T190000
 DTEND;TZID=America/Montreal:20261130T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:98197179dd3f11784645@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2357,7 +2357,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T191500
 DTEND;TZID=America/Montreal:20261130T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6959b44378182e999742@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2368,7 +2368,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T200000
 DTEND;TZID=America/Montreal:20261130T232000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ebafa572749e94eac889@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2379,7 +2379,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T204500
 DTEND;TZID=America/Montreal:20261130T234000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b5173b51f7d660d790b7@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -2390,7 +2390,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T205000
 DTEND;TZID=America/Montreal:20261130T224100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ce7c8206c599a636f439@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2401,7 +2401,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T210000
 DTEND;TZID=America/Montreal:20261130T224800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d7fd4ee018368a6547f4@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2412,7 +2412,7 @@ BEGIN:VEVENT
 SUMMARY:The History of Concrete (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261130T210000
 DTEND;TZID=America/Montreal:20261130T224200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:15195e0d2238d27a1efe@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/t
  he-history-of-concrete/
@@ -2423,7 +2423,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T211500
 DTEND;TZID=America/Montreal:20261130T231300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8d873caf7712b5e144a1@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2434,7 +2434,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T212000
 DTEND;TZID=America/Montreal:20261130T225400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:81fd40f9146237989e58@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2445,7 +2445,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261130T213000
 DTEND;TZID=America/Montreal:20261130T233200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c39c998f5005e37c0625@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2456,7 +2456,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261130T213000
 DTEND;TZID=America/Montreal:20261130T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0a483db8ee232545df45@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2468,7 +2468,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T094500
 DTEND;TZID=America/Montreal:20261201T110500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:223041d0ea8fc7c7e3ff@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2479,7 +2479,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T095000
 DTEND;TZID=America/Montreal:20261201T131000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:72c9751dfead37923783@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2490,7 +2490,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T100000
 DTEND;TZID=America/Montreal:20261201T114600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d40fb08415cf09301d51@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2502,7 +2502,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T102000
 DTEND;TZID=America/Montreal:20261201T121000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e280d9610423c6b86d1e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2513,7 +2513,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T103000
 DTEND;TZID=America/Montreal:20261201T121800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bb19f5f7847b474e6c8a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2524,7 +2524,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T114500
 DTEND;TZID=America/Montreal:20261201T133600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:32a1bf0c7b036e93bd12@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2535,7 +2535,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261201T120000
 DTEND;TZID=America/Montreal:20261201T144000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:404cacde625b0eed54f4@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/la-bola-ne
  gra-2280
@@ -2546,7 +2546,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T122000
 DTEND;TZID=America/Montreal:20261201T135400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1d7bff7d7adf19d65e7b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2557,7 +2557,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261201T123000
 DTEND;TZID=America/Montreal:20261201T143200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a6a782d608cd10165c20@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2568,7 +2568,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T125000
 DTEND;TZID=America/Montreal:20261201T141000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fa7a95c6644ae73e2d9c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2579,7 +2579,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T131500
 DTEND;TZID=America/Montreal:20261201T150100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f8308c95835b1736f42d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2591,7 +2591,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261201T131500
 DTEND;TZID=America/Montreal:20261201T151300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9c14d76eab37f0d9ac3a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2602,7 +2602,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T135000
 DTEND;TZID=America/Montreal:20261201T154100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:023468957fb4ad65cc9f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2613,7 +2613,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T141000
 DTEND;TZID=America/Montreal:20261201T155400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:604dff783ee4a61119ea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -2623,7 +2623,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T143000
 DTEND;TZID=America/Montreal:20261201T161800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f4d2dcd791443190273b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2634,7 +2634,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T145000
 DTEND;TZID=America/Montreal:20261201T181000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2b230ec544576a194fde@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2645,7 +2645,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261201T151500
 DTEND;TZID=America/Montreal:20261201T181000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0f896e1eb9d293143538@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -2656,7 +2656,7 @@ BEGIN:VEVENT
 SUMMARY:MINOTAUR (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261201T152000
 DTEND;TZID=America/Montreal:20261201T174200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a1d6c15473cc413803d9@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/minotaur-2
  291
@@ -2667,7 +2667,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261201T155000
 DTEND;TZID=America/Montreal:20261201T174800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c4510e72f38b9f4c9021@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2678,7 +2678,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T160000
 DTEND;TZID=America/Montreal:20261201T174600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:883b2d72fbbe2e225bce@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2690,7 +2690,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261201T161500
 DTEND;TZID=America/Montreal:20261201T181700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e528336d7b1cc6563bcb@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2701,7 +2701,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T163000
 DTEND;TZID=America/Montreal:20261201T181800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a28821c54a38a6d47b3b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2712,7 +2712,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T163500
 DTEND;TZID=America/Montreal:20261201T182500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:beade2986b65afeec292@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2723,7 +2723,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261201T165000
 DTEND;TZID=America/Montreal:20261201T182400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f81652944c82523bc672@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2734,7 +2734,7 @@ BEGIN:VEVENT
 SUMMARY:Violence du corps de l’autre (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261201T203000
 DTEND;TZID=America/Montreal:20261201T222800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:182c87cd3eb479f6de02@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/v
  iolence-du-corps-de-lautre/
@@ -2746,7 +2746,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T101000
 DTEND;TZID=America/Montreal:20261202T115600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5415be573aae2ceb90fa@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2758,7 +2758,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T101500
 DTEND;TZID=America/Montreal:20261202T133500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d249ddfb3849d96e03b6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2769,7 +2769,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T102000
 DTEND;TZID=America/Montreal:20261202T114000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1da06af26be7502bf137@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2780,7 +2780,7 @@ BEGIN:VEVENT
 SUMMARY:HANTÉE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T115500
 DTEND;TZID=America/Montreal:20261202T133900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2735aed173a17ce3afa0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/hantee-2119
 LOCATION:Cinéma Beaubien
@@ -2790,7 +2790,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T120000
 DTEND;TZID=America/Montreal:20261202T144000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:86b50fee83fc1a70a9bd@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2280
@@ -2801,7 +2801,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T121000
 DTEND;TZID=America/Montreal:20261202T140800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5e4a293f59118e1ccf9e@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2812,7 +2812,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T122000
 DTEND;TZID=America/Montreal:20261202T141100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a1e1558435ee275f1564@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2823,7 +2823,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T122500
 DTEND;TZID=America/Montreal:20261202T142700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8c6c45b1bbed8093275d@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2834,7 +2834,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T123000
 DTEND;TZID=America/Montreal:20261202T141600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fc6d832d42a6759a15d8@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2846,7 +2846,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T123000
 DTEND;TZID=America/Montreal:20261202T145600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:142d22d131590890ae0f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/fjord-2231
 LOCATION:Cinéma Beaubien
@@ -2856,7 +2856,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T140500
 DTEND;TZID=America/Montreal:20261202T155300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:998d2d675c683b44cf82@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2867,7 +2867,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T141000
 DTEND;TZID=America/Montreal:20261202T153000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ecbe270505d460fd94dc@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -2878,7 +2878,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T144000
 DTEND;TZID=America/Montreal:20261202T170600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4f66bd370e06c2252cc0@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/fjord-2230
 LOCATION:Cinéma du Parc
@@ -2888,7 +2888,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T145000
 DTEND;TZID=America/Montreal:20261202T163600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:154cc02bf6dcbc584b2b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -2900,7 +2900,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T150000
 DTEND;TZID=America/Montreal:20261202T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:40f716f930e54a78b284@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -2911,7 +2911,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T151000
 DTEND;TZID=America/Montreal:20261202T180500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:585705f269ffe056fecf@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -2922,7 +2922,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T153000
 DTEND;TZID=America/Montreal:20261202T173200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2e6a8299f375bf169a80@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -2933,7 +2933,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T154000
 DTEND;TZID=America/Montreal:20261202T173000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:319b40000091aefceadd@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -2944,7 +2944,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T160000
 DTEND;TZID=America/Montreal:20261202T174800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:56805083d93129eb748e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -2955,7 +2955,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T162500
 DTEND;TZID=America/Montreal:20261202T181600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d42b5020875a566de356@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -2966,7 +2966,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T171000
 DTEND;TZID=America/Montreal:20261202T184400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9b07e905b37331b472d2@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -2977,7 +2977,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T180000
 DTEND;TZID=America/Montreal:20261202T204000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f83c8582f596bc63a3ef@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2281
@@ -2988,7 +2988,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T181500
 DTEND;TZID=America/Montreal:20261202T201300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e5b21b50d26948aeb934@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -2999,7 +2999,7 @@ BEGIN:VEVENT
 SUMMARY:Queen at Sea (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261202T181500
 DTEND;TZID=America/Montreal:20261202T201600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:78741b06ddfb852565a4@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/q
  ueen-at-sea/
@@ -3010,7 +3010,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T182000
 DTEND;TZID=America/Montreal:20261202T200800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:42954f629626d83a3af6@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3021,7 +3021,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T183000
 DTEND;TZID=America/Montreal:20261202T195000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f115f4ec0750e4f19cd0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -3032,7 +3032,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T184500
 DTEND;TZID=America/Montreal:20261202T204700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:184852d682e0a394fa0c@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3043,7 +3043,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T185000
 DTEND;TZID=America/Montreal:20261202T204000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:5e896552a0075ffd01d7@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -3054,7 +3054,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ee7f09bd9a16768c2e16@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3066,7 +3066,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T191500
 DTEND;TZID=America/Montreal:20261202T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b1eda8e8528409023711@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3077,7 +3077,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T202000
 DTEND;TZID=America/Montreal:20261202T234000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:068e047465b1da1f2238@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -3088,7 +3088,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T204500
 DTEND;TZID=America/Montreal:20261202T234000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:dbb7dc02a54472d03be6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -3099,7 +3099,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T205000
 DTEND;TZID=America/Montreal:20261202T223800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:64c03424cda22a01d438@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3110,7 +3110,7 @@ BEGIN:VEVENT
 SUMMARY:Alice Doesn’t Live Here Anymore (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261202T210000
 DTEND;TZID=America/Montreal:20261202T225200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3ae779b1718ec88b4a95@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/a
  lice-doesnt-live-here-anymore/
@@ -3122,7 +3122,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T211000
 DTEND;TZID=America/Montreal:20261202T230100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c1297027f44b005cc52f@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -3133,7 +3133,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T211500
 DTEND;TZID=America/Montreal:20261202T231300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:34982128766ebb3542be@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -3144,7 +3144,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T212000
 DTEND;TZID=America/Montreal:20261202T225400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:337c9d7b00beab06d831@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3155,7 +3155,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261202T213000
 DTEND;TZID=America/Montreal:20261202T233200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bf0973c6ee294a7bf182@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3166,7 +3166,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261202T213000
 DTEND;TZID=America/Montreal:20261202T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8d79a446ed99d741e200@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3178,7 +3178,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T101000
 DTEND;TZID=America/Montreal:20261203T133000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:31913aa257cae495b0a1@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -3189,7 +3189,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T102000
 DTEND;TZID=America/Montreal:20261203T115400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d3dc9fb620537c4ded1b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3200,7 +3200,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T104000
 DTEND;TZID=America/Montreal:20261203T122600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0c4fa0119efeaa48d59e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3212,7 +3212,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T113000
 DTEND;TZID=America/Montreal:20261203T132000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e9aa7feeabb83f36ebc0@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -3223,7 +3223,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T120000
 DTEND;TZID=America/Montreal:20261203T140200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e1522a111367c822777b@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3234,7 +3234,7 @@ BEGIN:VEVENT
 SUMMARY:LA BOLA NEGRA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T121500
 DTEND;TZID=America/Montreal:20261203T145500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:76ca7d51badf23ae9e83@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/la-bola-negr
  a-2280
@@ -3245,7 +3245,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T122000
 DTEND;TZID=America/Montreal:20261203T141100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9c0aa97eefcbf15825f1@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -3256,7 +3256,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T123000
 DTEND;TZID=America/Montreal:20261203T141800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cf087d2abedf54671432@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3267,7 +3267,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T123000
 DTEND;TZID=America/Montreal:20261203T142800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4b5043ca266695eb0941@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -3278,7 +3278,7 @@ BEGIN:VEVENT
 SUMMARY:LA PATRIE (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261203T124500
 DTEND;TZID=America/Montreal:20261203T140700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:df79e55cfed84445c528@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/la-patrie-
  2274
@@ -3289,7 +3289,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T131000
 DTEND;TZID=America/Montreal:20261203T145600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:102e338b8a3dca0d89c5@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3301,7 +3301,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T140000
 DTEND;TZID=America/Montreal:20261203T152000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bbb91e61bba0a1f0eaea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -3312,7 +3312,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T140000
 DTEND;TZID=America/Montreal:20261203T154600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4d9e49c5e5356ca5ce4e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3324,7 +3324,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T145000
 DTEND;TZID=America/Montreal:20261203T164100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b0f4c1d210043583d7ae@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -3335,7 +3335,7 @@ BEGIN:VEVENT
 SUMMARY:MINOTAURE (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261203T145000
 DTEND;TZID=America/Montreal:20261203T171200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3b23ee488bbdb6ac111b@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/minotaure-
  2290
@@ -3346,7 +3346,7 @@ BEGIN:VEVENT
 SUMMARY:VOUS POUVEZ TOUT VOIR (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T145000
 DTEND;TZID=America/Montreal:20261203T174500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3e6f164a26f9bd2a3ee8@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/vous-pouvez-
  tout-voir-2284
@@ -3357,7 +3357,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T150000
 DTEND;TZID=America/Montreal:20261203T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f230e0cacd719a27c532@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -3368,7 +3368,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T151500
 DTEND;TZID=America/Montreal:20261203T171700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:800c5e59f63ddaf716b6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3379,7 +3379,7 @@ BEGIN:VEVENT
 SUMMARY:FJORD (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T153000
 DTEND;TZID=America/Montreal:20261203T175600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3f7a3555b91da74e25da@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/fjord-2230
 LOCATION:Cinéma du Parc
@@ -3389,7 +3389,7 @@ BEGIN:VEVENT
 SUMMARY:PAULINE JULIEN : FEMME PAYS (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T154000
 DTEND;TZID=America/Montreal:20261203T173000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:46fd901b49f948476a9d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/pauline-jul
  ien-femme-pays-2116
@@ -3400,7 +3400,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T155000
 DTEND;TZID=America/Montreal:20261203T173800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:628f406fdc6a5a11042b@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3411,7 +3411,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T163000
 DTEND;TZID=America/Montreal:20261203T180400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fb57ed8f033d590ef9dd@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3422,7 +3422,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T171500
 DTEND;TZID=America/Montreal:20261203T183500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ee1e7ebe253ebd2a6b56@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -3433,7 +3433,7 @@ BEGIN:VEVENT
 SUMMARY:Naza (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261203T174500
 DTEND;TZID=America/Montreal:20261203T190200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c3d7701076638d0aab46@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/n
  aza/
@@ -3444,7 +3444,7 @@ BEGIN:VEVENT
 SUMMARY:Film Club Night: Carol @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261203T180000
 DTEND;TZID=America/Montreal:20261203T212000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e0f9fbbfe773f132b036@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -3455,7 +3455,7 @@ BEGIN:VEVENT
 SUMMARY:CINÉ-HISTOIRE: ADIEU MA... (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261203T180000
 DTEND;TZID=America/Montreal:20261203T205100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bd13ff7a8220da2b542e@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/adieu-ma-c
  oncubine-2124
@@ -3466,7 +3466,7 @@ BEGIN:VEVENT
 SUMMARY:MURMURES (SD) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T181000
 DTEND;TZID=America/Montreal:20261203T193000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:33d2a8a3ddccc438f5af@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/murmures-22
  77
@@ -3477,7 +3477,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T181500
 DTEND;TZID=America/Montreal:20261203T201700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b320517a1e95e82b0104@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3488,7 +3488,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T183000
 DTEND;TZID=America/Montreal:20261203T202800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:7b26fed74e3951005b2f@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -3499,7 +3499,7 @@ BEGIN:VEVENT
 SUMMARY:25e: ANTIGONE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T183000
 DTEND;TZID=America/Montreal:20261203T201900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cf0e53f0128db7001b70@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/antigone-21
  86
@@ -3510,7 +3510,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T185000
 DTEND;TZID=America/Montreal:20261203T203800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:89405474d2f880eca08c@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3521,7 +3521,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T190000
 DTEND;TZID=America/Montreal:20261203T204600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f7073e168c6784ae2dea@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3533,7 +3533,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: GUGU'S WORLD (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T190000
 DTEND;TZID=America/Montreal:20261203T203300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:fae0adb2cb55ecaa7fba@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/gugu-s-world
  -2341
@@ -3544,7 +3544,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T191500
 DTEND;TZID=America/Montreal:20261203T204900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9d00129d52251073a260@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3555,7 +3555,7 @@ BEGIN:VEVENT
 SUMMARY:Once Upon a Time in Harlem (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T211000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b100db033c84d75121ff@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/o
  nce-upon-a-time-in-harlem/
@@ -3567,7 +3567,7 @@ BEGIN:VEVENT
 SUMMARY:LES RAYONS ET LES OMBRES (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T232000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:84c2ae412008e6f961d4@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/les-rayons-
  et-les-ombres-2278
@@ -3578,7 +3578,7 @@ BEGIN:VEVENT
 SUMMARY:CLUB KID: ENFANT DE LA NUIT (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T205000
 DTEND;TZID=America/Montreal:20261203T225200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:24c980d87c4e2c91e85a@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/club-kid-enf
  ant-de-la-nuit-2287
@@ -3589,7 +3589,7 @@ BEGIN:VEVENT
 SUMMARY:CHEVAL SAUVAGE NUMÉRO NEUF (VOASTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T210000
 DTEND;TZID=America/Montreal:20261203T225800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ed64b41d41e782645924@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cheval-sauva
  ge-numero-neuf-2275
@@ -3600,7 +3600,7 @@ BEGIN:VEVENT
 SUMMARY:SI TU PENSES BIEN (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T211000
 DTEND;TZID=America/Montreal:20261203T224400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b1b092fef70495a684cc@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/si-tu-pense
  s-bien-2292
@@ -3611,7 +3611,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: GUGU'S WORLD (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261203T211500
 DTEND;TZID=America/Montreal:20261203T224800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:1c56209ab9ac147f4525@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/gugu-s-world
  -2341
@@ -3622,7 +3622,7 @@ BEGIN:VEVENT
 SUMMARY:AUTOFICTION (VOSTF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T212000
 DTEND;TZID=America/Montreal:20261203T231100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:88fca6fa946efcaac8c2@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/autofiction
  -2293
@@ -3633,7 +3633,7 @@ BEGIN:VEVENT
 SUMMARY:VILLENEUVE: L'ASCENSION... (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T213000
 DTEND;TZID=America/Montreal:20261203T231600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:974f820ca47e4138240d@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/villeneuve-
  l-ascension-d-une-legende-2276
@@ -3645,7 +3645,7 @@ BEGIN:VEVENT
 SUMMARY:SANTA CLAUDE (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261203T213500
 DTEND;TZID=America/Montreal:20261203T232300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e8eb4334238f531f267a@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/santa-claud
  e-2299
@@ -3656,7 +3656,7 @@ BEGIN:VEVENT
 SUMMARY:PRIMETIME (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261203T213500
 DTEND;TZID=America/Montreal:20261203T232400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ceca3807f9871049e2ab@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/primetime-
  2392
@@ -3667,7 +3667,7 @@ BEGIN:VEVENT
 SUMMARY:Jim Queen [DERNIÈRE SÉANCE] (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261203T214500
 DTEND;TZID=America/Montreal:20261203T231000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ed88e885e25da7cff01d@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/j
  im-queen/
@@ -3678,7 +3678,7 @@ BEGIN:VEVENT
 SUMMARY:MARIE MADELEINE (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261204T180000
 DTEND;TZID=America/Montreal:20261204T194400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e99ed8089d57e0de1224@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/marie-made
  leine-2297
@@ -3689,7 +3689,7 @@ BEGIN:VEVENT
 SUMMARY:Marie Madeleine (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261204T181500
 DTEND;TZID=America/Montreal:20261204T194100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:735eb8a8cab351a112b7@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/c
  inema-montreal-marie-madeleine/
@@ -3701,7 +3701,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: CINQ TYPES DE PEUR (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261204T184500
 DTEND;TZID=America/Montreal:20261204T203400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:d2a3f185778bb62d773d@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/cinq-types-d
  e-peur-2342
@@ -3712,7 +3712,7 @@ BEGIN:VEVENT
 SUMMARY:La bola negra (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261204T203000
 DTEND;TZID=America/Montreal:20261204T230900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:713e51fe9d0db1006d72@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/l
  a-bola-negra/
@@ -3723,7 +3723,7 @@ BEGIN:VEVENT
 SUMMARY:ROCKY (VOSTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261204T210000
 DTEND;TZID=America/Montreal:20261204T225900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:cbe1e1ec777f4f1e6610@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/rocky-2373
 LOCATION:Cinéma du Musée
@@ -3733,7 +3733,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: RITAS (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261204T211500
 DTEND;TZID=America/Montreal:20261204T223800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:2df39016dca92cdafeea@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/ritas-2343
 LOCATION:Cinéma du Parc
@@ -3744,7 +3744,7 @@ SUMMARY:Cinema Paradiso – Coups de coeur de l’équipe (VOSTA) @ Ciném
  a Moderne
 DTSTART;TZID=America/Montreal:20261205T113000
 DTEND;TZID=America/Montreal:20261205T133400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:a69fad02a023ba7a06e8@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/c
  inema-paradiso-coups-de-coeur-de-lequipe/
@@ -3756,7 +3756,7 @@ BEGIN:VEVENT
 SUMMARY:CINÉMA NOMADE: COURTS-MÉTRAGES @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T141800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f47940eb2d5dc931b7fb@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/l-identite-
  4-court-metrages-4-regards-2379
@@ -3768,7 +3768,7 @@ BEGIN:VEVENT
 SUMMARY:MARIE MADELEINE (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T154400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f16a83220981c8af41eb@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/marie-made
  leine-2297
@@ -3779,7 +3779,7 @@ BEGIN:VEVENT
 SUMMARY:Nausicaä of the Valley of the Wind (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T155700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3acd1f50b5333a55ccc9@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/n
  ausicaa-of-the-valley-of-the-wind/
@@ -3791,7 +3791,7 @@ BEGIN:VEVENT
 SUMMARY:Catch me If You Can @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261205T150000
 DTEND;TZID=America/Montreal:20261205T172000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:3a476c2142125d4e6fc4@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -3802,7 +3802,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: LE JOURNAL DE... (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261205T170000
 DTEND;TZID=America/Montreal:20261205T183200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c263bc448e3f80ea4989@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/le-journal-d
  e-pilar-en-amazonie-2344
@@ -3813,7 +3813,7 @@ BEGIN:VEVENT
 SUMMARY:Kiss Kiss Bang Bang (2005) @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261205T180000
 DTEND;TZID=America/Montreal:20261205T194000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:4f231a99e8c4f7f7ae4d@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -3824,7 +3824,7 @@ BEGIN:VEVENT
 SUMMARY:Alice Doesn’t Live Here Anymore (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261205T183000
 DTEND;TZID=America/Montreal:20261205T202200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e3e81de65aa89cf89b2d@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/a
  lice-doesnt-live-here-anymore/
@@ -3836,7 +3836,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: OLD BANDITS (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261205T190000
 DTEND;TZID=America/Montreal:20261205T203500
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:428489f96a870075f8fa@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/old-bandits-
  2345
@@ -3847,7 +3847,7 @@ BEGIN:VEVENT
 SUMMARY:MORNING GORY: BATMAN RETURNS (VOASTF) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261205T200000
 DTEND;TZID=America/Montreal:20261205T220600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:33c99f21c7ce03c9cdf9@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/batman-ret
  urns-2286
@@ -3858,7 +3858,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: UN HOMME AVEC... (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261205T211500
 DTEND;TZID=America/Montreal:20261205T231800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:73070b5013d4164324c6@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/un-homme-ave
  c-un-grand-h-2346
@@ -3869,7 +3869,7 @@ BEGIN:VEVENT
 SUMMARY:ENTRELACEMENTS: THEATER OF... (VOA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261206T120000
 DTEND;TZID=America/Montreal:20261206T134800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:bb9bf005a0a2d69000ce@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/theater-of
  -thought-2195
@@ -3880,7 +3880,7 @@ BEGIN:VEVENT
 SUMMARY:AV: DANEMARK ET LES ÎLES FÉROÉ (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261206T130000
 DTEND;TZID=America/Montreal:20261206T143000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:aa844fcee56cc75c7ace@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/danemark-et
  -les-iles-feroe-le-royaume-du-bonheur-2079
@@ -3892,7 +3892,7 @@ BEGIN:VEVENT
 SUMMARY:CINÉPSY: DOUNIA ET LA PRIN... (VOF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261206T140000
 DTEND;TZID=America/Montreal:20261206T151200
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:499af76804c234bf60ea@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/dounia-et-la
  -princesse-d-alep-2201
@@ -3903,7 +3903,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: MILTON BITUCA... (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261206T163000
 DTEND;TZID=America/Montreal:20261206T182000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:774d643d909bb05d2a7d@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/milton-bituc
  a-nascimento-2347
@@ -3914,7 +3914,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: COMEBACK DAD (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261206T185000
 DTEND;TZID=America/Montreal:20261206T203000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c1463d807a3ca8992951@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/comeback-dad
  -2367
@@ -3925,7 +3925,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: MALÊS (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261206T211500
 DTEND;TZID=America/Montreal:20261206T230600
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b9da2cf3341fb8d6ef53@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/males-2348
 LOCATION:Cinéma du Parc
@@ -3935,7 +3935,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: GONZAGUINHA (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T201800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:9b10c82ec475474ae158@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/gonzaguinha-
  de-la-plus-grande-liberte-2349
@@ -3947,7 +3947,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: ANTARCTICA (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261207T210000
 DTEND;TZID=America/Montreal:20261207T223400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:28ed432621665b443adb@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/antarctica-2
  350
@@ -3958,7 +3958,7 @@ BEGIN:VEVENT
 SUMMARY:FILM 101: RASHÔMON (VOSTA) @ Cinéma du Musée
 DTSTART;TZID=America/Montreal:20261208T180000
 DTEND;TZID=America/Montreal:20261208T192800
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:8e456987e1cb2d4039d7@mtl-events
 DESCRIPTION:Cinéma du Musée\nhttps://cinemacinema.ca/fr/films/rashomon-2
  126
@@ -3969,7 +3969,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: GUGU'S WORLD (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261208T183000
 DTEND;TZID=America/Montreal:20261208T200300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:6dd57c86f589c5243100@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/gugu-s-world
  -2341
@@ -3980,7 +3980,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: L'AGENT SECRET (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261208T203000
 DTEND;TZID=America/Montreal:20261208T231100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:54bd18664f8cacdb5c42@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/l-agent-secr
  et-2351
@@ -3991,7 +3991,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: (UN)CONTROL (VOSTA) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T203300
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0a7cca22b465a2299157@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/un-control-2
  352
@@ -4002,7 +4002,7 @@ BEGIN:VEVENT
 SUMMARY:AV: DANEMARK ET LES ÎLES FÉROÉ (VOF) @ Cinéma Beaubien
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T203000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:272329385c9b3839327e@mtl-events
 DESCRIPTION:Cinéma Beaubien\nhttps://cinemacinema.ca/fr/films/danemark-et
  -les-iles-feroe-le-royaume-du-bonheur-2079
@@ -4014,7 +4014,7 @@ BEGIN:VEVENT
 SUMMARY:FBRÉSILIEN: MANAS (VOSTF) @ Cinéma du Parc
 DTSTART;TZID=America/Montreal:20261209T211500
 DTEND;TZID=America/Montreal:20261209T225900
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c4293635bf363746597e@mtl-events
 DESCRIPTION:Cinéma du Parc\nhttps://cinemacinema.ca/fr/films/manas-2353
 LOCATION:Cinéma du Parc
@@ -4024,7 +4024,7 @@ BEGIN:VEVENT
 SUMMARY:Dune: Part 2 @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261211T190000
 DTEND;TZID=America/Montreal:20261211T214000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:92b2b26261070b4b50d3@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -4035,7 +4035,7 @@ BEGIN:VEVENT
 SUMMARY:Fatherland (VOSTF) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261212T114500
 DTEND;TZID=America/Montreal:20261212T130700
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f0343a61418d932ffa9e@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/f
  atherland/
@@ -4046,7 +4046,7 @@ BEGIN:VEVENT
 SUMMARY:Notting Hill – Ciné-tricot (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261212T133000
 DTEND;TZID=America/Montreal:20261212T153400
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:dcfe1acb2e0212d53633@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/n
  otting-hill-cine-tricot/
@@ -4057,7 +4057,7 @@ BEGIN:VEVENT
 SUMMARY:The Truman Show (1998) @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261212T150000
 DTEND;TZID=America/Montreal:20261212T164000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:b1e6eeccae148446dd84@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -4068,7 +4068,7 @@ BEGIN:VEVENT
 SUMMARY:Once Upon a Time in Harlem (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261212T160000
 DTEND;TZID=America/Montreal:20261212T174000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:119a34c1eb0ea678788a@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/o
  nce-upon-a-time-in-harlem/
@@ -4080,7 +4080,7 @@ BEGIN:VEVENT
 SUMMARY:Black Christmas (1974) @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261212T180000
 DTEND;TZID=America/Montreal:20261212T194000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:e7fb664108bdf2a1f605@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -4091,7 +4091,7 @@ BEGIN:VEVENT
 SUMMARY:Raise the Red Lantern: 35e anniversaire (VOSTA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261212T181500
 DTEND;TZID=America/Montreal:20261212T202000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:214a842040583cd43ad2@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/r
  aise-the-red-lantern-35e-anniversaire/
@@ -4103,7 +4103,7 @@ BEGIN:VEVENT
 SUMMARY:Queen at Sea (VOA) @ Cinéma Moderne
 DTSTART;TZID=America/Montreal:20261213T160000
 DTEND;TZID=America/Montreal:20261213T180100
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:f36aca094aab9959ffd6@mtl-events
 DESCRIPTION:Cinéma Moderne\nhttps://www.cinemamoderne.com/films/details/q
  ueen-at-sea/
@@ -4114,7 +4114,7 @@ BEGIN:VEVENT
 SUMMARY:Film Club Night: 23 Décembre @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261217T180000
 DTEND;TZID=America/Montreal:20261217T220000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:0c3b0f77440ff38e3c5e@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -4125,7 +4125,7 @@ BEGIN:VEVENT
 SUMMARY:Harry Potter and the Sorcerer's Stone @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261219T150000
 DTEND;TZID=America/Montreal:20261219T173000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:ef501bb114c04fb46430@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -4136,7 +4136,7 @@ BEGIN:VEVENT
 SUMMARY:Eyes Wide Shut @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261219T180000
 DTEND;TZID=America/Montreal:20261219T204000
-DTSTAMP:20261126T060804Z
+DTSTAMP:20261126T061154Z
 UID:c0b8ab6b14b8881dc400@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
