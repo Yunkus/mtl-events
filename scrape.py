@@ -783,6 +783,8 @@ EVENT_SOURCES = {
     "L'Escogriffe": lambda: ra_events("venue", "124247", "L'Escogriffe"),   # its own site is a Facebook page
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Quai des Brumes": quai_des_brumes,
+    # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
+    "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
     "New City Gas": new_city_gas,
     # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
@@ -889,7 +891,7 @@ _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
 ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
-    "Stereo": ["Electronic", "House"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
+    "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"],"New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],

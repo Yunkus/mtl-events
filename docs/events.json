@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T19:19-05:00",
+ "generated": "2026-11-25T19:20-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 338
+   "count": 347
   },
   "other": {
    "title": "Montreal Other Events",
@@ -136,6 +136,11 @@
   "Quai des Brumes": {
    "ok": true,
    "count": 7,
+   "tab": "music"
+  },
+  "StereoBar": {
+   "ok": true,
+   "count": 9,
    "tab": "music"
   },
   "Système": {
@@ -838,6 +843,24 @@
    "id": "79386c5f0c08393141bf"
   },
   {
+   "source": "StereoBar",
+   "title": "Monitors b2b Napo Lugo - Kressel (Live) - Staziä",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://ra.co/events/2575333",
+   "end": "2026-11-28T06:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "1185bd59515e53e2069a"
+  },
+  {
    "source": "Système",
    "title": "Festival Triste x Humidex Records",
    "start": "2026-11-27T22:00:00-05:00",
@@ -1167,6 +1190,24 @@
    "all_day": false,
    "tab": "music",
    "id": "db8e4ce04c41fa42c4a7"
+  },
+  {
+   "source": "StereoBar",
+   "title": "Hilel Lev (All Night Long)",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://ra.co/events/2575336",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "dc482f125496b2c93e9c"
   },
   {
    "source": "Système",
@@ -2088,6 +2129,25 @@
    "id": "def9a7828c2e41f8caff"
   },
   {
+   "source": "StereoBar",
+   "title": "Ced Ullberg - Lizzi - Roomservice",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://ra.co/events/2589209",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "3e6ccc1a98f03f344215"
+  },
+  {
    "source": "Système",
    "title": "LE 10EME ANNIVERSAIRE DE LA RAMA",
    "start": "2026-12-04T22:00:00-05:00",
@@ -2990,6 +3050,25 @@
    "id": "f51da97f066e4bd8b794"
   },
   {
+   "source": "StereoBar",
+   "title": "Tommy Phillips - Cam Stockman - Flytz",
+   "start": "2026-12-11T22:00:00-05:00",
+   "url": "https://ra.co/events/2589211",
+   "end": "2026-12-12T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "01b76dcf30e436de5af6"
+  },
+  {
    "source": "Système",
    "title": "arkan x Système",
    "start": "2026-12-11T22:00:00-05:00",
@@ -3244,6 +3323,24 @@
    "all_day": false,
    "tab": "music",
    "id": "21697f7997600ba0aec3"
+  },
+  {
+   "source": "StereoBar",
+   "title": "INVT (All Night Long)",
+   "start": "2026-12-12T22:00:00-05:00",
+   "url": "https://ra.co/events/2589216",
+   "end": "2026-12-13T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "bb1b65cf6502d92d1785"
   },
   {
    "source": "Système",
@@ -3867,6 +3964,24 @@
    "id": "7559ff33804de0080312"
   },
   {
+   "source": "StereoBar",
+   "title": "KNTC 5yr: Maxime dB - Dimitry b2b Salvo",
+   "start": "2026-12-18T22:00:00-05:00",
+   "url": "https://ra.co/events/2589218",
+   "end": "2026-12-19T05:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "8a888b7441f22621e23f"
+  },
+  {
    "source": "Système",
    "title": "N10.AS: Congrats! You're here",
    "start": "2026-12-18T22:00:00-05:00",
@@ -3991,6 +4106,25 @@
    "all_day": false,
    "tab": "music",
    "id": "3212a7ff0599f3789e2f"
+  },
+  {
+   "source": "StereoBar",
+   "title": "AGELESS - Benny Revah",
+   "start": "2026-12-19T22:00:00-05:00",
+   "url": "https://ra.co/events/2589220",
+   "end": "2026-12-20T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "ce2561f015a63ad7de04"
   },
   {
    "source": "Système",
@@ -4178,6 +4312,25 @@
    "id": "c8b23ffcdffeb4a48c24"
   },
   {
+   "source": "StereoBar",
+   "title": "Ugly Sweater Xmas x In Too Deep: Manu - Manuel Falardeau - Latour",
+   "start": "2026-12-25T22:00:00-05:00",
+   "url": "https://ra.co/events/2589222",
+   "end": "2026-12-26T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "15a154e42b1497c0537b"
+  },
+  {
    "source": "Le Red Room",
    "title": "PLUR: BassXmas",
    "start": "2026-12-26",
@@ -4195,6 +4348,24 @@
    "all_day": true,
    "tab": "music",
    "id": "2d5c6bf1205648bf0bd6"
+  },
+  {
+   "source": "StereoBar",
+   "title": "Ostrich (All Night Long)",
+   "start": "2026-12-26T22:00:00-05:00",
+   "url": "https://ra.co/events/2589226",
+   "end": "2026-12-27T03:00:00-05:00",
+   "location": "StereoBar",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "cf8949839b18bd37cf29"
   },
   {
    "source": "Système",

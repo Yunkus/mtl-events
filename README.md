@@ -73,6 +73,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | L'Escogriffe | Resident Advisor venue 124247 (its own site is a Facebook page; lists shows on RA only occasionally) |
 | Ausgang Plaza | Resident Advisor venue 158331 |
 | Quai des Brumes | quaidesbrumes.ca/calendrier (Modern Events Calendar list; year from each entry's CSS class) |
+| StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
 
 ### Museums tab (`docs/museums.ics`)
 
