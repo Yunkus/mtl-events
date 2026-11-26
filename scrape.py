@@ -1078,6 +1078,9 @@ EVENT_SOURCES = {
     # (Heures ouvrables removed: its Linktree refuses requests from GitHub's servers; linktree_dated() is kept)
     # multi-use space (5435 av. des Érables); raves and parties go on RA venue 235410
     "Espace Transmission": lambda: ra_events("venue", "235410", "Espace Transmission"),
+    # museum evenings out (DJ, bar, workshops) — listed under Other Events rather than Museums & Galleries
+    "MBAM La Buvette": lambda: mbam_series("la-buvette"),
+    "McCord After Hours": mccord_after_hours,
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -1286,7 +1289,8 @@ def tag_genres(e: Ev, tab: str) -> None:
 
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
-OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library"}
+OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library",
+                 "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours"}
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
@@ -1319,8 +1323,7 @@ SOURCE_GROUPS = [
     (EVENT_SOURCES, event_tab, source_tab),
     ({"Musées Montréal": musees_montreal, "DARE-DARE": dare_dare, "Occurrence": occurrence,
       "Fais-moi l'art": fais_moi_lart, "FOIL": foil,
-      "Espace Transmission (site)": espace_transmission_site,
-      "MBAM La Buvette": lambda: mbam_series("la-buvette"), "McCord After Hours": mccord_after_hours},
+      "Espace Transmission (site)": espace_transmission_site},
      lambda e: "museums", lambda name: "museums"),
     # Montreal Art Center: its film screenings go to Movies, exhibitions and events to Museums & Galleries
     ({"Montreal Art Center": montreal_art_center}, lambda e: "movies" if e.kind == "Screening" else "museums",

@@ -59,7 +59,7 @@ Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
 
 Each event in the venue list below goes to **Music & Dance** unless:
 
-- its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days, Favourite Library,
+- its source is in `OTHER_SOURCES` in `scrape.py` (MTL Cookbook Club, Soft Studio Days, Favourite Library, MBAM La Buvette, McCord After Hours,
   Le Marché Vintage, 5 à Set), or
 - its title matches `OTHER_TITLES` (comedy, stand-up, roast, podcast, quiz, trivia, readings, conferences…),
   which catches the non-music nights at music venues.
@@ -107,8 +107,8 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Fais-moi l'art | faismoilart.org/en-cours: 'Du 4 au 19 décembre 2026' blocks → exhibitions, 'Vernissage le …' → events |
 | FOIL (Finer Objects in Life) | homepage events list (date + title per row, time from each row's detail panel) |
 | Espace Transmission | espacetransmission.ca/événements ('14.11.24. …' entries; currently only past ones) and, for its parties, Resident Advisor venue 235410 (Music & Dance) |
-| MBAM (La Buvette) | each date has its own page in the MBAM sitemap (`/activities/la-buvette-DD-MM-YY/`); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
-| McCord After Hours | the page's "Next event" spot; nothing is listed until it shows a date (now: "Stay tuned!") |
+| MBAM (La Buvette) — Other Events tab | each date has its own page in the MBAM sitemap (`/activities/la-buvette-DD-MM-YY/`); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
+| McCord After Hours — Other Events tab | the page's "Next event" spot; nothing is listed until it shows a date (now: "Stay tuned!") |
 | Montreal Art Center | montrealartcenter.com/our-events (Wix events). Film screenings go to the Movies tab; exhibitions and events here. |
 
 ### Movies tab (`docs/movies.ics`)

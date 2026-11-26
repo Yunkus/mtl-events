@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:12-05:00",
+ "generated": "2026-11-25T21:19-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -9,7 +9,7 @@
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 14
+   "count": 15
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -19,7 +19,7 @@
   "museums": {
    "title": "Montreal Museums & Galleries",
    "feed": "museums.ics",
-   "count": 76
+   "count": 75
   },
   "movies": {
    "title": "Montreal Movies",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 17
+   "zero_streak": 18
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 17
+   "zero_streak": 18
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 17
+   "zero_streak": 18
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -201,7 +201,21 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 7
+   "zero_streak": 8
+  },
+  "MBAM La Buvette": {
+   "ok": true,
+   "count": 1,
+   "tab": "other",
+   "last_count": 1,
+   "zero_streak": 0
+  },
+  "McCord After Hours": {
+   "ok": true,
+   "count": 0,
+   "tab": "other",
+   "last_count": 0,
+   "zero_streak": 3
   },
   "StereoBar": {
    "ok": true,
@@ -229,7 +243,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 17
+   "zero_streak": 18
   },
   "Trivia Nights": {
    "ok": true,
@@ -299,21 +313,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 7
-  },
-  "MBAM La Buvette": {
-   "ok": true,
-   "count": 1,
-   "tab": "museums",
-   "last_count": 1,
-   "zero_streak": 0
-  },
-  "McCord After Hours": {
-   "ok": true,
-   "count": 0,
-   "tab": "museums",
-   "last_count": 0,
-   "zero_streak": 2
+   "zero_streak": 8
   },
   "Montreal Art Center": {
    "ok": true,
@@ -6578,6 +6578,22 @@
    "id": "deac52723d022fcabc67"
   },
   {
+   "source": "MBAM",
+   "title": "La Buvette",
+   "start": "2026-12-03T18:00:00-05:00",
+   "url": "https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/",
+   "end": "2026-12-03T22:00:00-05:00",
+   "location": "Montreal Museum of Fine Arts, 1380 rue Sherbrooke O",
+   "kind": "Event",
+   "free": false,
+   "price": "$32",
+   "price_lo": 32.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "88dd243a2b4183277b72"
+  },
+  {
    "source": "Ausgang Plaza",
    "title": "CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal",
    "start": "2026-12-04T17:00:00-05:00",
@@ -10983,22 +10999,6 @@
    "all_day": true,
    "tab": "museums",
    "id": "3657548d7c62931e86e1"
-  },
-  {
-   "source": "MBAM",
-   "title": "La Buvette",
-   "start": "2026-12-03T18:00:00-05:00",
-   "url": "https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/",
-   "end": "2026-12-03T22:00:00-05:00",
-   "location": "Montreal Museum of Fine Arts, 1380 rue Sherbrooke O",
-   "kind": "Event",
-   "free": false,
-   "price": "$32",
-   "price_lo": 32.0,
-   "genres": [],
-   "all_day": false,
-   "tab": "museums",
-   "id": "88dd243a2b4183277b72"
   },
   {
    "source": "Montreal Art Center",
