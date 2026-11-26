@@ -2349,14 +2349,14 @@ def source_tab(name: str) -> str:
 
 # tab id -> (title, feed file); order = order on the page
 TABS = {
-    "music": ("Montreal Music & Dance", "music.ics"),
-    "classical": ("Montreal Classical & Opera", "classical.ics"),
-    "other": ("Montreal Other Events", "other.ics"),
-    "bars": ("Montreal Bar Nights", "bars.ics"),
-    "city": ("Montreal City Events", "city.ics"),
+    "music": ("Montreal Music", "music.ics"),
+    "other": ("Montreal Social", "other.ics"),
+    "bars": ("Montreal Bar", "bars.ics"),
     "oysters": ("Montreal Oyster Deals", "oysters.ics"),
-    "museums": ("Montreal Museums & Galleries", "museums.ics"),
-    "movies": ("Montreal Movies", "movies.ics"),
+    "museums": ("Montreal Exhibition", "museums.ics"),
+    "classical": ("Montreal Traditional", "classical.ics"),
+    "city": ("Montreal City", "city.ics"),
+    "movies": ("Montreal Film", "movies.ics"),
 }
 # (sources, function choosing each event's tab, tab to file the source's status under)
 SOURCE_GROUPS = [

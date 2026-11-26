@@ -338,25 +338,24 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", classical: "Classical & Opera", other: "Other Events", bars: "Bar Nights", city: "City Events", oysters: "Oysters",
-                    museums: "Museums & Galleries", movies: "Movies",
-                    date: "By Date" };
-const TAB_SHORT = { music: "Music", classical: "Classical", other: "Other", bars: "Bars", city: "City", oysters: "Oysters", museums: "Museums",
-                    movies: "Movies", date: "By Date" };   // narrow screens
+const TAB_LABEL = { music: "Music", other: "Social", bars: "Bar", oysters: "Oysters", museums: "Exhibition",
+                    classical: "Traditional", city: "City", movies: "Film", date: "By Date" };
+const TAB_SHORT = { music: "Music", other: "Social", bars: "Bar", oysters: "Oysters", museums: "Exhibition",
+                    classical: "Traditional", city: "City", movies: "Film", date: "By Date" };   // narrow screens
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", classical: "Search composers, performers, halls…", other: "Search events, venues…",
                       bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", oysters: "Search restaurants, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
                       date: "Search this day…" };
 // "By Date" view: everything on one day, in this order of types
 const DAY_GROUPS = [
-  ["Music & Dance", e => e.tab === "music"],
-  ["Classical & Opera", e => e.tab === "classical"],
-  ["Other Events", e => e.tab === "other"],
-  ["Bar Nights", e => e.tab === "bars"],
-  ["City Events", e => e.tab === "city"],
+  ["Music", e => e.tab === "music"],
+  ["Social", e => e.tab === "other"],
+  ["Bar", e => e.tab === "bars"],
   ["Oyster deals", e => e.tab === "oysters"],
-  ["Museum events", e => e.tab === "museums" && e.kind !== "exhibition"],
+  ["Exhibition events", e => e.tab === "museums" && e.kind !== "exhibition"],
   ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
-  ["Movies", e => e.tab === "movies"],
+  ["Traditional", e => e.tab === "classical"],
+  ["City", e => e.tab === "city"],
+  ["Film", e => e.tab === "movies"],
 ];
 const EVENT_TABS = ["music", "classical", "other", "bars", "city", "oysters"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
@@ -462,7 +461,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const srcTab = n => (sources[n] && sources[n].tab) || "events";
   const gen = new Date(data.generated).toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" });
 
-  const tabIds = Object.keys(tabsInfo);
+  const order = Object.keys(TAB_LABEL);   // page order follows TAB_LABEL, whatever order the data lists
+  const tabIds = Object.keys(tabsInfo).sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99));
   const allTabs = [...tabIds, "date"];
   // "#events" is the old single Events tab; "#date/2026-12-05" opens By Date on that day
   const fix = t => (t === "events" ? "music" : t.startsWith("date") ? "date" : t);
@@ -476,7 +476,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const tabBtns = {};
   for (const id of allTabs) {
     const b = el("button", "tab"); b.setAttribute("role", "tab");
-    b.append(el("span", "lf", { museums: "Museums", classical: "Classical" }[id] || TAB_LABEL[id] || id),   // full names won't all fit on one row
+    b.append(el("span", "lf", TAB_LABEL[id] || id),
              el("span", "ls", TAB_SHORT[id] || TAB_LABEL[id] || id));
     if (id !== "date") b.appendChild(el("span", "n", ""));
     b.onclick = () => select(id);
@@ -916,7 +916,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     for (const [label, test] of DAY_GROUPS) {
       const items = shown.filter(test);
       if (!items.length) continue;
-      const count = label === "Movies" ? new Set(items.map(e => e.source + "|" + e.title)).size + " films" : items.length;
+      const count = label === "Film" ? new Set(items.map(e => e.source + "|" + e.title)).size + " films" : items.length;
       const sec = el("section", "day group"); sec.appendChild(el("h2", null, `${label} · ${count}`));
       const groups = new Map();
       for (const e of items) addRow(e, sec, groups);
