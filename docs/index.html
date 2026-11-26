@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Go Out Montreal</title>
 <link rel="preload" href="fonts/ShareTech-Regular.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="icon" type="image/png" href="favicon.png?v=2">
-<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" href="favicon.png?v=3">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
 <style>
   /* Bright amber, dark amber, black and cloud white (greys are only shades between black and white).
      black #0b0b0b · panels #161616 · lines #2a2a2a · cloud white #f2f2ee · dimmed white #a9a9a5
@@ -39,13 +39,13 @@
   .band .in { max-width: 860px; margin: 0 auto; padding: 24px 16px 0; }
   header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
   h1 { margin: 0; font: 400 32px/1.15 var(--serif); letter-spacing: -0.01em; }
-  /* logo at the top: its black background melts into the black header (lighten blend) */
+  /* logo at the top: a transparent image, so it sits straight on the header */
   .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
-  .logo { width: 104px; height: 104px; flex: none; display: block; mix-blend-mode: lighten; margin: -10px 0 -8px -10px; }
+  .logo { height: 88px; width: auto; flex: none; display: block; margin: -4px 0; }
   /* the site name, as an image */
   .wordmark { display: block; width: min(440px, 100%); height: auto; margin-bottom: 10px; }
   .brand > div { min-width: 0; flex: 1; }
-  @media (max-width: 560px) { .logo { width: 76px; height: 76px; margin: -6px 0 -6px -8px; } .wordmark { width: 100%; } }
+  @media (max-width: 560px) { .logo { height: 64px; margin: -2px 0; } .wordmark { width: 100%; } }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
@@ -133,7 +133,7 @@
 <div class="band"><div class="in">
   <header>
     <div class="brand">
-      <img class="logo" src="logo.jpg?v=2" alt="Site logo" width="104" height="104">
+      <img class="logo" src="logo.webp?v=3" alt="Site logo" width="203" height="208">
       <div>
         <h1 id="title"><img class="wordmark" src="wordmark.webp?v=4" alt="Go Out Montreal" width="2000" height="139"></h1>
         <div class="meta" id="meta">Loading…</div>
