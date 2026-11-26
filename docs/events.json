@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T13:04-05:00",
+ "generated": "2026-11-26T13:06-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -131,7 +131,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 30,
+   "zero_streak": 31,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -139,7 +139,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 57,
+   "zero_streak": 58,
    "zero_alerted": true
   },
   "Stereo": {
@@ -211,7 +211,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 57,
+   "zero_streak": 58,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -243,7 +243,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 10,
+   "zero_streak": 11,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -283,7 +283,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 47,
+   "zero_streak": 48,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -299,7 +299,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 43,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -355,7 +355,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 57,
+   "zero_streak": 58,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -451,7 +451,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 47,
+   "zero_streak": 48,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -1403,20 +1403,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
+   "title": "Gabriel Béland en spectacles",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
    "end": null,
-   "location": "La Toscadura",
+   "location": "Casa del Popolo",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
    "genres": [],
-   "image": "img/4a04129555fa16ad.webp",
+   "image": "img/f15752548cb1e4ef.webp",
    "all_day": false,
    "tab": "music",
-   "id": "e88301d3fe7d38d97164",
+   "id": "b3e0e7bd1944c78b17ce",
    "added": ""
   },
   {
@@ -2230,45 +2230,6 @@
    "all_day": false,
    "tab": "music",
    "id": "adb35a995e3a8f44ff5c",
-   "added": ""
-  },
-  {
-   "source": "Bootlegger",
-   "title": "Groovy Jazz Wednesday",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
-   "end": "2026-12-02T23:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "img/3b75cde8f5fea653.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "8b848ce85c5e47870b71",
-   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Anthony Prégent",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
-   "end": null,
-   "location": "La Toscadura",
-   "kind": "",
-   "free": false,
-   "price": "$20",
-   "price_lo": 20.0,
-   "genres": [],
-   "image": "img/2a46fffc21aca73d.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3ef1e8e7403420022ccc",
    "added": ""
   },
   {
@@ -3788,27 +3749,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Bootlegger",
-   "title": "Groovy Jazz Wednesday",
-   "start": "2026-12-09T20:00:00-05:00",
-   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
-   "end": "2026-12-09T23:00:00-05:00",
-   "location": "Bootlegger, 3481 boul. Saint-Laurent",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Jazz & Blues"
-   ],
-   "image": "img/3b75cde8f5fea653.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "17d595a736142b780268",
-   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Jam avec Growve\"",
    "start": "2026-12-09T20:00:00-05:00",
@@ -3936,6 +3876,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "i cant keep up i wont",
+   "start": "2026-12-10T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/e1e2524c94a096b7.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "683630bb93cfe5b3a2d0",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "6flamencos / Entre mis manos",
    "start": "2026-12-10T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos",
@@ -3952,24 +3910,6 @@
    "all_day": false,
    "tab": "music",
    "id": "56f7aa0cde022bcb9f77",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "i cant keep up i wont",
-   "start": "2026-12-10T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/e1e2524c94a096b7.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "683630bb93cfe5b3a2d0",
    "added": ""
   },
   {
@@ -18496,48 +18436,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Étoile vagabonde - Compagnie musicale La Nef",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
-   "end": "2026-12-05T14:45:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows"
-   ],
-   "image": "img/4769cf2163815d8a.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "bf8463243dcad9cb9d4d",
-   "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Rencontre avec Maya Cousineau Mollen",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-avec-maya-cousineau-mollen-118980",
-   "end": "2026-12-05T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/b961de1b4ba027ee.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e9726f64f23531335eba",
-   "about": "Grâce à un aperçu sensible de l'histoire, celle qui n'a jamais été écrite, Maya Cousineau-Mollen tentera de mettre un contexte pertinent à la compréhension de ce qui s'est passé. Mini-conférence, lecture de poésies et discussions.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Rencontre informelle avec Hervé Mbelo",
    "start": "2026-12-05T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
@@ -18644,24 +18542,23 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "18.015 - Nouena Danse",
+   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
-   "end": "2026-12-05T16:15:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
+   "end": "2026-12-05T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Pop & Throwback",
-    "Dance"
+    "Theatre & Shows"
    ],
-   "image": "img/1abfecb4f7857f77.webp",
+   "image": "img/438c8ae3a716a040.webp",
    "all_day": false,
    "tab": "city",
-   "id": "3fc85464ec2c113adb3c",
-   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
+   "id": "8969c605090a09e68316",
+   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
    "added": ""
   },
   {
@@ -18687,23 +18584,24 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
+   "title": "18.015 - Nouena Danse",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
-   "end": "2026-12-05T15:45:00-05:00",
-   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
+   "end": "2026-12-05T16:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows"
+    "Pop & Throwback",
+    "Dance"
    ],
-   "image": "img/438c8ae3a716a040.webp",
+   "image": "img/1abfecb4f7857f77.webp",
    "all_day": false,
    "tab": "city",
-   "id": "8969c605090a09e68316",
-   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
+   "id": "3fc85464ec2c113adb3c",
+   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
    "added": ""
   },
   {
@@ -18814,25 +18712,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Des semis à l’assiette",
-   "start": "2026-12-06T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
-   "end": "2026-12-06T14:30:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/c862826e5210a55a.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "85b0a20b755dae09e655",
-   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Fabrication de couronnes des fêtes",
    "start": "2026-12-06T13:00:00-05:00",
    "url": "https://montreal.ca/evenements/fabrication-de-couronnes-des-fetes-120546",
@@ -18855,43 +18734,22 @@
   },
   {
    "source": "Other city venues",
-   "title": "Tous les matins d’Elinor - Elinor Frey",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
-   "end": "2026-12-06T15:15:00-05:00",
-   "location": "Centre des loisirs de Saint-Laurent",
+   "title": "Des semis à l’assiette",
+   "start": "2026-12-06T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
+   "end": "2026-12-06T14:30:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [],
-   "image": "img/56dd3aaab4c76f9d.webp",
+   "image": "img/c862826e5210a55a.webp",
    "all_day": false,
    "tab": "city",
-   "id": "11168fbb434aeda405d2",
-   "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
+   "id": "85b0a20b755dae09e655",
+   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture féministe (séance de décembre)",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
-   "end": "2026-12-06T16:00:00-05:00",
-   "location": "Bibliothèque Père-Ambroise",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/ac7824c0b8bd5c30.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ae1c1d4485712856e4b8",
-   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
-   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -18938,6 +18796,46 @@
   },
   {
    "source": "Other city venues",
+   "title": "Tous les matins d’Elinor - Elinor Frey",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
+   "end": "2026-12-06T15:15:00-05:00",
+   "location": "Centre des loisirs de Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/56dd3aaab4c76f9d.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "11168fbb434aeda405d2",
+   "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe (séance de décembre)",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
+   "end": "2026-12-06T16:00:00-05:00",
+   "location": "Bibliothèque Père-Ambroise",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/ac7824c0b8bd5c30.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ae1c1d4485712856e4b8",
+   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
+   "added": ""
+  },
+  {
+   "source": "Other city venues",
    "title": "Noël s'invite chez vous - Marjolaine Morasse, Élie Dupuis et Élia Laure (complet / sold out)",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/noel-sinvite-chez-vous-marjolaine-morasse-elie-dupuis-et-elia-laure-115009",
@@ -18955,6 +18853,25 @@
    "tab": "city",
    "id": "e039157a74678c768846",
    "about": "Entrez dans la douceur et les souvenirs de la magie des Fêtes pour vivre un moment festif inoubliable.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "Haydn : de Vienne à Londres - Andréanne Brisson-Paquin et Meagan Milatz",
+   "start": "2026-12-06T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/haydn-de-vienne-londres-andreanne-brisson-paquin-et-meagan-milatz-116964",
+   "end": "2026-12-06T16:15:00-05:00",
+   "location": "Salle Paul-Desmarais",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/8c19c806747ae1cd.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "5bad2f3f60f71f041152",
+   "about": "Explorez l’univers fascinant de l’un des maîtres du classicisme.",
    "added": "2026-11-26"
   },
   {
@@ -19041,27 +18958,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Plus fort que moi - Kirk Jones",
-   "start": "2026-12-07T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
-   "end": "2026-12-07T15:00:00-05:00",
-   "location": "L’Entrepôt - maison de la culture de Lachine",
-   "kind": "",
-   "free": false,
-   "price": "$6",
-   "price_lo": 6.5,
-   "genres": [
-    "Film"
-   ],
-   "image": "img/ed19f3fae0e8559f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4554339f9fb0efccae",
-   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Other city venues",
    "title": "FAB-ZINES : Zine pop-up",
    "start": "2026-12-07T14:00:00-05:00",
@@ -19081,6 +18977,27 @@
    "tab": "city",
    "id": "d5372c20a9727722f90a",
    "about": "Activité gratuite de création de zines de la FabricARThèque.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Plus fort que moi - Kirk Jones",
+   "start": "2026-12-07T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
+   "end": "2026-12-07T15:00:00-05:00",
+   "location": "L’Entrepôt - maison de la culture de Lachine",
+   "kind": "",
+   "free": false,
+   "price": "$6",
+   "price_lo": 6.5,
+   "genres": [
+    "Film"
+   ],
+   "image": "img/ed19f3fae0e8559f.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4554339f9fb0efccae",
+   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
    "added": "2026-11-26"
   },
   {
@@ -19169,6 +19086,25 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Portes ouvertes sur la modernisation de la réglementation d'urbanisme de Côte-des-Neiges",
+   "start": "2026-12-08T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564",
+   "end": "2026-12-08T20:00:00-05:00",
+   "location": "Pavillon du parc de la Savane",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/df54680754a45997.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "0ca7819f91d6f470a423",
+   "about": "Venez découvrir les impacts de la modernisation du règlement d'urbanisme selon le Plan d’urbanisme et de mobilité 2050 (PUM 2050) sur le secteur nord de l'arrondissement et échanger avec les équipes de l’arrondissement.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Club de lecture de la bibliothèque du Plateau-Mont-Royal",
    "start": "2026-12-08T13:00:00-05:00",
@@ -19190,25 +19126,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Portes ouvertes sur la modernisation de la réglementation d'urbanisme de Côte-des-Neiges",
-   "start": "2026-12-08T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564",
-   "end": "2026-12-08T20:00:00-05:00",
-   "location": "Pavillon du parc de la Savane",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/df54680754a45997.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "0ca7819f91d6f470a423",
-   "about": "Venez découvrir les impacts de la modernisation du règlement d'urbanisme selon le Plan d’urbanisme et de mobilité 2050 (PUM 2050) sur le secteur nord de l'arrondissement et échanger avec les équipes de l’arrondissement.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Café rencontre des personnes aînées",
    "start": "2026-12-08T13:30:00-05:00",
@@ -19227,49 +19144,6 @@
    "tab": "city",
    "id": "f0151a145a8563b19e57",
    "about": "Les bibliothèques de Lachine organisent régulièrement des activités culturelles, des animations, des formations ou des conférences gratuites. Soyez des nôtres!",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Rencontre avec Jimmy Suzan",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
-   "end": "2026-12-08T19:30:00-05:00",
-   "location": "Bibliothèque de Parc-Extension",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes",
-    "Art & Workshops"
-   ],
-   "image": "img/da56038e278dcbac.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e771523b006807350535",
-   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture du mardi soir",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
-   "end": "2026-12-08T19:45:00-05:00",
-   "location": "Bibliothèque Langelier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/44a44bec5abbb4bf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "a0a6e10499530cd8c28c",
-   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
    "added": ""
   },
   {
@@ -19313,6 +19187,49 @@
    "id": "56286bbd5c8fc1903a20",
    "about": "Initiez-vous aux techniques de sérigraphie et repartez avec vos propres créations originales.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture du mardi soir",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
+   "end": "2026-12-08T19:45:00-05:00",
+   "location": "Bibliothèque Langelier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/44a44bec5abbb4bf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "a0a6e10499530cd8c28c",
+   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Rencontre avec Jimmy Suzan",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
+   "end": "2026-12-08T19:30:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "image": "img/da56038e278dcbac.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "e771523b006807350535",
+   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
+   "added": ""
   },
   {
    "source": "Other city venues",
