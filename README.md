@@ -146,7 +146,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Fais-moi l'art | faismoilart.org/en-cours: 'Du 4 au 19 décembre 2026' blocks → exhibitions, 'Vernissage le …' → events |
 | FOIL (Finer Objects in Life) | homepage events list (date + title per row, time from each row's detail panel) |
 | Espace Transmission | espacetransmission.ca/événements ('14.11.24. …' entries; currently only past ones) and, for its parties, Resident Advisor venue 235410 (Music & Dance) |
-| MBAM (La Buvette) — Other Events tab | each date has its own page in the MBAM sitemap (`/activities/la-buvette-DD-MM-YY/`); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
+| MBAM (La Buvette) — Other Events tab | each date has its own page (`/activities/la-buvette-DD-MM-YY/`), found through the museum's calendar pages (`/en/calendar/?page=N`; the sitemap took ~50 s and stopped listing them); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
 | McCord After Hours — Other Events tab | the page's "Next event" spot; nothing is listed until it shows a date (now: "Stay tuned!") |
 | Montreal Art Center | montrealartcenter.com/our-events (Wix events). Film screenings go to the Movies tab; exhibitions and events here. |
 

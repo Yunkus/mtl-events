@@ -406,9 +406,18 @@ def montreal_art_center() -> list[Ev]:
 
 def mbam_series(slug_prefix: str, source: str = "MBAM") -> list[Ev]:
     """Montreal Museum of Fine Arts: each date of a series has its own page (/en/activities/la-buvette-03-12-26/),
-    listed in the English sitemap. Date from the page's schema.org Event, time and price from its text."""
-    sm = get("https://www.mbam.qc.ca/en/sitemap-xml/").text
-    urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if f"/activities/{slug_prefix}" in u]
+    linked from the museum's calendar (/en/calendar/?page=N, a second or less per page). Date from the page's
+    schema.org Event, time and price from its text. (The sitemap used before takes ~50 s to build and no longer
+    lists these pages.)"""
+    urls, seen_pages = [], set()
+    for n in range(1, 13):
+        html = get(f"https://www.mbam.qc.ca/en/calendar/?page={n}").text
+        found = re.findall(r'href="(?:https://www\.mbam\.qc\.ca)?(/en/activities/[^"#?]+)"', html)
+        if not found or frozenset(found) in seen_pages:   # past the last page (some sites repeat the last one)
+            break
+        seen_pages.add(frozenset(found))
+        urls += ["https://www.mbam.qc.ca" + u for u in found if u.startswith(f"/en/activities/{slug_prefix}")]
+    urls = list(dict.fromkeys(urls))
     out = []
     for u in urls:
         try:
