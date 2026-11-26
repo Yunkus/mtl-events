@@ -54,7 +54,10 @@
   .wrap { max-width: 860px; margin: 0 auto; padding: 8px 16px 96px; }
   .band { background: var(--band); color: var(--band-text); border-bottom: 2px solid var(--amber-dark); }
   .band .in { max-width: 860px; margin: 0 auto; padding: 24px 16px 0; }
-  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
+  /* logo + wordmark on the left, Subscribe on the right: always one row (the wordmark shrinks to make room) */
+  header { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; justify-content: space-between; }
+  header .brand { flex: 1; }
+  header .sub { flex: none; }
   h1 { margin: 0; font: 400 32px/1.15 var(--serif); letter-spacing: -0.01em; }
   /* logo at the top: a transparent image, so it sits straight on the header */
   .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
