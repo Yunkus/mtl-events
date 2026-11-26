@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:11-05:00",
+ "generated": "2026-11-25T21:12-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 16
+   "zero_streak": 17
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 16
+   "zero_streak": 17
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 16
+   "zero_streak": 17
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -201,7 +201,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "StereoBar": {
    "ok": true,
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 16
+   "zero_streak": 17
   },
   "Trivia Nights": {
    "ok": true,
@@ -299,7 +299,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "MBAM La Buvette": {
    "ok": true,
@@ -313,7 +313,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 1
+   "zero_streak": 2
   },
   "Montreal Art Center": {
    "ok": true,
