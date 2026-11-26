@@ -2649,6 +2649,7 @@ def main() -> int:
 
     by_tab: dict[str, list[Ev]] = {t: [] for t in TABS}
     status = {}
+    previous = previous_listings()
     for sources, pick_tab, home_tab in SOURCE_GROUPS:
         for name, fn in sources.items():
             try:
@@ -2667,6 +2668,13 @@ def main() -> int:
                 status[name] = {"ok": False, "error": f"{type(ex).__name__}: {ex}"[:300], "tab": home_tab(name)}
                 print(f"  FAIL {home_tab(name):8} {name:20} {ex}")
                 traceback.print_exc(limit=2)
+                # couldn't check: keep what it listed last time (still upcoming) until a good read says otherwise
+                kept = [(tab, e) for tab, e in previous.get(name, []) if tab in by_tab and last_moment(e) >= cutoff]
+                for tab, e in kept:
+                    by_tab[tab].append(e)
+                if kept:
+                    status[name]["kept"] = len(kept)
+                    print(f"       kept {len(kept)} earlier listings")
 
     by_tab["bars"] = dedupe_bar_nights(by_tab["bars"])
     by_tab["classical"] = dedupe_concerts(by_tab["classical"])
@@ -2699,6 +2707,31 @@ def main() -> int:
 
 
 ALERTS = Path(__file__).parent / "alerts.md"
+
+
+def previous_listings() -> dict[str, list[tuple[str, Ev]]]:
+    """The last run's events (docs/events.json), by source, as (tab, Ev). A source that fails to load keeps these,
+    so a one-off error (a timeout, "too many requests") doesn't empty it; only a good read removes a listing."""
+    try:
+        old = json.loads((OUT / "events.json").read_text(encoding="utf-8")).get("events", [])
+    except (OSError, ValueError):
+        return {}
+
+    def when(v, all_day):
+        if not v:
+            return None
+        return date.fromisoformat(v[:10]) if all_day else datetime.fromisoformat(v)
+    out: dict[str, list[tuple[str, Ev]]] = {}
+    for d in old:
+        try:
+            e = Ev(d["source"], d["title"], when(d["start"], d.get("all_day")), d.get("url", ""),
+                   when(d.get("end"), d.get("all_day")), d.get("location", ""), d.get("kind", ""), d.get("free"),
+                   d.get("price", ""), d.get("price_lo"), list(d.get("genres") or []), "", d.get("image", ""),
+                   d.get("about", ""))
+        except (KeyError, ValueError, TypeError):
+            continue
+        out.setdefault(d["source"], []).append((d.get("tab", ""), e))
+    return out
 
 
 def check_health(status: dict) -> list[str]:

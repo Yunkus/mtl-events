@@ -535,7 +535,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const url = feedUrl();
     $("webcal").href = url.replace(/^https?:/, "webcal:");
     $("gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(url.replace(/^https?:/, "webcal:"));
-    const bad = Object.keys(sources).filter(n => srcTab(n) === id && !sources[n].ok);
+    const bad = Object.keys(sources).filter(n => srcTab(n) === id && !sources[n].ok && !sources[n].kept);
     $("meta").textContent = `${events.filter(e => e.tab === id).length} upcoming · updated ${gen}` +
       (bad.length ? ` · not updating: ${bad.join(", ")}` : "");
     $("hint").textContent = id === "movies" ? "Tap showtimes to select them."
@@ -738,16 +738,16 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const counts = {};
     base.filter(e => passes(e, inTab)).forEach(e => counts[e.source] = (counts[e.source] || 0) + 1);
     // chips = venues with events in this tab (not ones with nothing upcoming: "Boiler Room 0" looks broken),
-    // plus sources that failed, shown crossed out
+    // plus sources that failed and have nothing kept from before, shown crossed out
     const names = new Set(inTab.map(e => e.source));
     Object.keys(sources).forEach(n => { if (srcTab(n) === tab && !sources[n].ok) names.add(n); });
     if (names.size < 2) { venues.remove(); return; }
     [...names].sort().forEach(name => {
       const s = sources[name];
       const n = counts[name] || 0;
-      const b = el("button", "chip" + (s && !s.ok ? " bad" : "") + (n === 0 ? " zero" : ""));
+      const b = el("button", "chip" + (s && !s.ok && !s.kept ? " bad" : "") + (n === 0 ? " zero" : ""));
       b.append(name, el("span", "n", n));
-      b.title = s && !s.ok ? s.error : "Click to show/hide";
+      b.title = s && !s.ok ? (s.kept ? "Couldn't be checked at the last update, so these are its earlier listings. Click to show/hide" : s.error) : "Click to show/hide";
       b.setAttribute("aria-pressed", String(!hidden.has(name)));
       b.onclick = () => { hidden.has(name) ? hidden.delete(name) : hidden.add(name); store.set("hiddenSources", [...hidden]); redo(); };
       add(b);

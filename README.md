@@ -204,7 +204,7 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 
 **Not included: Jeudis du MAC** (macm.org sits behind Cloudflare's bot check), **Heures ouvrables** (Linktree refuses requests from GitHub's servers), **Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
-If a site changes its layout, that one source fails and the others keep working. The web page shows the broken one crossed out.
+If a site can't be read (a layout change, a timeout, "too many requests"), that one source fails and the others keep working. Its listings from the last good update stay up (`previous_listings()` in `scrape.py`), so nothing disappears until a successful read no longer shows it; past events still drop off by date. The web page only crosses a failed source out when it has nothing kept from before.
 
 ## One-time setup (GitHub, free)
 
