@@ -697,6 +697,146 @@ def musees_montreal() -> list[Ev]:
     return out
 
 
+# ---------------------------------------------------------------- galleries
+_FR_DATE = re.compile(r"(\d{1,2})\s*(?:er)?\s+([a-zéû]+)\.?(?:,?\s+(\d{4}))?", re.I)
+
+
+def fr_date(text: str, default_year: int | None = None) -> date | None:
+    """'10 décembre 2026', '1 er avril 2026', '26 novembre' (year guessed) -> date."""
+    m = _FR_DATE.search(text or "")
+    if not m or m.group(2).lower().rstrip(".") not in FR_MONTHS:
+        return None
+    mo, dy = FR_MONTHS[m.group(2).lower().rstrip(".")], int(m.group(1))
+    y = int(m.group(3)) if m.group(3) else (default_year or guess_year(mo, dy))
+    try:
+        return date(y, mo, dy)
+    except ValueError:
+        return None
+
+
+def dare_dare() -> list[Ev]:
+    """DARE-DARE (artist-run centre): program entries with a start date (<time datetime>) and 'start — end' text.
+    Calls for projects and the year-long season umbrella are skipped."""
+    base = "https://www.dare-dare.org"
+    s = soup(base + "/fr/")
+    out = []
+    for li in s.select("li"):
+        h = li.find("h4")
+        t = li.find("time", attrs={"datetime": True})
+        a = li.select_one("a.more[href]")
+        if not (h and t and a):
+            continue
+        title = clean(h.get_text())
+        if re.match(r"appel|assembl[ée]e g[ée]n[ée]rale", title, re.I):
+            continue
+        try:
+            start = date.fromisoformat(t["datetime"][:10])
+        except ValueError:
+            continue
+        parts = re.split(r"\s+[—–-]\s+", clean(t.get_text()))
+        end = fr_date(parts[1], start.year) if len(parts) > 1 else None
+        if end and end < start:
+            end = date(end.year + 1, end.month, end.day)
+        if end and (end - start).days > 300:      # a whole season ("Programmation 2026-2027"), not a show
+            continue
+        sub = li.select_one(".sub")
+        name = title + (f" — {clean(sub.get_text())}" if sub and clean(sub.get_text()) else "")
+        if end and end > start:
+            out.append(Ev("DARE-DARE", name, start, base + a["href"], end, "DARE-DARE", "exhibition"))
+        else:
+            out.append(Ev("DARE-DARE", name, start, base + a["href"], location="DARE-DARE", kind="Event"))
+    return out
+
+
+def fais_moi_lart() -> list[Ev]:
+    """Fais-moi l'art 'En cours & à venir': blocks of  title / artist / 'Du 4 au 19 décembre 2026' /
+    'Vernissage le 4 décembre 2026, de 18h à 21h'. Shows become exhibitions, vernissages become events."""
+    url = "https://www.faismoilart.org/en-cours"
+    s = soup(url)
+    lines = [clean(l) for l in (s.find("main") or s).get_text("\n").split("\n") if clean(l)]
+    meta = re.compile(r"^(?:en cours|à venir…?|station libre\s*\|?|www\.|https?://)", re.I)
+    span = re.compile(r"^Du\s+(\d{1,2})(?:\s*(?:er)?\s+([a-zéû]+))?\s+au\s+(.+\d{4})", re.I)
+    out = []
+    for i, line in enumerate(lines):
+        m = span.match(line)
+        if not m:
+            continue
+        end = fr_date(m.group(3))
+        if not end:
+            continue
+        mo = FR_MONTHS.get((m.group(2) or "").lower(), end.month)
+        start = date(end.year - (1 if mo > end.month else 0), mo, int(m.group(1)))
+        # title / artist = the 1–2 lines just above, stopping at headings, dates and notes ('Réception … 2027 (TBC)')
+        names = []
+        for l in reversed(lines[max(0, i - 3):i]):
+            if meta.match(l) or span.match(l) or re.search(r"\d{4}|^vernissage|^r[ée]ception", l, re.I):
+                break
+            names.insert(0, l)
+        names = names[-2:]
+        title = " — ".join(names) if names else "Exposition"
+        out.append(Ev("Fais-moi l'art", title, start, url, end, "Fais-moi l'art", "exhibition"))
+        nxt = lines[i + 1] if i + 1 < len(lines) else ""
+        if nxt.lower().startswith("vernissage"):
+            d = fr_date(nxt, end.year)
+            if d:
+                out.append(Ev("Fais-moi l'art", f"Vernissage: {title}", local(d, parse_time(nxt)), url,
+                              location="Fais-moi l'art", kind="Vernissage"))
+    return out
+
+
+def occurrence() -> list[Ev]:
+    """Occurrence (Squarespace pages). Exhibitions carry their dates in the title ('… | 06.11.-12.12.2026');
+    events say the date in their text ('Le jeudi 26 novembre, de 17 h à 19 h'), so the newest few are opened."""
+    base = "https://occurrence.ca"
+    out = []
+    for it in get(base + "/expositions", params={"format": "json"}).json().get("items", []):
+        m = re.search(r"(\d{1,2})\.(\d{1,2})\.?\s*[-–]\s*(\d{1,2})\.(\d{1,2})\.(\d{4})", it.get("title") or "")
+        if not m:
+            continue
+        d1, m1, d2, m2, y = map(int, m.groups())
+        end = date(y, m2, d2)
+        start = date(y - (1 if m1 > m2 else 0), m1, d1)
+        title = " — ".join(p.strip() for p in (it["title"][:m.start()]).split("|") if p.strip())
+        out.append(Ev("Occurrence", title, start, base + it["fullUrl"], end, "Occurrence", "exhibition"))
+    items = get(base + "/evenements", params={"format": "json"}).json().get("items", [])
+    for it in items[:6]:   # newest first; older ones are past
+        try:
+            page = soup(base + it["fullUrl"])
+        except requests.RequestException:
+            continue
+        text = clean((page.find("main") or page).get_text(" "))
+        m = re.search(r"\bLe\s+(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche\s+)?\s*(\d{1,2}\s*(?:er)?\s+[a-zéû]+(?:\s+\d{4})?)"
+                      r"(?:,?\s+de\s+(\d{1,2})\s*h\s*(\d{2})?)?", text, re.I)
+        if not m:
+            continue
+        added = datetime.fromtimestamp((it.get("publishOn") or it.get("addedOn") or 0) / 1000, TZ).date()
+        d = fr_date(m.group(1), None if re.search(r"\d{4}", m.group(1)) else added.year)
+        if not d:
+            continue
+        if d < added - timedelta(days=30):   # 'jeudi 26 novembre' written in November means this year or next
+            d = date(d.year + 1, d.month, d.day)
+        t = time(int(m.group(2)), int(m.group(3) or 0)) if m.group(2) else None
+        out.append(Ev("Occurrence", clean(it.get("title")), local(d, t), base + it["fullUrl"],
+                      location="Occurrence", kind="Event"))
+    return out
+
+
+def linktree_dated(url: str, source: str, location: str = "") -> list[Ev]:
+    """A Linktree page whose ticket links carry a date in their name, e.g. 'BILLETS | Heures ouvrables 007 (6 mars 2026)'."""
+    nd = json.loads(soup(url).find("script", id="__NEXT_DATA__").string)
+    props = nd["props"]["pageProps"]
+    out = []
+    for l in props.get("links") or (props.get("account") or {}).get("links") or []:
+        title = clean(l.get("title") or "")
+        d = fr_date(title) if re.search(r"\d{4}", title) else None
+        if not d:
+            continue
+        name = re.sub(r"^\s*(?:billets?|tickets?)\s*\|\s*", "", title, flags=re.I)
+        name = re.sub(r"\s*\([^)]*\d{4}[^)]*\)\s*$", "", name).strip() or source
+        out.append(Ev(source, name, d, l.get("url") or url, location=location))
+    return out
+
+
 # ------------------------------------------------------------------- movies
 CC_CINEMAS = {1: "Cinéma Beaubien", 2: "Cinéma du Parc", 3: "Cinéma du Musée"}
 
@@ -789,6 +929,8 @@ EVENT_SOURCES = {
     "Quai des Brumes": quai_des_brumes,
     "Sans Soleil": lambda: ra_events("venue", "203475", "Sans Soleil"),   # basement bar; site is Instagram only
     "Blue Room": lambda: ra_events("venue", "290582", "Blue Room"),       # 3956 Saint-Laurent, 3rd floor; Instagram only
+    # party collective: its Linktree ticket links carry the date ("Heures ouvrables 007 (6 mars 2026)")
+    "Heures ouvrables": lambda: linktree_dated("https://linktr.ee/heuresouvrables", "Heures ouvrables"),
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -933,7 +1075,7 @@ ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
     "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
-    "Blue Room": ["Electronic"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
+    "Blue Room": ["Electronic"], "Heures ouvrables": ["Dance", "Electronic"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],
@@ -1022,13 +1164,14 @@ TABS = {
     "music": ("Montreal Music & Dance", "music.ics"),
     "other": ("Montreal Other Events", "other.ics"),
     "bars": ("Montreal Bar Nights", "bars.ics"),
-    "museums": ("Montreal Museums", "museums.ics"),
+    "museums": ("Montreal Museums & Galleries", "museums.ics"),
     "movies": ("Montreal Movies", "movies.ics"),
 }
 # (sources, function choosing each event's tab, tab to file the source's status under)
 SOURCE_GROUPS = [
     (EVENT_SOURCES, event_tab, source_tab),
-    ({"Musées Montréal": musees_montreal}, lambda e: "museums", lambda name: "museums"),
+    ({"Musées Montréal": musees_montreal, "DARE-DARE": dare_dare, "Occurrence": occurrence,
+      "Fais-moi l'art": fais_moi_lart}, lambda e: "museums", lambda name: "museums"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]
 # calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:36-05:00",
+ "generated": "2026-11-25T20:41-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -17,9 +17,9 @@
    "count": 192
   },
   "museums": {
-   "title": "Montreal Museums",
+   "title": "Montreal Museums & Galleries",
    "feed": "museums.ics",
-   "count": 56
+   "count": 68
   },
   "movies": {
    "title": "Montreal Movies",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -196,6 +196,13 @@
    "last_count": 5,
    "zero_streak": 0
   },
+  "Heures ouvrables": {
+   "ok": true,
+   "count": 0,
+   "tab": "music",
+   "last_count": 0,
+   "zero_streak": 1
+  },
   "StereoBar": {
    "ok": true,
    "count": 9,
@@ -222,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 6
+   "zero_streak": 7
   },
   "Trivia Nights": {
    "ok": true,
@@ -257,6 +264,27 @@
    "count": 56,
    "tab": "museums",
    "last_count": 56,
+   "zero_streak": 0
+  },
+  "DARE-DARE": {
+   "ok": true,
+   "count": 2,
+   "tab": "museums",
+   "last_count": 2,
+   "zero_streak": 0
+  },
+  "Occurrence": {
+   "ok": true,
+   "count": 4,
+   "tab": "museums",
+   "last_count": 4,
+   "zero_streak": 0
+  },
+  "Fais-moi l'art": {
+   "ok": true,
+   "count": 6,
+   "tab": "museums",
+   "last_count": 6,
    "zero_streak": 0
   },
   "Cinéma Cinéma": {
@@ -10362,6 +10390,22 @@
    "id": "e63c9c0e0aa69f3cc7c3"
   },
   {
+   "source": "DARE-DARE",
+   "title": "Tricia Enns — Formation et détection en ventologie",
+   "start": "2026-08-01",
+   "url": "https://www.dare-dare.org/fr/evenements/la_formation_et_detection_en_ventologie",
+   "end": "2026-12-11",
+   "location": "DARE-DARE",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "b69ce60930dff48ebb99"
+  },
+  {
    "source": "Musées Montréal",
    "title": "The Great Solar System Adventure",
    "start": "2026-08-26",
@@ -10424,6 +10468,22 @@
    "all_day": true,
    "tab": "museums",
    "id": "00819c5f6833f3f494be"
+  },
+  {
+   "source": "DARE-DARE",
+   "title": "claude périard — Prophéties cathartiques",
+   "start": "2026-09-18",
+   "url": "https://www.dare-dare.org/fr/evenements/claude_periard",
+   "end": "2026-12-10",
+   "location": "DARE-DARE",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "1f8d01caa8bdf4ee3e95"
   },
   {
    "source": "Musées Montréal",
@@ -10602,6 +10662,38 @@
    "id": "9fa79977098d78eafb53"
   },
   {
+   "source": "Occurrence",
+   "title": "Enchevêtrement — Catherine Beaudette",
+   "start": "2026-11-06",
+   "url": "https://occurrence.ca/expositions/enchevetrement",
+   "end": "2026-12-12",
+   "location": "Occurrence",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "5b9eba4b43b51301b24d"
+  },
+  {
+   "source": "Occurrence",
+   "title": "Anása — Evridiki Spiliadis",
+   "start": "2026-11-06",
+   "url": "https://occurrence.ca/expositions/anasa",
+   "end": "2026-12-12",
+   "location": "Occurrence",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "30894b2cc7d3f14d7164"
+  },
+  {
    "source": "Musées Montréal",
    "title": "Sovereign Stitches + Wild Weaves",
    "start": "2026-11-13",
@@ -10682,6 +10774,38 @@
    "id": "9d8a0af913642cad262b"
   },
   {
+   "source": "Occurrence",
+   "title": "Discussion avec Catherine Beaudette, Maggie Helwig et Sam Watts",
+   "start": "2026-11-26T17:00:00-05:00",
+   "url": "https://occurrence.ca/evenements/rentree-de-gaspe-2026-5zd5y",
+   "end": null,
+   "location": "Occurrence",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "0481f80f3ddd6ebcec91"
+  },
+  {
+   "source": "Occurrence",
+   "title": "Rencontre entre Evridiki Spiliadis et Hélène Bacquet",
+   "start": "2026-11-28",
+   "url": "https://occurrence.ca/evenements/rentree-de-gaspe-2026-7arlx",
+   "end": null,
+   "location": "Occurrence",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "018e70a1acb3f7dfe3d3"
+  },
+  {
    "source": "Musées Montréal",
    "title": "Remembering ACT UP Montréal",
    "start": "2026-11-29",
@@ -10760,6 +10884,38 @@
    "all_day": true,
    "tab": "museums",
    "id": "3657548d7c62931e86e1"
+  },
+  {
+   "source": "Fais-moi l'art",
+   "title": "Peinture Afro-Hivernal: All My Niggas Abstract (AMNA) — Malcom Odd",
+   "start": "2026-12-04",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": "2026-12-19",
+   "location": "Fais-moi l'art",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "ae6aec07ca1e36dafb3a"
+  },
+  {
+   "source": "Fais-moi l'art",
+   "title": "Vernissage: Peinture Afro-Hivernal: All My Niggas Abstract (AMNA) — Malcom Odd",
+   "start": "2026-12-04T18:00:00-05:00",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": null,
+   "location": "Fais-moi l'art",
+   "kind": "Vernissage",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "6e7d5fcde5db092cc94a"
   },
   {
    "source": "Musées Montréal",
@@ -10938,6 +11094,38 @@
    "id": "8fbfcb2891e02c10ab06"
   },
   {
+   "source": "Fais-moi l'art",
+   "title": "Ismène Nérie Akiteretse",
+   "start": "2027-02-11",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": "2027-02-28",
+   "location": "Fais-moi l'art",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "4b3649166c717f5475ee"
+  },
+  {
+   "source": "Fais-moi l'art",
+   "title": "Vernissage: Ismène Nérie Akiteretse",
+   "start": "2027-02-11T18:00:00-05:00",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": null,
+   "location": "Fais-moi l'art",
+   "kind": "Vernissage",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "d60bb9b1f319c65c79c8"
+  },
+  {
    "source": "Musées Montréal",
    "title": "MARIE CHOUINARD: BECOMING BREATH",
    "start": "2027-02-20",
@@ -10952,6 +11140,38 @@
    "all_day": true,
    "tab": "museums",
    "id": "c28ed754625874b5a98d"
+  },
+  {
+   "source": "Fais-moi l'art",
+   "title": "Double Cuff — Louise Campion + Corina Kennedy",
+   "start": "2027-03-05",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": "2027-03-28",
+   "location": "Fais-moi l'art",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "b53531650f98902dcf07"
+  },
+  {
+   "source": "Fais-moi l'art",
+   "title": "Vernissage: Double Cuff — Louise Campion + Corina Kennedy",
+   "start": "2027-03-05T18:00:00-05:00",
+   "url": "https://www.faismoilart.org/en-cours",
+   "end": null,
+   "location": "Fais-moi l'art",
+   "kind": "Vernissage",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "9a5022937b343b2ea46a"
   },
   {
    "source": "Musées Montréal",
