@@ -821,6 +821,37 @@ def occurrence() -> list[Ev]:
     return out
 
 
+def foil() -> list[Ev]:
+    """FOIL / Finer Objects in Life (gallery + café, Shopify). The homepage 'events' list has 'november 26' and a
+    title per row; each row's detail panel (inside a <template>) has 'info: 6pm - 10pm'. No year: guessed."""
+    base = "https://finerobjectsinlife.com"
+    s = soup(base + "/")
+    out = []
+    for row in s.select("a.hev__row"):
+        d_el, t_el = row.select_one(".hev__date"), row.select_one(".hev__title")
+        if not (d_el and t_el):
+            continue
+        m = re.search(r"([a-z]+)\s+(\d{1,2})", d_el.get_text().lower())
+        if not m or m.group(1) not in EN_MONTHS:
+            continue
+        mo, dy = EN_MONTHS[m.group(1)], int(m.group(2))
+        info = ""
+        tpl = s.find("template", attrs={"data-ev-tpl": row.get("data-ev")})
+        if tpl:   # template content isn't parsed as children: re-read it
+            inner = BeautifulSoup(tpl.decode_contents(), "html.parser")
+            for dv in inner.select("dl.evd > div"):
+                dt = dv.find("dt")
+                if dt and clean(dt.get_text()).lower() == "info":
+                    info = clean(dv.find("dd").get_text(" ")) if dv.find("dd") else ""
+        t = parse_time(info)
+        title = clean(t_el.get_text())
+        kind = "Vernissage" if re.search(r"opening|vernissage", title, re.I) else "Event"
+        out.append(Ev("FOIL", title, local(date(guess_year(mo, dy), mo, dy), t),
+                      f"{base}/#event-{row.get('data-slug')}" if row.get("data-slug") else base + "/#events",
+                      location="FOIL, 6560 rue Waverly", kind=kind))
+    return out
+
+
 def linktree_dated(url: str, source: str, location: str = "") -> list[Ev]:
     """A Linktree page whose ticket links carry a date in their name, e.g. 'BILLETS | Heures ouvrables 007 (6 mars 2026)'."""
     nd = json.loads(soup(url).find("script", id="__NEXT_DATA__").string)
@@ -1171,7 +1202,7 @@ TABS = {
 SOURCE_GROUPS = [
     (EVENT_SOURCES, event_tab, source_tab),
     ({"Musées Montréal": musees_montreal, "DARE-DARE": dare_dare, "Occurrence": occurrence,
-      "Fais-moi l'art": fais_moi_lart}, lambda e: "museums", lambda name: "museums"),
+      "Fais-moi l'art": fais_moi_lart, "FOIL": foil}, lambda e: "museums", lambda name: "museums"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]
 # calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change

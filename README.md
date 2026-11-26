@@ -103,6 +103,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | DARE-DARE | dare-dare.org program list (start date + 'start — end'); calls for projects and the season umbrella skipped |
 | Occurrence | occurrence.ca: exhibition dates from their titles ('06.11.-12.12.2026'); events from the date in their text |
 | Fais-moi l'art | faismoilart.org/en-cours: 'Du 4 au 19 décembre 2026' blocks → exhibitions, 'Vernissage le …' → events |
+| FOIL (Finer Objects in Life) | homepage events list (date + title per row, time from each row's detail panel) |
 
 ### Movies tab (`docs/movies.ics`)
 
@@ -121,7 +122,7 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 
-**Not included: Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
+**Not included: Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
 If a site changes its layout, that one source fails and the others keep working. The web page shows the broken one crossed out.
 

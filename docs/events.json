@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:43-05:00",
+ "generated": "2026-11-25T20:48-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -19,7 +19,7 @@
   "museums": {
    "title": "Montreal Museums & Galleries",
    "feed": "museums.ics",
-   "count": 68
+   "count": 71
   },
   "movies": {
    "title": "Montreal Movies",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 8
+   "zero_streak": 9
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 8
+   "zero_streak": 9
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 8
+   "zero_streak": 9
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -201,7 +201,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 2
+   "zero_streak": 3
   },
   "StereoBar": {
    "ok": true,
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 8
+   "zero_streak": 9
   },
   "Trivia Nights": {
    "ok": true,
@@ -285,6 +285,13 @@
    "count": 6,
    "tab": "museums",
    "last_count": 6,
+   "zero_streak": 0
+  },
+  "FOIL": {
+   "ok": true,
+   "count": 3,
+   "tab": "museums",
+   "last_count": 3,
    "zero_streak": 0
   },
   "Cinéma Cinéma": {
@@ -10790,6 +10797,38 @@
    "id": "0481f80f3ddd6ebcec91"
   },
   {
+   "source": "FOIL",
+   "title": "Artist Talk + Private Tour w. Oski Awoyo",
+   "start": "2026-11-26T18:00:00-05:00",
+   "url": "https://finerobjectsinlife.com/#event-artist-talk-private-tour-w-oski-awoyo",
+   "end": null,
+   "location": "FOIL, 6560 rue Waverly",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "c9731591074e3f3670cb"
+  },
+  {
+   "source": "FOIL",
+   "title": "ambient book club w. teykirisi (dj set)",
+   "start": "2026-11-27T18:30:00-05:00",
+   "url": "https://finerobjectsinlife.com/#event-ambient-book-club-w-teykirisi-dj-set",
+   "end": null,
+   "location": "FOIL, 6560 rue Waverly",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": false,
+   "tab": "museums",
+   "id": "341d0387d3ba5f8d7829"
+  },
+  {
    "source": "Occurrence",
    "title": "Rencontre entre Evridiki Spiliadis et Hélène Bacquet",
    "start": "2026-11-28",
@@ -10804,6 +10843,22 @@
    "all_day": true,
    "tab": "museums",
    "id": "018e70a1acb3f7dfe3d3"
+  },
+  {
+   "source": "FOIL",
+   "title": "soundmark w. sample chief / panel + vinyl listening session",
+   "start": "2026-11-28",
+   "url": "https://finerobjectsinlife.com/#event-soundmark-w-sample-chief-panel-vinyl-listening-session",
+   "end": null,
+   "location": "FOIL, 6560 rue Waverly",
+   "kind": "Event",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "all_day": true,
+   "tab": "museums",
+   "id": "e84961cb9f408c9bc233"
   },
   {
    "source": "Musées Montréal",
