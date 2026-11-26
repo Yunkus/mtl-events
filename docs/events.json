@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:50-05:00",
+ "generated": "2026-11-25T21:54-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -9,7 +9,7 @@
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 127
+   "count": 128
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -78,10 +78,10 @@
   },
   "5 à Set": {
    "ok": true,
-   "count": 0,
+   "count": 1,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 6,
+   "zero_streak": 0,
    "zero_alerted": false
   },
   "Le Marché Vintage": {
@@ -89,7 +89,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 26,
+   "zero_streak": 27,
    "zero_alerted": true
   },
   "Stereo": {
@@ -161,7 +161,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 26,
+   "zero_streak": 27,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -185,7 +185,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 26,
+   "zero_streak": 27,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -225,7 +225,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 16,
+   "zero_streak": 17,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -241,7 +241,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 11,
+   "zero_streak": 12,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -297,7 +297,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 26,
+   "zero_streak": 27,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -377,7 +377,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 16,
+   "zero_streak": 17,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -6746,6 +6746,24 @@
    "id": "7ffc9cf1e260baf357b1"
   },
   {
+   "source": "5 à Set",
+   "title": "5 à Set: \"The Miseducation of Lauryn Hill\" Listening Party/Séance d'écoute",
+   "start": "2026-11-25T19:00:00-05:00",
+   "url": "https://www.eventbrite.com/e/5-a-set-the-miseducation-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072",
+   "end": "2026-11-25T19:00:00-05:00",
+   "location": "Alfred Café Buvette Griffintown",
+   "kind": "",
+   "free": false,
+   "price": "$21",
+   "price_lo": 20.8,
+   "genres": [
+    "Listening Party"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5c807efe22591e1ad7de"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "Nos échos - Philippe Arsenault",
    "start": "2026-11-25T19:00:00-05:00",
@@ -6998,22 +7016,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Miroir éphémère - BOA expérience",
-   "start": "2026-11-27T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
-   "end": null,
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "all_day": false,
-   "tab": "other",
-   "id": "89c0aa739d90096f1077"
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Hitch - Théâtre Globe Bulle Rouge",
    "start": "2026-11-27T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
@@ -7031,6 +7033,22 @@
    "all_day": false,
    "tab": "other",
    "id": "62fc401572604815c411"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Miroir éphémère - BOA expérience",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
+   "end": null,
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "89c0aa739d90096f1077"
   },
   {
    "source": "Maisons de la culture",
@@ -7269,25 +7287,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Bidule man - Théâtre à Tempo",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
-   "end": "2026-11-29T14:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Classical & Choral",
-    "Theatre & Shows"
-   ],
-   "all_day": false,
-   "tab": "other",
-   "id": "27cb4ab692d8c7275f24"
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "L'Étoile vagabonde - La Nef",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
@@ -7304,6 +7303,25 @@
    "all_day": false,
    "tab": "other",
    "id": "2287e963278c1ab9d008"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Bidule man - Théâtre à Tempo",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
+   "end": "2026-11-29T14:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "27cb4ab692d8c7275f24"
   },
   {
    "source": "Maisons de la culture",
@@ -8686,6 +8704,22 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "4bddbe9faa5511a22479"
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Cabarets scientifiques - Itinérance au féminin",
    "start": "2026-12-09T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
@@ -8702,22 +8736,6 @@
    "all_day": false,
    "tab": "other",
    "id": "739872a939761956a528"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "all_day": false,
-   "tab": "other",
-   "id": "4bddbe9faa5511a22479"
   },
   {
    "source": "Marchés publics",
