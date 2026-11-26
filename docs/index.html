@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Go Out Montreal</title>
-<link rel="preload" href="fonts/YoungSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/ShareTech-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="icon" type="image/png" href="favicon.png?v=2">
 <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
@@ -13,9 +12,7 @@
      black #0b0b0b · panels #161616 · lines #2a2a2a · cloud white #f2f2ee · dimmed white #a9a9a5
      bright amber #ffb000 · dark amber #c46a00 */
   /* Fonts shipped with the site (SIL Open Font License; licences in fonts/):
-     Young Serif for titles and headings, Share Tech for all other text */
-  @font-face { font-family: "Young Serif"; src: url("fonts/YoungSerif-Regular.ttf") format("truetype");
-               font-weight: 400; font-style: normal; font-display: swap; }
+     Share Tech for all text */
   @font-face { font-family: "Share Tech"; src: url("fonts/ShareTech-Regular.ttf") format("truetype");
                font-weight: 400; font-style: normal; font-display: swap; }
   :root {
@@ -29,7 +26,7 @@
     --band-muted: var(--cloud-dim); --band-line: var(--amber-dark);
     --band-primary: var(--amber); --band-primary-text: var(--black); --mark: var(--amber);
     --free: var(--black); --free-bg: var(--amber-dark); --picked-row: rgba(255, 176, 0, .12);
-    --serif: "Young Serif", Georgia, "Times New Roman", serif;
+    --serif: var(--sans);   /* headings and tabs use Share Tech too */
     --sans: "Share Tech", "Segoe UI", system-ui, sans-serif;
   }
   ::placeholder { color: var(--cloud-dim); }
