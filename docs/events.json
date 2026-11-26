@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T01:30-05:00",
+ "generated": "2026-11-26T01:31-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -86,7 +86,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 14,
+   "zero_streak": 15,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -94,7 +94,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "zero_alerted": true
   },
   "Stereo": {
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -190,7 +190,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -230,7 +230,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 31,
+   "zero_streak": 32,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -246,7 +246,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 26,
+   "zero_streak": 27,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -302,7 +302,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -382,7 +382,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 31,
+   "zero_streak": 32,
    "zero_alerted": true
   },
   "Montreal Art Center": {
