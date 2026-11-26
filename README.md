@@ -92,6 +92,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Quai des Brumes | quaidesbrumes.ca/calendrier (Modern Events Calendar list; year from each entry's CSS class) |
 | StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
 | Sans Soleil | Resident Advisor venue 203475 (its own site is an Instagram page) |
+| Blue Room | Resident Advisor venue 290582 (its own site is an Instagram page) |
 
 ### Museums tab (`docs/museums.ics`)
 

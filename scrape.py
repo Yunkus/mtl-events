@@ -788,6 +788,7 @@ EVENT_SOURCES = {
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Quai des Brumes": quai_des_brumes,
     "Sans Soleil": lambda: ra_events("venue", "203475", "Sans Soleil"),   # basement bar; site is Instagram only
+    "Blue Room": lambda: ra_events("venue", "290582", "Blue Room"),       # 3956 Saint-Laurent, 3rd floor; Instagram only
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -932,7 +933,7 @@ ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
     "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
-    "New City Gas": ["Electronic"], "Système": ["Electronic"],
+    "Blue Room": ["Electronic"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],

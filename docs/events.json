@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T20:14-05:00",
+ "generated": "2026-11-25T20:35-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 346
+   "count": 351
   },
   "other": {
    "title": "Montreal Other Events",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 5
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 5
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 5
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -187,6 +187,13 @@
    "count": 2,
    "tab": "music",
    "last_count": 2,
+   "zero_streak": 0
+  },
+  "Blue Room": {
+   "ok": true,
+   "count": 5,
+   "tab": "music",
+   "last_count": 5,
    "zero_streak": 0
   },
   "StereoBar": {
@@ -215,7 +222,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 5
   },
   "Trivia Nights": {
    "ok": true,
@@ -893,6 +900,24 @@
    "id": "79386c5f0c08393141bf"
   },
   {
+   "source": "Blue Room",
+   "title": "Berkaï / CINQ MARS b2b JULIAN VASQUEZ",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://ra.co/events/2591952",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "Blue Room",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "ac9432baf765f88a1e91"
+  },
+  {
    "source": "StereoBar",
    "title": "Monitors b2b Napo Lugo - Kressel (Live) - Staziä",
    "start": "2026-11-27T22:00:00-05:00",
@@ -1228,6 +1253,24 @@
    "all_day": false,
    "tab": "music",
    "id": "db8e4ce04c41fa42c4a7"
+  },
+  {
+   "source": "Blue Room",
+   "title": "GUAIYARU / CHINAMITO & DEIKER MORA BIRTHDAY SESH",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://ra.co/events/2591945",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "Blue Room",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "9a36770481380e690456"
   },
   {
    "source": "StereoBar",
@@ -2103,6 +2146,25 @@
    "all_day": false,
    "tab": "music",
    "id": "def9a7828c2e41f8caff"
+  },
+  {
+   "source": "Blue Room",
+   "title": "Mind Space X Transition Invites: ABOVE AVERAGE",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://ra.co/events/2589537",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "Blue Room",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "0e3f567f59f35a927df9"
   },
   {
    "source": "StereoBar",
@@ -3012,6 +3074,26 @@
    "id": "f51da97f066e4bd8b794"
   },
   {
+   "source": "Blue Room",
+   "title": "Powr Hauz 2",
+   "start": "2026-12-11T22:00:00-05:00",
+   "url": "https://ra.co/events/2592097",
+   "end": "2026-12-12T03:00:00-05:00",
+   "location": "Blue Room",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "House",
+    "Bass & DnB",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "fea586f8fcc24e94798d"
+  },
+  {
    "source": "StereoBar",
    "title": "Tommy Phillips - Cam Stockman - Flytz",
    "start": "2026-12-11T22:00:00-05:00",
@@ -3352,6 +3434,24 @@
    "all_day": false,
    "tab": "music",
    "id": "38a6a7de347c93aab497"
+  },
+  {
+   "source": "Blue Room",
+   "title": "GuestLists Records presents",
+   "start": "2026-12-12T23:00:00-05:00",
+   "url": "https://ra.co/events/2589670",
+   "end": "2026-12-13T03:00:00-05:00",
+   "location": "Blue Room",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "e4c10f7928a05cb96dca"
   },
   {
    "source": "Stereo",
