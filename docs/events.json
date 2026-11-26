@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T15:34-05:00",
+ "generated": "2026-11-26T16:39-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 430
+   "count": 434
   },
   "classical": {
    "title": "Montreal Classical & Opera",
@@ -14,7 +14,7 @@
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 39
+   "count": 15
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -24,7 +24,7 @@
   "city": {
    "title": "Montreal City Events",
    "feed": "city.ics",
-   "count": 164
+   "count": 165
   },
   "oysters": {
    "title": "Montreal Oyster Deals",
@@ -39,7 +39,7 @@
   "movies": {
    "title": "Montreal Movies",
    "feed": "movies.ics",
-   "count": 379
+   "count": 380
   }
  },
  "sources": {
@@ -61,9 +61,9 @@
   },
   "Casa del Popolo": {
    "ok": true,
-   "count": 127,
+   "count": 128,
    "tab": "music",
-   "last_count": 127,
+   "last_count": 128,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -101,9 +101,9 @@
   },
   "Dièse Onze": {
    "ok": true,
-   "count": 22,
+   "count": 24,
    "tab": "music",
-   "last_count": 22,
+   "last_count": 24,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -136,7 +136,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 34,
+   "zero_streak": 35,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -144,7 +144,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 61,
+   "zero_streak": 62,
    "zero_alerted": true
   },
   "Stereo": {
@@ -157,9 +157,9 @@
   },
   "Salon Daomé": {
    "ok": true,
-   "count": 7,
+   "count": 17,
    "tab": "music",
-   "last_count": 7,
+   "last_count": 17,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -216,7 +216,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 61,
+   "zero_streak": 62,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -248,7 +248,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 14,
+   "zero_streak": 15,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -288,7 +288,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 51,
+   "zero_streak": 52,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -304,14 +304,14 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 160,
+   "count": 161,
    "tab": "city",
-   "last_count": 160,
+   "last_count": 161,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -324,12 +324,11 @@
    "zero_alerted": false
   },
   "Ateliers & Saveurs": {
-   "ok": true,
-   "count": 24,
+   "ok": false,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.ateliersetsaveurs.com/agenda/cours-de-cuisine",
    "tab": "other",
    "last_count": 24,
-   "zero_streak": 0,
-   "zero_alerted": false
+   "fail_streak": 1
   },
   "StereoBar": {
    "ok": true,
@@ -349,10 +348,10 @@
   },
   "New City Gas": {
    "ok": true,
-   "count": 9,
+   "count": 0,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 0,
+   "zero_streak": 1,
    "zero_alerted": false
   },
   "Eastern Bloc": {
@@ -360,7 +359,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 61,
+   "zero_streak": 62,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -456,7 +455,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 51,
+   "zero_streak": 52,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -509,9 +508,9 @@
   },
   "Cinéma Moderne": {
    "ok": true,
-   "count": 35,
+   "count": 36,
    "tab": "movies",
-   "last_count": 35,
+   "last_count": 36,
    "zero_streak": 0,
    "zero_alerted": false
   }
@@ -908,26 +907,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Café Concret edition #55",
-   "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$17",
-   "price_lo": 16.57,
-   "genres": [
-    "Experimental"
-   ],
-   "image": "img/c8145d7bfaf218c5.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "7e9a743c846bfdf89fe8",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Om-Nom Fest 2026 Nuit 1",
    "start": "2026-11-27T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1",
@@ -960,6 +939,26 @@
    "all_day": false,
    "tab": "music",
    "id": "ccfa68d19cd9f1816d08",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Café Concret edition #55",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$17",
+   "price_lo": 16.57,
+   "genres": [
+    "Experimental"
+   ],
+   "image": "img/c8145d7bfaf218c5.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "7e9a743c846bfdf89fe8",
    "added": ""
   },
   {
@@ -1037,26 +1036,6 @@
    "all_day": false,
    "tab": "music",
    "id": "4cf642368cd47d20e32f",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "IAN ASHER",
-   "start": "2026-11-27T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/ian-asher-208811/",
-   "end": "2026-11-28T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/bfd547c6a1c1b9ab.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "c9b4e66e1a3a7a85cbba",
    "added": ""
   },
   {
@@ -1396,20 +1375,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Om-Nom Fest 2026 Nuit 2",
+   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
    "end": null,
-   "location": "La Sotterenea",
+   "location": "La Sala Rossa",
    "kind": "",
    "free": false,
-   "price": "$25",
-   "price_lo": 25.01,
+   "price": "$23",
+   "price_lo": 23.33,
    "genres": [],
-   "image": "img/b61ad2588a16ec86.webp",
+   "image": "img/af5eccc25a9eb35b.webp",
    "all_day": false,
    "tab": "music",
-   "id": "6dfd803c32f922e65e01",
+   "id": "7ac4150ea049cff2736e",
    "added": ""
   },
   {
@@ -1432,20 +1411,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
+   "title": "Om-Nom Fest 2026 Nuit 2",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2",
    "end": null,
-   "location": "La Sala Rossa",
+   "location": "La Sotterenea",
    "kind": "",
    "free": false,
-   "price": "$23",
-   "price_lo": 23.33,
+   "price": "$25",
+   "price_lo": 25.01,
    "genres": [],
-   "image": "img/af5eccc25a9eb35b.webp",
+   "image": "img/b61ad2588a16ec86.webp",
    "all_day": false,
    "tab": "music",
-   "id": "7ac4150ea049cff2736e",
+   "id": "6dfd803c32f922e65e01",
    "added": ""
   },
   {
@@ -1526,26 +1505,6 @@
    "all_day": false,
    "tab": "music",
    "id": "a6e74661e046ad4762cc",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "[DSTRKT] LAYTON GIORDANI",
-   "start": "2026-11-28T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/layton-giordani-202728/",
-   "end": "2026-11-29T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/77ee957751401a9c.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "e566e1a63a4c154fcc24",
    "added": ""
   },
   {
@@ -2192,6 +2151,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Casa del Popolo",
+   "title": "The Veg Launch Party",
+   "start": "2026-12-02T19:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-the-veg-launch-party",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/461e63af9528a514.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "0b5d006ea81185966d5d",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Théâtre Fairmount",
    "title": "BABY JANE",
    "start": "2026-12-02T19:00:00.628000-05:00",
@@ -2212,24 +2189,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Dogtown, ft. Doodad",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.5,
-   "genres": [],
-   "image": "img/f1184847a2b51ab9.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "8b1aff743f6ad8d03cfc",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Anthony Prégent",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
@@ -2244,6 +2203,24 @@
    "all_day": false,
    "tab": "music",
    "id": "3ef1e8e7403420022ccc",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Dogtown, ft. Doodad",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.5,
+   "genres": [],
+   "image": "img/f1184847a2b51ab9.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "8b1aff743f6ad8d03cfc",
    "added": ""
   },
   {
@@ -2346,6 +2323,27 @@
    "tab": "music",
    "id": "6a13b9e823e5f0ef4470",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Combo Jazz de L Universite de Montreal",
+   "start": "2026-12-03T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-03",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "ad998799f17e8e1fd63a",
+   "about": "Spectacle à 19h",
+   "added": "2026-11-26"
   },
   {
    "source": "Ausgang Plaza",
@@ -2453,24 +2451,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "SAM QUEALY + SUUNCAAT",
-   "start": "2026-12-03T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$30",
-   "price_lo": 30.44,
-   "genres": [],
-   "image": "img/8da0bf6af1d452c6.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "114c43580278842568db",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "EEDM + no cosmos (trio set)",
    "start": "2026-12-03T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-04-eedm-no-cosmos-trio-set",
@@ -2485,6 +2465,24 @@
    "all_day": false,
    "tab": "music",
    "id": "26c4c1347344aae465d0",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "SAM QUEALY + SUUNCAAT",
+   "start": "2026-12-03T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "price_lo": 30.44,
+   "genres": [],
+   "image": "img/8da0bf6af1d452c6.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "114c43580278842568db",
    "added": ""
   },
   {
@@ -2632,24 +2630,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/8cb21e6d9b7fcddc.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "51af3df0f8f51d9464f0",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "I’ll Be Your Mirror",
    "start": "2026-12-04T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
@@ -2664,6 +2644,24 @@
    "all_day": false,
    "tab": "music",
    "id": "cac0b2608259ca6f85d4",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/8cb21e6d9b7fcddc.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "51af3df0f8f51d9464f0",
    "added": ""
   },
   {
@@ -3353,6 +3351,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Salon Daomé",
+   "title": "Luc Raymond, Soundshaper, Michael Terzian",
+   "start": "2026-12-05T22:30:00-05:00",
+   "url": "https://ra.co/events/2595074",
+   "end": "2026-12-06T05:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "27efc952fbd87c435b11",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Stereo",
    "title": "Stereo x Ferias x Turbo present DNA",
    "start": "2026-12-05T23:59:00-05:00",
@@ -3551,38 +3570,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Emile Patenaude + Bubblegum Flavour",
+   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
    "end": null,
-   "location": "Casa del Popolo",
+   "location": "La Sala Rossa",
    "kind": "",
    "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
+   "price": "$25",
+   "price_lo": 25.0,
    "genres": [],
-   "image": "img/a52155c7884e15c0.webp",
+   "image": "img/7b2a9dbc6a7e00a5.webp",
    "all_day": false,
    "tab": "music",
-   "id": "1d9435ab29f764ec0d86",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "girl with dream, a.d. walsh , mikee",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$10",
-   "price_lo": 10.0,
-   "genres": [],
-   "image": "img/f13017539c043917.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "92e1cbdcd446974b8a19",
+   "id": "2b5dc1fbae153539f2ef",
    "added": ""
   },
   {
@@ -3605,20 +3606,38 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
+   "title": "girl with dream, a.d. walsh , mikee",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee",
    "end": null,
-   "location": "La Sala Rossa",
+   "location": "P'tit Ours",
    "kind": "",
    "free": false,
-   "price": "$25",
-   "price_lo": 25.0,
+   "price": "$10",
+   "price_lo": 10.0,
    "genres": [],
-   "image": "img/7b2a9dbc6a7e00a5.webp",
+   "image": "img/f13017539c043917.webp",
    "all_day": false,
    "tab": "music",
-   "id": "2b5dc1fbae153539f2ef",
+   "id": "92e1cbdcd446974b8a19",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Emile Patenaude + Bubblegum Flavour",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [],
+   "image": "img/a52155c7884e15c0.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1d9435ab29f764ec0d86",
    "added": ""
   },
   {
@@ -3929,24 +3948,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "i cant keep up i wont",
-   "start": "2026-12-10T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/e1e2524c94a096b7.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "683630bb93cfe5b3a2d0",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "6flamencos / Entre mis manos",
    "start": "2026-12-10T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos",
@@ -3963,6 +3964,24 @@
    "all_day": false,
    "tab": "music",
    "id": "56f7aa0cde022bcb9f77",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "i cant keep up i wont",
+   "start": "2026-12-10T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/e1e2524c94a096b7.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "683630bb93cfe5b3a2d0",
    "added": ""
   },
   {
@@ -4064,6 +4083,27 @@
    "tab": "music",
    "id": "6ae38fd9cbe5b9014200",
    "added": ""
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "KONTRAST MONTREAL",
+   "start": "2026-12-10T22:30:00-05:00",
+   "url": "https://ra.co/events/2595076",
+   "end": "2026-12-11T03:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.0,
+   "genres": [
+    "Techno",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "37078066282e8ff7254d",
+   "added": "2026-11-26"
   },
   {
    "source": "Bar Datcha",
@@ -4334,6 +4374,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Salon Daomé",
+   "title": "VIBE ADVISOR",
+   "start": "2026-12-11T22:30:00-05:00",
+   "url": "https://ra.co/events/2595079",
+   "end": "2026-12-12T05:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "cbb91c288ebde6c9d963",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Datcha",
    "title": "Datcha Nonstop: x3butterfly, Fieldnote, Karuna",
    "start": "2026-12-11T23:00:00-05:00",
@@ -4496,24 +4557,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "John of Sound Album Release Party",
-   "start": "2026-12-12T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/bad4594921acc15e.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "857682375b61680ace72",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Noise for Society Night 2",
    "start": "2026-12-12T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-13-noise-for-society-night-2",
@@ -4530,6 +4573,24 @@
    "all_day": false,
    "tab": "music",
    "id": "32c9ccb528827966b818",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "John of Sound Album Release Party",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/bad4594921acc15e.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "857682375b61680ace72",
    "added": ""
   },
   {
@@ -4882,24 +4943,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
-   "start": "2026-12-13T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 15.0,
-   "genres": [],
-   "image": "img/2d5950810c54aa7b.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "aa154f4d4844adeaa144",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "REEL GAY: Glee with Mary Fagdalene & Chiquita Mére",
    "start": "2026-12-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere",
@@ -4914,6 +4957,24 @@
    "all_day": false,
    "tab": "music",
    "id": "caac6764dd373e5c408b",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
+   "start": "2026-12-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/2d5950810c54aa7b.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "aa154f4d4844adeaa144",
    "added": ""
   },
   {
@@ -5361,6 +5422,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Joel Betts with Lauryn Macfarlane",
+   "start": "2026-12-17T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.19,
+   "genres": [],
+   "image": "img/eec02ae3f1b7e50e.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1a1a924c4e4659ac73e3",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
    "start": "2026-12-17T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
@@ -5393,24 +5472,6 @@
    "all_day": false,
    "tab": "music",
    "id": "3c3e88b432b3fc0e3801",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Joel Betts with Lauryn Macfarlane",
-   "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$13",
-   "price_lo": 13.19,
-   "genres": [],
-   "image": "img/eec02ae3f1b7e50e.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "1a1a924c4e4659ac73e3",
    "added": ""
   },
   {
@@ -5452,6 +5513,27 @@
    "tab": "music",
    "id": "1f84e2949472a1ccc9d2",
    "added": ""
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "INEDIT BY UNDERPULSE",
+   "start": "2026-12-17T22:30:00-05:00",
+   "url": "https://ra.co/events/2595078",
+   "end": "2026-12-18T03:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.0,
+   "genres": [
+    "Techno",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "01bbb7c2a6c3451190ae",
+   "added": "2026-11-26"
   },
   {
    "source": "Le Red Room",
@@ -5655,6 +5737,27 @@
    "added": ""
   },
   {
+   "source": "Salon Daomé",
+   "title": "Sammy Dee, Ohm Hourani",
+   "start": "2026-12-18T22:30:00-05:00",
+   "url": "https://ra.co/events/2595081",
+   "end": "2026-12-19T05:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2ea38b74f3a8f5386389",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Datcha",
    "title": "Cheap Thrill: Security Wing, Claireyy, Casakobrae, Svet, esile",
    "start": "2026-12-18T23:00:00-05:00",
@@ -5842,26 +5945,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "DJ PAULY D",
-   "start": "2026-12-19T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/dj-pauly-d-216008/",
-   "end": "2026-12-20T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/751be238c2b8de4d.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3212a7ff0599f3789e2f",
-   "added": ""
-  },
-  {
    "source": "StereoBar",
    "title": "AGELESS - Benny Revah",
    "start": "2026-12-19T22:00:00-05:00",
@@ -5901,6 +5984,27 @@
    "tab": "music",
    "id": "b2ab1c48e58a39794e3c",
    "added": ""
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "Cirque Cosmic, Badgalquirit, Donotstealmyname",
+   "start": "2026-12-19T22:30:00-05:00",
+   "url": "https://ra.co/events/2595083",
+   "end": "2026-12-20T05:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d3a01ba11c45a5f073c0",
+   "added": "2026-11-26"
   },
   {
    "source": "SAT",
@@ -6220,6 +6324,27 @@
    "added": ""
   },
   {
+   "source": "Dièse Onze",
+   "title": "Jean Michel Pilc Trio",
+   "start": "2026-12-26T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-26",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "74be27970bca3ec022f0",
+   "about": "details a venir\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
+  },
+  {
    "source": "StereoBar",
    "title": "Ostrich (All Night Long)",
    "start": "2026-12-26T22:00:00-05:00",
@@ -6238,6 +6363,27 @@
    "tab": "music",
    "id": "cf8949839b18bd37cf29",
    "added": ""
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "Satoshi Tomiie (Extended Set), Lara Bee",
+   "start": "2026-12-26T22:30:00-05:00",
+   "url": "https://ra.co/events/2595084",
+   "end": "2026-12-27T05:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "799af40268b515e7ff18",
+   "added": "2026-11-26"
   },
   {
    "source": "Système",
@@ -6281,6 +6427,28 @@
    "added": ""
   },
   {
+   "source": "Salon Daomé",
+   "title": "Dahomey T-Dance - Don Barbarino, Uzi, Pattes de Velour",
+   "start": "2026-12-27T16:00:00-05:00",
+   "url": "https://ra.co/events/2595086",
+   "end": "2026-12-27T22:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [
+    "House",
+    "Electronic",
+    "Dance"
+   ],
+   "image": "img/8d5f7807a5fc3cfd.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "def87cc4a504f345edeb",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Système",
    "title": "Les Soirées Système",
    "start": "2026-12-27T18:00:00-05:00",
@@ -6322,6 +6490,27 @@
    "added": ""
   },
   {
+   "source": "Salon Daomé",
+   "title": "The Reunion - Jojoflores, James Di Salvio",
+   "start": "2026-12-27T23:00:00-05:00",
+   "url": "https://ra.co/events/2595087",
+   "end": "2026-12-28T03:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "664308531777a9e7d814",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Dièse Onze",
    "title": "Alex Bellegarde Trio invite Guillaume Carpentier + Jam Session",
    "start": "2026-12-29T21:30:00-05:00",
@@ -6341,26 +6530,6 @@
    "id": "45364db6949288b6285c",
    "about": "Guillaume Carpentier (invité) - saxophone\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
    "added": "2026-11-26"
-  },
-  {
-   "source": "New City Gas",
-   "title": "Josh Baker, Jay Pryor",
-   "start": "2026-12-29T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/",
-   "end": "2026-12-30T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/ba55dfb1c75d90f3.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "dcb37b00f347abef4844",
-   "added": ""
   },
   {
    "source": "Le Red Room",
@@ -6405,46 +6574,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
-   "start": "2026-12-31T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/pauza-214314/",
-   "end": "2027-01-01T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/8111e898c1d4fdb1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "d331956490315be88dd5",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
-   "start": "2026-12-31T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
-   "end": "2027-01-01T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/905013781b4e8fc9.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "9093d0621d0f2e51cc47",
-   "added": ""
-  },
-  {
    "source": "SAT",
    "title": "SAT NYE 2026 (ALL NIGHT)",
    "start": "2026-12-31T22:00:00-05:00",
@@ -6483,6 +6612,28 @@
    "tab": "music",
    "id": "821231da9ec005f7dd05",
    "added": ""
+  },
+  {
+   "source": "Salon Daomé",
+   "title": "Nouvel An - NYE - Magda, Akufen, Nathan Burns",
+   "start": "2026-12-31T22:00:00-05:00",
+   "url": "https://ra.co/events/2595089",
+   "end": "2027-01-01T06:00:00-05:00",
+   "location": "Salon Daomé",
+   "kind": "",
+   "free": false,
+   "price": "$40",
+   "price_lo": 40.0,
+   "genres": [
+    "House",
+    "Electronic",
+    "Holiday Season"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "a698113a6b213b5c229e",
+   "added": "2026-11-26"
   },
   {
    "source": "Newspeak",
@@ -7591,6 +7742,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Zoon + Pnoom + Ways of Hiding",
+   "start": "2027-02-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-13-zoon-pnoom-ways-of-hiding",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/62cb4eb082cbc9f2.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "272ae78a47447cba79b1",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Mardi Gras Montréal : Le Winston Band & Less Toches",
    "start": "2027-02-12T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-02-13-mardi-gras-montreal-le-winston-band-less-toches",
@@ -7607,24 +7776,6 @@
    "all_day": false,
    "tab": "music",
    "id": "d98b7655f9e746e4a081",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Zoon + Pnoom + Ways of Hiding",
-   "start": "2027-02-12T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-02-13-zoon-pnoom-ways-of-hiding",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 15.0,
-   "genres": [],
-   "image": "img/62cb4eb082cbc9f2.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "272ae78a47447cba79b1",
    "added": "2026-11-26"
   },
   {
@@ -7665,26 +7816,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Toody Cole & Her Band + Retail Simps + Lemongrab",
-   "start": "2027-02-13T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-02-14-toody-cole-her-band-retail-simps-lemongrab",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$30",
-   "price_lo": 30.0,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/2e6728a887690553.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "6ec68d78c5aee3632009",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Anna Arrobas + Scarlett Rose + ebb",
    "start": "2027-02-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-02-14-anna-arrobas-scarlett-rose-ebb",
@@ -7703,20 +7834,22 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Slash Need + GENRE IS DEATH + Johny Couteau",
-   "start": "2027-02-13T21:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-02-14-slash-need-genre-is-death-johny-couteau",
+   "title": "Toody Cole & Her Band + Retail Simps + Lemongrab",
+   "start": "2027-02-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-toody-cole-her-band-retail-simps-lemongrab",
    "end": null,
-   "location": "La Sotterenea",
+   "location": "La Sala Rossa",
    "kind": "",
    "free": false,
-   "price": "$20",
-   "price_lo": 20.0,
-   "genres": [],
-   "image": "img/cf6a3680398a287a.webp",
+   "price": "$30",
+   "price_lo": 30.0,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/2e6728a887690553.webp",
    "all_day": false,
    "tab": "music",
-   "id": "93baf2c43bd6d6bf83eb",
+   "id": "6ec68d78c5aee3632009",
    "added": "2026-11-26"
   },
   {
@@ -7738,6 +7871,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Casa del Popolo",
+   "title": "Slash Need + GENRE IS DEATH + Johny Couteau",
+   "start": "2027-02-13T21:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-14-slash-need-genre-is-death-johny-couteau",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [],
+   "image": "img/cf6a3680398a287a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "93baf2c43bd6d6bf83eb",
+   "added": "2026-11-26"
+  },
+  {
    "source": "SAT",
    "title": "Dômesicle x Ferias — Alina b2b Guthrie",
    "start": "2027-02-13T22:00:00-05:00",
@@ -7755,26 +7906,6 @@
    "all_day": false,
    "tab": "music",
    "id": "dcfbcda00a6e525440bc",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "TWINSICK",
-   "start": "2027-02-13T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/twinsick-206983/",
-   "end": "2027-02-14T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/1a28d38b1aa0b48d.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "2dc247f8b4acb2e2aa99",
    "added": ""
   },
   {
@@ -7862,6 +7993,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "mokina (+ friends) Jardim Celeste Album Launch",
+   "start": "2027-02-25T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$22",
+   "price_lo": 22.0,
+   "genres": [],
+   "image": "img/d03b8e9852429665.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "59565ba94bd39db53a6a",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Mile End Tantshoyz + Glenti: A Yiddish and Greek Dance Party",
    "start": "2027-02-25T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-02-26-mile-end-tantshoyz-glenti-a-yiddish-and-greek-dance-party",
@@ -7880,24 +8029,6 @@
    "all_day": false,
    "tab": "music",
    "id": "55590aacf3911c3c883b",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "mokina (+ friends) Jardim Celeste Album Launch",
-   "start": "2027-02-25T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$22",
-   "price_lo": 22.0,
-   "genres": [],
-   "image": "img/d03b8e9852429665.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "59565ba94bd39db53a6a",
    "added": ""
   },
   {
@@ -8036,26 +8167,6 @@
    "all_day": false,
    "tab": "music",
    "id": "ac3c3a390ffbaea7b7ee",
-   "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "ELY OAKS",
-   "start": "2027-02-27T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/ely-oaks-207891/",
-   "end": "2027-02-28T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/2eb5aeed7f07683f.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "0bc63f97026ea3699a0e",
    "added": ""
   },
   {
@@ -8330,26 +8441,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "D.O.D",
-   "start": "2027-03-13T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/d-o-d-211258/",
-   "end": "2027-03-14T03:00:00-04:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/7857851c4d042210.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "994417a4178055745341",
-   "added": ""
-  },
-  {
    "source": "Bar Le Ritz PDB",
    "title": "VALENCIA GRACE",
    "start": "2027-03-14T20:30:00.179000-04:00",
@@ -8372,24 +8463,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Jon & Roy w/ Special Guests",
-   "start": "2027-03-17T20:00:00-04:00",
-   "url": "https://casadelpopolo.com/en/events/2027-03-18-jon-roy-w-special-guests",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$26",
-   "price_lo": 26.09,
-   "genres": [],
-   "image": "img/2b1a84ae02d5f060.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "9aa939946f150e088872",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Efrim Manuel Menuck and Tashi Dorji Present BLOOM AND RUIN - Night #1",
    "start": "2027-03-17T20:00:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-03-18-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-1",
@@ -8405,6 +8478,24 @@
    "tab": "music",
    "id": "2bcc04f093f4b8219100",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Jon & Roy w/ Special Guests",
+   "start": "2027-03-17T20:00:00-04:00",
+   "url": "https://casadelpopolo.com/en/events/2027-03-18-jon-roy-w-special-guests",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$26",
+   "price_lo": 26.09,
+   "genres": [],
+   "image": "img/2b1a84ae02d5f060.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9aa939946f150e088872",
+   "added": "2026-11-26"
   },
   {
    "source": "Théâtre Fairmount",
@@ -15937,116 +16028,6 @@
    "added": ""
   },
   {
-   "source": "Ateliers & Saveurs",
-   "title": "Midi Chic Express: Involtini de veau à la Mozzarella fraîche, sauge et prosciutto, sauce au Marsala",
-   "start": "2026-11-27T12:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/18633/une-superbe-pause-diner-30-min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/62871",
-   "end": "2026-11-27T13:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$42",
-   "price_lo": 42.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/e7b3eb04a0b4d5f8.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "3e254d1dfccba6bfbfb1",
-   "about": "Régalez-vous avec notre cours de cuisine midi chic express le 27 novembre 12:00 à 13:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "La Pâtisserie: Macarons au caramel à la fleur de sel",
-   "start": "2026-11-28T09:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/1725/les-macarons-pour-emporter/62813",
-   "end": "2026-11-28T12:30:00-05:00",
-   "location": "Ateliers & Saveurs Plateau Mont-Royal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$100",
-   "price_lo": 100.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/081b6efda4358a75.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "589e2735ac39908e6732",
-   "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 28 novembre 09:30 à 12:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Tendance Cocktails: Sensual",
-   "start": "2026-11-28T12:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil-avec-la-cachaca/62780",
-   "end": "2026-11-28T14:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$65",
-   "price_lo": 65.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/f063ede37834f544.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "739dd27ac7c7c9e96cca",
-   "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 28 novembre 12:00 à 14:00.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Les Fameux Tapas Chics: Financier citron, pavot, Amaretto, glaçage citron",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727",
-   "end": "2026-11-28T17:00:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/761bbf0310c59de3.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "791682877ab847316d13",
-   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 28 novembre 14:00 à 17:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Les Fameux Tapas Chics: Tartelette chocolat mi-cuite, glaçage chocolat marbré",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742",
-   "end": "2026-11-28T17:00:00-05:00",
-   "location": "Ateliers & Saveurs Plateau Mont-Royal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/7bb28d0dffdcade6.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "184ebf7945c9c1dbebce",
-   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 28 novembre 14:00 à 17:00.",
-   "added": ""
-  },
-  {
    "source": "Soft Studio Days",
    "title": "1 year anniversary ★",
    "start": "2026-11-28T17:30:00-05:00",
@@ -16065,92 +16046,6 @@
    "tab": "other",
    "id": "deac52723d022fcabc67",
    "about": "We are celebrating 1 year of soft studio days. When i started this studio it was so that i could be surrounded by other people who wanted to create. To make…",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Cuisine Du Monde: Ladoo coco",
-   "start": "2026-11-29T11:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/16693/sur-la-route-de-linde-un-voyage-tout-en-saveurs-a-votre-arrivee-un-tamarin-indian-sour-vous-sera-servi-une-invitation-a-levasion-des-la-premiere-gorgee/62730",
-   "end": "2026-11-29T14:30:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$105",
-   "price_lo": 105.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/90fdb0cffe80fe34.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "080d43898ba289ae9d02",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Le Menu Gourmand: Millefeuille croustillant, crème au chocolat noir et crème anglaise",
-   "start": "2026-11-29T15:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729",
-   "end": "2026-11-29T18:30:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$120",
-   "price_lo": 120.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/765265a4ef585bbf.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "bfccaa567f2e8abf46d6",
-   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 15:30 à 18:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Le Menu Gourmand: Crème Diplomate, biscuits doigts de dame, fruits rouges, coulis de fraise",
-   "start": "2026-11-29T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/18944/recevoir-comme-un-chef-a-la-maison-un-verre-de-bulles-offert/62700",
-   "end": "2026-11-29T21:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$120",
-   "price_lo": 120.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/2e900dd1069b119f.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "0e21a34afea848063164",
-   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 18:00 à 21:00.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Cuisine Du Monde: Salade gourmande de Tataki de bœuf aux épices douces, sauce gremolata au Parmigiano Reggiano",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013",
-   "end": "2026-12-01T21:00:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/dfb78205f2bfabd8.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "d63cd529a5fe394405ab",
    "added": ""
   },
   {
@@ -16175,50 +16070,6 @@
    "id": "88dd243a2b4183277b72",
    "about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\nADDITIONAL INFORMATION…",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Tendance Cocktails: Vive l'apéro en gin",
-   "start": "2026-12-03T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay-sapphire/63118",
-   "end": "2026-12-03T20:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$62",
-   "price_lo": 62.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/8fedef9281492707.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "c5b78054892a906b6eda",
-   "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 03 décembre 18:00 à 20:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Midi Chic Express: Choux de Bruxelles au bacon fumé et fromage bleu",
-   "start": "2026-12-04T12:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/63306",
-   "end": "2026-12-04T13:00:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$50",
-   "price_lo": 50.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/ee882212af12986d.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "ad29fb673e06a2201550",
-   "about": "Régalez-vous avec notre cours de cuisine midi chic express le 04 décembre 12:00 à 13:00.",
-   "added": ""
   },
   {
    "source": "Ausgang Plaza",
@@ -16263,49 +16114,6 @@
    "added": ""
   },
   {
-   "source": "Ateliers & Saveurs",
-   "title": "La Pâtisserie: Biscuit roulé chocolat",
-   "start": "2026-12-05T09:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913",
-   "end": "2026-12-05T12:30:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/81afd1a8dbf30469.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "d23db993acf1d8f4ee12",
-   "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 05 décembre 09:30 à 12:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "100% Terroir: Pina Tropicale",
-   "start": "2026-12-05T12:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070",
-   "end": "2026-12-05T14:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$68",
-   "price_lo": 68.0,
-   "genres": [
-    "Afro & Latin"
-   ],
-   "image": "img/1d9a5fb245f3eecc.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "62c41152e31b8163fb7e",
-   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 12:00 à 14:00.",
-   "added": ""
-  },
-  {
    "source": "Turbo Haüs",
    "title": "LA CLASH PODCAST ... LIVE!",
    "start": "2026-12-05T13:00:00-05:00",
@@ -16323,245 +16131,6 @@
    "all_day": false,
    "tab": "other",
    "id": "5505f03daeb699a41706",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Les Fameux Tapas Chics: Beignet passion, ananas caramélisé au rhum, sucre glace",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245",
-   "end": "2026-12-05T17:00:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/35bfaad6032e61a5.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "431a102d907df0b75057",
-   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 05 décembre 14:00 à 17:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "100% Terroir: Pina Tropicale",
-   "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072",
-   "end": "2026-12-05T17:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$68",
-   "price_lo": 68.0,
-   "genres": [
-    "Afro & Latin"
-   ],
-   "image": "img/1d9a5fb245f3eecc.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "60193a0a9d7bdb6c765f",
-   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 15:00 à 17:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Samedi Daiquiri !!: Tropicana Mood !",
-   "start": "2026-12-05T15:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106",
-   "end": "2026-12-05T17:00:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$55",
-   "price_lo": 55.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/882388c196ca2dae.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "052e379dc31ef12042e3",
-   "about": "Régalez-vous avec notre cours de cocktail samedi daiquiri !! le 05 décembre 15:30 à 17:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "100% Terroir: Pina Tropicale",
-   "start": "2026-12-05T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074",
-   "end": "2026-12-05T20:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$68",
-   "price_lo": 68.0,
-   "genres": [
-    "Afro & Latin"
-   ],
-   "image": "img/1d9a5fb245f3eecc.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "c3efe72b9b9b310e8870",
-   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 18:00 à 20:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Produit D'Exception À L'Honneur !: Pouding au pain brioché, chantilly au bourbon et foie gras, gelée de vin aux épices",
-   "start": "2026-12-05T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951",
-   "end": "2026-12-05T21:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$165",
-   "price_lo": 165.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/1323d2fa22b7799b.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "c9b6de67fb533017ce23",
-   "about": "Régalez-vous avec notre cours de cuisine produit d'exception à l'honneur ! le 05 décembre 18:00 à 21:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "La Pâtisserie: Macarons Noix de coco, ganache chocolat noir",
-   "start": "2026-12-06T09:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour-emporter/63027",
-   "end": "2026-12-06T12:30:00-05:00",
-   "location": "Ateliers & Saveurs Plateau Mont-Royal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$105",
-   "price_lo": 105.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/be3b747d72ae29be.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "a909e550c99a56eab4b2",
-   "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 06 décembre 09:30 à 12:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Le Bon Brunch: Saucisses glacées au sirop d'érable et romarin frais",
-   "start": "2026-12-06T10:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/62916",
-   "end": "2026-12-06T13:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$115",
-   "price_lo": 115.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/76e87da8fdc9ca4f.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "e717f2acf234ab82cf64",
-   "about": "Régalez-vous avec notre cours de cuisine le bon brunch le 06 décembre 10:00 à 13:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Les Cocktails Classiques Historiques !: Pornstar Martini",
-   "start": "2026-12-06T14:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076",
-   "end": "2026-12-06T16:30:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cocktail class",
-   "free": false,
-   "price": "$70",
-   "price_lo": 70.0,
-   "genres": [
-    "Classical & Choral"
-   ],
-   "image": "img/6e0f8f00e3c503d3.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "c158e078b68fe3bfa391",
-   "about": "Régalez-vous avec notre cours de cocktail les cocktails classiques historiques ! le 06 décembre 14:30 à 16:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Le Menu Gourmand: Financier, crème citron, rosace de meringue brulée, zestes de citron",
-   "start": "2026-12-06T15:30:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-services/63248",
-   "end": "2026-12-06T18:30:00-05:00",
-   "location": "Ateliers & Saveurs Time Out Market",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$110",
-   "price_lo": 110.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/4e5b4b61b50f1531.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "f9372e946d8aba82afe5",
-   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 06 décembre 15:30 à 18:30.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Produit D'Exception À L'Honneur !: Pain perdu au jasmin, sauce caramel au beurre salé et pépites de foie gras, zeste d'orange",
-   "start": "2026-12-06T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953",
-   "end": "2026-12-06T21:00:00-05:00",
-   "location": "Ateliers & Saveurs Vieux-Montréal",
-   "kind": "Cooking class",
-   "free": false,
-   "price": "$120",
-   "price_lo": 120.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/067171f4dbdfa09a.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "e70265abbc57cf51595d",
-   "about": "Régalez-vous avec notre cours de cuisine produit d'exception à l'honneur ! le 06 décembre 18:00 à 21:00.",
-   "added": ""
-  },
-  {
-   "source": "Ateliers & Saveurs",
-   "title": "Collection Voyage: Voyage en ESPAGNE et au PORTUGAL !",
-   "start": "2026-12-06T18:00:00-05:00",
-   "url": "https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-et-au-portugal/63038",
-   "end": "2026-12-06T21:00:00-05:00",
-   "location": "Ateliers & Saveurs Plateau Mont-Royal",
-   "kind": "Wine tasting",
-   "free": false,
-   "price": "$95",
-   "price_lo": 95.0,
-   "genres": [
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/94c186c9b9420a68.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "fcd7b3413d599a58a48e",
-   "about": "Régalez-vous avec notre dégustation de vin collection voyage le 06 décembre 18:00 à 21:00.",
    "added": ""
   },
   {
@@ -23808,6 +23377,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Après-midi cinéma",
    "start": "2026-11-28T14:00:00-05:00",
@@ -23851,27 +23441,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Atelier d'écriture de lettres au père Noël",
    "start": "2026-11-28T14:00:00-05:00",
@@ -23913,6 +23482,27 @@
    "id": "64e9a952f57432fa3655",
    "about": "Dans l’univers d’Astor est un spectacle musical et narratif qui plonge le public dans les récits de vie, la musique et les inspirations d’Astor Piazzolla, compositeur et bandonéoniste argentin considéré comme le plus grand innovateur du tango au XX siècle.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Quelqu'un t'aime monsieur Hatch - Théâtre Axis",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/quelquun-taime-monsieur-hatch-theatre-axis-123184",
+   "end": "2026-11-28T14:50:00-05:00",
+   "location": "Centre communautaire Gerry-Robertson",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.45,
+   "genres": [
+    "Theatre & Shows"
+   ],
+   "image": "img/cacc42f1ea517686.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "6fb407074fb1620b2b22",
+   "about": "Monsieur Hatch mène une vie terne, ordonnée et solitaire, jusqu’au jour de la Saint-Valentin où il reçoit une boîte de chocolats en forme de cœur accompagnée d’un mot : « Quelqu’un t’aime ».",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -24067,28 +23657,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Film"
-   ],
-   "image": "img/bd32f61f9b548c6f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -24110,28 +23678,26 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
+    "Theatre & Shows",
+    "Film"
    ],
-   "image": "img/27174f84671e64c1.webp",
+   "image": "img/bd32f61f9b548c6f.webp",
    "all_day": false,
    "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -24195,6 +23761,30 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
+   ],
+   "image": "img/27174f84671e64c1.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -24303,6 +23893,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Atelier création de nid",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/9c01230ab86d83eb.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -24326,23 +23937,25 @@
   },
   {
    "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/9c01230ab86d83eb.webp",
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
    "added": "2026-11-26"
   },
   {
@@ -24390,27 +24003,23 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Art & Workshops"
-   ],
-   "image": "img/c077796121e86375.webp",
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
-   "added": "2026-11-26"
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -24431,25 +24040,6 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -24621,6 +24211,27 @@
   },
   {
    "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -24640,27 +24251,6 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -25797,27 +25387,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Plus fort que moi - Kirk Jones",
-   "start": "2026-12-07T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
-   "end": "2026-12-07T15:00:00-05:00",
-   "location": "L’Entrepôt - maison de la culture de Lachine",
-   "kind": "",
-   "free": false,
-   "price": "$6",
-   "price_lo": 6.5,
-   "genres": [
-    "Film"
-   ],
-   "image": "img/ed19f3fae0e8559f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4554339f9fb0efccae",
-   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Other city venues",
    "title": "FAB-ZINES : Zine pop-up",
    "start": "2026-12-07T14:00:00-05:00",
@@ -25837,6 +25406,27 @@
    "tab": "city",
    "id": "d5372c20a9727722f90a",
    "about": "Activité gratuite de création de zines de la FabricARThèque.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Plus fort que moi - Kirk Jones",
+   "start": "2026-12-07T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
+   "end": "2026-12-07T15:00:00-05:00",
+   "location": "L’Entrepôt - maison de la culture de Lachine",
+   "kind": "",
+   "free": false,
+   "price": "$6",
+   "price_lo": 6.5,
+   "genres": [
+    "Film"
+   ],
+   "image": "img/ed19f3fae0e8559f.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4554339f9fb0efccae",
+   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
    "added": "2026-11-26"
   },
   {
@@ -25957,7 +25547,7 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [],
-   "image": "img/df54680754a45997.webp",
+   "image": "img/91ab731137b54318.webp",
    "all_day": false,
    "tab": "city",
    "id": "0ca7819f91d6f470a423",
@@ -25983,49 +25573,6 @@
    "tab": "city",
    "id": "f0151a145a8563b19e57",
    "about": "Les bibliothèques de Lachine organisent régulièrement des activités culturelles, des animations, des formations ou des conférences gratuites. Soyez des nôtres!",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Rencontre avec Jimmy Suzan",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
-   "end": "2026-12-08T19:30:00-05:00",
-   "location": "Bibliothèque de Parc-Extension",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes",
-    "Art & Workshops"
-   ],
-   "image": "img/da56038e278dcbac.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e771523b006807350535",
-   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture du mardi soir",
-   "start": "2026-12-08T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
-   "end": "2026-12-08T19:45:00-05:00",
-   "location": "Bibliothèque Langelier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/44a44bec5abbb4bf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "a0a6e10499530cd8c28c",
-   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
    "added": ""
   },
   {
@@ -26069,6 +25616,49 @@
    "id": "56286bbd5c8fc1903a20",
    "about": "Initiez-vous aux techniques de sérigraphie et repartez avec vos propres créations originales.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture du mardi soir",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
+   "end": "2026-12-08T19:45:00-05:00",
+   "location": "Bibliothèque Langelier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/44a44bec5abbb4bf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "a0a6e10499530cd8c28c",
+   "about": "Envie d’échanger avec d’autres personnes passionnées? Le club de lecture du mardi soir de la bibliothèque Langelier vous propose un rendez-vous mensuel pour les adultes férus de lectures.",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Rencontre avec Jimmy Suzan",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
+   "end": "2026-12-08T19:30:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "image": "img/da56038e278dcbac.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "e771523b006807350535",
+   "about": "Venez à la rencontre de Jimmy Suzan, auteur et illustrateur de la bande dessinée Migrasyon !",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -26283,6 +25873,28 @@
    "added": ""
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -26300,6 +25912,25 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -26323,47 +25954,6 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -36528,6 +36118,25 @@
    "id": "214a842040583cd43ad2",
    "about": "En Chine, dans les années 1920, Songlian, 19 ans, devient la quatrième épouse d'un riche quinquagénaire, maître Chen.",
    "added": ""
+  },
+  {
+   "source": "Cinéma Moderne",
+   "title": "Minotaure (VOSTA)",
+   "start": "2026-12-12T20:50:00-05:00",
+   "url": "https://www.cinemamoderne.com/films/details/minotaure/",
+   "end": "2026-12-12T23:11:00-05:00",
+   "location": "Cinéma Moderne",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/7d0c8221b06bb020.webp",
+   "all_day": false,
+   "tab": "movies",
+   "id": "013bb518edece6cbeb4f",
+   "about": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province.",
+   "added": "2026-11-26"
   },
   {
    "source": "Cinéma Moderne",
