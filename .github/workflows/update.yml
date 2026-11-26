@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # scrape.py's alerts (a venue failing or going empty) become an issue
 
 concurrency:
   group: update-events
@@ -34,3 +35,16 @@ jobs:
           for f in $files; do cp "$RUNNER_TEMP/$f" docs/; git add "docs/$f"; done
           git diff --cached --quiet || git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+      - name: Open an issue for new problems
+        if: hashFiles('alerts.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "The $(date -u +%Y-%m-%d) update found a problem with these sources:"
+            echo
+            cat alerts.md
+            echo
+            echo "The rest of the calendar kept updating. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > issue.md
+          gh issue create --title "Event sources need attention ($(date -u +%Y-%m-%d))" --body-file issue.md

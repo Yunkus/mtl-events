@@ -28,12 +28,26 @@ Every source goes through a cleanup step (`clean_events` in `scrape.py`):
 - dates that can't be right are dropped (a show more than 18 months out, or ending before it starts).
   Long-running exhibitions keep their real opening date (the Planétarium's *Aurorae* has run since 2015).
 
-Genres (`GENRES` in `scrape.py`) come from keywords in the title, Resident Advisor's own genre tags,
-and, when a title says nothing about the music, a default per venue (`VENUE_GENRES`: Stereo and New City Gas
-are electronic, Turbo Haüs punk and rock, Casa del Popolo / Fairmount / Le Ritz indie, and so on).
+Genres (`GENRES` in `scrape.py`) come from keywords in the title and, for Théâtre Fairmount and Bar Le Ritz, the
+show description; Resident Advisor's own genre tags; who presents the show (`PRESENTER_GENRES`: Extensive Enterprise
+→ Metal, Blue Skies Turn Black → Rock & Indie…); and, only for venues that book one kind of night, a venue default
+(`VENUE_GENRES`: Stereo, New City Gas and the other clubs → Electronic, Turbo Haüs → Punk and Rock). Live-band rooms
+(Casa del Popolo, Fairmount, Le Ritz, Quai des Brumes) get no default, so a show with no clue stays untagged rather
+than guessed.
+
+Stand-up shows billed under a name only are caught by the presenter (Outback, Juste pour rire…), comedy words in
+the description, or `COMEDIANS` in `scrape.py` (add a name there if one lands in Music & Dance).
 
 On the page: Tonight, This weekend, Early shows / Late night (10 pm+), Free / Under $20 (events with no
-known price stay listed, marked "price unknown"), and a Genre row on Music & Dance, Other Events and By Date.
+known price stay listed, marked "price unknown"), and a Genre row on Music & Dance, Other Events and By Date. Every count follows the other active filters
+and the search box, so a combination with no results shows 0 before you tap it. Venues with nothing upcoming
+get no button.
+
+## Alerts
+
+If a source fails two updates in a row, or a venue that usually has 3+ events finds none two updates in a
+row, the update opens a GitHub issue (you get an email). Venues that are simply quiet (Boiler Room, Eastern
+Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
 
 ## Music & Dance vs Other Events
 

@@ -85,6 +85,7 @@
   .chip.special.genre[aria-pressed="true"] { background: var(--amber); color: var(--black); border-color: var(--amber); }
   .ev .tags { font-size: 12px; color: var(--muted); margin-top: 2px; letter-spacing: .02em; }
   .ev .unknown { color: var(--muted); font-style: italic; }
+  .chip.zero { opacity: .45; }   /* nothing matches with the current filters */
   .search { width: 100%; margin: 12px 0 4px; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--line);
             background: var(--surface); color: var(--text); font: inherit; }
   .day { margin-top: 28px; }
@@ -292,7 +293,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
   const feedUrl = () => new URL((tabsInfo[tab] || tabsInfo[tabIds[0]]).feed, location.href).href;
   $("copy").onclick = async () => { try { await navigator.clipboard.writeText(feedUrl()); } catch (e) {} toast("Feed URL copied"); };
-  $("q").oninput = render;
+  $("q").oninput = () => { buildChips(); render(); };   // counts follow the search too
 
   // ---------- picks
   const pickedEvents = () => [...picked].map(id => byId.get(id)).filter(Boolean).sort((a, b) => a.d - b.d);
@@ -386,20 +387,22 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const priceKnown = e => e.free || e.price_lo != null;
   const hasPrices = list => list.some(priceKnown);
   const genreTabs = ["music", "other", "date"];
-  function passes(e, list) {
-    if (when === "tonight" && !onDay(e, today)) return false;
-    if (when === "weekend" && ![...weekendKeys].some(k => onDay(e, k))) return false;
-    if (slot === "late" && !isLate(e)) return false;
-    if (slot === "early" && !isEarly(e)) return false;
-    if (price !== "any" && hasPrices(list) && priceKnown(e)) {   // unknown prices stay visible, marked as such
-      if (price === "free" && !e.free) return false;
-      if (price === "under20" && !(e.free || e.price_lo < 20)) return false;
+  // Current filter settings; counts pass overrides to ask "how many if this button were on?"
+  const cur = () => ({ when, slot, price, genres: genreSel });
+  function passes(e, list, st = cur()) {
+    if (st.when === "tonight" && !onDay(e, today)) return false;
+    if (st.when === "weekend" && ![...weekendKeys].some(k => onDay(e, k))) return false;
+    if (st.slot === "late" && !isLate(e)) return false;
+    if (st.slot === "early" && !isEarly(e)) return false;
+    if (st.price !== "any" && hasPrices(list) && priceKnown(e)) {   // unknown prices stay visible, marked as such
+      if (st.price === "free" && !e.free) return false;
+      if (st.price === "under20" && !(e.free || e.price_lo < 20)) return false;
     }
-    if (genreSel.size && genreTabs.includes(tab) && !(e.genres || []).some(g => genreSel.has(g))) return false;
+    if (st.genres.size && genreTabs.includes(tab) && !(e.genres || []).some(g => st.genres.has(g))) return false;
     return true;
   }
   function opt(label, on, n, onclick, cls = "") {
-    const b = special(label, on, cls, n, onclick); return b;
+    const b = special(label, on, cls + (n === 0 && !on ? " zero" : ""), n, onclick); return b;
   }
   function chipRow(...kids) { const r = el("div", "chiprow"); r.append(...kids.filter(Boolean)); return r; }
 
@@ -408,31 +411,39 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (tab === "date") buildDateBar(chips);
     const inTab = events.filter(e => (tab === "date" ? onDay(e, dayPick) : e.tab === tab));
     const redo = () => { buildChips(); render(); };
+    // Counts follow everything else that's active: search, Selected, shown venues and the other filters.
+    const term = $("q").value.trim().toLowerCase();
+    const venueOn = e => tab === "date" || tab === "museums" || picksOnly || !hidden.has(e.source);
+    const base = inTab.filter(e => matches(e, term) && (!picksOnly || picked.has(e.id)));
+    const pool = base.filter(venueOn);
+    const cnt = (over, extra = () => true) => pool.filter(e => passes(e, inTab, { ...cur(), ...over }) && extra(e)).length;
     const row1 = chipRow(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; redo(); }));
     if (tab !== "date" && !(tab === "museums" && museumView === "exhibitions")) {
       row1.append(el("span", "sep"),
-        opt("Tonight", when === "tonight", inTab.filter(e => onDay(e, today)).length, () => { when = when === "tonight" ? "any" : "tonight"; redo(); }),
-        opt("This weekend", when === "weekend", null, () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
+        opt("Tonight", when === "tonight", cnt({ when: "tonight" }), () => { when = when === "tonight" ? "any" : "tonight"; redo(); }),
+        opt("This weekend", when === "weekend", cnt({ when: "weekend" }), () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
     }
     if (inTab.some(e => !e.all_day)) {
       row1.append(el("span", "sep"),
-        opt("Early shows", slot === "early", null, () => { slot = slot === "early" ? "any" : "early"; redo(); }),
-        opt("Late night 10 pm+", slot === "late", null, () => { slot = slot === "late" ? "any" : "late"; redo(); }));
+        opt("Early shows", slot === "early", cnt({ slot: "early" }), () => { slot = slot === "early" ? "any" : "early"; redo(); }),
+        opt("Late night 10 pm+", slot === "late", cnt({ slot: "late" }), () => { slot = slot === "late" ? "any" : "late"; redo(); }));
     }
     if (hasPrices(inTab)) {
       const setPrice = v => () => { price = price === v ? "any" : v; store.set("priceFilter", price); redo(); };
+      // price counts are the events known to match (unknown prices stay listed but aren't counted)
       row1.append(el("span", "sep"),
-        opt("Free", price === "free", inTab.filter(e => e.free).length, setPrice("free"), "free-chip"),
-        opt("Under $20", price === "under20", inTab.filter(e => e.free || (e.price_lo != null && e.price_lo < 20)).length, setPrice("under20"), "free-chip"));
+        opt("Free", price === "free", cnt({ price: "any" }, e => e.free), setPrice("free"), "free-chip"),
+        opt("Under $20", price === "under20", cnt({ price: "any" }, e => e.free || (e.price_lo != null && e.price_lo < 20)),
+            setPrice("under20"), "free-chip"));
     }
     chips.appendChild(row1);
     if (genreTabs.includes(tab)) {
+      const all = new Set(inTab.flatMap(e => e.genres || []));
       const counts = {};
-      inTab.forEach(e => (e.genres || []).forEach(g => counts[g] = (counts[g] || 0) + 1));
-      const names = Object.keys(counts);
+      all.forEach(g => counts[g] = cnt({ genres: new Set() }, e => (e.genres || []).includes(g)));
+      const names = [...all].filter(g => counts[g] || genreSel.has(g));
       if (names.length) {
-        const order = data.genres || [...new Set(events.flatMap(e => e.genres || []))];   // the scraper's genre order
-        genreSel = new Set([...genreSel].filter(g => counts[g]));
+        const order = data.genres || [...all];   // the scraper's genre order
         const row = chipRow(el("span", "rowlabel", "Genre"));
         names.sort((a, b) => order.indexOf(a) - order.indexOf(b)).forEach(g => row.appendChild(
           opt(g, genreSel.has(g), counts[g], () => { genreSel.has(g) ? genreSel.delete(g) : genreSel.add(g); redo(); }, "genre")));
@@ -454,20 +465,20 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       return;
     }
     const counts = {};
-    inTab.forEach(e => counts[e.source] = (counts[e.source] || 0) + 1);
-    // chips = sources with events in this tab, plus sources that failed (shown crossed out)
-    const names = new Set(Object.keys(counts));
-    // (a source that found events filed under other names, like "Added by hand", gets no chip of its own)
-    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && (!sources[n].ok || (EVENT_TABS.includes(tab) && !sources[n].count))) names.add(n); });
+    base.filter(e => passes(e, inTab)).forEach(e => counts[e.source] = (counts[e.source] || 0) + 1);
+    // chips = venues with events in this tab (not ones with nothing upcoming: "Boiler Room 0" looks broken),
+    // plus sources that failed, shown crossed out
+    const names = new Set(inTab.map(e => e.source));
+    Object.keys(sources).forEach(n => { if (srcTab(n) === tab && !sources[n].ok) names.add(n); });
     if (names.size < 2) { venues.remove(); return; }
     [...names].sort().forEach(name => {
       const s = sources[name];
-      const b = el("button", "chip" + (s && !s.ok ? " bad" : ""));
-      b.append(name, el("span", "n", counts[name] || 0));
+      const n = counts[name] || 0;
+      const b = el("button", "chip" + (s && !s.ok ? " bad" : "") + (n === 0 ? " zero" : ""));
+      b.append(name, el("span", "n", n));
       b.title = s && !s.ok ? s.error : "Click to show/hide";
       b.setAttribute("aria-pressed", String(!hidden.has(name)));
-      b.onclick = () => { hidden.has(name) ? hidden.delete(name) : hidden.add(name); store.set("hiddenSources", [...hidden]);
-                          b.setAttribute("aria-pressed", String(!hidden.has(name))); render(); };
+      b.onclick = () => { hidden.has(name) ? hidden.delete(name) : hidden.add(name); store.set("hiddenSources", [...hidden]); redo(); };
       add(b);
     });
   }

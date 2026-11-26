@@ -51,6 +51,7 @@ class Ev:
     price: str = ""                      # short display text, e.g. "$10" or "$15–20"
     price_lo: float | None = None        # lowest ticket price (0 when free), for the "Under $20" filter
     genres: list[str] = field(default_factory=list)   # e.g. ["Techno", "Electronic"]
+    blurb: str = ""                      # short description from the venue (used for tags; not published)
 
     @property
     def all_day(self) -> bool:
@@ -469,6 +470,9 @@ def squarespace_shows(base: str, source: str, location: str) -> list[Ev]:
         start = datetime.fromtimestamp(it["startDate"] / 1000, TZ)
         end = datetime.fromtimestamp(it["endDate"] / 1000, TZ) if it.get("endDate") else None
         ev = Ev(source, title, start, base + it["fullUrl"], end, location)
+        if head:
+            head.extract()
+        ev.blurb = re.sub(r"https?://\S+", "", clean(body.get_text(" ")))[:400]   # "Présenté par …", style notes
         uni = next((m.group(1) for a in body.find_all("a", href=True)
                     if (m := re.search(r"universe\.com/events/([a-z0-9-]+-[A-Z0-9]{6})", a["href"]))), None)
         if uni:
@@ -877,7 +881,8 @@ GENRES = [
     ("Punk & Hardcore", r"punk|hardcore|grunge|crust|\boi!"),
     ("Metal", r"metal|\bdoom\b|sludge|grindcore|thrash"),
     ("Rock & Indie", r"\brock\b|indie|shoegaze|psych|surf rock|garage rock"),
-    ("Experimental", r"experiment|\bnoise\b|drone|ambient|modular|improv|avant|electroacoust|snare drum"),
+    ("Experimental", r"experiment|\bnoise\b|drone|ambient|modular|improv|avant|electroacoust|[ée]lectroacoustique|"
+                     r"snare drum|musique actuelle|free jazz|\bconcr[eè]te?\b|contemporary music|sound art"),
     ("Pop & Throwback", r"\bpop\b|\b(?:19)?[6-9]0'?s\b|\b2000s?\b|\b2010s\b|tribute|hommage|cover set|throwback|dance party"),
     ("Electronic", r"electro|[ée]lectro|\bdj\b|dj set|\bb2b\b|\brave\b|all night long|club\b|\bbpm\b"),
     ("Dance", r"\bdance\b|\bdanse\b|ballroom|vogue|t-dance"),
@@ -896,9 +901,8 @@ VENUE_GENRES = {
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],
     "Turbo Haüs": ["Punk & Hardcore", "Rock & Indie"], "Le Belmont": ["Pop & Throwback", "Dance"],
-    # live-band rooms that mostly book indie / alternative acts (titles are usually just band names)
-    "Casa del Popolo": ["Rock & Indie"], "Théâtre Fairmount": ["Rock & Indie"], "Bar Le Ritz PDB": ["Rock & Indie"],
-    "Favourite Library": ["Rock & Indie"], "L'Escogriffe": ["Rock & Indie"], "Quai des Brumes": ["Rock & Indie"],
+    # (no default for the live-band rooms — Casa del Popolo, Fairmount, Le Ritz, Quai des Brumes, L'Escogriffe:
+    #  they book everything from folk metal to blues to improv, so an untagged show there stays untagged)
     "Laugh It Off": ["Comedy"], "Comedy Open Mics": ["Comedy"],
     "Soft Studio Days": ["Art & Workshops"], "MTL Cookbook Club": ["Food & Drink"], "5 à Set": ["Listening Party"],
     "Le Marché Vintage": ["Art & Workshops"],
@@ -912,10 +916,34 @@ def genres_in(text: str) -> list[str]:
     return found
 
 
+# "Présenté par …" in a venue's description says a lot when the title is just a name.
+PRESENTER_GENRES = [
+    (re.compile(r"extensive enterprise", re.I), ["Metal"]),        # metal promoter (Korpiklaani, Elder…)
+    (re.compile(r"heavy mtl", re.I), ["Rock & Indie"]),            # heavy rock / stoner
+    (re.compile(r"blue skies turn black", re.I), ["Rock & Indie"]),
+    (re.compile(r"what the dance|super taste", re.I), ["Pop & Throwback", "Dance"]),
+]
+# Stand-up shows billed under the comedian's name only (no "comedy" in the title).
+COMEDY_PRESENTERS = re.compile(r"pr[ée]sent[ée] par (?:outback|juste pour rire|just for laughs|comedy works|"
+                               r"zoofest|grimaldi)", re.I)
+COMEDIANS = {"ivan decker", "zainab johnson"}   # add names here when one gets misfiled as music
+
+
+def is_comedy(e: Ev) -> bool:
+    name = _plain(e.title.split(":")[0]).strip()
+    return name in COMEDIANS or bool(COMEDY_PRESENTERS.search(e.blurb)) or bool(
+        re.search(r"\b(?:stand-?up|humoriste|comedian|com[ée]dien)\b", e.blurb, re.I))
+
+
 def tag_genres(e: Ev, tab: str) -> None:
     if tab in ("museums", "movies"):
         return
-    tags = list(dict.fromkeys(e.genres + genres_in(e.title)))
+    tags = list(dict.fromkeys(e.genres + genres_in(e.title) + genres_in(e.blurb)))
+    if is_comedy(e):
+        tags = ["Comedy"]
+    for rx, gs in PRESENTER_GENRES:
+        if rx.search(e.blurb) and not [g for g in tags if g not in ("Dance", "Electronic")]:
+            tags += [g for g in gs if g not in tags]
     non_music = ("Comedy", "Dance", "Listening Party", "Talks & Quizzes", "Art & Workshops", "Food & Drink")
     music = [g for g in tags if g not in non_music]
     # venue defaults: music venues only in Music & Dance; other sources (comedy, workshops) everywhere,
@@ -945,7 +973,7 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 def event_tab(e: Ev) -> str:
     if e.source in BAR_SOURCES:
         return "bars"
-    return "other" if e.source in OTHER_SOURCES or OTHER_TITLES.search(e.title) else "music"
+    return "other" if e.source in OTHER_SOURCES or OTHER_TITLES.search(e.title) or is_comedy(e) else "music"
 
 
 def source_tab(name: str) -> str:
@@ -978,6 +1006,7 @@ def to_json(e: Ev, tab: str) -> dict:
     d["all_day"] = e.all_day
     d["tab"] = tab
     d["id"] = stable_uid(e)
+    d.pop("blurb", None)   # only used for tagging
     return d
 
 
@@ -1076,11 +1105,46 @@ def main() -> int:
     title, feed, members = COMBINED
     (OUT / feed).write_bytes(build_ics(sorted((e for t in members for e in by_tab[t]), key=sort_key), title))
 
+    alerts = check_health(status)
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"),
                "tabs": tabs, "sources": status, "genres": [g for g, _ in GENRES], "events": payload_events}
     (OUT / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(payload_events)} events written to {OUT}")
+    ALERTS.unlink(missing_ok=True)
+    if alerts:
+        ALERTS.write_text("\n".join(alerts) + "\n", encoding="utf-8")   # the workflow turns this into a GitHub issue
+        for a in alerts:
+            print(f"::warning::{a}")
     return 0 if any(s["ok"] for s in status.values()) else 1
+
+
+ALERTS = Path(__file__).parent / "alerts.md"
+
+
+def check_health(status: dict) -> list[str]:
+    """Compare with the previous run (the events.json about to be replaced) and report, once each:
+    - a source failing two runs in a row (one-off timeouts don't count)
+    - a source that usually has events (3+) returning none two runs in a row.
+    Streaks are kept in each source's status so the next run can continue them."""
+    try:
+        old = json.loads((OUT / "events.json").read_text(encoding="utf-8")).get("sources", {})
+    except (OSError, ValueError):
+        old = {}
+    alerts = []
+    for name, s in status.items():
+        o = old.get(name, {})
+        last = s.get("count") or o.get("last_count") or o.get("count") or 0
+        s["last_count"] = last
+        if not s["ok"]:
+            s["fail_streak"] = o.get("fail_streak", 0) + 1
+            if s["fail_streak"] == 2:
+                alerts.append(f"- **{name}** has failed two updates in a row: `{s['error']}`")
+        else:
+            s["zero_streak"] = o.get("zero_streak", 0) + 1 if s["count"] == 0 else 0
+            if s["zero_streak"] == 2 and last >= 3:
+                alerts.append(f"- **{name}** found no events two updates in a row (it had {last} before). "
+                              "Its site may have changed layout.")
+    return alerts
 
 
 if __name__ == "__main__":
