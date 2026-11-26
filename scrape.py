@@ -988,8 +988,7 @@ EVENT_SOURCES = {
     "Quai des Brumes": quai_des_brumes,
     "Sans Soleil": lambda: ra_events("venue", "203475", "Sans Soleil"),   # basement bar; site is Instagram only
     "Blue Room": lambda: ra_events("venue", "290582", "Blue Room"),       # 3956 Saint-Laurent, 3rd floor; Instagram only
-    # party collective: its Linktree ticket links carry the date ("Heures ouvrables 007 (6 mars 2026)")
-    "Heures ouvrables": lambda: linktree_dated("https://linktr.ee/heuresouvrables", "Heures ouvrables"),
+    # (Heures ouvrables removed: its Linktree refuses requests from GitHub's servers; linktree_dated() is kept)
     # multi-use space (5435 av. des Érables); raves and parties go on RA venue 235410
     "Espace Transmission": lambda: ra_events("venue", "235410", "Espace Transmission"),
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829

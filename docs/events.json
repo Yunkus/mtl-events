@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:54-05:00",
+ "generated": "2026-11-25T20:55-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 12
+   "zero_streak": 13
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 12
+   "zero_streak": 13
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 12
+   "zero_streak": 13
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -196,19 +196,12 @@
    "last_count": 5,
    "zero_streak": 0
   },
-  "Heures ouvrables": {
-   "ok": false,
-   "error": "HTTPError: 406 Client Error: Not Acceptable for url: https://linktr.ee/heuresouvrables",
-   "tab": "music",
-   "last_count": 0,
-   "fail_streak": 1
-  },
   "Espace Transmission": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 2
+   "zero_streak": 3
   },
   "StereoBar": {
    "ok": true,
@@ -236,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 12
+   "zero_streak": 13
   },
   "Trivia Nights": {
    "ok": true,
@@ -306,7 +299,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 2
+   "zero_streak": 3
   },
   "Cinéma Cinéma": {
    "ok": true,

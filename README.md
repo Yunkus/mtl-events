@@ -96,7 +96,6 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
 | Sans Soleil | Resident Advisor venue 203475 (its own site is an Instagram page) |
 | Blue Room | Resident Advisor venue 290582 (its own site is an Instagram page) |
-| Heures ouvrables | the collective's Linktree: ticket links with a date in their name ('Heures ouvrables 007 (6 mars 2026)') |
 
 ### Museums & Galleries tab (`docs/museums.ics`)
 
@@ -126,7 +125,7 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 
-**Not included: Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
+**Not included: Heures ouvrables** (Linktree refuses requests from GitHub's servers), **Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
 If a site changes its layout, that one source fails and the others keep working. The web page shows the broken one crossed out.
 
