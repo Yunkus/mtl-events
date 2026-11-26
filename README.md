@@ -126,7 +126,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Système | Resident Advisor venue 201918 (what systememtl.com links to) |
 | New City Gas | newcitygas.com/en/events, then each event page's schema.org data (times). No prices: the pages show a placeholder and Tixr blocks automated access. |
 | Eastern Bloc | Resident Advisor venue 147287 (parties, Sight+Sound). It mostly announces on Instagram, which can't be read automatically. |
-| L'Escogriffe | Songkick venue page (songkick.com/venues/79022…; schema.org data per show, line-up and artist photo; allowed by Songkick's robots.txt), plus RA venue 124247 for the odd club night (same show from both is merged). Its own site is a Facebook page. |
+| L'Escogriffe | Live Nation venue page (schema.org data for the shows Live Nation / evenko sell there) plus RA venue 124247 for the odd club night (same show from both is merged). Its own site is a Facebook page; Songkick lists more of its shows but refuses requests from GitHub's servers, so it isn't used. In `QUIET_OK`. |
 | Dièse Onze | dieseonze.com calendar page (plain http only): every show with time, line-up (as the description) and cover |
 | Bistro à Jojo | the bar's public Google Calendar (what its site's calendar widget shows), next 3 weeks; 5 pm acoustic sets marked free (tips), as the bar says. `google_calendar()` works for any venue with a public Google Calendar. |
 | Igloofest 2027 | by hand (`IGLOOFEST_2027` in `scrape.py`): all 12 nights, Jan 14 – Feb 6, line-up by stage with set times from igloofest.ca, GA from $49 + tax |

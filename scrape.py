@@ -805,13 +805,10 @@ def bistro_a_jojo() -> list[Ev]:
     return out
 
 
-def songkick_venue(venue: str, source: str, location: str) -> list[Ev]:
-    """A venue's Songkick page (songkick.com/venues/<id-name>; allowed by its robots.txt): a schema.org MusicEvent
-    per upcoming show, with the line-up and an artist photo."""
-    # Songkick answers 406 to the default "Accept-Encoding: gzip, deflate, br, zstd"; plain gzip is fine
-    r = SESSION.get(f"https://www.songkick.com/venues/{venue}", headers={"Accept-Encoding": "gzip, deflate"}, timeout=30)
-    r.raise_for_status()
-    s = BeautifulSoup(r.content, "html.parser")
+def livenation_venue(venue: str, source: str, location: str) -> list[Ev]:
+    """A venue's Live Nation page (livenation.com/venue/<id>/<name>-events): a schema.org event per show Live Nation
+    or evenko sells there. (Songkick has more, but refuses requests from GitHub's servers.)"""
+    s = BeautifulSoup(get(f"https://www.livenation.com/venue/{venue}").content, "html.parser")
     out = []
     for sc in s.find_all("script", type="application/ld+json"):
         try:
@@ -819,17 +816,17 @@ def songkick_venue(venue: str, source: str, location: str) -> list[Ev]:
         except ValueError:
             continue
         for d in data if isinstance(data, list) else [data]:
-            if "Event" not in str(d.get("@type")) or "Cancelled" in d.get("eventStatus", "") \
-                    or "Postponed" in d.get("eventStatus", ""):
+            if "Event" not in str(d.get("@type")) or re.search(r"Cancelled|Postponed", d.get("eventStatus", "")):
                 continue
-            acts = [p["name"] for p in d.get("performer") or [] if p.get("name")]
-            title = " + ".join(acts) or d["name"].split(" @ ")[0]
-            start = d["startDate"]
-            when = local(date.fromisoformat(start[:10]), time.fromisoformat(start[11:16]) if "T" in start else None)
-            ev = Ev(source, title, when, d.get("url", "").split("?")[0], location=location)
-            ev.image = d.get("image", "") if "default" not in d.get("image", "") else ""
-            ev.genres = genres_in(" ".join(g for p in d.get("performer") or [] for g in p.get("genre") or []))
-            out.append(ev)
+            ev = Ev(source, clean(d["name"]), iso(d["startDate"]), d.get("url", ""), location=location)
+            img = d.get("image")
+            ev.image = img[0] if isinstance(img, list) and img else img if isinstance(img, str) else ""
+            desc = clean(d.get("description", ""))
+            ev.desc = desc if says_more(desc, ev) else ""   # usually just "Islandman Wednesday, March 10…"
+            offers = d.get("offers") or []
+            prices = [float(o["price"]) for o in (offers if isinstance(offers, list) else [offers])
+                      if str(o.get("price", "")).replace(".", "", 1).isdigit()]
+            out.append(priced(ev, None, min(prices), max(prices)) if prices else ev)
     return out
 
 
@@ -976,7 +973,7 @@ def tidy_rooms(events: list[Ev]) -> None:
                                 clean(e.location))
 
 
-TWO_READERS = {"L'Escogriffe"}   # venues read from two places (Songkick + RA)
+TWO_READERS = {"L'Escogriffe"}   # venues read from two places (Live Nation + RA)
 
 
 def merge_repeats(events: list[Ev]) -> list[Ev]:
@@ -1630,9 +1627,10 @@ EVENT_SOURCES = {
                                                  "Bar Le Ritz PDB, 179 Rue Jean-Talon O"),
     "Théâtre Fairmount": lambda: squarespace_shows("https://www.theatrefairmount.com", "Théâtre Fairmount",
                                                    "Théâtre Fairmount, 5240 Av. du Parc"),
-    # L'Escogriffe's own site is a Facebook page. Its shows are on Songkick; RA gets the odd club night.
-    "L'Escogriffe": lambda: songkick_venue("79022-lescogriffe-bar-spectacle", "L'Escogriffe",
-                                           "L'Escogriffe, 4461 rue St-Denis"),
+    # L'Escogriffe's own site is a Facebook page. Live Nation lists the shows it sells there (Songkick has more but
+    # refuses GitHub's servers); RA gets the odd club night.
+    "L'Escogriffe": lambda: livenation_venue("KovZ917AIrp/l-escogriffe-bar-spectacle-events", "L'Escogriffe",
+                                             "L'Escogriffe, 4461 rue St-Denis"),
     "L'Escogriffe (RA)": lambda: ra_events("venue", "124247", "L'Escogriffe"),
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Quai des Brumes": quai_des_brumes,
@@ -2295,7 +2293,8 @@ QUIET_OK = {
     "McCord After Hours",        # page says "Stay tuned!" until the next date is set
     "Boiler Room",               # no Montreal show announced (last: March 2025)
     "Eastern Bloc",              # RA venue; last event May 2025, announces mostly on Instagram
-    "L'Escogriffe (RA)",         # club nights on RA only occasionally (last: Aug 2026); its shows come from Songkick
+    "L'Escogriffe",              # Live Nation lists only the shows it sells there (a few a season)
+    "L'Escogriffe (RA)",         # club nights on RA only occasionally (last: Aug 2026)
     "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
     "Espace Transmission",       # RA venue; last event July 2026
     "LATEX.",                    # a party every month or two; nothing listed between editions
