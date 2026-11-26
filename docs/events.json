@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T01:53-05:00",
+ "generated": "2026-11-26T01:55-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 351
+   "count": 352
   },
   "other": {
    "title": "Montreal Other Events",
@@ -89,12 +89,20 @@
    "zero_streak": 0,
    "zero_alerted": false
   },
+  "LATEX.": {
+   "ok": true,
+   "count": 1,
+   "tab": "music",
+   "last_count": 1,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
   "5 à Set": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 19,
+   "zero_streak": 20,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -102,7 +110,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Stereo": {
@@ -174,7 +182,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -198,7 +206,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -238,7 +246,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 36,
+   "zero_streak": 37,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -254,7 +262,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 31,
+   "zero_streak": 32,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -310,7 +318,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -398,7 +406,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 36,
+   "zero_streak": 37,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -1036,6 +1044,28 @@
    "tab": "music",
    "id": "bc707869bd17eb27ed15",
    "about": "Deep cuts and Club Bangers from 3 DJs from the Montreal Underground.\n\nSpecial Guest Venus in Foil (Toronto) is a veteran of the circuit with impeccable taste, and sets full of unexpected gems.\n\nExpect:\n\nBass,\n\nUK House and Techno,\n\nElectro,\n\nand maybe some Eddy Grant tracks\n\n:))))))))))))))))))))))))))))))))))))))))))))))))\n\nC U THERE!",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "LATEX.",
+   "title": "LATEX. // BLASPHEMY // MONTREAL",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://www.tickettailor.com/events/slataprod/2464085",
+   "end": "2026-11-28T06:00:00-05:00",
+   "location": "ESC, H2X 2T3",
+   "kind": "",
+   "free": false,
+   "price": "$31–48",
+   "price_lo": 31.0,
+   "genres": [
+    "Techno",
+    "Electronic"
+   ],
+   "image": "img/c14b9109e260301d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "47b03cd5c4eff3eb5f16",
+   "about": "So, for the last LATEX edition of 2026, we're holding mass for the unrepentant. Fallen angels, heretics, and anyone who's ever been told…",
    "added": "2026-11-26"
   },
   {

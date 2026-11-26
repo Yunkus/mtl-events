@@ -734,6 +734,42 @@ def badslava(path: str, source: str, default_type: str, weeks: int = 4) -> list[
     return out
 
 
+def tickettailor(org: str, source: str) -> list[Ev]:
+    """An organizer's Ticket Tailor box office (tickettailor.com/events/<org>): each listed event's page has a
+    schema.org Event with start/end, venue, every ticket price, flyer and the start of the description."""
+    box = f"https://www.tickettailor.com/events/{org}"
+    links = dict.fromkeys(urljoin_(box, a["href"]) for a in soup(box).find_all("a", href=re.compile(rf"/events/{org}/\d+")))
+    out = []
+    for url in links:
+        page = BeautifulSoup(get(url).content, "html.parser")
+        for sc in page.find_all("script", type="application/ld+json"):
+            try:
+                data = json.loads(sc.string or "")
+            except ValueError:
+                continue
+            for d in data.get("@graph", [data]) if isinstance(data, dict) else data:
+                if d.get("@type") != "Event" or "Cancelled" in d.get("eventStatus", ""):
+                    continue
+                place = d.get("location") or {}
+                addr = place.get("address") or {}
+                where = ", ".join(x for x in dict.fromkeys(
+                    [place.get("name", ""), addr.get("streetAddress", ""), addr.get("postalCode", "")]) if x)
+                ev = Ev(source, clean(d["name"]), iso(d["startDate"]), url,
+                        iso(d["endDate"]) if d.get("endDate") else None, where)
+                ev.image = (d.get("image") or [""])[0] if isinstance(d.get("image"), list) else d.get("image") or ""
+                ev.desc = clean(d.get("description", ""))
+                if len(ev.desc) >= 140 and not ev.desc.endswith((".", "!", "?")):   # Ticket Tailor cuts it short
+                    ev.desc = ev.desc.rsplit(" ", 1)[0] + "…"
+                prices = [float(o["price"]) for o in d.get("offers") or [] if o.get("price") is not None]
+                out.append(priced(ev, prices == [0], min(prices), max(prices)) if prices else ev)
+    return out
+
+
+def urljoin_(base: str, href: str) -> str:
+    from urllib.parse import urljoin
+    return urljoin(base, href)
+
+
 TNM_DAYS = {d: i for i, d in enumerate(["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"])}
 # short names for listings whose name is a whole sentence
 TNM_NAMES = {"le vieux/ the old dublin pub & resturant": "The Old Dublin Pub",
@@ -1366,6 +1402,8 @@ EVENT_SOURCES = {
     "Bar Datcha": lambda: ra_events("venue", "94451", "Bar Datcha"),
     # Barbossa (3956A St-Laurent): its own site is a Facebook page; its club nights go on RA venue 179148
     "Barbossa": lambda: ra_events("venue", "179148", "Barbossa"),
+    # LATEX. (latexrave.com): queer fetish rave, 20+; tickets on Ticket Tailor (organizer "slataprod")
+    "LATEX.": lambda: tickettailor("slataprod", "LATEX."),
     "5 à Set": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/5-a-set-120716281994", "5 à Set"),
     "Le Marché Vintage": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/le-marche-vintage-65263991233",
                                                       "Le Marché Vintage"),
@@ -1549,7 +1587,7 @@ _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
 ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
-    "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
+    "LATEX.": ["Electronic", "Techno"], "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
     "Blue Room": ["Electronic"], "Heures ouvrables": ["Dance", "Electronic"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
@@ -2039,6 +2077,7 @@ QUIET_OK = {
     "L'Escogriffe",              # posts on RA only occasionally (last: Aug 2026)
     "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
     "Espace Transmission",       # RA venue; last event July 2026
+    "LATEX.",                    # a party every month or two; nothing listed between editions
     "Barbossa",                  # RA venue; posts a night or two at a time, announces mostly on Facebook
     "Espace Transmission (site)",  # site is an archive (newest entry Nov 2024); the reader parses it fine
 }
