@@ -72,6 +72,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Eastern Bloc | Resident Advisor venue 147287 (parties, Sight+Sound). It mostly announces on Instagram, which can't be read automatically. |
 | L'Escogriffe | Resident Advisor venue 124247 (its own site is a Facebook page; lists shows on RA only occasionally) |
 | Ausgang Plaza | Resident Advisor venue 158331 |
+| Quai des Brumes | quaidesbrumes.ca/calendrier (Modern Events Calendar list; year from each entry's CSS class) |
 
 ### Museums tab (`docs/museums.ics`)
 

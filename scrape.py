@@ -479,6 +479,31 @@ def squarespace_shows(base: str, source: str, location: str) -> list[Ev]:
     return out
 
 
+def quai_des_brumes() -> list[Ev]:
+    """Quai des Brumes /calendrier (Modern Events Calendar list). Each entry shows '26 Nov' and '9:00 pm';
+    the year and month come from its CSS class (mec-toggle-YYYYMM-…). Its JSON-LD is malformed, so it's not used."""
+    s = soup("https://quaidesbrumes.ca/calendrier/")
+    out, seen = [], set()
+    for art in s.select("article.mec-event-article"):
+        ym = next((m for c in art.get("class", []) if (m := re.match(r"mec-toggle-(\d{4})(\d{2})-", c))), None)
+        a = art.select_one(".mec-event-title a[href]")
+        day = art.select_one(".mec-start-date-label")
+        if not (ym and a and day):
+            continue
+        d = re.search(r"\d{1,2}", day.get_text())
+        if not d:
+            continue
+        t_el = art.select_one(".mec-start-time")
+        when = local(date(int(ym.group(1)), int(ym.group(2)), int(d.group())), parse_time(t_el.get_text()) if t_el else None)
+        url = re.sub(r"[?&]fbclid=[^&]*", "", a["href"])
+        key = (clean(a.get_text()), str(when))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(Ev("Quai des Brumes", clean(a.get_text()), when, url, location="Quai des Brumes, 4481 Saint-Denis"))
+    return out
+
+
 def jsonld_event(url: str) -> dict | None:
     """The schema.org Event a page describes in its <script type="application/ld+json">, if any."""
     for sc in soup(url).find_all("script", type="application/ld+json"):
@@ -757,6 +782,7 @@ EVENT_SOURCES = {
                                                    "Théâtre Fairmount, 5240 Av. du Parc"),
     "L'Escogriffe": lambda: ra_events("venue", "124247", "L'Escogriffe"),   # its own site is a Facebook page
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
+    "Quai des Brumes": quai_des_brumes,
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
     "New City Gas": new_city_gas,
     # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
@@ -870,7 +896,7 @@ VENUE_GENRES = {
     "Turbo Haüs": ["Punk & Hardcore", "Rock & Indie"], "Le Belmont": ["Pop & Throwback", "Dance"],
     # live-band rooms that mostly book indie / alternative acts (titles are usually just band names)
     "Casa del Popolo": ["Rock & Indie"], "Théâtre Fairmount": ["Rock & Indie"], "Bar Le Ritz PDB": ["Rock & Indie"],
-    "Favourite Library": ["Rock & Indie"], "L'Escogriffe": ["Rock & Indie"],
+    "Favourite Library": ["Rock & Indie"], "L'Escogriffe": ["Rock & Indie"], "Quai des Brumes": ["Rock & Indie"],
     "Laugh It Off": ["Comedy"], "Comedy Open Mics": ["Comedy"],
     "Soft Studio Days": ["Art & Workshops"], "MTL Cookbook Club": ["Food & Drink"], "5 à Set": ["Listening Party"],
     "Le Marché Vintage": ["Art & Workshops"],

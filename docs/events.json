@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T18:48-05:00",
+ "generated": "2026-11-25T19:18-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 331
+   "count": 338
   },
   "other": {
    "title": "Montreal Other Events",
@@ -131,6 +131,11 @@
   "Ausgang Plaza": {
    "ok": true,
    "count": 6,
+   "tab": "music"
+  },
+  "Quai des Brumes": {
+   "ok": true,
+   "count": 7,
    "tab": "music"
   },
   "Système": {
@@ -338,6 +343,24 @@
    "id": "8b181626c3b178121f84"
   },
   {
+   "source": "Quai des Brumes",
+   "title": "5@7 Lancement – Khi de Mars « c’est peut-être un peu à cause de moi »",
+   "start": "2026-11-26T17:00:00-05:00",
+   "url": "https://quaidesbrumes.ca/evenements/57-lancement-khi-de-mars-cest-peut-etre-un-peu-a-cause-de-moi/",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "b776b3deef11e5fd4a9b"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Syngja Afterlife Album release show with Danny Pretzel and the Salt of the Earth and Moma",
    "start": "2026-11-26T20:00:00-05:00",
@@ -521,6 +544,24 @@
    "all_day": false,
    "tab": "music",
    "id": "da719b2c509e78765fcc"
+  },
+  {
+   "source": "Quai des Brumes",
+   "title": "Sunderloom + Hank’s Dream",
+   "start": "2026-11-26T21:00:00-05:00",
+   "url": "https://www.zeffy.com/en-CA/ticketing/sunderloom-x-hanks-dream",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "e3808dab4e0660b779bd"
   },
   {
    "source": "Bar Datcha",
@@ -1201,6 +1242,24 @@
    "id": "a88da78382c13e498ee8"
   },
   {
+   "source": "Quai des Brumes",
+   "title": "5@7 Myriam Gendron",
+   "start": "2026-11-29T17:00:00-05:00",
+   "url": "https://lepointdevente.com/billets/myriamtriste?lang=fr",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "ddac11c74df917bc557f"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Queer Afro-Latin Dance Social",
    "start": "2026-11-29T17:30:00-05:00",
@@ -1311,6 +1370,24 @@
    "all_day": false,
    "tab": "music",
    "id": "91edf73e685380ec23f1"
+  },
+  {
+   "source": "Quai des Brumes",
+   "title": "Tarikuna",
+   "start": "2026-11-29T21:00:00-05:00",
+   "url": "https://thepointofsale.com/tickets/bz4261129002",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "c05859d471a3d8a17c29"
   },
   {
    "source": "Turbo Haüs",
@@ -1916,6 +1993,24 @@
    "all_day": false,
    "tab": "music",
    "id": "5c17ccc08bccd0027325"
+  },
+  {
+   "source": "Quai des Brumes",
+   "title": "Thick Glasses + Caniche + Nüshu",
+   "start": "2026-12-04T21:00:00-05:00",
+   "url": "https://lepointdevente.com/tickets/thickglasses-caniche-nushu-quaidesbrumes",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "ef2a064e210639053086"
   },
   {
    "source": "SAT",
@@ -4450,6 +4545,24 @@
    "id": "15d7566aa682a05369d4"
   },
   {
+   "source": "Quai des Brumes",
+   "title": "Rachel Dara + Loche Nisse Monster + Niivi",
+   "start": "2027-01-09T21:00:00-05:00",
+   "url": "https://quaidesbrumes.ca/evenements/rachel-dara-loche-nisse-monster-niivi-2/",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Rock & Indie"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "b17b13d5123efb216d25"
+  },
+  {
    "source": "SAT",
    "title": "Dômesicle x Chez.Kito.Kat Records — Nene H • Safia Nihil • Vivian Li (live)",
    "start": "2027-01-09T22:00:00-05:00",
@@ -5011,6 +5124,24 @@
    "all_day": false,
    "tab": "music",
    "id": "2dc247f8b4acb2e2aa99"
+  },
+  {
+   "source": "Quai des Brumes",
+   "title": "ST-VALENTIN – Joe Evil Piano Show avec Vincent Peake + Steve & Ginie Jackson (Soirée Candle Punk)",
+   "start": "2027-02-14T21:00:00-05:00",
+   "url": "https://macadam-shop.com/pages/joe-evil-piano-show",
+   "end": null,
+   "location": "Quai des Brumes, 4481 Saint-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Punk & Hardcore"
+   ],
+   "all_day": false,
+   "tab": "music",
+   "id": "bd60fcdfada063c850e8"
   },
   {
    "source": "Newspeak",
