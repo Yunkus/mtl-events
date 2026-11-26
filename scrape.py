@@ -1060,6 +1060,15 @@ MTL_LIBRARY_SKIP = re.compile(
     r"conversation|cours d.anglais|club des petits|b[ée]n[ée]volat", re.I)
 
 
+# City Events tab, "Other city venues": not council meetings or committee sittings, not fitness classes,
+# conversation groups or tech help (the library kids/family filter above applies too)
+CITY_ADMIN = re.compile(r"s[ée]ance (?:ordinaire |extraordinaire )?du (?:conseil|comit[ée])|conseil d.arrondissement|"
+                        r"comit[ée] ex[ée]cutif|consultation|rencontre (?:du samedi )?avec (?:un |une )?[ée]lu", re.I)
+CITY_SKIP = re.compile(r"yoga|tai-?chi|cardio|zumba|pilates|step\b|mise en forme|activit[ée] libre|bien-[êe]tre|"
+                       r"aide technologique|cuisine z[ée]ro|recettes et conversation|scolaire|\[scolaire\]|ados?\b|"
+                       r"parents?-|m[èe]re-b[ée]b|activit[ée]s? sportives?|danse urbaine|club des", re.I)
+
+
 def montreal_ca(days: int = 14) -> list[Ev]:
     """montreal.ca/evenements (the City's listing, ~2000 entries). Kept: Maison de la culture events, and adult
     cultural events at the libraries (talks, author meetings, readings, concerts, screenings…; no storytime,
@@ -1087,16 +1096,29 @@ def montreal_ca(days: int = 14) -> list[Ev]:
         d = fr_date(txt)
         if not d or not (today <= d <= horizon):
             continue
-        is_mdc = "Maison de la culture" in txt
-        is_lib = "Bibliothèque" in txt
-        if not (is_mdc or (is_lib and MTL_LIBRARY_KEEP.search(title) and not MTL_LIBRARY_SKIP.search(title))):
-            continue
         tm = re.search(r"\bà\s+(\d{1,2})\s*h\s*(\d{2})?", txt)
         t = time(int(tm.group(1)), int(tm.group(2) or 0)) if tm else None
         place = clean(txt[tm.end():] if tm else txt.split(str(d.year))[-1])
         # the card link holds the whole card text: cut the title at the date ("… Mercredi 25 novembre 2026 à …")
         name = re.split(r"\s+(?:Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+\d", title or txt)[0].strip()
-        src = "Maisons de la culture" if is_mdc else "Bibliothèques de Montréal"
+        if re.search(r"\bReport[ée]\b", name):   # postponed: no new date yet
+            continue
+        sold_out = bool(re.search(r"\s+Complet$", name))
+        name = re.sub(r"\s+Complet$", "", name)
+        is_mdc = bool(re.search(r"maison de la culture", place, re.I))
+        is_lib = "Bibliothèque" in place or "MédiaLAB des bibliothèques" in place
+        if is_mdc:
+            src = "Maisons de la culture"
+        elif is_lib:
+            if not (MTL_LIBRARY_KEEP.search(name) and not MTL_LIBRARY_SKIP.search(name)):
+                continue
+            src = "Bibliothèques de Montréal"
+        else:   # other city venues: cultural centres, community centres, halls, parks
+            if CITY_ADMIN.search(name) or MTL_LIBRARY_SKIP.search(name) or CITY_SKIP.search(name) or place == "En ligne":
+                continue
+            src = "Other city venues"
+        if sold_out:
+            name += " (complet / sold out)"
         ev = Ev(src, name, local(d, t), base + href, location=place[:120])
         try:   # price and end time from the event page
             page = soup(base + href)
@@ -1430,15 +1452,18 @@ GENRES = [
     ("Experimental", r"experiment|\bnoise\b|drone|ambient|modular|improv|avant|electroacoust|[ée]lectroacoustique|"
                      r"snare drum|musique actuelle|free jazz|\bconcr[eè]te?\b|contemporary music|sound art"),
     ("Pop & Throwback", r"\bpop\b|\b(?:19)?[6-9]0'?s\b|\b2000s?\b|\b2010s\b|tribute|hommage|cover set|throwback|dance party"),
+    ("Live Music", r"\bconcerts?\b|chanson|chantons|\bchant\b|r[ée]cital|\blive music|musique live|balafon|guitare|\bband\b"),
     ("Electronic", r"electro|[ée]lectro|\bdj\b|dj set|\bb2b\b|\brave\b|all night long|club\b|\bbpm\b"),
     ("Dance", r"\bdance\b|\bdanse\b|ballroom|vogue|t-dance"),
     ("Comedy", r"comed|com[ée]die|stand-?up|humou?r|\broast\b"),
     ("Listening Party", r"listening party|s[ée]ance d'[ée]coute"),
+    ("Holiday Season", r"no[eë]l|christmas|xmas|temps des f[êe]tes|holiday|r[ée]veillon|nouvel an|new year"),
     ("Markets & Fairs", r"\bmarch[ée]\b|\bmarket\b|bazaa?r|\bfoire\b|\bfair\b|temps des f[êe]tes"),
+    ("Civic & Community", r"forum citoyen|rencontre citoyenne|consultation publique|caf[ée] r[ée]paration|repair caf|assembl[ée]e citoyenne|corvée|plantation"),
     ("Theatre & Shows", r"th[ée][âa]tre|\bproductions?\b|\bpi[èe]ce\b|cabaret|cirque|marionnette|\bconte\b|\bclown"),
     ("Film", r"\bfilms?\b|cin[ée]ma|documentaire|projection|court[- ]m[ée]trage|long[- ]m[ée]trage"),
     ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk|litt[ée]raire|auteur|autrice|causerie|cabaret scientifique|conf[ée]rence scientifique|vulgarisation|t[ée]moignage"),
-    ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot|vernissage|exposition|exhibition|visite guid"),
+    ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot|vernissage|exposition|exhibition|visite guid|peinture|dessin|cr[ée]ation|textile|broderie|couture|cricut|\b3d\b|fab(?:ric)?a(?:rt)?h[èe]que|sculpture|origami|cours de|bijou|poterie|gravure|photo"),
     ("Food & Drink", r"\bcookies?\b|\bcook|\bcuisine\b|\bfood\b|\bbouffe\b|\bwines?\b|\bvins?\b|\btasting\b|d[ée]gustation|potluck|\bbrunch\b"),
 ]
 _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
@@ -1500,7 +1525,7 @@ def tag_genres(e: Ev, tab: str) -> None:
         if rx.search(e.blurb) and not [g for g in tags if g not in ("Dance", "Electronic")]:
             tags += [g for g in gs if g not in tags]
     non_music = ("Comedy", "Dance", "Listening Party", "Talks & Quizzes", "Art & Workshops", "Food & Drink",
-                 "Markets & Fairs", "Theatre & Shows", "Film")
+                 "Markets & Fairs", "Theatre & Shows", "Film", "Civic & Community", "Holiday Season")
     music = [g for g in tags if g not in non_music]
     # venue defaults: music venues only in Music & Dance; other sources (comedy, workshops) everywhere,
     # and never on a night the title already marks as comedy / a talk / a quiz
@@ -1526,8 +1551,9 @@ def tag_genres(e: Ev, tab: str) -> None:
 # Whole sources that are never music:
 OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library",
                  "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours",
-                 "Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal",
                  "Marchés publics", "Holiday markets", "Ateliers & Saveurs"}
+# Run by the City of Montreal (montreal.ca): their own tab
+CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues"}
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
@@ -1538,12 +1564,16 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 
 
 def event_tab(e: Ev) -> str:
+    if e.source in CITY_SOURCES:
+        return "city"
     if e.source in BAR_SOURCES:
         return "bars"
     return "other" if e.source in OTHER_SOURCES or OTHER_TITLES.search(e.title) or is_comedy(e) else "music"
 
 
 def source_tab(name: str) -> str:
+    if name in CITY_SOURCES:
+        return "city"
     return "bars" if name in BAR_SOURCES else "other" if name in OTHER_SOURCES else "music"
 
 
@@ -1552,6 +1582,7 @@ TABS = {
     "music": ("Montreal Music & Dance", "music.ics"),
     "other": ("Montreal Other Events", "other.ics"),
     "bars": ("Montreal Bar Nights", "bars.ics"),
+    "city": ("Montreal City Events", "city.ics"),
     "museums": ("Montreal Museums & Galleries", "museums.ics"),
     "movies": ("Montreal Movies", "movies.ics"),
 }
