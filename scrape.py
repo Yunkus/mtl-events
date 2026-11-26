@@ -787,6 +787,7 @@ EVENT_SOURCES = {
     "L'Escogriffe": lambda: ra_events("venue", "124247", "L'Escogriffe"),   # its own site is a Facebook page
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Quai des Brumes": quai_des_brumes,
+    "Sans Soleil": lambda: ra_events("venue", "203475", "Sans Soleil"),   # basement bar; site is Instagram only
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -814,6 +815,8 @@ TRAILING_DATE = re.compile(rf"\s*(?:[-–—,|]|\bon\b|\ble\b)\s*{_DATE}\s*$", r
 # Several venues file every show under one place; drop "same time, same place" repeats for these
 # (Laugh It Off lists each night as a series AND as a dated show; SAT adds a generic "Dômesicle Winter" next to each night)
 SAME_SLOT_DUPES = {"Laugh It Off", "SAT"}
+# Sources whose titles the scraper builds itself (badslava bar nights, hand-added nights)
+BUILT_TITLES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights"}
 
 
 def _plain(s: str) -> str:
@@ -851,7 +854,8 @@ def clean_events(evs: list[Ev]) -> list[Ev]:
     for e in evs:
         if SKIP_TITLES.match(e.title) or PASS_TITLES.search(e.title):
             continue
-        e.title = tidy_title(e)
+        if e.source not in BUILT_TITLES:   # titles the scraper writes itself ("Trivia Night at Louks Pub") stay as they are
+            e.title = tidy_title(e)
         out.append(e)
     keep: dict[tuple, Ev] = {}
     for e in out:
@@ -863,7 +867,38 @@ def clean_events(evs: list[Ev]) -> list[Ev]:
         # prefer the one with price info, then the more specific (longer) title
         if best is None or (e.price_lo is not None, len(e.title)) > (best.price_lo is not None, len(best.title)):
             keep[k] = e
-    return list(keep.values())
+    return _same_lineup_dupes(list(keep.values()))
+
+
+def _lineup(title: str) -> frozenset:
+    """The names in a title, ignoring order, case, accents and joiners: 'SOMEBODY3LSE + SILKTITS' == 'Silktits & somebody3lse'."""
+    stop = {"and", "et", "with", "avec", "feat", "the", "les", "presents", "présente", "presente"}
+    return frozenset(w for w in re.findall(r"[a-z0-9]+", _plain(title)) if len(w) > 2 and w not in stop)
+
+
+def _same_lineup_dupes(evs: list[Ev]) -> list[Ev]:
+    """A venue listing the same lineup twice on one day (e.g. one copy at 8:00 AM, an AM/PM slip): keep the copy
+    with a price, else the one starting at a normal show time (not 5–11 AM)."""
+    def day(e):
+        return e.start if not isinstance(e.start, datetime) else e.start.date()
+
+    def score(e):
+        odd_hour = isinstance(e.start, datetime) and 5 <= e.start.hour < 12
+        return (e.price_lo is not None, not odd_hour, len(e.title))
+    best: dict[tuple, Ev] = {}
+    out = []
+    for e in evs:
+        names = _lineup(e.title)
+        if e.kind == "exhibition" or len(names) < 2:
+            out.append(e)
+            continue
+        k = (e.source, day(e), names)
+        if k in best and clean(best[k].title).lower() == clean(e.title).lower():
+            out.append(e)   # identical title at another time = a separate showing (films, early/late shows)
+            continue
+        if k not in best or score(e) > score(best[k]):
+            best[k] = e
+    return out + list(best.values())
 
 
 # ---------------------------------------------------------------- genre tags
@@ -896,7 +931,8 @@ _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
 ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
-    "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"],"New City Gas": ["Electronic"], "Système": ["Electronic"],
+    "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
+    "New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],

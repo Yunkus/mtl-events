@@ -25,6 +25,9 @@ Every source goes through a cleanup step (`clean_events` in `scrape.py`):
 - festival passes / ticket bundles ("Pass du Festival", "Forfait billet") are dropped
 - titles lose a trailing date ("… - December 2", "… on November 30") and a trailing "@ venue" when it names the venue
 - Laugh It Off and SAT list some nights twice at the same time and place (a series entry plus the dated show); only one is kept
+- a venue listing the same lineup twice on one day under different wording (e.g. one copy at 8:00 AM) keeps one:
+  the copy with a price, else the one at a normal show time. Identical titles at different times are kept
+  (separate showings).
 - dates that can't be right are dropped (a show more than 18 months out, or ending before it starts).
   Long-running exhibitions keep their real opening date (the Planétarium's *Aurorae* has run since 2015).
 
@@ -88,6 +91,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Ausgang Plaza | Resident Advisor venue 158331 |
 | Quai des Brumes | quaidesbrumes.ca/calendrier (Modern Events Calendar list; year from each entry's CSS class) |
 | StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
+| Sans Soleil | Resident Advisor venue 203475 (its own site is an Instagram page) |
 
 ### Museums tab (`docs/museums.ics`)
 
