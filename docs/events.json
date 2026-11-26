@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T02:14-05:00",
+ "generated": "2026-11-26T02:17-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 430
+   "count": 425
   },
   "other": {
    "title": "Montreal Other Events",
@@ -118,7 +118,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 22,
+   "zero_streak": 23,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -126,7 +126,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 49,
+   "zero_streak": 50,
    "zero_alerted": true
   },
   "Stereo": {
@@ -198,7 +198,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 49,
+   "zero_streak": 50,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -218,19 +218,18 @@
    "zero_alerted": false
   },
   "L'Escogriffe": {
-   "ok": true,
-   "count": 5,
+   "ok": false,
+   "error": "HTTPError: 406 Client Error: Not Acceptable for url: https://www.songkick.com/venues/79022-lescogriffe-bar-spectacle",
    "tab": "music",
    "last_count": 5,
-   "zero_streak": 0,
-   "zero_alerted": false
+   "fail_streak": 1
   },
   "L'Escogriffe (RA)": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 2,
+   "zero_streak": 3,
    "zero_alerted": false
   },
   "Ausgang Plaza": {
@@ -270,7 +269,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 39,
+   "zero_streak": 40,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -278,14 +277,14 @@
    "error": "ReadTimeout: HTTPSConnectionPool(host='www.mbam.qc.ca', port=443): Read timed out. (read timeout=30)",
    "tab": "other",
    "last_count": 1,
-   "fail_streak": 2
+   "fail_streak": 3
   },
   "McCord After Hours": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 34,
+   "zero_streak": 35,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -341,7 +340,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 49,
+   "zero_streak": 50,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -429,7 +428,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 39,
+   "zero_streak": 40,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -3321,24 +3320,6 @@
    "added": ""
   },
   {
-   "source": "L'Escogriffe",
-   "title": "Taylor Mccluskey + Starting From Zero",
-   "start": "2026-12-05T20:00:00-05:00",
-   "url": "https://www.songkick.com/concerts/43481908-taylor-mccluskey-at-lescogriffe-bar-spectacle",
-   "end": null,
-   "location": "L'Escogriffe, 4461 rue St-Denis",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/200294140f776bdc.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "2a8a10dcf9b89f25f541",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bar Le Ritz PDB",
    "title": "WEEKENDS NEVER ENDED",
    "start": "2026-12-05T20:00:00.179000-05:00",
@@ -3686,24 +3667,6 @@
    "tab": "music",
    "id": "abd53bf3c563dfee9603",
    "added": ""
-  },
-  {
-   "source": "L'Escogriffe",
-   "title": "ILUKA",
-   "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://www.songkick.com/concerts/43430349-iluka-at-lescogriffe-bar-spectacle",
-   "end": null,
-   "location": "L'Escogriffe, 4461 rue St-Denis",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/7363039d341a60a0.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "6ddb55802817e4562be3",
-   "added": "2026-11-26"
   },
   {
    "source": "Bistro à Jojo",
@@ -6069,24 +6032,6 @@
    "added": ""
   },
   {
-   "source": "L'Escogriffe",
-   "title": "Paradise + z-cocoon",
-   "start": "2026-12-19T20:00:00-05:00",
-   "url": "https://www.songkick.com/concerts/43498843-paradise-at-lescogriffe-bar-spectacle",
-   "end": null,
-   "location": "L'Escogriffe, 4461 rue St-Denis",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/0d9abe9d9c04c178.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "af377c1cc44d6dc5f332",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Casa del Popolo",
    "title": "SEAVER + SHE CAME TO QUIT + MORT D'HOMME",
    "start": "2026-12-19T20:30:00-05:00",
@@ -6331,24 +6276,6 @@
    "tab": "music",
    "id": "86ad7df67dbed4e810c4",
    "added": ""
-  },
-  {
-   "source": "L'Escogriffe",
-   "title": "Boogat + Sonido Pesao",
-   "start": "2026-12-22T20:00:00-05:00",
-   "url": "https://www.songkick.com/concerts/43533400-boogat-at-lescogriffe-bar-spectacle",
-   "end": null,
-   "location": "L'Escogriffe, 4461 rue St-Denis",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/efcf2ad7c0c26949.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "83f554cd5ce1673079b5",
-   "added": "2026-11-26"
   },
   {
    "source": "Dièse Onze",
@@ -8071,24 +7998,6 @@
    "tab": "music",
    "id": "482e743ab27f4f2addd3",
    "added": ""
-  },
-  {
-   "source": "L'Escogriffe",
-   "title": "BESS ATWELL",
-   "start": "2027-03-02T20:30:00-05:00",
-   "url": "https://www.songkick.com/concerts/43465671-bess-atwell-at-lescogriffe-bar-spectacle",
-   "end": null,
-   "location": "L'Escogriffe, 4461 rue St-Denis",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/9608bb1829b9415a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "d2d32c330de2cc11cb05",
-   "added": "2026-11-26"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -16889,6 +16798,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Atelier création de nid",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/9c01230ab86d83eb.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -16912,23 +16842,25 @@
   },
   {
    "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/9c01230ab86d83eb.webp",
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
    "added": "2026-11-26"
   },
   {
@@ -16976,27 +16908,23 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Art & Workshops"
-   ],
-   "image": "img/c077796121e86375.webp",
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
-   "added": "2026-11-26"
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -17017,25 +16945,6 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -17207,6 +17116,27 @@
   },
   {
    "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -17226,27 +17156,6 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -17590,27 +17499,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -17631,23 +17519,25 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Introduction à la machine à coudre",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
-   "end": null,
-   "location": "Fabricathèque du Sud-Ouest",
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/5147650d3c801653.webp",
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
    "all_day": false,
    "tab": "city",
-   "id": "25fc5f1a4831f6d1cd8b",
-   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
-   "added": "2026-11-26"
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -17672,6 +17562,25 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Introduction à la machine à coudre",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
+   "end": null,
+   "location": "Fabricathèque du Sud-Ouest",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/5147650d3c801653.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25fc5f1a4831f6d1cd8b",
+   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Musique avec toi",
    "start": "2026-12-05T10:30:00-05:00",
@@ -17689,6 +17598,27 @@
    "id": "7ca6a1a836c9b6d159f9",
    "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Activité de cuisine",
+   "start": "2026-12-05T11:00:00-05:00",
+   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
+   "end": null,
+   "location": "Mini-bibliothèque de Chameran",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Food & Drink"
+   ],
+   "image": "img/0cc635d9e9dd2324.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "333639c0958f35fd4d94",
+   "about": "Avec C'est moi le chef!",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -17714,27 +17644,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Activité de cuisine",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
-   "end": null,
-   "location": "Mini-bibliothèque de Chameran",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Food & Drink"
-   ],
-   "image": "img/0cc635d9e9dd2324.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "333639c0958f35fd4d94",
-   "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Callisthénie (complet / sold out)",
    "start": "2026-12-05T11:45:00-05:00",
    "url": "https://montreal.ca/evenements/callisthenie-118745",
@@ -17750,28 +17659,6 @@
    "tab": "city",
    "id": "d4a9f9b5623a24229fc2",
    "about": "Venez découvrir une mise forme sans équipement avec la callisthénie.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atelier de confection de couronne de Noël",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
-   "end": "2026-12-05T15:30:00-05:00",
-   "location": "Maison Robert-Bélanger",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Art & Workshops"
-   ],
-   "image": "img/24b6dcd0ea23b581.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "b6724db457192ee6518d",
-   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
    "added": "2026-11-26"
   },
   {
@@ -17796,6 +17683,28 @@
    "id": "3b46f9b3c244e8b0b516",
    "about": "Quelques jours avant Noël, un mononcle hirsute et malcommode voit sa chère quiétude troublée par l’arrivée des petits cousins, créatures sans foi ni loi dont l’enthousiasme débordant emporte tout sur son passage.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Atelier de confection de couronne de Noël",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Maison Robert-Bélanger",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Art & Workshops"
+   ],
+   "image": "img/24b6dcd0ea23b581.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "b6724db457192ee6518d",
+   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
