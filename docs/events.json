@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:49-05:00",
+ "generated": "2026-11-25T20:52-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -82,7 +82,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 10
+   "zero_streak": 11
   },
   "Stereo": {
    "ok": true,
@@ -145,7 +145,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 10
+   "zero_streak": 11
   },
   "Bar Le Ritz PDB": {
    "ok": true,
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 10
+   "zero_streak": 11
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -201,7 +201,14 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 5
+  },
+  "Espace Transmission": {
+   "ok": true,
+   "count": 0,
+   "tab": "music",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "StereoBar": {
    "ok": true,
@@ -229,7 +236,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 10
+   "zero_streak": 11
   },
   "Trivia Nights": {
    "ok": true,
@@ -293,6 +300,13 @@
    "tab": "museums",
    "last_count": 3,
    "zero_streak": 0
+  },
+  "Espace Transmission (site)": {
+   "ok": true,
+   "count": 0,
+   "tab": "museums",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "Cinéma Cinéma": {
    "ok": true,

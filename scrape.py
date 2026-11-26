@@ -852,6 +852,34 @@ def foil() -> list[Ev]:
     return out
 
 
+def espace_transmission_site() -> list[Ev]:
+    """espacetransmission.ca/événements (Cargo site): entries like '14.11.24. Performance multimedia …' or
+    '27-01.10.24 POP MONTREAL Exposition …' (Sept 27 – Oct 1). Mostly an archive; only future dates survive."""
+    url = "https://espacetransmission.ca/%C3%A9v%C3%A9nements"
+    text = clean(soup(url).get_text(" "))
+    out = []
+    rx = re.compile(r"(\d{1,2})(?:-(\d{1,2}))?\.(\d{1,2})\.(\d{2})\.?\s+(.+?)(?=\s+Cr[ée]dits?\s+photos?|\s+\d{1,2}(?:-\d{1,2})?\.\d{1,2}\.\d{2}|$)")
+    for m in rx.finditer(text):
+        d1, d2, mo, yy, title = m.groups()
+        y = 2000 + int(yy)
+        try:
+            if d2:   # a range ending on d2.mo; '27-01.10' starts in the previous month
+                end = date(y, int(mo), int(d2))
+                smo = int(mo) if int(d1) <= int(d2) else int(mo) - 1
+                start = date(y if smo >= 1 else y - 1, smo if smo >= 1 else 12, int(d1))
+            else:
+                start, end = date(y, int(mo), int(d1)), None
+        except ValueError:
+            continue
+        title = clean(re.sub(r"[\s,]*@[\w.]+", "", title)).strip(" ,") [:140]   # drop the Instagram handles
+        if end and end > start:
+            out.append(Ev("Espace Transmission", title, start, url, end, "Espace Transmission, 5435 av. des Érables", "exhibition"))
+        else:
+            out.append(Ev("Espace Transmission", title, start, url, location="Espace Transmission, 5435 av. des Érables",
+                          kind="Event"))
+    return out
+
+
 def linktree_dated(url: str, source: str, location: str = "") -> list[Ev]:
     """A Linktree page whose ticket links carry a date in their name, e.g. 'BILLETS | Heures ouvrables 007 (6 mars 2026)'."""
     nd = json.loads(soup(url).find("script", id="__NEXT_DATA__").string)
@@ -962,6 +990,8 @@ EVENT_SOURCES = {
     "Blue Room": lambda: ra_events("venue", "290582", "Blue Room"),       # 3956 Saint-Laurent, 3rd floor; Instagram only
     # party collective: its Linktree ticket links carry the date ("Heures ouvrables 007 (6 mars 2026)")
     "Heures ouvrables": lambda: linktree_dated("https://linktr.ee/heuresouvrables", "Heures ouvrables"),
+    # multi-use space (5435 av. des Érables); raves and parties go on RA venue 235410
+    "Espace Transmission": lambda: ra_events("venue", "235410", "Espace Transmission"),
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -1202,7 +1232,8 @@ TABS = {
 SOURCE_GROUPS = [
     (EVENT_SOURCES, event_tab, source_tab),
     ({"Musées Montréal": musees_montreal, "DARE-DARE": dare_dare, "Occurrence": occurrence,
-      "Fais-moi l'art": fais_moi_lart, "FOIL": foil}, lambda e: "museums", lambda name: "museums"),
+      "Fais-moi l'art": fais_moi_lart, "FOIL": foil,
+      "Espace Transmission (site)": espace_transmission_site}, lambda e: "museums", lambda name: "museums"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]
 # calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change

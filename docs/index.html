@@ -192,7 +192,11 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
 };
 let hidden = new Set(store.get("hiddenSources", []));
-let museumView = store.get("museumView", "events");
+// Museums & Galleries: which shows ("now" | "soon" | "events") and which kinds of place (museum / gallery)
+let museumView = { events: "events", exhibitions: "now" }[store.get("museumView", "now")] || store.get("museumView", "now");
+let placeKinds = new Set(store.get("placeKinds", ["museum", "gallery"]));
+const MUSEUM_SOURCES = new Set(["Musées Montréal"]);   // everything else in that tab is a gallery / art centre
+const placeKind = e => (MUSEUM_SOURCES.has(e.source) ? "museum" : "gallery");
 // quick filters: price ("any" | "free" | "under20"), when ("any" | "tonight" | "weekend"),
 // start time ("any" | "early" | "late"), genres (any of the ticked ones)
 let price = store.get("priceFilter", store.get("freeOnly", false) ? "free" : "any");
@@ -415,20 +419,24 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const term = $("q").value.trim().toLowerCase();
     const venueOn = e => tab === "date" || tab === "museums" || picksOnly || !hidden.has(e.source);
     const base = inTab.filter(e => matches(e, term) && (!picksOnly || picked.has(e.id)));
-    const pool = base.filter(venueOn);
+    let pool = base.filter(venueOn);
+    if (tab === "museums")   // the quick-filter counts follow the current view and the Museums / Galleries toggles
+      pool = pool.filter(e => placeKinds.has(placeKind(e)) && (museumView === "events") === (e.kind !== "exhibition")
+                              && (museumView !== "now" || e.start <= today) && (museumView !== "soon" || e.start > today));
     const cnt = (over, extra = () => true) => pool.filter(e => passes(e, inTab, { ...cur(), ...over }) && extra(e)).length;
     const row1 = chipRow(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; redo(); }));
-    if (tab !== "date" && !(tab === "museums" && museumView === "exhibitions")) {
+    if (tab !== "date" && !(tab === "museums" && museumView !== "events")) {
       row1.append(el("span", "sep"),
         opt("Tonight", when === "tonight", cnt({ when: "tonight" }), () => { when = when === "tonight" ? "any" : "tonight"; redo(); }),
         opt("This weekend", when === "weekend", cnt({ when: "weekend" }), () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
     }
-    if (inTab.some(e => !e.all_day)) {
+    const exhibitionView = tab === "museums" && museumView !== "events";   // shows have no start time or price
+    if (!exhibitionView && inTab.some(e => !e.all_day)) {
       row1.append(el("span", "sep"),
         opt("Early shows", slot === "early", cnt({ slot: "early" }), () => { slot = slot === "early" ? "any" : "early"; redo(); }),
         opt("Late night 10 pm+", slot === "late", cnt({ slot: "late" }), () => { slot = slot === "late" ? "any" : "late"; redo(); }));
     }
-    if (hasPrices(inTab)) {
+    if (!exhibitionView && hasPrices(inTab)) {
       const setPrice = v => () => { price = price === v ? "any" : v; store.set("priceFilter", price); redo(); };
       // price counts are the events known to match (unknown prices stay listed but aren't counted)
       row1.append(el("span", "sep"),
@@ -454,12 +462,25 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const venues = chipRow();
     chips.appendChild(venues);
     const add = b => venues.appendChild(b);
-    if (tab === "museums") {   // two views instead of source filters
-      for (const [v, label] of [["events", "Events"], ["exhibitions", "Exhibitions"]]) {
-        const n = inTab.filter(e => (e.kind === "exhibition") === (v === "exhibitions")).length;
-        const b = el("button", "chip"); b.append(label, el("span", "n", n));
+    if (tab === "museums") {   // Museums / Galleries toggles, then On now / Coming up / Events
+      const kindsOn = e => placeKinds.has(placeKind(e));
+      for (const [k, label] of [["museum", "Museums"], ["gallery", "Galleries"]]) {
+        const n = base.filter(e => placeKind(e) === k && passes(e, inTab)).length;
+        const b = el("button", "chip" + (n === 0 ? " zero" : "")); b.append(label, el("span", "n", n));
+        b.title = "Show/hide " + label.toLowerCase();
+        b.setAttribute("aria-pressed", String(placeKinds.has(k)));
+        b.onclick = () => { placeKinds.has(k) ? placeKinds.delete(k) : placeKinds.add(k); store.set("placeKinds", [...placeKinds]); redo(); };
+        add(b);
+      }
+      add(el("span", "sep"));
+      const inView = { now: e => e.kind === "exhibition" && e.start <= today,
+                       soon: e => e.kind === "exhibition" && e.start > today,
+                       events: e => e.kind !== "exhibition" };
+      for (const [v, label] of [["now", "On now"], ["soon", "Coming up"], ["events", "Events"]]) {
+        const n = base.filter(e => kindsOn(e) && inView[v](e) && passes(e, inTab)).length;
+        const b = el("button", "chip special view"); b.append(label, el("span", "n", n));
         b.setAttribute("aria-pressed", String(museumView === v));
-        b.onclick = () => { museumView = v; store.set("museumView", v); buildChips(); render(); };
+        b.onclick = () => { museumView = v; store.set("museumView", v); redo(); };
         add(b);
       }
       return;
@@ -548,8 +569,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     const inTab = events.filter(e => e.tab === tab);
     let shown = inTab.filter(e => matches(e, term) && passes(e, inTab) && (!picksOnly || picked.has(e.id)));
     if (tab === "museums") {
-      shown = shown.filter(e => (e.kind === "exhibition") === (museumView === "exhibitions"));
-      if (museumView === "exhibitions") return renderExhibitions(list, shown);
+      shown = shown.filter(e => placeKinds.has(placeKind(e)));
+      if (museumView !== "events") return renderExhibitions(list, shown.filter(e => e.kind === "exhibition"), museumView);
+      shown = shown.filter(e => e.kind !== "exhibition");
     } else if (!picksOnly) {
       shown = shown.filter(e => !hidden.has(e.source));
     }
@@ -591,17 +613,22 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     body.appendChild(w); row.appendChild(body); sec.appendChild(row);
   }
 
-  function renderExhibitions(list, shown) {
-    if (!shown.length) { list.innerHTML = '<p class="empty">Nothing matches.</p>'; return; }
-    const now = shown.filter(e => e.start <= today).sort((a, b) => a.end.localeCompare(b.end));
-    const soon = shown.filter(e => e.start > today).sort((a, b) => a.start.localeCompare(b.start));
-    for (const [label, items, when] of [
-      ["On now · closing soonest first", now, e => "until " + fmtShort(e.end)],
-      ["Opening soon", soon, e => fmtShort(e.start) + " – " + fmtShort(e.end)],
-    ]) {
-      if (!items.length) continue;
-      const sec = el("section", "day"); sec.appendChild(el("h2", null, label));
-      for (const e of items) exhibitionRow(e, sec, when(e));
+  // "now": open today, closing soonest first · "soon": opening later, soonest first.
+  // Each list is split into museums and galleries when both are shown.
+  function renderExhibitions(list, shown, view) {
+    const items = view === "now"
+      ? shown.filter(e => e.start <= today).sort((a, b) => a.end.localeCompare(b.end))
+      : shown.filter(e => e.start > today).sort((a, b) => a.start.localeCompare(b.start));
+    if (!items.length) {
+      list.innerHTML = `<p class="empty">${view === "now" ? "Nothing on view matches." : "Nothing coming up matches."}</p>`; return;
+    }
+    const when = view === "now" ? (e => "until " + fmtShort(e.end)) : (e => fmtShort(e.start) + " – " + fmtShort(e.end));
+    const head = view === "now" ? "On now · closing soonest first" : "Coming up · opening soonest first";
+    for (const [k, label] of [["museum", "Museums"], ["gallery", "Galleries"]]) {
+      const part = items.filter(e => placeKind(e) === k);
+      if (!part.length) continue;
+      const sec = el("section", "day"); sec.appendChild(el("h2", null, `${label} · ${head}`));
+      for (const e of part) exhibitionRow(e, sec, when(e));
       list.appendChild(sec);
     }
   }

@@ -41,6 +41,9 @@ than guessed.
 Stand-up shows billed under a name only are caught by the presenter (Outback, Juste pour rire…), comedy words in
 the description, or `COMEDIANS` in `scrape.py` (add a name there if one lands in Music & Dance).
 
+In Museums & Galleries, the views are On now / Coming up / Events, and Museums vs Galleries can be
+switched separately (Musées Montréal counts as museums; the rest are galleries and art centres).
+
 On the page: Tonight, This weekend, Early shows / Late night (10 pm+), Free / Under $20 (events with no
 known price stay listed, marked "price unknown"), and a Genre row on Music & Dance, Other Events and By Date. Every count follows the other active filters
 and the search box, so a combination with no results shows 0 before you tap it. Venues with nothing upcoming
@@ -104,6 +107,7 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Occurrence | occurrence.ca: exhibition dates from their titles ('06.11.-12.12.2026'); events from the date in their text |
 | Fais-moi l'art | faismoilart.org/en-cours: 'Du 4 au 19 décembre 2026' blocks → exhibitions, 'Vernissage le …' → events |
 | FOIL (Finer Objects in Life) | homepage events list (date + title per row, time from each row's detail panel) |
+| Espace Transmission | espacetransmission.ca/événements ('14.11.24. …' entries; currently only past ones) and, for its parties, Resident Advisor venue 235410 (Music & Dance) |
 
 ### Movies tab (`docs/movies.ics`)
 
