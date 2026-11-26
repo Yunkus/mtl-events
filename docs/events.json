@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-26T02:29-05:00",
+ "generated": "2026-11-26T02:33-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 426
+   "count": 443
   },
   "other": {
    "title": "Montreal Other Events",
@@ -102,6 +102,14 @@
    "count": 36,
    "tab": "music",
    "last_count": 36,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "Bootlegger": {
+   "ok": true,
+   "count": 17,
+   "tab": "music",
+   "last_count": 17,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -593,24 +601,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Syngja Afterlife Album release show with Danny Pretzel and the Salt of the Earth and Moma",
-   "start": "2026-11-26T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-27-syngja-afterlife-album-release-show-with-danny-pretzel-and-the-salt-of-the-earth-and-moma",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 15.0,
-   "genres": [],
-   "image": "img/de5073f91275d843.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3652980cce5427fa874f",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Noche de Flamenco",
    "start": "2026-11-26T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-27-noche-de-flamenco",
@@ -627,6 +617,24 @@
    "all_day": false,
    "tab": "music",
    "id": "2d14a8014a2ed80bf2b9",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Syngja Afterlife Album release show with Danny Pretzel and the Salt of the Earth and Moma",
+   "start": "2026-11-26T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-27-syngja-afterlife-album-release-show-with-danny-pretzel-and-the-salt-of-the-earth-and-moma",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/de5073f91275d843.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3652980cce5427fa874f",
    "added": ""
   },
   {
@@ -939,24 +947,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Mistaken For Wayne \"Whitefish Album Tour\"",
-   "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/7f8c24042ca64b28.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "ccfa68d19cd9f1816d08",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Café Concret edition #55",
    "start": "2026-11-27T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55",
@@ -991,6 +981,24 @@
    "all_day": false,
    "tab": "music",
    "id": "7dcb8276299ce94b31e9",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Mistaken For Wayne \"Whitefish Album Tour\"",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/7f8c24042ca64b28.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "ccfa68d19cd9f1816d08",
    "added": ""
   },
   {
@@ -1049,6 +1057,27 @@
    "tab": "music",
    "id": "371049dbd4ae071e21f6",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-11-27T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-11-28T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "4273e6e1a7962d052baa",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Le Belmont",
@@ -1467,6 +1496,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
+   "start": "2026-11-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$23",
+   "price_lo": 23.33,
+   "genres": [],
+   "image": "img/af5eccc25a9eb35b.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "7ac4150ea049cff2736e",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Gabriel Béland en spectacles",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
@@ -1499,24 +1546,6 @@
    "all_day": false,
    "tab": "music",
    "id": "6dfd803c32f922e65e01",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
-   "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$23",
-   "price_lo": 23.33,
-   "genres": [],
-   "image": "img/af5eccc25a9eb35b.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "7ac4150ea049cff2736e",
    "added": ""
   },
   {
@@ -1559,6 +1588,27 @@
    "tab": "music",
    "id": "744a0084d3667da04cd9",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-11-28T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-11-29T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "5f2ff137ea3e73586a02",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -2008,6 +2058,28 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Sunday Live Jazz Band",
+   "start": "2026-11-29T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
+   "end": "2026-11-29T23:59:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "img/aa1402f5b5df39f1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d3426582c54b375cc812",
+   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Quai des Brumes",
    "title": "Tarikuna",
    "start": "2026-11-29T21:00:00-05:00",
@@ -2329,24 +2401,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Rachella Wred, Couvo & Kerri",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$10",
-   "price_lo": 10.0,
-   "genres": [],
-   "image": "img/2929944046936883.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "adb35a995e3a8f44ff5c",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Anthony Prégent",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
@@ -2361,6 +2415,24 @@
    "all_day": false,
    "tab": "music",
    "id": "3ef1e8e7403420022ccc",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Rachella Wred, Couvo & Kerri",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [],
+   "image": "img/2929944046936883.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "adb35a995e3a8f44ff5c",
    "added": ""
   },
   {
@@ -2380,6 +2452,27 @@
    "tab": "music",
    "id": "8b1aff743f6ad8d03cfc",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Groovy Jazz Wednesday",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
+   "end": "2026-12-02T23:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "img/3b75cde8f5fea653.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "8b848ce85c5e47870b71",
+   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -2771,24 +2864,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "I’ll Be Your Mirror",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
-   "end": null,
-   "location": "La Toscadura",
-   "kind": "",
-   "free": false,
-   "price": "$19",
-   "price_lo": 19.1,
-   "genres": [],
-   "image": "img/5462c77d58bc2758.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "cac0b2608259ca6f85d4",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
    "start": "2026-12-04T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
@@ -2803,6 +2878,24 @@
    "all_day": false,
    "tab": "music",
    "id": "51af3df0f8f51d9464f0",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "I’ll Be Your Mirror",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": false,
+   "price": "$19",
+   "price_lo": 19.1,
+   "genres": [],
+   "image": "img/5462c77d58bc2758.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "cac0b2608259ca6f85d4",
    "added": ""
   },
   {
@@ -2905,6 +2998,27 @@
    "tab": "music",
    "id": "38c3214c67f1daae9a26",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-04T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-05T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "91964c792088383393d5",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Le Belmont",
@@ -3366,6 +3480,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-05T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-06T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "88376ecc7cff753f3252",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Ausgang Plaza",
    "title": "DE LA HOUSE & BALLROOM4COMMUNITY présentent Amarji King, MOON, Ekitwanda & G MAKO",
    "start": "2026-12-05T21:00:00-05:00",
@@ -3671,6 +3806,28 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Sunday Live Jazz Band",
+   "start": "2026-12-06T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
+   "end": "2026-12-06T23:59:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "img/aa1402f5b5df39f1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "f807c5bf5121c11e7b87",
+   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bistro à Jojo",
    "title": "Fredy Freedom Band",
    "start": "2026-12-06T22:00:00-05:00",
@@ -3735,24 +3892,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "The Blogs + Bradford Barker + The Vauxhalls",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/f5247ab0956c06d1.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "49c6ab53cd1bff1660aa",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
    "start": "2026-12-07T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
@@ -3767,6 +3906,24 @@
    "all_day": false,
    "tab": "music",
    "id": "2b5dc1fbae153539f2ef",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "girl with dream, a.d. walsh , mikee",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [],
+   "image": "img/f13017539c043917.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "92e1cbdcd446974b8a19",
    "added": ""
   },
   {
@@ -3789,20 +3946,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "girl with dream, a.d. walsh , mikee",
+   "title": "The Blogs + Bradford Barker + The Vauxhalls",
    "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
    "end": null,
-   "location": "P'tit Ours",
+   "location": "La Sotterenea",
    "kind": "",
-   "free": false,
-   "price": "$10",
-   "price_lo": 10.0,
+   "free": null,
+   "price": "",
+   "price_lo": null,
    "genres": [],
-   "image": "img/f13017539c043917.webp",
+   "image": "img/f5247ab0956c06d1.webp",
    "all_day": false,
    "tab": "music",
-   "id": "92e1cbdcd446974b8a19",
+   "id": "49c6ab53cd1bff1660aa",
    "added": ""
   },
   {
@@ -3987,6 +4144,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Groovy Jazz Wednesday",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
+   "end": "2026-12-09T23:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "img/3b75cde8f5fea653.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "17d595a736142b780268",
+   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Jam avec Growve\"",
    "start": "2026-12-09T20:00:00-05:00",
@@ -4135,6 +4313,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "i cant keep up i wont",
+   "start": "2026-12-10T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/e1e2524c94a096b7.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "683630bb93cfe5b3a2d0",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "6flamencos / Entre mis manos",
    "start": "2026-12-10T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos",
@@ -4151,24 +4347,6 @@
    "all_day": false,
    "tab": "music",
    "id": "56f7aa0cde022bcb9f77",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "i cant keep up i wont",
-   "start": "2026-12-10T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/e1e2524c94a096b7.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "683630bb93cfe5b3a2d0",
    "added": ""
   },
   {
@@ -4439,24 +4617,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
-   "start": "2026-12-11T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$22",
-   "price_lo": 21.74,
-   "genres": [],
-   "image": "img/a4b344461511e134.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "c92565bfa82134693121",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Sauf les drones @ ce qui nous traverse",
    "start": "2026-12-11T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-12-sauf-les-drones-ce-qui-nous-traverse",
@@ -4474,6 +4634,45 @@
    "tab": "music",
    "id": "f51da97f066e4bd8b794",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
+   "start": "2026-12-11T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$22",
+   "price_lo": 21.74,
+   "genres": [],
+   "image": "img/a4b344461511e134.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c92565bfa82134693121",
+   "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-11T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-12T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3d807e8741391dc467ec",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "Blue Room",
@@ -4822,6 +5021,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-12T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-13T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "63692c8a8b8a269636a9",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Le Belmont",
    "title": "Avicii Tribute Night",
    "start": "2026-12-12T21:00:00-05:00",
@@ -5153,24 +5373,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
-   "start": "2026-12-13T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 15.0,
-   "genres": [],
-   "image": "img/2d5950810c54aa7b.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "aa154f4d4844adeaa144",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "REEL GAY: Glee with Mary Fagdalene & Chiquita Mére",
    "start": "2026-12-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere",
@@ -5185,6 +5387,24 @@
    "all_day": false,
    "tab": "music",
    "id": "caac6764dd373e5c408b",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "SOME BECAME HOLLOW TUBES + NÜMONIA + BURN IT DOWN",
+   "start": "2026-12-13T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [],
+   "image": "img/2d5950810c54aa7b.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "aa154f4d4844adeaa144",
    "added": ""
   },
   {
@@ -5207,6 +5427,28 @@
    "id": "984c9d239ed1c9fb00a6",
    "about": "Présenté par Blue Skies Turn Black Avec: Invité(e)s Portes: 7PM | Spectacle: 8PM | 18+",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Sunday Live Jazz Band",
+   "start": "2026-12-13T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
+   "end": "2026-12-13T23:59:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "img/aa1402f5b5df39f1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "0311ccd656b7544edc9d",
+   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bistro à Jojo",
@@ -5434,6 +5676,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "PHLIP - Première mondiale",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-14-bravo-music",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/5bf63a4ffbcecf31.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "438f67f0203ba60f0bc1",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présente: JORDAN HART + EMILY SCHULTZ",
    "start": "2026-12-16T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-17-blue-skies-turn-black-presente-jordan-hart",
@@ -5451,22 +5711,25 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "PHLIP - Première mondiale",
+   "source": "Bootlegger",
+   "title": "Groovy Jazz Wednesday",
    "start": "2026-12-16T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-14-bravo-music",
-   "end": null,
-   "location": "P'tit Ours",
+   "url": "https://barbootlegger.com/event/wednesday-latin-jazz-latin-jazz-nights-at-bootlegger/",
+   "end": "2026-12-16T23:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
    "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/5bf63a4ffbcecf31.webp",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "img/3b75cde8f5fea653.webp",
    "all_day": false,
    "tab": "music",
-   "id": "438f67f0203ba60f0bc1",
-   "added": ""
+   "id": "699d01fafdc591ff87ed",
+   "about": "Live jazz band every Wednesday at 8 PM at Bootlegger on boulevard Saint-Laurent: a groovier, festive jazz night with signature cocktails and dinner.",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -5614,24 +5877,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Ramures (et Lézart) : Lancement de Single",
-   "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
-   "genres": [],
-   "image": "img/78d48bf1cfabbfc2.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3c3e88b432b3fc0e3801",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Joel Betts with Lauryn Macfarlane",
    "start": "2026-12-17T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
@@ -5664,6 +5909,24 @@
    "all_day": false,
    "tab": "music",
    "id": "c02d7b071757167e28d9",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Ramures (et Lézart) : Lancement de Single",
+   "start": "2026-12-17T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [],
+   "image": "img/78d48bf1cfabbfc2.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3c3e88b432b3fc0e3801",
    "added": ""
   },
   {
@@ -5845,6 +6108,27 @@
    "tab": "music",
    "id": "506b4d73a4e2c1ffb292",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-18T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-19T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "fa5974cce4e868a8a02a",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "SAT",
@@ -6052,6 +6336,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-19T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-20T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "f60844fcbfb2cb073a9f",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "New City Gas",
    "title": "DJ PAULY D",
    "start": "2026-12-19T21:00:00-05:00",
@@ -6237,6 +6542,28 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Sunday Live Jazz Band",
+   "start": "2026-12-20T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/sunday-jazz-sunday-jazz-at-bootlegger/",
+   "end": "2026-12-20T23:59:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "img/aa1402f5b5df39f1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d35b4bfc6d3281c2320f",
+   "about": "Every Sunday at Bootlegger Montreal: happy hour 5 to 7 p.m., $1 oysters all evening while supplies last, and a live jazz trio from 9 p.m. to midnight.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "THE BACKSTAGE",
    "start": "2026-12-21",
@@ -6343,6 +6670,27 @@
    "added": ""
   },
   {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-25T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-26T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9711cc65a8e8fb05ab7d",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "StereoBar",
    "title": "Ugly Sweater Xmas x In Too Deep: Manu - Manuel Falardeau - Latour",
    "start": "2026-12-25T22:00:00-05:00",
@@ -6386,6 +6734,27 @@
    "id": "2d5c6bf1205648bf0bd6",
    "about": "Discover a multitude of events in your area and please your loved ones. Buy tickets in just a few clicks.",
    "added": ""
+  },
+  {
+   "source": "Bootlegger",
+   "title": "Friday & Saturday DJ Nights",
+   "start": "2026-12-26T21:00:00-05:00",
+   "url": "https://barbootlegger.com/event/friday-saturday-dj-nights-at-bootlegger/",
+   "end": "2026-12-27T02:00:00-05:00",
+   "location": "Bootlegger, 3481 boul. Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/0db915462424798a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c093babc6586f7a18ae0",
+   "about": "DJ nights every Friday and Saturday from 9 PM at Bootlegger on the Plateau Mont-Royal. Free entry, guest DJs, signature cocktails and food.",
+   "added": "2026-11-26"
   },
   {
    "source": "StereoBar",
@@ -7244,24 +7613,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Hayden + Invité(e)s",
-   "start": "2027-01-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$35",
-   "price_lo": 34.79,
-   "genres": [],
-   "image": "img/22739ff28cf7cd2e.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "1ba5c52e3d1b269a8d99",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Woody à la Casa Del Popolo",
    "start": "2027-01-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
@@ -7276,6 +7627,24 @@
    "all_day": false,
    "tab": "music",
    "id": "f5e827d5e9d0660905c4",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Hayden + Invité(e)s",
+   "start": "2027-01-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$35",
+   "price_lo": 34.79,
+   "genres": [],
+   "image": "img/22739ff28cf7cd2e.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1ba5c52e3d1b269a8d99",
    "added": ""
   },
   {
@@ -17284,27 +17653,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Marie Denise Pelletier - Noël, parle‑moi",
-   "start": "2026-12-03T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
-   "end": null,
-   "location": "Salle de spectacle de l’église Jean XXIII",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season"
-   ],
-   "image": "img/736881ef640e4b21.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4e51d5791c7dcb5222",
-   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "La ferme ou comment nourrir un futur intelligent ATSA",
    "start": "2026-12-03T19:30:00-05:00",
@@ -17326,6 +17674,27 @@
    "id": "fe4f58e00ec86e33fb91",
    "about": "La FERME ou comment nourrir un futur intelligent est une pièce de théâtre documentaire qui dénonce avec humour et poésie les impacts non choisis de l'intelligence artificielle dans nos vies. Public : 14 ans et +",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Marie Denise Pelletier - Noël, parle‑moi",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
+   "end": null,
+   "location": "Salle de spectacle de l’église Jean XXIII",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/736881ef640e4b21.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4e51d5791c7dcb5222",
+   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17583,25 +17952,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Introduction à la machine à coudre",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
-   "end": null,
-   "location": "Fabricathèque du Sud-Ouest",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/5147650d3c801653.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "25fc5f1a4831f6d1cd8b",
-   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Le thé : Conférence et dégustation",
    "start": "2026-12-05T10:30:00-05:00",
@@ -17624,6 +17974,25 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Introduction à la machine à coudre",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
+   "end": null,
+   "location": "Fabricathèque du Sud-Ouest",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/5147650d3c801653.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25fc5f1a4831f6d1cd8b",
+   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Musique avec toi",
    "start": "2026-12-05T10:30:00-05:00",
@@ -17641,6 +18010,27 @@
    "id": "7ca6a1a836c9b6d159f9",
    "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Activité de cuisine",
+   "start": "2026-12-05T11:00:00-05:00",
+   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
+   "end": null,
+   "location": "Mini-bibliothèque de Chameran",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Food & Drink"
+   ],
+   "image": "img/0cc635d9e9dd2324.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "333639c0958f35fd4d94",
+   "about": "Avec C'est moi le chef!",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -17666,27 +18056,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Activité de cuisine",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
-   "end": null,
-   "location": "Mini-bibliothèque de Chameran",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Food & Drink"
-   ],
-   "image": "img/0cc635d9e9dd2324.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "333639c0958f35fd4d94",
-   "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Callisthénie (complet / sold out)",
    "start": "2026-12-05T11:45:00-05:00",
    "url": "https://montreal.ca/evenements/callisthenie-118745",
@@ -17702,28 +18071,6 @@
    "tab": "city",
    "id": "d4a9f9b5623a24229fc2",
    "about": "Venez découvrir une mise forme sans équipement avec la callisthénie.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atelier de confection de couronne de Noël",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
-   "end": "2026-12-05T15:30:00-05:00",
-   "location": "Maison Robert-Bélanger",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Art & Workshops"
-   ],
-   "image": "img/24b6dcd0ea23b581.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "b6724db457192ee6518d",
-   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
    "added": "2026-11-26"
   },
   {
@@ -17748,6 +18095,28 @@
    "id": "3b46f9b3c244e8b0b516",
    "about": "Quelques jours avant Noël, un mononcle hirsute et malcommode voit sa chère quiétude troublée par l’arrivée des petits cousins, créatures sans foi ni loi dont l’enthousiasme débordant emporte tout sur son passage.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Atelier de confection de couronne de Noël",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Maison Robert-Bélanger",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Art & Workshops"
+   ],
+   "image": "img/24b6dcd0ea23b581.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "b6724db457192ee6518d",
+   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",

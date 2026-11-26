@@ -839,6 +839,59 @@ def livenation_venue(venue: str, source: str, location: str) -> list[Ev]:
     return out
 
 
+def bootlegger() -> list[Ev]:
+    """Bootlegger (cocktail bar, 3481 St-Laurent; WP Event Manager): weekly series ("Groovy Jazz Wednesday",
+    "Friday & Saturday DJ Nights", "Sunday Live Jazz…") listed with a date range. Each series page's schema.org
+    Event gives the first night (time, end, description, picture); it's repeated weekly to the range's last day,
+    on both days for "Friday & Saturday". The Tuesday comedy is Laugh It Off's, already read from its own site."""
+    base = "https://barbootlegger.com/event/"
+    s = soup(base)
+    out = []
+    for card in s.select("a.wpem-event-action-url[href]"):
+        url = card["href"]
+        text = clean(card.get_text(" "))
+        if re.search(r"comed|humou?r|stand.?up", text + url, re.I):
+            continue
+        rng = re.findall(r"(\d{4}-\d{2}-\d{2}) @ (\d{1,2}:\d{2} [AP]M)", text)
+        if not rng:
+            continue
+        last = date.fromisoformat(rng[-1][0])
+        page = BeautifulSoup(get(url).content, "html.parser")
+        ld = None
+        for sc in page.find_all("script", type="application/ld+json"):
+            try:
+                d = json.loads(sc.string or "")
+            except ValueError:
+                continue
+            for x in d.get("@graph", [d]) if isinstance(d, dict) else d:
+                if x.get("@type") == "Event" and x.get("startDate"):
+                    ld = x
+        if not ld:
+            continue
+        first, end = iso(ld["startDate"]), iso(ld["endDate"]) if ld.get("endDate") else None
+        length = (end - first) if end and end > first else timedelta(hours=3)
+        title = clean(ld["name"])
+        offsets_title = title
+        # "Groovy Jazz Wednesday — Jazz is back at the Bootlegger" -> "Groovy Jazz Wednesday"
+        title = re.sub(r"\s+at (?:the )?Bootlegger.*$", "", re.split(r"\s+[—–]\s+", title)[0], flags=re.I)
+        offsets = [0, 1] if re.search(r"friday\s*(?:&|and|et)\s*saturday|vendredi\s*(?:&|et)\s*samedi", title, re.I) else [0]
+        title = offsets_title if not title else title
+        desc = clean(ld.get("description", ""))
+        img = ld.get("image")
+        img = (img[0] if isinstance(img, list) and img else img.get("url") if isinstance(img, dict) else img) or ""
+        day = first
+        while day.date() <= last:
+            for k in offsets:
+                start = day + timedelta(days=k)
+                if start.date() <= last + timedelta(days=k):
+                    ev = Ev("Bootlegger", title, start, url, start + length,
+                            "Bootlegger, 3481 boul. Saint-Laurent")
+                    ev.desc, ev.image = desc, img if isinstance(img, str) else ""
+                    out.append(priced(ev, True) if FREE_TEXT.search(desc) else ev)
+            day += timedelta(weeks=1)
+    return out
+
+
 def tidy_case(title: str) -> str:
     """'CORAL EGAN TRIO' -> 'Coral Egan Trio' (titles typed in capitals); mixed-case titles are left alone."""
     if title != title.upper():
@@ -1618,6 +1671,7 @@ EVENT_SOURCES = {
     # jazz & blues rooms
     "Dièse Onze": dieseonze,
     "Bistro à Jojo": bistro_a_jojo,
+    "Bootlegger": bootlegger,   # jazz Wed & Sun, DJs Fri & Sat (its Tuesday comedy comes from Laugh It Off)
     # LATEX. (latexrave.com): queer fetish rave, 20+; tickets on Ticket Tailor (organizer "slataprod")
     "LATEX.": lambda: tickettailor("slataprod", "LATEX."),
     "5 à Set": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/5-a-set-120716281994", "5 à Set"),
