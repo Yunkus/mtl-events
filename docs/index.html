@@ -986,7 +986,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       line("When", when);
     }
     line("Where", [e.source, e.location && !sameish(e.location, e.source) ? e.location : ""].filter(Boolean).join(" · "));
-    line("Price", e.free ? "Free" : e.price || "Not listed");
+    line("Price", e.free ? "Free" : e.price);   // no line at all when there's no price
     if (e.genres && e.genres.length) line("Genre", e.genres.join(" · "));
     else if (e.kind && e.kind !== "exhibition") line("Type", e.kind);
     b.appendChild(meta);

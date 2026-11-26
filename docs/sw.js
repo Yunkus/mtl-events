@@ -1,9 +1,10 @@
 // Go Out Montreal service worker: opens instantly and works offline (e.g. in the metro).
-// - the page shell (HTML, font, logo, icons) is cached on install and served cache-first, refreshed in the background
+// - the page (HTML) is network-first, falling back to the saved copy offline
+// - the rest of the shell (font, logo, icons) is cached on install and served cache-first, refreshed in the background
 // - events.json and the .ics feeds are network-first, falling back to the last copy when offline
 // - event images (our own copies in img/, or a venue's) are cached as they're seen, up to a limit,
 //   so recently viewed listings keep their pictures
-const VERSION = "gom-v2";
+const VERSION = "gom-v3";
 const SHELL = ["./", "index.html", "fonts/ShareTech-Regular.ttf", "logo.webp?v=3", "wordmark.webp?v=4",
                "favicon.png?v=3", "icon-192.png", "manifest.webmanifest"];
 const IMAGES = "gom-images";
@@ -26,7 +27,8 @@ async function networkFirst(req) {
     if (res.ok) cache.put(req, res.clone());
     return res;
   } catch (err) {
-    return (await cache.match(req)) || Response.error();
+    const page = req.mode === "navigate";   // offline: any saved copy of the page will do (?v=…, #tab)
+    return (await cache.match(req, { ignoreSearch: page })) || (page && await cache.match("./")) || Response.error();
   }
 }
 
@@ -60,6 +62,10 @@ self.addEventListener("fetch", e => {
   if (url.origin === location.origin) {
     if (/\.(json|ics)$/.test(url.pathname)) return e.respondWith(networkFirst(req));
     if (url.pathname.includes("/img/")) return e.respondWith(imageCache(req));
+    // the page itself: always the latest when online (the saved copy is only for offline), so a site update
+    // shows on the next visit instead of the one after
+    if (req.mode === "navigate" || url.pathname.endsWith(".html") || url.pathname.endsWith("/"))
+      return e.respondWith(networkFirst(req));
     return e.respondWith(shellFirst(req));
   }
   if (req.destination === "image") return e.respondWith(imageCache(req));
