@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-26T01:55-05:00",
+ "generated": "2026-11-26T02:14-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
    "feed": "music.ics",
-   "count": 352
+   "count": 430
   },
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 40
+   "count": 39
   },
   "bars": {
    "title": "Montreal Bar Nights",
    "feed": "bars.ics",
-   "count": 284
+   "count": 292
   },
   "city": {
    "title": "Montreal City Events",
@@ -67,9 +67,9 @@
   },
   "Vino Disco": {
    "ok": true,
-   "count": 8,
+   "count": 11,
    "tab": "music",
-   "last_count": 8,
+   "last_count": 11,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -89,6 +89,22 @@
    "zero_streak": 0,
    "zero_alerted": false
   },
+  "Dièse Onze": {
+   "ok": true,
+   "count": 22,
+   "tab": "music",
+   "last_count": 22,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "Bistro à Jojo": {
+   "ok": true,
+   "count": 36,
+   "tab": "music",
+   "last_count": 36,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
   "LATEX.": {
    "ok": true,
    "count": 1,
@@ -102,7 +118,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 20,
+   "zero_streak": 22,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -110,7 +126,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 47,
+   "zero_streak": 49,
    "zero_alerted": true
   },
   "Stereo": {
@@ -182,7 +198,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 47,
+   "zero_streak": 49,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -203,11 +219,19 @@
   },
   "L'Escogriffe": {
    "ok": true,
+   "count": 5,
+   "tab": "music",
+   "last_count": 5,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "L'Escogriffe (RA)": {
+   "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 47,
-   "zero_alerted": true
+   "zero_streak": 2,
+   "zero_alerted": false
   },
   "Ausgang Plaza": {
    "ok": true,
@@ -246,23 +270,22 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 37,
+   "zero_streak": 39,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
-   "ok": true,
-   "count": 1,
+   "ok": false,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='www.mbam.qc.ca', port=443): Read timed out. (read timeout=30)",
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 0,
-   "zero_alerted": false
+   "fail_streak": 2
   },
   "McCord After Hours": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 32,
+   "zero_streak": 34,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -318,22 +341,22 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 47,
+   "zero_streak": 49,
    "zero_alerted": true
   },
   "Trivia Nights": {
    "ok": true,
-   "count": 50,
+   "count": 56,
    "tab": "bars",
-   "last_count": 50,
+   "last_count": 56,
    "zero_streak": 0,
    "zero_alerted": false
   },
   "Comedy Open Mics": {
    "ok": true,
-   "count": 46,
+   "count": 48,
    "tab": "bars",
-   "last_count": 46,
+   "last_count": 48,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -347,9 +370,9 @@
   },
   "Added by hand": {
    "ok": true,
-   "count": 6,
+   "count": 18,
    "tab": "bars",
-   "last_count": 6,
+   "last_count": 18,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -406,7 +429,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 37,
+   "zero_streak": 39,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -487,6 +510,48 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Matt Rock",
+   "start": "2026-11-26T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-27T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "05d735131f5eaacf2874",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Caleb Taylor",
+   "start": "2026-11-26T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-26T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "74d8848f9bb6513726e2",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Quai des Brumes",
    "title": "5@7 Lancement – Khi de Mars « c’est peut-être un peu à cause de moi »",
    "start": "2026-11-26T17:00:00-05:00",
@@ -503,6 +568,27 @@
    "tab": "music",
    "id": "b776b3deef11e5fd4a9b",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Marie Fatima Rudolph Trio",
+   "start": "2026-11-26T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-11-26",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "ac789b21d9092b987307",
+   "about": "Marie Fatima Rudolph - piano\n\nWalter Stinson - contrebasse\n\nJim Doxas - batterie\n\nSpectacles à 19h et 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -610,24 +696,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "WESTELAKEN \"IN IT FOR THE LACK\" Album Launch with TALEL MCBRIAR & KELLY ELIZABETH",
-   "start": "2026-11-26T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-27-westelaken-in-it-for-the-lack-album-launch-with-talel-mcbriar-kelly-elizabeth",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
-   "genres": [],
-   "image": "img/9e470be7ed56ebbb.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "30fd9ee21689750c8cc8",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "FEVER VISIONS // EXTRAÑA HUMANA // MERCURE",
    "start": "2026-11-26T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-27-fever-visions-extrana-humana-mercure-p-tit-ours-26-nov",
@@ -642,6 +710,24 @@
    "all_day": false,
    "tab": "music",
    "id": "234ca3e0824ce647ed29",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "WESTELAKEN \"IN IT FOR THE LACK\" Album Launch with TALEL MCBRIAR & KELLY ELIZABETH",
+   "start": "2026-11-26T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-27-westelaken-in-it-for-the-lack-album-launch-with-talel-mcbriar-kelly-elizabeth",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [],
+   "image": "img/9e470be7ed56ebbb.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "30fd9ee21689750c8cc8",
    "added": ""
   },
   {
@@ -788,6 +874,48 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Andrée Dupré Duo",
+   "start": "2026-11-27T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-27T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e1e2811fcaed3773cd9c",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Jean Pierre Zanella Quartet",
+   "start": "2026-11-27T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-11-27",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "11ad89a0ccf116311d8b",
+   "about": "Jean Pierre Zanella - saxophone\n\nPierre Francois - piano\n\nRemi Jean Leblanc - contrebasse\n\nKevin Warren - batterie\n\nSpectacles à 19h et 21h30",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Théâtre Fairmount",
    "title": "KORPIKLAANI",
    "start": "2026-11-27T19:30:00.628000-05:00",
@@ -828,24 +956,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Om-Nom Fest 2026 Nuit 1",
-   "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1",
-   "end": null,
-   "location": "La Sotterenea",
-   "kind": "",
-   "free": false,
-   "price": "$25",
-   "price_lo": 25.01,
-   "genres": [],
-   "image": "img/d63e8f1571e85c20.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "7dcb8276299ce94b31e9",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Café Concret edition #55",
    "start": "2026-11-27T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55",
@@ -862,6 +972,24 @@
    "all_day": false,
    "tab": "music",
    "id": "7e9a743c846bfdf89fe8",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Om-Nom Fest 2026 Nuit 1",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.01,
+   "genres": [],
+   "image": "img/d63e8f1571e85c20.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "7dcb8276299ce94b31e9",
    "added": ""
   },
   {
@@ -909,7 +1037,7 @@
    "start": "2026-11-27T21:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-28-la-groovin-enflamme-la-casa-del-popolo",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$16",
@@ -967,7 +1095,7 @@
    "start": "2026-11-27T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/all-night-dure-vie-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$19–37",
@@ -1052,7 +1180,7 @@
    "start": "2026-11-27T22:00:00-05:00",
    "url": "https://www.tickettailor.com/events/slataprod/2464085",
    "end": "2026-11-28T06:00:00-05:00",
-   "location": "ESC, H2X 2T3",
+   "location": "ESC, 2023 boul. Saint-Laurent",
    "kind": "",
    "free": false,
    "price": "$31–48",
@@ -1150,6 +1278,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel Band",
+   "start": "2026-11-27T22:30:00-05:00",
+   "url": "",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b0382c7975534f2f0cce",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Salon Daomé",
    "title": "Zeina, Ostrich",
    "start": "2026-11-27T22:30:00-05:00",
@@ -1236,12 +1385,54 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-11-28T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-28T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "04b2873d5262bae2cfb7",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Donny Lives",
+   "start": "2026-11-28T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-11-28",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$20–35",
+   "price_lo": 20.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "6f7ad3e4d0e1a702e949",
+   "about": "Clerel Djamen - voix\n\nDavid Vandervort - claviers\n\nCharles William Mpondo - guitare\n\nHendry Massamba - percussions\n\nFred Doston - basse\n\nHarvey Drumz - batterie\n\nSpectacles à 19h et 21h30",
+   "added": "2026-11-26"
+  },
+  {
    "source": "SAT",
    "title": "SAT x EAF x Festival Triste",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/sat-eaf-festival-triste-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$17–26",
@@ -1253,42 +1444,6 @@
    "all_day": false,
    "tab": "music",
    "id": "1e498792187490652e65",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Gabriel Béland en spectacles",
-   "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/f15752548cb1e4ef.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "b3e0e7bd1944c78b17ce",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
-   "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$23",
-   "price_lo": 23.33,
-   "genres": [],
-   "image": "img/af5eccc25a9eb35b.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "7ac4150ea049cff2736e",
    "added": ""
   },
   {
@@ -1311,6 +1466,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Gabriel Béland en spectacles",
+   "start": "2026-11-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/f15752548cb1e4ef.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "b3e0e7bd1944c78b17ce",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Om-Nom Fest 2026 Nuit 2",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2",
@@ -1325,6 +1498,24 @@
    "all_day": false,
    "tab": "music",
    "id": "6dfd803c32f922e65e01",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Michael Jerome Browne & the Backbeat Boys (Michael Ball, Stephen Barry, John McColgan)",
+   "start": "2026-11-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$23",
+   "price_lo": 23.33,
+   "genres": [],
+   "image": "img/af5eccc25a9eb35b.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "7ac4150ea049cff2736e",
    "added": ""
   },
   {
@@ -1551,6 +1742,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Matt Rock",
+   "start": "2026-11-28T22:30:00-05:00",
+   "url": "",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2f9a5c29272024ff1ae2",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Salon Daomé",
    "title": "T.I.T.S",
    "start": "2026-11-28T22:30:00-05:00",
@@ -1610,6 +1821,27 @@
    "tab": "music",
    "id": "a88da78382c13e498ee8",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Fredy Freedom",
+   "start": "2026-11-29T17:00:00-05:00",
+   "url": "",
+   "end": "2026-11-29T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c4f342b0f6ce30d8725d",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Quai des Brumes",
@@ -1695,6 +1927,27 @@
    "added": ""
   },
   {
+   "source": "Dièse Onze",
+   "title": "Coral Egan Trio",
+   "start": "2026-11-29T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-11-29",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "6939850fe21af88e850a",
+   "about": "Coral Egan - voix\n\nDan Thouin - piano\n\nGuy Boivert - contrebasse\n\nSpectacles à 19h et 21h",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "The Bloodshots + Screaming Demons + The Count Ferrara",
    "start": "2026-11-29T19:00:00-05:00",
@@ -1721,7 +1974,7 @@
    "start": "2026-11-29T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-11-30-soiree-flamenca-a-trois-souffles",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$25",
@@ -1773,6 +2026,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "David Segreti Band",
+   "start": "2026-11-29T22:30:00-05:00",
+   "url": "",
+   "end": "2026-11-30T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "87da6adb0785080b858a",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "THE BACKSTAGE",
    "start": "2026-11-30",
@@ -1794,6 +2068,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-11-30T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-01T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "33bdfd94ea439e714d12",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "SPURS",
    "start": "2026-11-30T19:00:00-05:00",
@@ -1810,6 +2105,28 @@
    "tab": "music",
    "id": "e150cb12e8b7ec9af107",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Jazz Latin Quartet",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-11-30",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [
+    "Afro & Latin",
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "8ea0dd3a7408045a9158",
+   "about": "Alex Bellegarde - Contrebasse\n\nWilly Barreto - Piano\n\nNestor Rodrigez - Saxophone\n\nDiomer Gonzales - Percussions\n\nSpectacles à 19h et 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -1867,6 +2184,49 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Fredy Freedom",
+   "start": "2026-12-01T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-02T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "43a43cb87f6d1a38e2a9",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Les Mardis Big Band avec Yves Turgeon et le Big Band YT",
+   "start": "2026-12-01T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-01",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2e0384767b9cb8ce0da3",
+   "about": "Yves Turgeon - leader\n\nSpectacle à 19h",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Haüs\"",
    "start": "2026-12-01T19:00:00-05:00",
@@ -1906,6 +2266,48 @@
    "added": ""
   },
   {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Trio invite Jacques Kuba Seguin + Jam Session",
+   "start": "2026-12-01T21:30:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-01",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "f1eb32dbb01ace8f5df5",
+   "about": "Jacques Kuba Seguin (invité) - trompette\n\nAlex Bellegarde - Contrebasse\n\nEric St-Jean - Piano\n\nMartin Auguste - Batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-02T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c300b5383a677124355e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Théâtre Fairmount",
    "title": "BABY JANE",
    "start": "2026-12-02T19:00:00.628000-05:00",
@@ -1922,6 +2324,24 @@
    "tab": "music",
    "id": "6d79428dd7c25baf3ce8",
    "about": "Présenté par (Avec) Courage! Avec: flleur Portes: 7PM | Spectacle: 8PM | Tous âges",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Rachella Wred, Couvo & Kerri",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
+   "genres": [],
+   "image": "img/2929944046936883.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "adb35a995e3a8f44ff5c",
    "added": ""
   },
   {
@@ -1961,24 +2381,6 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Rachella Wred, Couvo & Kerri",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$10",
-   "price_lo": 10.0,
-   "genres": [],
-   "image": "img/2929944046936883.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "adb35a995e3a8f44ff5c",
-   "added": ""
-  },
-  {
    "source": "Turbo Haüs",
    "title": "Soirée \"Open Jam avec Growve\"",
    "start": "2026-12-02T20:00:00-05:00",
@@ -2000,6 +2402,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Rocky & Friends",
+   "start": "2026-12-02T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-03T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c249d218ee1b47e88d8c",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Le Red Room",
    "title": "Groove pour la cause",
    "start": "2026-12-03",
@@ -2019,6 +2441,27 @@
    "tab": "music",
    "id": "6a13b9e823e5f0ef4470",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Philippe Berghella",
+   "start": "2026-12-03T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-03T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "6acedc837eaeb487532e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Ausgang Plaza",
@@ -2181,6 +2624,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Unkle Groove",
+   "start": "2026-12-03T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-04T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "472e901afc75b537a3bf",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Système",
    "title": "Lost Heroes - Glowzi - Lexis",
    "start": "2026-12-03T22:00:00-05:00",
@@ -2246,6 +2709,48 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Andrée Dupré Duo",
+   "start": "2026-12-04T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-04T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "925186e2b5beab2895d1",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Marianne Trudel",
+   "start": "2026-12-04T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-04",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "7d433d6819c3cccc3003",
+   "about": "détails à venir\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "GS DE LA LIQS",
    "start": "2026-12-04T20:00:00-05:00",
@@ -2265,24 +2770,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
-   "start": "2026-12-04T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/8cb21e6d9b7fcddc.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "51af3df0f8f51d9464f0",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "I’ll Be Your Mirror",
    "start": "2026-12-04T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror",
@@ -2298,6 +2785,46 @@
    "tab": "music",
    "id": "cac0b2608259ca6f85d4",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Strange Flowers Presents : A Night of 20-minute Sets Vol. 4",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/8cb21e6d9b7fcddc.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "51af3df0f8f51d9464f0",
+   "added": ""
+  },
+  {
+   "source": "Vino Disco",
+   "title": "ANDIE & COOLDAD",
+   "start": "2026-12-04T20:00:00-05:00",
+   "url": "https://ra.co/events/2594386",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "Vino Disco",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "House",
+    "Disco",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "ca66eba570d1d6e5c195",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -2423,7 +2950,7 @@
    "start": "2026-12-04T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/club-sat-gaba-collective-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$16–29",
@@ -2568,6 +3095,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "D &The Boys",
+   "start": "2026-12-04T22:30:00-05:00",
+   "url": "",
+   "end": "2026-12-05T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "f25542278b63dcc15af7",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Salon Daomé",
    "title": "SLAPPED",
    "start": "2026-12-04T22:30:00-05:00",
@@ -2630,6 +3177,48 @@
    "tab": "music",
    "id": "b0f52a8ebb10668643e3",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-05T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-05T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "40365622f2670502d0ff",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Ron DI Lauro Sextet joue Kind of Blue",
+   "start": "2026-12-05T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-05",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b71c1b9d5c3b022f9d7e",
+   "about": "Ron Di Lauro - trompette\n\nJean Pierre Zanella - saxophone alto\n\nAl McLean - saxophone tenor\n\nTaurey Butler - piano\n\nIra Coleman - contrebasse\n\nMartin Auguste - batterie\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Théâtre Fairmount",
@@ -2732,6 +3321,24 @@
    "added": ""
   },
   {
+   "source": "L'Escogriffe",
+   "title": "Taylor Mccluskey + Starting From Zero",
+   "start": "2026-12-05T20:00:00-05:00",
+   "url": "https://www.songkick.com/concerts/43481908-taylor-mccluskey-at-lescogriffe-bar-spectacle",
+   "end": null,
+   "location": "L'Escogriffe, 4461 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/200294140f776bdc.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "2a8a10dcf9b89f25f541",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "WEEKENDS NEVER ENDED",
    "start": "2026-12-05T20:00:00.179000-05:00",
@@ -2804,7 +3411,7 @@
    "start": "2026-12-05T21:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-06-this-belongs-to-you",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$10",
@@ -2904,6 +3511,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Marc Fecteau Band",
+   "start": "2026-12-05T22:30:00-05:00",
+   "url": "",
+   "end": "2026-12-06T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "5856957fea96d0a21505",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Stereo",
    "title": "Stereo x Ferias x Turbo present DNA",
    "start": "2026-12-05T23:59:00-05:00",
@@ -2941,6 +3569,27 @@
    "tab": "music",
    "id": "d8fd2392119d8b7dcd3d",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Caleb Taylor",
+   "start": "2026-12-06T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9f4b8dc0c9bca03749e0",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Système",
@@ -3004,24 +3653,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAESLER",
-   "start": "2026-12-06T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald",
-   "end": null,
-   "location": "Casa Del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$30",
-   "price_lo": 30.44,
-   "genres": [],
-   "image": "img/e6e05a015b742ac4.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "abd53bf3c563dfee9603",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Pascale Pascale/ Hearts of Palm /Ahren Strange",
    "start": "2026-12-06T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th",
@@ -3037,6 +3668,84 @@
    "tab": "music",
    "id": "14873dac69e9dbeb25fd",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Blue Skies Turn Black présente: MICHAEL BERNARD FITZGERALD + PAESLER",
+   "start": "2026-12-06T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "price_lo": 30.44,
+   "genres": [],
+   "image": "img/e6e05a015b742ac4.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "abd53bf3c563dfee9603",
+   "added": ""
+  },
+  {
+   "source": "L'Escogriffe",
+   "title": "ILUKA",
+   "start": "2026-12-06T20:00:00-05:00",
+   "url": "https://www.songkick.com/concerts/43430349-iluka-at-lescogriffe-bar-spectacle",
+   "end": null,
+   "location": "L'Escogriffe, 4461 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/7363039d341a60a0.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "6ddb55802817e4562be3",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Fredy Freedom Band",
+   "start": "2026-12-06T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-07T02:30:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "727a2a46ba93262cd1cf",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-07T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-08T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "7a3089182e1db669b388",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -3061,11 +3770,47 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "The Blogs + Bradford Barker + The Vauxhalls",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
+   "end": null,
+   "location": "La Sotterenea",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/f5247ab0956c06d1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "49c6ab53cd1bff1660aa",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.0,
+   "genres": [],
+   "image": "img/7b2a9dbc6a7e00a5.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "2b5dc1fbae153539f2ef",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Emile Patenaude + Bubblegum Flavour",
    "start": "2026-12-07T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$12",
@@ -3096,40 +3841,47 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Adiós, CASA! Luan Larobina x Zalam Kao",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao",
-   "end": null,
-   "location": "La Sala Rossa",
+   "source": "Bistro à Jojo",
+   "title": "Caleb Taylor",
+   "start": "2026-12-08T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-09T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
    "kind": "",
-   "free": false,
-   "price": "$25",
-   "price_lo": 25.0,
-   "genres": [],
-   "image": "img/7b2a9dbc6a7e00a5.webp",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
    "all_day": false,
    "tab": "music",
-   "id": "2b5dc1fbae153539f2ef",
-   "added": ""
+   "id": "fdd3587630805f5a9b40",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
-   "source": "Casa del Popolo",
-   "title": "The Blogs + Bradford Barker + The Vauxhalls",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
+   "source": "Dièse Onze",
+   "title": "Les Mardis Big Band avec Joe Sullivan",
+   "start": "2026-12-08T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-08",
    "end": null,
-   "location": "La Sotterenea",
+   "location": "Dièse Onze, 4115-A rue St-Denis",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "img/f5247ab0956c06d1.webp",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
    "all_day": false,
    "tab": "music",
-   "id": "49c6ab53cd1bff1660aa",
-   "added": ""
+   "id": "f583e74c8300b189871d",
+   "about": "Joe Sullivan - leader\n\n17 musiciens sur scene\n\nSpectacle à 19h",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -3187,6 +3939,48 @@
    "tab": "music",
    "id": "8fc4fa580f5ef1bd4838",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Trio invite Nicolas Riverin + Jam Session",
+   "start": "2026-12-08T21:30:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-08",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "bf14fef9871169e88ebe",
+   "about": "Nicolas Riverin (invité) - trompette\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alan Springer",
+   "start": "2026-12-09T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "88372943b83a4954b4bc",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -3270,6 +4064,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Rocky & Friends",
+   "start": "2026-12-09T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-10T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "44c911e0c4e6e1c8b2a7",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Le Red Room",
    "title": "Jingle Bass",
    "start": "2026-12-10",
@@ -3290,6 +4104,48 @@
    "id": "e87521055a4ca16e8098",
    "about": "Pixel Production come back with a new Event.For this holiday season (Dec 10, Redroom) get ready to hit a wall of bass with this fire lineup :DropdeadgorgeousKio B2B Frank SorrowDRESloan PorterPixelLightz B2B MoloUnseenDont forget your ticket and come headb",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alex Laverdière",
+   "start": "2026-12-10T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-10T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d401d85f1851db20467d",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Ron DI Lauro Sextet joue Kind of Blue",
+   "start": "2026-12-10T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-10",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "4502ec7683d56c3e50d1",
+   "about": "Ron Di Lauro - trompette\n\nJean Pierre Zanella - saxophone alto\n\nAl McLean - saxophone tenor\n\nTaurey Butler - piano\n\nIra Coleman - contrebasse\n\nMartin Auguste - batterie\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Système",
@@ -3411,6 +4267,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "D & The Boys",
+   "start": "2026-12-10T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-11T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "22a273c3138edd25fd49",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Système",
    "title": "Bwi-Bwi + Xia",
    "start": "2026-12-10T22:00:00-05:00",
@@ -3471,6 +4347,48 @@
    "tab": "music",
    "id": "021c580cde3b998ff6ad",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-11T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-11T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "3fcb6a17c6a5a892d13b",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Yannick Rieu joue Coltrane",
+   "start": "2026-12-11T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-11",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "61161dacd59550c9ed94",
+   "about": "Yannick Rieu - saxophone\n\nJonathan Cayer - piano\n\nMike De Masi - contrebasse\n\nGuillaume Pilote - batterie\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -3560,7 +4478,7 @@
    "start": "2026-12-11T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$22",
@@ -3658,6 +4576,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Dwane Dixon Band",
+   "start": "2026-12-11T22:30:00-05:00",
+   "url": "",
+   "end": "2026-12-12T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "07fc3b1e05069625e1f7",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Datcha",
    "title": "Datcha Nonstop: x3butterfly, Fieldnote, Karuna",
    "start": "2026-12-11T23:00:00-05:00",
@@ -3741,6 +4680,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Stef Dumont",
+   "start": "2026-12-12T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-12T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "dfa97742fb40c6296432",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "9Mania",
    "start": "2026-12-12T18:00:00-05:00",
@@ -3757,6 +4717,27 @@
    "tab": "music",
    "id": "88bf8e9976ae7f927547",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Yannick Rieu joue Coltrane",
+   "start": "2026-12-12T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-12",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "11d94b5a259422d1ddd4",
+   "about": "Yannick Rieu - saxophone\n\nJonathan Cayer - piano\n\nMike De Masi - contrebasse\n\nGuillaume Pilote - batterie\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -3785,7 +4766,7 @@
    "start": "2026-12-12T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-13-francbatards-montreal-casa-del-popolo",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$17",
@@ -3834,6 +4815,28 @@
    "tab": "music",
    "id": "857682375b61680ace72",
    "added": ""
+  },
+  {
+   "source": "Vino Disco",
+   "title": "Chrissando + Friends (EXTENDED 6AM)",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://ra.co/events/2594391",
+   "end": "2026-12-13T06:00:00-05:00",
+   "location": "Vino Disco",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Disco",
+    "Electronic"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "35f9791af676934696e5",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -3980,6 +4983,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Papa Son’s",
+   "start": "2026-12-12T22:30:00-05:00",
+   "url": "",
+   "end": "2026-12-13T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d6d2418e87d2d35b3bbf",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Datcha",
    "title": "NONSTOP: Midnite Club presents Jordan Gardner, 999ADJ, Groceries",
    "start": "2026-12-12T23:00:00-05:00",
@@ -4086,6 +5109,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Mélanie Charrier",
+   "start": "2026-12-13T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-13T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "f5040f38c62294ebcd9c",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Système",
    "title": "Les Soirées Système",
    "start": "2026-12-13T18:00:00-05:00",
@@ -4148,7 +5192,7 @@
    "start": "2026-12-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$15",
@@ -4200,6 +5244,27 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "David Segreti Band",
+   "start": "2026-12-13T22:30:00-05:00",
+   "url": "",
+   "end": "2026-12-14T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "1acdedd3fc7866c2fe24",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "THE BACKSTAGE",
    "start": "2026-12-14",
@@ -4219,6 +5284,27 @@
    "tab": "music",
    "id": "c2e975a2964ca1db70fb",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Mick Martel",
+   "start": "2026-12-14T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-15T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "10ccc906887e351e52a0",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -4256,6 +5342,49 @@
    "id": "4dd87f94fa817184fe5c",
    "about": "Présenté par Greenland et evenko Avec: Invité(e)s Portes: 7PM | Spectacle: 8PM | Tous âges",
    "added": ""
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alec McElcheran",
+   "start": "2026-12-15T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-16T00:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b88abde917a665e4003e",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Les Mardis Big Band avec Altsys Orchestra",
+   "start": "2026-12-15T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-15",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "071dcfeaa81a67e75a84",
+   "about": "Jennifer Bell - saxophone\n\nBill Mahar - trompette\n\nSpectacle à 19h",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -4297,12 +5426,54 @@
    "added": ""
   },
   {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Trio invite Dejan Brown + Jam Session",
+   "start": "2026-12-15T21:30:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-15",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "4023781207120d06f111",
+   "about": "Dejan Brown (invité) - saxophone\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Bistro à Jojo",
+   "title": "Alan Springer",
+   "start": "2026-12-16T17:00:00-05:00",
+   "url": "",
+   "end": "2026-12-16T21:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "4c64f8b478b084b04a17",
+   "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Blue Skies Turn Black présente: JORDAN HART + EMILY SCHULTZ",
    "start": "2026-12-16T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-17-blue-skies-turn-black-presente-jordan-hart",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$30",
@@ -4392,6 +5563,26 @@
    "added": ""
   },
   {
+   "source": "Bistro à Jojo",
+   "title": "Rocky & Friends",
+   "start": "2026-12-16T22:00:00-05:00",
+   "url": "",
+   "end": "2026-12-17T03:00:00-05:00",
+   "location": "Bistro à Jojo, 1627 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e644b0e6b74ea54be9d0",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Le Red Room",
    "title": "V I IV le vent II",
    "start": "2026-12-17",
@@ -4412,6 +5603,28 @@
    "id": "8e961be18c2c6a2a4b63",
    "about": "V I IV Collective présente V I IV le Vent II\n\nV I IV Collective présente sa deuxième édition de V I IV le Vent, un évènement qui frappe Montréal à chaque mois de Décembre. Venez danser aux sons de vo...",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Daniel Thouin Presente le Noel de Charlie Brown",
+   "start": "2026-12-17T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-17",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Holiday Season"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e208d2356ab3163cf287",
+   "about": "Daniel Thouin présente un concert très spécial mettant à l’honneur les pièces de l’album A Charlie Brown Christmas du pianiste jazz américain Vince Guaraldi. Cet enregistrement, paru en 1965, et dont la popularité ne se dément pas, est considéré comme l’un des meilleurs albums de Noël de tous les temps, en plus d’avoir fait découvrir le jazz à une toute nouvelle génération.\n\nDaniel Thouin - piano…",
+   "added": "2026-11-26"
   },
   {
    "source": "Turbo Haüs",
@@ -4436,6 +5649,42 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Ramures (et Lézart) : Lancement de Single",
+   "start": "2026-12-17T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [],
+   "image": "img/78d48bf1cfabbfc2.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3c3e88b432b3fc0e3801",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Joel Betts with Lauryn Macfarlane",
+   "start": "2026-12-17T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$13",
+   "price_lo": 13.19,
+   "genres": [],
+   "image": "img/eec02ae3f1b7e50e.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1a1a924c4e4659ac73e3",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
    "start": "2026-12-17T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
@@ -4453,40 +5702,24 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Joel Betts with Lauryn Macfarlane",
+   "source": "Vino Disco",
+   "title": "DUROCHER DJ (ALL NIGHT)",
    "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live",
-   "end": null,
-   "location": "Casa Del Popolo",
+   "url": "https://ra.co/events/2594392",
+   "end": "2026-12-18T03:00:00-05:00",
+   "location": "Vino Disco",
    "kind": "",
-   "free": false,
-   "price": "$13",
-   "price_lo": 13.19,
-   "genres": [],
-   "image": "img/eec02ae3f1b7e50e.webp",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "",
    "all_day": false,
    "tab": "music",
-   "id": "1a1a924c4e4659ac73e3",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Ramures (et Lézart) : Lancement de Single",
-   "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
-   "genres": [],
-   "image": "img/78d48bf1cfabbfc2.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3c3e88b432b3fc0e3801",
-   "added": ""
+   "id": "f1b20bba42349a1730cc",
+   "added": "2026-11-26"
   },
   {
    "source": "Système",
@@ -4547,6 +5780,28 @@
    "tab": "music",
    "id": "8b3f2682076255f5964a",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Daniel Thouin Presente le Noel de Charlie Brown",
+   "start": "2026-12-18T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-18",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Holiday Season"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "0de81fa1c58be294f075",
+   "about": "Daniel Thouin présente un concert très spécial mettant à l’honneur les pièces de l’album A Charlie Brown Christmas du pianiste jazz américain Vince Guaraldi. Cet enregistrement, paru en 1965, et dont la popularité ne se dément pas, est considéré comme l’un des meilleurs albums de Noël de tous les temps, en plus d’avoir fait découvrir le jazz à une toute nouvelle génération.\n\nDaniel Thouin - piano…",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -4614,7 +5869,7 @@
    "start": "2026-12-18T21:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-19-montalban",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$15",
@@ -4632,7 +5887,7 @@
    "start": "2026-12-18T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/hear-2-move",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$36–66",
@@ -4756,7 +6011,7 @@
    "start": "2026-12-19T19:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-20-souper-stumping-sing-along-avec-lake-of-stew",
    "end": null,
-   "location": "Sala Resto",
+   "location": "La Sala Rossa (restaurant)",
    "kind": "",
    "free": false,
    "price": "$23",
@@ -4769,6 +6024,27 @@
    "tab": "music",
    "id": "2f70483eb2dd0a297e8c",
    "added": ""
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Normand Guilbeault Ensemble Presente Hommage A Mingus",
+   "start": "2026-12-19T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-19",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "348a68e8a6cea103fc3d",
+   "about": "Normand Guilbeault - contrebasse\n\nIvanhoe Jolicoeur - trompette\n\nMathieu Belanger - clarinette\n\nJean Derome - saxophone\n\nAlexandre Grogg - piano\n\nClaude Lavergne - batterie\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
+   "added": "2026-11-26"
   },
   {
    "source": "Vino Disco",
@@ -4793,12 +6069,30 @@
    "added": ""
   },
   {
+   "source": "L'Escogriffe",
+   "title": "Paradise + z-cocoon",
+   "start": "2026-12-19T20:00:00-05:00",
+   "url": "https://www.songkick.com/concerts/43498843-paradise-at-lescogriffe-bar-spectacle",
+   "end": null,
+   "location": "L'Escogriffe, 4461 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/0d9abe9d9c04c178.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "af377c1cc44d6dc5f332",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "SEAVER + SHE CAME TO QUIT + MORT D'HOMME",
    "start": "2026-12-19T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-20-seaver-she-came-to-quit-mort-d-homme",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$18",
@@ -4877,7 +6171,7 @@
    "start": "2026-12-19T23:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/afrotonik-dance-party-12-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$16–40",
@@ -5039,12 +6333,73 @@
    "added": ""
   },
   {
+   "source": "L'Escogriffe",
+   "title": "Boogat + Sonido Pesao",
+   "start": "2026-12-22T20:00:00-05:00",
+   "url": "https://www.songkick.com/concerts/43533400-boogat-at-lescogriffe-bar-spectacle",
+   "end": null,
+   "location": "L'Escogriffe, 4461 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/efcf2ad7c0c26949.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "83f554cd5ce1673079b5",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Trio invite Hichem Khalfa + Jam Session",
+   "start": "2026-12-22T21:30:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-22",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9835c9154ba6ea1ae81d",
+   "about": "Hichem Khalfa (invité) - trompette\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Dièse Onze",
+   "title": "Daniel Thouin Presente le Noel de Charlie Brown",
+   "start": "2026-12-23T19:00:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-23",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$15–25",
+   "price_lo": 15.0,
+   "genres": [
+    "Jazz & Blues",
+    "Holiday Season"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2a5db5817e7cdd74fcab",
+   "about": "Daniel Thouin présente un concert très spécial mettant à l’honneur les pièces de l’album A Charlie Brown Christmas du pianiste jazz américain Vince Guaraldi. Cet enregistrement, paru en 1965, et dont la popularité ne se dément pas, est considéré comme l’un des meilleurs albums de Noël de tous les temps, en plus d’avoir fait découvrir le jazz à une toute nouvelle génération.\n\nDaniel Thouin - piano…",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Norman Nawrockis 12th annual Rad Non-Xmas Music Bash!",
    "start": "2026-12-23T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-24-norman-nawrockis-12th-annual-rad-non-xmas-music-bash",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$11",
@@ -5206,6 +6561,27 @@
    "added": ""
   },
   {
+   "source": "Dièse Onze",
+   "title": "Alex Bellegarde Trio invite Guillaume Carpentier + Jam Session",
+   "start": "2026-12-29T21:30:00-05:00",
+   "url": "http://www.dieseonze.com/calendrier.php?l=fr#2026-12-29",
+   "end": null,
+   "location": "Dièse Onze, 4115-A rue St-Denis",
+   "kind": "",
+   "free": false,
+   "price": "$8",
+   "price_lo": 8.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "45364db6949288b6285c",
+   "about": "Guillaume Carpentier (invité) - saxophone\n\nAlex Bellegarde - contrebasse\n\nEric St-Jean - piano\n\nMartin Auguste - batterie\n\nSpectacle à 21h30 suivi d'un Jam session",
+   "added": "2026-11-26"
+  },
+  {
    "source": "New City Gas",
    "title": "Josh Baker, Jay Pryor",
    "start": "2026-12-29T22:00:00-05:00",
@@ -5292,7 +6668,7 @@
    "start": "2026-12-31T22:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/sat-nye-2026",
    "end": null,
-   "location": "SAT – Other",
+   "location": "SAT",
    "kind": "",
    "free": false,
    "price": "$29–63",
@@ -5576,7 +6952,7 @@
    "start": "2027-01-13T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-14-hirzer-valdepenas-sara-rossy",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$15",
@@ -5587,6 +6963,49 @@
    "tab": "music",
    "id": "454a6312f4d864c6ff8f",
    "added": ""
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: KAYTRANADA, Make A Dance",
+   "start": "2027-01-14T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-1",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic",
+    "Dance"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "524db835d91a6d90a196",
+   "about": "Sapporo stage: KAYTRANADA 10 pm · Lou Phelps 8:30 pm · Taima 7:30 pm\n\nVidéotron stage (Ferias): Make A Dance 8:45 pm · silktits 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: James Hype, Prïa b2b Zac Martel b2b NAB",
+   "start": "2027-01-15T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-1",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9598e4f6b68842d5af4e",
+   "about": "Sapporo stage: James Hype 11 pm · Tini Gessler 9:30 pm · The Holy 7:30 pm\n\nVidéotron stage (AMPER): Prïa b2b Zac Martel b2b NAB 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "Vino Disco",
@@ -5609,6 +7028,27 @@
    "tab": "music",
    "id": "12240ef1d511365eddfd",
    "added": ""
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: Chris Lorenzo, SALOME",
+   "start": "2027-01-16T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-1",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3593c485272de5387d48",
+   "about": "Sapporo stage: Chris Lorenzo 10:30 pm · SAPIAN 9 pm · Anna Wilder 7:30 pm\n\nVidéotron stage: SALOME 9:30 pm · Xia 8:30 pm · No Police 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "SAT",
@@ -5636,7 +7076,7 @@
    "start": "2027-01-17T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-18-h-ii-regions-weather-satellite-lily-finnegan-drums-sam-shalabi-guitar",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$12",
@@ -5667,6 +7107,48 @@
    "added": ""
   },
   {
+   "source": "Igloofest",
+   "title": "Igloofest: Fatboy Slim",
+   "start": "2027-01-21T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-2",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "88954b862606aaeb284d",
+   "about": "Sapporo stage: Fatboy Slim 9:30 pm · Mystery guest 8:30 pm · Lia Plutonic 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: KETTAMA, Chippy Nonstop b2b Nino Brown b2b Young Teesh (sold out)",
+   "start": "2027-01-22T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-2",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "681e07d7fb4d6eb2596f",
+   "about": "Sapporo stage: KETTAMA 11 pm · Robbie Doherty 9:30 pm · Elvis Guetta 8:30 pm · syd woz 7:30 pm\n\nVidéotron stage (Pep Rally): Chippy Nonstop b2b Nino Brown b2b Young Teesh 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "Ratpiss + Neverless.am + Eden Will Burn + Angel Spit",
    "start": "2027-01-22T20:00:00-05:00",
@@ -5686,6 +7168,27 @@
    "tab": "music",
    "id": "8c85558f3b02fb04981b",
    "added": ""
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: Ninajirachi, Mowie b2b the bald girl",
+   "start": "2027-01-23T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-2",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1542f7029e783be482da",
+   "about": "Sapporo stage: Ninajirachi 11 pm · Frost Children (DJ set) 10 pm · MGNA CRRRTA (DJ set) 9 pm · Isla Den (DJ set) 7:30 pm\n\nVidéotron stage: Mowie b2b the bald girl 10 pm · swedm® (Varg²™ + jamesjamesjames) 8:30 pm · Beamskii 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "SAT",
@@ -5790,22 +7293,25 @@
    "added": ""
   },
   {
-   "source": "Casa del Popolo",
-   "title": "Woody à la Casa Del Popolo",
-   "start": "2027-01-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
+   "source": "Igloofest",
+   "title": "Igloofest: Mosimann",
+   "start": "2027-01-28T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-3",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Quai Jacques-Cartier, Old Port",
    "kind": "",
    "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/9740b841ffb9f488.webp",
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
    "all_day": false,
    "tab": "music",
-   "id": "f5e827d5e9d0660905c4",
-   "added": ""
+   "id": "7d4906d48473d7945d53",
+   "about": "Sapporo stage: Mosimann 9:30 pm · Tony Romera 8:30 pm · V!A 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -5824,6 +7330,45 @@
    "tab": "music",
    "id": "1ba5c52e3d1b269a8d99",
    "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Woody à la Casa Del Popolo",
+   "start": "2027-01-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/9740b841ffb9f488.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "f5e827d5e9d0660905c4",
+   "added": ""
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: Seven Lions, Chris Luno",
+   "start": "2027-01-29T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-3",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c3a7cb87d25856b59197",
+   "about": "Sapporo stage: Seven Lions 11:15 pm · Trivecta 9:45 pm · MUST DIE! 7:30 pm · PØPTRT 7:30 pm\n\nVidéotron stage: Chris Luno 9:30 pm · Moti (CR) 8:30 pm · DUZA 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "Casa del Popolo",
@@ -5869,7 +7414,7 @@
    "start": "2027-01-30T19:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/klangkarussell-2027",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$24–34",
@@ -5884,12 +7429,33 @@
    "added": ""
   },
   {
+   "source": "Igloofest",
+   "title": "Igloofest: deadmau5, Rodriguez Jr. (DJ set)",
+   "start": "2027-01-30T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-3",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d748fe584800674f5210",
+   "about": "Sapporo stage: deadmau5 10:30 pm · TDJ 9 pm · Claireyy 7:30 pm\n\nVidéotron stage (Sun & Earth): Rodriguez Jr. (DJ set) 9 pm · Hicky & Kalo 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Casa del Popolo",
    "title": "Tom Gershwin Quartet",
    "start": "2027-01-30T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-31-tom-gershwin-quartet",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$18",
@@ -5964,6 +7530,48 @@
    "added": ""
   },
   {
+   "source": "Igloofest",
+   "title": "Igloofest: Fcukers (DJs), Marie Davidson (DJ set)",
+   "start": "2027-02-04T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-4",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "402cc8a7ff0c35969bc9",
+   "about": "Sapporo stage: Fcukers (DJs) 9:30 pm · Marie Davidson (DJ set) 8 pm · Field Note 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: Boris Brejcha, tINI",
+   "start": "2027-02-05T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-4",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "8de8f07aec92900ca194",
+   "about": "Sapporo stage: Boris Brejcha 11 pm · DREYA V 9:30 pm · Kolophane 7:30 pm\n\nVidéotron stage (KNTC): tINI 9 pm · Dimitry b2b Lara Bee 7:30 pm",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Théâtre Fairmount",
    "title": "ROMAIN GARCIA (DJ set)",
    "start": "2027-02-05T22:00:00.628000-05:00",
@@ -6002,6 +7610,27 @@
    "id": "70369ccea896b26d3bc0",
    "about": "el Tour de RRRomeo Présenté par (Avec) Courage! Portes: 7PM | Spectacle: 8PM | 18+",
    "added": ""
+  },
+  {
+   "source": "Igloofest",
+   "title": "Igloofest: Subtronics, Miss Bashful",
+   "start": "2027-02-06T19:30:00-05:00",
+   "url": "https://igloofest.ca/en/festival/2027-week-end-4",
+   "end": null,
+   "location": "Quai Jacques-Cartier, Old Port",
+   "kind": "",
+   "free": false,
+   "price": "from $49 + tax",
+   "price_lo": 49.0,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/d90b94e5f5a5e486.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "7295750d95d1d7a98e4f",
+   "about": "Sapporo stage: Subtronics 11:15 pm · Taiki Nulight 9:30 pm · NAË 7:30 pm\n\nVidéotron stage (Hauterageous): Miss Bashful 10:15 pm · Siren Mars 8:45 pm · HŸDRA 7:30 pm",
+   "added": "2026-11-26"
   },
   {
    "source": "SAT",
@@ -6071,7 +7700,7 @@
    "start": "2027-02-08T19:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-02-09-morgan-garrett-avec-perfect-outfit-dumb-chamber",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$22",
@@ -6444,6 +8073,24 @@
    "added": ""
   },
   {
+   "source": "L'Escogriffe",
+   "title": "BESS ATWELL",
+   "start": "2027-03-02T20:30:00-05:00",
+   "url": "https://www.songkick.com/concerts/43465671-bess-atwell-at-lescogriffe-bar-spectacle",
+   "end": null,
+   "location": "L'Escogriffe, 4461 rue St-Denis",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/9608bb1829b9415a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d2d32c330de2cc11cb05",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bar Le Ritz PDB",
    "title": "EARTH TO EVE",
    "start": "2027-03-05T19:30:00.179000-05:00",
@@ -6624,7 +8271,7 @@
    "start": "2027-03-13T19:00:00-05:00",
    "url": "https://sat.qc.ca/en/events/pierre-kwenders-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$30",
@@ -6723,7 +8370,7 @@
    "start": "2027-03-17T20:00:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-03-18-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-1",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$22",
@@ -6760,7 +8407,7 @@
    "start": "2027-03-18T20:00:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-03-19-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-2",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$22",
@@ -6859,7 +8506,7 @@
    "start": "2027-03-20T20:00:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-03-21-ryley-walker",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$22",
@@ -6993,7 +8640,7 @@
    "start": "2027-03-27T22:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/jersey-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$36–41",
@@ -7050,7 +8697,7 @@
    "start": "2027-04-02T20:30:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-04-03-vlad-holiday",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$23",
@@ -7108,7 +8755,7 @@
    "start": "2027-04-03T22:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/club-sat-adrian-sherwood-honeydrip-2027",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$30–35",
@@ -7170,7 +8817,7 @@
    "start": "2027-04-08T20:00:00-04:00",
    "url": "https://casadelpopolo.com/en/events/2027-04-09-colin-leo-leger-stress",
    "end": null,
-   "location": "Casa Del Popolo",
+   "location": "Casa del Popolo",
    "kind": "",
    "free": false,
    "price": "$20",
@@ -7350,7 +8997,7 @@
    "start": "2027-04-30T19:00:00-04:00",
    "url": "https://sat.qc.ca/en/events/klangphonics-the-zest-tour-2026",
    "end": null,
-   "location": "SAT – SAT Space",
+   "location": "SAT – Espace SAT",
    "kind": "",
    "free": false,
    "price": "$36–41",
@@ -7662,7 +9309,7 @@
    "start": "2026-11-28T17:30:00-05:00",
    "url": "https://luma.com/kukqhsgv",
    "end": "2026-11-28T20:30:00-05:00",
-   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "location": "Soft Studio Days, 2000 av. Northcliffe #216",
    "kind": "",
    "free": false,
    "price": "$40",
@@ -7719,29 +9366,6 @@
    "tab": "other",
    "id": "d63cd529a5fe394405ab",
    "added": ""
-  },
-  {
-   "source": "MBAM",
-   "title": "La Buvette",
-   "start": "2026-12-03T18:00:00-05:00",
-   "url": "https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/",
-   "end": "2026-12-03T22:00:00-05:00",
-   "location": "Montreal Museum of Fine Arts, 1380 rue Sherbrooke O",
-   "kind": "Event",
-   "free": false,
-   "price": "$32",
-   "price_lo": 32.0,
-   "genres": [
-    "Electronic",
-    "Art & Workshops",
-    "Food & Drink"
-   ],
-   "image": "img/52d4a23976e38c61.webp",
-   "all_day": false,
-   "tab": "other",
-   "id": "88dd243a2b4183277b72",
-   "about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\nADDITIONAL INFORMATION…",
-   "added": "2026-11-26"
   },
   {
    "source": "Ateliers & Saveurs",
@@ -7838,7 +9462,7 @@
    "start": "2026-12-04T19:00:00-05:00",
    "url": "https://www.favouritelibrary.com/#shows",
    "end": null,
-   "location": "House show, Montreal",
+   "location": "House show",
    "kind": "",
    "free": null,
    "price": "",
@@ -8183,7 +9807,7 @@
    "start": "2026-12-13T12:00:00-05:00",
    "url": "https://luma.com/36q3zngt",
    "end": "2026-12-13T14:00:00-05:00",
-   "location": "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada",
+   "location": "Soft Studio Days, 2000 av. Northcliffe #216",
    "kind": "",
    "free": false,
    "price": "$65",
@@ -8204,7 +9828,7 @@
    "start": "2026-12-13T15:00:00-05:00",
    "url": "https://luma.com/eimb8vme",
    "end": "2026-12-13T17:00:00-05:00",
-   "location": "Montréal",
+   "location": "",
    "kind": "",
    "free": false,
    "price": "$25",
@@ -8309,7 +9933,7 @@
    "start": "2026-12-20T18:00:00-05:00",
    "url": "https://luma.com/drbw07zz",
    "end": "2026-12-20T20:00:00-05:00",
-   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
+   "location": "Soft Studio Days, 2000 av. Northcliffe #216",
    "kind": "",
    "free": false,
    "price": "$32",
@@ -13723,6 +15347,26 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Louks Pub",
+   "start": "2026-12-23T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Louks Pub, 1345 Rue Notre Dame Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "2403f1b1c0f0ac31abaa",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Bar Waverly",
    "start": "2026-12-23T19:00:00-05:00",
    "url": "",
@@ -13785,6 +15429,46 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at The Wheel Club",
+   "start": "2026-12-23T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "The Wheel Club, 3373 Cavendish Blvd Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "fbe082ba70f5db2dde38",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at PGSS Inc. Thomson House",
+   "start": "2026-12-23T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "PGSS Inc. Thomson House, 3650 Rue McTavish Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c0bd9b5419a3f44cd4eb",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Laugh It Off",
    "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
    "start": "2026-12-23T20:00:00-05:00",
@@ -13803,6 +15487,106 @@
    "tab": "bars",
    "id": "63c7e970e9b72333665d",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at La Petite Grenouille",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "La Petite Grenouille, 3435 St Laurent Blvd Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "dca869ba2c5a9d3e43ec",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Brasserie Dieu Du Ciel",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Brasserie Dieu Du Ciel, 21 Av. Laurier O Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "9d8c94699398899a97d2",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Le Ritz PDB",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Le Ritz PDB, 179 Rue Jean-Talon O Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "1f5090041e295166348a",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Comedy Open Mics",
+   "title": "Comedy Open Mic at Upstairs Jazz Bar & Grill",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Upstairs Jazz Bar & Grill, 1254 Mackay St Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Comedy"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "bf4684a1bcf14bb83ccf",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Comedy Open Mics",
+   "title": "Comedy Open Mic at Burgundy Lion",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Burgundy Lion, 2496 R. Notre Dame O Montreal QC",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Comedy"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f28e6d03883094890345",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -14869,28 +16653,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Film"
-   ],
-   "image": "img/bd32f61f9b548c6f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -14912,28 +16674,26 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
+    "Theatre & Shows",
+    "Film"
    ],
-   "image": "img/27174f84671e64c1.webp",
+   "image": "img/bd32f61f9b548c6f.webp",
    "all_day": false,
    "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -14997,6 +16757,30 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
+   ],
+   "image": "img/27174f84671e64c1.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -15216,25 +17000,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Juste une illusion de Eric Toledano et Olivier Nakache - Ciné-Club du Plateau-Mont-Royal",
    "start": "2026-12-01T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/juste-une-illusion-de-eric-toledano-et-olivier-nakache-cine-club-du-plateau-mont-royal-119481",
@@ -15252,6 +17017,25 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -15806,6 +17590,27 @@
   },
   {
    "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -15826,25 +17631,23 @@
    "added": ""
   },
   {
-   "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
+   "source": "Other city venues",
+   "title": "Introduction à la machine à coudre",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
+   "end": null,
+   "location": "Fabricathèque du Sud-Ouest",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
+   "genres": [],
+   "image": "img/5147650d3c801653.webp",
    "all_day": false,
    "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
+   "id": "25fc5f1a4831f6d1cd8b",
+   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -15869,25 +17672,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Introduction à la machine à coudre",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
-   "end": null,
-   "location": "Fabricathèque du Sud-Ouest",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/5147650d3c801653.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "25fc5f1a4831f6d1cd8b",
-   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Musique avec toi",
    "start": "2026-12-05T10:30:00-05:00",
@@ -15905,27 +17689,6 @@
    "id": "7ca6a1a836c9b6d159f9",
    "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Activité de cuisine",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
-   "end": null,
-   "location": "Mini-bibliothèque de Chameran",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Food & Drink"
-   ],
-   "image": "img/0cc635d9e9dd2324.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "333639c0958f35fd4d94",
-   "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -15951,6 +17714,27 @@
   },
   {
    "source": "Other city venues",
+   "title": "Activité de cuisine",
+   "start": "2026-12-05T11:00:00-05:00",
+   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
+   "end": null,
+   "location": "Mini-bibliothèque de Chameran",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Food & Drink"
+   ],
+   "image": "img/0cc635d9e9dd2324.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "333639c0958f35fd4d94",
+   "about": "Avec C'est moi le chef!",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Callisthénie (complet / sold out)",
    "start": "2026-12-05T11:45:00-05:00",
    "url": "https://montreal.ca/evenements/callisthenie-118745",
@@ -15966,6 +17750,28 @@
    "tab": "city",
    "id": "d4a9f9b5623a24229fc2",
    "about": "Venez découvrir une mise forme sans équipement avec la callisthénie.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "Atelier de confection de couronne de Noël",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Maison Robert-Bélanger",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Art & Workshops"
+   ],
+   "image": "img/24b6dcd0ea23b581.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "b6724db457192ee6518d",
+   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
    "added": "2026-11-26"
   },
   {
@@ -15990,28 +17796,6 @@
    "id": "3b46f9b3c244e8b0b516",
    "about": "Quelques jours avant Noël, un mononcle hirsute et malcommode voit sa chère quiétude troublée par l’arrivée des petits cousins, créatures sans foi ni loi dont l’enthousiasme débordant emporte tout sur son passage.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atelier de confection de couronne de Noël",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
-   "end": "2026-12-05T15:30:00-05:00",
-   "location": "Maison Robert-Bélanger",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Art & Workshops"
-   ],
-   "image": "img/24b6dcd0ea23b581.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "b6724db457192ee6518d",
-   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17127,6 +18911,28 @@
    "added": ""
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -17144,6 +18950,25 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -17167,47 +18992,6 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -17373,6 +19157,27 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "Voisinages – Le Vent du Nord",
+   "start": "2026-12-10T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
+   "end": "2026-12-10T21:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/dce433368540e265.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "10d070fcb5f7ba07a8a6",
+   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Spectacle en rodage - Virginie Fortin",
    "start": "2026-12-10T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/spectacle-en-rodage-virginie-fortin-108321",
@@ -17411,27 +19216,6 @@
    "tab": "city",
    "id": "02328a868b7193dd4c2e",
    "about": "Est-ce qu'un acteur orphelin de père peut devenir autre chose qu'un clown? René Bazinet et David-Alexandre Després, deux légendes circassiennes qui ont grandi sans papa, tentent d'y répondre en observant leur souffrance de l'abandon et leur désir de plaire.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Voisinages – Le Vent du Nord",
-   "start": "2026-12-10T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
-   "end": "2026-12-10T21:30:00-05:00",
-   "location": "Quai 5160 – Maison de la culture de Verdun",
-   "kind": "",
-   "free": false,
-   "price": "$14",
-   "price_lo": 14.5,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/dce433368540e265.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "10d070fcb5f7ba07a8a6",
-   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
    "added": ""
   },
   {

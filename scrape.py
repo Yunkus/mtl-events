@@ -765,6 +765,131 @@ def tickettailor(org: str, source: str) -> list[Ev]:
     return out
 
 
+def dieseonze() -> list[Ev]:
+    """Dièse Onze (jazz club, 4115-A St-Denis): its calendar page lists every show with date anchor, time,
+    line-up and cover. The site only answers over plain http."""
+    url = "http://www.dieseonze.com/calendrier.php?l=fr"
+    s = BeautifulSoup(get(url).content, "html.parser")
+    out = []
+    for tr in s.select("#table_whole_calendar tr"):
+        a = tr.find("a", attrs={"name": re.compile(r"^\d{4}-\d{2}-\d{2}$")})
+        tds = tr.find_all("td", recursive=False)
+        if not a or len(tds) < 2 or not tds[1].find("b"):
+            continue
+        title = clean(tds[1].find("b").get_text(" "))
+        if re.search(r"ferm[ée]|closed|d[ée]tails? [àa] venir$", title, re.I) or title.upper() == "SPECTACLE JAZZ":
+            continue
+        m = re.search(r"(\d{1,2})h(\d{2})", tds[0].get_text())
+        t = time(int(m.group(1)), int(m.group(2))) if m else None
+        body = tds[1].find("span") or tds[1]
+        lines = [clean(p.get_text(" ")) for p in body.find_all("p")] or [clean(body.get_text(" "))]
+        lines = [x for x in lines if x]
+        prices = [float(x) for x in re.findall(r"(\d{1,3})\s*\$", tds[1].get_text(" "))]
+        ev = Ev("Dièse Onze", tidy_case(title), local(date.fromisoformat(a["name"]), t),
+                f"{url}#{a['name']}", location="Dièse Onze, 4115-A rue St-Denis")
+        # the line-up ("Coral Egan - voix · Dan Thouin - piano") and set times, without the booking boilerplate
+        ev.desc = "\n".join(x for x in lines if not re.search(r"r[ée]servation|ouverture des portes|\$", x, re.I))
+        out.append(priced(ev, None, min(prices), max(prices)) if prices else ev)
+    return out
+
+
+def bistro_a_jojo() -> list[Ev]:
+    """Bistro à Jojo (blues bar, 1627 St-Denis), live music 7 nights: its public Google Calendar. The early sets
+    (5 pm, solo/duo acoustic) are free with a tip jar, says the bar; evening bands have no price listed."""
+    out = google_calendar("bistroajojo.montreal@gmail.com", "Bistro à Jojo", "Bistro à Jojo, 1627 rue St-Denis",
+                          days=21)   # two or three sets a night: three weeks is plenty
+    for e in out:
+        if e.start.hour < 20:
+            priced(e, True)
+            e.desc = e.desc or "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome."
+    return out
+
+
+def songkick_venue(venue: str, source: str, location: str) -> list[Ev]:
+    """A venue's Songkick page (songkick.com/venues/<id-name>; allowed by its robots.txt): a schema.org MusicEvent
+    per upcoming show, with the line-up and an artist photo."""
+    # Songkick answers 406 to the default "Accept-Encoding: gzip, deflate, br, zstd"; plain gzip is fine
+    r = SESSION.get(f"https://www.songkick.com/venues/{venue}", headers={"Accept-Encoding": "gzip, deflate"}, timeout=30)
+    r.raise_for_status()
+    s = BeautifulSoup(r.content, "html.parser")
+    out = []
+    for sc in s.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(sc.string or "")
+        except ValueError:
+            continue
+        for d in data if isinstance(data, list) else [data]:
+            if "Event" not in str(d.get("@type")) or "Cancelled" in d.get("eventStatus", "") \
+                    or "Postponed" in d.get("eventStatus", ""):
+                continue
+            acts = [p["name"] for p in d.get("performer") or [] if p.get("name")]
+            title = " + ".join(acts) or d["name"].split(" @ ")[0]
+            start = d["startDate"]
+            when = local(date.fromisoformat(start[:10]), time.fromisoformat(start[11:16]) if "T" in start else None)
+            ev = Ev(source, title, when, d.get("url", "").split("?")[0], location=location)
+            ev.image = d.get("image", "") if "default" not in d.get("image", "") else ""
+            ev.genres = genres_in(" ".join(g for p in d.get("performer") or [] for g in p.get("genre") or []))
+            out.append(ev)
+    return out
+
+
+def tidy_case(title: str) -> str:
+    """'CORAL EGAN TRIO' -> 'Coral Egan Trio' (titles typed in capitals); mixed-case titles are left alone."""
+    if title != title.upper():
+        return title
+    small = {"de", "du", "des", "la", "le", "les", "et", "à", "au", "avec", "and", "the", "of", "with", "joue", "invite"}
+    words = title.lower().split()
+    return " ".join(w if i and w in small else w.upper() if len(w) <= 2 and w.isalpha() else w[:1].upper() + w[1:]
+                    for i, w in enumerate(words))
+
+
+def google_calendar(calendar_id: str, source: str, location: str, days: int = 35,
+                    skip: str = r"^(?:[àa] venir|tba|tbd|ferm[ée]|closed)\b") -> list[Ev]:
+    """A venue's public Google Calendar (its iCal feed): one-off events plus weekly/daily repeats for the next
+    `days` days. Changed or cancelled single dates of a repeat are respected."""
+    from urllib.parse import quote
+    from icalendar import Calendar as ICal
+    from dateutil.rrule import rrulestr
+    feed = f"https://calendar.google.com/calendar/ical/{quote(calendar_id)}/public/basic.ics"
+    cal = ICal.from_ical(get(feed).content)
+    now = datetime.now(TZ)
+    until = now + timedelta(days=days)
+    overridden = set()   # (uid, original start) of single dates that were moved or edited
+    for v in cal.walk("VEVENT"):
+        if v.get("recurrence-id"):
+            rid = v.decoded("recurrence-id")
+            overridden.add((str(v.get("uid")), rid if isinstance(rid, datetime) else rid))
+    out = []
+
+    def add(v, start, end):
+        title = clean(str(v.get("summary") or "")).strip(" -–")
+        if not title or re.search(skip, title, re.I) or str(v.get("status", "")).upper() == "CANCELLED":
+            return
+        ev = Ev(source, title, start.astimezone(TZ) if isinstance(start, datetime) else start, "",
+                end.astimezone(TZ) if isinstance(end, datetime) else None, location)
+        ev.desc = clean(str(v.get("description") or ""))
+        out.append(ev)
+
+    for v in cal.walk("VEVENT"):
+        start = v.decoded("dtstart")
+        end = v.decoded("dtend") if v.get("dtend") else None
+        if not isinstance(start, datetime):
+            continue   # all-day notes ("vacances", "fermé")
+        length = (end - start) if end else timedelta(hours=2)
+        if v.get("rrule"):
+            rule = rrulestr(v.get("rrule").to_ical().decode(), dtstart=start)
+            exdates = set()
+            for ex in (v.get("exdate") if isinstance(v.get("exdate"), list) else [v.get("exdate")] if v.get("exdate") else []):
+                exdates |= {d.dt for d in ex.dts}
+            for occ in rule.between(now - length, until, inc=True):
+                if occ in exdates or (str(v.get("uid")), occ) in overridden:
+                    continue
+                add(v, occ, occ + length)
+        elif now - length <= start <= until:
+            add(v, start, end)
+    return out
+
+
 def urljoin_(base: str, href: str) -> str:
     from urllib.parse import urljoin
     return urljoin(base, href)
@@ -826,6 +951,48 @@ def trivianearme(weeks: int = 4) -> list[Ev]:
     return out
 
 
+# Raw room / place names from the sources -> one clean name. Matched on the whole location (case-insensitive);
+# add a line when a new spelling shows up.
+ROOM_NAMES = {
+    "casa del popolo": "Casa del Popolo",
+    "sala resto": "La Sala Rossa (restaurant)",
+    "sat – other": "SAT",
+    "sat – sat space": "SAT – Espace SAT",
+    "esc, h2x 2t3": "ESC, 2023 boul. Saint-Laurent",
+    "esc": "ESC, 2023 boul. Saint-Laurent",
+    "2000 av. northcliffe, montréal, qc h4a 3k5, canada": "Soft Studio Days, 2000 av. Northcliffe #216",
+    "soft studio days, 2000 av. northcliffe #216, montréal, qc h4a 3k5, canada": "Soft Studio Days, 2000 av. Northcliffe #216",
+    "montréal": "", "montreal": "",   # says nothing: the whole site is Montreal
+}
+
+
+def tidy_rooms(events: list[Ev]) -> None:
+    for e in events:
+        key = clean(e.location).lower()
+        if key in ROOM_NAMES:
+            e.location = ROOM_NAMES[key]
+        else:   # strip a trailing ", Montréal, QC H2X 1Y1, Canada" that some sources add
+            e.location = re.sub(r",\s*Montr[ée]al(?:,\s*(?:QC|Qu[ée]bec))?(?:\s+H\d\w\s?\d\w\d)?(?:,\s*Canada)?\s*$", "",
+                                clean(e.location))
+
+
+TWO_READERS = {"L'Escogriffe"}   # venues read from two places (Songkick + RA)
+
+
+def merge_repeats(events: list[Ev]) -> list[Ev]:
+    """The same show from two readers of one venue (L'Escogriffe on Songkick and RA): same chip, same day,
+    starting within 2 hours, sharing a word of the title. The first reader's copy is kept."""
+    out = []
+    for e in events:
+        if e.source in TWO_READERS and isinstance(e.start, datetime) and any(
+                o.source == e.source and isinstance(o.start, datetime) and abs(o.start - e.start) <= timedelta(hours=2)
+                and set(plain_text(o.title).split()) & {w for w in plain_text(e.title).split() if len(w) > 3}
+                for o in out[-60:]):
+            continue
+        out.append(e)
+    return out
+
+
 def dedupe_bar_nights(events: list[Ev]) -> list[Ev]:
     """The same bar's trivia (or karaoke…) on the same night from two sources: keep the first one listed.
     Bars are matched by street number + a word of the street name ("5752 Av de Monkland" = "5752 Monkland Ave"),
@@ -863,9 +1030,49 @@ ONE_OFF_BY_HAND: list[tuple] = [
 ]
 
 
+# Igloofest 2027 (Quai Jacques-Cartier, Old Port), all 12 nights. Line-up and set times from igloofest.ca's
+# weekend pages, checked 2026-11-26. General admission from $49 + tax.
+# (date, headliners for the title, the night's line-up by stage)
+IGLOO = "https://igloofest.ca/en/festival/2027-week-end-{}"
+IGLOOFEST_2027 = [
+    (date(2027, 1, 14), "KAYTRANADA, Make A Dance", 1,
+     "Sapporo stage: KAYTRANADA 10 pm · Lou Phelps 8:30 pm · Taima 7:30 pm\nVidéotron stage (Ferias): Make A Dance 8:45 pm · silktits 7:30 pm"),
+    (date(2027, 1, 15), "James Hype, Prïa b2b Zac Martel b2b NAB", 1,
+     "Sapporo stage: James Hype 11 pm · Tini Gessler 9:30 pm · The Holy 7:30 pm\nVidéotron stage (AMPER): Prïa b2b Zac Martel b2b NAB 7:30 pm"),
+    (date(2027, 1, 16), "Chris Lorenzo, SALOME", 1,
+     "Sapporo stage: Chris Lorenzo 10:30 pm · SAPIAN 9 pm · Anna Wilder 7:30 pm\nVidéotron stage: SALOME 9:30 pm · Xia 8:30 pm · No Police 7:30 pm"),
+    (date(2027, 1, 21), "Fatboy Slim", 2,
+     "Sapporo stage: Fatboy Slim 9:30 pm · Mystery guest 8:30 pm · Lia Plutonic 7:30 pm"),
+    (date(2027, 1, 22), "KETTAMA, Chippy Nonstop b2b Nino Brown b2b Young Teesh (sold out)", 2,
+     "Sapporo stage: KETTAMA 11 pm · Robbie Doherty 9:30 pm · Elvis Guetta 8:30 pm · syd woz 7:30 pm\n"
+     "Vidéotron stage (Pep Rally): Chippy Nonstop b2b Nino Brown b2b Young Teesh 7:30 pm"),
+    (date(2027, 1, 23), "Ninajirachi, Mowie b2b the bald girl", 2,
+     "Sapporo stage: Ninajirachi 11 pm · Frost Children (DJ set) 10 pm · MGNA CRRRTA (DJ set) 9 pm · Isla Den (DJ set) 7:30 pm\n"
+     "Vidéotron stage: Mowie b2b the bald girl 10 pm · swedm® (Varg²™ + jamesjamesjames) 8:30 pm · Beamskii 7:30 pm"),
+    (date(2027, 1, 28), "Mosimann", 3,
+     "Sapporo stage: Mosimann 9:30 pm · Tony Romera 8:30 pm · V!A 7:30 pm"),
+    (date(2027, 1, 29), "Seven Lions, Chris Luno", 3,
+     "Sapporo stage: Seven Lions 11:15 pm · Trivecta 9:45 pm · MUST DIE! 7:30 pm · PØPTRT 7:30 pm\n"
+     "Vidéotron stage: Chris Luno 9:30 pm · Moti (CR) 8:30 pm · DUZA 7:30 pm"),
+    (date(2027, 1, 30), "deadmau5, Rodriguez Jr. (DJ set)", 3,
+     "Sapporo stage: deadmau5 10:30 pm · TDJ 9 pm · Claireyy 7:30 pm\nVidéotron stage (Sun & Earth): Rodriguez Jr. (DJ set) 9 pm · Hicky & Kalo 7:30 pm"),
+    (date(2027, 2, 4), "Fcukers (DJs), Marie Davidson (DJ set)", 4,
+     "Sapporo stage: Fcukers (DJs) 9:30 pm · Marie Davidson (DJ set) 8 pm · Field Note 7:30 pm"),
+    (date(2027, 2, 5), "Boris Brejcha, tINI", 4,
+     "Sapporo stage: Boris Brejcha 11 pm · DREYA V 9:30 pm · Kolophane 7:30 pm\nVidéotron stage (KNTC): tINI 9 pm · Dimitry b2b Lara Bee 7:30 pm"),
+    (date(2027, 2, 6), "Subtronics, Miss Bashful", 4,
+     "Sapporo stage: Subtronics 11:15 pm · Taiki Nulight 9:30 pm · NAË 7:30 pm\nVidéotron stage (Hauterageous): Miss Bashful 10:15 pm · Siren Mars 8:45 pm · HŸDRA 7:30 pm"),
+]
+
+
 def by_hand(weeks: int = 4) -> list[Ev]:
     today = datetime.now(TZ).date()
     out = []
+    for d, heads, we, lineup in IGLOOFEST_2027:
+        ev = Ev("Igloofest", f"Igloofest: {heads}", local(d, time(19, 30)), IGLOO.format(we),
+                location="Quai Jacques-Cartier, Old Port")
+        ev.desc = lineup
+        out.append(priced(ev, False, 49.0, text="from $49 + tax"))
     for source, title, weekday, t, loc, free in WEEKLY_BY_HAND:
         first = today + timedelta(days=(weekday - today.weekday()) % 7)
         for w in range(weeks):
@@ -1402,6 +1609,9 @@ EVENT_SOURCES = {
     "Bar Datcha": lambda: ra_events("venue", "94451", "Bar Datcha"),
     # Barbossa (3956A St-Laurent): its own site is a Facebook page; its club nights go on RA venue 179148
     "Barbossa": lambda: ra_events("venue", "179148", "Barbossa"),
+    # jazz & blues rooms
+    "Dièse Onze": dieseonze,
+    "Bistro à Jojo": bistro_a_jojo,
     # LATEX. (latexrave.com): queer fetish rave, 20+; tickets on Ticket Tailor (organizer "slataprod")
     "LATEX.": lambda: tickettailor("slataprod", "LATEX."),
     "5 à Set": lambda: eventbrite_organizer("https://www.eventbrite.ca/o/5-a-set-120716281994", "5 à Set"),
@@ -1420,7 +1630,10 @@ EVENT_SOURCES = {
                                                  "Bar Le Ritz PDB, 179 Rue Jean-Talon O"),
     "Théâtre Fairmount": lambda: squarespace_shows("https://www.theatrefairmount.com", "Théâtre Fairmount",
                                                    "Théâtre Fairmount, 5240 Av. du Parc"),
-    "L'Escogriffe": lambda: ra_events("venue", "124247", "L'Escogriffe"),   # its own site is a Facebook page
+    # L'Escogriffe's own site is a Facebook page. Its shows are on Songkick; RA gets the odd club night.
+    "L'Escogriffe": lambda: songkick_venue("79022-lescogriffe-bar-spectacle", "L'Escogriffe",
+                                           "L'Escogriffe, 4461 rue St-Denis"),
+    "L'Escogriffe (RA)": lambda: ra_events("venue", "124247", "L'Escogriffe"),
     "Ausgang Plaza": lambda: ra_events("venue", "158331", "Ausgang Plaza"),
     "Quai des Brumes": quai_des_brumes,
     "Sans Soleil": lambda: ra_events("venue", "203475", "Sans Soleil"),   # basement bar; site is Instagram only
@@ -1592,7 +1805,7 @@ VENUE_GENRES = {
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
     "Boiler Room": ["Electronic"], "Eastern Bloc": ["Electronic", "Experimental"], "Newspeak": ["Electronic"],
-    "Turbo Haüs": ["Punk & Hardcore", "Rock & Indie"], "Le Belmont": ["Pop & Throwback", "Dance"],
+    "Igloofest": ["Electronic"], "Dièse Onze": ["Jazz & Blues"], "Bistro à Jojo": ["Jazz & Blues"], "Turbo Haüs": ["Punk & Hardcore", "Rock & Indie"], "Le Belmont": ["Pop & Throwback", "Dance"],
     # (no default for the live-band rooms — Casa del Popolo, Fairmount, Le Ritz, Quai des Brumes, L'Escogriffe:
     #  they book everything from folk metal to blues to improv, so an untagged show there stays untagged)
     "Laugh It Off": ["Comedy"], "Comedy Open Mics": ["Comedy"],
@@ -1632,6 +1845,9 @@ def is_comedy(e: Ev) -> bool:
         re.search(r"\b(?:stand-?up|humoriste|comedian|com[ée]dien)\b", e.blurb, re.I))
 
 
+JAZZ_ROOMS = {"Dièse Onze", "Bistro à Jojo"}
+
+
 def tag_genres(e: Ev, tab: str) -> None:
     if tab in ("museums", "movies"):
         return
@@ -1660,6 +1876,9 @@ def tag_genres(e: Ev, tab: str) -> None:
         tags = [g for g in tags if g in non_music]
     if tab == "music":   # "Productions" in a promoter's name, "Cirque Cosmic" the DJ… not theatre
         tags = [g for g in tags if g != "Theatre & Shows"]
+    if e.source in JAZZ_ROOMS:   # a "Quartet" at a jazz club isn't classical; "Matt Rock" plays the blues
+        tags = [g for g in tags if g not in ("Classical & Choral", "Rock & Indie", "Pop & Throwback")]
+        tags = tags + ["Jazz & Blues"] if "Jazz & Blues" not in tags else tags
     order = [g for g, _ in GENRES]
     e.genres = sorted(set(tags), key=order.index)
 
@@ -2009,6 +2228,8 @@ def main() -> int:
                 traceback.print_exc(limit=2)
 
     by_tab["bars"] = dedupe_bar_nights(by_tab["bars"])
+    by_tab["music"] = merge_repeats(sorted(by_tab["music"], key=sort_key))
+    tidy_rooms([e for evs in by_tab.values() for e in evs])
     fill_page_info([e for evs in by_tab.values() for e in evs])
     localize_images([e for evs in by_tab.values() for e in evs])
     update_first_seen([e for evs in by_tab.values() for e in evs])
@@ -2074,7 +2295,7 @@ QUIET_OK = {
     "McCord After Hours",        # page says "Stay tuned!" until the next date is set
     "Boiler Room",               # no Montreal show announced (last: March 2025)
     "Eastern Bloc",              # RA venue; last event May 2025, announces mostly on Instagram
-    "L'Escogriffe",              # posts on RA only occasionally (last: Aug 2026)
+    "L'Escogriffe (RA)",         # club nights on RA only occasionally (last: Aug 2026); its shows come from Songkick
     "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
     "Espace Transmission",       # RA venue; last event July 2026
     "LATEX.",                    # a party every month or two; nothing listed between editions

@@ -53,6 +53,8 @@ get no button.
 
 ## Alerts
 
+Room names are tidied through `ROOM_NAMES` in `scrape.py` (raw value → one clean name, e.g. "Casa Del Popolo" → "Casa del Popolo", "ESC, H2X 2T3" → "ESC, 2023 boul. Saint-Laurent"); add a line when a new spelling shows up.
+
 A source empty for 8 updates in a row (2 days) also opens an issue once, unless it's in `QUIET_OK` in
 `scrape.py` (sources checked by hand and known to be quiet, like McCord After Hours between dates).
 
@@ -124,7 +126,10 @@ Each event in the venue list below goes to **Music & Dance** unless:
 | Système | Resident Advisor venue 201918 (what systememtl.com links to) |
 | New City Gas | newcitygas.com/en/events, then each event page's schema.org data (times). No prices: the pages show a placeholder and Tixr blocks automated access. |
 | Eastern Bloc | Resident Advisor venue 147287 (parties, Sight+Sound). It mostly announces on Instagram, which can't be read automatically. |
-| L'Escogriffe | Resident Advisor venue 124247 (its own site is a Facebook page; lists shows on RA only occasionally) |
+| L'Escogriffe | Songkick venue page (songkick.com/venues/79022…; schema.org data per show, line-up and artist photo; allowed by Songkick's robots.txt), plus RA venue 124247 for the odd club night (same show from both is merged). Its own site is a Facebook page. |
+| Dièse Onze | dieseonze.com calendar page (plain http only): every show with time, line-up (as the description) and cover |
+| Bistro à Jojo | the bar's public Google Calendar (what its site's calendar widget shows), next 3 weeks; 5 pm acoustic sets marked free (tips), as the bar says. `google_calendar()` works for any venue with a public Google Calendar. |
+| Igloofest 2027 | by hand (`IGLOOFEST_2027` in `scrape.py`): all 12 nights, Jan 14 – Feb 6, line-up by stage with set times from igloofest.ca, GA from $49 + tax |
 | Ausgang Plaza | Resident Advisor venue 158331 |
 | Quai des Brumes | quaidesbrumes.ca/calendrier (Modern Events Calendar list; year from each entry's CSS class) |
 | StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
