@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Aurorae @ Planétarium - Espace pour la vie
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:d3eb366d56ed817492f8@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/aurorae
@@ -21,7 +21,7 @@ SUMMARY:Last day: Detours - Urban experiences @ MEM - Centre des mémoires
   montréalaises
 DTSTART;VALUE=DATE:20270930
 DTEND;VALUE=DATE:20271001
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:7243464ffa0ad9faca23@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/detours-urban-experiences
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: The art...of circus! @ TOHU
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ad9500fbd1c9ed51ba40@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-artof-circus
@@ -46,7 +46,7 @@ SUMMARY:Last day: Meryl McMaster. As Strong as the Wind @ Biosphère - Esp
  ace pour la vie
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:3b132ed0eccd7b6f76f4@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/meryl-mcmaster-as-strong-as-the-wind
@@ -59,7 +59,7 @@ SUMMARY:Last day: Watersheds ! Follow the Flow @ Biosphère - Espace pour
  la vie
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:bf1d2bc106de4e32ea9c@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/watersheds-follow-the-flow
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Seeking Refuge @ Biosphère - Espace pour la vie
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:8015028965df3851697d@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/seeking-refuge
@@ -84,7 +84,7 @@ SUMMARY:Last day: Alley-oop – An Interactive Adventure @ Pointe-à-calli
  ère\, Montreal archaeology and history complex
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:f71d5e48a5f2be748e20@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/alley-oop-an-interactive-adventure
@@ -97,7 +97,7 @@ SUMMARY:Last day: The Frontiers of Infinity @ Planétarium - Espace pour l
  a vie
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:248532f224155cfabd22@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-frontiers-of-infinity
@@ -110,7 +110,7 @@ SUMMARY:Last day: Pink Floyd - The Dark Side of the Moon 50th anniversary
  @ Planétarium - Espace pour la vie
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:866b010848d9fed7521b@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/pink-floyd-the-dark-side-of-the-moon-50th-anniversar
@@ -123,7 +123,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Émolab @ Biosphère - Espace pour la vie
 DTSTART;VALUE=DATE:20280331
 DTEND;VALUE=DATE:20280401
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:f9638ef49147efca310b@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/emolab
@@ -136,7 +136,7 @@ SUMMARY:Last day: Beyond the Pedestal: Sculptures in the Collection\, from
   the 1960s to Today @ Montreal museum of fine arts
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9c7c7d405587fb86797e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/beyond-the-pedestal-sculptures-in-the-collection-fro
@@ -150,7 +150,7 @@ SUMMARY:Last day: Le cucitrici : Voices of Montréal’s Italian seamstres
  ses @ MEM - Centre des mémoires montréalaises
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:752a7e2c36bc0ca18a9c@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/le-cucitrici-voices-of-montreals-italian-seamstresse
@@ -164,7 +164,7 @@ SUMMARY:Last day: The American Revolution in Quebec - Our March Toward Dem
  ocracy @ Château Ramezay\, Historic site and museum of Montreal
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:2fac7e02b6636ece22a0@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-american-revolution-in-quebec-our-march-toward-d
@@ -178,7 +178,7 @@ SUMMARY:Last day: BjFj-96: the secrets of Bonsecours @ Historical site Mar
  guerite-Bourgeoys
 DTSTART;VALUE=DATE:20291231
 DTEND;VALUE=DATE:20300101
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:89b9bb39440a3bce178d@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/bjfj-96-the-secrets-of-bonsecours
@@ -191,7 +191,7 @@ SUMMARY:Last day: Maisonneuve 1976. If Only Marius Could See This... @ Ch
  âteau Dufresne\, musée et lieu historique patrimonial
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:c585825d5af2832d046e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/maisonneuve-1976-if-only-marius-could-see-this
@@ -204,7 +204,7 @@ SUMMARY:Last day: Dorval\, Point of Passage to History @ Dorval museum of
  local history and heritage
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:53ca25f8ed8df320ed72@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/dorval-point-of-passage-to-history
@@ -217,7 +217,7 @@ SUMMARY:Last day: Active Grieving The Aesthetic Activism of ACT UP Montré
  al @ MEM - Centre des mémoires montréalaises
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:1ae5bf37b79988d70d7e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/active-grieving-the-aesthetic-activism-of-act-up-mon
@@ -231,7 +231,7 @@ SUMMARY:Last day: DIGITAL EXPERIENCE OF THE HOUSE @ Maison Saint-Gabriel\,
   historic site and museum
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:e63c9c0e0aa69f3cc7c3@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/digital-experience-of-the-house
@@ -244,7 +244,7 @@ SUMMARY:Last day: Tricia Enns — Formation et détection en ventologie @
  DARE-DARE
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b69ce60930dff48ebb99@mtl-events
 DESCRIPTION:DARE-DARE\nhttps://www.dare-dare.org/fr/evenements/la_formatio
  n_et_detection_en_ventologie
@@ -257,7 +257,7 @@ SUMMARY:Last day: The Great Solar System Adventure @ Planétarium - Espace
   pour la vie
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:c44b9dddfba05b3001e5@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-great-solar-system-adventure
@@ -270,7 +270,7 @@ SUMMARY:Last day: New search A World in Common @ Biosphère - Espace pour
  la vie
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ba5a323741482f40e483@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/new-search-a-world-in-common
@@ -283,7 +283,7 @@ SUMMARY:Last day: GUIDED TOUR FROM THE CELLAR TO THE ATTIC (English) @ Mai
  son Saint-Gabriel\, historic site and museum
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:7218062fe8cd1201ab43@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/guided-tour-from-the-cellar-to-the-attic-english
@@ -296,7 +296,7 @@ SUMMARY:Last day: GUIDED TOUR FROM THE CELLAR TO THE ATTIC (in french) @ M
  aison Saint-Gabriel\, historic site and museum
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:00819c5f6833f3f494be@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/guided-tour-from-the-cellar-to-the-attic-in-french
@@ -308,7 +308,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: claude périard — Prophéties cathartiques @ DARE-DARE
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:1f8d01caa8bdf4ee3e95@mtl-events
 DESCRIPTION:DARE-DARE\nhttps://www.dare-dare.org/fr/evenements/claude_peri
  ard
@@ -320,7 +320,7 @@ SUMMARY:Last day: Herbert Gerald Macklin: A citizen scientist of earlier t
  imes @ Redpath museum
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:404efb3f44c78149f3e7@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/herbert-gerald-macklin-a-citizen-scientist-of-earlie
@@ -334,7 +334,7 @@ SUMMARY:Last day: Chiharu Shiota: The Soul Trembles @ Montreal museum of f
  ine arts
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:d363edc09cdf2e78848e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/chiharu-shiota-the-soul-trembles-2
@@ -346,7 +346,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: The Story of the Dodo @ Redpath museum
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:340d1bb2092f755dfe36@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-story-of-the-dodo
@@ -359,7 +359,7 @@ SUMMARY:Last day: Encounters in the Milky Way @ Planétarium - Espace pour
   la vie
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:2d1d7caf700f9ed97004@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/encounters-in-the-milky-way
@@ -372,7 +372,7 @@ SUMMARY:Last day: Klaus Scherübel. Venice 1968: The Biennael of Protest V
  OL. 30 @ Guido Molinari Foundation
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:1a924f91fa1db68eddbc@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/klaus-scherubel-venice-1968-the-biennael-of-protest-
@@ -386,7 +386,7 @@ SUMMARY:Last day: Tisser nos vies : l’art comme force d’action @ Écom
  usée du fier monde
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:8879d297d5551fa73412@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/tisser-nos-vies-lart-comme-force-daction
@@ -399,7 +399,7 @@ SUMMARY:Last day: Allison Katz: Jeu d’esprit @ Montreal museum of fine a
  rts
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:105cfac88dae51cf6b4e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/allison-katz-jeu-desprit
@@ -412,7 +412,7 @@ SUMMARY:Last day: Des pancartes et des portes : 50 ans de lutte pour le dr
  oit au logement @ Écomusée du fier monde
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b3f3bd5f6bbf9096cf63@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/des-pancartes-et-des-portes-50-ans-de-lutte-pour-le-
@@ -427,7 +427,7 @@ SUMMARY:Last day: Between Decor and Devotion: Artworks from the Hospitali
  l
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:1aeb7a3c97845a16e512@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/between-decor-and-devotion-artworks-from-the-hospita
@@ -440,7 +440,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Fall/Winter 2026-2027 Exhibitions @ PHI
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:80bb54f79cd3433f96b3@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/fallwinter-2026-2027-exhibitions
@@ -453,7 +453,7 @@ SUMMARY:Last day: Lucia Choulakian. Le ciel était d’un bleu éclatant @
   Galerie de l'UQAM
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9fa79977098d78eafb53@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/lucia-choulakian-le-ciel-etait-dun-bleu-eclatant
@@ -465,7 +465,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Enchevêtrement — Catherine Beaudette @ Occurrence
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:5b9eba4b43b51301b24d@mtl-events
 DESCRIPTION:Occurrence\nhttps://occurrence.ca/expositions/enchevetrement
 LOCATION:Occurrence
@@ -475,7 +475,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Anása — Evridiki Spiliadis @ Occurrence
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:30894b2cc7d3f14d7164@mtl-events
 DESCRIPTION:Occurrence\nhttps://occurrence.ca/expositions/anasa
 LOCATION:Occurrence
@@ -485,7 +485,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Sovereign Stitches + Wild Weaves @ McCord Stewart museum
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:8fd5dfebcc8a5ee6d43e@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/sovereign-stitches-wild-weaves
@@ -498,7 +498,7 @@ SUMMARY:Last day: The 2027 Art Rental Collection @ Stewart Hall art galler
  y
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:2fe9495e3053dd59877b@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/the-2027-art-rental-collection
@@ -511,7 +511,7 @@ SUMMARY:Last day: Emerging Artists Exhibition @ Montreal Art Center\, 1844
   rue William
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:684acfa632d07ee5b7f3@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -522,7 +522,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Anne Kahane: Structures @ Montreal museum of fine arts
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:6934c2af5351586fb889@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/anne-kahane-structures-3
@@ -535,7 +535,7 @@ SUMMARY:Opens: Delivering Magic... @ Dorval museum of local history and he
  ritage
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9380b1b43e8ffc8a98e8@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/delivering-magic
@@ -548,7 +548,7 @@ SUMMARY:Last day: Delivering Magic... @ Dorval museum of local history and
   heritage
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9380b1b43e8ffc8a98e8-1@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/delivering-magic
@@ -561,7 +561,7 @@ SUMMARY:Off-the-Wall Evening – The MEM’s Big Thrift Event @ MEM - Cent
  re des mémoires montréalaises
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9d8a0af913642cad262b@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/events/off-the-wall-evening-the-mems-big-thrift-event
@@ -574,7 +574,7 @@ SUMMARY:Discussion avec Catherine Beaudette\, Maggie Helwig et Sam Watts @
   Occurrence
 DTSTART;TZID=America/Montreal:20261126T170000
 DTEND;TZID=America/Montreal:20261126T200000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:0481f80f3ddd6ebcec91@mtl-events
 DESCRIPTION:Occurrence\nhttps://occurrence.ca/evenements/rentree-de-gaspe-
  2026-5zd5y
@@ -585,7 +585,7 @@ BEGIN:VEVENT
 SUMMARY:Artist Talk + Private Tour w. Oski Awoyo @ FOIL
 DTSTART;TZID=America/Montreal:20261126T180000
 DTEND;TZID=America/Montreal:20261126T210000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:c9731591074e3f3670cb@mtl-events
 DESCRIPTION:FOIL\nhttps://finerobjectsinlife.com/#event-artist-talk-privat
  e-tour-w-oski-awoyo
@@ -597,7 +597,7 @@ BEGIN:VEVENT
 SUMMARY:ambient book club w. teykirisi (dj set) @ FOIL
 DTSTART;TZID=America/Montreal:20261127T183000
 DTEND;TZID=America/Montreal:20261127T213000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:341d0387d3ba5f8d7829@mtl-events
 DESCRIPTION:FOIL\nhttps://finerobjectsinlife.com/#event-ambient-book-club-
  w-teykirisi-dj-set
@@ -610,7 +610,7 @@ SUMMARY:Rencontre entre Evridiki Spiliadis et Hélène Bacquet @ Occurrenc
  e
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:018e70a1acb3f7dfe3d3@mtl-events
 DESCRIPTION:Occurrence\nhttps://occurrence.ca/evenements/rentree-de-gaspe-
  2026-7arlx
@@ -621,7 +621,7 @@ BEGIN:VEVENT
 SUMMARY:soundmark w. sample chief / panel + vinyl listening session @ FOIL
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:e84961cb9f408c9bc233@mtl-events
 DESCRIPTION:FOIL\nhttps://finerobjectsinlife.com/#event-soundmark-w-sample
  -chief-panel-vinyl-listening-session
@@ -634,7 +634,7 @@ SUMMARY:FREE · Remembering ACT UP Montréal @ MEM - Centre des mémoires
  montréalaises
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b103ae4ba1a8e58ec83f@mtl-events
 DESCRIPTION:Musées Montréal\nFree\nhttps://museesmontreal.org/en/exhibit
  ions-and-events/events/remembering-act-up-montreal
@@ -647,7 +647,7 @@ SUMMARY:THE HOLIDAY SEASON AT THE MUSEUM (English) @ Maison Saint-Gabriel
  \, historic site and museum
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:72f3cb5348416e8d9a7b@mtl-events
 DESCRIPTION:Musées Montréal\n$5–15\nhttps://museesmontreal.org/en/exhi
  bitions-and-events/events/the-holiday-season-at-the-museum-english
@@ -660,7 +660,7 @@ SUMMARY:THE HOLIDAY SEASON AT THE MUSEUM (French) @ Maison Saint-Gabriel\,
   historic site and museum
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:1492b4498485b970b959@mtl-events
 DESCRIPTION:Musées Montréal\n$5–15\nhttps://museesmontreal.org/en/exhi
  bitions-and-events/events/the-holiday-season-at-the-museum-french
@@ -673,7 +673,7 @@ SUMMARY:Habiter le MAC : Meet-the-artist @ Musée d'art contemporain de Mo
  ntréal
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:7c0d2b048df974089d9b@mtl-events
 DESCRIPTION:Musées Montréal\n$5\nhttps://museesmontreal.org/en/exhibitio
  ns-and-events/events/habiter-le-mac-meet-the-artist
@@ -686,7 +686,7 @@ SUMMARY:STORYTELLING PERFORMANCE BY FRANÇOIS LAVALLÉE @ Maison Saint-Gab
  riel\, historic site and museum
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:3657548d7c62931e86e1@mtl-events
 DESCRIPTION:Musées Montréal\n$7–10\nhttps://museesmontreal.org/en/exhi
  bitions-and-events/events/storytelling-performance-by-francois-lavallee-2
@@ -698,7 +698,7 @@ BEGIN:VEVENT
 SUMMARY:Open Mic / New Talents with Rully Marten @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261203T183000
 DTEND;TZID=America/Montreal:20261203T233000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:dddaf4a51a5f08458901@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -710,7 +710,7 @@ SUMMARY:Opens: Peinture Afro-Hivernal: All My Niggas Abstract (AMNA) — M
  alcom Odd @ Fais-moi l'art
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ae6aec07ca1e36dafb3a@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -721,7 +721,7 @@ SUMMARY:Last day: Peinture Afro-Hivernal: All My Niggas Abstract (AMNA)
  — Malcom Odd @ Fais-moi l'art
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ae6aec07ca1e36dafb3a-1@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -732,7 +732,7 @@ SUMMARY:Opens: 'I'll Carry You With Me' Exhibit by Jane Aimée Soleil @ Mo
  ntreal Art Center\, 1844 rue William
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:e9bf8a6af838b07b03db@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -744,7 +744,7 @@ SUMMARY:Last day: 'I'll Carry You With Me' Exhibit by Jane Aimée Soleil @
   Montreal Art Center\, 1844 rue William
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:e9bf8a6af838b07b03db-1@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -756,7 +756,7 @@ SUMMARY:Vernissage: Peinture Afro-Hivernal: All My Niggas Abstract (AMNA)
  — Malcom Odd @ Fais-moi l'art
 DTSTART;TZID=America/Montreal:20261204T180000
 DTEND;TZID=America/Montreal:20261204T210000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:6e7d5fcde5db092cc94a@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -768,7 +768,7 @@ SUMMARY:Les Choralies : le concert d'ouverture avec l'Ensemble Da Capo The
  rite-Bourgeoys
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:4129ee8b24a0813c281d@mtl-events
 DESCRIPTION:Musées Montréal\n$20–30\nhttps://museesmontreal.org/en/exh
  ibitions-and-events/events/les-choralies-le-concert-douverture-avec-lensem
@@ -783,7 +783,7 @@ SUMMARY:FREE · Studios Open House: Habiter le MAC @ Musée d'art contempo
  rain de Montréal
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:2bffe0660f9253907685@mtl-events
 DESCRIPTION:Musées Montréal\nFree\nhttps://museesmontreal.org/en/exhibit
  ions-and-events/events/studios-open-house-habiter-le-mac
@@ -795,7 +795,7 @@ BEGIN:VEVENT
 SUMMARY:En famille at the MAC @ Musée d'art contemporain de Montréal
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ecc27aa4e6cf0d86f61f@mtl-events
 DESCRIPTION:Musées Montréal\n$15\nhttps://museesmontreal.org/en/exhibiti
  ons-and-events/events/en-famille-at-the-mac-2
@@ -807,7 +807,7 @@ BEGIN:VEVENT
 SUMMARY:Les 3'PS Live! @ Montreal Art Center
 DTSTART;TZID=America/Montreal:20261212T183000
 DTEND;TZID=America/Montreal:20261212T230000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:24c10710ddb0eb240829@mtl-events
 DESCRIPTION:Montreal Art Center\nhttps://www.montrealartcenter.com/our-eve
  nts
@@ -819,7 +819,7 @@ SUMMARY:FREE · Collecting Antique Toys @ Dorval museum of local history a
  nd heritage
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:3ba7d96c4c7245771c0b@mtl-events
 DESCRIPTION:Musées Montréal\nFree\nhttps://museesmontreal.org/en/exhibit
  ions-and-events/events/collecting-antique-toys
@@ -832,7 +832,7 @@ SUMMARY:FREE · TEENS – Mystery game: Montréal in the Ice Storm @ MEM -
   Centre des mémoires montréalaises
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b532f507799948e46885@mtl-events
 DESCRIPTION:Musées Montréal\nFree\nhttps://museesmontreal.org/en/exhibit
  ions-and-events/events/teens-mystery-game-montreal-in-the-ice-storm
@@ -845,7 +845,7 @@ SUMMARY:Le Noël de Buzz Cuivres @ MEM - Centre des mémoires montréalais
  es
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:0c926e2e55cd709cbdd9@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/events/le-noel-de-buzz-cuivres
@@ -858,7 +858,7 @@ SUMMARY:Mission: have fun at the museum! @ MEM - Centre des mémoires mont
  réalaises
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:558e4907de3d1d70db58@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/events/mission-have-fun-at-the-museum
@@ -871,7 +871,7 @@ SUMMARY:Les Choralies: The Closing Concert with Les Voix Ferrées @ Histor
  ical site Marguerite-Bourgeoys
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:2beb7b67e054e15adc1e@mtl-events
 DESCRIPTION:Musées Montréal\n$20–30\nhttps://museesmontreal.org/en/exh
  ibitions-and-events/events/les-choralies-the-closing-concert-with-les-voix
@@ -885,7 +885,7 @@ SUMMARY:FREE · A New Year’s Gathering: Starting the Year on the Right F
  oot @ Dorval museum of local history and heritage
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:f649929ef5bfc3cd64d8@mtl-events
 DESCRIPTION:Musées Montréal\nFree\nhttps://museesmontreal.org/en/exhibit
  ions-and-events/events/a-new-years-gathering-starting-the-year-on-the-righ
@@ -898,7 +898,7 @@ BEGIN:VEVENT
 SUMMARY:Opens: Anne Isabelle Leonard. École de glisse @ Galerie de l'UQAM
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ba59d88549aeea29fc4f@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/anne-isabelle-leonard-ecole-de-glisse
@@ -911,7 +911,7 @@ SUMMARY:Last day: Anne Isabelle Leonard. École de glisse @ Galerie de l'U
  QAM
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:ba59d88549aeea29fc4f-1@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/anne-isabelle-leonard-ecole-de-glisse
@@ -923,7 +923,7 @@ BEGIN:VEVENT
 SUMMARY:Opens: Refuser le verdict @ Galerie de l'UQAM
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:8fbfcb2891e02c10ab06@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/refuser-le-verdict
@@ -935,7 +935,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Refuser le verdict @ Galerie de l'UQAM
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:8fbfcb2891e02c10ab06-1@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/refuser-le-verdict
@@ -947,7 +947,7 @@ BEGIN:VEVENT
 SUMMARY:Opens: Ismène Nérie Akiteretse @ Fais-moi l'art
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:4b3649166c717f5475ee@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -957,7 +957,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Ismène Nérie Akiteretse @ Fais-moi l'art
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:4b3649166c717f5475ee-1@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -967,7 +967,7 @@ BEGIN:VEVENT
 SUMMARY:Vernissage: Ismène Nérie Akiteretse @ Fais-moi l'art
 DTSTART;TZID=America/Montreal:20270211T180000
 DTEND;TZID=America/Montreal:20270211T210000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:d60bb9b1f319c65c79c8@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -978,7 +978,7 @@ SUMMARY:Opens: MARIE CHOUINARD: BECOMING BREATH @ Montreal museum of fine
  arts
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:c28ed754625874b5a98d@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/marie-chouinard-becoming-breath
@@ -991,7 +991,7 @@ SUMMARY:Last day: MARIE CHOUINARD: BECOMING BREATH @ Montreal museum of fi
  ne arts
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:c28ed754625874b5a98d-1@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/marie-chouinard-becoming-breath
@@ -1004,7 +1004,7 @@ SUMMARY:Opens: Double Cuff — Louise Campion + Corina Kennedy @ Fais-moi
  l'art
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b53531650f98902dcf07@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -1015,7 +1015,7 @@ SUMMARY:Last day: Double Cuff — Louise Campion + Corina Kennedy @ Fais-m
  oi l'art
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:b53531650f98902dcf07-1@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -1026,7 +1026,7 @@ SUMMARY:Vernissage: Double Cuff — Louise Campion + Corina Kennedy @ Fais
  -moi l'art
 DTSTART;TZID=America/Montreal:20270305T180000
 DTEND;TZID=America/Montreal:20270305T210000
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:9a5022937b343b2ea46a@mtl-events
 DESCRIPTION:Fais-moi l'art\nhttps://www.faismoilart.org/en-cours
 LOCATION:Fais-moi l'art
@@ -1036,7 +1036,7 @@ BEGIN:VEVENT
 SUMMARY:Opens: Keith Haring in 3D @ Montreal museum of fine arts
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:38ecc5ff8db1c1e29800@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/keith-haring-in-3d-2
@@ -1048,7 +1048,7 @@ BEGIN:VEVENT
 SUMMARY:Last day: Keith Haring in 3D @ Montreal museum of fine arts
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
-DTSTAMP:20261126T021908Z
+DTSTAMP:20261126T022032Z
 UID:38ecc5ff8db1c1e29800-1@mtl-events
 DESCRIPTION:Musées Montréal\nhttps://museesmontreal.org/en/exhibitions-a
  nd-events/exhibitions/keith-haring-in-3d-2
