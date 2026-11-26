@@ -4,8 +4,8 @@
 // - events.json and the .ics feeds are network-first, falling back to the last copy when offline
 // - event images (our own copies in img/, or a venue's) are cached as they're seen, up to a limit,
 //   so recently viewed listings keep their pictures
-const VERSION = "gom-v4";
-const SHELL = ["./", "index.html", "fonts/ShareTech-Regular.ttf", "logo.webp?v=3", "wordmark.webp?v=4",
+const VERSION = "gom-v5";
+const SHELL = ["./", "index.html", "fonts/ShareTech-Regular.ttf", "logo.webp?v=3", "wordmark.webp?v=5",
                "favicon.png?v=3", "icon-192.png", "manifest.webmanifest"];
 const IMAGES = "gom-images";
 const MAX_IMAGES = 300;
