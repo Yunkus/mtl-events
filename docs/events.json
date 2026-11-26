@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:33-05:00",
+ "generated": "2026-11-26T02:35-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -126,7 +126,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 25,
+   "zero_streak": 26,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -134,7 +134,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 52,
+   "zero_streak": 53,
    "zero_alerted": true
   },
   "Stereo": {
@@ -206,7 +206,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 52,
+   "zero_streak": 53,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -238,7 +238,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 5,
+   "zero_streak": 6,
    "zero_alerted": false
   },
   "Ausgang Plaza": {
@@ -278,7 +278,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 43,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -294,7 +294,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 37,
+   "zero_streak": 38,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -350,7 +350,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 52,
+   "zero_streak": 53,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -438,7 +438,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 43,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -17653,6 +17653,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Marie Denise Pelletier - Noël, parle‑moi",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
+   "end": null,
+   "location": "Salle de spectacle de l’église Jean XXIII",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/736881ef640e4b21.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4e51d5791c7dcb5222",
+   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "La ferme ou comment nourrir un futur intelligent ATSA",
    "start": "2026-12-03T19:30:00-05:00",
@@ -17674,27 +17695,6 @@
    "id": "fe4f58e00ec86e33fb91",
    "about": "La FERME ou comment nourrir un futur intelligent est une pièce de théâtre documentaire qui dénonce avec humour et poésie les impacts non choisis de l'intelligence artificielle dans nos vies. Public : 14 ans et +",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Marie Denise Pelletier - Noël, parle‑moi",
-   "start": "2026-12-03T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
-   "end": null,
-   "location": "Salle de spectacle de l’église Jean XXIII",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season"
-   ],
-   "image": "img/736881ef640e4b21.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4e51d5791c7dcb5222",
-   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17911,27 +17911,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -17949,6 +17928,27 @@
    "tab": "city",
    "id": "5d3261ce84e3d1627887",
    "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
    "added": ""
   },
   {
