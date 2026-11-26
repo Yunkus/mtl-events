@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:58-05:00",
+ "generated": "2026-11-25T20:01-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -9,7 +9,7 @@
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 15
+   "count": 14
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -31,167 +31,233 @@
   "SAT": {
    "ok": true,
    "count": 21,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 21,
+   "zero_streak": 0
   },
   "Favourite Library": {
    "ok": true,
    "count": 1,
-   "tab": "other"
+   "tab": "other",
+   "last_count": 1,
+   "zero_streak": 0
   },
   "Casa del Popolo": {
    "ok": true,
    "count": 116,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 116,
+   "zero_streak": 0
   },
   "Le Red Room": {
    "ok": true,
    "count": 12,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 12,
+   "zero_streak": 0
   },
   "Vino Disco": {
    "ok": true,
    "count": 4,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 4,
+   "zero_streak": 0
   },
   "Bar Datcha": {
    "ok": true,
    "count": 11,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 11,
+   "zero_streak": 0
   },
   "5 à Set": {
    "ok": true,
    "count": 1,
-   "tab": "other"
+   "tab": "other",
+   "last_count": 1,
+   "zero_streak": 0
   },
   "Le Marché Vintage": {
    "ok": true,
    "count": 0,
-   "tab": "other"
+   "tab": "other",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "Stereo": {
    "ok": true,
    "count": 13,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 13,
+   "zero_streak": 0
   },
   "Salon Daomé": {
    "ok": true,
    "count": 7,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 7,
+   "zero_streak": 0
   },
   "Turbo Haüs": {
    "ok": true,
    "count": 28,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 28,
+   "zero_streak": 0
   },
   "Le Belmont": {
    "ok": true,
    "count": 8,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 8,
+   "zero_streak": 0
   },
   "MTL Cookbook Club": {
    "ok": true,
    "count": 1,
-   "tab": "other"
+   "tab": "other",
+   "last_count": 1,
+   "zero_streak": 0
   },
   "Soft Studio Days": {
    "ok": true,
-   "count": 4,
-   "tab": "other"
+   "count": 3,
+   "tab": "other",
+   "last_count": 3,
+   "zero_streak": 0
   },
   "Laugh It Off": {
    "ok": true,
    "count": 24,
-   "tab": "bars"
+   "tab": "bars",
+   "last_count": 24,
+   "zero_streak": 0
   },
   "Newspeak": {
    "ok": true,
    "count": 18,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 18,
+   "zero_streak": 0
   },
   "Boiler Room": {
    "ok": true,
    "count": 0,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "Bar Le Ritz PDB": {
    "ok": true,
    "count": 28,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 28,
+   "zero_streak": 0
   },
   "Théâtre Fairmount": {
    "ok": true,
    "count": 33,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 33,
+   "zero_streak": 0
   },
   "L'Escogriffe": {
    "ok": true,
    "count": 0,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "Ausgang Plaza": {
    "ok": true,
    "count": 6,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 6,
+   "zero_streak": 0
   },
   "Quai des Brumes": {
    "ok": true,
    "count": 7,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 7,
+   "zero_streak": 0
   },
   "StereoBar": {
    "ok": true,
    "count": 9,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 9,
+   "zero_streak": 0
   },
   "Système": {
    "ok": true,
    "count": 22,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 22,
+   "zero_streak": 0
   },
   "New City Gas": {
    "ok": true,
    "count": 9,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 9,
+   "zero_streak": 0
   },
   "Eastern Bloc": {
    "ok": true,
    "count": 0,
-   "tab": "music"
+   "tab": "music",
+   "last_count": 0,
+   "zero_streak": 1
   },
   "Trivia Nights": {
    "ok": true,
    "count": 56,
-   "tab": "bars"
+   "tab": "bars",
+   "last_count": 56,
+   "zero_streak": 0
   },
   "Comedy Open Mics": {
    "ok": true,
    "count": 48,
-   "tab": "bars"
+   "tab": "bars",
+   "last_count": 48,
+   "zero_streak": 0
   },
   "Karaoke Nights": {
    "ok": true,
    "count": 60,
-   "tab": "bars"
+   "tab": "bars",
+   "last_count": 60,
+   "zero_streak": 0
   },
   "Added by hand": {
    "ok": true,
    "count": 4,
-   "tab": "bars"
+   "tab": "bars",
+   "last_count": 4,
+   "zero_streak": 0
   },
   "Musées Montréal": {
    "ok": true,
    "count": 56,
-   "tab": "museums"
+   "tab": "museums",
+   "last_count": 56,
+   "zero_streak": 0
   },
   "Cinéma Cinéma": {
    "ok": true,
    "count": 367,
-   "tab": "movies"
+   "tab": "movies",
+   "last_count": 367,
+   "zero_streak": 0
   },
   "Cinéma Moderne": {
    "ok": true,
    "count": 34,
-   "tab": "movies"
+   "tab": "movies",
+   "last_count": 34,
+   "zero_streak": 0
   }
  },
  "genres": [
@@ -6248,24 +6314,6 @@
    "all_day": false,
    "tab": "music",
    "id": "cc1c0931b20cb78dd31d"
-  },
-  {
-   "source": "Soft Studio Days",
-   "title": "Figure Drawing : The Female Form",
-   "start": "2026-11-25T18:30:00-05:00",
-   "url": "https://luma.com/jftov1fw",
-   "end": "2026-11-25T20:00:00-05:00",
-   "location": "2000 Av. Northcliffe, Montréal, QC H4A 3K5, Canada",
-   "kind": "",
-   "free": false,
-   "price": "$23",
-   "price_lo": 23.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "all_day": false,
-   "tab": "other",
-   "id": "8b7d00b65bbc80feb14e"
   },
   {
    "source": "5 à Set",
