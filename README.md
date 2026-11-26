@@ -45,8 +45,10 @@ In Museums & Galleries, the views are On now / Coming up / Events, and Museums v
 switched separately (Musées Montréal counts as museums; the rest are galleries and art centres).
 
 On the page: Tonight, This weekend, Early shows / Late night (10 pm+), Free / Under $20 (events with no
-known price stay listed, marked "price unknown"), and a Genre row on Music & Dance, Other Events and By Date. Every count follows the other active filters
-and the search box, so a combination with no results shows 0 before you tap it. Venues with nothing upcoming
+known price stay listed, marked "price unknown"), and a Genre row on Music & Dance (music styles only) and a
+Type row on Other Events, City Events and By Date: the 8 biggest, the rest behind "More". Every count, including
+the counts on the tabs, follows the other active filters and the search box, so a combination with no results
+shows 0 before you tap it. Venues with nothing upcoming
 get no button.
 
 ## Alerts
@@ -62,16 +64,26 @@ Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
 
 - **Images**: taken from each source's own data where it has one (RA flyers, Squarespace, Eventbrite, Luma,
   Universe, museums, montreal.ca, cinema posters, Casa del Popolo cards), otherwise from the event page's share
-  image (`og:image`). Page lookups are remembered in `docs/image_cache.json`, at most 120 new pages per update.
-  Smaller copies are requested where the source's image service allows it.
-- **Detail panel**: tapping an event shows its image, time, place, price, genres and a short description, with
-  Tickets, Map, Add to calendar, Share and "Listen" (YouTube / Spotify / Bandcamp search for the first act).
+  image (`og:image`). Page lookups are remembered in `docs/image_cache.json`, at most 250 new pages per update.
+  The update then downloads each image once and saves a 480 px wide WebP copy in `docs/img/` (about 20 KB each),
+  so the page never depends on a venue's server; copies nothing uses any more are deleted. Images that can't be
+  downloaded keep their original address and are retried after 3 days (`docs/img/failed.json`).
+- **No image**: events without one (or whose image fails to load) get amber-on-black art with the venue's name;
+  the pattern is chosen by genre, so all the techno nights match.
+- **Detail panel**: tapping an event shows its image, time, place, price, genres and a short description (the
+  source's own text, RA's event text, or the event page's `og:description`; site-wide taglines and text that only
+  repeats the title are skipped), with Tickets, Map, Add to calendar, Share and "Listen": one row per act on the
+  bill (split at +, /, w/, with, x, &, b2b and commas; "presents", tour and album-launch wording dropped), each
+  with YouTube / Spotify / Bandcamp searches.
   Shared links look like `…/mtl-events/#e/<id>`.
-- **Tonight**: up to 4 picture cards on top of Music & Dance and Other Events. Favoured: `EDITOR_PICKS` in
+- **Tonight**: up to 4 picture cards on top of Music & Dance, Other Events and City Events. Favoured: `EDITOR_PICKS` in
   `scrape.py` (title fragments; those events also get an "Editor's pick" badge), then newly listed events.
 - **New**: `docs/first_seen.json` keeps the day each event first appeared; the page marks anything added since
   your previous visit, and a "New" filter shows only those.
-- **App**: `manifest.webmanifest` + `sw.js` make it installable (Add to Home Screen) and usable offline.
+- **Phones**: the header is compact (Subscribe is one button with a menu, the tabs are one row that scrolls
+  sideways and the filters fold into one button), so Tonight shows without scrolling.
+- **App**: `manifest.webmanifest` + `sw.js` make it installable (Add to Home Screen) and usable offline,
+  including the images seen recently.
   Link previews use `og-image.jpg`.
 - Past events are hidden by the visitor's own clock, not the time of the last update.
 

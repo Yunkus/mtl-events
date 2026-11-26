@@ -53,6 +53,7 @@ class Ev:
     genres: list[str] = field(default_factory=list)   # e.g. ["Techno", "Electronic"]
     blurb: str = ""                      # short description from the venue (used for tags; not published)
     image: str = ""                      # flyer / poster / photo URL, when the source has one
+    desc: str = ""                       # the event's own description, for the detail panel only (not used for tags)
 
     @property
     def all_day(self) -> bool:
@@ -153,7 +154,7 @@ def ra_query(query: str) -> dict:
     return data["data"]
 
 
-RA_FIELDS = "id title startTime endTime contentUrl cost venue { name } genres { name } images { filename type }"
+RA_FIELDS = "id title content startTime endTime contentUrl cost venue { name } genres { name } images { filename type }"
 
 
 def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
@@ -166,6 +167,7 @@ def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
         ev.genres = genres_in(" ".join(g["name"] for g in e.get("genres") or []))   # RA's own tags, when set
         ev.image = next((i["filename"] for i in e.get("images") or [] if i.get("type") == "FLYERFRONT"),
                         (e.get("images") or [{}])[0].get("filename", "") if e.get("images") else "")
+        ev.desc = e.get("content") or ""
         out.append(priced(ev, *price_from_text(e.get("cost") or "")))
     return out
 
@@ -1601,6 +1603,28 @@ COMBINED = ("Montreal Events", "calendar.ics", {"music", "other"})
 
 
 # ------------------------------------------------------------------- output
+def short_about(text: str, limit: int = 420) -> str:
+    """The first few sentences of a description: links, ***, hashtags and ticket boilerplate out, paragraphs kept."""
+    import html
+    text = html.unescape(html.unescape(text or ""))   # some pages escape twice ("&amp;nbsp;")
+    text = re.sub(r"https?://\S+|www\.\S+|#\w+|\*{2,}|_{3,}|={3,}", " ", text)
+    paras = [re.sub(r"[ \t\xa0]+", " ", x).strip() for x in re.split(r"\n", text)]
+    paras = [x for x in paras if len(x) > 2 and not re.match(r"(?i)(billets|tickets|info|rsvp|line-?up)\s*[:|]?\s*$", x)]
+    out = ""
+    for x in paras:
+        if len(out) + len(x) + 2 <= limit:
+            out += ("\n\n" if out else "") + x
+            continue
+        if not out:   # one long paragraph: cut at a sentence (or word) boundary
+            cut = x[:limit]
+            stop = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+            out = cut[:stop + 1] if stop > limit * .5 else cut.rsplit(" ", 1)[0] + "…"
+        elif not out.endswith((".", "!", "?", "…")):
+            out += "…"
+        break
+    return out.strip()
+
+
 def to_json(e: Ev, tab: str) -> dict:
     d = asdict(e)
     d["start"] = e.start.isoformat()
@@ -1609,8 +1633,9 @@ def to_json(e: Ev, tab: str) -> dict:
     d["tab"] = tab
     d["id"] = stable_uid(e)
     blurb = re.sub(r"\s*\|?\s*BILLETS\s*\|\s*TICKETS\s*$", "", d.pop("blurb", "") or "").strip()
-    if blurb:   # a short "about" for the detail panel (not the whole description)
-        d["about"] = blurb if len(blurb) <= 280 else blurb[:277].rsplit(" ", 1)[0] + "…"
+    about = short_about(d.pop("desc", "") or blurb)
+    if about:   # a short "about" for the detail panel (not the whole description)
+        d["about"] = about
     d["added"] = FIRST_SEEN.get(d["id"], "")
     if any(p.lower() in e.title.lower() for p in EDITOR_PICKS):
         d["pick"] = True
@@ -1697,39 +1722,144 @@ def last_moment(e: Ev) -> datetime:
     return d if isinstance(d, datetime) else datetime.combine(d, time(23, 59), TZ)
 
 
-# ------------------------------------------------------------------ images
-IMAGE_CACHE = OUT / "image_cache.json"   # event page URL -> its share image ("" = none); kept between runs
+# ------------------------------------------------------------------ images & descriptions
+IMAGE_CACHE = OUT / "image_cache.json"   # event page URL -> {"image": share image, "about": description}; kept between runs
 NO_IMAGE_LOOKUP = ("ra.co", "linktr.ee", "zeffy.com", "facebook.com", "tixr.com", "macm.org", "instagram.com")
 
 
-def fill_images(events: list[Ev], budget: int = 120) -> None:
-    """For events without an image, use the share image (og:image) of the event's own page. Pages are fetched once
-    and remembered in docs/image_cache.json; at most `budget` new pages per run. Pages shared by several events
-    (a venue's listing page) are skipped: their image is the venue's logo, not the event's."""
-    from collections import Counter
-    from urllib.parse import urljoin
+def plain_text(s: str) -> str:
+    return re.sub(r"\W+", " ", s.lower()).strip()
+
+
+FILLER_WORDS = set("""montreal montréal qc quebec québec canada tickets billets buy get event events show the a and at in
+of on de la le les du des et à au en pm am est edt monday tuesday wednesday thursday friday saturday sunday lundi mardi
+mercredi jeudi vendredi samedi dimanche january february march april may june july august september october november
+december janvier février mars avril mai juin juillet août septembre octobre novembre décembre""".split())
+
+
+def says_more(about: str, e: Ev) -> bool:
+    """False for descriptions that only repeat the title, venue and date ("KILLED, OBELISK · Thursday, Nov 26 · Turbo Haüs")."""
+    known = set(plain_text(f"{e.title} {e.source} {e.location}").split()) | FILLER_WORDS
+    rest = [w for w in plain_text(about).split() if w not in known and not w.isdigit() and len(w) > 1]
+    return len(rest) >= 6
+
+
+def fill_page_info(events: list[Ev], budget: int = 250) -> None:
+    """For events missing an image or a description, use the share image (og:image) and description
+    (og:description) of the event's own page. Pages are fetched once and remembered in docs/image_cache.json;
+    at most `budget` new pages per run. Listing pages shared by several different events are skipped (their
+    image is the venue's logo), and a description that's the same on several of a site's pages (the site's
+    own tagline) is dropped."""
+    from collections import Counter, defaultdict
+    from concurrent.futures import ThreadPoolExecutor
+    from urllib.parse import urljoin, urlparse
     try:
         cache = json.loads(IMAGE_CACHE.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         cache = {}
-    uses = Counter(e.url for e in events if e.url)
+    cache = {u: (v if isinstance(v, dict) else {"image": v}) for u, v in cache.items()}   # old format: url -> image
+    titles = defaultdict(set)
     for e in events:
-        if e.image or not e.url or uses[e.url] > 3 or any(d in e.url for d in NO_IMAGE_LOOKUP):
-            continue
-        if e.url not in cache:
-            if budget <= 0:
-                continue
-            budget -= 1
-            try:
-                page = soup(e.url)
-                meta = page.find("meta", property="og:image") or page.find("meta", attrs={"name": "twitter:image"})
-                cache[e.url] = urljoin(e.url, meta["content"]) if meta and meta.get("content") else ""
-            except (requests.RequestException, KeyError):
-                continue   # try again next run
-        e.image = cache.get(e.url, "")
+        if e.url:
+            titles[e.url].add(e.title.lower())
+    wanted = [e for e in events if e.url and len(titles[e.url]) <= 3 and not any(d in e.url for d in NO_IMAGE_LOOKUP)
+              and (not e.image or not (e.desc or e.blurb))]
+    todo = list(dict.fromkeys(e.url for e in wanted if "about" not in cache.get(e.url, {})))[:budget]
+
+    def fetch(url):
+        try:
+            page = BeautifulSoup(get(url).content, "html.parser")   # bytes: let the page's own charset decide
+        except Exception:
+            return url, None   # try again next run
+
+        def meta(*keys):
+            for k in keys:
+                m = page.find("meta", property=k) or page.find("meta", attrs={"name": k})
+                if m and m.get("content", "").strip():
+                    return m["content"].strip()
+            return ""
+        img = meta("og:image", "twitter:image")
+        return url, {"image": urljoin(url, img) if img else "",
+                     "about": meta("og:description", "twitter:description", "description")}
+
+    with ThreadPoolExecutor(8) as pool:
+        for url, info in pool.map(fetch, todo):
+            if info is not None:
+                cache[url] = info
+    # a site's tagline shows up as the description of many of its pages: it's not about the event
+    per_site = Counter((urlparse(u).netloc, v.get("about")) for u, v in cache.items() if v.get("about"))
+    for e in wanted:
+        c = cache.get(e.url) or {}
+        if not e.image and c.get("image"):
+            e.image = c["image"]
+        a = c.get("about") or ""
+        if not (e.desc or e.blurb) and len(a) > 40 and per_site[(urlparse(e.url).netloc, a)] < 3 and says_more(a, e):
+            e.desc = a
     live = {e.url for e in events}
-    IMAGE_CACHE.write_text(json.dumps({u: i for u, i in cache.items() if u in live}, ensure_ascii=False, indent=0),
+    IMAGE_CACHE.write_text(json.dumps({u: v for u, v in cache.items() if u in live}, ensure_ascii=False, indent=0),
                            encoding="utf-8")
+
+
+IMG_DIR = OUT / "img"                  # our own small copies of event images (a venue's server can't break the page)
+IMG_FAILED = IMG_DIR / "failed.json"   # image URL -> date it last failed to download; retried after 3 days
+IMG_WIDTH = 480
+
+
+def localize_images(events: list[Ev], budget: int = 900) -> None:
+    """Download each event image once, shrink it to IMG_WIDTH px wide WebP in docs/img/ and point the event at
+    that copy. Images that can't be fetched keep their original address (the page shows a fallback if those
+    fail too). Copies no event uses any more are deleted."""
+    import hashlib
+    from concurrent.futures import ThreadPoolExecutor
+    from io import BytesIO
+    from PIL import Image
+    IMG_DIR.mkdir(exist_ok=True)
+    try:
+        failed = json.loads(IMG_FAILED.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        failed = {}
+    today = datetime.now(TZ).date()
+
+    def name(u):
+        return hashlib.sha1(u.encode()).hexdigest()[:16] + ".webp"
+    urls = list(dict.fromkeys(e.image for e in events if e.image.startswith("http")))
+    todo = [u for u in urls if not (IMG_DIR / name(u)).exists()
+            and not (u in failed and (today - date.fromisoformat(failed[u])).days < 3)][:budget]
+
+    def get(u):
+        try:
+            r = SESSION.get(u, timeout=20)
+            r.raise_for_status()
+            im = Image.open(BytesIO(r.content))
+            im.seek(0)   # first frame of a GIF
+            im = im.convert("RGBA") if im.mode in ("P", "LA", "RGBA", "PA") else im.convert("RGB")
+            if im.mode == "RGBA":   # transparent logos sit on black, like the page
+                bg = Image.new("RGB", im.size, (11, 11, 11))
+                bg.paste(im, mask=im.split()[3])
+                im = bg
+            if im.width > IMG_WIDTH:
+                im = im.resize((IMG_WIDTH, max(1, round(im.height * IMG_WIDTH / im.width))), Image.LANCZOS)
+            im.save(IMG_DIR / name(u), "WEBP", quality=72, method=5)
+            return u, True
+        except Exception:
+            return u, False
+
+    with ThreadPoolExecutor(8) as pool:
+        for u, ok in pool.map(get, todo):
+            if ok:
+                failed.pop(u, None)
+            else:
+                failed[u] = today.isoformat()
+    for e in events:
+        if e.image.startswith("http") and (IMG_DIR / name(e.image)).exists():
+            e.image = "img/" + name(e.image)
+    used = {e.image[4:] for e in events if e.image.startswith("img/")}
+    for f in IMG_DIR.glob("*.webp"):
+        if f.name not in used:
+            f.unlink()
+    live = set(urls)
+    IMG_FAILED.write_text(json.dumps({u: d for u, d in failed.items() if u in live}, indent=0), encoding="utf-8")
+    print(f"  images: {len(used)} local copies, {len(todo)} tried this run, {len(failed)} failing")
 
 
 def main() -> int:
@@ -1761,7 +1891,8 @@ def main() -> int:
                 print(f"  FAIL {home_tab(name):8} {name:20} {ex}")
                 traceback.print_exc(limit=2)
 
-    fill_images([e for evs in by_tab.values() for e in evs])
+    fill_page_info([e for evs in by_tab.values() for e in evs])
+    localize_images([e for evs in by_tab.values() for e in evs])
     update_first_seen([e for evs in by_tab.values() for e in evs])
     payload_events, tabs = [], {}
     for tab, (title, feed) in TABS.items():

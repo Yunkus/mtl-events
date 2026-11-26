@@ -31,8 +31,11 @@ jobs:
           # put fresh output on top of whatever is on main now (another run may have pushed meanwhile)
           files="events.json calendar.ics music.ics other.ics bars.ics museums.ics movies.ics city.ics image_cache.json first_seen.json"
           for f in $files; do cp "docs/$f" "$RUNNER_TEMP/"; git checkout -- "docs/$f" 2>/dev/null || rm -f "docs/$f"; done
+          # docs/img: our small copies of event images (new ones added, unused ones removed)
+          mv docs/img "$RUNNER_TEMP/img"; git checkout -- docs/img 2>/dev/null || true
           git pull --ff-only origin main
           for f in $files; do cp "$RUNNER_TEMP/$f" docs/; git add "docs/$f"; done
+          rm -rf docs/img; mv "$RUNNER_TEMP/img" docs/img; git add -A docs/img
           git diff --cached --quiet || git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
       - name: Open an issue for new problems

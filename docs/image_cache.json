@@ -1,221 +1,1590 @@
 {
-"https://sat.qc.ca/en/events/jersey-2026": "https://ressources.sat.qc.ca/uploads/2026/10/vignette-2.png",
-"https://sat.qc.ca/en/events/all-night-dure-vie-2026": "https://ressources.sat.qc.ca/uploads/2026/10/allnight_27-11_vignette.jpg",
-"https://sat.qc.ca/en/events/sat-eaf-festival-triste-2026": "https://ressources.sat.qc.ca/uploads/2026/10/nocturne-1-2.png",
-"https://sat.qc.ca/en/events/club-sat-gaba-collective-2026": "https://ressources.sat.qc.ca/uploads/2026/11/clubsat_gaba_vignette.jpg",
-"https://sat.qc.ca/en/events/hear-2-move": "https://ressources.sat.qc.ca/uploads/2026/07/truerhythm_2026_troyboi_dec18_fb-kalmangoudkuil1-ezgif-com-resize.jpg",
-"https://sat.qc.ca/en/events/afrotonik-dance-party-12-2026": "https://ressources.sat.qc.ca/uploads/2026/11/tixr.jpg",
-"https://sat.qc.ca/en/events/sat-nye-2026": "https://ressources.sat.qc.ca/uploads/2026/11/nye26_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-chez-kito-kat-records-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d01_01-09_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-homegrown-harvest-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d02_01-16_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-format-x-octov-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d03_01-23_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-gloss-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d04_01-30_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-jacques-greene-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d05_02-06_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-ferias-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d06_02-13_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-kizi-garden-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d07_02-20_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-tits-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d08_03-06_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-gaba-collective-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d09_03-13_vignette.jpg",
-"https://sat.qc.ca/en/events/domesicle-x-la-rama-records-winter-2027": "https://ressources.sat.qc.ca/uploads/2026/11/d10_03-20_vignette.jpg",
-"https://sat.qc.ca/en/events/klangkarussell-2027": "https://ressources.sat.qc.ca/uploads/2026/10/hero-1.png",
-"https://sat.qc.ca/en/events/pierre-kwenders-2026": "https://ressources.sat.qc.ca/uploads/2026/09/vignette-1-1.png",
-"https://sat.qc.ca/en/events/club-sat-adrian-sherwood-honeydrip-2027": "https://ressources.sat.qc.ca/uploads/2025/11/clubsatxadriansherwoodhero.jpg",
-"https://sat.qc.ca/en/events/klangphonics-the-zest-tour-2026": "https://ressources.sat.qc.ca/uploads/2026/11/vignette-1.png",
-"https://casadelpopolo.com/en/events/2026-12-01-spurs": "",
-"https://casadelpopolo.com/en/events/2026-12-01-re-mplace": "",
-"https://casadelpopolo.com/en/events/2026-12-05-gs-de-la-liqs": "",
-"https://casadelpopolo.com/en/events/2026-12-06-gs-de-la-liqs": "",
-"https://casadelpopolo.com/en/events/2026-12-07-gs-de-la-liqs": "",
-"https://casadelpopolo.com/en/events/2026-12-12-9mania": "",
-"https://casadelpopolo.com/en/events/2026-12-13-francbatards-montreal-casa-del-popolo": "",
-"https://casadelpopolo.com/en/events/2026-12-14-spurs": "",
-"https://casadelpopolo.com/en/events/2026-12-17-bigdawgfest": "",
-"https://casadelpopolo.com/en/events/2026-12-19-spurss": "",
-"https://casadelpopolo.com/en/events/2026-11-27-syngja-afterlife-album-release-show-with-danny-pretzel-and-the-salt-of-the-earth-and-moma": "",
-"https://casadelpopolo.com/en/events/2026-11-27-noche-de-flamenco": "",
-"https://casadelpopolo.com/en/events/2026-11-27-westelaken-in-it-for-the-lack-album-launch-with-talel-mcbriar-kelly-elizabeth": "",
-"https://casadelpopolo.com/en/events/2026-11-27-fever-visions-extrana-humana-mercure-p-tit-ours-26-nov": "",
-"https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour": "",
-"https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1": "",
-"https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55": "",
-"https://casadelpopolo.com/en/events/2026-11-28-blue-skies-turn-black-presente-kiwi-jr": "",
-"https://casadelpopolo.com/en/events/2026-11-28-la-groovin-enflamme-la-casa-del-popolo": "",
-"https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle": "",
-"https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan": "",
-"https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins": "",
-"https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2": "",
-"https://casadelpopolo.com/en/events/2026-11-29-onwav-felix-edouard-le-debut-du-monde": "",
-"https://casadelpopolo.com/en/events/2026-11-29-queer-afro-latin-dance-social": "",
-"https://casadelpopolo.com/en/events/2026-11-30-soiree-flamenca-a-trois-souffles": "",
-"https://casadelpopolo.com/en/events/2026-11-30-hicus-and-friends-live-at-p-tit-ours": "",
-"https://casadelpopolo.com/en/events/2026-12-01-hooper-ladybug-lovelet": "",
-"https://casadelpopolo.com/en/events/2026-12-02-margaux-deveze-presente-vague-a-l-ame-l-aube-d-un-album": "",
-"https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent": "",
-"https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad": "",
-"https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri": "",
-"https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-presente-wild-pink-hiding-places": "",
-"https://casadelpopolo.com/en/events/2026-12-04-eedm-no-cosmos-trio-set": "",
-"https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy": "",
-"https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4": "",
-"https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror": "",
-"https://casadelpopolo.com/en/events/2026-12-05-antenna93-folding-nyc-no-muzzle": "",
-"https://casadelpopolo.com/en/events/2026-12-06-heavy-trip-negative-capabilities-present-magic-tuber-stringband-genevieve-heistek-jesse-eckerlin": "",
-"https://casadelpopolo.com/en/events/2026-12-06-bodywash-laughing-at-noise-album-release-with-marcel-and-mother-tongues": "",
-"https://casadelpopolo.com/en/events/2026-12-06-this-belongs-to-you": "",
-"https://casadelpopolo.com/en/events/2026-12-06-nick-schofield-with-special-guest-moon-mullins-nyc": "",
-"https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald": "",
-"https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th": "",
-"https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour": "",
-"https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee": "",
-"https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao": "",
-"https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls": "",
-"https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests": "",
-"https://casadelpopolo.com/en/events/2026-12-09-joon-perfect-outfit": "",
-"https://casadelpopolo.com/en/events/2026-12-10-c-impact-dj-donini-hot-house": "",
-"https://casadelpopolo.com/en/events/2026-12-10-lucas-melo-enzo-lord-mariano-et-micha": "",
-"https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos": "",
-"https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont": "",
-"https://casadelpopolo.com/en/events/2026-12-11-pseudo-music-presents-axaven-dustbunny": "",
-"https://casadelpopolo.com/en/events/2026-12-12-noise-for-society-night-1": "",
-"https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird": "",
-"https://casadelpopolo.com/en/events/2026-12-12-sauf-les-drones-ce-qui-nous-traverse": "",
-"https://casadelpopolo.com/en/events/2026-12-13-noise-for-society-night-2": "",
-"https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com": "",
-"https://casadelpopolo.com/en/events/2026-12-13-interzone-editions-presents-shalabi-charuest-caloia-elm-stan-k-fdg-myfanwy": "",
-"https://casadelpopolo.com/en/events/2026-12-14-sunniva-drivesafe-pompey-an-evening-of-independent-music": "",
-"https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down": "",
-"https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere": "",
-"https://casadelpopolo.com/en/events/2026-12-15-similar-senses-bubblegum-flavour-and-amities-incorporees": "",
-"https://casadelpopolo.com/en/events/2026-12-16-himbo-boobini-vraiment-desole": "",
-"https://casadelpopolo.com/en/events/2026-12-17-blue-skies-turn-black-presente-jordan-hart": "",
-"https://casadelpopolo.com/en/events/2026-11-14-bravo-music": "",
-"https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites": "",
-"https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live": "",
-"https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single": "",
-"https://casadelpopolo.com/en/events/2026-12-19-good-question-a-christmas-party": "",
-"https://casadelpopolo.com/en/events/2026-12-19-matt-large-presents-ashley-macisaac": "",
-"https://casadelpopolo.com/en/events/2026-12-19-montalban": "",
-"https://casadelpopolo.com/en/events/2026-12-19-canicule-tropicale": "",
-"https://casadelpopolo.com/en/events/2026-12-20-souper-stumping-sing-along-avec-lake-of-stew": "",
-"https://casadelpopolo.com/en/events/2026-12-20-seaver-she-came-to-quit-mort-d-homme": "",
-"https://casadelpopolo.com/en/events/2026-12-21-a-very-lensky-christmas": "",
-"https://casadelpopolo.com/en/events/2026-12-23-a-christmas-honky-tonk-dance-night": "",
-"https://casadelpopolo.com/en/events/2026-12-24-norman-nawrockis-12th-annual-rad-non-xmas-music-bash": "",
-"https://casadelpopolo.com/en/events/2026-12-28-le-reveillon-du-p-tit-gros-bison": "",
-"https://casadelpopolo.com/en/events/2027-01-06-ryosuke-kiyasu-performance-solo-au-snare-drum": "",
-"https://casadelpopolo.com/en/events/2026-11-06-keenan-trevon-make-it-make-sense-tour": "",
-"https://casadelpopolo.com/en/events/2027-01-14-hirzer-valdepenas-sara-rossy": "",
-"https://casadelpopolo.com/en/events/2027-01-18-h-ii-regions-weather-satellite-lily-finnegan-drums-sam-shalabi-guitar": "",
-"https://casadelpopolo.com/en/events/2027-01-19-good-shows-presents-avec-invitees-speciaux": "",
-"https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo": "",
-"https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s": "",
-"https://casadelpopolo.com/en/events/2027-01-30-proleter-w-special-guests": "",
-"https://casadelpopolo.com/en/events/2027-01-31-tom-gershwin-quartet": "",
-"https://casadelpopolo.com/en/events/2027-02-03-blue-skies-turn-black-presentent-tara-clerkin-trio": "",
-"https://casadelpopolo.com/en/events/2027-02-09-morgan-garrett-avec-perfect-outfit-dumb-chamber": "",
-"https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch": "",
-"https://casadelpopolo.com/en/events/2027-02-26-mile-end-tantshoyz-glenti-a-yiddish-and-greek-dance-party": "",
-"https://casadelpopolo.com/en/events/2027-02-27-jonah-yano": "",
-"https://casadelpopolo.com/en/events/2027-02-28-lucas-mason-the-take-my-time-tour-extended": "",
-"https://casadelpopolo.com/en/events/2027-03-11-modo-live-presents-johnnie-guilbert": "",
-"https://casadelpopolo.com/en/events/2027-03-13-land-of-talk-x-soak": "",
-"https://casadelpopolo.com/en/events/2027-03-14-the-song-that-saved-my-life": "",
-"https://lineup-event.com/fr/event/v-i-iv-le-vent-ii": "https://res.cloudinary.com/dyvxhpzxd/image/upload/v1794964702/lineup/events/johxqmbj8rvytedqvelq.jpg",
-"https://nevermonday-collective.bloomtickets.ca/event/3219": "https://nevermonday-collective.bloomtickets.ca/assets/EasyTick.png",
-"https://lepointdevente.com/billets/avydubz-rr?lang=fr": "https://tpos.s3.amazonaws.com/events/ASQ/26/12/04/001/asq261204001-1152x648-fr-6ad76bd1.png",
-"https://www.simpletix.com/e/jingle-bass-tickets-299522": "https://cdn.simpletix.com/71ddc07c-915c-490d-a19f-1f3d19fdef5b/shows/FaceBook_JungleBassFlyer.png",
-"https://www.stagelinetickets.com/s/eventfly-2-show": "https://firebasestorage.googleapis.com/v0/b/ticket-platform-app.firebasestorage.app/o/shows%2F6ae227fdfde9ff0ed1391ed0%2F1793543475757-att.MrCDUY2h9GW5TPDVNCdJqaSzpmegSzph9IHm5IyT_k4.jpg?alt=media&token=8da941bd-48f2-4f90-aed8-e8f3d63e9168",
-"https://www.simpletix.com/e/midnight-mass-tickets-301753?fbclid=IwY2xjawVoFLxleHRuA2FlbQIxMABwZG9mBWJyaWQRMThGTUlYR3hXQmlXR1NmYmlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfxx_Hm74KkWnB9TS87vG4pePaiEfRo17GMnL35rZsJ4guLrL4DBz7U7OgHDw_aem_KMJrZUwkwpVQcxJTIrSmwg": "https://cdn.simpletix.com/6679f237-2746-464c-8285-cfd4c847519e/shows/FaceBook_2841.png",
-"https://lepointdevente.com/billets/rtni27-mtl": "https://tpos.s3.amazonaws.com/events/ASQ/26/12/18/001/asq261218001-1152x648-fr-6ada776b.png",
-"https://lepointdevente.com/billets/0s7261226001": "https://tpos.s3.amazonaws.com/events/0S7/26/12/26/001/0s7261226001-1152x648-fr-6af23856.png",
-"https://turbohaus.ca/calendrier/2026/11/30/the-backstage": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/14/the-backstage": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/21/the-backstage": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/11/26/killed--obelisk--amristix--computer-science": "https://turbohaus.ca/api/media/file/killed-obelisk-amristix-computer-science-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/11/27/cam-kahin---invites": "https://turbohaus.ca/api/media/file/cam-kahin-the-wesleys-debbie-christ-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/11/28/-class-of-91--blurry-eyes--cleanse--testa-dura": "https://turbohaus.ca/api/media/file/class-of-91-blurry-eyes-cleanse-testa-dura.png",
-"https://turbohaus.ca/calendrier/2026/11/29/the-bloodshots--screaming-demons--the-count-ferrara-": "https://turbohaus.ca/api/media/file/the-bloodshots-screaming-demons-the-count-ferrara-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/1/soire-open-has": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/2/soire-open-jam-avec-growve": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/3/maxime-gervais--les-petits-trous-de-balle--mr-spirale--les-anges": "https://turbohaus.ca/api/media/file/maxime-gervais-les-petits-trous-de-balle-mr-spirale-les-anges-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/4/nameless-friends--g-string--puberty-well": "https://turbohaus.ca/api/media/file/nameless-friends-g-string-puberty-well-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/5/the-carringtons--bucky-harris--armoire": "https://turbohaus.ca/api/media/file/the-carringtons-bucky-harris-armoire-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/6/musk-ox--totenbaum-trger": "https://turbohaus.ca/api/media/file/musk-ox-totenbaum-trager-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/7/20-ans-de-dam--et-maintenant-demain-": "https://turbohaus.ca/api/media/file/20-ans-de-dam-et-maintenant-demain-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/8/soire-open-has": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/9/soire-open-jam-avec-growve": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/11/seelonce--radio-patente": "https://turbohaus.ca/api/media/file/seelonce-radio-patente-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/12/hammer-drop--criminal-mind--skullgate--reality-denied": "https://turbohaus.ca/api/media/file/hammer-drop-criminal-mind-skullgate-reality-denied-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/13/amnesty-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne": "https://turbohaus.ca/api/media/file/amnesty-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/15/soire-open-has": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/16/soire-open-jam-avec-growve": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
-"https://turbohaus.ca/calendrier/2026/12/17/cabaret-syndical-des-wobs-du-communautaire-de-mtl": "https://turbohaus.ca/api/media/file/cabaret-syndical-des-wobs-du-communautaire-de-mtl-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/20/clayborne--jetsam--power-drop": "https://turbohaus.ca/api/media/file/clayborne-jetsam-power-drop-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2026/12/30/these-guys--black-moon--the-enemy-is-a-computer": "https://turbohaus.ca/api/media/file/these-guys-black-moon-the-enemy-is-a-computer-1200x630.jpg",
-"https://turbohaus.ca/calendrier/2027/1/22/ratpiss--neverlessam--eden-will-burn--angel-spit": "https://turbohaus.ca/api/media/file/ratpiss-neverless-am-eden-will-burn-angel-spit-1200x630.jpg",
-"https://thepointofsale.com/tickets/bz4261129002": "https://tpos.s3.amazonaws.com/events/BZ4/26/11/29/002/bz4261129002-1152x648-en-6ad3f56b.png",
-"https://quaidesbrumes.ca/evenements/57-lancement-khi-de-mars-cest-peut-etre-un-peu-a-cause-de-moi/": "",
-"https://lepointdevente.com/billets/myriamtriste?lang=fr": "https://tpos.s3.amazonaws.com/events/AK1/26/11/29/001/myriamtriste-1152x648-fr-6af51779.png",
-"https://lepointdevente.com/tickets/thickglasses-caniche-nushu-quaidesbrumes": "https://tpos.s3.amazonaws.com/events/STP/26/12/04/001/thickglasses-caniche-nushu-quaidesbrumes-1152x648-fr-6ad0ed63.png",
-"https://quaidesbrumes.ca/evenements/rachel-dara-loche-nisse-monster-niivi-2/": "",
-"https://macadam-shop.com/pages/joe-evil-piano-show": "http://macadam-shop.com/cdn/shop/files/Logo-Macadam_Shop-1200x628.png?v=1786983737",
-"https://www.favouritelibrary.com/#shows": "",
-"https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live": "https://turbohaus.ca/api/media/file/la-clash-podcast-live-1200x630.png",
-"https://turbohaus.ca/calendrier/2026/12/22/le-quiz-des-simpsons": "https://turbohaus.ca/api/media/file/le-quizz-des-simpsons-1200x630.png",
-"https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
-"https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-maisonneuve": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/76/mpmtempsdesfetesrs2000x935msn.png?itok=GJTOmTv2",
-"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/18633/une-superbe-pause-diner-30-min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/62871": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/9641-20230525125345.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/1725/les-macarons-pour-emporter/62813": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/5733-20181206052553.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10371-20240405153124.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10798-20241004123825.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11901-20261008044618.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/5642-20181120031548.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/63306": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11912-20261015051124.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/8389-20210927061705.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10779-20240927101246.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10841-20241024052801.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour-emporter/63027": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/7900-20201029123726.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/62916": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11441-20250904011402.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-services/63248": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11859-20260921171258.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10872-20241121031817.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay-sapphire/63118": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/9086-20220330022516.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10530-20240510183628.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11178-20250613023649.jpg",
-"https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-et-au-portugal/63038": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/6606-20190716015450.jpg",
-"https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel": "https://api.mtl.org/files/default/styles/rectangle_1200_675/public/2026-10/webimage-58925__3DD16D73-454C-47A2-B8431279F23F025C_0.jpg.webp?itok=cHHorlFQ",
-"https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal": "https://api.mtl.org/files/default/styles/rectangle_1200_675/public/2026-10/64490__94734E92-5006-40E8-861F0A4E4C9269B0.jpg.webp?itok=XlI7DMGF",
-"https://www.dare-dare.org/fr/evenements/claude_periard": "",
-"https://www.dare-dare.org/fr/evenements/la_formation_et_detection_en_ventologie": "",
-"https://occurrence.ca/expositions/enchevetrement": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/66a92813b0d6db58e0601b6e/6ab820fe7041b64f029acd5c/1792182914542/Beaudette_couverte+rose_huile+sur+toile2026_81x107cm.jpg?format=1500w",
-"https://occurrence.ca/expositions/anasa": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/66a92813b0d6db58e0601b6e/6ab6d545a80b817083d3aa53/1792182736200/Anasa.jpg?format=1500w",
-"https://occurrence.ca/evenements/rentree-de-gaspe-2026-5zd5y": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/667da433b0a1f741f44f4eed/6b030cd49231360fc6de8132/1795364291458/Beaudette+Discussion+tuile.jpg?format=1500w",
-"https://occurrence.ca/evenements/rentree-de-gaspe-2026-7arlx": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/667da433b0a1f741f44f4eed/6b030ed7814334796999c7d9/1795362960674/Spiliadis+Rencontre+tuile.jpg?format=1500w",
-"https://finerobjectsinlife.com/#event-artist-talk-private-tour-w-oski-awoyo": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
-"https://finerobjectsinlife.com/#event-ambient-book-club-w-teykirisi-dj-set": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
-"https://finerobjectsinlife.com/#event-soundmark-w-sample-chief-panel-vinyl-listening-session": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
-"https://www.cinemamoderne.com/films/details/naza/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/naza-still-siteweb-scaled-e1791236398128.jpg",
-"https://www.cinemamoderne.com/films/details/festival-triste-dest/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/dest-still-siteweb-e1793739876666.jpg",
-"https://www.cinemamoderne.com/films/details/minotaure/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/minotaur-still-siteweb-e1793126023670.jpg",
-"https://www.cinemamoderne.com/films/details/you-can-see-everything/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/you-can-see-still-siteweb-scaled-e1792190123276.jpg",
-"https://www.cinemamoderne.com/films/details/raise-the-red-lantern-35e-anniversaire/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/raise-red-still-siteweb-e1792437953417.jpg",
-"https://www.cinemamoderne.com/films/details/festival-triste-safe/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/safe-still-siteweb-e1793737297726.jpg",
-"https://www.cinemamoderne.com/films/details/festival-triste-the-heiress/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/heiress-still-siteweb-e1793740707223.jpg",
-"https://www.cinemamoderne.com/films/details/la-meilleure-facon-cest-par-accident/": "https://www.cinemamoderne.com/wp-content/uploads/2026/09/meilleure-facon-still-siteweb-e1790022726215.jpeg",
-"https://www.cinemamoderne.com/films/details/the-history-of-concrete/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/history-of-concrete-still-siteweb-scaled-e1790896521587.jpg",
-"https://www.cinemamoderne.com/films/details/festival-triste-bushman/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/bushman-still-siteweb-scaled-e1793741406903.jpg",
-"https://www.cinemamoderne.com/films/details/violence-du-corps-de-lautre/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/violence-still-siteweb-e1792786750244.jpg",
-"https://www.cinemamoderne.com/films/details/queen-at-sea/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/queen-at-sea-still-siteweb-scaled-e1794864367739.jpg",
-"https://www.cinemamoderne.com/films/details/alice-doesnt-live-here-anymore/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/alice-doesnt-still-siteweb-e1794260856378.jpg",
-"https://www.cinemamoderne.com/films/details/once-upon-a-time-in-harlem/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/once-upon-halrm-still-siteweb-scaled-e1794869702798.jpg",
-"https://www.cinemamoderne.com/films/details/jim-queen/": "https://www.cinemamoderne.com/wp-content/uploads/2026/09/jim-queen-still-siteweb-scaled-e1790020864656.jpg",
-"https://www.cinemamoderne.com/films/details/cinema-montreal-marie-madeleine/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/Marie_Madeleine.webp",
-"https://www.cinemamoderne.com/films/details/la-bola-negra/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/bola-negra-still-siteweb-scaled-e1794340264395.jpg",
-"https://www.cinemamoderne.com/films/details/cinema-paradiso-coups-de-coeur-de-lequipe/": "https://www.cinemamoderne.com/wp-content/uploads/2026/06/Untitled-3-1-e1780957170391.jpg",
-"https://www.cinemamoderne.com/films/details/nausicaa-of-the-valley-of-the-wind/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/nausicaa-still-siteweb-scaled-e1794250015719.jpg",
-"https://www.cinemamoderne.com/films/details/fatherland/": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/fatherland-still-siteweb-e1792435772375.jpg",
-"https://www.cinemamoderne.com/films/details/notting-hill-cine-tricot/": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/notting-hill-still-siteweb-e1794341692629.jpg",
-"https://montreal.ca/evenements/rencontre-citoyenne-halte-chaleur-pavillon-la-fontaine-122745": "https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto/v1/logo-montreal.jpg",
-"https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564": "https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto/v1/logo-montreal.jpg"
+"https://sat.qc.ca/en/events/jersey-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/10/vignette-2.png",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/all-night-dure-vie-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/10/allnight_27-11_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/sat-eaf-festival-triste-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/10/nocturne-1-2.png",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/club-sat-gaba-collective-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/clubsat_gaba_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/hear-2-move": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/07/truerhythm_2026_troyboi_dec18_fb-kalmangoudkuil1-ezgif-com-resize.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/afrotonik-dance-party-12-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/tixr.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/sat-nye-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/nye26_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-chez-kito-kat-records-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d01_01-09_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-homegrown-harvest-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d02_01-16_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-format-x-octov-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d03_01-23_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-gloss-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d04_01-30_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-jacques-greene-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d05_02-06_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-ferias-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d06_02-13_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-kizi-garden-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d07_02-20_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-tits-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d08_03-06_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-gaba-collective-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d09_03-13_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/domesicle-x-la-rama-records-winter-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/d10_03-20_vignette.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/klangkarussell-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/10/hero-1.png",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/pierre-kwenders-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/09/vignette-1-1.png",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/club-sat-adrian-sherwood-honeydrip-2027": {
+"image": "https://ressources.sat.qc.ca/uploads/2025/11/clubsatxadriansherwoodhero.jpg",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://sat.qc.ca/en/events/klangphonics-the-zest-tour-2026": {
+"image": "https://ressources.sat.qc.ca/uploads/2026/11/vignette-1.png",
+"about": "Découvrez la programmation éclectique des événements de la SAT pour les petits et grands: projection, concert, DJ set, expérience immersiveDécouvrez la progr..."
+},
+"https://casadelpopolo.com/en/events/2026-12-01-spurs": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-01-re-mplace": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-05-gs-de-la-liqs": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-06-gs-de-la-liqs": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-07-gs-de-la-liqs": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-12-9mania": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-13-francbatards-montreal-casa-del-popolo": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-14-spurs": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-17-bigdawgfest": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-spurss": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-27-syngja-afterlife-album-release-show-with-danny-pretzel-and-the-salt-of-the-earth-and-moma": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-27-noche-de-flamenco": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-27-westelaken-in-it-for-the-lack-album-launch-with-talel-mcbriar-kelly-elizabeth": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-27-fever-visions-extrana-humana-mercure-p-tit-ours-26-nov": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-28-mistaken-for-wayne-whitefish-album-tour": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-28-om-nom-fest-2026-nuit-1": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-28-cafe-concret-edition-55": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-28-blue-skies-turn-black-presente-kiwi-jr": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-28-la-groovin-enflamme-la-casa-del-popolo": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-michael-jerome-browne-the-backbeat-boys-michael-ball-stephen-barry-john-mccolgan": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-om-nom-fest-2026-nuit-2": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-onwav-felix-edouard-le-debut-du-monde": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-29-queer-afro-latin-dance-social": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-30-soiree-flamenca-a-trois-souffles": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-30-hicus-and-friends-live-at-p-tit-ours": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-01-hooper-ladybug-lovelet": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-02-margaux-deveze-presente-vague-a-l-ame-l-aube-d-un-album": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-03-dogtown-ft-doodad": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-presente-wild-pink-hiding-places": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-04-eedm-no-cosmos-trio-set": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-04-blue-skies-turn-black-et-pop-montreal-presentent-sam-quealy": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-05-strange-flowers-presents-a-night-of-20-minute-sets-vol-4": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-05-i-ll-be-your-mirror": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-05-antenna93-folding-nyc-no-muzzle": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-06-heavy-trip-negative-capabilities-present-magic-tuber-stringband-genevieve-heistek-jesse-eckerlin": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-06-bodywash-laughing-at-noise-album-release-with-marcel-and-mother-tongues": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-06-this-belongs-to-you": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-06-nick-schofield-with-special-guest-moon-mullins-nyc": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-07-blue-skies-turn-black-presente-michael-bernard-fitzgerald": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-07-pascale-pascale-hank-s-dream-ahren-strange-sotterenea-dec-6th": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-08-girl-with-dream-a-d-walsh-mikee": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-08-adios-casa-luan-larobina-x-zalam-kao": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-09-joon-perfect-outfit": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-10-c-impact-dj-donini-hot-house": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-10-lucas-melo-enzo-lord-mariano-et-micha": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-11-pseudo-music-presents-axaven-dustbunny": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-12-noise-for-society-night-1": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-12-sauf-les-drones-ce-qui-nous-traverse": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-13-noise-for-society-night-2": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-13-interzone-editions-presents-shalabi-charuest-caloia-elm-stan-k-fdg-myfanwy": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-14-sunniva-drivesafe-pompey-an-evening-of-independent-music": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-14-some-became-hollow-tubes-numonia-burn-it-down": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-14-reel-gay-glee-with-mary-fagdalene-chiquita-mere": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-15-similar-senses-bubblegum-flavour-and-amities-incorporees": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-16-himbo-boobini-vraiment-desole": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-17-blue-skies-turn-black-presente-jordan-hart": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-14-bravo-music": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-18-joel-betts-live": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-good-question-a-christmas-party": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-matt-large-presents-ashley-macisaac": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-montalban": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-canicule-tropicale": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-20-souper-stumping-sing-along-avec-lake-of-stew": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-20-seaver-she-came-to-quit-mort-d-homme": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-21-a-very-lensky-christmas": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-23-a-christmas-honky-tonk-dance-night": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-24-norman-nawrockis-12th-annual-rad-non-xmas-music-bash": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-28-le-reveillon-du-p-tit-gros-bison": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-06-ryosuke-kiyasu-performance-solo-au-snare-drum": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-11-06-keenan-trevon-make-it-make-sense-tour": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-14-hirzer-valdepenas-sara-rossy": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-18-h-ii-regions-weather-satellite-lily-finnegan-drums-sam-shalabi-guitar": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-19-good-shows-presents-avec-invitees-speciaux": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-30-proleter-w-special-guests": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-01-31-tom-gershwin-quartet": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-03-blue-skies-turn-black-presentent-tara-clerkin-trio": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-09-morgan-garrett-avec-perfect-outfit-dumb-chamber": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-26-mokina-friends-jardim-celeste-album-launch": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-26-mile-end-tantshoyz-glenti-a-yiddish-and-greek-dance-party": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-27-jonah-yano": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-02-28-lucas-mason-the-take-my-time-tour-extended": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-11-modo-live-presents-johnnie-guilbert": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-13-land-of-talk-x-soak": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-14-the-song-that-saved-my-life": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://lineup-event.com/fr/event/v-i-iv-le-vent-ii": {
+"image": "https://res.cloudinary.com/dyvxhpzxd/image/upload/v1794964702/lineup/events/johxqmbj8rvytedqvelq.jpg",
+"about": "V I IV Collective présente V I IV le Vent II \n\nV I IV Collective présente sa deuxième édition de V I IV le Vent, un évènement qui frappe Montréal à chaque mois de Décembre. Venez danser aux sons de vo..."
+},
+"https://nevermonday-collective.bloomtickets.ca/event/3219": {
+"image": "https://nevermonday-collective.bloomtickets.ca/assets/EasyTick.png",
+"about": "After having so much fun during our Crescendo event with our friends from rznce.events, we come back home to Red Room for our seasonal event.We call all..."
+},
+"https://lepointdevente.com/billets/avydubz-rr?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/ASQ/26/12/04/001/asq261204001-1152x648-fr-6ad76bd1.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://www.simpletix.com/e/jingle-bass-tickets-299522": {
+"image": "https://cdn.simpletix.com/71ddc07c-915c-490d-a19f-1f3d19fdef5b/shows/FaceBook_JungleBassFlyer.png",
+"about": "Pixel Production come back with a new Event.For this holiday season (Dec 10, Redroom) get ready to hit a wall of bass with this fire lineup :DropdeadgorgeousKio B2B Frank SorrowDRESloan PorterPixelLightz B2B MoloUnseenDont forget your ticket and come headb"
+},
+"https://www.stagelinetickets.com/s/eventfly-2-show": {
+"image": "https://firebasestorage.googleapis.com/v0/b/ticket-platform-app.firebasestorage.app/o/shows%2F6ae227fdfde9ff0ed1391ed0%2F1793543475757-att.MrCDUY2h9GW5TPDVNCdJqaSzpmegSzph9IHm5IyT_k4.jpg?alt=media&token=8da941bd-48f2-4f90-aed8-e8f3d63e9168",
+"about": "CTRL-Q live at RED ROOM, Montreal on Dec 11, 2026, 10:00 PM. Buy tickets online."
+},
+"https://www.simpletix.com/e/midnight-mass-tickets-301753?fbclid=IwY2xjawVoFLxleHRuA2FlbQIxMABwZG9mBWJyaWQRMThGTUlYR3hXQmlXR1NmYmlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfxx_Hm74KkWnB9TS87vG4pePaiEfRo17GMnL35rZsJ4guLrL4DBz7U7OgHDw_aem_KMJrZUwkwpVQcxJTIrSmwg": {
+"image": "https://cdn.simpletix.com/6679f237-2746-464c-8285-cfd4c847519e/shows/FaceBook_2841.png",
+"about": "Midnight Mass : Confession générale avant la fin du monde​Un dernier péché avant que l'année ne trépasse ?​Pour clore cette saison en beauté, la Midnight Mass se transforme en sanctuaire des noctambules. Oubliez la messe de minuit de mamie : ici, on vient"
+},
+"https://lepointdevente.com/billets/rtni27-mtl": {
+"image": "https://tpos.s3.amazonaws.com/events/ASQ/26/12/18/001/asq261218001-1152x648-en-6ada776c.png",
+"about": "Discover a multitude of events in your area and please your loved ones. Buy tickets in just a few clicks."
+},
+"https://lepointdevente.com/billets/0s7261226001": {
+"image": "https://tpos.s3.amazonaws.com/events/0S7/26/12/26/001/0s7261226001-1152x648-fr-6af23856.png",
+"about": "Discover a multitude of events in your area and please your loved ones. Buy tickets in just a few clicks."
+},
+"https://turbohaus.ca/calendrier/2026/11/30/the-backstage": {
+"image": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
+"about": "THE BACKSTAGE · Monday, November 30, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/14/the-backstage": {
+"image": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
+"about": "THE BACKSTAGE · Monday, December 14, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/21/the-backstage": {
+"image": "https://turbohaus.ca/api/media/file/the-backstage-1200x630.jpg",
+"about": "THE BACKSTAGE · Monday, December 21, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/11/26/killed--obelisk--amristix--computer-science": {
+"image": "https://turbohaus.ca/api/media/file/killed-obelisk-amristix-computer-science-1200x630.jpg",
+"about": "KILLED, OBELISK, AMRISTIX, COMPUTER SCIENCE · Thursday, November 26, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/11/27/cam-kahin---invites": {
+"image": "https://turbohaus.ca/api/media/file/cam-kahin-the-wesleys-debbie-christ-1200x630.png",
+"about": "Cam Kahin, The Wesleys, Debbie Christ · Friday, November 27, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/11/28/-class-of-91--blurry-eyes--cleanse--testa-dura": {
+"image": "https://turbohaus.ca/api/media/file/class-of-91-blurry-eyes-cleanse-testa-dura.png",
+"about": "Class of 91, Blurry Eyes, Cleanse, Testa Dura · Saturday, November 28, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/11/29/the-bloodshots--screaming-demons--the-count-ferrara-": {
+"image": "https://turbohaus.ca/api/media/file/the-bloodshots-screaming-demons-the-count-ferrara-1200x630.png",
+"about": "The Bloodshots, Screaming Demons, The Count Ferrara · Sunday, November 29, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/1/soire-open-has": {
+"image": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
+"about": "Soirée \"Open Haüs\" · Tuesday, December 1, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/2/soire-open-jam-avec-growve": {
+"image": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
+"about": "Soirée \"Open Jam avec Growve\" · Wednesday, December 2, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/3/maxime-gervais--les-petits-trous-de-balle--mr-spirale--les-anges": {
+"image": "https://turbohaus.ca/api/media/file/maxime-gervais-les-petits-trous-de-balle-mr-spirale-les-anges-1200x630.png",
+"about": "Maxime Gervais & les Petits Trous de Balle + Mr Spirale & les Anges · Thursday, December 3, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/4/nameless-friends--g-string--puberty-well": {
+"image": "https://turbohaus.ca/api/media/file/nameless-friends-g-string-puberty-well-1200x630.jpg",
+"about": "Nameless Friends, G String, Puberty Well · Friday, December 4, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/5/the-carringtons--bucky-harris--armoire": {
+"image": "https://turbohaus.ca/api/media/file/the-carringtons-bucky-harris-armoire-1200x630.jpg",
+"about": "The Carringtons, Bucky Harris, Armoire · Saturday, December 5, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/6/musk-ox--totenbaum-trger": {
+"image": "https://turbohaus.ca/api/media/file/musk-ox-totenbaum-trager-1200x630.webp",
+"about": "Musk Ox, Totenbaum Träger · Sunday, December 6, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/7/20-ans-de-dam--et-maintenant-demain-": {
+"image": "https://turbohaus.ca/api/media/file/20-ans-de-dam-et-maintenant-demain-1200x630.png",
+"about": "20 ans de DAM : et maintenant, demain ! · Monday, December 7, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/8/soire-open-has": {
+"image": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
+"about": "Soirée \"Open Haüs\" · Tuesday, December 8, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/9/soire-open-jam-avec-growve": {
+"image": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
+"about": "Soirée \"Open Jam avec Growve\" · Wednesday, December 9, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/11/seelonce--radio-patente": {
+"image": "https://turbohaus.ca/api/media/file/seelonce-radio-patente-1200x630.jpg",
+"about": "Seelonce, Radio Patente · Friday, December 11, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/12/hammer-drop--criminal-mind--skullgate--reality-denied": {
+"image": "https://turbohaus.ca/api/media/file/hammer-drop-criminal-mind-skullgate-reality-denied-1200x630.png",
+"about": "Hammer Drop, Criminal Mind, Skullgate, Reality Denied · Saturday, December 12, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/13/amnesty-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne": {
+"image": "https://turbohaus.ca/api/media/file/amnesty-international-punk-write-a-thon-feat-you-enemy-dirty-milk-sara-elbourne-1200x630.jpg",
+"about": "Amnesty International Punk Write-a-Thon (feat. You Enemy, Dirty Milk, Sara Elbourne) · Sunday, December 13, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/15/soire-open-has": {
+"image": "https://turbohaus.ca/api/media/file/open_haus-1200x630.webp",
+"about": "Soirée \"Open Haüs\" · Tuesday, December 15, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/16/soire-open-jam-avec-growve": {
+"image": "https://turbohaus.ca/api/media/file/growve-1200x630.webp",
+"about": "Soirée \"Open Jam avec Growve\" · Wednesday, December 16, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/17/cabaret-syndical-des-wobs-du-communautaire-de-mtl": {
+"image": "https://turbohaus.ca/api/media/file/cabaret-syndical-des-wobs-du-communautaire-de-mtl-1200x630.png",
+"about": "Cabaret syndical des Wobs du communautaire de Mtl · Thursday, December 17, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/20/clayborne--jetsam--power-drop": {
+"image": "https://turbohaus.ca/api/media/file/clayborne-jetsam-power-drop-1200x630.jpg",
+"about": "Clayborne + Jetsam + Power Drop · Sunday, December 20, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/30/these-guys--black-moon--the-enemy-is-a-computer": {
+"image": "https://turbohaus.ca/api/media/file/these-guys-black-moon-the-enemy-is-a-computer-1200x630.jpg",
+"about": "These Guys, Black Moon, The Enemy is a Computer · Wednesday, December 30, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2027/1/22/ratpiss--neverlessam--eden-will-burn--angel-spit": {
+"image": "https://turbohaus.ca/api/media/file/ratpiss-neverless-am-eden-will-burn-angel-spit-1200x630.jpg",
+"about": "Ratpiss, Neverless.am, Eden Will Burn, Angel Spit · Friday, January 22, 2027 · Turbo Haüs, Montréal"
+},
+"https://thepointofsale.com/tickets/bz4261129002": {
+"image": "https://tpos.s3.amazonaws.com/events/BZ4/26/11/29/002/bz4261129002-1152x648-en-6ad3f56b.png",
+"about": "On veut vous inviter à nous joindre au notre premier concert de l'année à danser et célébrer la culture amérindienne de l'Amérique du Sud. Sera une soirée phénoménal avec beaucoup de danse et musique, on vous attend au QUAI DES BRUMES.Ici un peu de notre musique:https://www.youtube.com/watch?v=l3tWYwDAx1cTarikuna est un groupe de musique basé à Montréal, composé de musiciens originaires de Bolivie, du Pérou et de l'Équateur. Certains membres sont nés au Canada, tandis que d'autres sont des immigrants. Le groupe explore et interprète des rythmes autochtones traditionnels tels que le Wayno (Bolivie, Équateur, Pérou), le San Juanito (Équateur), le Tinku (Bolivie) et les Raymis (Équateur). Diversifié, il comprend une chanteuse et des musiciens jouant des instruments andins tels que la Zampoña, la Quena, des percussions, une guitare, une basse, un bandolin (instrument équatorien), un violon et un charango.Le projet de Tarikuna vise à partager la riche culture autochtone de la Bolivie, du Pérou et de l'Équateur avec la société québécoise-canadienne. Ils souhaitent transmettre leurs sentiments et leur respect pour la nature, car leurs communautés ont intégré l'esprit des Andes bien avant la colonisation de l'Amérique du Sud.Rejoignez-nous pour une soirée inoubliable, célébrant la diversité culturelle et la beauté des rythmes andins, en plein cœur de Montréal.#Tarikuna #MusiqueAndine #MusiqueTraditionnelle #Bolivie #Pérou #Équateur #Montréal #Concert #CultureAutochtone #LaCasaDelPopolo #Wayno #SanJuanito #Tinku #Raymis #Zampoña #Quena #Charango #Bandolin #MusiqueLatino #ÉvénementMontréal #DiversitéCulturelle #amérique"
+},
+"https://quaidesbrumes.ca/evenements/57-lancement-khi-de-mars-cest-peut-etre-un-peu-a-cause-de-moi/": {
+"image": "",
+"about": ""
+},
+"https://lepointdevente.com/billets/myriamtriste?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/AK1/26/11/29/001/myriamtriste-1152x648-fr-6af51779.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://lepointdevente.com/tickets/thickglasses-caniche-nushu-quaidesbrumes": {
+"image": "https://tpos.s3.amazonaws.com/events/STP/26/12/04/001/thickglasses-caniche-nushu-quaidesbrumes-1152x648-en-6ad0ed61.png",
+"about": "Thick Glasses, Caniche et Nushu enflamment le Quai des Brumes le vendredi 4 décembre. Ça va être le party de l'année, tu veux pas manquer ça !"
+},
+"https://quaidesbrumes.ca/evenements/rachel-dara-loche-nisse-monster-niivi-2/": {
+"image": "",
+"about": ""
+},
+"https://macadam-shop.com/pages/joe-evil-piano-show": {
+"image": "http://macadam-shop.com/cdn/shop/files/Logo-Macadam_Shop-1200x628.png?v=1786983737",
+"about": "Distributeur officiel. Merch des Bérurier Noir, Ludwig Von 88, OTH, Les Secrétaires Volantes, Me Mom & Morgentaler, Camera Silens..."
+},
+"https://www.favouritelibrary.com/#shows": {
+"image": "",
+"about": "Independent music label"
+},
+"https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live": {
+"image": "https://turbohaus.ca/api/media/file/la-clash-podcast-live-1200x630.png",
+"about": "LA CLASH PODCAST ... LIVE! · Saturday, December 5, 2026 · Turbo Haüs, Montréal"
+},
+"https://turbohaus.ca/calendrier/2026/12/22/le-quiz-des-simpsons": {
+"image": "https://turbohaus.ca/api/media/file/le-quizz-des-simpsons-1200x630.png",
+"about": "LE QUIZ DES SIMPSONS · Tuesday, December 22, 2026 · Turbo Haüs, Montréal"
+},
+"https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon": {
+"image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/78/mpmtempsdesfetesrs2000x935jt.png?itok=3OAB2yFV",
+"about": "Venez célébrer Noël et le temps des Fêtes au Marché Jean-Talon les trois premiers weekend de décembre. Au programme : marché des Fêtes avec exposants de qualité et animations familiales gratuites. Célébrez Noël dans votre marché!"
+},
+"https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-maisonneuve": {
+"image": "https://www.marchespublics-mtl.com/sites/default/files/styles/og_image/public/event/76/mpmtempsdesfetesrs2000x935msn.png?itok=GJTOmTv2",
+"about": "Temps des Fêtes au Marché Maisonneuve les 28-29 nov. Marché d'exposants et animations familiales gratuites. Célébrez Noël à Montréal!"
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63072 100% terroir le 05 décembre 15:00 à 17:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63074 100% terroir le 05 décembre 18:00 à 20:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/18633/une-superbe-pause-diner-30-min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/62871": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/9641-20230525125345.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62871 midi chic express le 27 novembre 12:00 à 13:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/1725/les-macarons-pour-emporter/62813": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/5733-20181206052553.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62813 la pâtisserie le 28 novembre 09:30 à 12:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10371-20240405153124.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62727 les fameux tapas chics le 28 novembre 14:00 à 17:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10798-20241004123825.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62742 les fameux tapas chics le 28 novembre 14:00 à 17:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11901-20261008044618.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62729 le menu gourmand le 29 novembre 15:30 à 18:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/5642-20181120031548.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #63013 cuisine du monde le 01 décembre 18:00 à 21:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/63306": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11912-20261015051124.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #63306 midi chic express le 04 décembre 12:00 à 13:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/8389-20210927061705.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62913 la pâtisserie le 05 décembre 09:30 à 12:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10779-20240927101246.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #63245 les fameux tapas chics le 05 décembre 14:00 à 17:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10841-20241024052801.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62951 produit d'exception à l'honneur ! le 05 décembre 18:00 à 21:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour-emporter/63027": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/7900-20201029123726.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #63027 la pâtisserie le 06 décembre 09:30 à 12:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/62916": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11441-20250904011402.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62916 le bon brunch le 06 décembre 10:00 à 13:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-services/63248": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11859-20260921171258.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #63248 le menu gourmand le 06 décembre 15:30 à 18:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10872-20241121031817.jpg",
+"about": "Régalez-vous avec notre cours de cuisine #62953 produit d'exception à l'honneur ! le 06 décembre 18:00 à 21:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay-sapphire/63118": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/9086-20220330022516.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63118 tendance cocktails le 03 décembre 18:00 à 20:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11926-20261028015333.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63070 100% terroir le 05 décembre 12:00 à 14:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10530-20240510183628.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63106 samedi daiquiri !! le 05 décembre 15:30 à 17:00."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/11178-20250613023649.jpg",
+"about": "Régalez-vous avec notre cours de cocktail #63076 les cocktails classiques historiques ! le 06 décembre 14:30 à 16:30."
+},
+"https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-et-au-portugal/63038": {
+"image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/6606-20190716015450.jpg",
+"about": "Régalez-vous avec notre dégustation de vin #63038 collection voyage le 06 décembre 18:00 à 21:00."
+},
+"https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel": {
+"image": "https://api.mtl.org/files/default/styles/rectangle_1200_675/public/2026-10/webimage-58925__3DD16D73-454C-47A2-B8431279F23F025C_0.jpg.webp?itok=cHHorlFQ",
+"about": "Le Grand Marché de Noël de Montréal transforme la ville en un véritable havre de magie des fêtes au centre-ville. Avec près de 60 artisanes et artisans se relayant dans de charmants chalets, le marché de Noël est l’endroit parfait pour découvrir des créations uniques, des produits locaux et des délices gourmands qui réchauffent le cœur. Les décors et animations enchanteront petits et grands. Spectacles, musique, et une ambiance féérique font de cet événement un incontournable pour célébrer la saison. L’accès est gratuit, alors venez vivre l’esprit des fêtes au Grand Marché de Noël de Montréal et laissez-vous emporter par la magie!"
+},
+"https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal": {
+"image": "https://api.mtl.org/files/default/styles/rectangle_1200_675/public/2026-10/64490__94734E92-5006-40E8-861F0A4E4C9269B0.jpg.webp?itok=XlI7DMGF",
+"about": "Installé aux abords du Marché Atwater, le Village de Noël de Montréal s’étend sur quatre fins de semaine de festivités. Ce rendez-vous incontournable de la saison invite le public à plonger dans une ambiance magique et propice aux découvertes! Tous les samedis et dimanches, le Père Noël en personne vous attend dans son charmant bureau pour une séance photo gratuite. Les petits comme les grands pourront repartir avec un souvenir inoubliable, sans aucun frais, dans un décor digne des plus beaux contes de Noël. Parfait pour dénicher des cadeaux uniques, le marché regorge de créations locales et de produits du terroir."
+},
+"https://www.dare-dare.org/fr/evenements/claude_periard": {
+"image": "",
+"about": ""
+},
+"https://www.dare-dare.org/fr/evenements/la_formation_et_detection_en_ventologie": {
+"image": "",
+"about": ""
+},
+"https://occurrence.ca/expositions/enchevetrement": {
+"image": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/66a92813b0d6db58e0601b6e/6ab820fe7041b64f029acd5c/1792182914542/Beaudette_couverte+rose_huile+sur+toile2026_81x107cm.jpg?format=1500w",
+"about": "du 6 novembre au 12 décembre 2026 | Vernissage le&nbsp;jeudi 5 novembre de 17h à 20h    From November 6 to December 12, 2026 | Opening reception: Thursday November 5, from 5 to 8pm   Occurrence a le plaisir de présenter l’exposition  Enchevêtrement  de Catherine Beaudette dans la salle"
+},
+"https://occurrence.ca/expositions/anasa": {
+"image": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/66a92813b0d6db58e0601b6e/6ab6d545a80b817083d3aa53/1792182736200/Anasa.jpg?format=1500w",
+"about": "du 6 novembre au 12 décembre 2026 | Vernissage le&nbsp;jeudi 5 novembre de 17h à 20h    From November 6 to December 12, 2026 | Opening reception: Thursday November 5, from 5 to 8pm   Occurrence a le plaisir de présenter l’exposition  Anása  -&nbsp;Ανάσα, d’Evridiki Spiliadis dans l"
+},
+"https://occurrence.ca/evenements/rentree-de-gaspe-2026-5zd5y": {
+"image": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/667da433b0a1f741f44f4eed/6b030cd49231360fc6de8132/1795364291458/Beaudette+Discussion+tuile.jpg?format=1500w",
+"about": "À propos des intervenant·es    Maggie Helwig  est autrice de quinze livres et recueils, dont Girls Fall Down (2008) et Encampment: Resistance, Grace, and an Unhoused Community. Militante de longue date pour la justice sociale et prêtre anglicane, elle est rectrice de l'église St. Stephen-in-the-Fiel"
+},
+"https://occurrence.ca/evenements/rentree-de-gaspe-2026-7arlx": {
+"image": "http://static1.squarespace.com/static/6679bc54d1d9b14b57134c58/667da433b0a1f741f44f4eed/6b030ed7814334796999c7d9/1795362960674/Spiliadis+Rencontre+tuile.jpg?format=1500w",
+"about": "A conversation between Evridiki Spiliadis and Hélène Bacquet    Saturday, November 28, starting at 2 pm   In connection with her exhibition   Anása  , Evridiki Spiliadis invites Hélène Bacquet for a conversation that will explore the themes underlying her work. Drawing on the myth of Demeter and Per"
+},
+"https://finerobjectsinlife.com/#event-artist-talk-private-tour-w-oski-awoyo": {
+"image": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
+"about": "An online boutique by Foil, curating books, magazines, crafted objects, and more."
+},
+"https://finerobjectsinlife.com/#event-ambient-book-club-w-teykirisi-dj-set": {
+"image": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
+"about": "An online boutique by Foil, curating books, magazines, crafted objects, and more."
+},
+"https://finerobjectsinlife.com/#event-soundmark-w-sample-chief-panel-vinyl-listening-session": {
+"image": "https://cdn.shopify.com/s/files/1/0725/8115/2960/files/fineree.png?v=1762659561",
+"about": "An online boutique by Foil, curating books, magazines, crafted objects, and more."
+},
+"https://www.cinemamoderne.com/films/details/naza/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/naza-still-siteweb-scaled-e1791236398128.jpg",
+"about": "Filmé de nuit sur les toits de Tel Aviv, le film décrit en détail les systèmes derrière le massacre de civils palestiniens à Gaza par Israël."
+},
+"https://www.cinemamoderne.com/films/details/festival-triste-dest/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/dest-still-siteweb-e1793739876666.jpg",
+"about": "Après la chute du mur de Berlin, Chantal Akerman regarde en de longs travellings ou plans fixes la réalité et la mutation de ces pays de l’ex URSS."
+},
+"https://www.cinemamoderne.com/films/details/minotaure/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/minotaur-still-siteweb-e1793126023670.jpg",
+"about": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province."
+},
+"https://www.cinemamoderne.com/films/details/you-can-see-everything/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/you-can-see-still-siteweb-scaled-e1792190123276.jpg",
+"about": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, la fondatrice controversée de l’entreprise Theranos de la Silicon Valley, invite une équipe de tournage à filmer ses moindres faits et gestes."
+},
+"https://www.cinemamoderne.com/films/details/raise-the-red-lantern-35e-anniversaire/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/raise-red-still-siteweb-e1792437953417.jpg",
+"about": "En Chine, dans les années 1920, Songlian, 19 ans, devient la quatrième épouse d'un riche quinquagénaire, maître Chen."
+},
+"https://www.cinemamoderne.com/films/details/festival-triste-safe/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/safe-still-siteweb-e1793737297726.jpg",
+"about": "Carol White, une femme au foyer aisée et passive, partage son temps entre les séances d'aérobic, la cuisine et les achats pour sa maison."
+},
+"https://www.cinemamoderne.com/films/details/festival-triste-the-heiress/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/heiress-still-siteweb-e1793740707223.jpg",
+"about": "À la fin du XIXème siècle, Catherine Sloper vit dans une riche demeure de Washington Square en compagnie de son père, un veuf richissime et tyrannique."
+},
+"https://www.cinemamoderne.com/films/details/la-meilleure-facon-cest-par-accident/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/09/meilleure-facon-still-siteweb-e1790022726215.jpeg",
+"about": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident."
+},
+"https://www.cinemamoderne.com/films/details/the-history-of-concrete/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/history-of-concrete-still-siteweb-scaled-e1790896521587.jpg",
+"about": "Un film sur le béton ? Oui, et hilarant en plus !"
+},
+"https://www.cinemamoderne.com/films/details/festival-triste-bushman/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/bushman-still-siteweb-scaled-e1793741406903.jpg",
+"about": "En 1968, Martin Luther King est assassiné et la guerre du Biafra entraîne une terrible famine. Gabriel a fui le Nigéria et vit à San Francisco, au contact de la communauté afro-américaine comme des milieux bohèmes blancs."
+},
+"https://www.cinemamoderne.com/films/details/violence-du-corps-de-lautre/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/violence-still-siteweb-e1792786750244.jpg",
+"about": "Mira est une femme solitaire et de peu de mots. Elle parcourt les routes à la rencontre de gens désespérés avec qui elle semble avoir noué d’étranges pactes de mort."
+},
+"https://www.cinemamoderne.com/films/details/queen-at-sea/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/queen-at-sea-still-siteweb-scaled-e1794864367739.jpg",
+"about": "L’état de démence avancée d’une femme âgée érode sa capacité à exprimer son monde intérieur."
+},
+"https://www.cinemamoderne.com/films/details/alice-doesnt-live-here-anymore/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/alice-doesnt-still-siteweb-e1794260856378.jpg",
+"about": "Refaire sa vie, oui, mais à quel prix ? Déçue de n'avoir pu réaliser son rêve de devenir chanteuse, Alice, 35 ans, s'accommode tant bien que mal d'un quotidien banal entre un mari pourtant attentionné et un gentil fiston."
+},
+"https://www.cinemamoderne.com/films/details/once-upon-a-time-in-harlem/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/once-upon-halrm-still-siteweb-scaled-e1794869702798.jpg",
+"about": "Dix ans après sa mort, le cinéaste William Greaves, qui défiait les genres, a encore un dernier tour dans sa manche avec ce qu’il considérait comme l’événement le plus important qu’il ait filmé : une fête de 1972 qu’il avait organisée avec les grandes figures encore vivantes de Harlem."
+},
+"https://www.cinemamoderne.com/films/details/jim-queen/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/09/jim-queen-still-siteweb-scaled-e1790020864656.jpg",
+"about": "Jim, icône sexy de la scène gay parisienne, voit sa vie basculer lorsqu’il contracte l’Hétérose, un étrange virus qui transforme les hommes gays… en hétérosexuels !"
+},
+"https://www.cinemamoderne.com/films/details/cinema-montreal-marie-madeleine/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/Marie_Madeleine.webp",
+"about": "Joseph trouve Marie Madeleine dans la rue, presque inconsciente, et l'aide à se remettre sur pied. Doucement, une connivence incandescente grandit entre ce fils de pasteur et cette travailleuse du sexe."
+},
+"https://www.cinemamoderne.com/films/details/la-bola-negra/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/bola-negra-still-siteweb-scaled-e1794340264395.jpg",
+"about": "Espagne 1932, 1937, 2017. Trois hommes. Trois époques. Un même fil invisible de désir, de douleur et d’héritage."
+},
+"https://www.cinemamoderne.com/films/details/cinema-paradiso-coups-de-coeur-de-lequipe/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/06/Untitled-3-1-e1780957170391.jpg",
+"about": "À la suite de la mort de son vieil ami Alfredo, Salvator se remémore sa jeunesse dans sa Sicile natale des années 40."
+},
+"https://www.cinemamoderne.com/films/details/nausicaa-of-the-valley-of-the-wind/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/nausicaa-still-siteweb-scaled-e1794250015719.jpg",
+"about": "Sur une Terre ravagée par la folie des hommes durant les « sept jours de feu », une poignée d’humains a réussi à survivre dans une vallée protégée par le vent."
+},
+"https://www.cinemamoderne.com/films/details/fatherland/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/10/fatherland-still-siteweb-e1792435772375.jpg",
+"about": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye."
+},
+"https://www.cinemamoderne.com/films/details/notting-hill-cine-tricot/": {
+"image": "https://www.cinemamoderne.com/wp-content/uploads/2026/11/notting-hill-still-siteweb-e1794341692629.jpg",
+"about": "Quand un matin, Anna Scott, l'actrice la plus célèbre d'Hollywood, pousse la porte de la librairie de William Thacket, située dans le charmant quartier de Notting Hill, à l'ouest de Londres, le libraire ignore que commence une grande aventure."
+},
+"https://montreal.ca/evenements/rencontre-citoyenne-halte-chaleur-pavillon-la-fontaine-122745": {
+"image": "https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto/v1/logo-montreal.jpg",
+"about": "Participez à une rencontre citoyenne pour en apprendre plus sur la halte-chaleur du Pavillon La Fontaine."
+},
+"https://montreal.ca/evenements/portes-ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des-neiges-121564": {
+"image": "https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto/v1/logo-montreal.jpg",
+"about": "Participez à une activité portes ouvertes sur l'avenir du secteur Namur–De la Savane et découvrez les changements envisagés dans le cadre du PUM 2050."
+},
+"https://casadelpopolo.com/en/events/2027-03-18-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-1": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-19-efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin-night-2": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-21-ryley-walker": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-11-blue-skies-turn-black-presente-flower-face-invite-e-s": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-25-anthony-pregent": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-03-31-joanne-robertson-kool-music": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-04-03-vlad-holiday": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-04-05-stephan-crump-solo-bass": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-04-09-colin-leo-leger-stress": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-04-30-via-castello-east-canada-tour": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2027-05-21-hudson-freeman": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://www.universe.com/events/loukeman-tickets-KWLDZY": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/mesto-tickets-1MFDSN": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/katzpascale-tickets-Z5SK29": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/clarion-tickets-PG6QTL": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/dj-swisha-tickets-KNYQ4S": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/hills-tickets-C7R8LP": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/devault-tickets-BZFQHV": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/joshwa-tickets-1B28LF": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/in-parallel-tickets-J5VP80": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/angrybaby-tickets-L7G081": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/paper-skies-tickets-KZDFGX": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/suray-sertin-tickets-TVCRZM": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/riot-ten-tickets-FP81CN": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/conrad-taylor-tickets-9Y6H0D": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/itsarius-lynnic-tickets-V825HJ": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/discorinho-extravaganza-nouvel-an-tickets-WBVQJG": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/zorza-tickets-42C0FX": {
+"image": "",
+"about": ""
+},
+"https://www.universe.com/events/romare-live-tickets-V3QM9Y": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/dj-pauly-d-216008/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/twinsick-206983/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/d-o-d-211258/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/ian-asher-208811/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/layton-giordani-202728/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/pauza-214314/": {
+"image": "",
+"about": ""
+},
+"https://newcitygas.com/en/event/ely-oaks-207891/": {
+"image": "",
+"about": ""
+},
+"https://casadelpopolo.com/en/events/2026-12-15-lecture-et-levee-de-fonds-coco-de-nathalie-doummar": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-raquel-and-friends-a-stand-up-comedy-show": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://casadelpopolo.com/en/events/2026-12-19-the-roast-of-2026": {
+"image": "",
+"about": "Montreal concert venues"
+},
+"https://luma.com/eimb8vme": {
+"image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0w/5db741b8-ed8f-4151-b702-a6fa01c2de87.png",
+"about": "** Event time updated to 3-5pm **\nMTL Cookbook Club's biggest event of the year is here! Join us for our Holiday Cookie Swap, co-hosted by @grace_noshes,…"
+},
+"https://luma.com/kukqhsgv": {
+"image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ws/d901f51d-ed7f-4074-8f85-5e093f484ecd.png",
+"about": "We are celebrating 1 year of soft studio days. When i started this studio it was so that i could be surrounded by other people who wanted to create. To make…"
+},
+"https://luma.com/36q3zngt": {
+"image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ix/1752d9bf-12d7-427c-b12b-ac33ba1e2140.png",
+"about": "We will be spending the afternoon together creating your new favourite piece for your house.\n\nCeramic photo frames: ˙⋆✮⋆˚࿔\nThis is a beginner workshop , you'll…"
+},
+"https://luma.com/drbw07zz": {
+"image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mf/d32f8edd-2c9d-440d-906a-2a592b1a28c6.png",
+"about": "Come spend an intimate, cozy evening crafting the 2027 you’ve been daydreaming about. Think warm energy, good music, gentle guidance, and a room full of people…"
+},
+"https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/": {
+"image": "https://billets.mbam.qc.ca/uploads/fb152667-c700-49b9-8810-5bbab651d46d.jpg",
+"about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\tADDITIONAL INFORMATION\n\tReservation terms for MMFA Members: Reservations are required, as spots are limited. Be sure to have your membership card handy when reserving so you can enjoy your complimentary beverage.\n\tACKNOWLEDGEMENTS\n\tLa Buvette is presented by Fréchette, Vins d’exception"
+},
+"https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195837269%252F2868175296431%252F1%252Foriginal.20261015-024710%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dd7a31b95154d579d45b3c8b7dfbab244&w=940&q=75",
+"about": "An evening of professional standup comedy right on the water, in one of Old Montreal's most beautiful event spaces."
+},
+"https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-1992133979359": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188244093%252F2868175296431%252F1%252Foriginal.20260705-193212%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3Dfe9f9e2e509c3aff6985b5cc4d1c406f&w=940&q=75",
+"about": "Join us in the heart of NDG for a night of comedy at Honey Martin. Cozy vibes, good laughs, and delicious drinks await."
+},
+"https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035830115": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196063686%252F2868175296431%252F1%252Foriginal.20261019-011758%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De698c82cd3c7d0822dd1df9a5dbe8c77&w=940&q=75",
+"about": "Professional standup in an authentic Prohibition speakeasy on Saint-Laurent. Killer lineup, craft cocktails, great energy. The Main is back."
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265385695": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/spectacle-dhumour-au-vieux-port-de-montreal-humour-au-bord-de-leau--tickets-2003491291385": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195920433%252F2868175296431%252F1%252Foriginal.20261016-042117%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De994ca1e13bd3f66d3e5d07b9151bd37&w=940&q=75",
+"about": "Une soirée d’humour stand-up professionnel au bord de l’eau, dans l’une des plus belles salles événementielles du Vieux-Montréal."
+},
+"https://www.eventbrite.ca/e/saturday-night-comedy-in-mile-end-the-comedy-spotlight-in-montreal-tickets-2004467330745": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197997778%252F2868175296431%252F1%252Foriginal.20261115-002101%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C1880%252C940%26s%3Df1646347b4be8dad3ed372d4d43ddb09&w=940&q=75",
+"about": "A Saturday night spotlight on professional standup comedians at Kawalees, an Arabic cultural cabaret on Avenue du Parc in Mile End."
+},
+"https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190948837%252F2868175296431%252F1%252Foriginal.20260813-024354%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.053%26fp-y%3D0.507%26s%3D54ab1bb60cbbd7f607e5f04708bc768c&w=940&q=75",
+"about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics."
+},
+"https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-1996655730037": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1198339070%252F2868175296431%252F1%252Foriginal.20261119-182658%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D0c8bf340f254c50db7e9ae695cd3970c&w=940&q=75",
+"about": "Join us at Memento on the Lachine Canal for a night of stand-up comedy, craft beer, waterfront views and some of Montreal's funniest comics."
+},
+"https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341742106": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196063634%252F2868175296431%252F1%252Foriginal.20261019-011613%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Ded2324665157b8c1b8df2bfdefa5fad5&w=940&q=75",
+"about": "Comedy show pro (français) dans un vrai speakeasy sur Saint-Laurent. Lineup solide, cocktails artisanaux, énergie top. Le Main est de retour"
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265386698": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/samedi-hochelagag-comedie-spectacle-dhumour-a-montreal-12-decembre-tickets-2004569677868": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197569747%252F2868175296431%252F1%252Foriginal.20261109-061346%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D477500f4960615d584907df43ddbaa7b&w=940&q=75",
+"about": "Le samedi soir, c’est stand-up en français au Lady Davidson, la taverne qui fait vibrer Hochelaga depuis 1934."
+},
+"https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004035834127": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196063686%252F2868175296431%252F1%252Foriginal.20261019-011758%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De698c82cd3c7d0822dd1df9a5dbe8c77&w=940&q=75",
+"about": "Professional standup in an authentic Prohibition speakeasy on Saint-Laurent. Killer lineup, craft cocktails, great energy. The Main is back."
+},
+"https://www.eventbrite.ca/e/spectacle-dhumour-mercredi-a-montreal-open-mic-a-griffintown-16-dec-tickets-2003490982461": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197639738%252F2868175296431%252F1%252Foriginal.20261109-233629%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D45590577f2f0962b4763f5c41e62c1e5&w=940&q=75",
+"about": "Stand-up, bonne bouffe et boissons au Lord William Pub, l’un des pubs de quartier les plus accueillants de Montréal!"
+},
+"https://www.eventbrite.ca/e/shake-it-off-standup-comedy-dancing-at-savoir-faire-montreal-tickets-2004940228194": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1198139410%252F2868175296431%252F1%252Foriginal.20261117-070333%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D2a1c279ffe969cf6c27a3e19f668ef4f&w=940&q=75",
+"about": "A night of standup comedy, cocktails and dancing in a red neon bar in the Plateau."
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2004412839761": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/monday-stand-up-comedy-show-free-comedy-show-in-montreal-tickets-2004273653451": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188244093%252F2868175296431%252F1%252Foriginal.20260705-193212%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3Dfe9f9e2e509c3aff6985b5cc4d1c406f&w=940&q=75",
+"about": "Join us in the heart of NDG for a night of comedy at Honey Martin. Cozy vibes, good laughs, and delicious drinks await."
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2005213600859": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190948837%252F2868175296431%252F1%252Foriginal.20260813-024354%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.053%26fp-y%3D0.507%26s%3D54ab1bb60cbbd7f607e5f04708bc768c&w=940&q=75",
+"about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics."
+},
+"https://www.eventbrite.ca/e/the-canal-comedy-show-in-montreal-monday-pro-stand-up-comedy-tickets-2005095870725": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1198339070%252F2868175296431%252F1%252Foriginal.20261119-182658%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D0c8bf340f254c50db7e9ae695cd3970c&w=940&q=75",
+"about": "Join us at Memento on the Lachine Canal for a night of stand-up comedy, craft beer, waterfront views and some of Montreal's funniest comics."
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265390710": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/mardi-soiree-standup-pro-le-main-spectacle-dhumour-a-montreal-tickets-2004341752136": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196063634%252F2868175296431%252F1%252Foriginal.20261019-011613%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Ded2324665157b8c1b8df2bfdefa5fad5&w=940&q=75",
+"about": "Comedy show pro (français) dans un vrai speakeasy sur Saint-Laurent. Lineup solide, cocktails artisanaux, énergie top. Le Main est de retour"
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265391713": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://www.eventbrite.ca/e/tuesday-night-pro-stand-up-comedy-the-main-comedy-night-in-montreal-tickets-2004692060919": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196063686%252F2868175296431%252F1%252Foriginal.20261019-011758%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De698c82cd3c7d0822dd1df9a5dbe8c77&w=940&q=75",
+"about": "Professional standup in an authentic Prohibition speakeasy on Saint-Laurent. Killer lineup, craft cocktails, great energy. The Main is back."
+},
+"https://www.eventbrite.ca/e/wednesday-night-comedy-show-in-montreal-open-mic-comedy-in-griffintown-tickets-2003265392716": {
+"image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195560141%252F2868175296431%252F1%252Foriginal.20261011-200128%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Deea42a4cec860aac411b1e316f35a0fb&w=940&q=75",
+"about": "Join us at Lord William Pub for a night of standup comedy and great food & drinks in one of Montreal's most welcoming neighbourhood pubs."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/pink-floyd-the-dark-side-of-the-moon-50th-anniversary": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "To celebrate the 50th anniversary of Pink Floyd’s iconic album The Dark Side of the Moon, experience a show that combines breathtaking views of the solar system and beyond, played out to 42 minutes of the album in surround sound."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/des-pancartes-et-des-portes-50-ans-de-lutte-pour-le-droit-au-logement": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Founded in 1976 in Montreal’s Centre-Sud neighborhood, the Comité logement Ville-Marie is an organization dedicated to defending tenants’ rights, developing social housing, and improving the quality of life for residents of the borough."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/aurorae": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Show. Under the starry sly in Yellowknife, audiences have a front-row seat on the magical spectacle of the aurora borealis, the Northern Lights."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/digital-experience-of-the-house": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover our museum with our new digital experience."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/guided-tour-from-the-cellar-to-the-attic-english": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover everyday life in New France.\r\nDon't miss the guided tour of the oldest witness of rural architecture in Montreal!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/guided-tour-from-the-cellar-to-the-attic-in-french": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover everyday life in New France.\r\nDon't miss the guided tour of the oldest witness of rural architecture in Montreal!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/klaus-scherubel-venice-1968-the-biennael-of-protest-vol-30": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Klaus Scherübel. Venice 1968: The Biennael of Protest VOL. 30\r\nWith artwork by Ulysse Comtois and Guido Molinari\r\nOctober 8th - December 20th"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/maisonneuve-1976-if-only-marius-could-see-this": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Produced in partnership with the Olympic Park and the Macdonald Stewart Foundation, this temporary exhibition takes us back to 1976, a fascinating year during which two sites designed by Marius Dufresne captured public attention."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/delivering-magic": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "The Museum is reviving its wonderful holiday tradition of presenting an exhibition of antique toys. The theme of this new edition revolves around transportation: trains, trucks, horse-drawn carriages, and airplanes are all on display!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/alley-oop-an-interactive-adventure": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Combining games with an exercise in exploration, embark on an adventure through Montréal’s back alleys! Designed to arouse the curiosity of young and old alike, this immersive and interactive exhibition takes you on a fun journey through the history and culture of these emblematic spaces. Montréal’s alleys are brought to life with visual projections and motion detection."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/seeking-refuge": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This exhibition designed by the Biosphère and Oxfam-Québec is an opportunity to discover what climate migration is all about, and to explore possible solutions.\r\nCredit:  Collin Leafasia/Oxfam"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-2027-art-rental-collection": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover the latest submissions to the 2027 Art Rental Collection. The Stewart Hall Art Gallery offers a wide selection of artworks by more than 75 artists, chosen annually by a jury of professionals. As of mid-December, these artworks are available for rent or for purchase."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/lucia-choulakian-le-ciel-etait-dun-bleu-eclatant": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Graduating master’s student in Visual and Media Arts, UQAM"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-frontiers-of-infinity": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This immersive film, both instructive and poetic, links space exploration and neuroscience by reaching out to scientists that are pushing the limits of knowledge..."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-great-solar-system-adventure": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "From the sun-scorched surface of Mercury to the icy expanses of Pluto and beyond, prepare to be subjected to the myriad dangers and wonders of our Solar System, on a breathtaking tour that reveals just how precious our home planet really is."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/anne-isabelle-leonard-ecole-de-glisse": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Graduating master’s student in Visual and Media Arts, UQAM"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/refuser-le-verdict": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Refuser le verdict means resisting the very notion of failure in order to reclaim imperfection, experimentation, and wandering."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/active-grieving-the-aesthetic-activism-of-act-up-montreal": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "An exhibition by the Archives gaies du Québec, developed with the support of the MEM – Centre des mémoires montréalaises"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/chiharu-shiota-the-soul-trembles-2": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "The Soul Trembles is the largest solo exhibition to date of Berlin-based Japanese artist Chiharu Shiota. Since its premiere at the Mori Art Museum, Tokyo, in 2019, it has travelled to eight other venues around the world and will make its first stop in North America at the MMFA in the fall of 2026. Mark your calendars!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/marie-chouinard-becoming-breath": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Internationally renowned Quebec-based artist Marie Chouinard has been active in the fields of dance and performance for nearly fifty years. With BECOMING BREATH, she presents her first solo museum exhibition, designed to be an immersive, multisensory experience: dancers perform daily, a video installation is viewed while lying down and an interactive work invites visitors to engage with foam objects."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/between-decor-and-devotion-artworks-from-the-hospitalieres-collection": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "The exhibition brings together significant works from the Hospitalières’ collection, including several presented publicly for the first time at the museum."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/tisser-nos-vies-lart-comme-force-daction": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover the works created during the creative workshops of the project La voix de l’art."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/beyond-the-pedestal-sculptures-in-the-collection-from-the-1960s-to-today": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This exhibition draws from the Museum’s collection to explore radical innovations in Quebec, Canadian and International sculpture from the 1960s onward."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/allison-katz-jeu-desprit": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Born in Montreal, Allison Katz is one of the most exciting painters of her generation. For her first institutional solo exhibition in Quebec, she brings together major recent works with entirely new paintings in an exhibition design that she conceived specifically for the MMFA."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/fallwinter-2026-2027-exhibitions": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "A ticket for the spring/summer programming gives you access to two captivating exhibitions: Jean-François Bouchard: Turn or Burn and Stephanie Comilang: ANTHEMS."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-american-revolution-in-quebec-our-march-toward-democracy": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Château Ramezay, which served as the headquarters of the Continental Army in 1775 and 1776, invites you to relive the events that unfolded on Canadian soil during the American Revolution and to learn about our own journey toward democracy, which led to Confederation in 1867."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/anne-kahane-structures-3": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This exhibition sheds light on the work of Anne Kahane (1924-2023), one of the most important Montreal sculptors of her generation. Early in her career, Kahane earned significant recognition, becoming the first female sculptor to represent Canada at the Venice Biennale and securing numerous major public commissions across the country."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/sovereign-stitches-wild-weaves": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Curated by Wanda Nanibush and Sage Paul, the exhibition brings together more than 35 Indigenous artists from around the world whose work challenges the borders between contemporary art, culture, fashion, design and traditional practice. The Indigenous art, fashion and textiles on exhibition will touch on embodiment, queer storytelling, cultural beautification, adornment, storytelling, tattooing, trade, activism, and conservation."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/meryl-mcmaster-as-strong-as-the-wind": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Outdoors exhibition. Meryl McMaster revisits her family ties (her Plains Cree/Métis and Dutch/British ancestors) and looks into the history inscribed in the landscape."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/herbert-gerald-macklin-a-citizen-scientist-of-earlier-times": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This new exhibition at the Redpath Museum features botanical illustrations by Herbert Gerald Macklin, whose works demonstrate a remarkable attention to detail. The paintings selected for the exhibition come from the McGill University Herbarium’s collection of botanical illustrations."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-story-of-the-dodo": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This new mini-exhibition at the Redpath Museum showcases real dodo bones and historic casts of the dodo (Raphus cucullatus), the charismatic bird that went extinct in the late 17th century."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/encounters-in-the-milky-way": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "“Encounters in the Milky Way” is a film that explores our galaxy, uncovering its history, its future, and the dynamic changes that are constantly taking place within it."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/new-search-a-world-in-common": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Presented at the Biosphère | Espace pour la vie, the exhibition A World in Common brings together artists who explore the relationships between living beings and their environment. It is an invitation to discover the interdependencies that sustain the balance of the living world."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/keith-haring-in-3d-2": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Keith Haring returns to the MMFA, twenty-eight years after his last exhibition here. The Canadian premiere of Keith Haring in 3D is the first exhibition dedicated to the three-dimensional work of one of the most influential and iconic artists of the late 20th century. It provides the perfect opportunity to move through and around his creations like never before."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/le-cucitrici-voices-of-montreals-italian-seamstresses": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Discover the little-known history of immigrant Italian seamstresses whose work profoundly marked the city and its communities."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/dorval-point-of-passage-to-history": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This commemorative exhibition takes you back to the summer of 1976, recalling the historic passage of the Olympic torch relay to Montreal 50 years ago. Through never-before-seen archival images, personal accounts, and memorabilia, rediscover the emotion, pride, and Olympic spirit that united our Dorval community."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/detours-urban-experiences": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "DETOURS – URBAN EXPERIENCES  IS AN IMMERSIVE EXHIBITION THAT TAKES YOU INTO THE WORLD OF MONTREALERS WITH SINGULAR BACKGROUNDS."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/the-artof-circus": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "The new permanent exhibition in the TOHU."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/watersheds-follow-the-flow": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Embark on an interactive adventure to discover a watershed!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/emolab": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Explore your emotions about climate change. Discover ways to take sustainable action through the Emolab exhibition at Montreal's Biosphère."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/exhibitions/bjfj-96-the-secrets-of-bonsecours": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "This new exhibition reveals the stories – and mysteries! – uncovered during archaeological digs carried out over the past 30 years on the site of the Notre-Dame-de-Bon-Secours Chapel in Old Montreal. This fascinating archaeological adventure is brought to life through the rich and playful illustrations of Romain Blais."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/off-the-wall-evening-the-mems-big-thrift-event": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "On Thursday, November 26, from 6:00 to 10:00 p.m., the MEM will be transformed into a giant pop-up thrift store."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/remembering-act-up-montreal": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "On Sunday, November 29, from 2:00 to 3:30 p.m., dive into the history of a movement that transformed the struggle against HIV/AIDS in Montréal. Meet the people who have helped keep this collective memory alive."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/the-holiday-season-at-the-museum-english": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Traditions Make an Appearance\r\nJoin a guided tour to delve into the history of end-of-year celebrations and discover how people used to prepare for the festivities in the past.\r\n\r\n(Re)visit the Maison Saint-Gabriel, decorated especially for the occasion, and travel back in time, from New France to the 19th century. Discover the customs, beliefs, and traditions that brought life to winters here, in a warm and festive atmosphere.\r\n\r\nAn ideal outing for history buffs and families alike who want to discover Quebec’s heritage in a new light and get into the holiday spirit!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/the-holiday-season-at-the-museum-french": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Traditions Make an Appearance\r\nJoin a guided tour to delve into the history of end-of-year celebrations and discover how people used to prepare for the festivities in the past.\r\n\r\n(Re)visit the Maison Saint-Gabriel, decorated especially for the occasion, and travel back in time, from New France to the 19th century. Discover the customs, beliefs, and traditions that brought life to winters here, in a warm and festive atmosphere.\r\n\r\nAn ideal outing for history buffs and families alike who want to discover Quebec’s heritage in a new light and get into the holiday spirit!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/habiter-le-mac-meet-the-artist": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "An intimate encounter with an artist from the first Habiter le MAC cohort, who takes the time to share her journey and approach. A rare, behind-the-scenes look at her creative world."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/storytelling-performance-by-francois-lavallee-2": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Come warm up in the historic barn for an evening of storytelling."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/les-choralies-le-concert-douverture-avec-lensemble-da-capo-the-choralies-opening-concert-with-ensemble-da-capo": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "To kick off the 25th edition of the Choralies, Ensemble Da Capo invites you to an evening of music dedicated to one of the great masters of Baroque music: Johann Sebastian Bach."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/studios-open-house-habiter-le-mac": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "On December 5 and 6, step inside the studios of the six artists in the first Habiter le MAC cohort and see where they've been working for the past eight months. And it's free!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/en-famille-at-the-mac-2": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Now through December, the artists of the first Habiter le MAC cohort are offering creative workshops the whole family can enjoy together! Each artist will introduce their world and practice, then lead a hands-on workshop inspired by their work."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/collecting-antique-toys": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Is collecting your passion? Learn how to care for vintage items and discover their value with passionate collectors Stéphane Corriveau and Marlène Lemieux!"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/teens-mystery-game-montreal-in-the-ice-storm": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "An investigation, five challenges and a trunk containing incomplete archival records that must be opened within the allotted time. Can you find the missing information to reconstruct the history of the ice storm that paralyzed Montréal in 1998?"
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/le-noel-de-buzz-cuivres": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "In collaboration with the Chapelle musicale du Bon-Pasteur, In collaboration with the Chapelle musicale du Bon-Pasteur, the MEM invites you to celebrate the holiday season on Friday, December 18, at 7:30 p.m., with a Christmas concert by the brass ensemble Buzz Cuivres."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/mission-have-fun-at-the-museum": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Take a guided tour of the museum and enjoy a fun moment with family or friends during the holiday season."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/les-choralies-the-closing-concert-with-les-voix-ferrees": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "To wrap up the 25th edition of the Choralies, Les Voix Ferrées invite you to keep the holiday spirit alive through music! The program features a selection of Christmas favourites that capture the magic and warmth of the holiday season."
+},
+"https://museesmontreal.org/en/exhibitions-and-events/events/a-new-years-gathering-starting-the-year-on-the-right-foot": {
+"image": "https://museesmontreal.org/images/meta/facebook-en.jpg",
+"about": "Traditional dance in Québec is far from forgotten. A new generation of dancers and \"callers\" is ready to help you ring in the New Year with joy and fun! \r\n\r\nJoin us for this festive gathering!"
+},
+"https://cinemacinema.ca/fr/films/les-rayons-et-les-ombres-2278": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/rayons-et-ombres.jpg",
+"about": "Jean et Otto, un homme de presse français et un jeune francophile allemand, se battent pour la paix en Europe. La fille de Jean, Corinne, démarre une brillante carrière d'actrice de cinéma. Mais la guerre éclate et la France est occupée. Les deux amis ont un rôle majeur dans cette nouvelle France. Jean trouve la stature d'un grand patron de presse, ardent promoteur de la Collaboration avec l'occupant, Otto devient l'ambassadeur du Reich à Paris. Corinne, se trouve jetée dans la fosse aux lions…"
+},
+"https://cinemacinema.ca/fr/films/autofiction-2293": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/AUTOFICTION-affiche.jpg",
+"about": "Raúl est un cinéaste culte en pleine crise créative. Lorsqu’un drame frappe l’une de ses plus proches collaboratrices, il s’en inspire pour écrire son prochain film. Peu à peu, il imagine Elsa, une réalisatrice en pleine écriture, dont le parcours commence à refléter le sien. Les deux cinéastes deviennent les deux facettes d’un même personnage, dans un jeu de miroirs où l’impudeur de l’autofiction dévoile autant qu’elle détruit. Mais jusqu’où peut-on aller pour raconter une histoire ?"
+},
+"https://cinemacinema.ca/fr/films/rencontres-internationales-du-documentaire-de-montreal-331": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/ridm_2026.jpg",
+"about": "Les Rencontres internationales du documentaire de Montréal (RIDM) sont l’un des plus importants festivals de films documentaires en Amérique du Nord. Chaque année, les RIDM présentent une centaine de documentaires canadiens et internationaux et proposent, avec le Forum RIDM, un marché documentaire unique au Québec.Plusieurs projections auront lieu aux Cinémas du Parc et du Musée.La 29e édition des RIDM se déroulera du 19 au 29 novembre 2026.Programmation complète et infos : ridm.ca"
+},
+"https://cinemacinema.ca/fr/films/murmures-2277": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/murmures_LR.jpeg",
+"about": "Ciné-rencontre en présence de la cinéaste&nbsp;Marie-Julie Dallaire, Samedi 28 novembre à 13h00 au Cinéma Beaubien. Billets ici.Porté par une musique orchestrale originale, MURMURES&nbsp;invite à une immersion sensorielle sur la planète du vivant. Sans autre présence humaine que la musique, la vie observée est celle de nos colocataires non humains que l’on nomme « animaux ». En se tenant loin du spectaculaire, on assiste à des moments privilégiés de leur intimité quotidienne, où émergent leur individualité au sein du groupe et la profondeur de leur conscience, de leurs émotions. À travers les regards de nos contemporains, MURMURES&nbsp;s’attarde avec fascination sur cette vie mystérieuse qui grouille au diapason avec la nôtre, en nous laissant avec un sentiment d’unité et d’appartenance à ce vaste ensemble appelé « vivant », au cœur duquel nous évoluons en infime minorité."
+},
+"https://cinemacinema.ca/fr/films/villeneuve-l-ascension-d-une-legende-2276": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/villeneuve_new.png",
+"about": "Berthierville, 1970. Issu d’un milieu modeste, un jeune Québécois passionné décide de tout risquer pour tenter de se faire une place dans le monde très sélect de la course automobile en misant sur son talent brut hors du commun. Son nom : Gilles Villeneuve."
+},
+"https://cinemacinema.ca/fr/films/cheval-sauvage-numero-neuf-2275": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/wild-horse-nine_official.jpg",
+"about": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…"
+},
+"https://cinemacinema.ca/fr/films/fjord-2231": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/fjord_STF_cadre.jpg",
+"about": "PALME D’OR DU FESTIVAL DE CANNES 2026Les Gheorghiu, un couple roumano-norvégien très pieux, s’installent dans un village au bout d’un fjord où ils se lient rapidement d’amitié avec leurs voisins, les Halberg. Les enfants des deux familles deviennent très proches, malgré des éducations différentes.Lorsque le corps enseignant découvre des ecchymoses sur le corps d’Elia, l’aînée des enfants Gheorghiu, la communauté se demande si l’éducation traditionnelle que les enfants Gheorghiu reçoivent de leurs parents pourrait en être la cause.Ce film est aussi présenté au Cinéma du Parc avec sous-titres anglais. Voir l'horaire du film au Cinéma du Parc."
+},
+"https://cinemacinema.ca/fr/films/vous-pouvez-tout-voir-2284": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/vous-pouvez-tout-voir.jpg",
+"about": "Trente-quatre jours avant son incarcération, la célèbre fondatrice de la Silicon Valley Elizabeth Holmes invite une équipe de tournage sceptique à documenter chacun de ses faits et gestes. Ce qui commence comme un portrait intime d’une criminelle énigmatique se transforme en un voyage vertigineux de trois ans au cœur de l’abîme."
+},
+"https://cinemacinema.ca/fr/films/pauline-julien-femme-pays-2116": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/pauline-julien-affiche.jpg",
+"about": "Ciné-rencontre en présence de la réalisatrice&nbsp;Anaïs Barbeau-Lavalette, dimanche 29 novembre à 13h00 au Cinéma Beaubien. Billets ici.&nbsp;Une femme perd la parole, à l’image d’un pays qui la perd en même temps qu’elle. Pauline Julien, chanteuse flamboyante, véritable icône poétique et politique, a laissé de nombreuses empreintes en nous. Nous la suivons autant dans ses triomphes sur scène, dans ses prises de position pour l’émancipation du pays du Québec, que dans des moments d’intimité absolue auprès de ses enfants, mais surtout, au cœur de son histoire d’amour incandescente avec Gérald Godin. Le film l’attrape au moment où elle apprend le diagnostic d’aphasie dégénérative qui lui arrachera la parole. Nous remontons le fil d’une vie faite de lumière, de travail, d’amour et de déchirements. Pauline danse, Pauline aime, Pauline gueule, Pauline baise, Pauline brûle. Pauline vit. Pauline meurt. Que nous reste-t-il d’elle?"
+},
+"https://cinemacinema.ca/fr/films/si-tu-penses-bien-2292": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/si-tu-penses-bien_temp.jpg",
+"about": "Lorsque Gil rencontre Jacques, leur amour est évident. Mais l’intensité des débuts laisse place à une relation où elle se sent de plus en plus enfermée, jusqu’à en perdre ses repères.&nbsp;Jacques la rassure : si elle pense bien, il ne lui arrivera que du bien. Peu à peu, Gil comprend le contrôle qu’il exerce sur sa vie…"
+},
+"https://cinemacinema.ca/fr/films/santa-claude-2299": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/santa-claude.jpg",
+"about": "Claude Legault incarne un avocat émérite qui se retrouve à devoir faire des travaux communautaires après avoir commis une bévue, soit de s'être enguirlandé avec une mascotte dans une parade de Noël. Il devra alors incarner un père Noël dans un centre d'achat, ce qu'il déteste au plus haut point. Pendant ce temps, le vrai père Noël, joué par Gildor Roy, se cherche justement un remplaçant, après s'être blessé au pied. C'est l'histoire du faux père Noël qui ne veut pas l'être et du vrai père Noël qui ne peut plus l'être."
+},
+"https://cinemacinema.ca/fr/films/club-kid-enfant-de-la-nuit-2287": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/Clubkid_FR.jpg",
+"about": "Avant-première suivie d'une séance de questions-réponses avec des DJ&nbsp;Maria-Alexandra Munoz Gonzalez et&nbsp;Diskommander, jeudi 26 novembre à 21h au Cinéma du Parc. Billets ici.Un organisateur de soirées underground est contraint de s’occuper d’un fils dont il ignorait totalement l’existence."
+},
+"https://cinemacinema.ca/fr/films/gugu-s-world-2341": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/gugus-world.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉAL - FILM D'OUVERTUREUn garçon de 11 ans rêve de devenir footballeur, mais se heurte aux préjugés à cause de sa personnalité délicate. Vivant avec sa grand-mère malade, il tente de la protéger à tout prix pour ne pas avoir à aller vivre chez son père intolérant.*Film choisi par le Brésil pour le représenter aux Oscars*Lauréat de l'Ours de cristal et du Grand Prix du jury international dans la section Generation Kplus du Festival de Berlin."
+},
+"https://cinemacinema.ca/fr/films/marquer-le-congo-2304": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/Marquer-le-Congo.jpg",
+"about": "MARQUER LE CONGO&nbsp;suit Ugo Kasuku, ancien footballeur professionnel, qui dirige depuis plusieurs années une académie de football à Goma, ville meurtrie par la guerre. En lançant la Future Pro League, il attire des recruteurs internationaux afin d'offrir à la jeunesse congolaise une chance, une dignité et un espoir pour tout un pays blessé."
+},
+"https://cinemacinema.ca/fr/films/minotaur-2291": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/minotaur_STA.jpg",
+"about": "Séance spéciale présenté en collaboration avec The Russian Canadian Democratic Alliance (RDCA), suivie d'une discussion avec invité.e.s - Jeudi 19 novembre à 19h30 au Cinéma du Musée. Billets ici.The Russian Canadian Democratic Alliance (RCDA) est un organisme canadien à but non lucratif qui favorise les liens entre les Canadiennes et Canadiens russophones et toutes les personnes qui s’intéressent à la Russie contemporaine. L’organisme diffuse de l’information et soutient l’Ukraine, la démocratie, les droits de la personne et la libération des prisonniers politiques en Russie par l’entremise d’événements culturels, de discussions publiques et d’activités de plaidoyer.*Grand Prix - Festival de Cannes 2026.*Candidat de la France aux Oscars 2027.SynopsisRussie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.Ce film est aussi présenté avec sous-titres français. Voir l'horaire du film avec sous-titres français."
+},
+"https://cinemacinema.ca/fr/films/la-bola-negra-2281": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/bola-negra_STA.jpg",
+"about": "*Prix de la mise en scène (ex æquo)&nbsp;- Festival de Cannes 2026.*Prix du public (meilleur film) - TIFF 2026.*Représentant de l'Espagne - Oscars 2027.Espagne, trois époques distinctes. En 1932, un jeune héritier, soupçonné d’homosexualité, est exclu du cercle fermé d’un casino huppé. En 1937, un soldat phalangiste s’éprend d’un prisonnier républicain au charme ravageur. En 2017, un historien enquête sur le passé de son grand-père, qu’il n’a jamais connu. Figures majeures de la culture queer espagnole, Javier Calvo et Javier Ambrossi signent une fresque romanesque et résolument politique, qui relie la répression du désir homosexuel aux traumatismes de l’histoire de leur pays. Inspiré d’un roman inachevé de Federico García Lorca, LA BOLA NEGRA s’impose comme une œuvre baroque et ambitieuse, portée par de flamboyantes séquences musicales et de mémorables apparitions de Glenn Close et Penélope Cruz. (FNC 2026)"
+},
+"https://cinemacinema.ca/fr/films/ken-russell-s-the-devils-2253": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/the-devils.jpg",
+"about": "VERSION RESTAURÉE 4K · DIRECTOR’S CUT&nbsp;·&nbsp;NON CENSURÉChef-d’œuvre intemporel du cinéma mettant en vedette Oliver Reed et Vanessa Redgrave, KEN RUSSELL’S THE DEVILS est une œuvre visionnaire sur l’obsession et la corruption, et un film phare du grand cinéaste Ken Russell. KEN RUSSELL’S THE DEVILS offre l’expérience en salle intégrale et sans compromis que Russell avait toujours imaginée, et sera présenté pour la première fois dans une version restaurée en 4K."
+},
+"https://cinemacinema.ca/fr/films/la-patrie-2274": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/la-patrie_STF_official.jpg",
+"about": "*Prix de la mise en scène (ex æquo) - Festival de Cannes 2026.En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye. Au volant d'une Buick noire, ils entreprennent un voyage éprouvant dans un pays qu’ils ont fui, seize ans plus tôt, lors de la prise de pouvoir du parti nazi. De Francfort, sous domination américaine, jusqu’à Weimar, contrôlée par les Soviétiques, père et fille traversent une Allemagne en ruines, coupée en deux par la guerre froide.Ce film est aussi présenté au Cinéma du Musée avec sous-titres anglais. Voir l’horaire du film&nbsp;avec sous-titres anglais."
+},
+"https://cinemacinema.ca/fr/films/la-bola-negra-2280": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/bola-negra_STF.jpg",
+"about": "*Prix de la mise en scène (ex æquo) - Festival de Cannes 2026.*Prix du public (meilleur film) - TIFF 2026.*Représentant de l'Espagne - Oscars 2027.Espagne, trois époques distinctes. En 1932, un jeune héritier, soupçonné d’homosexualité, est exclu du cercle fermé d’un casino huppé. En 1937, un soldat phalangiste s’éprend d’un prisonnier républicain au charme ravageur. En 2017, un historien enquête sur le passé de son grand-père, qu’il n’a jamais connu. Figures majeures de la culture queer espagnole, Javier Calvo et Javier Ambrossi signent une fresque romanesque et résolument politique, qui relie la répression du désir homosexuel aux traumatismes de l’histoire de leur pays. Inspiré d’un roman inachevé de Federico García Lorca, LA BOLA NEGRA s’impose comme une œuvre baroque et ambitieuse, portée par de flamboyantes séquences musicales et de mémorables apparitions de Glenn Close et Penélope Cruz. (FNC 2026)"
+},
+"https://cinemacinema.ca/fr/films/hantee-2119": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/hantee-affiche.jpg",
+"about": "Mathilde, une adolescente contrainte de déménager en région avec sa famille pour une raison mystérieuse, découvre que sa nouvelle maison est hantée par Isabeau, une femme du 19e siècle qui s’est étonnamment bien adaptée au monde moderne, mais qui a tout oublié de sa vie. Au fil d’une enquête sur le passé du fantôme, ce duo improbable se lance dans une aventure qui les liera d’amitié.Écrit par&nbsp;India Desjardins."
+},
+"https://cinemacinema.ca/fr/films/naza-2282": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/Naza_STF_nologo.jpg",
+"about": "*Prix spécial du jury au Festival du film de VeniseFilmé de nuit sur les toits de Tel Aviv, le film décrit en détail les systèmes derrière le massacre de civils palestiniens à Gaza par Israël.Ce film est aussi présenté avec sous-titres anglais au Cinéma du Parc et au Cinéma du Musée. Voir l’horaire du film avec sous-titres anglais."
+},
+"https://cinemacinema.ca/fr/films/la-meilleure-facon-c-est-par-accident-2115": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/meilleure-facon_VOF.jpg",
+"about": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître."
+},
+"https://cinemacinema.ca/fr/films/primetime-2392": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/primetime_EN.jpg",
+"about": "Le journaliste Chris Hansen enquête et dénonce un monde criminel, menant à un changement majeur dans la télévision."
+},
+"https://cinemacinema.ca/fr/films/minotaure-2290": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/minotaur_FR.jpg",
+"about": "*Grand Prix - Festival de Cannes 2026.*Candidat de la France aux Oscars 2027.Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.Ce film est aussi présenté avec sous-titres anglais. Voir l’horaire du film avec sous-titres anglais."
+},
+"https://cinemacinema.ca/fr/films/fatherland-2273": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/fatherland-musee.jpg",
+"about": "*Prix de la mise en scène (ex æquo) - Festival de Cannes 2026.En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye. Au volant d'une Buick noire, ils entreprennent un voyage éprouvant dans un pays qu’ils ont fui, seize ans plus tôt, lors de la prise de pouvoir du parti nazi. De Francfort, sous domination américaine, jusqu’à Weimar, contrôlée par les Soviétiques, père et fille traversent une Allemagne en ruines, coupée en deux par la guerre froide.Ce film est aussi présenté au Cinéma Beaubien et au Cinéma du Musée avec sous-titres français.&nbsp;Voir l’horaire des séances avec sous-titres français."
+},
+"https://cinemacinema.ca/fr/films/fjord-2230": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/fjord_STA_cadre.jpg",
+"about": "PALME D’OR DU FESTIVAL DE CANNES 2026Les Gheorghiu, un couple roumano-norvégien très pieux, s’installent dans un village au bout d’un fjord où ils se lient rapidement d’amitié avec leurs voisins, les Halberg. Les enfants des deux familles deviennent très proches, malgré des éducations différentes.Lorsque le corps enseignant découvre des ecchymoses sur le corps d’Elia, l’aînée des enfants Gheorghiu, la communauté se demande si l’éducation traditionnelle que les enfants Gheorghiu reçoivent de leurs parents pourrait en être la cause.Ce film est aussi présenté au Cinéma Beaubien avec sous-titres français. Voir l'horaire du film au Cinéma Beaubien."
+},
+"https://cinemacinema.ca/fr/films/messy-legends-2313": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/messy-legends.png",
+"about": "Séance spéciale en présence des cinéastes&nbsp;Kelly Kay Hurcomb et James Watts.Un groupe de milléniaux égarés entreprennent leurs propres voyages régressifs uniques au cours de la même soirée sur la bande du Plateau de Montréal, poursuivant le passé et perdant l'intrigue.Prix du public (Meilleur film québécois) - Fantasia 2025"
+},
+"https://cinemacinema.ca/fr/films/taxi-driver-50th-anniversary-in-16mm-nyc-edition-2256": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/taxi-driver_affiche.jpg",
+"about": "Séance spéciale en 16mm, présenté en partenariat avec le&nbsp;Cinéclub de Montréal.Précédé d'échantillons de films érotique 16mm des années 1970, typiquement projetés dans les cabines de ‘peep show’ de la 42e rue à NY. Venez assister à cette présentation très spéciale à l'occasion du 50e anniversaire. Strictement 18+.Ce film époustouflant a annoncé au monde entier l'arrivée du réalisateur Martin Scorsese, du scénariste Paul Schrader et des stars Robert DeNiro et Jodie Foster, cette dernière sous un nouveau jour. Le réalisateur dépeint la ville de New York avec des images dures et inoubliables - égouts fumants, rues balayées par la pluie, néons éblouissants - qui, ensemble, constituent une vision de l'enfer sur terre. La partition viscérale de Bernard Hermann et la photographie granuleuse de Michael Chapman y contribuent grandement.&nbsp;Mise en nomination pour de nombreux Oscars, le film a remporté la Palme d'Or à Cannes. Il est proposé ici dans une copie 16mm qui a été projetée par des profs de cinéma à la School of Visual Arts de New York, où Scorsese avait donné une conférence en tant qu’invité.&nbsp;"
+},
+"https://cinemacinema.ca/fr/films/musk-2340": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/Musk_Affiche.jpg",
+"about": "Une analyse approfondie et sans fard d'Elon Musk, milliardaire de la technologie et PDG de Tesla, SpaceX et Twitter."
+},
+"https://cinemacinema.ca/fr/films/antigone-2186": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/25-beaubien/antigone.jpg",
+"about": "Séance spéciale | 25e anniversaire du Cinéma BeaubienEn présence de la réalisatrice Sophie Deraspe.&nbsp;La discussion sera animée par la journaliste Manon Dumais.SynopsisPremière de classe, Antigone (Ricci) est dans sa dernière année d'école secondaire lorsque deux événements déboussolent toute sa vie: un de ses frères est tué par un policier, l’autre est détenu par la police. Ayant vécu à Montréal depuis son immigration au Canada avec sa famille il y a plus d’une décennie, elle fait maintenant face à un choix très difficile. Si elle décide d’aider son frère emprisonné, elle risque de compromettre son habitation au Canada en plus de menacer son avenir prometteur. Quand son histoire attire l’attention des médias, Antigone devient un symbole pour la liberté et la justice pendant qu’elle doit prendre une décision qui changera sa vie pour toujours.Inspirée par une tragédie d’il y a plus de 2000 ans, Antigone raconte une histoire qui demeure importante et seyante. Ce fut la soumission canadienne officielle pour le film long-métrage international aux Oscars en 2019.Le film sera précédé du court métrage LE PROJECTIONNISTE, réalisé par le Collectif Salle 6, composé de plusieurs employé.es et ancien.nes employé.es du Cinéma Beaubien, et tourné au cinéma."
+},
+"https://cinemacinema.ca/fr/films/adieu-ma-concubine-2124": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/cine-histoire/adieu-concubine.jpg",
+"about": "CINÉ-HISTOIRE*Palme d'or au Festival de Cannes 1993.Formés depuis l’enfance à l’art de l’opéra de Pékin, deux amis occupent désormais le haut de l'affiche. L’un étant secrètement amoureux de l’autre, leur amitié et leur carrière sont fragilisés dans un pays bousculé par la révolution culturelle.Le film sera présenté par Frédéric Charbonneau, professeur au département des littératures de langue française de l’Université McGill."
+},
+"https://cinemacinema.ca/fr/films/cinq-types-de-peur-2342": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/cinq-type-de-peur.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALMurilo, jeune musicien en deuil, entame une relation avec Marlene, une infirmière prisonnière d’une liaison avec un trafiquant. Leur trajectoire croise celles de Luciana, une policière mue par un désir de vengeance, et d’Ivan, un avocat aux intentions troubles. Cinq existences que tout semble opposer s’engagent sur un chemin sans retour."
+},
+"https://cinemacinema.ca/fr/films/ritas-2343": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/ritas.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉAL&nbsp;À travers une véritable « archéologie intime», la chanteuse Rita Lee se révèle tour à tour poète, compositrice, instrumentiste, écrivaine, ermite et muse. La vie de Rita et son processus créatif sont dévoilés, révélant son talent musical et son pouvoir de métamorphose, lors d’interviews accordées tout au long de sa carrière et de témoignages récents.&nbsp;*Documentaire brésilien le plus vu en salles en 2025"
+},
+"https://cinemacinema.ca/fr/films/marie-madeleine-2297": {
+"image": "https://img.cinemacinema.ca/Affiches/cadres/marie-madelaine_STA.jpg",
+"about": "Ciné-rencontre en présence de la cinéaste&nbsp;Gessica Généus :Vendredi 4 décembre à 18h00 au Cinéma du Musée. Billets ici.Samedi 5 décembre à 14h00 au Cinéma du Musée. Billets ici.À Jacmel, en Haïti, la mer, les églises et les esprits façonnent la vie. Marie Madeleine est une femme libre. Elle vit de la prostitution et traverse les nuits sans se soumettre aux règles de ceux qui sauvent les âmes. Sa route croise celle de Joseph, un jeune évangéliste. Une relation se noue entre ces deux êtres que tout oppose. Alors que Joseph vacille dans sa foi, Marie Madeleine l’entraîne vers un monde dans lequel désir et quête de liberté ouvrent un espace où tout peut être réinventé."
+},
+"https://cinemacinema.ca/fr/films/rocky-2373": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/Rocky50_FR.jpg",
+"about": "Restauration 4K · 50e anniversaireRocky, un boxeur sans envergure issu d'une partie pourrie de Philadelphie se voit offrir la chance de se battre contre le champion du monde des poids lourd en mal de défis qui désire faire mousser sa popularité. L'aspirant ira jusqu'au bout du combat, cherchant à regagner une fierté qu'il avait perdue."
+},
+"https://cinemacinema.ca/fr/films/l-identite-4-court-metrages-4-regards-2379": {
+"image": "https://img.cinemacinema.ca/Affiches/beaubien/cinema-nomade_lidentite.jpg",
+"about": "CINÉMA NOMADEPrésenté par Cinéma Nomade, ce programme propose une sélection de quatre courts-métrages canadiens explorant le thème de l'identité.JAZZ INFERNAL de Will Niava (16min)Dans cette envolée jazz magistralement orchestrée par Will Niava, Koffi, fils d'un légendaire trompettiste, doit faire face au poids de l'héritage de son père et laisser derrière lui les fantômes de la Côte d'Ivoire.MONOCHROME de Justice Rutikara (12 min)Des histoires croisées, une tension en noir et blanc et un écran scindé qui ne laisse personne indifférent.COMME UNE SPIRALE de Lamia Chraibi (28 min)Un dialogue entre Beyrouth et cinq femmes, travailleuses domestiques migrantes, sous le système de la Kafala. Dans le grain prononcé de la pellicule, elles parlent de leur appartenance à une société qui s’effondre. Leurs voix s’élèvent, dressant le récit d’une liberté dérobée et d’une soif d’exister. Leurs souvenirs dansent au rythme de l’oppression. Et face à la spirale de leur vie, elles se lèvent pour ne pas sombrer dans l’oubli.OUSHATA' de Aïcha Bastien N'Diaye (22 min)Sur la route des pow-wow, Aïcha Bastien N'Diaye danse pour se reconnecter à elle-même, à sa lignée et à sa communauté. D'ascendance wendat, guinéenne et québécoise, elle traverse la cérémonie guidée par le rythme et la terre."
+},
+"https://cinemacinema.ca/fr/films/le-journal-de-pilar-en-amazonie-2344": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/pila.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALDans LE JOURNAL DE PILAR EN AMAZONIE, Pilar est une petite fille curieuse et aventurière. Grâce à son hamac magique, un cadeau de son grand-père, elle part en Amazonie avec son ami Breno et son chat Simba. Là-bas, ils rencontrent Maiara, une jeune fille dont le village a été détruit. Avec l'aide de personnages des légendes brésiliennes, ils vont tout faire pour retrouver sa famille et protéger la forêt."
+},
+"https://cinemacinema.ca/fr/films/old-bandits-2345": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/old-bandits.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALDans BRAQUAGE À L'ANCIENNE (Old Bandits), Marta (Fernanda Montenegro) et Rodolfo (Ary Fontoura), un couple de retraités, décident de braquer une banque. Pour mener à bien leur plan, ils s’associent à un jeune couple de malfaiteurs. Nancy (Bruna Marquezine) et Sid (Vladimir Brichta) se joignent à eux.&nbsp;Mais leur projet se heurte à Oswaldo (Lázaro Ramos), un enquêteur obstiné.*Plus grand succès du cinéma brésilien en 2026"
+},
+"https://cinemacinema.ca/fr/films/un-homme-avec-un-grand-h-2346": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/homem-com-h.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALUN HOMME AVEC UN GRAND H est un biopic sur Ney Matogrosso, une icône de la musique et de la culture brésilienne. Le film retrace son enfance à Bela Vista, dans le Mato Grosso do Sul, marquée par des conflits familiaux et des préjugés, jusqu'à son déménagement à São Paulo, où il a commencé sa carrière artistique. Membre du groupe Secos &amp; Molhados, Ney a conquis le public avec des succès comme \"Rosa de Hiroshima\" et \"Sangue Latino\", en pleine dictature militaire. L'œuvre explore son parcours unique, son identité libertaire et sa présence scénique inoubliable, célébrant un artiste devenu symbole de liberté et de résistance."
+},
+"https://cinemacinema.ca/fr/films/batman-returns-2286": {
+"image": "https://img.cinemacinema.ca/Affiches/musee/batman-returns.png",
+"about": "Présenté par&nbsp;Morning Gory Productions en partenariat avec&nbsp;Carolyn’s Community.Non seulement Batman doit affronter le Pingouin, monstre doté d'une intelligence à toute épreuve qui sème la terreur, mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman."
+},
+"https://cinemacinema.ca/fr/films/danemark-et-les-iles-feroe-le-royaume-du-bonheur-2079": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/aventuriers-voyageurs/danemark.jpg",
+"about": "LES AVENTURIERS VOYAGEURSLe cinéaste primé Tommy Ferlatte et sa complice Janie Lapointe signent une nouvelle odyssée nordique en Scandinavie, du Danemark aux Îles Féroé. De Copenhague à Aarhus, ils explorent des villes où nature, design et qualité de vie s’harmonisent. Cap ensuite sur les Îles Féroé, un archipel mythique sauvage où les falaises vertigineuses et la nature brute dictent le rythme de la vie. Entre paysages spectaculaires et rencontres humaines, mêlant humour et émotion, ce film explore une question universelle : qu’est-ce qui nous rend vraiment heureux ?SANS CONFÉRENCIER."
+},
+"https://cinemacinema.ca/fr/films/dounia-et-la-princesse-d-alep-2201": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/cinepsy/Dounia.jpg",
+"about": "CINÉPSYPrésenté par l'Association des psychothérapeutes psychanalytiques du Québec (APPQ).La réalisatrice Marya Zarif et la psychologue et psychanalyste Jessica Abdelmoumene commenteront le film, puis échangeront avec les enfants et les adultes après la projection.SynopsisDounia, 6 ans, est élevée en Syrie par ses grands-parents, après la mort de sa mère et l’arrestation de son père. Sa grand-mère veille particulièrement à lui donner tout ce qui peut nourrir son intelligence et l’amour de sa culture, des plats cuisinés qu’elle adore aux contes dont elle raffole. Parmi ceux-ci, la fillette aime particulièrement \"La Princesse d’Alep\", héroïne à qui elle va s’identifier quand la guerre la forcera à quitter la Syrie. Dounia entamera alors un long voyage, qui la mènera en Europe, puis au Canada; avec, en guise d’uniques protections, son courage, son imagination et ses précieuses graines de nigelle."
+},
+"https://cinemacinema.ca/fr/films/milton-bituca-nascimento-2347": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/milton-bituca2.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALÀ partir de la tournée d’adieu de Milton Nascimento, le film dresse le portrait de l’un des plus grands artistes brésiliens de tous les temps.Avec des images tournées à Lisbonne, Venise, Londres, Los Angeles, New York, Ouro Preto, Belo Horizonte, Rio de Janeiro, et des témoignages de grands artistes tels que Quincy Jones, Wayne Shorter, Herbie Hancock, Paul Simon, Spike Lee, Caetano Veloso, Gilberto Gil, Chico Buarque, João Bosco, Mano Brown, Tim Bernardes et les membres du Clube da Esquina, le film de Flávia Moraes met en lumière la dimension internationale de Milton, saisit l’émotion qu’il suscite chez ses fans, explore la forte dimension spirituelle de son œuvre et révèle les racines de sa musicalité, ancrées dans l’âme profonde du Brésil.Le film est raconté par l’actrice Fernanda Montenegro"
+},
+"https://cinemacinema.ca/fr/films/males-2348": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/males.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALMALÊS est un récit de résistance et de courage, qui se déroule à Salvador en 1835. Lors de leur mariage, deux jeunes musulmans sont arrachés à leur terre natale, en Afrique, et réduits en esclavage au Brésil. Séparés par un destin cruel, leur lutte pour survivre et se retrouver coïncide avec la&nbsp; plus grande insurrection d'esclaves de l'histoire du Brésil, la Révolte des Malês.*Plus de 100 000 spectateurs au Brésil."
+},
+"https://cinemacinema.ca/fr/films/comeback-dad-2367": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/comeback-dad.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALUn comédien et son fils de 17 ans partent à la dernière minute pour un road trip. Incapables de s'entendre, ces deux hommes que tout oppose dans leur conception de la masculinité se confrontent dans l'espace exigu d'une voiture. Entre conflits et émotions, ils découvrent qu'ils doivent apprendre à voir le monde à travers les yeux de l'autre pour enfin se comprendre."
+},
+"https://cinemacinema.ca/fr/films/theater-of-thought-2195": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/entrelacements/theater-of-thoughts.jpg",
+"about": "Présenté dans le cadre de la série « Entrelacements : Chiharu Shiota », une série présentée en collaboration avec le Musée des beaux-arts de Montréal, en marge de l’exposition Chiharu Shiota : Les frémissements de l’âme.À travers le regard du légendaire cinéaste Werner Herzog, Theater of Thought nous entraîne dans une réflexion fascinante sur l’esprit et la conscience en nous invitant à nous demander si nous sommes réellement maîtres de nos pensées ou si notre cerveau sera bientôt transformé par des technologies capables de les influencer.Réunissant les points de vue et les prédictions de certains des plus grands noms de la science et de l’innovation aujourd’hui, ce documentaire sonde les enjeux éthiques et existentiels que soulèvent les neurotechnologies dans notre monde en constante évolution.Les Membres MBAM bénéficient d’un rabais de 25 % sur le prix des billets (applicable sur place seulement)."
+},
+"https://cinemacinema.ca/fr/films/gonzaguinha-de-la-plus-grande-liberte-2349": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/Gonzaguinha.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALGONZAGUINHA, DE LA PLUS GRANDE LIBERTÉ&nbsp;est un film qui cherche à faire revivre, en paroles, en images et en sons, la fureur et la poésie de l'un des artistes les plus importants pour la construction et le débat populaire de notre histoire démocratique : Luiz Gonzaga Jr."
+},
+"https://cinemacinema.ca/fr/films/antarctica-2350": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/antartica.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉAL - FILM DE CLÔTUREMarina est médecin dans une station de recherche brésilienne en Antarctique, où scientifiques et militaires se préparent à affronter un hiver rigoureux, coupés du reste du monde. Dès la première nuit, un crime brutal contre la chercheuse Inês transforme la base en véritable cocotte-minute.*Une superproduction des Estúdios Globo avec Andrea Beltrão, Trophée Oscarito 2026."
+},
+"https://cinemacinema.ca/fr/films/l-agent-secret-2351": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/secret-agent.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALBrésil, 1977. Marcelo, un homme d’une quarantaine d’années fuyant un passé trouble, arrive dans la ville de Recife où le carnaval bat son plein. Il vient retrouver son jeune fils et espère y construire une nouvelle vie. C’est sans compter sur les menaces de mort qui rôdent et planent au-dessus de sa tête…&nbsp;*Prix d'interprétation masculine et de la mise en scène - Festival de Cannes 2025.*Prix du meilleur film en langue étrangère et du meilleur acteur dans un film dramatique - Golden Globes 2026."
+},
+"https://cinemacinema.ca/fr/films/rashomon-2126": {
+"image": "https://img.cinemacinema.ca/Affiches/evenements/film-101/Rashomon.jpg",
+"about": "FILM 101Lesson #5 - Scénarisation et structure narrativePour conclure la série, RASHOMON explore l’une des questions les plus fascinantes du cinéma : qui a le droit de raconter une histoire? À travers la structure narrative novatrice de Kurosawa et le concept de « l’effet Rashomon », cette séance examine comment la perspective, la narration et les autres éléments formels du cinéma s’articulent pour façonner le sens.SynopsisUn paysan vient s’abriter d’une pluie torrentielle sous une vieille porte délabrée où se sèchent déjà un bûcheron et un prêtre. Ces derniers semblent ne rien comprendre à une affaire à laquelle ils ont été mêlés bien malgré eux. Un samouraï aurait été assassiné et sa femme violée ; quatre témoins du drame, dont le prêtre et le bûcheron, vont donner leurs versions des faits, toutes contradictoires…"
+},
+"https://cinemacinema.ca/fr/films/un-control-2352": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/des-controle.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALLe film suit l'histoire de Kátia Klein, écrivaine à succès et mère dévouée, dont la vie bascule lorsqu'elle traverse un blocage créatif qui l'empêche de travailler, sur fond de mariage en ruine. Tout cela alors qu'elle doit gérer les demandes qui s'accumulent de ses deux enfants et de ses parents. Débordée et en quête de répit, elle passe d'un simple verre de vin à une perte de contrôle totale, renouant avec son alcoolisme. Porté par Carolina Dieckmann, entourée d'une solide distribution, (Des)controle est un drame captivant, teinté d'humour, qui aborde l'alcoolisme et montre la vie telle qu'elle est."
+},
+"https://cinemacinema.ca/fr/films/manas-2353": {
+"image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/manas.jpg",
+"about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALMarcielle, treize ans, vit sur l’île de Marajó (PA). Elle commence à comprendre que l’avenir ne lui offre pas beaucoup d’options. Coincée par la résignation de sa mère et inspirée par le départ de sa sœur aînée, elle décide de se confronter à l’engrenage violent qui régit sa famille et les femmes de sa communauté."
+}
 }

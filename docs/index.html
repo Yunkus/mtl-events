@@ -208,6 +208,64 @@
   .dclose { position: absolute; top: 10px; right: 10px; z-index: 2; background: rgba(0,0,0,.7); color: var(--text);
             border: 1px solid var(--line); border-radius: 999px; width: 34px; height: 34px; font-size: 18px; cursor: pointer; }
 
+  /* ---- no image (or it failed to load): amber-on-black art, picked by genre, with the venue's name */
+  .art { position: relative; overflow: hidden; display: flex; align-items: flex-end; color: var(--cloud);
+         font-family: var(--sans); line-height: 1.05; letter-spacing: .02em; text-transform: uppercase; background: var(--art); }
+  .art span { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+              text-shadow: 0 1px 6px rgba(0, 0, 0, .7); overflow-wrap: anywhere; }
+  .thumb.art { padding: 5px; font-size: 10px; }
+  .card .art { position: absolute; inset: 0; align-items: flex-start; padding: 14px; font-size: 22px; }
+  .card .art span { -webkit-line-clamp: 4; }
+  .dhero.art { height: 150px; padding: 18px; font-size: 28px; align-items: flex-end; }
+  .a0 { --art: linear-gradient(135deg, #c46a00, #0b0b0b 72%); }
+  .a1 { --art: radial-gradient(circle at 18% 18%, #ffb000 0, #c46a00 22%, #0b0b0b 72%); }
+  .a2 { --art: repeating-linear-gradient(45deg, rgba(255, 176, 0, .10) 0 6px, transparent 6px 14px), linear-gradient(160deg, #c46a00, #0b0b0b 80%); }
+  .a3 { --art: radial-gradient(circle at 85% 100%, #ffb000, #c46a00 28%, #0b0b0b 70%); }
+  .a4 { --art: conic-gradient(from 200deg at 72% 28%, #0b0b0b, #c46a00 25%, #ffb000 32%, #0b0b0b 60%); }
+  .a5 { --art: linear-gradient(0deg, #0b0b0b 25%, #c46a00 85%, #ffb000); }
+  .a6 { --art: repeating-radial-gradient(circle at 0 0, rgba(255, 176, 0, .13) 0 3px, transparent 3px 11px), linear-gradient(200deg, #c46a00, #0b0b0b 70%); }
+  .a7 { --art: linear-gradient(110deg, #0b0b0b 40%, #c46a00 40% 44%, #0b0b0b 44% 52%, #ffb000 52% 54%, #0b0b0b 54%); }
+
+  /* ---- Listen: one chip per artist on the bill */
+  .dlisten { display: grid; gap: 6px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+  .artist { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .artist b { color: var(--text); font-weight: 600; margin-right: 2px; }
+  .dlisten a { color: var(--amber); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+  .dlisten a:hover { border-color: var(--amber); }
+  .chip.more { border-style: dashed; }
+
+  /* ---- Subscribe: one button that opens a menu */
+  .sub { position: relative; }
+  .sub summary { list-style: none; } .sub summary::-webkit-details-marker { display: none; }
+  .sub .menu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 10; display: grid; gap: 4px; min-width: 240px;
+               background: var(--surface); border: 1px solid var(--amber-dark); border-radius: 10px; padding: 6px;
+               box-shadow: 0 10px 30px rgba(0, 0, 0, .6); }
+  .band .sub .menu .btn { border: 0; text-align: left; padding: 9px 10px; font-size: 14px; }
+  .band .sub .menu .btn:hover { background: rgba(255, 176, 0, .1); }
+  .sub .menu small { display: block; color: var(--muted); font-size: 12px; padding: 4px 10px 2px; white-space: normal; }
+
+  /* ---- tabs: one row that scrolls sideways */
+  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: none; }
+
+  /* ---- phones: compact header so tonight's events show without scrolling */
+  @media (max-width: 640px) {
+    .band .in { padding-top: 12px; }
+    header { flex-wrap: nowrap; align-items: center; gap: 10px; }
+    .brand { gap: 10px; flex: 1; }
+    .logo { height: 46px; margin: 0; }
+    .wordmark { margin-bottom: 4px; }
+    .meta { font-size: 12px; }
+    .band .meta { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .sub { flex: none; }
+    .tabs { margin-top: 10px; margin-right: -16px; padding-right: 16px;
+            -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
+    .tab { padding: 8px 10px; font-size: 15px; }
+    .search { margin-top: 8px; }
+    .picks { margin-top: 14px; }
+  }
+
   /* ---- phones: filters fold into one button */
   .filterbtn { display: none; }
   @media (max-width: 640px) {
@@ -230,11 +288,15 @@
         <div class="meta" id="meta">Loading…</div>
       </div>
     </div>
-    <div class="sub" title="Subscribe to every event in this tab. The feed updates automatically.">
-      <a class="btn primary" id="gcal" target="_blank" rel="noopener">Subscribe in Google Calendar</a>
-      <a class="btn" id="webcal">Apple / Outlook</a>
-      <button class="btn" id="copy">Copy feed URL</button>
-    </div>
+    <details class="sub" id="sub">
+      <summary class="btn primary">Subscribe</summary>
+      <div class="menu">
+        <small id="subnote">Every event in this tab, in your calendar. It updates by itself.</small>
+        <a class="btn" id="gcal" target="_blank" rel="noopener">Google Calendar</a>
+        <a class="btn" id="webcal">Apple / Outlook</a>
+        <button class="btn" id="copy">Copy feed URL</button>
+      </div>
+    </details>
   </header>
   <nav class="tabs" id="tabs" role="tablist"></nav>
 </div></div>
@@ -402,12 +464,15 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   for (const id of allTabs) {
     const b = el("button", "tab"); b.setAttribute("role", "tab");
     b.append(TAB_LABEL[id] || id);
-    if (id !== "date") b.appendChild(el("span", "n", events.filter(e => e.tab === id).length));
+    if (id !== "date") b.appendChild(el("span", "n", ""));
     b.onclick = () => select(id);
     tabsEl.appendChild(b); tabBtns[id] = b;
   }
   const feedUrl = () => new URL((tabsInfo[tab] || tabsInfo[tabIds[0]]).feed, location.href).href;
   $("copy").onclick = async () => { try { await navigator.clipboard.writeText(feedUrl()); } catch (e) {} toast("Feed URL copied"); };
+  // the Subscribe menu closes after a choice, or a tap anywhere else
+  $("sub").querySelectorAll(".menu .btn").forEach(b => b.addEventListener("click", () => setTimeout(() => $("sub").open = false, 50)));
+  document.addEventListener("click", ev => { if ($("sub").open && !ev.target.closest("#sub")) $("sub").open = false; });
   $("q").oninput = () => { buildChips(); render(); };   // counts follow the search too
 
   // ---------- picks
@@ -443,7 +508,11 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     tab = id; store.set("tab", id);
     for (const [k, b] of Object.entries(tabBtns)) b.setAttribute("aria-selected", String(k === id));
     $("q").placeholder = PLACEHOLDER[id] || "Search…";
-    document.querySelector(".sub").style.display = id === "date" ? "none" : "";   // no feed for a single day
+    $("sub").style.display = id === "date" ? "none" : "";   // no feed for a single day
+    $("sub").open = false;
+    if (id === "music") genreSel.forEach(g => { if (!MUSIC_GENRES.has(g)) genreSel.delete(g); });   // not listed there
+    $("subnote").textContent = `Every event in ${TAB_LABEL[id] || "this tab"}, in your calendar. It updates by itself.`;
+    tabBtns[id].scrollIntoView({ block: "nearest", inline: "nearest" });
     if (id === "date") { setDay(dayPick); return; }
     history.replaceState(null, "", "#" + id);
     const info = tabsInfo[id];
@@ -502,6 +571,10 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const priceKnown = e => e.free || e.price_lo != null;
   const hasPrices = list => list.some(priceKnown);
   const genreTabs = ["music", "other", "city", "date"];
+  const MUSIC_GENRES = new Set(["Techno", "House", "Disco", "Bass & DnB", "Hip-hop & R&B", "Afro & Latin", "Flamenco",
+    "Jazz & Blues", "Classical & Choral", "Folk & Country", "Punk & Hardcore", "Metal", "Rock & Indie", "Experimental",
+    "Pop & Throwback", "Electronic", "Dance", "Listening Party"]);
+  let genresOpen = false;
   // Current filter settings; counts pass overrides to ask "how many if this button were on?"
   const cur = () => ({ when, slot, price, genres: genreSel, fresh });
   function passes(e, list, st = cur()) {
@@ -540,9 +613,22 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     $("filterbtn").setAttribute("aria-expanded", String(open));
   };
 
+  // Tab counts follow the active quick filters and search too (Tonight, This weekend, Free…)
+  function tabCounts() {
+    const term = $("q").value.trim().toLowerCase();
+    const st = { ...cur(), genres: new Set() };
+    for (const id of tabIds) {
+      const n = tabBtns[id].querySelector(".n"); if (!n) continue;
+      const inT = events.filter(e => e.tab === id);
+      n.textContent = inT.filter(e => matches(e, term) && passes(e, inT, st) && (!picksOnly || picked.has(e.id))
+                                       && (!EVENT_TABS.includes(id) || picksOnly || !hidden.has(e.source))).length;
+    }
+  }
+
   function buildChips() {
     const chips = $("chips"); chips.innerHTML = "";
     filterSummary();
+    tabCounts();
     if (tab === "date") buildDateBar(chips);
     const inTab = events.filter(e => (tab === "date" ? onDay(e, dayPick) : e.tab === tab));
     const redo = () => { buildChips(); render(); };
@@ -583,12 +669,25 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       const all = new Set(inTab.flatMap(e => e.genres || []));
       const counts = {};
       all.forEach(g => counts[g] = cnt({ genres: new Set() }, e => (e.genres || []).includes(g)));
-      const names = [...all].filter(g => counts[g] || genreSel.has(g));
+      // Music & Dance lists music styles only; the other tabs list kinds of event
+      const fits = g => tab !== "music" || MUSIC_GENRES.has(g);
+      const names = [...all].filter(g => fits(g) && (counts[g] || genreSel.has(g)));
       if (names.length) {
+        // the 8 biggest (plus any switched on); the rest behind "More"
+        const byCount = [...names].sort((a, b) => counts[b] - counts[a]);
+        const top = new Set(byCount.slice(0, 8));
         const order = data.genres || [...all];   // the scraper's genre order
-        const row = chipRow(el("span", "rowlabel", "Genre"));
-        names.sort((a, b) => order.indexOf(a) - order.indexOf(b)).forEach(g => row.appendChild(
+        const shownG = names.filter(g => genresOpen || top.has(g) || genreSel.has(g))
+                            .sort((a, b) => order.indexOf(a) - order.indexOf(b));
+        const row = chipRow(el("span", "rowlabel", tab === "music" ? "Genre" : "Type"));
+        shownG.forEach(g => row.appendChild(
           opt(g, genreSel.has(g), counts[g], () => { genreSel.has(g) ? genreSel.delete(g) : genreSel.add(g); redo(); }, "genre")));
+        const rest = names.length - shownG.length;
+        if (rest > 0 || genresOpen && names.length > 8) {
+          const m = el("button", "chip more", genresOpen ? "Fewer" : `More (${rest})`);
+          m.onclick = () => { genresOpen = !genresOpen; redo(); };
+          row.appendChild(m);
+        }
         chips.appendChild(row);
       }
     }
@@ -661,12 +760,22 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (e.pick) frag.appendChild(el("span", "badge pick", "EDITOR'S PICK"));
     return frag;
   }
-  function thumb(e) {
-    if (!e.image) return el("div", "thumb none");
-    const i = el("img", "thumb"); i.loading = "lazy"; i.decoding = "async"; i.alt = ""; i.referrerPolicy = "no-referrer";
-    i.src = e.image; i.onerror = () => i.replaceWith(el("div", "thumb none"));
+  // Art for events without a picture: one of 8 amber-on-black patterns, chosen by the event's first genre
+  // (so all the techno nights match), with the venue's name on it.
+  function art(e, cls) {
+    const key = (e.genres && e.genres[0]) || e.kind || e.tab || "";
+    let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    const d = el("div", `${cls} art a${h % 8}`); d.setAttribute("aria-hidden", "true");
+    d.appendChild(el("span", null, e.tab === "museums" && e.location ? e.location : e.source));
+    return d;
+  }
+  function picture(e, cls, onfail) {
+    if (!e.image) return art(e, cls);
+    const i = el("img", cls); i.loading = "lazy"; i.decoding = "async"; i.alt = ""; i.referrerPolicy = "no-referrer";
+    i.src = e.image; i.onerror = () => i.replaceWith(art(e, cls));
     return i;
   }
+  const thumb = e => picture(e, "thumb");
   const plain = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   // "Casa del Popolo · Casa Del Popolo": skip the location when it only repeats the venue
   const sameish = (a, b) => { const x = plain(a), y = plain(b); return !x || !y || x === y || x.startsWith(y) || y.startsWith(x); };
@@ -739,16 +848,16 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
                          + (e.free || e.price_lo != null ? 1 : 0) + (e.genres && e.genres.length ? .5 : 0)
                          + (SHOWY.some(x => g(e).has(x)) ? 1.5 : 0)                          // a night out…
                          - (g(e).has("Civic & Community") ? 4 : 0) - (g(e).has("Talks & Quizzes") ? 1 : 0)   // …not a meeting
-                         - (/sold out|complet\b/i.test(e.title) ? 5 : 0);                                        // nor a sold-out one
-      const tonight = shown.filter(e => e.key === today && e.image && e.kind !== "exhibition")
+                         - (/sold out|complet\b/i.test(e.title) ? 5 : 0)                                         // nor a sold-out one
+                         - (e.image ? 0 : 1.5);                                                                  // pictures look best here
+      const tonight = shown.filter(e => e.key === today && e.kind !== "exhibition")
                            .sort((a, b) => score(b) - score(a) || a.d - b.d).slice(0, 4);
       if (tonight.length >= 2) {
         const sec = el("section", "picks"); sec.appendChild(el("h2", null, "Tonight"));
         const grid = el("div", "cards");
         for (const e of tonight) {
           const c = el("div", "card"); c.tabIndex = 0; c.setAttribute("role", "button");
-          const img = el("img"); img.src = e.image; img.alt = ""; img.loading = "lazy"; img.referrerPolicy = "no-referrer";
-          img.onerror = () => img.remove();
+          const img = picture(e, "");
           const ov = el("div", "ov");
           const t = el("div", "ct", e.title);
           if (e.pick) t.appendChild(el("span", "badge pick", "PICK"));
@@ -831,20 +940,32 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
 
   // ---------- detail panel
-  // First act on a bill, for the "Listen" links: drop "X presents:", then cut at +, /, b2b, w/, " - ", " x "…
-  function firstArtist(title) {
-    let t = title.replace(/^.*?\b(?:pr[ée]sente?s?|invites?|presents)\s*:?\s*/i, "");
-    if (/:/.test(t) && t.split(":")[1].trim()) t = t.split(":").slice(1).join(":");
-    t = t.split(/\s+(?:\+|\/|&|b2b|b3b|w\/|with|avec|feat\.?|ft\.?|x|-|–|—|•|\|)\s+|,|\(|\[/i)[0];
-    return t.replace(/\b(all night long|live|dj set|album release|lancement)\b/gi, "").trim();
+  // Everyone on a bill, for the "Listen" chips: "KILLED + OBELISK + AMRISTIX" -> ["KILLED", "OBELISK", "AMRISTIX"].
+  // Drops "X presents:", tour / album-launch wording and bracketed notes, then splits at +, /, w/, with, x, &, b2b, commas.
+  const NOT_ARTIST = /^(?:and )?(?:special )?guests?$|^(?:and )?friends$|^(?:and )?more$|^tba$|^tbc$|^many more$|^dj$|^djs$|^live$|^residents?$/i;
+  function artists(title) {
+    let t = title.replace(/\((?:complet|sold out)[^)]*\)/gi, "")
+                 .replace(/^.*?\b(?:pr[ée]sente?n?t?s?|presents|invites?)\b\s*:?\s*/i, "");
+    if (/:/.test(t) && t.split(":").slice(1).join(":").trim()) t = t.split(":").slice(1).join(":");   // "Series name: the acts"
+    t = t.replace(/[([][^)\]]*[)\]]/g, " ")   // (UK), [live], (album release)…
+         .replace(/\b(?:album|ep|single|record|disc|vinyl)\s+(?:launch|release)(?:\s+(?:show|party))?\b/gi, " ")
+         .replace(/\b(?:lancement(?:\s+d[eu']\s*(?:l'album|album|disque|ep))?|release show|launch party|record release)\b/gi, " ")
+         .replace(/\b(?:[\w'’-]+\s+)?(?:world |north american |canadian |fall |winter |spring |summer |farewell |reunion )?tour(?:n[ée]e)?(?:\s+\d{4})?\b/gi, " ")
+         .replace(/\b(?:all night long|dj set|live set|en concert|in concert|live|tribute(?: to)?|hommage [àa]|a tribute)\b/gi, " ")
+         .replace(/\s#\d+\b/g, " ");   // "Laylit #154"
+    // "and" splits acts only on a "with" bill ("… with Danny Pretzel and Moma"), never "X and the Y"
+    const and = /\b(?:with|avec|w\/)\s/i.test(t) ? "|and(?! the\\b)|et(?! les?\\b)" : "";
+    const parts = t.split(new RegExp(String.raw`\s+(?:\+|\/|&|b2b|b3b|w\/|with|avec|feat\.?|ft\.?|x|vs\.?|-|–|—|•|\|${and})\s+|\s*[+,;•|]\s*|\s+w\/|\s+\/\s*`, "i"));
+    const seen = new Set();
+    return parts.map(p => p.replace(/^[\s:–—-]+|[\s:–—-]+$/g, "").replace(/\s{2,}/g, " "))
+                .filter(p => p.length > 1 && p.length < 48 && !NOT_ARTIST.test(p) && !/^\d+$/.test(p)
+                             && !seen.has(p.toLowerCase()) && seen.add(p.toLowerCase()))
+                .slice(0, 8);
   }
   const MUSICISH = new Set(["music", "bars"]);
   function openDetail(e) {
     const box = $("dcontent"); box.innerHTML = "";
-    if (e.image) {
-      const img = el("img", "dhero"); img.src = e.image; img.alt = ""; img.referrerPolicy = "no-referrer";
-      img.onerror = () => img.remove(); box.appendChild(img);
-    }
+    box.appendChild(picture(e, "dhero"));
     const b = el("div", "dbody");
     const h = el("h3", null, e.title);
     if (e.free) h.appendChild(el("span", "free", "FREE"));
@@ -908,13 +1029,17 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     acts.appendChild(sel);
     b.appendChild(acts);
     if (MUSICISH.has(e.tab) && !/trivia|karaok|comedy|open mic|quiz/i.test(e.title)) {
-      const who = firstArtist(e.title);
-      if (who.length > 1) {
-        const l = el("div", "dlisten"); l.append("Listen: " + who + " ");
-        const q = encodeURIComponent(who);
-        l.append(link("https://www.youtube.com/results?search_query=" + q, null, "YouTube"),
-                 link("https://open.spotify.com/search/" + q, null, "Spotify"),
-                 link("https://bandcamp.com/search?q=" + q, null, "Bandcamp"));
+      const who = artists(e.title);
+      if (who.length) {
+        const l = el("div", "dlisten"); l.appendChild(el("div", "rowlabel", "Listen"));
+        for (const name of who) {
+          const q = encodeURIComponent(name);
+          const r = el("div", "artist"); r.appendChild(el("b", null, name));
+          r.append(link("https://www.youtube.com/results?search_query=" + q, null, "YouTube"),
+                   link("https://open.spotify.com/search/" + q, null, "Spotify"),
+                   link("https://bandcamp.com/search?q=" + q, null, "Bandcamp"));
+          l.appendChild(r);
+        }
         b.appendChild(l);
       }
     }
