@@ -211,7 +211,7 @@ def favourite_library() -> list[Ev]:
             continue
         m = re.search(r"([A-Za-z]+) (\d{1,2}), (\d{4})", when)
         d = date(int(m.group(3)), EN_MONTHS[m.group(1).lower()], int(m.group(2)))
-        loc = next((x for x in spans if x != when and "," in x), "")
+        loc = re.sub(r"\s+,", ",", next((x for x in spans if x != when and "," in x), ""))
         out.append(Ev("Favourite Library", clean(h3.get_text()), local(d, parse_time(when)),
                       "https://www.favouritelibrary.com/#shows", location=loc))
     return out
@@ -292,6 +292,18 @@ def eventbrite_organizer(org_url: str, source: str) -> list[Ev]:
     return out
 
 
+def _rich_text(o):
+    """All the text strings in a CMS rich-text JSON tree (Payload / Lexical)."""
+    if isinstance(o, dict):
+        if isinstance(o.get("text"), str):
+            yield o["text"]
+        for v in o.values():
+            yield from _rich_text(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _rich_text(v)
+
+
 def turbo_haus() -> list[Ev]:
     base = "https://turbohaus.ca"
     today = date.today()
@@ -302,10 +314,16 @@ def turbo_haus() -> list[Ev]:
     slug_price: dict[str, str] = {}
     try:
         api = get(f"{base}/api/events", params={"limit": 5000, "depth": 0, "select[slug]": "true",
-                                                 "select[startsAt]": "true", "select[priceText]": "true"}).json()
+                                                 "select[startsAt]": "true", "select[priceText]": "true",
+                                                 "select[description]": "true"}).json()
         for doc in api.get("docs", []):
             if doc.get("slug") and doc.get("priceText"):
                 slug_price[doc["slug"]] = doc["priceText"]
+            elif doc.get("slug"):   # no price field: many say it in the text ("$10 + fees", "Gratuit / Free")
+                desc = " ".join(_rich_text(doc.get("description")))
+                tokens = re.findall(r"\d+(?:[.,]\d{2})?\s?\$|\$\s?\d+(?:[.,]\d{2})?|\bgratuit\w*|\bfree\b|\bpwyc\b", desc, re.I)
+                if tokens:
+                    slug_price[doc["slug"]] = " ".join(tokens)
             if doc.get("slug") and doc.get("startsAt"):
                 t = iso(doc["startsAt"]).time()
                 if t != time(0, 0):          # midnight = no time set
@@ -725,7 +743,21 @@ def by_hand(weeks: int = 4) -> list[Ev]:
     for source, title, d, t, url, loc, free, price in ONE_OFF_BY_HAND:
         ev = Ev(source, title, local(d, t), url, location=loc)
         out.append(priced(ev, True) if free else priced(ev, *price_from_text(price or "")))
+    for source, title, start, end, url, loc, free in SEASONAL_BY_HAND:
+        out.append(priced(Ev(source, title, start, url, end, loc, "exhibition"), free))
     return out
+
+
+# Events running for days or weeks (holiday markets…), shown under "Ongoing" in their tab. Dates checked
+# on mtl.org (Tourisme Montréal) on 2026-11-25. (source, title, first day, last day, link, location, free)
+SEASONAL_BY_HAND: list[tuple] = [
+    ("Holiday markets", "Le Grand Marché de Noël de Montréal", date(2026, 11, 13), date(2027, 1, 3),
+     "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel",
+     "Place des Festivals, Quartier des spectacles", True),
+    ("Holiday markets", "Le Village de Noël de Montréal", date(2026, 11, 26), date(2026, 12, 24),
+     "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal",
+     "Place du Marché Atwater, 3325 rue Saint-Ambroise", True),
+]
 
 
 # ------------------------------------------------------------------ museums
@@ -967,6 +999,159 @@ def espace_transmission_site() -> list[Ev]:
     return out
 
 
+def marches_publics() -> list[Ev]:
+    """Marchés publics de Montréal events (Jean-Talon, Atwater, Maisonneuve…). Each event page gives weekend ranges
+    like '4 - 6 décembre 2026'; each range becomes one multi-day entry. Toddler workshops are skipped."""
+    base = "https://www.marchespublics-mtl.com"
+    s = soup(base + "/fr/evenements")
+    links = dict.fromkeys(a["href"] for a in s.find_all("a", href=True)
+                          if re.match(r"^/fr/evenements/[a-z0-9\-]+$", a["href"]))
+    out = []
+    for path in links:
+        if re.search(r"tout-petits|enfants|bambins", path):
+            continue
+        page = soup(base + path)
+        main = page.find("main") or page
+        h = main.find(["h1", "h2"])
+        title = clean(h.get_text(" ")) if h else path.split("/")[-1]
+        where = "Marché Jean-Talon" if "jean-talon" in path else "Marché Atwater" if "atwater" in path else \
+            "Marché Maisonneuve" if "maisonneuve" in path else "Marchés publics de Montréal"
+        if where not in title:
+            title = f"{title} — {where}"
+        text = clean(main.get_text(" "))
+        for m in re.finditer(r"(\d{1,2})\s*[-–]\s*(\d{1,2})\s+([a-zéû]+)\s+(\d{4})", text):
+            mo = FR_MONTHS.get(m.group(3).lower())
+            if not mo:
+                continue
+            start, end = date(int(m.group(4)), mo, int(m.group(1))), date(int(m.group(4)), mo, int(m.group(2)))
+            out.append(Ev("Marchés publics", title, start, base + path, end, where, "exhibition"))
+    # the same weekend ranges sit in the site's menu on every page: keep one per (title, range)
+    return list({(e.title, e.start, e.end): e for e in out}.values())
+
+
+MTL_LIBRARY_KEEP = re.compile(
+    r"conf[ée]rence|rencontre|ap[ée]ro|litt[ée]raire|auteur|autrice|lancement|causerie|club de lecture|"
+    r"atelier d.[ée]criture|[ée]criture|po[ée]sie|slam|concert|spectacle|musique|projection|cin[ée]|film|"
+    r"exposition|vernissage|th[ée][âa]tre|danse|table ronde|discussion|d[ée]bat|lecture", re.I)
+MTL_LIBRARY_SKIP = re.compile(
+    r"heure du conte|miniconte|conte|b[ée]b[ée]|tout-petits|0-\d+ mois|\d+-\d+ ans|enfants|famille|jeunesse|"
+    r"ado|devoirs|ping!|initiation au num|num[ée]rique|tricot|[ée]checs|jeux|lego|yoga|aide|francisation|"
+    r"conversation|cours d.anglais|club des petits|b[ée]n[ée]volat", re.I)
+
+
+def montreal_ca(days: int = 14) -> list[Ev]:
+    """montreal.ca/evenements (the City's listing, ~2000 entries). Kept: Maison de la culture events, and adult
+    cultural events at the libraries (talks, author meetings, readings, concerts, screenings…; no storytime,
+    homework help, chess…), in the next `days` days. Each kept event's page gives its price ('Gratuit')."""
+    base = "https://montreal.ca"
+    today = datetime.now(TZ).date()
+    horizon = today + timedelta(days=days)
+    cards, page = [], 1
+    while page <= 30:
+        s = soup(f"{base}/evenements?page={page}")
+        found = 0
+        for a in s.find_all("a", href=True):
+            if re.match(r"^/evenements/[a-z0-9\-]+-\d+$", a["href"]):
+                box = a.find_parent(["li", "article", "div"])
+                cards.append((a["href"], clean(a.get_text(" ")), clean(box.get_text(" ")) if box else ""))
+                found += 1
+        if not found:
+            break
+        page += 1
+    out, seen = [], set()
+    for href, title, txt in cards:
+        if href in seen or re.search(r"\bDu\b.+\bau\b|annul[ée]|b[ée]n[ée]volat", txt, re.I):
+            continue
+        seen.add(href)
+        d = fr_date(txt)
+        if not d or not (today <= d <= horizon):
+            continue
+        is_mdc = "Maison de la culture" in txt
+        is_lib = "Bibliothèque" in txt
+        if not (is_mdc or (is_lib and MTL_LIBRARY_KEEP.search(title) and not MTL_LIBRARY_SKIP.search(title))):
+            continue
+        tm = re.search(r"\bà\s+(\d{1,2})\s*h\s*(\d{2})?", txt)
+        t = time(int(tm.group(1)), int(tm.group(2) or 0)) if tm else None
+        place = clean(txt[tm.end():] if tm else txt.split(str(d.year))[-1])
+        # the card link holds the whole card text: cut the title at the date ("… Mercredi 25 novembre 2026 à …")
+        name = re.split(r"\s+(?:Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+\d", title or txt)[0].strip()
+        src = "Maisons de la culture" if is_mdc else "Bibliothèques de Montréal"
+        ev = Ev(src, name, local(d, t), base + href, location=place[:120])
+        try:   # price and end time from the event page
+            page = soup(base + href)
+            pt = clean((page.find("main") or BeautifulSoup("", "html.parser")).get_text(" "))
+            for sc in page.find_all("script", type="application/ld+json"):   # description -> tags (concert, film…)
+                if '"Event"' in (sc.string or ""):
+                    try:
+                        desc = json.loads(sc.string, strict=False).get("description") or ""
+                        ev.blurb = clean(BeautifulSoup(desc, "html.parser").get_text(" "))[:600]
+                    except ValueError:
+                        pass
+            if re.search(r"\bGratuit\b", pt):
+                priced(ev, True)
+            elif (pm := re.search(r"(\d+(?:[.,]\d{2})?)\s*\$", pt)):
+                priced(ev, None, float(pm.group(1).replace(",", ".")))
+            em = re.search(r"\bde\s+\d{1,2}\s*h\s*\d{0,2}\s+à\s+(\d{1,2})\s*h\s*(\d{2})?", pt)
+            if em and t:
+                ev.end = datetime.combine(d, time(int(em.group(1)) % 24, int(em.group(2) or 0)), TZ)
+        except requests.RequestException:
+            pass
+        out.append(ev)
+    return out
+
+
+def ateliers_et_saveurs(days: int = 14) -> list[Ev]:
+    """Ateliers & Saveurs public agendas (cooking, cocktail, wine classes). Montreal branches only, next `days`
+    days, classes that still have places. (Their JSON feed answers 403, so the public pages are used.)"""
+    base = "https://www.ateliersetsaveurs.com"
+    today = datetime.now(TZ).date()
+    horizon = today + timedelta(days=days)
+    out = []
+    for agenda, kind in (("cours-de-cuisine", "Cooking class"), ("cours-de-cocktails", "Cocktail class"),
+                         ("degustations-de-vin", "Wine tasting")):
+        for p in range(1, 10):
+            s = soup(f"{base}/agenda/{agenda}" + (f"?p={p}" if p > 1 else ""))
+            boxes = s.select("div.inside-box")
+            if not boxes:
+                break
+            past_horizon = False
+            for box in boxes:
+                parts = [clean(x) for x in box.get_text("\n").split("\n") if clean(x)]
+                txt = " | ".join(parts)
+                d = fr_date(txt, today.year)
+                if not d:
+                    continue
+                if d < today - timedelta(days=60):
+                    d = date(d.year + 1, d.month, d.day)
+                if d > horizon:
+                    past_horizon = True
+                    continue
+                if "Québec" in parts[:6] or re.search(r"\b0 places\b|Complet|Terminé", txt):
+                    continue
+                branch = next((b for b in ("Vieux-Montréal", "Plateau Mont-Royal", "Time Out Market") if b in txt), "")
+                if not branch:
+                    continue
+                tm = re.search(r"(\d{1,2}):(\d{2})\s*à\s*(\d{1,2}):(\d{2})", txt)
+                if not tm:
+                    continue
+                start = datetime.combine(d, time(int(tm.group(1)), int(tm.group(2))), TZ)
+                end = datetime.combine(d, time(int(tm.group(3)), int(tm.group(4))), TZ)
+                link = box.find("a", href=re.compile(r"/cours/detail/"))
+                i = next((n for n, x in enumerate(parts) if x.startswith("Plus d")), None)
+                # the dish is the last line before "Plus d'informations" that isn't a note ("Où trouver le matériel…")
+                dish = next((x for x in reversed(parts[:i] if i else []) if not re.match(r"(?i)o[uù] trouver|\d|.*\?$", x)
+                             and "$" not in x), "")
+                cat = next((x for x in parts if x.isupper() and len(x) > 3), kind)
+                title = f"{cat.title()}: {dish}" if dish else cat.title()
+                ev = Ev("Ateliers & Saveurs", title[:140], start, base + link["href"] if link else f"{base}/agenda/{agenda}",
+                        end, f"Ateliers & Saveurs {branch}", kind)
+                pm = re.search(r"(\d+(?:[.,]\d{2})?)\s*\$", txt)
+                out.append(priced(ev, None, float(pm.group(1).replace(",", "."))) if pm else ev)
+            if past_horizon:
+                break
+    return list({(e.url, e.start): e for e in out}.values())
+
+
 def linktree_dated(url: str, source: str, location: str = "") -> list[Ev]:
     """A Linktree page whose ticket links carry a date in their name, e.g. 'BILLETS | Heures ouvrables 007 (6 mars 2026)'."""
     nd = json.loads(soup(url).find("script", id="__NEXT_DATA__").string)
@@ -1081,6 +1266,10 @@ EVENT_SOURCES = {
     # museum evenings out (DJ, bar, workshops) — listed under Other Events rather than Museums & Galleries
     "MBAM La Buvette": lambda: mbam_series("la-buvette"),
     "McCord After Hours": mccord_after_hours,
+    # Other Events: city culture (Maisons de la culture + adult library events), markets, cooking classes
+    "Ville de Montréal": montreal_ca,
+    "Marchés publics": marches_publics,
+    "Ateliers & Saveurs": ateliers_et_saveurs,
     # tixr.com/groups/stereobar blocks automated access; the same nights are on RA venue 138829
     "StereoBar": lambda: ra_events("venue", "138829", "StereoBar"),
     "Système": lambda: ra_events("venue", "201918", "Système"),   # systememtl.com links to RA club 201918
@@ -1205,6 +1394,7 @@ GENRES = [
     ("Afro & Latin", r"\bafro|latin|salsa|cumbia|reggaeton|\bbaile\b|brazil|br[ée]sil|bossa|tropical|dancehall|kizomba|zouk"),
     ("Flamenco", r"flamenc"),
     ("Jazz & Blues", r"jazz|blues|\bswing\b|bebop|big band|quartet"),
+    ("Classical & Choral", r"quatuor|\bquartet|orchestre|orchestra|symphon|baroque|classique|\bclassical|chorale|\bch(?:oe|œ)ur|\bchoir|op[ée]ra|r[ée]cital|\bpiano\b|violon|\bensemble\b"),
     ("Folk & Country", r"\bfolk|country|bluegrass|honky|string ?band|americana|banjo|sing ?along|yiddish|greek"),
     ("Punk & Hardcore", r"punk|hardcore|grunge|crust|\boi!"),
     ("Metal", r"metal|\bdoom\b|sludge|grindcore|thrash"),
@@ -1216,8 +1406,11 @@ GENRES = [
     ("Dance", r"\bdance\b|\bdanse\b|ballroom|vogue|t-dance"),
     ("Comedy", r"comed|com[ée]die|stand-?up|humou?r|\broast\b"),
     ("Listening Party", r"listening party|s[ée]ance d'[ée]coute"),
-    ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk"),
-    ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot"),
+    ("Markets & Fairs", r"\bmarch[ée]\b|\bmarket\b|bazaa?r|\bfoire\b|\bfair\b|temps des f[êe]tes"),
+    ("Theatre & Shows", r"th[ée][âa]tre|\bproductions?\b|\bpi[èe]ce\b|cabaret|cirque|marionnette|\bconte\b|\bclown"),
+    ("Film", r"\bfilms?\b|cin[ée]ma|documentaire|projection|court[- ]m[ée]trage|long[- ]m[ée]trage"),
+    ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk|litt[ée]raire|auteur|autrice|causerie|scientifique|science\b|t[ée]moignage"),
+    ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot|vernissage|exposition|exhibition|visite guid"),
     ("Food & Drink", r"\bcookies?\b|\bcook|\bcuisine\b|\bfood\b|\bbouffe\b|\bwines?\b|\bvins?\b|\btasting\b|d[ée]gustation|potluck|\bbrunch\b"),
 ]
 _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
@@ -1234,7 +1427,12 @@ VENUE_GENRES = {
     #  they book everything from folk metal to blues to improv, so an untagged show there stays untagged)
     "Laugh It Off": ["Comedy"], "Comedy Open Mics": ["Comedy"],
     "Soft Studio Days": ["Art & Workshops"], "MTL Cookbook Club": ["Food & Drink"], "5 à Set": ["Listening Party"],
-    "Le Marché Vintage": ["Art & Workshops"],
+    "MBAM": ["Food & Drink", "Art & Workshops", "Electronic"],   # La Buvette: bar, art workshop, DJ
+    "McCord Museum": ["Food & Drink", "Art & Workshops"],        # After Hours: cocktails, workshops, performances
+    "Favourite Library": ["Rock & Indie"],                       # Handmade house shows (indie / songwriters)
+    "Le Marché Vintage": ["Markets & Fairs"],
+    "Marchés publics": ["Markets & Fairs", "Food & Drink"], "Holiday markets": ["Markets & Fairs", "Food & Drink"],
+    "Ateliers & Saveurs": ["Food & Drink", "Art & Workshops"],
 }
 
 
@@ -1273,16 +1471,25 @@ def tag_genres(e: Ev, tab: str) -> None:
     for rx, gs in PRESENTER_GENRES:
         if rx.search(e.blurb) and not [g for g in tags if g not in ("Dance", "Electronic")]:
             tags += [g for g in gs if g not in tags]
-    non_music = ("Comedy", "Dance", "Listening Party", "Talks & Quizzes", "Art & Workshops", "Food & Drink")
+    non_music = ("Comedy", "Dance", "Listening Party", "Talks & Quizzes", "Art & Workshops", "Food & Drink",
+                 "Markets & Fairs", "Theatre & Shows", "Film")
     music = [g for g in tags if g not in non_music]
     # venue defaults: music venues only in Music & Dance; other sources (comedy, workshops) everywhere,
     # and never on a night the title already marks as comedy / a talk / a quiz
     defaults = VENUE_GENRES.get(e.source, [])
     music_defaults = [g for g in defaults if g not in non_music]
+    # (sources filed under Other Events on purpose — a house show, a museum evening — get their full default)
+    music_ok = tab == "music" or e.source in OTHER_SOURCES
     if not music and not (set(tags) & {"Comedy", "Talks & Quizzes"}):
-        tags += [g for g in defaults if (tab == "music" or g not in music_defaults) and g not in tags]
+        tags += [g for g in defaults if (music_ok or g not in music_defaults) and g not in tags]
     elif not tags:
         tags += [g for g in defaults if g not in music_defaults]
+    if tab != "music" and set(tags) & {"Comedy", "Talks & Quizzes"}:
+        # a talk or comedy night outside Music & Dance: words like "house" in "communauté de la house danse"
+        # describe the topic, not the music (keeps it out of the House filter)
+        tags = [g for g in tags if g in non_music]
+    if tab == "music":   # "Productions" in a promoter's name, "Cirque Cosmic" the DJ… not theatre
+        tags = [g for g in tags if g != "Theatre & Shows"]
     order = [g for g, _ in GENRES]
     e.genres = sorted(set(tags), key=order.index)
 
@@ -1290,7 +1497,9 @@ def tag_genres(e: Ev, tab: str) -> None:
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
 OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library",
-                 "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours"}
+                 "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours",
+                 "Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal",
+                 "Marchés publics", "Holiday markets", "Ateliers & Saveurs"}
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
@@ -1480,7 +1689,24 @@ def check_health(status: dict) -> list[str]:
             if s["zero_streak"] == 2 and last >= 3:
                 alerts.append(f"- **{name}** found no events two updates in a row (it had {last} before). "
                               "Its site may have changed layout.")
+            # empty for 2 days (8 updates) and not known to be quiet: say so once, until it has events again
+            s["zero_alerted"] = bool(s["count"] == 0 and (o.get("zero_alerted") or s["zero_streak"] >= 8))
+            if s["zero_streak"] >= 8 and not o.get("zero_alerted") and name not in QUIET_OK:
+                alerts.append(f"- **{name}** has found no events for {s['zero_streak']} updates in a row. "
+                              "If it's simply quiet, add it to `QUIET_OK` in scrape.py; otherwise its page may have changed.")
     return alerts
+
+
+# Sources checked by hand and known to sit at zero for a while (checked 2026-11-25):
+QUIET_OK = {
+    "McCord After Hours",        # page says "Stay tuned!" until the next date is set
+    "Boiler Room",               # no Montreal show announced (last: March 2025)
+    "Eastern Bloc",              # RA venue; last event May 2025, announces mostly on Instagram
+    "L'Escogriffe",              # posts on RA only occasionally (last: Aug 2026)
+    "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
+    "Espace Transmission",       # RA venue; last event July 2026
+    "Espace Transmission (site)",  # site is an archive (newest entry Nov 2024); the reader parses it fine
+}
 
 
 if __name__ == "__main__":

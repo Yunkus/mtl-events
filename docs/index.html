@@ -576,6 +576,18 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       shown = shown.filter(e => !hidden.has(e.source));
     }
     if (!shown.length) { list.innerHTML = `<p class="empty">${picksOnly ? "Nothing selected in this tab yet." : "Nothing matches."}</p>`; return; }
+    // things running over several days (holiday markets, market weekends) go in an "Ongoing" section on top
+    // open now first (closing soonest first), then the ones starting later (soonest first)
+    const ongoing = shown.filter(e => e.kind === "exhibition").sort((a, b) =>
+      ((a.start > today) - (b.start > today)) ||
+      (a.start > today ? a.start.localeCompare(b.start) : (a.end || "").localeCompare(b.end || "")));
+    shown = shown.filter(e => e.kind !== "exhibition");
+    if (ongoing.length) {
+      const sec = el("section", "day"); sec.appendChild(el("h2", null, "Ongoing · several days"));
+      for (const e of ongoing)
+        exhibitionRow(e, sec, e.start <= today ? "until " + fmtShort(e.end) : fmtShort(e.start) + " – " + fmtShort(e.end));
+      list.appendChild(sec);
+    }
     let cur, sec;
     const groups = new Map();
     for (const e of shown) {

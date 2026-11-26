@@ -51,6 +51,9 @@ get no button.
 
 ## Alerts
 
+A source empty for 8 updates in a row (2 days) also opens an issue once, unless it's in `QUIET_OK` in
+`scrape.py` (sources checked by hand and known to be quiet, like McCord After Hours between dates).
+
 If a source fails two updates in a row, or a venue that usually has 3+ events finds none two updates in a
 row, the update opens a GitHub issue (you get an email). Venues that are simply quiet (Boiler Room, Eastern
 Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
@@ -128,6 +131,10 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 | Added by hand (one-off) | `ONE_OFF_BY_HAND` in `scrape.py`: single events from organizers whose pages can't be read automatically (e.g. Heures ouvrables on Instagram / Zeffy). The tab follows the source name; past dates drop off. |
+| Ville de Montréal (Maisons de la culture, Bibliothèques de Montréal) — Other Events | montreal.ca/evenements, next 14 days: every Maison de la culture event, and adult cultural library events (talks, author meetings, readings, concerts, screenings; no storytime, homework help, chess…). Price and description from each event page. (biblio.montreal.ca itself sits behind a bot check.) |
+| Marchés publics — Other Events | marchespublics-mtl.com events: each weekend range ('4 - 6 décembre 2026') is one multi-day entry; toddler workshops skipped |
+| Ateliers & Saveurs — Other Events | the public agenda pages (cooking, cocktail, wine): Montreal branches, next 14 days, classes with places left. Their JSON feed answers 403, so it isn't used. |
+| Holiday markets — Other Events | `SEASONAL_BY_HAND` in `scrape.py` (Grand Marché de Noël, Village de Noël at Atwater; dates from mtl.org). Multi-day entries show under "Ongoing". |
 
 **Not included: Jeudis du MAC** (macm.org sits behind Cloudflare's bot check), **Heures ouvrables** (Linktree refuses requests from GitHub's servers), **Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 

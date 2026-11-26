@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:20-05:00",
+ "generated": "2026-11-25T21:50-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -9,7 +9,7 @@
   "other": {
    "title": "Montreal Other Events",
    "feed": "other.ics",
-   "count": 15
+   "count": 127
   },
   "bars": {
    "title": "Montreal Bar Nights",
@@ -33,308 +33,376 @@
    "count": 21,
    "tab": "music",
    "last_count": 21,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Favourite Library": {
    "ok": true,
    "count": 1,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Casa del Popolo": {
    "ok": true,
    "count": 116,
    "tab": "music",
    "last_count": 116,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Le Red Room": {
    "ok": true,
    "count": 12,
    "tab": "music",
    "last_count": 12,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Vino Disco": {
    "ok": true,
    "count": 4,
    "tab": "music",
    "last_count": 4,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Bar Datcha": {
    "ok": true,
    "count": 11,
    "tab": "music",
    "last_count": 11,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "5 à Set": {
    "ok": true,
-   "count": 1,
+   "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 0
+   "zero_streak": 6,
+   "zero_alerted": false
   },
   "Le Marché Vintage": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 19
+   "zero_streak": 26,
+   "zero_alerted": true
   },
   "Stereo": {
    "ok": true,
    "count": 13,
    "tab": "music",
    "last_count": 13,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Salon Daomé": {
    "ok": true,
    "count": 7,
    "tab": "music",
    "last_count": 7,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Turbo Haüs": {
    "ok": true,
    "count": 28,
    "tab": "music",
    "last_count": 28,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Le Belmont": {
    "ok": true,
    "count": 8,
    "tab": "music",
    "last_count": 8,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "MTL Cookbook Club": {
    "ok": true,
    "count": 1,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Soft Studio Days": {
    "ok": true,
    "count": 3,
    "tab": "other",
    "last_count": 3,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Laugh It Off": {
    "ok": true,
    "count": 24,
    "tab": "bars",
    "last_count": 24,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Newspeak": {
    "ok": true,
    "count": 18,
    "tab": "music",
    "last_count": 18,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Boiler Room": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 19
+   "zero_streak": 26,
+   "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
    "ok": true,
    "count": 28,
    "tab": "music",
    "last_count": 28,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Théâtre Fairmount": {
    "ok": true,
    "count": 33,
    "tab": "music",
    "last_count": 33,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "L'Escogriffe": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 19
+   "zero_streak": 26,
+   "zero_alerted": true
   },
   "Ausgang Plaza": {
    "ok": true,
    "count": 6,
    "tab": "music",
    "last_count": 6,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Quai des Brumes": {
    "ok": true,
    "count": 7,
    "tab": "music",
    "last_count": 7,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Sans Soleil": {
    "ok": true,
    "count": 2,
    "tab": "music",
    "last_count": 2,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Blue Room": {
    "ok": true,
    "count": 5,
    "tab": "music",
    "last_count": 5,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Espace Transmission": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 9
+   "zero_streak": 16,
+   "zero_alerted": true
   },
   "MBAM La Buvette": {
    "ok": true,
    "count": 1,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "McCord After Hours": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 4
+   "zero_streak": 11,
+   "zero_alerted": true
+  },
+  "Ville de Montréal": {
+   "ok": true,
+   "count": 86,
+   "tab": "other",
+   "last_count": 86,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "Marchés publics": {
+   "ok": true,
+   "count": 4,
+   "tab": "other",
+   "last_count": 4,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "Ateliers & Saveurs": {
+   "ok": true,
+   "count": 21,
+   "tab": "other",
+   "last_count": 21,
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "StereoBar": {
    "ok": true,
    "count": 9,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Système": {
    "ok": true,
    "count": 22,
    "tab": "music",
    "last_count": 22,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "New City Gas": {
    "ok": true,
    "count": 9,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Eastern Bloc": {
    "ok": true,
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 19
+   "zero_streak": 26,
+   "zero_alerted": true
   },
   "Trivia Nights": {
    "ok": true,
    "count": 56,
    "tab": "bars",
    "last_count": 56,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Comedy Open Mics": {
    "ok": true,
    "count": 48,
    "tab": "bars",
    "last_count": 48,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Karaoke Nights": {
    "ok": true,
    "count": 60,
    "tab": "bars",
    "last_count": 60,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Added by hand": {
    "ok": true,
-   "count": 4,
+   "count": 6,
    "tab": "bars",
-   "last_count": 4,
-   "zero_streak": 0
+   "last_count": 6,
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Musées Montréal": {
    "ok": true,
    "count": 56,
    "tab": "museums",
    "last_count": 56,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "DARE-DARE": {
    "ok": true,
    "count": 2,
    "tab": "museums",
    "last_count": 2,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Occurrence": {
    "ok": true,
    "count": 4,
    "tab": "museums",
    "last_count": 4,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Fais-moi l'art": {
    "ok": true,
    "count": 6,
    "tab": "museums",
    "last_count": 6,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "FOIL": {
    "ok": true,
    "count": 3,
    "tab": "museums",
    "last_count": 3,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Espace Transmission (site)": {
    "ok": true,
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 9
+   "zero_streak": 16,
+   "zero_alerted": true
   },
   "Montreal Art Center": {
    "ok": true,
    "count": 15,
    "tab": "museums",
    "last_count": 15,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Cinéma Cinéma": {
    "ok": true,
    "count": 367,
    "tab": "movies",
    "last_count": 367,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Cinéma Moderne": {
    "ok": true,
    "count": 34,
    "tab": "movies",
    "last_count": 34,
-   "zero_streak": 0
+   "zero_streak": 0,
+   "zero_alerted": false
   }
  },
  "genres": [
@@ -346,6 +414,7 @@
   "Afro & Latin",
   "Flamenco",
   "Jazz & Blues",
+  "Classical & Choral",
   "Folk & Country",
   "Punk & Hardcore",
   "Metal",
@@ -356,6 +425,9 @@
   "Dance",
   "Comedy",
   "Listening Party",
+  "Markets & Fairs",
+  "Theatre & Shows",
+  "Film",
   "Talks & Quizzes",
   "Art & Workshops",
   "Food & Drink"
@@ -548,8 +620,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Punk & Hardcore",
-    "Rock & Indie"
+    "Talks & Quizzes"
    ],
    "all_day": false,
    "tab": "music",
@@ -2481,7 +2552,8 @@
    "price_lo": null,
    "genres": [
     "Afro & Latin",
-    "Electronic"
+    "Electronic",
+    "Film"
    ],
    "all_day": false,
    "tab": "music",
@@ -3547,7 +3619,8 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Electronic"
+    "Electronic",
+    "Markets & Fairs"
    ],
    "all_day": false,
    "tab": "music",
@@ -3869,9 +3942,9 @@
    "end": null,
    "location": "Turbo Haüs",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$16–20",
+   "price_lo": 16.0,
    "genres": [
     "Punk & Hardcore",
     "Rock & Indie"
@@ -4260,7 +4333,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
-    "Electronic"
+    "Classical & Choral"
    ],
    "all_day": false,
    "tab": "music",
@@ -5134,7 +5207,8 @@
    "price": "$18",
    "price_lo": 18.25,
    "genres": [
-    "Jazz & Blues"
+    "Jazz & Blues",
+    "Classical & Choral"
    ],
    "all_day": false,
    "tab": "music",
@@ -5361,6 +5435,7 @@
    "price": "",
    "price_lo": null,
    "genres": [
+    "Classical & Choral",
     "Punk & Hardcore"
    ],
    "all_day": false,
@@ -6524,22 +6599,188 @@
    "id": "cc1c0931b20cb78dd31d"
   },
   {
-   "source": "5 à Set",
-   "title": "5 à Set: \"The Miseducation of Lauryn Hill\" Listening Party/Séance d'écoute",
-   "start": "2026-11-25T19:00:00-05:00",
-   "url": "https://www.eventbrite.com/e/5-a-set-the-miseducation-of-lauryn-hill-listening-partyseance-decoute-tickets-2005209660072",
-   "end": "2026-11-25T19:00:00-05:00",
-   "location": "Alfred Café Buvette Griffintown",
-   "kind": "",
-   "free": false,
-   "price": "$21",
-   "price_lo": 20.8,
+   "source": "Holiday markets",
+   "title": "Le Grand Marché de Noël de Montréal",
+   "start": "2026-11-13",
+   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel",
+   "end": "2027-01-03",
+   "location": "Place des Festivals, Quartier des spectacles",
+   "kind": "exhibition",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
    "genres": [
-    "Listening Party"
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "3eee69e82165a0185d95"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d'écriture : Des Images et des Mots",
+   "start": "2026-11-25T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-des-images-et-des-mots-119753",
+   "end": "2026-11-25T12:00:00-05:00",
+   "location": "Bibliothèque du Boisé",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
    ],
    "all_day": false,
    "tab": "other",
-   "id": "5c807efe22591e1ad7de"
+   "id": "d5d557e160228e52325d"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Apéro littéraire avec France Lorrain",
+   "start": "2026-11-25T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/apero-litteraire-avec-france-lorrain-116049",
+   "end": "2026-11-25T15:00:00-05:00",
+   "location": "Bibliothèque Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c81bc7aee1bbb5a599d6"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Amour Apocalypse - Anne Émond",
+   "start": "2026-11-25T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/amour-apocalypse-anne-emond-120486",
+   "end": "2026-11-25T15:40:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "d9734c46c4902f1f8fe5"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Causerie sur la prévention des chutes : les facteurs de risque",
+   "start": "2026-11-25T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/causerie-sur-la-prevention-des-chutes-les-facteurs-de-risque-116347",
+   "end": "2026-11-25T15:00:00-05:00",
+   "location": "Bibliothèque Jacqueline-De Repentigny",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "27bcf625841ab2c7e42a"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Mémoires mécaniques : ateliers de création littéraire",
+   "start": "2026-11-25T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/memoires-mecaniques-ateliers-de-creation-litteraire-118320",
+   "end": "2026-11-25T16:00:00-05:00",
+   "location": "Bibliothèque de Rosemont",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5eeafbfb2dacab0cb54f"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d'écriture (adultes)",
+   "start": "2026-11-25T17:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-adultes-117498",
+   "end": "2026-11-25T19:00:00-05:00",
+   "location": "Bibliothèque de Côte-des-Neiges",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ce410279486c796d8b6d"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Ateliers d’écriture",
+   "start": "2026-11-25T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/ateliers-decriture-115881",
+   "end": null,
+   "location": "Bibliothèque Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "7ffc9cf1e260baf357b1"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Nos échos - Philippe Arsenault",
+   "start": "2026-11-25T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/nos-echos-philippe-arsenault-114888",
+   "end": "2026-11-25T21:00:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Botrel",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "e46741103a0beabb72fe"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Cabaret scientifique : Mythes et promesses quantiques - Science pour tous",
+   "start": "2026-11-25T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabaret-scientifique-mythes-et-promesses-quantiques-science-pour-tous-116291",
+   "end": "2026-11-25T20:30:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "340a87d7d5fb82186b5e"
   },
   {
    "source": "Théâtre Fairmount",
@@ -6560,6 +6801,437 @@
    "id": "481969d8f988caf9a8df"
   },
   {
+   "source": "Holiday markets",
+   "title": "Le Village de Noël de Montréal",
+   "start": "2026-11-26",
+   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal",
+   "end": "2026-12-24",
+   "location": "Place du Marché Atwater, 3325 rue Saint-Ambroise",
+   "kind": "exhibition",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "0c8913a8cb7a0621d462"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture de manga",
+   "start": "2026-11-26T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-de-manga-117612",
+   "end": "2026-11-26T20:00:00-05:00",
+   "location": "Bibliothèque de Pierrefonds",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "6d28a216251b5473346d"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Méthadone Bertrand - Les Fauves",
+   "start": "2026-11-26T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/methadone-bertrand-les-fauves-120175",
+   "end": null,
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "e18a3b23ecaf11712655"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Catherine Major & Jeff Moran - Bunker à ciel ouvert",
+   "start": "2026-11-26T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/catherine-major-jeff-moran-bunker-ciel-ouvert-118260",
+   "end": "2026-11-26T21:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$25",
+   "price_lo": 25.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "1f81e3f8d6047ca2d1ed"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "L’espace entre nous - Production Pendar Complet",
+   "start": "2026-11-26T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/lespace-entre-nous-production-pendar-109276",
+   "end": "2026-11-26T21:00:00-05:00",
+   "location": "Maison de la culture Claude-Léveillée",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Dance",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c3cd739999e455f1d57f"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Simon et le temps perdu - Productions à l'écart",
+   "start": "2026-11-26T20:00:00-05:00",
+   "url": "https://montreal.ca/evenements/simon-et-le-temps-perdu-productions-lecart-115195",
+   "end": "2026-11-26T20:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Comedy",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "83e6550632ce288dd916"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Midi Chic Express: Involtini de veau à la Mozzarella fraîche, sauge et prosciutto, sauce au Marsala",
+   "start": "2026-11-27T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/18633/une-superbe-pause-diner-30-min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/62871",
+   "end": "2026-11-27T13:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$42",
+   "price_lo": 42.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "3e254d1dfccba6bfbfb1"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Prima di Scomparire - Les Soeurs Schmutt (Sortie de résidence)",
+   "start": "2026-11-27T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/prima-di-scomparire-les-soeurs-schmutt-sortie-de-residence-119479",
+   "end": "2026-11-27T14:45:00-05:00",
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Dance"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5b4ce42901579d665753"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d’écriture optimiste",
+   "start": "2026-11-27T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-optimiste-117550",
+   "end": "2026-11-27T15:30:00-05:00",
+   "location": "Bibliothèque de Saint-Léonard",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "2890b1bd05f9d91a2617"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Chantons!",
+   "start": "2026-11-27T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/chantons-119925",
+   "end": "2026-11-27T16:45:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "0938fa373dfadbe664ee"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "L'histoire s'invite à NDG #4 (conférence)",
+   "start": "2026-11-27T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/lhistoire-sinvite-ndg-4-conference-111595",
+   "end": "2026-11-27T20:30:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Botrel",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "632d06824acf9835b1b1"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Miroir éphémère - BOA expérience",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
+   "end": null,
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "89c0aa739d90096f1077"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Hitch - Théâtre Globe Bulle Rouge",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
+   "end": "2026-11-27T21:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Pop & Throwback",
+    "Theatre & Shows",
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "62fc401572604815c411"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Une journée dans la vie d’un ours - Simon Proulx et Etienne Lafrance",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/une-journee-dans-la-vie-dun-ours-simon-proulx-et-etienne-lafrance-117671",
+   "end": null,
+   "location": "Maison de la culture de Pointe-aux-Trembles",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "91625bbeff3dbae3b609"
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Maisonneuve",
+   "start": "2026-11-28",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-maisonneuve",
+   "end": "2026-11-29",
+   "location": "Marché Maisonneuve",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "c75ba1c721bd835cfe0b"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "La Pâtisserie: Macarons au caramel à la fleur de sel",
+   "start": "2026-11-28T09:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/1725/les-macarons-pour-emporter/62813",
+   "end": "2026-11-28T12:30:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$100",
+   "price_lo": 100.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "589e2735ac39908e6732"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe: Histoire de l'avortement au Québec (avec l'autrice Marie-Laurence Raby)",
+   "start": "2026-11-28T10:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-histoire-de-lavortement-au-quebec-avec-lautrice-marie-laurence-raby-116052",
+   "end": "2026-11-28T12:00:00-05:00",
+   "location": "Bibliothèque Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "0debed6580955a8d0de3"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Carnet 04 : Papier artisanal recyclé",
+   "start": "2026-11-28T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-04-papier-artisanal-recycle-120406",
+   "end": "2026-11-28T14:30:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "d32fbcde8bba86b0c437"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Après-midi cinéma",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/apres-midi-cinema-120297",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Bibliothèque de Notre-Dame-de-Grâce",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Pop & Throwback",
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ea1fed4683074e757b0d"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Ateliers d’écriture",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/ateliers-decriture-116095",
+   "end": null,
+   "location": "Bibliothèque Saint-Henri",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "03986455e6e7740d89a2"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d'écriture de lettres au père Noël",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-de-lettres-au-pere-noel-115820",
+   "end": "2026-11-28T15:00:00-05:00",
+   "location": "Bibliothèque Jacqueline-De Repentigny",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "70921de423e5d26a156c"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Dans l'univers d'Astor - Ensemble Mistral Complet",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/dans-lunivers-dastor-ensemble-mistral-119910",
+   "end": "2026-11-28T15:15:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "64e9a952f57432fa3655"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Financier citron, pavot, Amaretto, glaçage citron",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727",
+   "end": "2026-11-28T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "791682877ab847316d13"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Tartelette chocolat mi-cuite, glaçage chocolat marbré",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742",
+   "end": "2026-11-28T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "184ebf7945c9c1dbebce"
+  },
+  {
    "source": "Soft Studio Days",
    "title": "1 year anniversary ★",
    "start": "2026-11-28T17:30:00-05:00",
@@ -6578,6 +7250,403 @@
    "id": "deac52723d022fcabc67"
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Reflets du temps - Quatuor Cobalt",
+   "start": "2026-11-28T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/reflets-du-temps-quatuor-cobalt-111191",
+   "end": "2026-11-28T20:30:00-05:00",
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "f908e145559f0a16f5bc"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Bidule man - Théâtre à Tempo",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
+   "end": "2026-11-29T14:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "27cb4ab692d8c7275f24"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "2287e963278c1ab9d008"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "ZhongYi - MCCCA",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/zhongyi-mccca-115197",
+   "end": "2026-11-29T16:30:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "282047d5d7c411c68cfc"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Beatlemania Big Band - Jazz Kartel",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/beatlemania-big-band-jazz-kartel-118262",
+   "end": "2026-11-29T17:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Jazz & Blues",
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "59e409415a534e06363b"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Millefeuille croustillant, crème au chocolat noir et crème anglaise",
+   "start": "2026-11-29T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729",
+   "end": "2026-11-29T18:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "bfccaa567f2e8abf46d6"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Toi... comme hier - productions et Jules à mes côtés...",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/toi-comme-hier-productions-et-jules-mes-cotes-115199",
+   "end": "2026-12-01T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "fb6775ac683f042f9f16"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Création de zines - Exposition-dégustation",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/creation-de-zines-exposition-degustation-115887",
+   "end": "2026-12-01T19:00:00-05:00",
+   "location": "Bibliothèque de Rivière-des-Prairies",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "9cea3f1670f81313e661"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture de BD féministe",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-de-bd-feministe-119096",
+   "end": "2026-12-01T19:30:00-05:00",
+   "location": "Bibliothèque Henri-Bourassa",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "f69b998fa530e5bce0ff"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Cuisine Du Monde: Salade gourmande de Tataki de bœuf aux épices douces, sauce gremolata au Parmigiano Reggiano",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013",
+   "end": "2026-12-01T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "d63cd529a5fe394405ab"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Juste une illusion de Eric Toledano et Olivier Nakache - Ciné-Club du Plateau-Mont-Royal",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/juste-une-illusion-de-eric-toledano-et-olivier-nakache-cine-club-du-plateau-mont-royal-119481",
+   "end": null,
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Comedy"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "2d60c5c1326445559949"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "780d2fbb9112055fea32"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Nos échos - Philippe Arsenault",
+   "start": "2026-12-02T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/nos-echos-philippe-arsenault-115428",
+   "end": "2026-12-02T14:48:00-05:00",
+   "location": "Maison de la culture de Rosemont–La Petite-Patrie",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "b752063060e547ce6490"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Café rencontre des personnes aînées de Pierrefonds",
+   "start": "2026-12-02T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cafe-rencontre-des-personnes-ainees-de-pierrefonds-116529",
+   "end": "2026-12-02T15:30:00-05:00",
+   "location": "Bibliothèque de Pierrefonds",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "420e9bf9a33be4c00e73"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Vernissage de Topographie du chaos",
+   "start": "2026-12-02T17:30:00-05:00",
+   "url": "https://montreal.ca/evenements/vernissage-de-topographie-du-chaos-121093",
+   "end": "2026-12-02T19:30:00-05:00",
+   "location": "Maison de la culture de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "a4aaa1747d888287d06e"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Soirée tricot-cinéma",
+   "start": "2026-12-02T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/soiree-tricot-cinema-119209",
+   "end": "2026-12-02T19:30:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Film",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "a2c87f210f565d9a12cc"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Conférence : à la découverte Vietnam",
+   "start": "2026-12-02T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/conference-la-decouverte-vietnam-115504",
+   "end": null,
+   "location": "Bibliothèque Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "725d9e18e1dc52e2237e"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Rencontre d'auteur: Marie Laberge",
+   "start": "2026-12-02T18:30:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-dauteur-marie-laberge-120274",
+   "end": "2026-12-02T20:00:00-05:00",
+   "location": "Bibliothèque de Notre-Dame-de-Grâce",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ec70120bbf04d6fb9100"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture à Ducharme",
+   "start": "2026-12-02T18:30:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-ducharme-115058",
+   "end": null,
+   "location": "Bibliothèque Réjean-Ducharme",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "4ab31054951233f83102"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Conifères Mélomanes - Mauve Fougère",
+   "start": "2026-12-02T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/coniferes-melomanes-mauve-fougere-118263",
+   "end": "2026-12-02T20:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 9.5,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "adde29869b7e85b84f8f"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture",
+   "start": "2026-12-03T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-117556",
+   "end": "2026-12-03T15:00:00-05:00",
+   "location": "Bibliothèque de Saint-Léonard",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "f00ccf69e9bbc8124ae3"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Lancement du Café Alcôve à la Bibliothèque de Pierrefonds",
+   "start": "2026-12-03T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/lancement-du-cafe-alcove-la-bibliotheque-de-pierrefonds-122724",
+   "end": "2026-12-03T17:00:00-05:00",
+   "location": "Bibliothèque de Pierrefonds",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "d7922c53dbd8c7b4bcda"
+  },
+  {
    "source": "MBAM",
    "title": "La Buvette",
    "start": "2026-12-03T18:00:00-05:00",
@@ -6588,10 +7657,214 @@
    "free": false,
    "price": "$32",
    "price_lo": 32.0,
-   "genres": [],
+   "genres": [
+    "Electronic",
+    "Art & Workshops",
+    "Food & Drink"
+   ],
    "all_day": false,
    "tab": "other",
    "id": "88dd243a2b4183277b72"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Tendance Cocktails: Vive l'apéro en gin",
+   "start": "2026-12-03T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay-sapphire/63118",
+   "end": "2026-12-03T20:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$62",
+   "price_lo": 62.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c5b78054892a906b6eda"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "La ferme ou comment nourrir un futur intelligent ATSA",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/la-ferme-ou-comment-nourrir-un-futur-intelligent-atsa-118264",
+   "end": "2026-12-03T20:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Comedy",
+    "Theatre & Shows",
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "fe4f58e00ec86e33fb91"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Racines - Zal Sissokho et Laurent Perrault-Jolicoeur",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/racines-zal-sissokho-et-laurent-perrault-jolicoeur-114567",
+   "end": "2026-12-03T20:40:00-05:00",
+   "location": "Maison de la culture de Rosemont–La Petite-Patrie",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "51a3605779dc2fc91d1f"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Djata : conversations du Manden - Kira Arts",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/djata-conversations-du-manden-kira-arts-110089",
+   "end": "2026-12-03T20:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "f57fd9cc45fc30c6f536"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "L’espace entre nous - Production Pendar",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/lespace-entre-nous-production-pendar-111325",
+   "end": "2026-12-03T20:30:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Dance",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "306bbe3b7c962fdcdb7d"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Trésors de répertoire Complet",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tresors-de-repertoire-117438",
+   "end": null,
+   "location": "Maison de la culture de Pointe-aux-Trembles",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "165667364b548d21617b"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "6.58 : Manifesto - Andrea Peña & Artists",
+   "start": "2026-12-03T20:00:00-05:00",
+   "url": "https://montreal.ca/evenements/658-manifesto-andrea-pena-artists-111505",
+   "end": "2026-12-03T21:30:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Techno",
+    "Classical & Choral",
+    "Electronic"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "36a5c4629cb4609189f8"
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-04",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-06",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "f1ecc333322673945c85"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Midi Chic Express: Choux de Bruxelles au bacon fumé et fromage bleu",
+   "start": "2026-12-04T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/63306",
+   "end": "2026-12-04T13:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$50",
+   "price_lo": 50.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ad29fb673e06a2201550"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Le balafon pour mieux communiquer - Centre des Musiciens du Monde",
+   "start": "2026-12-04T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/le-balafon-pour-mieux-communiquer-centre-des-musiciens-du-monde-121574",
+   "end": "2026-12-04T15:00:00-05:00",
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "9c3327e768f4a9439554"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Chantons!",
+   "start": "2026-12-04T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/chantons-119926",
+   "end": "2026-12-04T16:45:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "801ca6877945b80f8274"
   },
   {
    "source": "Ausgang Plaza",
@@ -6605,8 +7878,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "House",
-    "Electronic",
     "Dance",
     "Talks & Quizzes"
    ],
@@ -6620,15 +7891,125 @@
    "start": "2026-12-04T19:00:00-05:00",
    "url": "https://www.favouritelibrary.com/#shows",
    "end": null,
-   "location": "House show , Montreal",
+   "location": "House show, Montreal",
    "kind": "",
    "free": null,
    "price": "",
    "price_lo": null,
-   "genres": [],
+   "genres": [
+    "Rock & Indie"
+   ],
    "all_day": false,
    "tab": "other",
    "id": "908b9159653524f819fd"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "La Pâtisserie: Biscuit roulé chocolat",
+   "start": "2026-12-05T09:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913",
+   "end": "2026-12-05T12:30:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "d23db993acf1d8f4ee12"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Conférence musicale : De lutte en turlutte",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
+   "end": "2026-12-05T12:00:00-05:00",
+   "location": "Bibliothèque Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5d3261ce84e3d1627887"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "db5248f599c2742085e3"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Le thé : Conférence et dégustation",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/le-conference-et-degustation-113315",
+   "end": "2026-12-05T12:00:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "07b141bd2d6d160d33a4"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Musique avec toi",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/musique-avec-toi-117816",
+   "end": "2026-12-05T11:30:00-05:00",
+   "location": "Bibliothèque Hélène-Charbonneau (bibliothèque d'Ahuntsic)",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "7ca6a1a836c9b6d159f9"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070",
+   "end": "2026-12-05T14:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "62c41152e31b8163fb7e"
   },
   {
    "source": "Turbo Haüs",
@@ -6647,6 +8028,715 @@
    "all_day": false,
    "tab": "other",
    "id": "5505f03daeb699a41706"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Conte d'hiver - BOP",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/conte-dhiver-bop-110863",
+   "end": "2026-12-05T14:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$7",
+   "price_lo": 7.0,
+   "genres": [
+    "Experimental",
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "3b46f9b3c244e8b0b516"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Carnet 04 : Broderie sur papier avec Robie Schuler",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-04-broderie-sur-papier-avec-robie-schuler-120407",
+   "end": "2026-12-05T14:30:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "2ac9684c04a482f8b4f3"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Soirées cinéma Saint-Pierre Reporté",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/soirees-cinema-saint-pierre-121273",
+   "end": "2026-12-05T15:00:00-05:00",
+   "location": "Bibliothèque de Saint-Pierre",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "58c4e14e4890718d2819"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "L’étrange Noël de monsieur Bougris - Qu’en dit Raton?",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letrange-noel-de-monsieur-bougris-quen-dit-raton-114807",
+   "end": "2026-12-05T15:00:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Dance",
+    "Comedy",
+    "Markets & Fairs"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "2ff7cb5fef98d04c23fb"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Mario a un incroyable talent",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/mario-un-incroyable-talent-118330",
+   "end": "2026-12-05T14:55:00-05:00",
+   "location": "Maison de la culture Marie-Uguay",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "918626990d06b016a40c"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Beignet passion, ananas caramélisé au rhum, sucre glace",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "431a102d907df0b75057"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Concert de Noël baroque",
+   "start": "2026-12-05T14:30:00-05:00",
+   "url": "https://montreal.ca/evenements/concert-de-noel-baroque-119775",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Bibliothèque du Boisé",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "58cdbedebae8e42f7809"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
+   "end": "2026-12-05T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "8969c605090a09e68316"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "18.015 - Nouena Danse",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
+   "end": "2026-12-05T16:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Pop & Throwback",
+    "Dance"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "3fc85464ec2c113adb3c"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "60193a0a9d7bdb6c765f"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Samedi Daiquiri !!: Tropicana Mood !",
+   "start": "2026-12-05T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$55",
+   "price_lo": 55.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "052e379dc31ef12042e3"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074",
+   "end": "2026-12-05T20:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c3efe72b9b9b310e8870"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Produit D'Exception À L'Honneur !: Pouding au pain brioché, chantilly au bourbon et foie gras, gelée de vin aux épices",
+   "start": "2026-12-05T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951",
+   "end": "2026-12-05T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$165",
+   "price_lo": 165.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c9b6de67fb533017ce23"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Des mots sur mesure",
+   "start": "2026-12-05T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/des-mots-sur-mesure-119943",
+   "end": "2026-12-05T21:00:00-05:00",
+   "location": "Maison de la culture Ahuntsic",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "3554b55517dfcc4c7a4e"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "La Pâtisserie: Macarons Noix de coco, ganache chocolat noir",
+   "start": "2026-12-06T09:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour-emporter/63027",
+   "end": "2026-12-06T12:30:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$105",
+   "price_lo": 105.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "a909e550c99a56eab4b2"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Bon Brunch: Saucisses glacées au sirop d'érable et romarin frais",
+   "start": "2026-12-06T10:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/62916",
+   "end": "2026-12-06T13:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$115",
+   "price_lo": 115.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "e717f2acf234ab82cf64"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Célébrations 30e saison - Quatuor Molinari",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/celebrations-30e-saison-quatuor-molinari-119480",
+   "end": "2026-12-06T15:30:00-05:00",
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5e5fffe4dcde8ae9a4f9"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
+   "end": "2026-12-06T15:00:00-05:00",
+   "location": "Maison de la culture Claude-Léveillée",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "5e96d7625c31841e7ade"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe (séance de décembre)",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
+   "end": "2026-12-06T16:00:00-05:00",
+   "location": "Bibliothèque Père-Ambroise",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ae1c1d4485712856e4b8"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Cocktails Classiques Historiques !: Pornstar Martini",
+   "start": "2026-12-06T14:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076",
+   "end": "2026-12-06T16:30:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$70",
+   "price_lo": 70.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c158e078b68fe3bfa391"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Noël jazzé - Rémi Bolduc",
+   "start": "2026-12-06T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/noel-jazze-remi-bolduc-114890",
+   "end": "2026-12-06T16:15:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Botrel",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Jazz & Blues"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "bee3d7f6360e8c826536"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Rythmo-rigolo - Jeunesses Musicales Canada",
+   "start": "2026-12-06T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rythmo-rigolo-jeunesses-musicales-canada-116197",
+   "end": "2026-12-06T16:30:00-05:00",
+   "location": "Maison de la culture de Côte-des-Neiges",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "8477ee4ee81e99fc790f"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Financier, crème citron, rosace de meringue brulée, zestes de citron",
+   "start": "2026-12-06T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-services/63248",
+   "end": "2026-12-06T18:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "f9372e946d8aba82afe5"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Produit D'Exception À L'Honneur !: Pain perdu au jasmin, sauce caramel au beurre salé et pépites de foie gras, zeste d'orange",
+   "start": "2026-12-06T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "e70265abbc57cf51595d"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Collection Voyage: Voyage en ESPAGNE et au PORTUGAL !",
+   "start": "2026-12-06T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-et-au-portugal/63038",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Wine tasting",
+   "free": false,
+   "price": "$95",
+   "price_lo": 95.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "fcd7b3413d599a58a48e"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Couper le cordon d'Émilie Porry",
+   "start": "2026-12-07T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/couper-le-cordon-demilie-porry-118271",
+   "end": "2026-12-07T15:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "7b42663ccd84ef3288f1"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Kaïros de Jennifer Alleyn",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/kairos-de-jennifer-alleyn-118273",
+   "end": "2026-12-07T20:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$10",
+   "price_lo": 9.5,
+   "genres": [
+    "Electronic",
+    "Film"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "eee950c6df8fb79a00fd"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d'écriture : le chocolat comme déclencheur d'empathie et d'écriture",
+   "start": "2026-12-08T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-le-chocolat-comme-declencheur-dempathie-et-decriture-119777",
+   "end": "2026-12-08T12:00:00-05:00",
+   "location": "Bibliothèque du Boisé",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "c926fdfd0d02028f884f"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture de la bibliothèque du Plateau-Mont-Royal",
+   "start": "2026-12-08T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-de-la-bibliotheque-du-plateau-mont-royal-116827",
+   "end": "2026-12-08T14:15:00-05:00",
+   "location": "Bibliothèque du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "9e8b03a0adc7e3f00c77"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Café rencontre des personnes aînées",
+   "start": "2026-12-08T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cafe-rencontre-des-personnes-ainees-117363",
+   "end": "2026-12-08T15:30:00-05:00",
+   "location": "Bibliothèque Saul-Bellow",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "f0151a145a8563b19e57"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Rencontre avec Jimmy Suzan",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936",
+   "end": "2026-12-08T19:30:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "e771523b006807350535"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture du mardi soir",
+   "start": "2026-12-08T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045",
+   "end": "2026-12-08T19:45:00-05:00",
+   "location": "Bibliothèque Langelier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "a0a6e10499530cd8c28c"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture du mercredi",
+   "start": "2026-12-09T13:30:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-du-mercredi-115644",
+   "end": "2026-12-09T15:30:00-05:00",
+   "location": "Bibliothèque Serge-Bouchard",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "349238048947528b39d2"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "À travers tes yeux - Brigitte Poupart et Fabiola Pierre Monty",
+   "start": "2026-12-09T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/travers-tes-yeux-brigitte-poupart-et-fabiola-pierre-monty-121083",
+   "end": "2026-12-09T16:00:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "436a128e08e0921ac801"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Atelier d'écriture (adultes)",
+   "start": "2026-12-09T17:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-decriture-adultes-117499",
+   "end": "2026-12-09T19:00:00-05:00",
+   "location": "Bibliothèque de Côte-des-Neiges",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes",
+    "Art & Workshops"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "9a2659256851eacc6f2f"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture queer",
+   "start": "2026-12-09T19:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-queer-113971",
+   "end": "2026-12-09T20:00:00-05:00",
+   "location": "Bibliothèque de Parc-Extension",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "ff0c78d4b3db2cdfa73f"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "all_day": false,
+   "tab": "other",
+   "id": "739872a939761956a528"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "all_day": false,
+   "tab": "other",
+   "id": "4bddbe9faa5511a22479"
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-11",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-13",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "9c915786e45494fea664"
   },
   {
    "source": "Soft Studio Days",
@@ -6701,6 +8791,25 @@
    "all_day": false,
    "tab": "other",
    "id": "b5b2f4849abf8a2990c2"
+  },
+  {
+   "source": "Marchés publics",
+   "title": "Le temps des Fêtes au Marché Jean-Talon",
+   "start": "2026-12-18",
+   "url": "https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche-jean-talon",
+   "end": "2026-12-20",
+   "location": "Marché Jean-Talon",
+   "kind": "exhibition",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "all_day": true,
+   "tab": "other",
+   "id": "fad610f58c38650de051"
   },
   {
    "source": "Casa del Popolo",
@@ -6764,9 +8873,9 @@
    "end": null,
    "location": "Turbo Haüs",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$10",
+   "price_lo": 10.0,
    "genres": [
     "Talks & Quizzes"
    ],
@@ -6822,7 +8931,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -6841,8 +8949,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "House",
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -6915,7 +9021,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Jazz & Blues",
     "Comedy"
    ],
    "all_day": false,
@@ -7536,7 +9641,8 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Comedy"
+    "Comedy",
+    "Theatre & Shows"
    ],
    "all_day": false,
    "tab": "bars",
@@ -7608,7 +9714,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -7627,8 +9732,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "House",
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -7719,7 +9822,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Jazz & Blues",
     "Comedy"
    ],
    "all_day": false,
@@ -8376,7 +10478,8 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Comedy"
+    "Comedy",
+    "Theatre & Shows"
    ],
    "all_day": false,
    "tab": "bars",
@@ -8448,7 +10551,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -8467,8 +10569,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "House",
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -8559,7 +10659,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Jazz & Blues",
     "Comedy"
    ],
    "all_day": false,
@@ -9162,7 +11261,8 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Comedy"
+    "Comedy",
+    "Theatre & Shows"
    ],
    "all_day": false,
    "tab": "bars",
@@ -9234,7 +11334,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -9253,8 +11352,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "House",
-    "Electronic",
     "Talks & Quizzes"
    ],
    "all_day": false,
@@ -9345,7 +11442,6 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Jazz & Blues",
     "Comedy"
    ],
    "all_day": false,
@@ -9930,7 +12026,8 @@
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Comedy"
+    "Comedy",
+    "Theatre & Shows"
    ],
    "all_day": false,
    "tab": "bars",
