@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Go Out Montreal</title>
+<meta name="description" content="Concerts, club nights, comedy, bar nights, galleries, museums and films in Montreal. Updated every 6 hours.">
+<meta name="theme-color" content="#0b0b0b">
+<!-- link previews (iMessage, WhatsApp, Slack…) -->
+<meta property="og:site_name" content="Go Out Montreal">
+<meta property="og:title" content="Go Out Montreal">
+<meta property="og:description" content="What's on tonight in Montreal: concerts, club nights, comedy, galleries, museums and films.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yunkus.github.io/mtl-events/">
+<meta property="og:image" content="https://yunkus.github.io/mtl-events/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- installable app -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Go Out MTL">
 <link rel="preload" href="fonts/ShareTech-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="icon" type="image/png" href="favicon.png?v=3">
 <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
@@ -127,6 +144,67 @@
            color: var(--chip-on-text); padding: 8px 14px; border-radius: 8px; font-size: 13px; opacity: 0;
            transition: opacity .2s; pointer-events: none; z-index: 6; }
   .toast.show { opacity: 1; }
+
+  /* ---- thumbnails on every row */
+  .ev { grid-template-columns: 26px 64px 1fr 64px; cursor: pointer; }
+  .ev.wide { grid-template-columns: 26px 110px 1fr 64px; }
+  .ev.movie { grid-template-columns: 1fr 48px; }
+  .ev:hover { background: rgba(255, 255, 255, .025); }
+  .ev.on:hover { background: var(--picked-row); }
+  .thumb { width: 64px; height: 64px; border-radius: 8px; object-fit: cover; background: var(--surface);
+           border: 1px solid var(--line); display: block; }
+  .ev.movie .thumb { width: 48px; height: 70px; }
+  .thumb.none { background: linear-gradient(135deg, var(--black-2), #1f1a12); }
+  .ev .t { cursor: pointer; }
+  .badge { display: inline-block; vertical-align: 2px; margin-left: 6px; font-size: 11px; font-weight: 700; letter-spacing: .05em;
+           border-radius: 4px; padding: 1px 6px; }
+  .badge.new { color: var(--black); background: var(--amber); }
+  .badge.pick { color: var(--amber); border: 1px solid var(--amber); padding: 0 5px; }
+
+  /* ---- Tonight's picks: large cards */
+  .picks { margin-top: 22px; }
+  .picks h2 { font: 700 19px/1.2 var(--sans); color: var(--amber); margin: 0 0 10px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+  .card { position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 4 / 5; cursor: pointer;
+          border: 1px solid var(--line); background: var(--surface); }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
+  .card:hover img { transform: scale(1.04); }
+  .card .ov { position: absolute; inset: auto 0 0 0; padding: 40px 12px 12px;
+              background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .88) 45%); }
+  .card .ct { font-weight: 700; font-size: 15px; line-height: 1.25; }
+  .card .cw { color: var(--muted); font-size: 12px; margin-top: 3px; }
+  .card .cw b { color: var(--amber); font-weight: 600; }
+  @media (max-width: 560px) { .cards { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
+
+  /* ---- detail panel (slides up) */
+  #detail { padding: 0; width: min(620px, 100%); max-width: 100%; max-height: 92vh; margin: auto auto 0; border-radius: 16px 16px 0 0;
+            border: 1px solid var(--amber-dark); border-bottom: 0; overflow: hidden auto; }
+  #detail[open] { animation: up .22s ease-out; }
+  @keyframes up { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+  @media (min-width: 700px) { #detail { margin: auto; border-radius: 16px; border-bottom: 1px solid var(--amber-dark); } }
+  .dhero { width: 100%; max-height: min(340px, 38vh); object-fit: cover; display: block; background: var(--black); }
+  .dbody { padding: 16px 18px 20px; }
+  .dbody h3 { margin: 0 0 6px; font: 700 22px/1.2 var(--sans); }
+  .dmeta { color: var(--muted); font-size: 14px; display: grid; gap: 3px; margin-bottom: 10px; }
+  .dmeta b { color: var(--text); font-weight: 600; }
+  .dabout { font-size: 14px; color: var(--text); opacity: .9; margin: 10px 0; white-space: pre-line; }
+  .dactions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .dactions .btn { font-size: 14px; padding: 8px 12px; }
+  .dlisten { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 12px; font-size: 13px; color: var(--muted); }
+  .dlisten a { color: var(--amber); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; }
+  .dclose { position: absolute; top: 10px; right: 10px; z-index: 2; background: rgba(0,0,0,.7); color: var(--text);
+            border: 1px solid var(--line); border-radius: 999px; width: 34px; height: 34px; font-size: 18px; cursor: pointer; }
+
+  /* ---- phones: filters fold into one button */
+  .filterbtn { display: none; }
+  @media (max-width: 640px) {
+    .filterbtn { display: flex; width: 100%; justify-content: space-between; align-items: center; margin: 14px 0 0;
+                 background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 10px;
+                 padding: 10px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+    .filterbtn .on { color: var(--amber); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 10px; }
+    .chips:not(.open) .chiprow { display: none; }
+    .chips:not(.open) { margin: 6px 0 0; }
+  }
 </style>
 </head>
 <body>
@@ -148,6 +226,7 @@
   <nav class="tabs" id="tabs" role="tablist"></nav>
 </div></div>
 <div class="wrap">
+  <button class="filterbtn" id="filterbtn" aria-expanded="false" aria-controls="chips"><span>Filters</span><span class="on" id="filteron"></span></button>
   <div class="chips" id="chips"></div>
   <input class="search" id="q" type="search">
   <div class="hint" id="hint"></div>
@@ -168,6 +247,10 @@
   </div>
   <div class="list" id="glist"></div>
   <div class="ft"><button class="btn" id="gclose">Done</button></div>
+</dialog>
+<dialog id="detail" aria-label="Event details">
+  <button class="dclose" id="dclose" aria-label="Close">×</button>
+  <div id="dcontent"></div>
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
@@ -200,7 +283,7 @@ const placeKind = e => (MUSEUM_SOURCES.has(e.source) ? "museum" : "gallery");
 // quick filters: price ("any" | "free" | "under20"), when ("any" | "tonight" | "weekend"),
 // start time ("any" | "early" | "late"), genres (any of the ticked ones)
 let price = store.get("priceFilter", store.get("freeOnly", false) ? "free" : "any");
-let when = "any", slot = "any";
+let when = "any", slot = "any", fresh = false;   // fresh: only "New since your last visit"
 let genreSel = new Set();
 let picksOnly = false;
 let picked = new Set(store.get("picked", []));
@@ -268,7 +351,20 @@ function googleLinks(e) {
 }
 
 fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
-  const events = data.events.map(parse);
+  // Hide anything already over, by the visitor's own clock (the data can be up to 6 hours old).
+  // A show with no end time counts as over 3 hours after it starts.
+  const nowMs = Date.now();
+  const over = e => {
+    if (e.kind === "exhibition") return (e.end || e.start) < today;
+    if (e.all_day) return (e.end && e.end > e.start ? e.end : e.start) < today;
+    const end = e.end ? new Date(e.end).getTime() : NaN;
+    return (isNaN(end) || end <= e.d.getTime() ? e.d.getTime() + 3 * 3600e3 : end) < nowMs;
+  };
+  const events = data.events.map(parse).filter(e => !over(e));
+  // "New since your last visit": compared with the last day you opened the site before today
+  const visits = store.get("visits", { last: null, prev: null });
+  if (visits.last !== today) { visits.prev = visits.last; visits.last = today; store.set("visits", visits); }
+  const isNew = e => !!(visits.prev && e.added && e.added > visits.prev);
   const byId = new Map(events.map(e => [e.id, e]));
   picked = new Set([...picked].filter(id => byId.has(id)));   // forget picks that have passed
   const tabsInfo = data.tabs || { events: { title: "Montreal Events", feed: "calendar.ics" } };
@@ -392,8 +488,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const hasPrices = list => list.some(priceKnown);
   const genreTabs = ["music", "other", "date"];
   // Current filter settings; counts pass overrides to ask "how many if this button were on?"
-  const cur = () => ({ when, slot, price, genres: genreSel });
+  const cur = () => ({ when, slot, price, genres: genreSel, fresh });
   function passes(e, list, st = cur()) {
+    if (st.fresh && !isNew(e)) return false;
     if (st.when === "tonight" && !onDay(e, today)) return false;
     if (st.when === "weekend" && ![...weekendKeys].some(k => onDay(e, k))) return false;
     if (st.slot === "late" && !isLate(e)) return false;
@@ -410,8 +507,27 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
   function chipRow(...kids) { const r = el("div", "chiprow"); r.append(...kids.filter(Boolean)); return r; }
 
+  // On phones the filters fold into one button; it lists what's switched on.
+  function filterSummary() {
+    const on = [];
+    if (picksOnly) on.push("Selected");
+    if (fresh) on.push("New");
+    if (when !== "any") on.push(when === "tonight" ? "Tonight" : "This weekend");
+    if (slot !== "any") on.push(slot === "late" ? "Late night" : "Early shows");
+    if (price !== "any") on.push(price === "free" ? "Free" : "Under $20");
+    genreSel.forEach(g => on.push(g));
+    const off = [...hidden].filter(n => srcTab(n) === tab).length;
+    if (off && EVENT_TABS.includes(tab)) on.push(`${off} venue${off > 1 ? "s" : ""} hidden`);
+    $("filteron").textContent = on.join(" · ");
+  }
+  $("filterbtn").onclick = () => {
+    const open = $("chips").classList.toggle("open");
+    $("filterbtn").setAttribute("aria-expanded", String(open));
+  };
+
   function buildChips() {
     const chips = $("chips"); chips.innerHTML = "";
+    filterSummary();
     if (tab === "date") buildDateBar(chips);
     const inTab = events.filter(e => (tab === "date" ? onDay(e, dayPick) : e.tab === tab));
     const redo = () => { buildChips(); render(); };
@@ -425,6 +541,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
                               && (museumView !== "now" || e.start <= today) && (museumView !== "soon" || e.start > today));
     const cnt = (over, extra = () => true) => pool.filter(e => passes(e, inTab, { ...cur(), ...over }) && extra(e)).length;
     const row1 = chipRow(special("Selected", picksOnly, "pick", picked.size, () => { picksOnly = !picksOnly; redo(); }));
+    const nNew = cnt({ fresh: true });
+    if (nNew || fresh)
+      row1.append(opt("New", fresh, nNew, () => { fresh = !fresh; redo(); }, "genre"));
     if (tab !== "date" && !(tab === "museums" && museumView !== "events")) {
       row1.append(el("span", "sep"),
         opt("Tonight", when === "tonight", cnt({ when: "tonight" }), () => { when = when === "tonight" ? "any" : "tonight"; redo(); }),
@@ -516,11 +635,28 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     c.onchange = () => { toggle(e.id, c.checked); row.classList.toggle("on", c.checked); if (picksOnly && !c.checked) render(); };
     return c;
   }
+  // Tapping a title (or anywhere on its row) opens the detail panel; the source's own page is linked from there.
   function titleLine(e) {
     const frag = document.createDocumentFragment();
-    frag.appendChild(e.url ? link(e.url, "t", e.title) : el("span", "t", e.title));   // bar nights have no page
+    const t = el("span", "t", e.title); t.setAttribute("role", "button"); t.tabIndex = 0;
+    t.onkeydown = k => { if (k.key === "Enter") openDetail(e); };
+    frag.appendChild(t);
     if (e.free) frag.appendChild(el("span", "free", "FREE"));
+    if (isNew(e)) frag.appendChild(el("span", "badge new", "NEW"));
+    if (e.pick) frag.appendChild(el("span", "badge pick", "EDITOR'S PICK"));
     return frag;
+  }
+  function thumb(e) {
+    if (!e.image) return el("div", "thumb none");
+    const i = el("img", "thumb"); i.loading = "lazy"; i.decoding = "async"; i.alt = ""; i.referrerPolicy = "no-referrer";
+    i.src = e.image; i.onerror = () => i.replaceWith(el("div", "thumb none"));
+    return i;
+  }
+  const plain = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  // "Casa del Popolo · Casa Del Popolo": skip the location when it only repeats the venue
+  const sameish = (a, b) => { const x = plain(a), y = plain(b); return !x || !y || x === y || x.startsWith(y) || y.startsWith(x); };
+  function openable(row, e) {
+    row.addEventListener("click", ev => { if (!ev.target.closest("input, button, a")) openDetail(e); });
   }
 
   // One row for an event, styled by its own type (e.tab), so the By Date view can mix types.
@@ -532,7 +668,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
         body.appendChild(titleLine(e));
         const w = el("div", "where"); w.appendChild(el("span", "src", e.source)); body.appendChild(w);
         const times = el("div", "times"); body.appendChild(times);
-        row.appendChild(body); sec.appendChild(row); groups.set(g, times);
+        row.append(body, thumb(e)); openable(row, e); sec.appendChild(row); groups.set(g, times);
       }
       const b = el("button", null, timeFmt.format(e.d));
       b.setAttribute("aria-pressed", String(picked.has(e.id)));
@@ -544,7 +680,9 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (e.kind === "exhibition") return exhibitionRow(e, sec, "until " + fmtShort(e.end));
     const row = el("div", "ev");
     row.appendChild(checkbox(e, row));
-    row.appendChild(el("time", null, e.all_day ? "—" : timeFmt.format(e.d)));
+    const tm = el("time", null, e.all_day ? "TBA" : timeFmt.format(e.d));
+    if (e.all_day) tm.title = "Start time not announced";
+    row.appendChild(tm);
     const body = el("div");
     body.appendChild(titleLine(e));
     const w = el("div", "where");
@@ -553,13 +691,13 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       if (e.kind) w.append(" · " + e.kind);
     } else {
       w.appendChild(el("span", "src", e.source));
-      if (e.location && e.location !== e.source) w.append(" · " + e.location);
+      if (e.location && !sameish(e.location, e.source)) w.append(" · " + e.location);
     }
     if (!e.free && e.price) w.append(" · " + e.price);
     else if (!e.free && price !== "any" && e.tab !== "museums") w.appendChild(el("span", "unknown", " · price unknown"));
     body.appendChild(w);
     if (e.genres && e.genres.length) body.appendChild(el("div", "tags", e.genres.join(" · ")));
-    row.appendChild(body); sec.appendChild(row);
+    row.append(body, thumb(e)); openable(row, e); sec.appendChild(row);
   }
 
   function render() {
@@ -576,6 +714,33 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       shown = shown.filter(e => !hidden.has(e.source));
     }
     if (!shown.length) { list.innerHTML = `<p class="empty">${picksOnly ? "Nothing selected in this tab yet." : "Nothing matches."}</p>`; return; }
+    // "Tonight's picks": big cards on top of Music & Dance and Other Events when no filter or search is on
+    const filtering = term || picksOnly || fresh || when !== "any" || slot !== "any" || price !== "any" || genreSel.size;
+    if ((tab === "music" || tab === "other") && !filtering) {
+      const daysAgo = s => s ? (noon(today) - noon(s)) / 864e5 : 99;
+      const score = e => (e.pick ? 10 : 0) + (daysAgo(e.added) <= 3 ? 3 : 0) + (isNew(e) ? 2 : 0)
+                         + (e.free || e.price_lo != null ? 1 : 0) + (e.genres && e.genres.length ? .5 : 0);
+      const tonight = shown.filter(e => e.key === today && e.image && e.kind !== "exhibition")
+                           .sort((a, b) => score(b) - score(a) || a.d - b.d).slice(0, 4);
+      if (tonight.length >= 2) {
+        const sec = el("section", "picks"); sec.appendChild(el("h2", null, "Tonight"));
+        const grid = el("div", "cards");
+        for (const e of tonight) {
+          const c = el("div", "card"); c.tabIndex = 0; c.setAttribute("role", "button");
+          const img = el("img"); img.src = e.image; img.alt = ""; img.loading = "lazy"; img.referrerPolicy = "no-referrer";
+          img.onerror = () => img.remove();
+          const ov = el("div", "ov");
+          const t = el("div", "ct", e.title);
+          if (e.pick) t.appendChild(el("span", "badge pick", "PICK"));
+          const w = el("div", "cw"); w.appendChild(el("b", null, e.all_day ? e.source : `${timeFmt.format(e.d)} · ${e.source}`));
+          if (e.free) w.append(" · Free"); else if (e.price) w.append(" · " + e.price);
+          ov.append(t, w); c.append(img, ov);
+          c.onclick = () => openDetail(e); c.onkeydown = k => { if (k.key === "Enter") openDetail(e); };
+          grid.appendChild(c);
+        }
+        sec.appendChild(grid); list.appendChild(sec);
+      }
+    }
     // things running over several days (holiday markets, market weekends) go in an "Ongoing" section on top
     // open now first (closing soonest first), then the ones starting later (soonest first)
     const ongoing = shown.filter(e => e.kind === "exhibition").sort((a, b) =>
@@ -622,7 +787,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     row.append(checkbox(e, row), el("time", null, when));
     const body = el("div"); body.appendChild(titleLine(e));
     const w = el("div", "where"); w.appendChild(el("span", "src", e.location || e.source));
-    body.appendChild(w); row.appendChild(body); sec.appendChild(row);
+    body.appendChild(w); row.append(body, thumb(e)); openable(row, e); sec.appendChild(row);
   }
 
   // "now": open today, closing soonest first · "soon": opening later, soonest first.
@@ -645,6 +810,102 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     }
   }
 
+  // ---------- detail panel
+  // First act on a bill, for the "Listen" links: drop "X presents:", then cut at +, /, b2b, w/, " - ", " x "…
+  function firstArtist(title) {
+    let t = title.replace(/^.*?\b(?:pr[ée]sente?s?|invites?|presents)\s*:?\s*/i, "");
+    if (/:/.test(t) && t.split(":")[1].trim()) t = t.split(":").slice(1).join(":");
+    t = t.split(/\s+(?:\+|\/|&|b2b|b3b|w\/|with|avec|feat\.?|ft\.?|x|-|–|—|•|\|)\s+|,|\(|\[/i)[0];
+    return t.replace(/\b(all night long|live|dj set|album release|lancement)\b/gi, "").trim();
+  }
+  const MUSICISH = new Set(["music", "bars"]);
+  function openDetail(e) {
+    const box = $("dcontent"); box.innerHTML = "";
+    if (e.image) {
+      const img = el("img", "dhero"); img.src = e.image; img.alt = ""; img.referrerPolicy = "no-referrer";
+      img.onerror = () => img.remove(); box.appendChild(img);
+    }
+    const b = el("div", "dbody");
+    const h = el("h3", null, e.title);
+    if (e.free) h.appendChild(el("span", "free", "FREE"));
+    if (isNew(e)) h.appendChild(el("span", "badge new", "NEW"));
+    if (e.pick) h.appendChild(el("span", "badge pick", "EDITOR'S PICK"));
+    b.appendChild(h);
+    const meta = el("div", "dmeta");
+    const line = (label, text) => { if (!text) return; const d = el("div"); d.append(el("b", null, label + " "), text); meta.appendChild(d); };
+    if (e.kind === "exhibition")
+      line("When", e.start <= today ? `On now, until ${fmtShort(e.end)}` : `${fmtShort(e.start)} – ${fmtShort(e.end)}`);
+    else {
+      let when = dayFmt.format(e.d);
+      if (!e.all_day) {
+        when += ", " + timeFmt.format(e.d);
+        const end = e.end ? new Date(e.end) : null;
+        if (end && !isNaN(end) && end > e.d) when += " – " + timeFmt.format(end);
+      } else when += " · time TBA";
+      line("When", when);
+    }
+    line("Where", [e.source, e.location && !sameish(e.location, e.source) ? e.location : ""].filter(Boolean).join(" · "));
+    line("Price", e.free ? "Free" : e.price || "Not listed");
+    if (e.genres && e.genres.length) line("Genre", e.genres.join(" · "));
+    else if (e.kind && e.kind !== "exhibition") line("Type", e.kind);
+    b.appendChild(meta);
+    if (e.about) b.appendChild(el("div", "dabout", e.about));
+    if (e.tab === "movies") {   // the film's other showtimes that day at that cinema
+      const same = events.filter(x => x.tab === "movies" && x.key === e.key && x.source === e.source && x.title === e.title);
+      if (same.length > 1) {
+        const tms = el("div", "times");
+        for (const x of same) {
+          const bt = el("button", null, timeFmt.format(x.d)); bt.setAttribute("aria-pressed", String(picked.has(x.id)));
+          bt.onclick = () => { toggle(x.id); bt.setAttribute("aria-pressed", String(picked.has(x.id))); };
+          tms.appendChild(bt);
+        }
+        b.append(el("div", "hint", "Showtimes that day (tap to select):"), tms);
+      }
+    }
+    const acts = el("div", "dactions");
+    if (e.url) acts.appendChild(link(e.url, "btn primary", e.price || e.free ? "Tickets & info" : "More info"));
+    const where = [e.location, e.source].filter(Boolean).join(", ");
+    if (where) acts.appendChild(link("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(where + ", Montréal"), "btn", "Map"));
+    const ical = el("button", "btn", "Add to calendar");
+    ical.onclick = () => {
+      const blob = new Blob([ics([e])], { type: "text/calendar;charset=utf-8" });
+      const a = el("a"); a.href = URL.createObjectURL(blob); a.download = "event.ics";
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    };
+    acts.appendChild(ical);
+    const g = googleLinks(e)[0]; if (g) acts.appendChild(link(g[1], "btn", "Google Calendar"));
+    const share = el("button", "btn", "Share");
+    share.onclick = async () => {
+      const url = location.origin + location.pathname + "#e/" + encodeURIComponent(e.id);
+      const text = `${e.title} · ${e.kind === "exhibition" ? "until " + fmtShort(e.end) : dayFmt.format(e.d)}`;
+      try { if (navigator.share) { await navigator.share({ title: e.title, text, url }); return; } } catch (err) { if (err.name === "AbortError") return; }
+      try { await navigator.clipboard.writeText(url); } catch (err) {}
+      toast("Link copied");
+    };
+    acts.appendChild(share);
+    const sel = el("button", "btn", picked.has(e.id) ? "Selected ✓" : "Select");
+    sel.onclick = () => { toggle(e.id); sel.textContent = picked.has(e.id) ? "Selected ✓" : "Select"; render(); };
+    acts.appendChild(sel);
+    b.appendChild(acts);
+    if (MUSICISH.has(e.tab) && !/trivia|karaok|comedy|open mic|quiz/i.test(e.title)) {
+      const who = firstArtist(e.title);
+      if (who.length > 1) {
+        const l = el("div", "dlisten"); l.append("Listen: " + who + " ");
+        const q = encodeURIComponent(who);
+        l.append(link("https://www.youtube.com/results?search_query=" + q, null, "YouTube"),
+                 link("https://open.spotify.com/search/" + q, null, "Spotify"),
+                 link("https://bandcamp.com/search?q=" + q, null, "Bandcamp"));
+        b.appendChild(l);
+      }
+    }
+    box.appendChild(b);
+    history.replaceState(null, "", "#e/" + encodeURIComponent(e.id));
+    if (!$("detail").open) $("detail").showModal();
+  }
+  $("dclose").onclick = () => $("detail").close();
+  $("detail").addEventListener("click", ev => { if (ev.target === $("detail")) $("detail").close(); });   // tap outside
+  $("detail").addEventListener("close", () => history.replaceState(null, "", tab === "date" ? "#date/" + dayPick : "#" + tab));
+
   window.addEventListener("hashchange", () => {
     const h = fix(location.hash.slice(1));
     const d = (location.hash.match(/^#date\/(\d{4}-\d{2}-\d{2})$/) || [])[1];
@@ -653,8 +914,18 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   });
   store.set("picked", [...picked]);
   updateBar();
+  // a shared link (#e/<id>) opens that event in its own tab
+  const shared = (location.hash.match(/^#e\/(.+)$/) || [])[1];
+  const sharedEv = shared && byId.get(decodeURIComponent(shared));
+  if (sharedEv) tab = sharedEv.tab;
   select(tab);
+  if (sharedEv) openDetail(sharedEv);
+  else if (shared) toast("That event has already happened");
 }).catch(err => { $("meta").textContent = "Could not load events.json (" + err + ")"; console.error(err); });
+
+// installable app + offline: see sw.js
+if ("serviceWorker" in navigator && location.protocol === "https:")
+  navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>
 </body>
 </html>

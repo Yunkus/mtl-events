@@ -52,6 +52,7 @@ class Ev:
     price_lo: float | None = None        # lowest ticket price (0 when free), for the "Under $20" filter
     genres: list[str] = field(default_factory=list)   # e.g. ["Techno", "Electronic"]
     blurb: str = ""                      # short description from the venue (used for tags; not published)
+    image: str = ""                      # flyer / poster / photo URL, when the source has one
 
     @property
     def all_day(self) -> bool:
@@ -152,7 +153,7 @@ def ra_query(query: str) -> dict:
     return data["data"]
 
 
-RA_FIELDS = "id title startTime endTime contentUrl cost venue { name } genres { name }"
+RA_FIELDS = "id title startTime endTime contentUrl cost venue { name } genres { name } images { filename type }"
 
 
 def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
@@ -163,6 +164,8 @@ def ra_events(kind: str, ra_id: str, source: str) -> list[Ev]:
         ev = Ev(source, e["title"], iso(e["startTime"]), "https://ra.co" + e["contentUrl"],
                 iso(e["endTime"]) if e.get("endTime") else None, (e.get("venue") or {}).get("name", ""))
         ev.genres = genres_in(" ".join(g["name"] for g in e.get("genres") or []))   # RA's own tags, when set
+        ev.image = next((i["filename"] for i in e.get("images") or [] if i.get("type") == "FLYERFRONT"),
+                        (e.get("images") or [{}])[0].get("filename", "") if e.get("images") else "")
         out.append(priced(ev, *price_from_text(e.get("cost") or "")))
     return out
 
@@ -235,6 +238,13 @@ def casa_del_popolo() -> list[Ev]:
         t = next((parse_time(x) for x in divs if parse_time(x)), None)
         ev = Ev("Casa del Popolo", clean(heads[1].get_text()), local(d, t), base + more["href"],
                 location=clean(heads[2].get_text()))
+        box = card.parent   # the card's picture sits a level or two above the text block
+        for _ in range(3):
+            if box.find("img") or box.parent is None:
+                break
+            box = box.parent
+        img = box.find("img", src=True)
+        ev.image = img["src"] if img and img["src"].startswith("http") else ""
         cost = next((x for x in divs if re.fullmatch(r"(\$\s?[\d.,]+.*|.*\b(free|gratuit)\b.*)", x, re.I)
                      and len(x) < 40), "")
         out.append(priced(ev, *price_from_text(cost)))
@@ -284,6 +294,7 @@ def eventbrite_organizer(org_url: str, source: str) -> list[Ev]:
         ev = Ev(source, e.get("name") if isinstance(e.get("name"), str) else e.get("name", {}).get("text", ""),
                 st.astimezone(TZ), e["url"], en.astimezone(TZ) if en else None,
                 venue.get("name", "") if isinstance(venue, dict) else "")
+        ev.image = ((e.get("image") or {}).get("url") or "") if isinstance(e.get("image"), dict) else ""
         ta = e.get("ticket_availability") or {}
         lo = (ta.get("minimum_ticket_price") or {}).get("major_value")
         hi = (ta.get("maximum_ticket_price") or {}).get("major_value")
@@ -451,6 +462,7 @@ def _luma_ev(e: dict, source: str, ticket_info: dict | None = None) -> Ev:
     loc = geo.get("full_address") or geo.get("address") or geo.get("city") or ""
     ev = Ev(source, e["name"], iso(e["start_at"]), "https://luma.com/" + e["url"],
             iso(e["end_at"]) if e.get("end_at") else None, loc)
+    ev.image = e.get("cover_url") or ""
     ti = ticket_info or {}
     if ti.get("is_free"):
         return priced(ev, True)
@@ -504,6 +516,7 @@ def laugh_it_off() -> list[Ev]:
             continue
         en = iso(e["endUtc"]) if e.get("endUtc") else None
         ev = Ev("Laugh It Off", e["name"], st, e["url"], en, e.get("venue") or "")
+        ev.image = e.get("image") or ""
         out.append(priced(ev, True if e.get("isFree") else None, e.get("priceMin"), e.get("priceMax")))
     return out
 
@@ -525,6 +538,7 @@ def newspeak() -> list[Ev]:
             ev = Ev("Newspeak", lst.get("title") or slug, iso(e["start_time"]),
                     f"https://www.universe.com/events/{slug}",
                     iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak")
+            ev.image = lst.get("image_url_500") or lst.get("image_url") or ""
             out.append(priced(ev, *universe_rates(d)))
     return out
 
@@ -562,6 +576,7 @@ def squarespace_shows(base: str, source: str, location: str) -> list[Ev]:
         start = datetime.fromtimestamp(it["startDate"] / 1000, TZ)
         end = datetime.fromtimestamp(it["endDate"] / 1000, TZ) if it.get("endDate") else None
         ev = Ev(source, title, start, base + it["fullUrl"], end, location)
+        ev.image = (it["assetUrl"] + "?format=500w") if it.get("assetUrl") else ""   # Squarespace size variant
         if head:
             head.extract()
         ev.blurb = re.sub(r"https?://\S+", "", clean(body.get_text(" ")))[:400]   # "Présenté par …", style notes
@@ -627,8 +642,10 @@ def new_city_gas() -> list[Ev]:
             continue
         # (no prices: every page lists "General Admission 25.00", NYE included, which looks like a template
         #  placeholder; real prices are on Tixr, which blocks automated access)
-        out.append(Ev("New City Gas", clean(d.get("name") or ""), iso(d["startDate"]), url,
-                      iso(d["endDate"]) if d.get("endDate") else None, "New City Gas, 950 rue Ottawa"))
+        ev = Ev("New City Gas", clean(d.get("name") or ""), iso(d["startDate"]), url,
+                iso(d["endDate"]) if d.get("endDate") else None, "New City Gas, 950 rue Ottawa")
+        ev.image = d.get("image") if isinstance(d.get("image"), str) else ""
+        out.append(ev)
     return out
 
 
@@ -803,10 +820,12 @@ def musees_montreal() -> list[Ev]:
             fd = x.get("formatted_date") or ""
             if m := re.match(r"from (.+?) to (.+)$", fd):
                 out.append(Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
-                              _en_date(m.group(2)), x.get("museum_name") or "", "exhibition"))
+                              _en_date(m.group(2)), x.get("museum_name") or "", "exhibition",
+                              image=x.get("image_url") or ""))
             elif m := re.match(r"starting on (.+)$", fd):
                 ev = Ev("Musées Montréal", x["name"], _en_date(m.group(1)), x["url"],
-                        location=x.get("museum_name") or "", kind=x.get("type_text") or "Event")
+                        location=x.get("museum_name") or "", kind=x.get("type_text") or "Event",
+                        image=x.get("image_url") or "")
                 try:
                     priced(ev, *museum_price(x["url"]))
                 except requests.RequestException:
@@ -1083,7 +1102,10 @@ def montreal_ca(days: int = 14) -> list[Ev]:
             for sc in page.find_all("script", type="application/ld+json"):   # description -> tags (concert, film…)
                 if '"Event"' in (sc.string or ""):
                     try:
-                        desc = json.loads(sc.string, strict=False).get("description") or ""
+                        ldd = json.loads(sc.string, strict=False)
+                        img = ldd.get("image") if isinstance(ldd.get("image"), str) else ""
+                        ev.image = img.replace("/w_1920,", "/w_600,")   # Cloudinary: ask for a smaller copy
+                        desc = ldd.get("description") or ""
                         ev.blurb = clean(BeautifulSoup(desc, "html.parser").get_text(" "))[:600]
                     except ValueError:
                         pass
@@ -1188,6 +1210,7 @@ def cinema_cinema(days: int = 14) -> list[Ev]:
         minutes = {m.group(2): int(m.group(1))
                    for m in re.finditer(r"duree:(\d+),representations:\[\{cinema_id:\d+,representation_id:\d+,"
                                         r"film_id:(\d+)", html)}
+        posters = {m.group(1): m.group(2) for m in re.finditer(r'film_id:(\d+),[^{}]*?poster_url:"([^"]+)"', html)}
         for m in rep.finditer(html):
             cid, rid, fid, titre, ds, version, heure = m.groups()
             t = parse_time(heure)
@@ -1198,7 +1221,10 @@ def cinema_cinema(days: int = 14) -> list[Ev]:
             title = json.loads(f'"{titre}"') + (f" ({version})" if version else "")
             cinema = CC_CINEMAS.get(int(cid), "Cinéma Cinéma")
             end = start + timedelta(minutes=minutes[fid]) if minutes.get(fid) else None
-            out.append(Ev(cinema, title, start, film_url.get(fid, f"{base}/fr/horaire?date={ds}"), end, cinema))
+            out.append(Ev(cinema, title, start, film_url.get(fid, f"{base}/fr/horaire?date={ds}"), end, cinema,
+                          # their image service resizes on the fly: a 300px poster instead of a ~2000px original
+                          image=("https://cm-api.cinemacinema.ca/cdn-cgi/image/width=300,format=auto/" + posters[fid])
+                                if posters.get(fid) else ""))
     return out
 
 
@@ -1409,7 +1435,7 @@ GENRES = [
     ("Markets & Fairs", r"\bmarch[ée]\b|\bmarket\b|bazaa?r|\bfoire\b|\bfair\b|temps des f[êe]tes"),
     ("Theatre & Shows", r"th[ée][âa]tre|\bproductions?\b|\bpi[èe]ce\b|cabaret|cirque|marionnette|\bconte\b|\bclown"),
     ("Film", r"\bfilms?\b|cin[ée]ma|documentaire|projection|court[- ]m[ée]trage|long[- ]m[ée]trage"),
-    ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk|litt[ée]raire|auteur|autrice|causerie|scientifique|science\b|t[ée]moignage"),
+    ("Talks & Quizzes", r"podcast|\bquiz\b|trivia|\blecture\b|\breading\b|conf[ée]rence|\bpanel\b|in conversation|artist talk|litt[ée]raire|auteur|autrice|causerie|cabaret scientifique|conf[ée]rence scientifique|vulgarisation|t[ée]moignage"),
     ("Art & Workshops", r"workshop|atelier|drawing|dessin|ceramic|c[ée]ramique|vision board|craft|figure|collage|knit|tricot|vernissage|exposition|exhibition|visite guid"),
     ("Food & Drink", r"\bcookies?\b|\bcook|\bcuisine\b|\bfood\b|\bbouffe\b|\bwines?\b|\bvins?\b|\btasting\b|d[ée]gustation|potluck|\bbrunch\b"),
 ]
@@ -1551,8 +1577,37 @@ def to_json(e: Ev, tab: str) -> dict:
     d["all_day"] = e.all_day
     d["tab"] = tab
     d["id"] = stable_uid(e)
-    d.pop("blurb", None)   # only used for tagging
+    blurb = re.sub(r"\s*\|?\s*BILLETS\s*\|\s*TICKETS\s*$", "", d.pop("blurb", "") or "").strip()
+    if blurb:   # a short "about" for the detail panel (not the whole description)
+        d["about"] = blurb if len(blurb) <= 280 else blurb[:277].rsplit(" ", 1)[0] + "…"
+    d["added"] = FIRST_SEEN.get(d["id"], "")
+    if any(p.lower() in e.title.lower() for p in EDITOR_PICKS):
+        d["pick"] = True
     return d
+
+
+# Hand-picked highlights: any event whose title contains one of these gets an "Editor's pick" flag
+# and is favoured for the "Tonight" cards. Example: "Carl Cox".
+EDITOR_PICKS: list[str] = []
+
+# id -> date the event was first seen (powers "New" badges and Tonight picks); kept between runs
+FIRST_SEEN_FILE = OUT / "first_seen.json"
+FIRST_SEEN: dict[str, str] = {}
+
+
+def update_first_seen(events: list[Ev]) -> None:
+    global FIRST_SEEN
+    try:
+        old = json.loads(FIRST_SEEN_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        old = None   # first run: treat everything as already known, so nothing is flagged "new"
+    today = datetime.now(TZ).date().isoformat()
+    ids = {stable_uid(e) for e in events}
+    if old is None:
+        FIRST_SEEN = {i: "" for i in ids}
+    else:
+        FIRST_SEEN = {i: old.get(i, today) for i in ids}
+    FIRST_SEEN_FILE.write_text(json.dumps(FIRST_SEEN, indent=0), encoding="utf-8")
 
 
 def ics_entries(e: Ev, today: date):
@@ -1611,6 +1666,41 @@ def last_moment(e: Ev) -> datetime:
     return d if isinstance(d, datetime) else datetime.combine(d, time(23, 59), TZ)
 
 
+# ------------------------------------------------------------------ images
+IMAGE_CACHE = OUT / "image_cache.json"   # event page URL -> its share image ("" = none); kept between runs
+NO_IMAGE_LOOKUP = ("ra.co", "linktr.ee", "zeffy.com", "facebook.com", "tixr.com", "macm.org", "instagram.com")
+
+
+def fill_images(events: list[Ev], budget: int = 120) -> None:
+    """For events without an image, use the share image (og:image) of the event's own page. Pages are fetched once
+    and remembered in docs/image_cache.json; at most `budget` new pages per run. Pages shared by several events
+    (a venue's listing page) are skipped: their image is the venue's logo, not the event's."""
+    from collections import Counter
+    from urllib.parse import urljoin
+    try:
+        cache = json.loads(IMAGE_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    uses = Counter(e.url for e in events if e.url)
+    for e in events:
+        if e.image or not e.url or uses[e.url] > 3 or any(d in e.url for d in NO_IMAGE_LOOKUP):
+            continue
+        if e.url not in cache:
+            if budget <= 0:
+                continue
+            budget -= 1
+            try:
+                page = soup(e.url)
+                meta = page.find("meta", property="og:image") or page.find("meta", attrs={"name": "twitter:image"})
+                cache[e.url] = urljoin(e.url, meta["content"]) if meta and meta.get("content") else ""
+            except (requests.RequestException, KeyError):
+                continue   # try again next run
+        e.image = cache.get(e.url, "")
+    live = {e.url for e in events}
+    IMAGE_CACHE.write_text(json.dumps({u: i for u, i in cache.items() if u in live}, ensure_ascii=False, indent=0),
+                           encoding="utf-8")
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(exist_ok=True)
@@ -1640,6 +1730,8 @@ def main() -> int:
                 print(f"  FAIL {home_tab(name):8} {name:20} {ex}")
                 traceback.print_exc(limit=2)
 
+    fill_images([e for evs in by_tab.values() for e in evs])
+    update_first_seen([e for evs in by_tab.values() for e in evs])
     payload_events, tabs = [], {}
     for tab, (title, feed) in TABS.items():
         by_tab[tab].sort(key=sort_key)

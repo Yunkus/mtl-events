@@ -58,6 +58,23 @@ If a source fails two updates in a row, or a venue that usually has 3+ events fi
 row, the update opens a GitHub issue (you get an email). Venues that are simply quiet (Boiler Room, Eastern
 Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
 
+## Images, details, picks and the app
+
+- **Images**: taken from each source's own data where it has one (RA flyers, Squarespace, Eventbrite, Luma,
+  Universe, museums, montreal.ca, cinema posters, Casa del Popolo cards), otherwise from the event page's share
+  image (`og:image`). Page lookups are remembered in `docs/image_cache.json`, at most 120 new pages per update.
+  Smaller copies are requested where the source's image service allows it.
+- **Detail panel**: tapping an event shows its image, time, place, price, genres and a short description, with
+  Tickets, Map, Add to calendar, Share and "Listen" (YouTube / Spotify / Bandcamp search for the first act).
+  Shared links look like `…/mtl-events/#e/<id>`.
+- **Tonight**: up to 4 picture cards on top of Music & Dance and Other Events. Favoured: `EDITOR_PICKS` in
+  `scrape.py` (title fragments; those events also get an "Editor's pick" badge), then newly listed events.
+- **New**: `docs/first_seen.json` keeps the day each event first appeared; the page marks anything added since
+  your previous visit, and a "New" filter shows only those.
+- **App**: `manifest.webmanifest` + `sw.js` make it installable (Add to Home Screen) and usable offline.
+  Link previews use `og-image.jpg`.
+- Past events are hidden by the visitor's own clock, not the time of the last update.
+
 ## Music & Dance vs Other Events
 
 Each event in the venue list below goes to **Music & Dance** unless:
