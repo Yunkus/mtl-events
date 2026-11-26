@@ -1,0 +1,3822 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Montreal Event Calendar//EN
+X-WR-CALNAME:Montreal Classical & Opera
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-WR-TIMEZONE:America/Montreal
+BEGIN:VEVENT
+SUMMARY:FREE · Piano Ensemble @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261126T170000
+DTEND;TZID=America/Montreal:20261126T183000
+DTSTAMP:20261126T203203Z
+UID:fa39b31638c4c0d1214c@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/piano-ensemble-375272
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/piano-ensemble-375272
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chamber Music Ensembles @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261126T170000
+DTEND;TZID=America/Montreal:20261126T193000
+DTSTAMP:20261126T203203Z
+UID:a5b59bdabcf00df0206e@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/chamber-music-ensembles-375408
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/chamber-music-ensembles-375
+ 408
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tribute to the Buena Vista Social Club @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261126T180000
+DTEND;TZID=America/Montreal:20261126T210000
+DTSTAMP:20261126T203203Z
+UID:0eef0e3933bece3f9a34@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/tribu
+ te-to-the-buena-vista-social-club/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/tribute-to-the-buena-vista-social
+ -club/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Werther @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20261126T193000
+DTEND;TZID=America/Montreal:20261126T223000
+DTSTAMP:20261126T203203Z
+UID:c5fd4d279a7242398a5b@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/werther
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/werther
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Disney Tim Burton’s The Nightmare Before Christmas in Concert Li
+ ve-to-Film @ Place des Arts
+DTSTART;TZID=America/Montreal:20261126T193000
+DTEND;TZID=America/Montreal:20261126T223000
+DTSTAMP:20261126T203203Z
+UID:0c32095734a7d5c87a7e@mtl-events
+DESCRIPTION:Place des Arts\n$138–217\nhttps://www.placedesarts.com/en/ev
+ ent/the-nightmare-before-christmas-in-cine-concert
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-nightmare-before-christmas-i
+ n-cine-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chamber Music Ensembles @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261126T200000
+DTEND;TZID=America/Montreal:20261126T213000
+DTSTAMP:20261126T203203Z
+UID:d2416adefada61bf6e2e@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/chamber-music-ensembles-375273
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/chamber-music-ensembles-375
+ 273
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Sonata Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261127T160000
+DTEND;TZID=America/Montreal:20261127T183000
+DTSTAMP:20261126T203203Z
+UID:2b97ebee3beea1a40ffc@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/sonata-class-concert-375205
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/sonata-class-concert-375205
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Indes galantes @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261127T193000
+DTEND;TZID=America/Montreal:20261127T223000
+DTSTAMP:20261126T203203Z
+UID:5c22d154e23df2d4f8bc@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/les-i
+ ndes-galantes/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/les-indes-galantes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cappella Antica | Heigh Ho Holiday! @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261127T193000
+DTEND;TZID=America/Montreal:20261127T210000
+DTSTAMP:20261126T203203Z
+UID:e8cc5e786b87fb1c18bc@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/ca
+ ppella-antica-heigh-ho-holiday-373993
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/cappella-antica-heigh-ho-ho
+ liday-373993
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Contemporary Music Ensemble | Cosmos @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261127T193000
+DTEND;TZID=America/Montreal:20261127T210000
+DTSTAMP:20261126T203203Z
+UID:12f76290730e9f6a439b@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-contemporary-music-ensemble-cosmos-373992
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-contemporary-music-e
+ nsemble-cosmos-373992
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Guitar Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261127T200000
+DTEND;TZID=America/Montreal:20261127T220000
+DTSTAMP:20261126T203203Z
+UID:cef24a9d31cd2b20ce87@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/guitar-class-concert-374790
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/guitar-class-concert-374790
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Voice Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T163000
+DTSTAMP:20261126T203203Z
+UID:e900c7141c2312f02217@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/voice-class-concert-375276
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/voice-class-concert-375276
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Piano Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261128T160000
+DTEND;TZID=America/Montreal:20261128T173000
+DTSTAMP:20261126T203203Z
+UID:481b6a5731e03b251016@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/piano-class-concert-375274
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/piano-class-concert-375274
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Song Interpretation I Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261128T193000
+DTEND;TZID=America/Montreal:20261128T210000
+DTSTAMP:20261126T203203Z
+UID:1dba4bfc18858a4b3832@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/song-interpretation-i-class-concert-375277
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/song-interpretation-i-class
+ -concert-375277
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Wind Orchestra | Shall We Dance? @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261128T193000
+DTEND;TZID=America/Montreal:20261128T210000
+DTSTAMP:20261126T203203Z
+UID:43ade7400ac0ee7945d5@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-wind-orchestra-shall-we-dance-373994
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-wind-orchestra-shall
+ -we-dance-373994
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Bassoon Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261128T200000
+DTEND;TZID=America/Montreal:20261128T213000
+DTSTAMP:20261126T203203Z
+UID:c6552ac8a5319db380ba@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/bassoon-class-concert-375275
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/bassoon-class-concert-37527
+ 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Werther @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20261129T140000
+DTEND;TZID=America/Montreal:20261129T170000
+DTSTAMP:20261126T203203Z
+UID:a68625e725d8edcdd452@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/werther
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/werther
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le souffle de Don Juan @ Place des Arts
+DTSTART;TZID=America/Montreal:20261129T150000
+DTEND;TZID=America/Montreal:20261129T180000
+DTSTAMP:20261126T203203Z
+UID:9da9e6bcd772f0ad7083@mtl-events
+DESCRIPTION:Place des Arts\n$45\nhttps://www.placedesarts.com/en/event/le-
+ souffle-de-don-juan
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/le-souffle-de-don-juan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Piano Marathon Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261129T160000
+DTEND;TZID=America/Montreal:20261129T220000
+DTSTAMP:20261126T203203Z
+UID:fc292e91762871251643@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/piano-marathon-class-concert-375278
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/piano-marathon-class-concer
+ t-375278
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Cello Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261129T170000
+DTEND;TZID=America/Montreal:20261129T183000
+DTSTAMP:20261126T203203Z
+UID:584151309e118ac6bc89@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/cello-class-concert-375279
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/cello-class-concert-375279
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chamber Music Ensembles @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261129T170000
+DTEND;TZID=America/Montreal:20261129T183000
+DTSTAMP:20261126T203203Z
+UID:624d89bcc2e579763049@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/chamber-music-ensembles-375281
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/chamber-music-ensembles-375
+ 281
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chamber Music Ensembles @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261129T200000
+DTEND;TZID=America/Montreal:20261129T213000
+DTSTAMP:20261126T203203Z
+UID:f01d85f658abaf3df5d3@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/chamber-music-ensembles-375282
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/chamber-music-ensembles-375
+ 282
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Brass Chamber Ensembles @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261129T200000
+DTEND;TZID=America/Montreal:20261129T213000
+DTSTAMP:20261126T203203Z
+UID:8ba284d5683adfe4b969@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/brass-chamber-ensembles-375280
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/brass-chamber-ensembles-375
+ 280
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Beethoven Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261130T190000
+DTEND;TZID=America/Montreal:20261130T203000
+DTSTAMP:20261126T203203Z
+UID:473c20eb65fac4c8ffe9@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-beethoven-orchestra-375284
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-beethoven-orchestra-
+ 375284
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra I | Mary Lou Willams & Carla Bley: Original 
+ Voices @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261130T193000
+DTEND;TZID=America/Montreal:20261130T210000
+DTSTAMP:20261126T203203Z
+UID:135b04137b849adb66cc@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-i-mary-lou-willams-carla-bley-original-voices-373995
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-i-mar
+ y-lou-willams-carla-bley-original-voices-373995
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sir András Schiff | L'absolu Bach @ Place des Arts
+DTSTART;TZID=America/Montreal:20261130T193000
+DTEND;TZID=America/Montreal:20261130T223000
+DTSTAMP:20261126T203203Z
+UID:bf9bdcc5e439c292b396@mtl-events
+DESCRIPTION:Place des Arts\n$86–175\nhttps://www.placedesarts.com/en/eve
+ nt/sir-andras-schiff-labsolu-bach
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/sir-andras-schiff-labsolu-bach
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Piano Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261130T200000
+DTEND;TZID=America/Montreal:20261130T213000
+DTSTAMP:20261126T203203Z
+UID:8ac52a966903a33279cb@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/piano-class-concert-375283
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/piano-class-concert-375283
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra II | Indestructible: Jazz compositions that 
+ have stood the test of time! @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261201T193000
+DTEND;TZID=America/Montreal:20261201T210000
+DTSTAMP:20261126T203203Z
+UID:6a4134ed575780d82ef9@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-ii-indestructible-jazz-compositions-have-stood-test-ti
+ me-373909
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-ii-in
+ destructible-jazz-compositions-have-stood-test-time-373909
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Song Interpretation II Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261202T170000
+DTEND;TZID=America/Montreal:20261202T190000
+DTSTAMP:20261126T203203Z
+UID:7dd61431dd390a878804@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/song-interpretation-ii-class-concert-375646
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/song-interpretation-ii-clas
+ s-concert-375646
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · McGill Tabla Ensemble @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261202T190000
+DTEND;TZID=America/Montreal:20261202T203000
+DTSTAMP:20261126T203203Z
+UID:c249a826a8b3f9c7aaf5@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/mcgill-tabla-ensemble-375645
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-tabla-ensemble-37564
+ 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bach Cantatas @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261202T193000
+DTEND;TZID=America/Montreal:20261202T223000
+DTSTAMP:20261126T203203Z
+UID:b291a63bc87d0f1ef393@mtl-events
+DESCRIPTION:Salle Bourgie\n$95\nhttps://www.mbam.qc.ca/en/activities/bach-
+ cantatas26/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/bach-cantatas26/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stravinsky’s Petrushka: Between Dance and Tradition @ Place des 
+ Arts
+DTSTART;TZID=America/Montreal:20261202T193000
+DTEND;TZID=America/Montreal:20261202T223000
+DTSTAMP:20261126T203203Z
+UID:1a4b627dd35bb345c481@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/stravinsky-petrushka-between-dance-and-tradition
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/stravinsky-petrushka-between-dan
+ ce-and-tradition
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Song Interpretation II Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261202T200000
+DTEND;TZID=America/Montreal:20261202T220000
+DTSTAMP:20261126T203203Z
+UID:569b3a4045e187089c84@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/song-interpretation-ii-class-concert-375647
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/song-interpretation-ii-clas
+ s-concert-375647
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Music Education Ensembles Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261203T190000
+DTEND;TZID=America/Montreal:20261203T203000
+DTSTAMP:20261126T203203Z
+UID:05554e4e664dbd501e30@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/music-education-ensembles-class-concert-374377
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/music-education-ensembles-c
+ lass-concert-374377
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival International Bach Montréal - Chris Thile: from Leipzig 
+ to Appalaches @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261203T193000
+DTEND;TZID=America/Montreal:20261203T223000
+DTSTAMP:20261126T203203Z
+UID:ad476c2cef84e85590fd@mtl-events
+DESCRIPTION:Salle Bourgie\nhttps://www.mbam.qc.ca/en/activities/chris-thil
+ e-from-leipzig-to-appalaches/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/chris-thile-from-leipzig-to-appal
+ aches/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stravinsky’s Petrushka: Between Dance and Tradition @ Place des 
+ Arts
+DTSTART;TZID=America/Montreal:20261203T193000
+DTEND;TZID=America/Montreal:20261203T223000
+DTSTAMP:20261126T203203Z
+UID:234b7c2ab084bf6410b2@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/stravinsky-petrushka-between-dance-and-tradition
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/stravinsky-petrushka-between-dan
+ ce-and-tradition
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Song Interpretation II Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261204T170000
+DTEND;TZID=America/Montreal:20261204T183000
+DTSTAMP:20261126T203203Z
+UID:99c7a8f2008e6830b1c0@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/song-interpretation-ii-class-concert-375791
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/song-interpretation-ii-clas
+ s-concert-375791
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Festival International Bach Montréal - Four hands two worlds @ Sa
+ lle Bourgie
+DTSTART;TZID=America/Montreal:20261204T193000
+DTEND;TZID=America/Montreal:20261204T223000
+DTSTAMP:20261126T203203Z
+UID:8443628653196ab60da1@mtl-events
+DESCRIPTION:Salle Bourgie\nhttps://www.mbam.qc.ca/en/activities/four-hands
+ -two-worlds-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/four-hands-two-worlds-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Baroque Orchestra | Travels with Telemann @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261204T193000
+DTEND;TZID=America/Montreal:20261204T210000
+DTSTAMP:20261126T203203Z
+UID:8dfd09d37b0b59542779@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-baroque-orchestra-travels-telemann-373911
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-baroque-orchestra-tr
+ avels-telemann-373911
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Song Interpretation II Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T213000
+DTSTAMP:20261126T203203Z
+UID:5b4514314c6f4083c31a@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/song-interpretation-ii-class-concert-375792
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/song-interpretation-ii-clas
+ s-concert-375792
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un piano pour Noël @ Place des Arts
+DTSTART;TZID=America/Montreal:20261204T200000
+DTEND;TZID=America/Montreal:20261204T230000
+DTSTAMP:20261126T203203Z
+UID:681616cb8a7c661a9df6@mtl-events
+DESCRIPTION:Place des Arts\n$70–80\nhttps://www.placedesarts.com/en/even
+ t/le-noel-dandre-gagnon
+LOCATION:Cinquième Salle\, Place des Arts
+URL:https://www.placedesarts.com/en/event/le-noel-dandre-gagnon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 Chamber Music Competition @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261205T190000
+DTEND;TZID=America/Montreal:20261205T210000
+DTSTAMP:20261126T203203Z
+UID:0357b79a982a9ed85b5a@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-chamber-music-competition-373913
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-chamber-music-com
+ petition-373913
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Constantinople - Oum Kalthoum & Khayyam's Quatrains @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T230000
+DTSTAMP:20261126T203203Z
+UID:b772faf36a3037f0d8a9@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/const
+ antinople---oum-kalthoum-khayyams-quatrains/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/constantinople---oum-kalthoum-kha
+ yyams-quatrains/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un piano pour Noël @ Place des Arts
+DTSTART;TZID=America/Montreal:20261205T200000
+DTEND;TZID=America/Montreal:20261205T230000
+DTSTAMP:20261126T203203Z
+UID:4fd1b334c1edf0ca28a7@mtl-events
+DESCRIPTION:Place des Arts\n$70–80\nhttps://www.placedesarts.com/en/even
+ t/le-noel-dandre-gagnon
+LOCATION:Cinquième Salle\, Place des Arts
+URL:https://www.placedesarts.com/en/event/le-noel-dandre-gagnon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Eric Bouchard\, piano @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261206T153000
+DTEND;TZID=America/Montreal:20261206T170000
+DTSTAMP:20261126T203203Z
+UID:c89a5605c38ce0abec41@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-eric-bouchard-piano-374885
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-eric-boucha
+ rd-piano-374885
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ladies Morning Musical Club | Calidore String Quartet @ McGill Sch
+ ulich
+DTSTART;TZID=America/Montreal:20261206T153000
+DTEND;TZID=America/Montreal:20261206T173000
+DTSTAMP:20261126T203203Z
+UID:28cd2a97756fe04aee96@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/la
+ dies-morning-musical-club-calidore-string-quartet-374279
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/ladies-morning-musical-club
+ -calidore-string-quartet-374279
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Chunyu Yang\, soprano @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261207T170000
+DTEND;TZID=America/Montreal:20261207T183000
+DTSTAMP:20261126T203203Z
+UID:9c6f3d1bea0469093aee@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-chunyu-yang-soprano-375057
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-chunyu-yang
+ -soprano-375057
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Tiffany Yeung\, violin @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261207T170000
+DTEND;TZID=America/Montreal:20261207T193000
+DTSTAMP:20261126T203203Z
+UID:312a438fe02cbda00da1@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-tiffany-yeung-violin-375040
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-tiffany-yeu
+ ng-violin-375040
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nagano Conducts Bach’s Christmas Oratorio @ Place des Arts
+DTSTART;TZID=America/Montreal:20261208T193000
+DTEND;TZID=America/Montreal:20261208T223000
+DTSTAMP:20261126T203203Z
+UID:319164c521a1c0b9c94d@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/nagano-c
+ onducts-bach-christmas-oratorio
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nagano-conducts-bach-christmas-o
+ ratorio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trio Fibonacci - Kinder Surprise @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261209T193000
+DTEND;TZID=America/Montreal:20261209T223000
+DTSTAMP:20261126T203203Z
+UID:38662897db9630b4e855@mtl-events
+DESCRIPTION:Salle Bourgie\n$45\nhttps://www.mbam.qc.ca/en/activities/trio-
+ fibonacci---kinder-surprise-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/trio-fibonacci---kinder-surprise-
+ 1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich@Bon-Pasteur | Coming Home @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261209T193000
+DTEND;TZID=America/Montreal:20261209T210000
+DTSTAMP:20261126T203203Z
+UID:905cdf9e5782b16affaf@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulichbon-pasteur-coming-home-373915
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulichbon-pasteur-coming-
+ home-373915
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nagano Conducts Bach’s Christmas Oratorio @ Place des Arts
+DTSTART;TZID=America/Montreal:20261209T193000
+DTEND;TZID=America/Montreal:20261209T223000
+DTSTAMP:20261126T203203Z
+UID:6fe276f185c424650024@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/nagano-c
+ onducts-bach-christmas-oratorio
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nagano-conducts-bach-christmas-o
+ ratorio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Jorge Ancheyta\, guitar @ McGill Schulic
+ h
+DTSTART;TZID=America/Montreal:20261210T170000
+DTEND;TZID=America/Montreal:20261210T183000
+DTSTAMP:20261126T203203Z
+UID:d4b1a604369fa5b9a166@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-jorge-ancheyta-guitar-374882
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-jorge-anche
+ yta-guitar-374882
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 Golden Violin Award: Semifinal @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261210T190000
+DTEND;TZID=America/Montreal:20261210T210000
+DTSTAMP:20261126T203203Z
+UID:9704c69f5c6c79994bbc@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-golden-violin-award-semifinal-373938
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-golden-violin-awa
+ rd-semifinal-373938
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Andrew Wan and Charles Richard-Hamelin @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261210T193000
+DTEND;TZID=America/Montreal:20261210T223000
+DTSTAMP:20261126T203203Z
+UID:66ad705c8d18655fce76@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/andre
+ w-wan-and-charles-richard-hamelin/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/andrew-wan-and-charles-richard-ha
+ melin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allegra Chamber Music Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261210T193000
+DTEND;TZID=America/Montreal:20261210T210000
+DTSTAMP:20261126T203203Z
+UID:b2cd7d5a43596b6ccb7a@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/al
+ legra-chamber-music-concert-374892
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/allegra-chamber-music-conce
+ rt-374892
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Best of Bach with Latry @ Place des Arts
+DTSTART;TZID=America/Montreal:20261210T193000
+DTEND;TZID=America/Montreal:20261210T223000
+DTSTAMP:20261126T203203Z
+UID:bffc5a43c3351d5be237@mtl-events
+DESCRIPTION:Place des Arts\n$52–92\nhttps://www.placedesarts.com/en/even
+ t/the-best-of-bach-with-latry
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-best-of-bach-with-latry
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Simon Proulx\, clarinet @ McGill Schulic
+ h
+DTSTART;TZID=America/Montreal:20261211T170000
+DTEND;TZID=America/Montreal:20261211T183000
+DTSTAMP:20261126T203203Z
+UID:834c2f120f7b97f24f91@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-simon-proulx-clarinet-374814
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-simon-proul
+ x-clarinet-374814
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Caroline Guo\, piano @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261211T180000
+DTEND;TZID=America/Montreal:20261211T193000
+DTSTAMP:20261126T203203Z
+UID:14aabfa5ad0b93a8f6f3@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-caroline-guo-piano-374751
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-caroline-gu
+ o-piano-374751
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Viennese Tradition @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261211T183000
+DTEND;TZID=America/Montreal:20261211T213000
+DTSTAMP:20261126T203203Z
+UID:6937c7ceeec496fccf4d@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/vienn
+ ese-tradition/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/viennese-tradition/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 Wirth Vocal Prize: Semifinal @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261211T190000
+DTEND;TZID=America/Montreal:20261211T210000
+DTSTAMP:20261126T203203Z
+UID:674b40e17fe8f8683927@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-wirth-vocal-prize-semifinal-373944
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-wirth-vocal-prize
+ -semifinal-373944
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:live@CIRMMT | Rigour + Play @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261211T193000
+DTEND;TZID=America/Montreal:20261211T210000
+DTSTAMP:20261126T203203Z
+UID:5677a0ced64c208f526a@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/li
+ vecirmmt-rigour-play-373949
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/livecirmmt-rigour-play-3739
+ 49
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Handel’s Messiah @ Place des Arts
+DTSTART;TZID=America/Montreal:20261211T193000
+DTEND;TZID=America/Montreal:20261211T223000
+DTSTAMP:20261126T203203Z
+UID:e2c5a10ae2dc736ca6b1@mtl-events
+DESCRIPTION:Place des Arts\n$40–125\nhttps://www.placedesarts.com/en/eve
+ nt/handels-messiah
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/handels-messiah
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Benjamin Pastrana Mankovitz\, double bas
+ s @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261212T170000
+DTEND;TZID=America/Montreal:20261212T183000
+DTSTAMP:20261126T203203Z
+UID:6283b331d63fe287fae0@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-benjamin-pastrana-mankovitz-double-bass-375117
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-benjamin-pa
+ strana-mankovitz-double-bass-375117
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 Golden Violin Award: Final @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261212T190000
+DTEND;TZID=America/Montreal:20261212T210000
+DTSTAMP:20261126T203203Z
+UID:b2a4542e8db0e075c990@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-golden-violin-award-final-373951
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-golden-violin-awa
+ rd-final-373951
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lúnasa: An Irish Christmas @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261212T193000
+DTEND;TZID=America/Montreal:20261212T223000
+DTSTAMP:20261126T203203Z
+UID:c0d0329fc2c6034f96b2@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/lunas
+ a-an-irish-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/lunasa-an-irish-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Requiem de Brahms @ Place des Arts
+DTSTART;TZID=America/Montreal:20261212T193000
+DTEND;TZID=America/Montreal:20261212T223000
+DTSTAMP:20261126T203203Z
+UID:2cc2a4f1f92181e997b0@mtl-events
+DESCRIPTION:Place des Arts\n$59–150\nhttps://www.placedesarts.com/en/eve
+ nt/requiem-de-brahms-orchestre-philharmonique-choeur-melomanes
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/requiem-de-brahms-orchestre-phil
+ harmonique-choeur-melomanes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 Wirth Vocal Prize: Final @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261213T140000
+DTEND;TZID=America/Montreal:20261213T160000
+DTSTAMP:20261126T203203Z
+UID:df75a0df6a21f7a1e2f4@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-wirth-vocal-prize-final-373953
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-wirth-vocal-prize
+ -final-373953
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas with the Sun King @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261213T143000
+DTEND;TZID=America/Montreal:20261213T173000
+DTSTAMP:20261126T203203Z
+UID:74abf4de71fa1f5c5d93@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/chris
+ tmas-with-the-sun-king---2-concerts-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/christmas-with-the-sun-king---2-c
+ oncerts-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jubilate Deo omnis terra! @ Place des Arts
+DTSTART;TZID=America/Montreal:20261213T150000
+DTEND;TZID=America/Montreal:20261213T180000
+DTSTAMP:20261126T203203Z
+UID:9b9b24820ab60e5b139a@mtl-events
+DESCRIPTION:Place des Arts\n$44–48\nhttps://www.placedesarts.com/en/even
+ t/jubilate-deo-omnis-terra
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/jubilate-deo-omnis-terra
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Lisa Tulliez Gattegno\, baroque cello @ 
+ McGill Schulich
+DTSTART;TZID=America/Montreal:20261213T170000
+DTEND;TZID=America/Montreal:20261213T183000
+DTSTAMP:20261126T203203Z
+UID:f4312e445737ada3ad5c@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-lisa-tulliez-gattegno-baroque-cello-374893
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-lisa-tullie
+ z-gattegno-baroque-cello-374893
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas with the Sun King @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20261213T193000
+DTEND;TZID=America/Montreal:20261213T223000
+DTSTAMP:20261126T203203Z
+UID:aad83537f8f3ff813c6e@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/chris
+ tmas-with-the-sun-king---2-concerts-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/christmas-with-the-sun-king---2-c
+ oncerts-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Victorio Sirugo\, piano @ McGill Schulic
+ h
+DTSTART;TZID=America/Montreal:20261213T200000
+DTEND;TZID=America/Montreal:20261213T213000
+DTSTAMP:20261126T203203Z
+UID:1551d5d61a868e7b09b3@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-victorio-sirugo-piano-375177
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-victorio-si
+ rugo-piano-375177
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Annis Lee\, violin @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261215T160000
+DTEND;TZID=America/Montreal:20261215T173000
+DTSTAMP:20261126T203203Z
+UID:a011e425da77e8e0b7f3@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-annis-lee-violin-374791
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-annis-lee-v
+ iolin-374791
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taurey Butler Trio 2026 - A Charlie Brown Christmas @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261215T180000
+DTEND;TZID=America/Montreal:20261215T210000
+DTSTAMP:20261126T203203Z
+UID:4f68926692f2188cb2e3@mtl-events
+DESCRIPTION:Salle Bourgie\n$23–47\nhttps://www.mbam.qc.ca/en/activities/
+ taurey-butler-trio-2026---a-charlie-brown-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/taurey-butler-trio-2026---a-charl
+ ie-brown-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Zoe SirLouis\, bassoon @ McGill Schulich
+DTSTART;TZID=America/Montreal:20261216T170000
+DTEND;TZID=America/Montreal:20261216T183000
+DTSTAMP:20261126T203203Z
+UID:258ab1f66f9cc09ab486@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-zoe-sirlouis-bassoon-374898
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-zoe-sirloui
+ s-bassoon-374898
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taurey Butler Trio 2026 - A Charlie Brown Christmas @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261216T180000
+DTEND;TZID=America/Montreal:20261216T210000
+DTSTAMP:20261126T203203Z
+UID:6cb076f9094cd428a35b@mtl-events
+DESCRIPTION:Salle Bourgie\n$23–47\nhttps://www.mbam.qc.ca/en/activities/
+ taurey-butler-trio-2026---a-charlie-brown-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/taurey-butler-trio-2026---a-charl
+ ie-brown-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taurey Butler Trio 2026 - A Charlie Brown Christmas @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261216T203000
+DTEND;TZID=America/Montreal:20261216T233000
+DTSTAMP:20261126T203203Z
+UID:e40903f309af58306804@mtl-events
+DESCRIPTION:Salle Bourgie\n$23–47\nhttps://www.mbam.qc.ca/en/activities/
+ taurey-butler-trio-2026---a-charlie-brown-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/taurey-butler-trio-2026---a-charl
+ ie-brown-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taurey Butler Trio 2026 - A Charlie Brown Christmas @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261217T180000
+DTEND;TZID=America/Montreal:20261217T210000
+DTSTAMP:20261126T203203Z
+UID:d118f939afc006e3b9e3@mtl-events
+DESCRIPTION:Salle Bourgie\n$23–47\nhttps://www.mbam.qc.ca/en/activities/
+ taurey-butler-trio-2026---a-charlie-brown-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/taurey-butler-trio-2026---a-charl
+ ie-brown-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marc Hanania | Piano Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20261217T190000
+DTEND;TZID=America/Montreal:20261217T220000
+DTSTAMP:20261126T203203Z
+UID:71b6b26b959613a91275@mtl-events
+DESCRIPTION:Place des Arts\n$48–74\nhttps://www.placedesarts.com/en/even
+ t/marc-hanania-piano-concert
+LOCATION:Cinquième Salle\, Place des Arts
+URL:https://www.placedesarts.com/en/event/marc-hanania-piano-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Traditions: Le Vent du Nord @ Place des Arts
+DTSTART;TZID=America/Montreal:20261217T200000
+DTEND;TZID=America/Montreal:20261217T230000
+DTSTAMP:20261126T203203Z
+UID:7c5600ea4acb5c4b4660@mtl-events
+DESCRIPTION:Place des Arts\n$92–177\nhttps://www.placedesarts.com/en/eve
+ nt/le-vent-du-nord-osm
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/le-vent-du-nord-osm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taurey Butler Trio 2026 - A Charlie Brown Christmas @ Salle Bourgi
+ e
+DTSTART;TZID=America/Montreal:20261217T203000
+DTEND;TZID=America/Montreal:20261217T233000
+DTSTAMP:20261126T203203Z
+UID:18a7b7c2492fd0b5bdfb@mtl-events
+DESCRIPTION:Salle Bourgie\n$23–47\nhttps://www.mbam.qc.ca/en/activities/
+ taurey-butler-trio-2026---a-charlie-brown-christmas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/taurey-butler-trio-2026---a-charl
+ ie-brown-christmas/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Melodies @ Place des Arts
+DTSTART;TZID=America/Montreal:20261219T193000
+DTEND;TZID=America/Montreal:20261219T223000
+DTSTAMP:20261126T203203Z
+UID:8268761a89d8cdc40f43@mtl-events
+DESCRIPTION:Place des Arts\n$80–111\nhttps://www.placedesarts.com/en/eve
+ nt/holiday-melodies
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/holiday-melodies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Melodies @ Place des Arts
+DTSTART;TZID=America/Montreal:20261220T110000
+DTEND;TZID=America/Montreal:20261220T140000
+DTSTAMP:20261126T203203Z
+UID:9f2399b061fdb6a86b88@mtl-events
+DESCRIPTION:Place des Arts\n$49–155\nhttps://www.placedesarts.com/en/eve
+ nt/holiday-melodies
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/holiday-melodies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Melodies @ Place des Arts
+DTSTART;TZID=America/Montreal:20261220T150000
+DTEND;TZID=America/Montreal:20261220T180000
+DTSTAMP:20261126T203203Z
+UID:e790f6929e0e284b8c73@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/holiday-
+ melodies
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/holiday-melodies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:À la messe de minuit @ Place des Arts
+DTSTART;TZID=America/Montreal:20261221T193000
+DTEND;TZID=America/Montreal:20261221T223000
+DTSTAMP:20261126T203203Z
+UID:92eff886335e5e8a499d@mtl-events
+DESCRIPTION:Place des Arts\n$110–120\nhttps://www.placedesarts.com/en/ev
+ ent/a-la-messe-de-minuit
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/a-la-messe-de-minuit
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Charlie Brown Christmas – Symphonic Tribute @ Place des Arts
+DTSTART;TZID=America/Montreal:20261222T190000
+DTEND;TZID=America/Montreal:20261222T220000
+DTSTAMP:20261126T203203Z
+UID:ebd241c87eecb487b516@mtl-events
+DESCRIPTION:Place des Arts\n$75\nhttps://www.placedesarts.com/en/event/noe
+ l-de-charlie-brown-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/noel-de-charlie-brown-symphoniqu
+ e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Salute to Vienna New Year’s Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270101T143000
+DTEND;TZID=America/Montreal:20270101T173000
+DTSTAMP:20261126T203203Z
+UID:7b07d6bcb968e5377441@mtl-events
+DESCRIPTION:Place des Arts\n$70–125\nhttps://www.placedesarts.com/en/eve
+ nt/salute-vienna-new-years-concert-0
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/salute-vienna-new-years-concert-
+ 0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OSM × Cirque du Soleil: The Musical Experience @ Place des Arts
+DTSTART;TZID=America/Montreal:20270106T200000
+DTEND;TZID=America/Montreal:20270106T230000
+DTSTAMP:20261126T203203Z
+UID:e99f6b6a9c2b79ab9608@mtl-events
+DESCRIPTION:Place des Arts\n$241–287\nhttps://www.placedesarts.com/en/ev
+ ent/osm-cirque-du-soleil
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/osm-cirque-du-soleil
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Research Alive | Pop music from 1000 years ago: Throat singing and
+  original instruments from Inner Mongolia @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270107T170000
+DTEND;TZID=America/Montreal:20270107T183000
+DTSTAMP:20261126T203203Z
+UID:84ddb668b89127423977@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/re
+ search-alive-pop-music-1000-years-ago-throat-singing-and-original-instrume
+ nts-inner-mongolia-373983
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/research-alive-pop-music-10
+ 00-years-ago-throat-singing-and-original-instruments-inner-mongolia-373983
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Avatar: The Last Airbender in Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270107T193000
+DTEND;TZID=America/Montreal:20270107T223000
+DTSTAMP:20261126T203203Z
+UID:005c3a83e7ed0107a90c@mtl-events
+DESCRIPTION:Place des Arts\n$85–145\nhttps://www.placedesarts.com/en/eve
+ nt/avatar-last-airbender-en-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/avatar-last-airbender-en-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OSM × Cirque du Soleil: The Musical Experience @ Place des Arts
+DTSTART;TZID=America/Montreal:20270107T200000
+DTEND;TZID=America/Montreal:20270107T230000
+DTSTAMP:20261126T203203Z
+UID:2b447d844af3682b0c0d@mtl-events
+DESCRIPTION:Place des Arts\n$207\nhttps://www.placedesarts.com/en/event/os
+ m-cirque-du-soleil
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/osm-cirque-du-soleil
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Lord of the Rings: The Return of the King – In Concert @ Pla
+ ce des Arts
+DTSTART;TZID=America/Montreal:20270108T193000
+DTEND;TZID=America/Montreal:20270108T223000
+DTSTAMP:20261126T203203Z
+UID:14558c5fbb71c9fe0bb2@mtl-events
+DESCRIPTION:Place des Arts\n$90–187\nhttps://www.placedesarts.com/en/eve
+ nt/lord-rings-return-king-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lord-rings-return-king-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Lord of the Rings: The Return of the King – In Concert @ Pla
+ ce des Arts
+DTSTART;TZID=America/Montreal:20270109T193000
+DTEND;TZID=America/Montreal:20270109T223000
+DTSTAMP:20261126T203203Z
+UID:981327d11378ebeeec02@mtl-events
+DESCRIPTION:Place des Arts\n$90–187\nhttps://www.placedesarts.com/en/eve
+ nt/lord-rings-return-king-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lord-rings-return-king-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Lord of the Rings: The Return of the King – In Concert @ Pla
+ ce des Arts
+DTSTART;TZID=America/Montreal:20270110T140000
+DTEND;TZID=America/Montreal:20270110T170000
+DTSTAMP:20261126T203203Z
+UID:2ad86308baff63fe7a10@mtl-events
+DESCRIPTION:Place des Arts\n$90–187\nhttps://www.placedesarts.com/en/eve
+ nt/lord-rings-return-king-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lord-rings-return-king-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Renée Fleming: Voice of Nature @ Place des Arts
+DTSTART;TZID=America/Montreal:20270112T193000
+DTEND;TZID=America/Montreal:20270112T223000
+DTSTAMP:20261126T203203Z
+UID:61a3355ddffa3e6859e1@mtl-events
+DESCRIPTION:Place des Arts\n$52–287\nhttps://www.placedesarts.com/en/eve
+ nt/renee-fleming-voice-of-nature
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/renee-fleming-voice-of-nature
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Renée Fleming: Voice of Nature @ Place des Arts
+DTSTART;TZID=America/Montreal:20270113T193000
+DTEND;TZID=America/Montreal:20270113T223000
+DTSTAMP:20261126T203203Z
+UID:74ce0cd3915df53220c9@mtl-events
+DESCRIPTION:Place des Arts\n$52–241\nhttps://www.placedesarts.com/en/eve
+ nt/renee-fleming-voice-of-nature
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/renee-fleming-voice-of-nature
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hallelujah - Timeless melodies for the soul @ Place des Arts
+DTSTART;TZID=America/Montreal:20270115T193000
+DTEND;TZID=America/Montreal:20270115T223000
+DTSTAMP:20261126T203203Z
+UID:ad12c93e6a7677b57120@mtl-events
+DESCRIPTION:Place des Arts\n$36–65\nhttps://www.placedesarts.com/en/even
+ t/hallelujah-timeless-melodies-soul
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/hallelujah-timeless-melodies-sou
+ l
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Connor Siekman\, wind band conductor @ M
+ cGill Schulich
+DTSTART;TZID=America/Montreal:20270115T200000
+DTEND;TZID=America/Montreal:20270115T213000
+DTSTAMP:20261126T203203Z
+UID:73a8573b724dd746eccf@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-connor-siekman-wind-band-conductor-374883
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-connor-siek
+ man-wind-band-conductor-374883
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lalo and Debussy: Iberian Brilliance @ Place des Arts
+DTSTART;TZID=America/Montreal:20270116T143000
+DTEND;TZID=America/Montreal:20270116T173000
+DTSTAMP:20261126T203203Z
+UID:0e14a32d3772a2421f37@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/lalo-and-debussy-iberian-brilliance
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lalo-and-debussy-iberian-brillia
+ nce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Beethoven\, familiar and surprising @ McGill
+  Schulich
+DTSTART;TZID=America/Montreal:20270116T193000
+DTEND;TZID=America/Montreal:20270116T213000
+DTSTAMP:20261126T203203Z
+UID:4753a8edfeca813ac0e4@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-beethoven-familiar-and-surprising-374024
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-beethoven-
+ familiar-and-surprising-374024
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Words and Music | Le souffle de Boréas @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270117T140000
+DTEND;TZID=America/Montreal:20270117T153000
+DTSTAMP:20261126T203203Z
+UID:f3e1513856ee0e50821c@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/wo
+ rds-and-music-le-souffle-de-boreas-374025
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/words-and-music-le-souffle-
+ de-boreas-374025
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Master's Recital: Denis Falardeau\, wind band conductor @ 
+ McGill Schulich
+DTSTART;TZID=America/Montreal:20270117T140000
+DTEND;TZID=America/Montreal:20270117T153000
+DTSTAMP:20261126T203203Z
+UID:e82133bfcac08e8fe8cb@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/masters-recital-denis-falardeau-wind-band-conductor-374855
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/masters-recital-denis-falar
+ deau-wind-band-conductor-374855
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Soleil de minuit @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270117T143000
+DTEND;TZID=America/Montreal:20270117T173000
+DTSTAMP:20261126T203203Z
+UID:88937a27b890fac7c632@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/solei
+ l-de-minuit/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/soleil-de-minuit/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Doctoral Recital: Chris Peng\, piano @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270118T170000
+DTEND;TZID=America/Montreal:20270118T183000
+DTSTAMP:20261126T203203Z
+UID:b8928c2cba1fd420fb35@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/doctoral-recital-chris-peng-piano-375680
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/doctoral-recital-chris-peng
+ -piano-375680
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Piano’s Romantic Soul @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270119T193000
+DTEND;TZID=America/Montreal:20270119T223000
+DTSTAMP:20261126T203203Z
+UID:ad34ba6730fdad6def08@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/the-p
+ ianos-romantic-soul/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-pianos-romantic-soul/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Metropolis in Cine-Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270119T193000
+DTEND;TZID=America/Montreal:20270119T223000
+DTSTAMP:20261126T203203Z
+UID:ef268fb0c743d6a32a8b@mtl-events
+DESCRIPTION:Place des Arts\n$113–170\nhttps://www.placedesarts.com/en/ev
+ ent/metropolis-in-cine-concert
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/metropolis-in-cine-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Research Alive | Wonders of Rome: The Toccatas of Giovanni Kapsper
+ ger and Girolamo Frescobaldi @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270120T170000
+DTEND;TZID=America/Montreal:20270120T183000
+DTSTAMP:20261126T203203Z
+UID:05a229bafe58189de90d@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/re
+ search-alive-wonders-rome-toccatas-giovanni-kapsperger-and-girolamo-fresco
+ baldi-374027
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/research-alive-wonders-rome
+ -toccatas-giovanni-kapsperger-and-girolamo-frescobaldi-374027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tormento Seicento: The Italian Baroque @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270120T193000
+DTEND;TZID=America/Montreal:20270120T223000
+DTSTAMP:20261126T203203Z
+UID:540949013b3562eb71c5@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/torme
+ nto-seicento-the-italian-baroque/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/tormento-seicento-the-italian-bar
+ oque/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Your Symphonic Essentials @ Place des Arts
+DTSTART;TZID=America/Montreal:20270121T193000
+DTEND;TZID=America/Montreal:20270121T223000
+DTSTAMP:20261126T203203Z
+UID:7a7444ab546c83fae020@mtl-events
+DESCRIPTION:Place des Arts\n$34–92\nhttps://www.placedesarts.com/en/even
+ t/your-symphonic-essentials
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/your-symphonic-essentials
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Contemporary Music Ensemble | Between worlds\, Entre mondes
+  @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270122T193000
+DTEND;TZID=America/Montreal:20270122T210000
+DTSTAMP:20261126T203203Z
+UID:3d2b315fd8e4a218f591@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-contemporary-music-ensemble-between-worlds-entre-mondes-374028
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-contemporary-music-e
+ nsemble-between-worlds-entre-mondes-374028
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Parisian Belle Époque: Violin and Piano @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270123T193000
+DTEND;TZID=America/Montreal:20270123T223000
+DTSTAMP:20261126T203203Z
+UID:3e43a01e411c99fe6c9e@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/treas
+ ures-of-the-belle-epoque/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/treasures-of-the-belle-epoque/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kronos Plays Glass! @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270124T143000
+DTEND;TZID=America/Montreal:20270124T173000
+DTSTAMP:20261126T203203Z
+UID:ded830ec30db42a0efc5@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/krono
+ s-plays-glass/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/kronos-plays-glass/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hockey Sweater @ Place des Arts
+DTSTART;TZID=America/Montreal:20270124T143000
+DTEND;TZID=America/Montreal:20270124T173000
+DTSTAMP:20261126T203203Z
+UID:9c7800811a1209cbc053@mtl-events
+DESCRIPTION:Place des Arts\n$41–53\nhttps://www.placedesarts.com/en/even
+ t/the-hockey-sweater
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-hockey-sweater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Philip Glass for Voice @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270126T193000
+DTEND;TZID=America/Montreal:20270126T223000
+DTSTAMP:20261126T203203Z
+UID:30ff69f2e261edf6f1d4@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/phili
+ p-glass-for-voice/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/philip-glass-for-voice/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Der Rosenkavalier @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270128T190000
+DTEND;TZID=America/Montreal:20270128T220000
+DTSTAMP:20261126T203203Z
+UID:a7a2864cdebd836d6755@mtl-events
+DESCRIPTION:Opéra de Montréal\n$92\nhttps://operademontreal.com/en/progr
+ ams/der-rosenkavalier
+LOCATION:Maison symphonique
+URL:https://operademontreal.com/en/programs/der-rosenkavalier
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Noon-Hour Organ Series @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270129T123000
+DTEND;TZID=America/Montreal:20270129T140000
+DTSTAMP:20261126T203203Z
+UID:69b15a3af94022b0f42e@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-noon-hour-organ-series-374029
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-noon-hour-organ-seri
+ es-374029
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Philip Glass and Les Violons du Roy @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270129T193000
+DTEND;TZID=America/Montreal:20270129T223000
+DTSTAMP:20261126T203203Z
+UID:85d8d41e3a9790c761d3@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/phili
+ p-glass-and-les-violons-du-roy/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/philip-glass-and-les-violons-du-r
+ oy/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Chamber Winds Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270129T200000
+DTEND;TZID=America/Montreal:20270129T213000
+DTSTAMP:20261126T203203Z
+UID:4541cc33bfa69561f990@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-chamber-winds-concert-375664
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-chamber-winds-concer
+ t-375664
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to Train Your Dragon 2 in Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270130T140000
+DTEND;TZID=America/Montreal:20270130T170000
+DTSTAMP:20261126T203203Z
+UID:b42c4f434d42b843ba3e@mtl-events
+DESCRIPTION:Place des Arts\n$55–120\nhttps://www.placedesarts.com/en/eve
+ nt/how-train-your-dragon-2-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/how-train-your-dragon-2-in-conce
+ rt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Verdi: La Traviata in Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270130T193000
+DTEND;TZID=America/Montreal:20270130T223000
+DTSTAMP:20261126T203203Z
+UID:b2f2685f0ea1ed5ebc99@mtl-events
+DESCRIPTION:Place des Arts\n$80–150\nhttps://www.placedesarts.com/en/eve
+ nt/verdi-traviata-concert
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/verdi-traviata-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Der Rosenkavalier @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270131T140000
+DTEND;TZID=America/Montreal:20270131T170000
+DTSTAMP:20261126T203203Z
+UID:b582507fac5bbe09901c@mtl-events
+DESCRIPTION:Opéra de Montréal\n$92\nhttps://operademontreal.com/en/progr
+ ams/der-rosenkavalier
+LOCATION:Maison symphonique
+URL:https://operademontreal.com/en/programs/der-rosenkavalier
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Philip Glass’s Twenty Etudes for Piano @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270131T143000
+DTEND;TZID=America/Montreal:20270131T173000
+DTSTAMP:20261126T203203Z
+UID:9cb1bb68b8567ba79cef@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/phili
+ p-glasss-twenty-etudes-for-piano/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/philip-glasss-twenty-etudes-for-p
+ iano/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Piano Romances @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270201T193000
+DTEND;TZID=America/Montreal:20270201T223000
+DTSTAMP:20261126T203203Z
+UID:21133db07ec238790d4a@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/piano
+ -romances/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/piano-romances/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Idées heureuses - RSVP! @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270202T193000
+DTEND;TZID=America/Montreal:20270202T223000
+DTSTAMP:20261126T203203Z
+UID:e8c77df60ed2ce5c20e0@mtl-events
+DESCRIPTION:Salle Bourgie\n$32–65\nhttps://www.mbam.qc.ca/en/activities/
+ les-idees-heureuses---rsvp-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/les-idees-heureuses---rsvp-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nordic Journey with Osmo Vänskä @ Place des Arts
+DTSTART;TZID=America/Montreal:20270203T193000
+DTEND;TZID=America/Montreal:20270203T223000
+DTSTAMP:20261126T203203Z
+UID:8095a54f6a4037b32447@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/nordic-journey-with-osmo-vanska
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nordic-journey-with-osmo-vanska
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nordic Journey with Osmo Vänskä @ Place des Arts
+DTSTART;TZID=America/Montreal:20270204T103000
+DTEND;TZID=America/Montreal:20270204T133000
+DTSTAMP:20261126T203203Z
+UID:f6cd4b4a9f3d27f27934@mtl-events
+DESCRIPTION:Place des Arts\n$34–103\nhttps://www.placedesarts.com/en/eve
+ nt/nordic-journey-with-osmo-vanska-matinee
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nordic-journey-with-osmo-vanska-
+ matinee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opera McGill and McGill Symphony Orchestra | Così fan tutte @ McG
+ ill Schulich
+DTSTART;TZID=America/Montreal:20270204T193000
+DTEND;TZID=America/Montreal:20270204T213000
+DTSTAMP:20261126T203203Z
+UID:1c9e0bc783c8abae2960@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/op
+ era-mcgill-and-mcgill-symphony-orchestra-cosi-fan-tutte-374076
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/opera-mcgill-and-mcgill-sym
+ phony-orchestra-cosi-fan-tutte-374076
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nordic Journey with Osmo Vänskä @ Place des Arts
+DTSTART;TZID=America/Montreal:20270204T193000
+DTEND;TZID=America/Montreal:20270204T223000
+DTSTAMP:20261126T203203Z
+UID:857bc9b869eb883ea6da@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/nordic-journey-with-osmo-vanska
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nordic-journey-with-osmo-vanska
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Noon-Hour Organ Series @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270205T123000
+DTEND;TZID=America/Montreal:20270205T140000
+DTSTAMP:20261126T203203Z
+UID:8c7f0faf14caab1a2103@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-noon-hour-organ-series-374079
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-noon-hour-organ-seri
+ es-374079
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Baroque Orchestra | To Rome with Love: Concertos by Arcange
+ lo Corelli and his students @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270205T193000
+DTEND;TZID=America/Montreal:20270205T210000
+DTSTAMP:20261126T203203Z
+UID:e8e318be2195283583c6@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-baroque-orchestra-rome-love-concertos-arcangelo-corelli-and-his-stude
+ nts-374080
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-baroque-orchestra-ro
+ me-love-concertos-arcangelo-corelli-and-his-students-374080
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opera McGill and McGill Symphony Orchestra | Così fan tutte @ McG
+ ill Schulich
+DTSTART;TZID=America/Montreal:20270205T193000
+DTEND;TZID=America/Montreal:20270205T213000
+DTSTAMP:20261126T203203Z
+UID:bf0e4526511fd61bbc12@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/op
+ era-mcgill-and-mcgill-symphony-orchestra-cosi-fan-tutte-374077
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/opera-mcgill-and-mcgill-sym
+ phony-orchestra-cosi-fan-tutte-374077
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brahms - Mendelssohn @ Place des Arts
+DTSTART;TZID=America/Montreal:20270205T193000
+DTEND;TZID=America/Montreal:20270205T223000
+DTSTAMP:20261126T203203Z
+UID:d90ffa20edda5acd58f1@mtl-events
+DESCRIPTION:Place des Arts\n$72–100\nhttps://www.placedesarts.com/en/eve
+ nt/brahms-mendelssohn
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/brahms-mendelssohn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opera McGill and McGill Symphony Orchestra | Così fan tutte @ McG
+ ill Schulich
+DTSTART;TZID=America/Montreal:20270206T140000
+DTEND;TZID=America/Montreal:20270206T160000
+DTSTAMP:20261126T203203Z
+UID:90286bd32db0f3396e54@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/op
+ era-mcgill-and-mcgill-symphony-orchestra-cosi-fan-tutte-374078
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/opera-mcgill-and-mcgill-sym
+ phony-orchestra-cosi-fan-tutte-374078
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Words and Music | Childhood\, Song\, and Memory @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270206T193000
+DTEND;TZID=America/Montreal:20270206T210000
+DTSTAMP:20261126T203203Z
+UID:1a9cf691fbac86b6e329@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/wo
+ rds-and-music-childhood-song-and-memory-374081
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/words-and-music-childhood-s
+ ong-and-memory-374081
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Legacy of Devaux\, Bonds and Fauré @ Place des Arts
+DTSTART;TZID=America/Montreal:20270207T143000
+DTEND;TZID=America/Montreal:20270207T173000
+DTSTAMP:20261126T203203Z
+UID:47eaf161098b6887add4@mtl-events
+DESCRIPTION:Place des Arts\n$34–103\nhttps://www.placedesarts.com/en/eve
+ nt/the-legacy-of-devaux-bonds-and-faure
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-legacy-of-devaux-bonds-and-f
+ aure
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gala des Prix Opus presented by Power Corporation of Canada @ Sall
+ e Bourgie
+DTSTART;TZID=America/Montreal:20270207T150000
+DTEND;TZID=America/Montreal:20270207T180000
+DTSTAMP:20261126T203203Z
+UID:c6749b349e4718f56f77@mtl-events
+DESCRIPTION:Salle Bourgie\n$90\nhttps://www.mbam.qc.ca/en/activities/gala-
+ des-prix-opus-presented-by-power-corporation-of-canada/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/gala-des-prix-opus-presented-by-p
+ ower-corporation-of-canada/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cappella Antica | Autour de Charpentier @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270208T193000
+DTEND;TZID=America/Montreal:20270208T210000
+DTSTAMP:20261126T203203Z
+UID:de9fc18d1993d972c2bc@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/ca
+ ppella-antica-autour-de-charpentier-374083
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/cappella-antica-autour-de-c
+ harpentier-374083
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich@COC @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270209T120000
+DTEND;TZID=America/Montreal:20270209T133000
+DTSTAMP:20261126T203203Z
+UID:48aab267d64fc44c7594@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulichcoc-374084
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulichcoc-374084
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pictures at an Exhibition @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270209T193000
+DTEND;TZID=America/Montreal:20270209T223000
+DTSTAMP:20261126T203203Z
+UID:a5998d5aed3ed0490faf@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/pictu
+ res-at-an-exhibition/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/pictures-at-an-exhibition/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Research Alive | The Mandé Kumbengo: Understanding West African i
+ nstruments and grooves @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270210T170000
+DTEND;TZID=America/Montreal:20270210T183000
+DTSTAMP:20261126T203203Z
+UID:b422f3c54642232dfeb7@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/re
+ search-alive-mande-kumbengo-understanding-west-african-instruments-and-gro
+ oves-374171
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/research-alive-mande-kumben
+ go-understanding-west-african-instruments-and-grooves-374171
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 McGill Concerto Competition | Strings\, Harp\, Guitar 
+ @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270210T190000
+DTEND;TZID=America/Montreal:20270210T210000
+DTSTAMP:20261126T203203Z
+UID:530a6bb687e8b8368a78@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-mcgill-concerto-competition-strings-harp-guitar-374085
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-mcgill-concerto-c
+ ompetition-strings-harp-guitar-374085
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Takács Quartet @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270210T193000
+DTEND;TZID=America/Montreal:20270210T223000
+DTSTAMP:20261126T203203Z
+UID:3be3811b2814a8342cb4@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/takac
+ s-quartet/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/takacs-quartet/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shostakovich’s Symphony no. 8: Drama Unveiled @ Place des Arts
+DTSTART;TZID=America/Montreal:20270210T193000
+DTEND;TZID=America/Montreal:20270210T223000
+DTSTAMP:20261126T203203Z
+UID:77680e91d3177fa7c5f5@mtl-events
+DESCRIPTION:Place des Arts\n$40–199\nhttps://www.placedesarts.com/en/eve
+ nt/shostakovich-symphony-no-8-drama-unveiled
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/shostakovich-symphony-no-8-drama
+ -unveiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les chemins qui montent @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270211T193000
+DTEND;TZID=America/Montreal:20270211T223000
+DTSTAMP:20261126T203203Z
+UID:92b8b1f91e9218f0b20e@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/les-c
+ hemins-qui-montent/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/les-chemins-qui-montent/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Lassana Diabaté and Friends @ McGill Schuli
+ ch
+DTSTART;TZID=America/Montreal:20270211T193000
+DTEND;TZID=America/Montreal:20270211T213000
+DTSTAMP:20261126T203203Z
+UID:96198d952e89bc3da1b4@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-lassana-diabate-and-friends-374173
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-lassana-di
+ abate-and-friends-374173
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shostakovich’s Symphony no. 8: Drama Unveiled @ Place des Arts
+DTSTART;TZID=America/Montreal:20270211T193000
+DTEND;TZID=America/Montreal:20270211T223000
+DTSTAMP:20261126T203203Z
+UID:487aff89fd92cd8d8494@mtl-events
+DESCRIPTION:Place des Arts\n$40–199\nhttps://www.placedesarts.com/en/eve
+ nt/shostakovich-symphony-no-8-drama-unveiled
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/shostakovich-symphony-no-8-drama
+ -unveiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Noon-Hour Organ Series @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270212T123000
+DTEND;TZID=America/Montreal:20270212T140000
+DTSTAMP:20261126T203203Z
+UID:d73838983256e412ade6@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-noon-hour-organ-series-374086
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-noon-hour-organ-seri
+ es-374086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Virtuoso Mandolin @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270212T193000
+DTEND;TZID=America/Montreal:20270212T223000
+DTSTAMP:20261126T203203Z
+UID:ab349f253483f4faeae2@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/the-v
+ irtuoso-mandolin/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-virtuoso-mandolin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:live@CIRMMT | Expanded Transforming Patterns @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270212T193000
+DTEND;TZID=America/Montreal:20270212T210000
+DTSTAMP:20261126T203203Z
+UID:62427710cc1013bf1c6f@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/li
+ vecirmmt-expanded-transforming-patterns-374087
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/livecirmmt-expanded-transfo
+ rming-patterns-374087
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bugs Bunny at the Symphony @ Place des Arts
+DTSTART;TZID=America/Montreal:20270212T193000
+DTEND;TZID=America/Montreal:20270212T223000
+DTSTAMP:20261126T203203Z
+UID:3658c0ca83cf0e6fb275@mtl-events
+DESCRIPTION:Place des Arts\n$80–127\nhttps://www.placedesarts.com/en/eve
+ nt/bugs-bunny-at-the-symphony
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/bugs-bunny-at-the-symphony
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bugs Bunny at the Symphony @ Place des Arts
+DTSTART;TZID=America/Montreal:20270213T140000
+DTEND;TZID=America/Montreal:20270213T170000
+DTSTAMP:20261126T203203Z
+UID:baf7618efe4155389249@mtl-events
+DESCRIPTION:Place des Arts\n$80–127\nhttps://www.placedesarts.com/en/eve
+ nt/bugs-bunny-at-the-symphony
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/bugs-bunny-at-the-symphony
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Strauss: A Life in Music @ Place des Arts
+DTSTART;TZID=America/Montreal:20270213T143000
+DTEND;TZID=America/Montreal:20270213T173000
+DTSTAMP:20261126T203203Z
+UID:b923ff80bcb09a230306@mtl-events
+DESCRIPTION:Place des Arts\n$40–201\nhttps://www.placedesarts.com/en/eve
+ nt/richard-strauss-a-life-in-music
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/richard-strauss-a-life-in-music
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schubert and Reger: Light and Shadow @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270214T143000
+DTEND;TZID=America/Montreal:20270214T173000
+DTSTAMP:20261126T203203Z
+UID:d0343f24f5eb337971c1@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/schub
+ ert-and-reger-light-and-shadow/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/schubert-and-reger-light-and-shad
+ ow/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NieR:Orchestra Concert 12026 [YoRHa] @ Place des Arts
+DTSTART;TZID=America/Montreal:20270214T150000
+DTEND;TZID=America/Montreal:20270214T180000
+DTSTAMP:20261126T203203Z
+UID:3fcf8cee86d1d796af90@mtl-events
+DESCRIPTION:Place des Arts\n$80–150\nhttps://www.placedesarts.com/en/eve
+ nt/nierorchestra-concert-12026-yorha
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/nierorchestra-concert-12026-yorh
+ a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Master Class - Mireille Lebel voice @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270215T110000
+DTEND;TZID=America/Montreal:20270215T140000
+DTSTAMP:20261126T203203Z
+UID:30b7d5b64817297a3a5d@mtl-events
+DESCRIPTION:Salle Bourgie\n$10\nhttps://www.mbam.qc.ca/en/activities/maste
+ r-class-mireille-lebel-voice-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/master-class-mireille-lebel-voice
+ -1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Chamber Jazz Ensemble I @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270215T193000
+DTEND;TZID=America/Montreal:20270215T210000
+DTSTAMP:20261126T203203Z
+UID:6316c79b9472cfced6b5@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-chamber-jazz-ensemble-i-374088
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-chamber-jazz-ensembl
+ e-i-374088
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026–2027 McGill Concerto Competition | Piano @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270217T190000
+DTEND;TZID=America/Montreal:20270217T210000
+DTSTAMP:20261126T203203Z
+UID:24ed8de5a19a9dbed1f5@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/20
+ 26-2027-mcgill-concerto-competition-piano-374089
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/2026-2027-mcgill-concerto-c
+ ompetition-piano-374089
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Chamber Jazz Ensembles II and III @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270217T193000
+DTEND;TZID=America/Montreal:20270217T210000
+DTSTAMP:20261126T203203Z
+UID:624429c96fdc4f00139e@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-chamber-jazz-ensembles-ii-and-iii-374106
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-chamber-jazz-ensembl
+ es-ii-and-iii-374106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich@Bon-Pasteur @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270217T193000
+DTEND;TZID=America/Montreal:20270217T213000
+DTSTAMP:20261126T203203Z
+UID:b40159075e53a589601e@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulichbon-pasteur-374090
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulichbon-pasteur-374090
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Anna Lapwood Phenomenon @ Place des Arts
+DTSTART;TZID=America/Montreal:20270217T193000
+DTEND;TZID=America/Montreal:20270217T223000
+DTSTAMP:20261126T203203Z
+UID:15ba2d6e638d2f6030d8@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/the-anna
+ -lapwood-phenomenon
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-anna-lapwood-phenomenon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Young Lions @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270218T180000
+DTEND;TZID=America/Montreal:20270218T210000
+DTSTAMP:20261126T203203Z
+UID:56261ef9dc33aa008624@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/the-y
+ oung-lions/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-young-lions/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Trio Noir @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270218T193000
+DTEND;TZID=America/Montreal:20270218T210000
+DTSTAMP:20261126T203203Z
+UID:aedf397819141ded3b5f@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-trio-noir-374107
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-trio-noir-
+ 374107
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Duo Goni–Perretta @ Place des Arts
+DTSTART;TZID=America/Montreal:20270218T193000
+DTEND;TZID=America/Montreal:20270218T223000
+DTSTAMP:20261126T203203Z
+UID:27c63b0971cc1d07f4a6@mtl-events
+DESCRIPTION:Place des Arts\n$50\nhttps://www.placedesarts.com/en/event/duo
+ -goni-perretta
+LOCATION:Cinquième Salle\, Place des Arts
+URL:https://www.placedesarts.com/en/event/duo-goni-perretta
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Anna Lapwood Phenomenon @ Place des Arts
+DTSTART;TZID=America/Montreal:20270218T193000
+DTEND;TZID=America/Montreal:20270218T223000
+DTSTAMP:20261126T203203Z
+UID:566059357854a6c6c516@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/the-anna
+ -lapwood-phenomenon
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/the-anna-lapwood-phenomenon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Noon-Hour Organ Series @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270219T123000
+DTEND;TZID=America/Montreal:20270219T140000
+DTSTAMP:20261126T203203Z
+UID:2b742778c351bb4fc30c@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-noon-hour-organ-series-374108
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-noon-hour-organ-seri
+ es-374108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pierre-Mercure Festival: Centenary Lecture and Concert @ Salle Bou
+ rgie
+DTSTART;TZID=America/Montreal:20270219T193000
+DTEND;TZID=America/Montreal:20270219T223000
+DTSTAMP:20261126T203203Z
+UID:9b8b7268c01f6aa8d425@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/pierr
+ e-mercure-festival-centenary-lecture-and-concert/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/pierre-mercure-festival-centenary
+ -lecture-and-concert/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Wind Orchestra | Powerful Voices @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270219T193000
+DTEND;TZID=America/Montreal:20270219T210000
+DTSTAMP:20261126T203203Z
+UID:846270d048acafbd3b27@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-wind-orchestra-powerful-voices-374110
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-wind-orchestra-power
+ ful-voices-374110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bach’s St Matthew Passion @ Place des Arts
+DTSTART;TZID=America/Montreal:20270219T193000
+DTEND;TZID=America/Montreal:20270219T223000
+DTSTAMP:20261126T203203Z
+UID:b55fc06de4a8a5e8fa44@mtl-events
+DESCRIPTION:Place des Arts\n$40–125\nhttps://www.placedesarts.com/en/eve
+ nt/bachs-st-matthew-passion
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/bachs-st-matthew-passion
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pierre-Mercure Festival: Centenary Pierre Mercure on the Screen @ 
+ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270220T140000
+DTEND;TZID=America/Montreal:20270220T170000
+DTSTAMP:20261126T203203Z
+UID:93394d8fa3edbc1a141f@mtl-events
+DESCRIPTION:Salle Bourgie\nhttps://www.mbam.qc.ca/en/activities/pierre-mer
+ cure-festival-centenary-pierre-mercure-on-the-screen/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/pierre-mercure-festival-centenary
+ -pierre-mercure-on-the-screen/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mercure Remix @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270221T143000
+DTEND;TZID=America/Montreal:20270221T173000
+DTSTAMP:20261126T203203Z
+UID:a9ec93b5f463775074d7@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/mercu
+ re-remix/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/mercure-remix/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Voice Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270221T200000
+DTEND;TZID=America/Montreal:20270221T213000
+DTSTAMP:20261126T203203Z
+UID:a4e91fbbf4ede745a462@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/voice-class-concert-375286
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/voice-class-concert-375286
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quick Study Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270222T200000
+DTEND;TZID=America/Montreal:20270222T213000
+DTSTAMP:20261126T203203Z
+UID:cddbee4f8956c288f786@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/qu
+ ick-study-concert-374750
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/quick-study-concert-374750
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Because: A Concert of Spirituals @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270223T193000
+DTEND;TZID=America/Montreal:20270223T223000
+DTSTAMP:20261126T203203Z
+UID:b881f043bc9fcdbab970@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/becau
+ se-a-concert-of-spirituals/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/because-a-concert-of-spirituals/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jonathan Fournel: Keyboard Masterworks @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270224T193000
+DTEND;TZID=America/Montreal:20270224T223000
+DTSTAMP:20261126T203203Z
+UID:9296285604526429503b@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/jonat
+ han-fournel-keyboard-masterworks/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/jonathan-fournel-keyboard-masterw
+ orks/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra II | Coltrane and Miles at 100: A Black Hist
+ ory Month Celebration @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270224T193000
+DTEND;TZID=America/Montreal:20270224T210000
+DTSTAMP:20261126T203203Z
+UID:652a16fb806cebadf3ba@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-ii-coltrane-and-miles-100-black-history-month-celebrat
+ ion-374111
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-ii-co
+ ltrane-and-miles-100-black-history-month-celebration-374111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Synth\, Sample & Syntax @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270225T193000
+DTEND;TZID=America/Montreal:20270225T210000
+DTSTAMP:20261126T203203Z
+UID:75677e95e26a6c9420d0@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-synth-sample-syntax-374112
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-synth-samp
+ le-syntax-374112
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pastorals: Beethoven and New Canadian Creations @ Place des Arts
+DTSTART;TZID=America/Montreal:20270225T193000
+DTEND;TZID=America/Montreal:20270225T223000
+DTSTAMP:20261126T203203Z
+UID:6db2ee0a0268a7c46a35@mtl-events
+DESCRIPTION:Place des Arts\n$38–229\nhttps://www.placedesarts.com/en/eve
+ nt/pastorals-beethoven-and-new-canadian-creations
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/pastorals-beethoven-and-new-cana
+ dian-creations
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Noon-Hour Organ Series @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270226T123000
+DTEND;TZID=America/Montreal:20270226T140000
+DTSTAMP:20261126T203203Z
+UID:8206107b7c562fc7dc9f@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-noon-hour-organ-series-374113
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-noon-hour-organ-seri
+ es-374113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Contemporary Music Ensemble | Sugarcoating @ McGill Schulic
+ h
+DTSTART;TZID=America/Montreal:20270226T193000
+DTEND;TZID=America/Montreal:20270226T210000
+DTSTAMP:20261126T203203Z
+UID:cc83ab046848004e3bc7@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-contemporary-music-ensemble-sugarcoating-374115
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-contemporary-music-e
+ nsemble-sugarcoating-374115
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Il delirio amoroso @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270228T143000
+DTEND;TZID=America/Montreal:20270228T173000
+DTSTAMP:20261126T203203Z
+UID:49b609ac7836a5ee516f@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/il-de
+ lirio-amoroso/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/il-delirio-amoroso/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simon Boisseau @ Place des Arts
+DTSTART;TZID=America/Montreal:20270228T160000
+DTEND;TZID=America/Montreal:20270228T190000
+DTSTAMP:20261126T203203Z
+UID:53d2801cf697f21a2617@mtl-events
+DESCRIPTION:Place des Arts\n$42\nhttps://www.placedesarts.com/en/event/sim
+ on-boisseau
+LOCATION:Cinquième Salle\, Place des Arts
+URL:https://www.placedesarts.com/en/event/simon-boisseau
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trio Wanderer Plays Beethoven @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270302T193000
+DTEND;TZID=America/Montreal:20270302T223000
+DTSTAMP:20261126T203203Z
+UID:cde83b413cb258433893@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/trio-
+ wanderer-plays-beethoven/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/trio-wanderer-plays-beethoven/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Yes to Genesis — On the Organ @ Place des Arts
+DTSTART;TZID=America/Montreal:20270305T200000
+DTEND;TZID=America/Montreal:20270305T230000
+DTSTAMP:20261126T203203Z
+UID:50e2d567dfe86b560639@mtl-events
+DESCRIPTION:Place des Arts\n$34–52\nhttps://www.placedesarts.com/en/even
+ t/from-yes-to-genesis-on-the-organ
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/from-yes-to-genesis-on-the-organ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven’s Third and Fifth Piano Concertos @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270306T193000
+DTEND;TZID=America/Montreal:20270306T223000
+DTSTAMP:20261126T203203Z
+UID:326916cec13eb491c632@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/beeth
+ ovens-third-and-fifth-piano-concertos1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethovens-third-and-fifth-piano-
+ concertos1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven’s Third and Fifth Piano Concertos @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270307T143000
+DTEND;TZID=America/Montreal:20270307T173000
+DTSTAMP:20261126T203203Z
+UID:f89728fcf938fd26cf2b@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/beeth
+ ovens-third-and-fifth-piano-concertos2/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethovens-third-and-fifth-piano-
+ concertos2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven and the Art of the String Quartet @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270309T193000
+DTEND;TZID=America/Montreal:20270309T223000
+DTSTAMP:20261126T203203Z
+UID:68b655c3de63f5e1e5da@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/beeth
+ oven-and-the-art-of-the-string-quartet/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethoven-and-the-art-of-the-stri
+ ng-quartet/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Mad Lover @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270311T193000
+DTEND;TZID=America/Montreal:20270311T223000
+DTSTAMP:20261126T203203Z
+UID:3e5bd7f9adfb1d6ee8d3@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/the-m
+ ad-lover/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-mad-lover/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Music for Piano and Winds @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270312T183000
+DTEND;TZID=America/Montreal:20270312T213000
+DTSTAMP:20261126T203203Z
+UID:519801db8e47104661c2@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/music
+ -for-piano-and-winds/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/music-for-piano-and-winds/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harry Potter and the Philosopher’s Stone™ In Concert @ Place d
+ es Arts
+DTSTART;TZID=America/Montreal:20270312T193000
+DTEND;TZID=America/Montreal:20270312T223000
+DTSTAMP:20261126T203203Z
+UID:de25295e5020ddd57e88@mtl-events
+DESCRIPTION:Place des Arts\n$80–127\nhttps://www.placedesarts.com/en/eve
+ nt/harry-potter-philosophers-stone-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/harry-potter-philosophers-stone-
+ in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harry Potter and the Philosopher’s Stone™ In Concert @ Place d
+ es Arts
+DTSTART;TZID=America/Montreal:20270313T140000
+DTEND;TZID=America/Montreal:20270313T170000
+DTSTAMP:20261126T203203Z
+UID:6234d06251286fc32ec6@mtl-events
+DESCRIPTION:Place des Arts\n$80–127\nhttps://www.placedesarts.com/en/eve
+ nt/harry-potter-philosophers-stone-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/harry-potter-philosophers-stone-
+ in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven and Schubert: Intimations @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270313T193000
+DTEND;TZID=America/Montreal:20270313T223000
+DTSTAMP:20261126T203203Z
+UID:1ef0aa3ba35f35727f72@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/beeth
+ oven-and-schubert-intimations/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethoven-and-schubert-intimation
+ s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Symphony Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270313T193000
+DTEND;TZID=America/Montreal:20270313T210000
+DTSTAMP:20261126T203203Z
+UID:07f4bd9bed201ce3ce92@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-symphony-orchestra-374003
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-symphony-orchestra-3
+ 74003
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harry Potter and the Philosopher’s Stone™ In Concert @ Place d
+ es Arts
+DTSTART;TZID=America/Montreal:20270313T193000
+DTEND;TZID=America/Montreal:20270313T223000
+DTSTAMP:20261126T203203Z
+UID:00747ff5741a1807704f@mtl-events
+DESCRIPTION:Place des Arts\n$80–127\nhttps://www.placedesarts.com/en/eve
+ nt/harry-potter-philosophers-stone-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/harry-potter-philosophers-stone-
+ in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Symphony Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270314T140000
+DTEND;TZID=America/Montreal:20270314T153000
+DTSTAMP:20261126T203203Z
+UID:1fb042024c783fad8114@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-symphony-orchestra-374131
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-symphony-orchestra-3
+ 74131
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pentaèdre - Les Variations Goldberg @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270314T143000
+DTEND;TZID=America/Montreal:20270314T173000
+DTSTAMP:20261126T203203Z
+UID:1db649bcb7b77c3f51fe@mtl-events
+DESCRIPTION:Salle Bourgie\nhttps://www.mbam.qc.ca/en/activities/pentaedre-
+ --les-variations-goldberg/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/pentaedre---les-variations-goldbe
+ rg/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra I | Marianne Trudel: La Trajectoire de la Lu
+ mière - New work for Jazz Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270315T193000
+DTEND;TZID=America/Montreal:20270315T210000
+DTSTAMP:20261126T203203Z
+UID:e08937bc3dd74e379ad0@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-i-marianne-trudel-la-trajectoire-de-la-lumiere-new-wor
+ k-jazz-orchestra-374004
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-i-mar
+ ianne-trudel-la-trajectoire-de-la-lumiere-new-work-jazz-orchestra-374004
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven’s Last Three Piano Sonatas @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270316T193000
+DTEND;TZID=America/Montreal:20270316T223000
+DTSTAMP:20261126T203203Z
+UID:c3aa11cb7cea1a84b543@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/beeth
+ ovens-last-three-piano-sonatas/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethovens-last-three-piano-sonat
+ as/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dvořák's New World Symphony @ Place des Arts
+DTSTART;TZID=America/Montreal:20270317T193000
+DTEND;TZID=America/Montreal:20270317T223000
+DTSTAMP:20261126T203203Z
+UID:fe72ef7b0e79845716c7@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/journey-to-the-new-world
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/journey-to-the-new-world
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Carn Davidson 9 @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270318T180000
+DTEND;TZID=America/Montreal:20270318T210000
+DTSTAMP:20261126T203203Z
+UID:65a6f65a273e85aa55ab@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/the-c
+ arn-davidson-9/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-carn-davidson-9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dvořák's New World Symphony @ Place des Arts
+DTSTART;TZID=America/Montreal:20270318T193000
+DTEND;TZID=America/Montreal:20270318T223000
+DTSTAMP:20261126T203203Z
+UID:f0d66a6933384713778d@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/journey-to-the-new-world
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/journey-to-the-new-world
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The House of the Devil @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T223000
+DTSTAMP:20261126T203203Z
+UID:9f7687cffbfcb130e99b@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/the-h
+ ouse-of-the-devil/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-house-of-the-devil/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CIRMMT Welcomes | What a wonderful space @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T210000
+DTSTAMP:20261126T203203Z
+UID:eb25b20e6b6e70adf461@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/ci
+ rmmt-welcomes-what-wonderful-space-374006
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/cirmmt-welcomes-what-wonder
+ ful-space-374006
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Darrell Green Presents @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T210000
+DTSTAMP:20261126T203203Z
+UID:de53c8439ba698b5b8f9@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-darrell-green-presents-374005
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-darrell-gr
+ een-presents-374005
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Baroque Orchestra | Mozart à Paris @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T210000
+DTSTAMP:20261126T203203Z
+UID:a3f1c462fae6ddc0b5c0@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-baroque-orchestra-mozart-paris-374007
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-baroque-orchestra-mo
+ zart-paris-374007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opera McGill and Schulich Singers | Considering Matthew Shepard @ 
+ McGill Schulich
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T213000
+DTSTAMP:20261126T203203Z
+UID:77a67a281cb57a2b6380@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/op
+ era-mcgill-and-schulich-singers-considering-matthew-shepard-374009
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/opera-mcgill-and-schulich-s
+ ingers-considering-matthew-shepard-374009
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:John Williams and Rachmaninoff @ Place des Arts
+DTSTART;TZID=America/Montreal:20270319T193000
+DTEND;TZID=America/Montreal:20270319T223000
+DTSTAMP:20261126T203203Z
+UID:b158d2608d8a481fa06c@mtl-events
+DESCRIPTION:Place des Arts\n$38–229\nhttps://www.placedesarts.com/en/eve
+ nt/john-williams-and-rachmaninoff
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/john-williams-and-rachmaninoff
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Choristes in Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270320T140000
+DTEND;TZID=America/Montreal:20270320T170000
+DTSTAMP:20261126T203203Z
+UID:2415fc311a7ef561935d@mtl-events
+DESCRIPTION:Place des Arts\n$58–147\nhttps://www.placedesarts.com/en/eve
+ nt/les-choristes
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/les-choristes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trio Fibonacci - The Fibonaccis Return to the Movies @ Salle Bourg
+ ie
+DTSTART;TZID=America/Montreal:20270320T193000
+DTEND;TZID=America/Montreal:20270320T223000
+DTSTAMP:20261126T203203Z
+UID:65dc6f826aa293edf9b5@mtl-events
+DESCRIPTION:Salle Bourgie\n$45\nhttps://www.mbam.qc.ca/en/activities/trio-
+ fibonacci---the-fibonaccis-return-to-the-movies-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/trio-fibonacci---the-fibonaccis-r
+ eturn-to-the-movies-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich in Concert | Beyond the Horizon: Explorations for Solo Do
+ uble Bass @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270320T193000
+DTEND;TZID=America/Montreal:20270320T210000
+DTSTAMP:20261126T203203Z
+UID:dba1f50e494aae718cf2@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulich-concert-beyond-horizon-explorations-solo-double-bass-374011
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulich-concert-beyond-hor
+ izon-explorations-solo-double-bass-374011
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opera McGill and Schulich Singers | Considering Matthew Shepard @ 
+ McGill Schulich
+DTSTART;TZID=America/Montreal:20270320T193000
+DTEND;TZID=America/Montreal:20270320T213000
+DTSTAMP:20261126T203203Z
+UID:5bee3e2c756ba08eae18@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/op
+ era-mcgill-and-schulich-singers-considering-matthew-shepard-374010
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/opera-mcgill-and-schulich-s
+ ingers-considering-matthew-shepard-374010
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Art of the Afghan Rubab and Tabla @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270321T143000
+DTEND;TZID=America/Montreal:20270321T173000
+DTSTAMP:20261126T203203Z
+UID:f1003121ec5e9edfc4fb@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/the-a
+ rt-of-the-afghan-rubab-and-tabla/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/the-art-of-the-afghan-rubab-and-t
+ abla/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven’s Late String Quartets @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270323T193000
+DTEND;TZID=America/Montreal:20270323T223000
+DTSTAMP:20261126T203203Z
+UID:306bb375dfea485f32ad@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/beeth
+ ovens-late-string-quartets/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/beethovens-late-string-quartets/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Master Class - Juilliard String Quartet @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270324T110000
+DTEND;TZID=America/Montreal:20270324T140000
+DTSTAMP:20261126T203203Z
+UID:c29c8e461dd63f306d00@mtl-events
+DESCRIPTION:Salle Bourgie\n$10\nhttps://www.mbam.qc.ca/en/activities/maste
+ r-class-juilliard-string-quartet/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/master-class-juilliard-string-qua
+ rtet/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Research Alive | The Language of Bebop: Morphology\, syntax\, and 
+ meaning in Charlie Parker's improvisations @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270324T170000
+DTEND;TZID=America/Montreal:20270324T183000
+DTSTAMP:20261126T203203Z
+UID:834413c26720b7fe7534@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/re
+ search-alive-language-bebop-morphology-syntax-and-meaning-charlie-parkers-
+ improvisations-374012
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/research-alive-language-beb
+ op-morphology-syntax-and-meaning-charlie-parkers-improvisations-374012
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:One more time | Electro-symphonic tribute to Daft Punk @ Place des
+  Arts
+DTSTART;TZID=America/Montreal:20270324T190000
+DTEND;TZID=America/Montreal:20270324T220000
+DTSTAMP:20261126T203203Z
+UID:30bd1eb16c6a52110948@mtl-events
+DESCRIPTION:Place des Arts\n$75–135\nhttps://www.placedesarts.com/en/eve
+ nt/one-more-time-symphonic-tribute-daft-punk
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/one-more-time-symphonic-tribute-
+ daft-punk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labadie Conducts Mendelssohn’s “Italian” Symphony @ Place de
+ s Arts
+DTSTART;TZID=America/Montreal:20270324T193000
+DTEND;TZID=America/Montreal:20270324T223000
+DTSTAMP:20261126T203203Z
+UID:0311bae75dfc1ebcd465@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/labadie-conducts-mendelssohn-italian-symphony
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/labadie-conducts-mendelssohn-ita
+ lian-symphony
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labadie Conducts Mendelssohn’s “Italian” Symphony @ Place de
+ s Arts
+DTSTART;TZID=America/Montreal:20270325T103000
+DTEND;TZID=America/Montreal:20270325T133000
+DTSTAMP:20261126T203203Z
+UID:d95684fcc1ff51cb3d96@mtl-events
+DESCRIPTION:Place des Arts\n$34–103\nhttps://www.placedesarts.com/en/eve
+ nt/labadie-conducts-mendelssohn-italian-symphony-matinee
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/labadie-conducts-mendelssohn-ita
+ lian-symphony-matinee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Piano Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270325T170000
+DTEND;TZID=America/Montreal:20270325T183000
+DTSTAMP:20261126T203203Z
+UID:9b369f6fcba80c00019f@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/piano-class-concert-375568
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/piano-class-concert-375568
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Atys @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270325T193000
+DTEND;TZID=America/Montreal:20270325T223000
+DTSTAMP:20261126T203203Z
+UID:da97051b06f390584449@mtl-events
+DESCRIPTION:Opéra de Montréal\n$35\nhttps://operademontreal.com/en/progr
+ ams/atys-dawe-jasmin
+LOCATION:Salle Ludger-Duvernay du Monument-National
+URL:https://operademontreal.com/en/programs/atys-dawe-jasmin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ode to Joy: Beethoven on Two Pianos @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270325T193000
+DTEND;TZID=America/Montreal:20270325T223000
+DTSTAMP:20261126T203203Z
+UID:c0ed7721395e9d141b57@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/ode-t
+ o-joy-beethoven-on-two-pianos/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/ode-to-joy-beethoven-on-two-piano
+ s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Wind Orchestra | Songs in the Garden @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270325T193000
+DTEND;TZID=America/Montreal:20270325T210000
+DTSTAMP:20261126T203203Z
+UID:51b38df7f392a770a856@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-wind-orchestra-songs-garden-374013
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-wind-orchestra-songs
+ -garden-374013
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Labadie Conducts Mendelssohn’s “Italian” Symphony @ Place de
+ s Arts
+DTSTART;TZID=America/Montreal:20270325T193000
+DTEND;TZID=America/Montreal:20270325T223000
+DTSTAMP:20261126T203203Z
+UID:0f5a4743dbcdec361d24@mtl-events
+DESCRIPTION:Place des Arts\n$34–103\nhttps://www.placedesarts.com/en/eve
+ nt/labadie-conducts-mendelssohn-italian-symphony-condensed-program
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/labadie-conducts-mendelssohn-ita
+ lian-symphony-condensed-program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Passiontide Concert @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270326T150000
+DTEND;TZID=America/Montreal:20270326T180000
+DTSTAMP:20261126T203203Z
+UID:b116f49d1d5ab4d419c1@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/passi
+ ontide-concert27/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/passiontide-concert27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Atys @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270326T193000
+DTEND;TZID=America/Montreal:20270326T223000
+DTSTAMP:20261126T203203Z
+UID:0d2a40f00fa00902cc16@mtl-events
+DESCRIPTION:Opéra de Montréal\n$35\nhttps://operademontreal.com/en/progr
+ ams/atys-dawe-jasmin
+LOCATION:Salle Ludger-Duvernay du Monument-National
+URL:https://operademontreal.com/en/programs/atys-dawe-jasmin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Atys @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270327T193000
+DTEND;TZID=America/Montreal:20270327T223000
+DTSTAMP:20261126T203203Z
+UID:39ef2e871c179bf82089@mtl-events
+DESCRIPTION:Opéra de Montréal\n$35\nhttps://operademontreal.com/en/progr
+ ams/atys-dawe-jasmin
+LOCATION:Salle Ludger-Duvernay du Monument-National
+URL:https://operademontreal.com/en/programs/atys-dawe-jasmin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Doctoral Recital: Katherine Mayba\, soprano @ McGill Schul
+ ich
+DTSTART;TZID=America/Montreal:20270330T190000
+DTEND;TZID=America/Montreal:20270330T203000
+DTSTAMP:20261126T203203Z
+UID:87a1a2bf522c8bd439bf@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/doctoral-recital-katherine-mayba-soprano-375409
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/doctoral-recital-katherine-
+ mayba-soprano-375409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schubert and Farrenc: Edgar Moreau and Musicians of the OM @ Salle
+  Bourgie
+DTSTART;TZID=America/Montreal:20270331T193000
+DTEND;TZID=America/Montreal:20270331T223000
+DTSTAMP:20261126T203203Z
+UID:95219f9bd36c0e12dd64@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/schub
+ ert-and-farrenc-edgar-moreau-and-musicians-of-the-om/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/schubert-and-farrenc-edgar-moreau
+ -and-musicians-of-the-om/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich@Bon-Pasteur @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270331T193000
+DTEND;TZID=America/Montreal:20270331T210000
+DTSTAMP:20261126T203203Z
+UID:a8c755983631c4840171@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulichbon-pasteur-374014
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulichbon-pasteur-374014
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Math Duff and the OSM @ Place des Arts
+DTSTART;TZID=America/Montreal:20270331T200000
+DTEND;TZID=America/Montreal:20270331T230000
+DTSTAMP:20261126T203203Z
+UID:cf882f59fff81cd15510@mtl-events
+DESCRIPTION:Place des Arts\n$124–159\nhttps://www.placedesarts.com/en/ev
+ ent/math-duff-osm
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/math-duff-osm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rachmaninoff Matinée @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270401T110000
+DTEND;TZID=America/Montreal:20270401T140000
+DTSTAMP:20261126T203203Z
+UID:9644125fae00d2232fa4@mtl-events
+DESCRIPTION:Salle Bourgie\n$27\nhttps://www.mbam.qc.ca/en/activities/rachm
+ aninoff-matinee/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/rachmaninoff-matinee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Math Duff and the OSM @ Place des Arts
+DTSTART;TZID=America/Montreal:20270401T200000
+DTEND;TZID=America/Montreal:20270401T230000
+DTSTAMP:20261126T203203Z
+UID:dfe8e5fdec672785c655@mtl-events
+DESCRIPTION:Place des Arts\n$98–172\nhttps://www.placedesarts.com/en/eve
+ nt/math-duff-osm
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/math-duff-osm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Sonata Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270402T160000
+DTEND;TZID=America/Montreal:20270402T183000
+DTSTAMP:20261126T203203Z
+UID:75c3f2ca46a282a6d14a@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/sonata-class-concert-375206
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/sonata-class-concert-375206
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NEM & François Bourassa @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270402T193000
+DTEND;TZID=America/Montreal:20270402T223000
+DTSTAMP:20261126T203203Z
+UID:233e4f5b7f8765d5e7c4@mtl-events
+DESCRIPTION:Salle Bourgie\nhttps://www.mbam.qc.ca/en/activities/nem-franco
+ is-bourassa-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/nem-francois-bourassa-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cappella Antica | Mit Fried und Freud @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270402T193000
+DTEND;TZID=America/Montreal:20270402T213000
+DTSTAMP:20261126T203203Z
+UID:18d3fe32a55d06f670dc@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/ca
+ ppella-antica-mit-fried-und-freud-374035
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/cappella-antica-mit-fried-u
+ nd-freud-374035
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Concert Fantastique : Du Cinéma à la Scène @ Place des Ar
+ ts
+DTSTART;TZID=America/Montreal:20270403T190000
+DTEND;TZID=America/Montreal:20270403T220000
+DTSTAMP:20261126T203203Z
+UID:4c906e635ae24a9c7075@mtl-events
+DESCRIPTION:Place des Arts\n$57\nhttps://www.placedesarts.com/en/event/gra
+ nd-concert-fantastique-cinema-scene
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/grand-concert-fantastique-cinema
+ -scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enigmatic Variations @ Place des Arts
+DTSTART;TZID=America/Montreal:20270404T150000
+DTEND;TZID=America/Montreal:20270404T180000
+DTSTAMP:20261126T203203Z
+UID:bc7feed629e5557553a8@mtl-events
+DESCRIPTION:Place des Arts\n$38–229\nhttps://www.placedesarts.com/en/eve
+ nt/enigmatic-variations
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/enigmatic-variations
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Chamber Jazz Ensemble I @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270405T193000
+DTEND;TZID=America/Montreal:20270405T213000
+DTSTAMP:20261126T203203Z
+UID:e2cf83ff2163b115259f@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-chamber-jazz-ensemble-i-374039
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-chamber-jazz-ensembl
+ e-i-374039
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Piano Fantasies @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270407T193000
+DTEND;TZID=America/Montreal:20270407T223000
+DTSTAMP:20261126T203203Z
+UID:17ba25bff24e74e9652f@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/piano
+ -fantasies/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/piano-fantasies/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Concert Choir\, University Chorus\, and McGill Camerata | M
+ cGill Sings: A celebration of choral music! @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270407T193000
+DTEND;TZID=America/Montreal:20270407T213000
+DTSTAMP:20261126T203203Z
+UID:5f912c0f9504fcf27abf@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-concert-choir-university-chorus-and-mcgill-camerata-mcgill-sings-cele
+ bration-choral-music-374041
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-concert-choir-univer
+ sity-chorus-and-mcgill-camerata-mcgill-sings-celebration-choral-music-3740
+ 41
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra II | Fresh Sound\, New Talent: New works for
+  the Jazz Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270407T193000
+DTEND;TZID=America/Montreal:20270407T213000
+DTSTAMP:20261126T203203Z
+UID:6223087d0c79f2d1cf4e@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-ii-fresh-sound-new-talent-new-works-jazz-orchestra-374
+ 042
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-ii-fr
+ esh-sound-new-talent-new-works-jazz-orchestra-374042
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Musical 5 à 7 | Baroque Happy Hour @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270408T170000
+DTEND;TZID=America/Montreal:20270408T190000
+DTSTAMP:20261126T203203Z
+UID:1a1294a10bf244ca8dc8@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mu
+ sical-5-7-baroque-happy-hour-374043
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/musical-5-7-baroque-happy-h
+ our-374043
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Walter Smith III Meets Carlos Jiménez @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270408T193000
+DTEND;TZID=America/Montreal:20270408T223000
+DTSTAMP:20261126T203203Z
+UID:e4be66ca3003fb75986e@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/walte
+ r-smith-iii-meets-carlos-jimenez/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/walter-smith-iii-meets-carlos-jim
+ enez/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Three Pianos Playing Mozart @ Place des Arts
+DTSTART;TZID=America/Montreal:20270408T193000
+DTEND;TZID=America/Montreal:20270408T223000
+DTSTAMP:20261126T203203Z
+UID:5b8d6137ef9972d97c98@mtl-events
+DESCRIPTION:Place des Arts\n$40–205\nhttps://www.placedesarts.com/en/eve
+ nt/three-pianos-playing-mozart
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/three-pianos-playing-mozart
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Chemins de l’Amour @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270409T193000
+DTEND;TZID=America/Montreal:20270409T223000
+DTSTAMP:20261126T203203Z
+UID:97dfb5b44037e9bfd8c4@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/les-c
+ hemins-de-lamour/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/les-chemins-de-lamour/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Chamber Jazz Ensembles II and III @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270409T193000
+DTEND;TZID=America/Montreal:20270409T213000
+DTSTAMP:20261126T203203Z
+UID:ce9c95a22956da09303c@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-chamber-jazz-ensembles-ii-and-iii-374044
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-chamber-jazz-ensembl
+ es-ii-and-iii-374044
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Symphony Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270409T193000
+DTEND;TZID=America/Montreal:20270409T213000
+DTSTAMP:20261126T203203Z
+UID:1ff1370ee5b24f0e8b55@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-symphony-orchestra-374045
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-symphony-orchestra-3
+ 74045
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Notre-Dame de Paris: The Greatest Hits in Symphonic Concert @ Plac
+ e des Arts
+DTSTART;TZID=America/Montreal:20270409T193000
+DTEND;TZID=America/Montreal:20270409T223000
+DTSTAMP:20261126T203203Z
+UID:4aa97bdf52cea49b0391@mtl-events
+DESCRIPTION:Place des Arts\n$90–140\nhttps://www.placedesarts.com/en/eve
+ nt/notre-dame-de-paris-symphonic
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/notre-dame-de-paris-symphonic
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Symphony Orchestra @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270410T140000
+DTEND;TZID=America/Montreal:20270410T160000
+DTSTAMP:20261126T203203Z
+UID:aa07f7a0a4e577c7547e@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-symphony-orchestra-374047
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-symphony-orchestra-3
+ 74047
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Notre-Dame de Paris: The Greatest Hits in Symphonic Concert @ Plac
+ e des Arts
+DTSTART;TZID=America/Montreal:20270410T140000
+DTEND;TZID=America/Montreal:20270410T170000
+DTSTAMP:20261126T203203Z
+UID:a49a81eb47be5281cdd4@mtl-events
+DESCRIPTION:Place des Arts\n$90–150\nhttps://www.placedesarts.com/en/eve
+ nt/notre-dame-de-paris-symphonic
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/notre-dame-de-paris-symphonic
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vivaldi and Richter: The Four Seasons @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270410T193000
+DTEND;TZID=America/Montreal:20270410T223000
+DTSTAMP:20261126T203203Z
+UID:0352082a6798b892264a@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/vival
+ di-and-richter-the-four-seasons/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/vivaldi-and-richter-the-four-seas
+ ons/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Notre-Dame de Paris: The Greatest Hits in Symphonic Concert @ Plac
+ e des Arts
+DTSTART;TZID=America/Montreal:20270410T193000
+DTEND;TZID=America/Montreal:20270410T223000
+DTSTAMP:20261126T203203Z
+UID:cd37d1096199b28870b5@mtl-events
+DESCRIPTION:Place des Arts\n$90–140\nhttps://www.placedesarts.com/en/eve
+ nt/notre-dame-de-paris-symphonic
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/notre-dame-de-paris-symphonic
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Notre-Dame de Paris: The Greatest Hits in Symphonic Concert @ Plac
+ e des Arts
+DTSTART;TZID=America/Montreal:20270411T140000
+DTEND;TZID=America/Montreal:20270411T170000
+DTSTAMP:20261126T203203Z
+UID:a0f0e1bfaf2c5709554a@mtl-events
+DESCRIPTION:Place des Arts\n$90–150\nhttps://www.placedesarts.com/en/eve
+ nt/notre-dame-de-paris-symphonic
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/notre-dame-de-paris-symphonic
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anabel Montesinos @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270411T143000
+DTEND;TZID=America/Montreal:20270411T173000
+DTSTAMP:20261126T203203Z
+UID:1a5afcba8c31b69f46be@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/anabe
+ l-montesinos/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/anabel-montesinos/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Three Pianos Playing Mozart @ Place des Arts
+DTSTART;TZID=America/Montreal:20270411T143000
+DTEND;TZID=America/Montreal:20270411T173000
+DTSTAMP:20261126T203203Z
+UID:7cd8dc15654fa6853a39@mtl-events
+DESCRIPTION:Place des Arts\n$40–205\nhttps://www.placedesarts.com/en/eve
+ nt/three-pianos-playing-mozart
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/three-pianos-playing-mozart
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Flute Class Concert @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270411T170000
+DTEND;TZID=America/Montreal:20270411T190000
+DTSTAMP:20261126T203203Z
+UID:a4d388a90c30a0e3832b@mtl-events
+DESCRIPTION:McGill Schulich\nFree\nhttps://www.mcgill.ca/music/channels/ev
+ ent/flute-class-concert-374937
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/flute-class-concert-374937
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Three Pianos Playing Mozart @ Place des Arts
+DTSTART;TZID=America/Montreal:20270411T193000
+DTEND;TZID=America/Montreal:20270411T223000
+DTSTAMP:20261126T203203Z
+UID:da01d58ff98c1fac6f96@mtl-events
+DESCRIPTION:Place des Arts\n$40–205\nhttps://www.placedesarts.com/en/eve
+ nt/three-pianos-playing-mozart
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/three-pianos-playing-mozart
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Orchestra I | Ella Fitzgerald & Diane Schuur: Voices o
+ f Swing @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270412T193000
+DTEND;TZID=America/Montreal:20270412T213000
+DTSTAMP:20261126T203203Z
+UID:a5af3588383d46cdec9f@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-orchestra-i-ella-fitzgerald-diane-schuur-voices-swing-374049
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-orchestra-i-ell
+ a-fitzgerald-diane-schuur-voices-swing-374049
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marianne Lambert and Jeff Cohen @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270414T193000
+DTEND;TZID=America/Montreal:20270414T223000
+DTSTAMP:20261126T203203Z
+UID:d3d387205c8f6d215891@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/maria
+ nne-lambert-and-jeff-cohen/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/marianne-lambert-and-jeff-cohen/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:McGill Jazz Choir @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270414T193000
+DTEND;TZID=America/Montreal:20270414T213000
+DTSTAMP:20261126T203203Z
+UID:04fbc6e9544c74e9e2d2@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/mc
+ gill-jazz-choir-374053
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/mcgill-jazz-choir-374053
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Payare Conducts Mozart’s Great Mass in C Minor @ Place des Arts
+DTSTART;TZID=America/Montreal:20270414T193000
+DTEND;TZID=America/Montreal:20270414T223000
+DTSTAMP:20261126T203203Z
+UID:ee9d9b48d2c8f8251a1a@mtl-events
+DESCRIPTION:Place des Arts\n$40–199\nhttps://www.placedesarts.com/en/eve
+ nt/payare-conducts-mozart-great-mass-in-c-minor
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/payare-conducts-mozart-great-mas
+ s-in-c-minor
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Constellation de cordes @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270415T193000
+DTEND;TZID=America/Montreal:20270415T223000
+DTSTAMP:20261126T203203Z
+UID:bf48a9d7f64c8d02f17c@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/const
+ ellation-de-cordes/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/constellation-de-cordes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Don Giovanni — Mozart’s Masterpiece @ Place des Arts
+DTSTART;TZID=America/Montreal:20270415T193000
+DTEND;TZID=America/Montreal:20270415T223000
+DTSTAMP:20261126T203203Z
+UID:dd162da49ced65c0c5be@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/don-giovanni-mozart-masterpiece
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/don-giovanni-mozart-masterpiece
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Warsaw to Bucharest: A Musical Escapade @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270416T183000
+DTEND;TZID=America/Montreal:20270416T213000
+DTSTAMP:20261126T203203Z
+UID:2ec43ef870c1500c1db7@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/from-
+ warsaw-to-bucharest-a-musical-escapade-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/from-warsaw-to-bucharest-a-musica
+ l-escapade-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Don Giovanni — Mozart’s Masterpiece @ Place des Arts
+DTSTART;TZID=America/Montreal:20270417T143000
+DTEND;TZID=America/Montreal:20270417T173000
+DTSTAMP:20261126T203203Z
+UID:77d169f06402d21b5184@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/don-giovanni-mozart-masterpiece
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/don-giovanni-mozart-masterpiece
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Master Class - Pierre-Laurent Aimard @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270417T160000
+DTEND;TZID=America/Montreal:20270417T190000
+DTSTAMP:20261126T203203Z
+UID:243b612747199a875d83@mtl-events
+DESCRIPTION:Salle Bourgie\n$10\nhttps://www.mbam.qc.ca/en/activities/maste
+ r-class-pierre-laurent-aimard/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/master-class-pierre-laurent-aimar
+ d/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pierre-Laurent Aimard and George Benjamin @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270418T143000
+DTEND;TZID=America/Montreal:20270418T173000
+DTSTAMP:20261126T203203Z
+UID:9076628635982213f277@mtl-events
+DESCRIPTION:Salle Bourgie\n$65\nhttps://www.mbam.qc.ca/en/activities/pierr
+ e-laurent-aimard-and-george-benjamin/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/pierre-laurent-aimard-and-george-
+ benjamin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schulich@Bon-Pasteur @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270418T193000
+DTEND;TZID=America/Montreal:20270418T213000
+DTSTAMP:20261126T203203Z
+UID:0de17dfa5cb43cad974c@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/sc
+ hulichbon-pasteur-374057
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/schulichbon-pasteur-374057
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:María Dueñas\, Yannick and Saint-Saëns @ Place des Arts
+DTSTART;TZID=America/Montreal:20270422T193000
+DTEND;TZID=America/Montreal:20270422T223000
+DTSTAMP:20261126T203203Z
+UID:6ea4639c5e0f79d85c03@mtl-events
+DESCRIPTION:Place des Arts\n$38–149\nhttps://www.placedesarts.com/en/eve
+ nt/maria-duenas-yannick-and-saint-saens
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/maria-duenas-yannick-and-saint-s
+ aens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sacred Italy from Vivaldi to Puccini @ Place des Arts
+DTSTART;TZID=America/Montreal:20270424T193000
+DTEND;TZID=America/Montreal:20270424T223000
+DTSTAMP:20261126T203203Z
+UID:41ecfc8da8d9c3901883@mtl-events
+DESCRIPTION:Place des Arts\n$59\nhttps://www.placedesarts.com/en/event/sac
+ red-italy-from-vivaldi-to-puccini
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/sacred-italy-from-vivaldi-to-puc
+ cini
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marc‑André Hamelin Revisits Gershwin @ Place des Arts
+DTSTART;TZID=America/Montreal:20270428T193000
+DTEND;TZID=America/Montreal:20270428T223000
+DTSTAMP:20261126T203203Z
+UID:fac4f7c6bb15d7df036a@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/marc-andre-hamelin-revisits-gershwin
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/marc-andre-hamelin-revisits-gers
+ hwin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dance Away with Piazzolla @ Place des Arts
+DTSTART;TZID=America/Montreal:20270429T200000
+DTEND;TZID=America/Montreal:20270429T230000
+DTSTAMP:20261126T203203Z
+UID:d8a725c95219a7eb164c@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/dance-away-with-piazzolla
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/dance-away-with-piazzolla
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:live@CIRMMT | In situ @ McGill Schulich
+DTSTART;TZID=America/Montreal:20270430T193000
+DTEND;TZID=America/Montreal:20270430T213000
+DTSTAMP:20261126T203203Z
+UID:c53ac338c6a98693e421@mtl-events
+DESCRIPTION:McGill Schulich\nhttps://www.mcgill.ca/music/channels/event/li
+ vecirmmt-situ-374062
+LOCATION:Schulich School of Music\, McGill (555 rue Sherbrooke O)
+URL:https://www.mcgill.ca/music/channels/event/livecirmmt-situ-374062
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rigoletto @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270501T193000
+DTEND;TZID=America/Montreal:20270501T223000
+DTSTAMP:20261126T203203Z
+UID:3ad1fd9569d7d2b10ddb@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/rigoletto
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/rigoletto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Piotr Anderszewski @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270501T193000
+DTEND;TZID=America/Montreal:20270501T223000
+DTSTAMP:20261126T203203Z
+UID:e57dcbf71b64f56ddb52@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/piotr
+ -anderszewski/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/piotr-anderszewski/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Didon et Énée @ Place des Arts
+DTSTART;TZID=America/Montreal:20270501T193000
+DTEND;TZID=America/Montreal:20270501T223000
+DTSTAMP:20261126T203203Z
+UID:e2a94fda375f598c7760@mtl-events
+DESCRIPTION:Place des Arts\n$110–120\nhttps://www.placedesarts.com/en/ev
+ ent/didon-et-enee
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/didon-et-enee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marc‑André Hamelin Revisits Gershwin @ Place des Arts
+DTSTART;TZID=America/Montreal:20270502T143000
+DTEND;TZID=America/Montreal:20270502T173000
+DTSTAMP:20261126T203203Z
+UID:c425deee68576dc05196@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/marc-andre-hamelin-revisits-gershwin
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/marc-andre-hamelin-revisits-gers
+ hwin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rigoletto @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270504T193000
+DTEND;TZID=America/Montreal:20270504T223000
+DTSTAMP:20261126T203203Z
+UID:146daa2060ffbeb4f1b9@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/rigoletto
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/rigoletto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270504T193000
+DTEND;TZID=America/Montreal:20270504T223000
+DTSTAMP:20261126T203203Z
+UID:2062da113d72b2c66f26@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/cmim-final-mozart-round
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/cmim-final-mozart-round
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270504T193000
+DTEND;TZID=America/Montreal:20270504T223000
+DTSTAMP:20261126T203203Z
+UID:820dd9eb3f3124bef6f4@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/cmim-grand-final
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/cmim-grand-final
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270504T193000
+DTEND;TZID=America/Montreal:20270504T223000
+DTSTAMP:20261126T203203Z
+UID:272bde673c310c474695@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/piano-edition-cmim
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/piano-edition-cmim
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bach: Between Shadow and Light @ Place des Arts
+DTSTART;TZID=America/Montreal:20270504T200000
+DTEND;TZID=America/Montreal:20270504T230000
+DTSTAMP:20261126T203203Z
+UID:8398f90a7aeaf22b7e9b@mtl-events
+DESCRIPTION:Place des Arts\n$60\nhttps://www.placedesarts.com/en/event/bac
+ h-between-shadow-and-light
+LOCATION:Hydro-Québec Studio
+URL:https://www.placedesarts.com/en/event/bach-between-shadow-and-light
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Idées heureuses - Chaconne et chocolat : délectations arabes
+  @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270505T193000
+DTEND;TZID=America/Montreal:20270505T223000
+DTSTAMP:20261126T203203Z
+UID:311c3490ee77e89a2835@mtl-events
+DESCRIPTION:Salle Bourgie\n$32–65\nhttps://www.mbam.qc.ca/en/activities/
+ les-idees-heureuses---chaconne-et-chocolat-delectations-arabes-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/les-idees-heureuses---chaconne-et
+ -chocolat-delectations-arabes-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270505T193000
+DTEND;TZID=America/Montreal:20270505T223000
+DTSTAMP:20261126T203203Z
+UID:55595d82610576ddbb18@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/cmim-final-mozart-round
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/cmim-final-mozart-round
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270505T193000
+DTEND;TZID=America/Montreal:20270505T223000
+DTSTAMP:20261126T203203Z
+UID:c3a70acb0f87a754de38@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/cmim-grand-final
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/cmim-grand-final
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concours Final | Piano Edition @ Place des Arts
+DTSTART;TZID=America/Montreal:20270505T193000
+DTEND;TZID=America/Montreal:20270505T223000
+DTSTAMP:20261126T203203Z
+UID:36240fd194cd32cecdb7@mtl-events
+DESCRIPTION:Place des Arts\n$30–148\nhttps://www.placedesarts.com/en/eve
+ nt/piano-edition-cmim
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/piano-edition-cmim
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bach: Between Shadow and Light @ Place des Arts
+DTSTART;TZID=America/Montreal:20270505T200000
+DTEND;TZID=America/Montreal:20270505T230000
+DTSTAMP:20261126T203203Z
+UID:f23c3ad9a1a1d6c968a3@mtl-events
+DESCRIPTION:Place des Arts\n$60\nhttps://www.placedesarts.com/en/event/bac
+ h-between-shadow-and-light
+LOCATION:Hydro-Québec Studio
+URL:https://www.placedesarts.com/en/event/bach-between-shadow-and-light
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tribute to Paul Motian @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270506T180000
+DTEND;TZID=America/Montreal:20270506T210000
+DTSTAMP:20261126T203203Z
+UID:f330f222b1f73bbaf66c@mtl-events
+DESCRIPTION:Salle Bourgie\n$37\nhttps://www.mbam.qc.ca/en/activities/tribu
+ te-to-paul-motian/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/tribute-to-paul-motian/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rigoletto @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270506T193000
+DTEND;TZID=America/Montreal:20270506T223000
+DTSTAMP:20261126T203203Z
+UID:f44b64bb55b62526111d@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/rigoletto
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/rigoletto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sheku Kanneh-Mason and Benjamin Grosvenor @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270507T193000
+DTEND;TZID=America/Montreal:20270507T223000
+DTSTAMP:20261126T203203Z
+UID:9a121222b117cc2eb51a@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/sheku
+ -kanneh-mason-and-benjamin-grosvenor/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/sheku-kanneh-mason-and-benjamin-g
+ rosvenor/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rachmaninov: Piano Concerto No. 2 and The Bells @ Place des Arts
+DTSTART;TZID=America/Montreal:20270508T193000
+DTEND;TZID=America/Montreal:20270508T223000
+DTSTAMP:20261126T203203Z
+UID:bb0169a914516204a67d@mtl-events
+DESCRIPTION:Place des Arts\n$59–150\nhttps://www.placedesarts.com/en/eve
+ nt/rachmaninov-piano-concerto-the-bells
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/rachmaninov-piano-concerto-the-b
+ ells
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rigoletto @ Opéra de Montréal
+DTSTART;TZID=America/Montreal:20270509T140000
+DTEND;TZID=America/Montreal:20270509T170000
+DTSTAMP:20261126T203203Z
+UID:aa22d47a4ba17639b974@mtl-events
+DESCRIPTION:Opéra de Montréal\n$39\nhttps://operademontreal.com/en/progr
+ ams/rigoletto
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://operademontreal.com/en/programs/rigoletto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arion Orchestre Baroque - The Return of the King @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270509T143000
+DTEND;TZID=America/Montreal:20270509T173000
+DTSTAMP:20261126T203203Z
+UID:1dac383bd107291e93cd@mtl-events
+DESCRIPTION:Salle Bourgie\n$69\nhttps://www.mbam.qc.ca/en/activities/arion
+ -orchestre-baroque---the-return-of-the-king-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/arion-orchestre-baroque---the-ret
+ urn-of-the-king-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concerto Italiano @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270511T193000
+DTEND;TZID=America/Montreal:20270511T223000
+DTSTAMP:20261126T203203Z
+UID:3ae5472d79c751d83444@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/conce
+ rto-italiano26/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/concerto-italiano26/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meeting of Titans: Bruckner and Mehta @ Place des Arts
+DTSTART;TZID=America/Montreal:20270511T193000
+DTEND;TZID=America/Montreal:20270511T223000
+DTSTAMP:20261126T203203Z
+UID:20faa9ff3659366a2a79@mtl-events
+DESCRIPTION:Place des Arts\n$52–241\nhttps://www.placedesarts.com/en/eve
+ nt/meeting-of-titans-bruckner-and-mehta
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/meeting-of-titans-bruckner-and-m
+ ehta
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trio Fibonacci - Journey to Eastern Europe @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270512T193000
+DTEND;TZID=America/Montreal:20270512T223000
+DTSTAMP:20261126T203203Z
+UID:cbc3cf4de21149ff466b@mtl-events
+DESCRIPTION:Salle Bourgie\n$45\nhttps://www.mbam.qc.ca/en/activities/trio-
+ fibonacci---journey-to-eastern-europe-1/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/trio-fibonacci---journey-to-easte
+ rn-europe-1/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Classics from Mozart to Stravinsky @ Place des Arts
+DTSTART;TZID=America/Montreal:20270515T150000
+DTEND;TZID=America/Montreal:20270515T180000
+DTSTAMP:20261126T203203Z
+UID:423b6dfaf5f43c98e727@mtl-events
+DESCRIPTION:Place des Arts\n$38–229\nhttps://www.placedesarts.com/en/eve
+ nt/classics-from-mozart-to-stravinsky
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/classics-from-mozart-to-stravins
+ ky
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Florian Noack’s Symphonic Piano @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270518T193000
+DTEND;TZID=America/Montreal:20270518T223000
+DTSTAMP:20261126T203203Z
+UID:9877b9096350760573ba@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/flori
+ an-noacks-symphonic-piano/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/florian-noacks-symphonic-piano/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Modern Schubertiade @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270519T193000
+DTEND;TZID=America/Montreal:20270519T223000
+DTSTAMP:20261126T203203Z
+UID:bde8a87ec5a5fd9777c8@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/a-mod
+ ern-schubertiade/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/a-modern-schubertiade/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Strauss: Symphonic Imagination – Program 1 @ Place des A
+ rts
+DTSTART;TZID=America/Montreal:20270519T193000
+DTEND;TZID=America/Montreal:20270519T223000
+DTSTAMP:20261126T203203Z
+UID:a8923ae5b51814d94c9d@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/richard-strauss-symphonic-imagination-program-1
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/richard-strauss-symphonic-imagin
+ ation-program-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Strauss: Symphonic Imagination @ Place des Arts
+DTSTART;TZID=America/Montreal:20270520T103000
+DTEND;TZID=America/Montreal:20270520T133000
+DTSTAMP:20261126T203203Z
+UID:5344ec64b7070fcdb4f4@mtl-events
+DESCRIPTION:Place des Arts\n$34–103\nhttps://www.placedesarts.com/en/eve
+ nt/richard-strauss-symphonic-imagination-matinee
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/richard-strauss-symphonic-imagin
+ ation-matinee
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Strauss: Symphonic Imagination – Program 2 @ Place des A
+ rts
+DTSTART;TZID=America/Montreal:20270520T193000
+DTEND;TZID=America/Montreal:20270520T223000
+DTSTAMP:20261126T203203Z
+UID:727cda93f9d99daadef2@mtl-events
+DESCRIPTION:Place des Arts\n$40–193\nhttps://www.placedesarts.com/en/eve
+ nt/richard-strauss-symphonic-imagination-program-2
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/richard-strauss-symphonic-imagin
+ ation-program-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Star Wars: The Empire Strikes Back – In Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270521T193000
+DTEND;TZID=America/Montreal:20270521T223000
+DTSTAMP:20261126T203203Z
+UID:cc9ff2465059e14929f5@mtl-events
+DESCRIPTION:Place des Arts\n$90–145\nhttps://www.placedesarts.com/en/eve
+ nt/star-wars-the-empire-strikes-back-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/star-wars-the-empire-strikes-bac
+ k-in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Star Wars: The Empire Strikes Back – In Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270522T140000
+DTEND;TZID=America/Montreal:20270522T170000
+DTSTAMP:20261126T203203Z
+UID:d7b9e83700a5141e62a9@mtl-events
+DESCRIPTION:Place des Arts\n$90–145\nhttps://www.placedesarts.com/en/eve
+ nt/star-wars-the-empire-strikes-back-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/star-wars-the-empire-strikes-bac
+ k-in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Star Wars: The Empire Strikes Back – In Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270522T193000
+DTEND;TZID=America/Montreal:20270522T223000
+DTSTAMP:20261126T203203Z
+UID:ca1d89c23fdf516fd000@mtl-events
+DESCRIPTION:Place des Arts\n$90–145\nhttps://www.placedesarts.com/en/eve
+ nt/star-wars-the-empire-strikes-back-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/star-wars-the-empire-strikes-bac
+ k-in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven's Ode to Joy — The Season Finale! @ Place des Arts
+DTSTART;TZID=America/Montreal:20270525T193000
+DTEND;TZID=America/Montreal:20270525T223000
+DTSTAMP:20261126T203203Z
+UID:9156285d16bb64160880@mtl-events
+DESCRIPTION:Place des Arts\n$52–247\nhttps://www.placedesarts.com/en/eve
+ nt/lopez-and-beethoven
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lopez-and-beethoven
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven's Ode to Joy — The Season Finale! @ Place des Arts
+DTSTART;TZID=America/Montreal:20270526T193000
+DTEND;TZID=America/Montreal:20270526T223000
+DTSTAMP:20261126T203203Z
+UID:699a0d703cec838e3f87@mtl-events
+DESCRIPTION:Place des Arts\n$52–247\nhttps://www.placedesarts.com/en/eve
+ nt/lopez-and-beethoven
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lopez-and-beethoven
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:U. (un canto) @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270528T190000
+DTEND;TZID=America/Montreal:20270528T220000
+DTSTAMP:20261126T203203Z
+UID:10a3a6fdf416fc97229f@mtl-events
+DESCRIPTION:Salle Bourgie\n$56\nhttps://www.mbam.qc.ca/en/activities/u-un-
+ canto/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/u-un-canto/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beethoven's Ode to Joy — The Season Finale! @ Place des Arts
+DTSTART;TZID=America/Montreal:20270528T193000
+DTEND;TZID=America/Montreal:20270528T223000
+DTSTAMP:20261126T203203Z
+UID:a703d495a425ae881427@mtl-events
+DESCRIPTION:Place des Arts\n$52–247\nhttps://www.placedesarts.com/en/eve
+ nt/lopez-and-beethoven
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/lopez-and-beethoven
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:U. (un canto) @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270529T150000
+DTEND;TZID=America/Montreal:20270529T180000
+DTSTAMP:20261126T203203Z
+UID:7046732fc988793e5f3a@mtl-events
+DESCRIPTION:Salle Bourgie\n$56\nhttps://www.mbam.qc.ca/en/activities/u-un-
+ canto/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/u-un-canto/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:U. (un canto) @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270529T190000
+DTEND;TZID=America/Montreal:20270529T220000
+DTSTAMP:20261126T203203Z
+UID:81c76c42bc1a0cfec91c@mtl-events
+DESCRIPTION:Salle Bourgie\n$56\nhttps://www.mbam.qc.ca/en/activities/u-un-
+ canto/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/u-un-canto/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Symphonic Poems @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270601T193000
+DTEND;TZID=America/Montreal:20270601T223000
+DTSTAMP:20261126T203203Z
+UID:f97772fd589951d4c5ea@mtl-events
+DESCRIPTION:Salle Bourgie\n$50\nhttps://www.mbam.qc.ca/en/activities/symph
+ onic-poems/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/symphonic-poems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferland symphonique @ Place des Arts
+DTSTART;TZID=America/Montreal:20270602T200000
+DTEND;TZID=America/Montreal:20270602T230000
+DTSTAMP:20261126T203203Z
+UID:ee0a049036e0166499ca@mtl-events
+DESCRIPTION:Place des Arts\n$73–183\nhttps://www.placedesarts.com/en/eve
+ nt/ferland-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/ferland-symphonique
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferland symphonique @ Place des Arts
+DTSTART;TZID=America/Montreal:20270603T200000
+DTEND;TZID=America/Montreal:20270603T230000
+DTSTAMP:20261126T203203Z
+UID:2a25b20363e1113c1771@mtl-events
+DESCRIPTION:Place des Arts\n$73–183\nhttps://www.placedesarts.com/en/eve
+ nt/ferland-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/ferland-symphonique
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing Concert: Celebrating Bach @ Salle Bourgie
+DTSTART;TZID=America/Montreal:20270604T193000
+DTEND;TZID=America/Montreal:20270604T223000
+DTSTAMP:20261126T203203Z
+UID:442b84c5ef0e199fa576@mtl-events
+DESCRIPTION:Salle Bourgie\n$75\nhttps://www.mbam.qc.ca/en/activities/closi
+ ng-concert-celebrating-bach/
+LOCATION:Bourgie Hall\, 1339 rue Sherbrooke O
+URL:https://www.mbam.qc.ca/en/activities/closing-concert-celebrating-bach/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferland symphonique @ Place des Arts
+DTSTART;TZID=America/Montreal:20270604T200000
+DTEND;TZID=America/Montreal:20270604T230000
+DTSTAMP:20261126T203203Z
+UID:b553fd5d9ee5fdb8d815@mtl-events
+DESCRIPTION:Place des Arts\n$73–183\nhttps://www.placedesarts.com/en/eve
+ nt/ferland-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/ferland-symphonique
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferland symphonique @ Place des Arts
+DTSTART;TZID=America/Montreal:20270605T143000
+DTEND;TZID=America/Montreal:20270605T173000
+DTSTAMP:20261126T203203Z
+UID:ae468bc83c073bac4eec@mtl-events
+DESCRIPTION:Place des Arts\n$73–153\nhttps://www.placedesarts.com/en/eve
+ nt/ferland-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/ferland-symphonique
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferland symphonique @ Place des Arts
+DTSTART;TZID=America/Montreal:20270605T200000
+DTEND;TZID=America/Montreal:20270605T230000
+DTSTAMP:20261126T203203Z
+UID:9b4f31e9a1f86b40c1c1@mtl-events
+DESCRIPTION:Place des Arts\n$73–183\nhttps://www.placedesarts.com/en/eve
+ nt/ferland-symphonique
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/ferland-symphonique
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Requiem de Verdi @ Place des Arts
+DTSTART;TZID=America/Montreal:20270607T193000
+DTEND;TZID=America/Montreal:20270607T223000
+DTSTAMP:20261126T203203Z
+UID:b4add9e78ed0333a99fc@mtl-events
+DESCRIPTION:Place des Arts\n$66–153\nhttps://www.placedesarts.com/en/eve
+ nt/requiem-de-verdi-spnm
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/requiem-de-verdi-spnm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Belle Hélène @ Place des Arts
+DTSTART;TZID=America/Montreal:20270610T193000
+DTEND;TZID=America/Montreal:20270610T223000
+DTSTAMP:20261126T203203Z
+UID:46b8a979783cf5cf5d74@mtl-events
+DESCRIPTION:Place des Arts\n$50–195\nhttps://www.placedesarts.com/en/eve
+ nt/la-belle-helene
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/la-belle-helene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Belle Hélène @ Place des Arts
+DTSTART;TZID=America/Montreal:20270612T193000
+DTEND;TZID=America/Montreal:20270612T223000
+DTSTAMP:20261126T203203Z
+UID:e8cb29a26c17d8792c71@mtl-events
+DESCRIPTION:Place des Arts\n$50–195\nhttps://www.placedesarts.com/en/eve
+ nt/la-belle-helene
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/la-belle-helene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dream Requiem @ Place des Arts
+DTSTART;TZID=America/Montreal:20270615T193000
+DTEND;TZID=America/Montreal:20270615T223000
+DTSTAMP:20261126T203203Z
+UID:96d9fc280f3ff734c47f@mtl-events
+DESCRIPTION:Place des Arts\nhttps://www.placedesarts.com/en/event/dream-re
+ quiem
+LOCATION:Maison symphonique\, Place des Arts
+URL:https://www.placedesarts.com/en/event/dream-requiem
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicked: Part One – In Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270717T140000
+DTEND;TZID=America/Montreal:20270717T170000
+DTSTAMP:20261126T203203Z
+UID:f972dc0e45f05e1522cb@mtl-events
+DESCRIPTION:Place des Arts\n$58–184\nhttps://www.placedesarts.com/en/eve
+ nt/wicked-part-one-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/wicked-part-one-in-concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wicked: Part One – In Concert @ Place des Arts
+DTSTART;TZID=America/Montreal:20270717T193000
+DTEND;TZID=America/Montreal:20270717T223000
+DTSTAMP:20261126T203203Z
+UID:ecb7ca800c4988079ea0@mtl-events
+DESCRIPTION:Place des Arts\n$58–184\nhttps://www.placedesarts.com/en/eve
+ nt/wicked-part-one-in-concert
+LOCATION:Salle Wilfrid-Pelletier\, Place des Arts
+URL:https://www.placedesarts.com/en/event/wicked-part-one-in-concert
+END:VEVENT
+END:VCALENDAR

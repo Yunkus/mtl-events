@@ -615,10 +615,6 @@
 "image": "https://tpos.s3.amazonaws.com/events/BZ4/26/11/29/002/bz4261129002-1152x648-en-6ad3f56b.png",
 "about": "On veut vous inviter à nous joindre au notre premier concert de l'année à danser et célébrer la culture amérindienne de l'Amérique du Sud. Sera une soirée phénoménal avec beaucoup de danse et musique, on vous attend au QUAI DES BRUMES.Ici un peu de notre musique:https://www.youtube.com/watch?v=l3tWYwDAx1cTarikuna est un groupe de musique basé à Montréal, composé de musiciens originaires de Bolivie, du Pérou et de l'Équateur. Certains membres sont nés au Canada, tandis que d'autres sont des immigrants. Le groupe explore et interprète des rythmes autochtones traditionnels tels que le Wayno (Bolivie, Équateur, Pérou), le San Juanito (Équateur), le Tinku (Bolivie) et les Raymis (Équateur). Diversifié, il comprend une chanteuse et des musiciens jouant des instruments andins tels que la Zampoña, la Quena, des percussions, une guitare, une basse, un bandolin (instrument équatorien), un violon et un charango.Le projet de Tarikuna vise à partager la riche culture autochtone de la Bolivie, du Pérou et de l'Équateur avec la société québécoise-canadienne. Ils souhaitent transmettre leurs sentiments et leur respect pour la nature, car leurs communautés ont intégré l'esprit des Andes bien avant la colonisation de l'Amérique du Sud.Rejoignez-nous pour une soirée inoubliable, célébrant la diversité culturelle et la beauté des rythmes andins, en plein cœur de Montréal.#Tarikuna #MusiqueAndine #MusiqueTraditionnelle #Bolivie #Pérou #Équateur #Montréal #Concert #CultureAutochtone #LaCasaDelPopolo #Wayno #SanJuanito #Tinku #Raymis #Zampoña #Quena #Charango #Bandolin #MusiqueLatino #ÉvénementMontréal #DiversitéCulturelle #amérique"
 },
-"https://quaidesbrumes.ca/evenements/57-lancement-khi-de-mars-cest-peut-etre-un-peu-a-cause-de-moi/": {
-"image": "",
-"about": ""
-},
 "https://lepointdevente.com/billets/myriamtriste?lang=fr": {
 "image": "https://tpos.s3.amazonaws.com/events/AK1/26/11/29/001/myriamtriste-1152x648-fr-6af51779.png",
 "about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
@@ -1774,5 +1770,29 @@
 "https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil-avec-la-cachaca/62780": {
 "image": "https://www.ateliersetsaveurs.com/uploads/courses/pictures/large/10981-20250131035822.jpg",
 "about": "Régalez-vous avec notre cours de cocktail #62780 tendance cocktails le 28 novembre 12:00 à 14:00."
+},
+"https://lepointdevente.com/billets/ds6261202001?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/DS6/26/12/02/001/ds6261202001-1152x648-fr-6b0876a4.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://lepointdevente.com/billets/ds6261209001?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/DS6/26/12/09/001/ds6261209001-1152x648-fr-6b08774e.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://lepointdevente.com/billets/ds6261216001?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/DS6/26/12/16/001/ds6261216001-1152x648-fr-6b087842.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://lepointdevente.com/billets/ds6261223001?lang=fr": {
+"image": "https://tpos.s3.amazonaws.com/events/DS6/26/12/23/001/ds6261223001-1152x648-fr-6b0878a5.png",
+"about": "Découvrez une multitude d'événements dans votre région et faites plaisir à vos proches. Achetez des billets en quelques clics."
+},
+"https://cinemacinema.ca/fr/films/digger-2099": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/digger_final_fr.jpg",
+"about": "Le cinéaste gagnant des Academy Award Alejandro G. Iñárritu signe son retour avec DIGGER, un film original mettant en vedette Tom Cruise dans le rôle-titre.L’homme le plus puissant du monde se lance dans une course contre la montre pour prouver qu’il est le sauveur de l’humanité avant que la catastrophe qu’il a déclenchée ne détruise tout."
+},
+"https://cinemacinema.ca/fr/films/your-mother-your-mother-your-mother-2381": {
+"image": "https://img.cinemacinema.ca/Affiches/parc/your-mother_no-date.jpg",
+"about": "Latif, un tueur à gages profondément croyant, tente de concilier son travail, sa foi et son rôle de père. À la mort de sa femme, il se lance dans une traversée désespérée de Houston pour protéger ses enfants. Sur son chemin, il doit affronter les forces qui se resserrent autour de lui, mais aussi les convictions qui menacent de vaciller en lui."
 }
 }

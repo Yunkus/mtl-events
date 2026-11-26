@@ -450,6 +450,297 @@ def mbam_series(slug_prefix: str, source: str = "MBAM") -> list[Ev]:
     return out
 
 
+# ------------------------------------------------------ classical & opera
+MONTH_RX = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+
+
+def clock(s: str) -> time | None:
+    """'7:30 p.m.', '07:30 pm', '19h30', '14:00' -> time."""
+    m = re.search(r"(\d{1,2})(?::|\s?h\s?)(\d{2})?\s*([ap])?\.?\s*m?\b", s or "", re.I)
+    if not m:
+        return None
+    h, mi = int(m.group(1)), int(m.group(2) or 0)
+    if m.group(3) and m.group(3).lower() == "p" and h < 12:
+        h += 12
+    if m.group(3) and m.group(3).lower() == "a" and h == 12:
+        h = 0
+    return time(h, mi) if h < 24 and mi < 60 else None
+
+
+def salle_bourgie() -> list[Ev]:
+    """Bourgie Hall (the Museum of Fine Arts' concert hall): its concert list (/en/bourgie-hall/?page=N) links each
+    concert's page; the page has the date(s) and time ('Thursday December 10, 2026 at 07:30 pm'), the prices
+    ('General public: $75') and a schema.org description. Talks are left out."""
+    from concurrent.futures import ThreadPoolExecutor
+    cards, seen = {}, set()
+    for n in range(1, 9):
+        s = soup(f"https://www.mbam.qc.ca/en/bourgie-hall/?page={n}")
+        found = 0
+        for a in s.find_all("a", href=re.compile(r"^/en/activities/")):
+            u = "https://www.mbam.qc.ca" + a["href"].split("?")[0]
+            if u in seen:
+                continue
+            seen.add(u)
+            found += 1
+            series = a.find(string=re.compile(r"^\s*●"))
+            cards[u] = clean(series).lstrip("● ") if series else ""
+        if not found:
+            break
+
+    def read(item):
+        u, series = item
+        if re.search(r"conference|talk|lecture|causerie", series, re.I):
+            return []
+        try:
+            s = soup(u)
+        except requests.RequestException:
+            return []
+        ld = {}
+        for sc in s.find_all("script", type="application/ld+json"):
+            try:
+                d = json.loads(sc.string or "", strict=False)
+            except ValueError:
+                continue
+            if isinstance(d, dict) and d.get("@type") == "Event":
+                ld = d
+        for t in s(["script", "style"]):
+            t.decompose()
+        text = clean(s.get_text(" "))
+        title = clean(ld.get("name") or (s.find("h1").get_text(" ") if s.find("h1") else ""))
+        if not title:
+            return []
+        when = dict.fromkeys(re.findall(MONTH_RX + r"\s+(\d{1,2}),\s+(\d{4})\s+at\s+(\d{1,2}:\d{2}\s*[ap]m)", text, re.I))
+        public = re.search(r"General public:\s*\$\s?(\d+(?:\.\d{2})?)", text)
+        amounts = [float(x) for x in re.findall(r"\$\s?(\d+(?:\.\d{2})?)", text[:3000])]
+        out = []
+        for mo, dy, yr, hm in when:
+            ev = Ev("Salle Bourgie", title, local(date(int(yr), EN_MONTHS[mo.lower()], int(dy)), clock(hm)), u,
+                    location="Bourgie Hall, 1339 rue Sherbrooke O")
+            ev.blurb = series
+            ev.desc = clean(ld.get("description") or "")
+            ev.image = ld.get("image") or ""
+            if public:
+                priced(ev, None, float(public.group(1)))
+            elif amounts:
+                priced(ev, None, min(amounts), max(amounts))
+            elif re.search(r"\bfree\b", text[:3000], re.I):
+                priced(ev, True)
+            out.append(ev)
+        return out
+
+    with ThreadPoolExecutor(6) as pool:
+        return [e for evs in pool.map(read, cards.items()) for e in evs]
+
+
+MCGILL_SKIP = re.compile(r"colloqui|lecture|master ?class|workshop|audition|conference|symposium|seminar|info session|"
+                         r"open house|\btalk\b|panel|webinar|deadline|convocation|orientation|meeting|lunch & learn", re.I)
+
+
+def mcgill_schulich() -> list[Ev]:
+    """McGill's Schulich School of Music: its calendar page holds the whole season in one page (title, start and end
+    of each event). Talks, colloquia, masterclasses and auditions are left out. Student recitals and class
+    concerts are free. (Only this one page is read: the site's other listings sit behind a bot check.)"""
+    s = soup("https://www.mcgill.ca/music/events/calendar")
+    out, seen = [], set()
+    for a in s.find_all("a", href=re.compile(r"/music/channels/event/"), attrs={"start": True}):
+        title = clean(a.get("title") or "")
+        if not title or MCGILL_SKIP.search(title):
+            continue
+        try:
+            start = datetime.strptime(a["start"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
+            end = datetime.strptime(a["end"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ) if a.get("end") else None
+        except ValueError:
+            continue
+        url = "https://www.mcgill.ca" + a["href"]
+        if (url, start) in seen:
+            continue
+        seen.add((url, start))
+        ev = Ev("McGill Schulich", title, start, url, end if end and end > start else None,
+                "Schulich School of Music, McGill (555 rue Sherbrooke O)")
+        if re.search(r"recital|class concert|studio class|ensembles?$", title, re.I):
+            priced(ev, True)
+        out.append(ev)
+    return out
+
+
+def opera_de_montreal() -> list[Ev]:
+    """Opéra de Montréal: the season page lists each production; its page has every performance
+    ('May 1, 2027 - 19h30'), the hall ('Venue: …') and the lowest price ('Starting at $39').
+    School shows and postponed productions are left out."""
+    base = "https://operademontreal.com"
+    s = soup(base + "/en/programs")
+    prods = {}
+    for card in s.select("article.events__card"):
+        a = card.find("a", href=re.compile(r"/en/programs/"))
+        if not a or "spectacles-scolaires" in " ".join(card.get("class", [])):
+            continue
+        if re.search(r"postponed|report[ée]", card.get_text(" "), re.I):
+            continue
+        style = card.select_one(".events__card-style")
+        place = card.select_one(".events__card-place")
+        prods[a["href"].strip()] = (clean(style.get_text(" ")) if style else "", clean(place.get_text(" ")) if place else "")
+    out = []
+    for u, (style, card_place) in prods.items():
+        try:
+            p = soup(u)
+        except requests.RequestException:
+            continue
+        og = p.find("meta", property="og:image")
+        h1 = p.find("h1")
+        for t in p(["script", "style", "nav", "header", "footer"]):
+            t.decompose()
+        text = clean(p.get_text(" "))
+        title = clean(h1.get_text(" ")) if h1 else u.rstrip("/").rsplit("/", 1)[-1].replace("-", " ").title()
+        venue = re.search(r"Venue:\s*(.+?)\s+(?:Language|Audio|Season|Starting|Opera style|$)", text)
+        price = re.search(r"Starting at \$\s?(\d+)", text)
+        about = next((clean(x.get_text(" ")) for x in p.find_all("p") if len(clean(x.get_text(" "))) > 120), "")
+        for mo, dy, yr, hh, mm in dict.fromkeys(re.findall(MONTH_RX + r"\s+(\d{1,2}),\s+(\d{4})\s*-\s*(\d{1,2})h(\d{2})", text)):
+            ev = Ev("Opéra de Montréal", title, local(date(int(yr), EN_MONTHS[mo.lower()], int(dy)), time(int(hh), int(mm))),
+                    u, location=clean(venue.group(1)) if venue else card_place)
+            ev.blurb = f"opera {style}"
+            ev.desc = about
+            ev.image = og["content"] if og and og.get("content") else ""
+            out.append(priced(ev, None, float(price.group(1))) if price else ev)
+    return out
+
+
+PDA_CACHE = OUT / "pda_cache.json"   # Place des Arts event page -> what it says; each page is read at most once a day
+PDA_AWAY = re.compile(r"Fernand-Lindsay|Joliette|Mascouche|Lanaudi|Matha|M[ée]lanie|Alphonse|Ambroise|"
+                      r"Jean-Pierre Ferland|Ar[ôo]mes et saveurs|Grand D[ée]rangement|CRAPO", re.I)
+PDA_KEEP = re.compile(r"classical music|op[ée]ra|lyrique", re.I)   # not "Classical Ballet"
+
+
+def place_des_arts() -> list[Ev]:
+    """Place des Arts (OSM, Orchestre Métropolitain, Opéra, chamber festivals…): every event page is in the site's
+    sitemap; each page carries its discipline ('Classical Music', 'Romantic Opera'…), hall and producer in a small
+    data block, and lists its performances with time and price. Only classical music and opera are kept.
+    Pages are read at most once a day (remembered in docs/pda_cache.json)."""
+    from concurrent.futures import ThreadPoolExecutor
+    try:
+        cache = json.loads(PDA_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    today = datetime.now(TZ).date()
+    recent = (today - timedelta(days=150)).isoformat()
+    index = get("https://www.placedesarts.com/sitemap.xml").text
+    pages = []
+    for sm in re.findall(r"<loc>([^<]*section-event[^<]*)</loc>", index):
+        xml = get(sm).text
+        for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
+            en = re.search(r'hreflang="en-ca" href="([^"]+)"', block)
+            mod = re.search(r"<lastmod>([^<]+)", block)
+            if en and mod and mod.group(1)[:10] >= recent:
+                pages.append(en.group(1))
+    pages = list(dict.fromkeys(pages))
+
+    def read(u):
+        try:
+            s = BeautifulSoup(get(u).content, "html.parser")
+        except requests.RequestException:
+            return u, None
+        gtm = {}
+        tag = s.find("script", id="eventGTM")
+        if tag:
+            try:
+                gtm = json.loads(tag.string or "{}")
+            except ValueError:
+                pass
+        info = {"day": today.isoformat(), "discipline": " • ".join(gtm.get("eventDiscipline") or []),
+                "sub": " • ".join(gtm.get("eventSubCategory") or [])}
+        if not PDA_KEEP.search(info["discipline"] + " " + info["sub"]):
+            return u, info
+        og_img = s.find("meta", property="og:image")
+        og_desc = s.find("meta", property="og:description")
+        perfs = []
+        for p in s.select("div.sb-performance"):
+            d = p.select_one(".sb-performance__date")
+            h = p.select_one(".hour")
+            pr = p.select_one(".sb-performance__price")
+            perfs.append([clean(d.get_text(" ")) if d else "", clean(h.get_text(" ")) if h else "",
+                          clean(pr.get_text(" ")) if pr else "", bool(p.find(attrs={"data-tag": "sold_out"}))])
+        info.update(title=clean(gtm.get("eventName") or ""), place=", ".join(gtm.get("eventPlace") or []),
+                    producer=clean(gtm.get("eventProducer") or ""), perfs=perfs,
+                    image=og_img["content"] if og_img and og_img.get("content") else "",
+                    desc=clean(og_desc["content"]) if og_desc and og_desc.get("content") else "")
+        return u, info
+
+    todo = [u for u in pages if (cache.get(u) or {}).get("day") != today.isoformat()]
+    with ThreadPoolExecutor(8) as pool:
+        for u, info in pool.map(read, todo):
+            if info is not None:
+                cache[u] = info
+    PDA_CACHE.write_text(json.dumps({u: cache[u] for u in pages if u in cache}, ensure_ascii=False, indent=0),
+                         encoding="utf-8")
+    out = []
+    for u in pages:
+        info = cache.get(u) or {}
+        if not info.get("perfs") or not info.get("title"):
+            continue
+        place = info.get("place") or ""
+        if PDA_AWAY.search(place):   # Festival de Lanaudière and other concerts outside Montreal
+            continue
+        if place and "place des arts" not in place.lower() and place in (
+                "Maison symphonique", "Salle Wilfrid-Pelletier", "Théâtre Maisonneuve", "Cinquième Salle",
+                "Salle Claude-Léveillée", "Théâtre Jean-Duceppe", "Piano Nobile"):
+            place += ", Place des Arts"
+        for day, hour, price, sold_out in info["perfs"]:
+            m = re.search(MONTH_RX + r"\s+(\d{1,2}),\s+(\d{4})", day)
+            if not m:
+                continue
+            d = date(int(m.group(3)), EN_MONTHS[m.group(1).lower()], int(m.group(2)))
+            ev = Ev("Place des Arts", info["title"], local(d, clock(hour)), u, location=place.replace("Salle Bourgie", "Bourgie Hall"))
+            ev.blurb = f"{info.get('discipline', '')} • {info.get('sub', '')} • {info.get('producer', '')}"
+            ev.desc = info.get("desc") or ""
+            ev.image = info.get("image") or ""
+            out.append(priced(ev, *price_from_text(price)) if price else ev)
+    return out
+
+
+CLASSICAL_PRIORITY = ["Opéra de Montréal", "Salle Bourgie", "McGill Schulich", "Place des Arts"]
+
+
+def dedupe_concerts(events: list[Ev]) -> list[Ev]:
+    """The same performance from two sources (an Opéra production also sold by Place des Arts, a festival concert
+    at Bourgie Hall): same day, starting within 90 minutes, sharing a word of the title. The organizer's own
+    listing is kept (CLASSICAL_PRIORITY order)."""
+    rank = {s: i for i, s in enumerate(CLASSICAL_PRIORITY)}
+    kept: list[Ev] = []
+    for e in sorted(events, key=lambda e: rank.get(e.source, 99)):
+        words = {w for w in plain_text(e.title).split() if len(w) > 3}
+        if isinstance(e.start, datetime) and any(
+                o.source != e.source and isinstance(o.start, datetime) and abs(o.start - e.start) <= timedelta(minutes=90)
+                and words & set(plain_text(o.title).split()) for o in kept):
+            continue
+        kept.append(e)
+    return kept
+
+
+# Kinds of classical concert (the "Type" row in Classical & Opera), from the title and the source's own category
+CLASSICAL_TYPES = [
+    ("Opera", r"op[ée]ra|operetta|op[ée]rette|\bbuffa\b|zarzuela|lyrique"),
+    ("Orchestral", r"orchestr|symphon|philharm|sinfonia|concerto|\bosm\b|\bnagano\b"),
+    ("Chamber Music", r"chamber|de chambre|quartet|quatuor|\btrio\b|quintet|sonata|sonate|\bduo\b|strings"),
+    ("Choral & Vocal", r"choir|choral|ch(?:oe|œ)ur|chorale|\bvoice\b|\bvoix\b|lieder|\blied\b|song interpretation|"
+                       r"soprano|mezzo|tenor|ténor|baritone|baryton|countertenor|messiah|oratorio|cantat|spirituals|vocal"),
+    ("Solo & Recitals", r"\b(?:violin|viola|cello|bassoon|flute|clarinet|oboe|horn|trumpet|trombone|tuba|harp|saxophone)\b.*"
+                        r"\bclass concert|\bpiano|\borgan\b|\borgue\b|guitar|guitare|harpsichord|clavecin|claviers|r[ée]cital|recital"),
+    ("Early Music", r"baroque|early music|musique ancienne|\bviols?\b|cappella antica|renaissance|\bbach\b|handel|"
+                    r"haendel|vivaldi|seicento|violons du roy|monteverdi|purcell"),
+    ("Contemporary", r"contemporary|contemporain|new music|musique nouvelle|d'aujourd'hui|electroacoust|cirmmt|"
+                     r"composition|premi[eè]re|cr[ée]ation"),
+    ("Film in Concert", r"film soundtrack|animation|live[- ]to[- ]film|cin[ée][- ]?concert"),
+    ("Jazz", r"jazz|\bswing\b|big band|buena vista"),
+    ("Family", r"young audiences|famil|jeune public|\bkids\b|enfants|peter and the wolf"),
+    ("Holiday Season", r"no[eë]l|christmas|holiday|f[êe]tes|messiah|nutcracker"),
+]
+_CLASSICAL_RX = [(g, re.compile(p, re.I)) for g, p in CLASSICAL_TYPES]
+
+
+def classical_types(e: Ev) -> list[str]:
+    text = f"{e.title} {e.blurb}"
+    return [g for g, rx in _CLASSICAL_RX if rx.search(text)]
+
+
 def mccord_after_hours() -> list[Ev]:
     """McCord Stewart Museum 'After Hours': the page's 'Next event' spot says 'Stay tuned!' until a date is set;
     when it shows an English date ('Thursday, January 22, 2027 … 6 pm'), that becomes the event."""
@@ -550,8 +841,23 @@ def newspeak() -> list[Ev]:
                     f"https://www.universe.com/events/{slug}",
                     iso(e["end_time"]) if e.get("end_time") else None, lst.get("venue_name") or "Newspeak")
             ev.image = lst.get("image_url_500") or lst.get("image_url") or ""
+            ev.desc = universe_about(lst)
             out.append(priced(ev, *universe_rates(d)))
     return out
+
+
+UNIVERSE_BOILERPLATE = re.compile(r"^(portes|doors|spectacle|show|d[ée]but|start)\s*:|^\d+\+$|rembours|refund|presale|pr[ée]vente|"
+                                  r"sign ?up|laylo|^billets|^tickets|pr[ée]sente(nt)?$|presents?$|^ages?\b", re.I)
+
+
+def universe_about(lst: dict) -> str:
+    """A Universe listing's description without the door times, age limit, refund policy and presale links
+    (often that's all there is: then nothing)."""
+    title = plain_text(lst.get("title") or "")
+    lines = [clean(x) for x in (lst.get("description") or "").splitlines()]
+    keep = [x for x in lines if x and not UNIVERSE_BOILERPLATE.search(x) and plain_text(x) != title]
+    text = "\n".join(keep)
+    return text if len(text) > 60 else ""
 
 
 def universe_rates(d: dict) -> tuple[bool | None, float | None, float | None]:
@@ -1018,8 +1324,8 @@ ROOM_NAMES = {
     "sat – other": "SAT",
     "sat – sat space": "SAT",                 # the main hall; "SAT" alone means the same building
     "sat – satosphere": "SAT – Satosphère",
-    "esc, h2x 2t3": "ESC, 2023 boul. Saint-Laurent",
-    "esc": "ESC, 2023 boul. Saint-Laurent",
+    "esc, h2x 2t3": "2023 boul. Saint-Laurent",   # LATEX.'s venue; the organizer calls it just "ESC"
+    "esc": "2023 boul. Saint-Laurent",
     "2000 av. northcliffe, montréal, qc h4a 3k5, canada": "Soft Studio Days, 2000 av. Northcliffe #216",
     "soft studio days, 2000 av. northcliffe #216, montréal, qc h4a 3k5, canada": "Soft Studio Days, 2000 av. Northcliffe #216",
     "montréal": "", "montreal": "",   # says nothing: the whole site is Montreal
@@ -1962,6 +2268,9 @@ JAZZ_ROOMS = {"Dièse Onze", "Bistro à Jojo"}
 def tag_genres(e: Ev, tab: str) -> None:
     if tab in ("museums", "movies", "oysters"):
         return
+    if tab == "classical":
+        e.genres = classical_types(e)
+        return
     tags = list(dict.fromkeys(e.genres + genres_in(e.title) + genres_in(e.blurb)))
     if is_comedy(e):
         tags = ["Comedy"]
@@ -2041,6 +2350,7 @@ def source_tab(name: str) -> str:
 # tab id -> (title, feed file); order = order on the page
 TABS = {
     "music": ("Montreal Music & Dance", "music.ics"),
+    "classical": ("Montreal Classical & Opera", "classical.ics"),
     "other": ("Montreal Other Events", "other.ics"),
     "bars": ("Montreal Bar Nights", "bars.ics"),
     "city": ("Montreal City Events", "city.ics"),
@@ -2058,6 +2368,9 @@ SOURCE_GROUPS = [
     # Montreal Art Center: its film screenings go to Movies, exhibitions and events to Museums & Galleries
     ({"Montreal Art Center": montreal_art_center}, lambda e: "movies" if e.kind == "Screening" else "museums",
      lambda name: "museums"),
+    # concert halls and the opera: their own tab, with kinds of concert instead of genres
+    ({"Opéra de Montréal": opera_de_montreal, "Salle Bourgie": salle_bourgie, "McGill Schulich": mcgill_schulich,
+      "Place des Arts": place_des_arts}, lambda e: "classical", lambda name: "classical"),
     ({"Cinéma Cinéma": cinema_cinema, "Cinéma Moderne": cinema_moderne}, lambda e: "movies", lambda name: "movies"),
 ]
 # calendar.ics (the original feed) keeps carrying both event tabs, so existing subscriptions don't change
@@ -2186,7 +2499,8 @@ def last_moment(e: Ev) -> datetime:
 
 # ------------------------------------------------------------------ images & descriptions
 IMAGE_CACHE = OUT / "image_cache.json"   # event page URL -> {"image": share image, "about": description}; kept between runs
-NO_IMAGE_LOOKUP = ("ra.co", "linktr.ee", "zeffy.com", "facebook.com", "tixr.com", "macm.org", "instagram.com")
+NO_IMAGE_LOOKUP = ("mcgill.ca",   # its event pages sit behind a bot check when asked for many at once
+                   "ra.co", "linktr.ee", "zeffy.com", "facebook.com", "tixr.com", "macm.org", "instagram.com")
 
 
 def plain_text(s: str) -> str:
@@ -2355,6 +2669,7 @@ def main() -> int:
                 traceback.print_exc(limit=2)
 
     by_tab["bars"] = dedupe_bar_nights(by_tab["bars"])
+    by_tab["classical"] = dedupe_concerts(by_tab["classical"])
     by_tab["music"] = merge_repeats(sorted(by_tab["music"], key=sort_key))
     tidy_rooms([e for evs in by_tab.values() for e in evs])
     fill_page_info([e for evs in by_tab.values() for e in evs])
@@ -2372,7 +2687,7 @@ def main() -> int:
 
     alerts = check_health(status)
     payload = {"generated": datetime.now(TZ).isoformat(timespec="minutes"),
-               "tabs": tabs, "sources": status, "genres": [g for g, _ in GENRES], "events": payload_events}
+               "tabs": tabs, "sources": status, "genres": list(dict.fromkeys([g for g, _ in GENRES] + [g for g, _ in CLASSICAL_TYPES])), "events": payload_events}
     (OUT / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(payload_events)} events written to {OUT}")
     ALERTS.unlink(missing_ok=True)

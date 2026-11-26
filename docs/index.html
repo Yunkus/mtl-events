@@ -248,11 +248,18 @@
   .sub .menu small { display: block; color: var(--muted); font-size: 12px; padding: 4px 10px 2px; white-space: normal; }
 
   /* ---- tabs: all visible, no sideways scrolling. Full names on wide screens (wrapping if needed),
-     short names below 860px, and a 4 × 2 grid with the count under each name on phones */
+     short names below 860px, and a 5 × 2 grid with the count under each name below 700px */
   .tabs { flex-wrap: wrap; gap: 2px; }
-  .tab { flex: none; padding-left: 9px; padding-right: 9px; }
+  .tab { flex: none; padding-left: 5px; padding-right: 5px; }
   .tab .ls { display: none; }
   @media (max-width: 860px) { .tab .lf { display: none; } .tab .ls { display: inline; } }
+  @media (max-width: 700px) {
+    .tabs { margin-top: 10px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; }
+    .tab { padding: 6px 2px 5px; font-size: 13px; text-align: center; border-radius: 8px; display: flex; flex-direction: column;
+           align-items: center; gap: 2px; min-width: 0; }
+    .tab .n { margin: 0; font-size: 11px; }
+    .tab[aria-selected="true"] { box-shadow: inset 0 0 0 1px var(--amber-dark), inset 0 2px 0 var(--amber); }
+  }
 
   /* ---- phones: compact header so tonight's events show without scrolling */
   @media (max-width: 640px) {
@@ -264,11 +271,6 @@
     .meta { font-size: 12px; }
     .band .meta { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .sub { flex: none; }
-    .tabs { margin-top: 10px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
-    .tab { padding: 6px 2px 5px; font-size: 14px; text-align: center; border-radius: 8px; display: flex; flex-direction: column;
-           align-items: center; gap: 2px; min-width: 0; }
-    .tab .n { margin: 0; font-size: 11px; }
-    .tab[aria-selected="true"] { box-shadow: inset 0 0 0 1px var(--amber-dark), inset 0 2px 0 var(--amber); }
     .search { margin-top: 8px; }
     .picks { margin-top: 14px; }
   }
@@ -336,17 +338,18 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music & Dance", other: "Other Events", bars: "Bar Nights", city: "City Events", oysters: "Oysters",
+const TAB_LABEL = { music: "Music & Dance", classical: "Classical & Opera", other: "Other Events", bars: "Bar Nights", city: "City Events", oysters: "Oysters",
                     museums: "Museums & Galleries", movies: "Movies",
                     date: "By Date" };
-const TAB_SHORT = { music: "Music", other: "Other", bars: "Bars", city: "City", oysters: "Oysters", museums: "Museums",
+const TAB_SHORT = { music: "Music", classical: "Classical", other: "Other", bars: "Bars", city: "City", oysters: "Oysters", museums: "Museums",
                     movies: "Movies", date: "By Date" };   // narrow screens
-const PLACEHOLDER = { music: "Search artists, titles, rooms…", other: "Search events, venues…",
+const PLACEHOLDER = { music: "Search artists, titles, rooms…", classical: "Search composers, performers, halls…", other: "Search events, venues…",
                       bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", oysters: "Search restaurants, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
                       date: "Search this day…" };
 // "By Date" view: everything on one day, in this order of types
 const DAY_GROUPS = [
   ["Music & Dance", e => e.tab === "music"],
+  ["Classical & Opera", e => e.tab === "classical"],
   ["Other Events", e => e.tab === "other"],
   ["Bar Nights", e => e.tab === "bars"],
   ["City Events", e => e.tab === "city"],
@@ -355,7 +358,7 @@ const DAY_GROUPS = [
   ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
   ["Movies", e => e.tab === "movies"],
 ];
-const EVENT_TABS = ["music", "other", "bars", "city", "oysters"];   // tabs filtered by venue chips
+const EVENT_TABS = ["music", "classical", "other", "bars", "city", "oysters"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -473,7 +476,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   const tabBtns = {};
   for (const id of allTabs) {
     const b = el("button", "tab"); b.setAttribute("role", "tab");
-    b.append(el("span", "lf", id === "museums" ? "Museums" : TAB_LABEL[id] || id),   // "& Galleries" won't fit on one row
+    b.append(el("span", "lf", { museums: "Museums", classical: "Classical" }[id] || TAB_LABEL[id] || id),   // full names won't all fit on one row
              el("span", "ls", TAB_SHORT[id] || TAB_LABEL[id] || id));
     if (id !== "date") b.appendChild(el("span", "n", ""));
     b.onclick = () => select(id);
@@ -522,6 +525,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     $("sub").style.display = id === "date" ? "none" : "";   // no feed for a single day
     $("sub").open = false;
     if (id === "music") genreSel.forEach(g => { if (!MUSIC_GENRES.has(g)) genreSel.delete(g); });   // not listed there
+    if (id === "classical" || id === "oysters") slot = "any";   // no Early / Late buttons there to switch it off
+    if (id !== "date") genreSel.forEach(g => { if (!events.some(e => e.tab === id && (e.genres || []).includes(g))) genreSel.delete(g); });   // a type this tab doesn't have would hide everything
     $("subnote").textContent = `Every event in ${TAB_LABEL[id] || "this tab"}, in your calendar. It updates by itself.`;
     if (id === "date") { setDay(dayPick); return; }
     history.replaceState(null, "", "#" + id);
@@ -582,7 +587,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   })();
   const priceKnown = e => e.free || e.price_lo != null;
   const hasPrices = list => list.some(priceKnown);
-  const genreTabs = ["music", "other", "city", "date"];
+  const genreTabs = ["music", "classical", "other", "city", "date"];
   const MUSIC_GENRES = new Set(["Techno", "House", "Disco", "Bass & DnB", "Hip-hop & R&B", "Afro & Latin", "Flamenco",
     "Jazz & Blues", "Classical & Choral", "Folk & Country", "Punk & Hardcore", "Metal", "Rock & Indie", "Experimental",
     "Pop & Throwback", "Electronic", "Dance", "Listening Party"]);
@@ -663,7 +668,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
         opt("This weekend", when === "weekend", cnt({ when: "weekend" }), () => { when = when === "weekend" ? "any" : "weekend"; redo(); }));
     }
     const exhibitionView = tab === "museums" && museumView !== "events";   // shows have no start time or price
-    if (!exhibitionView && tab !== "oysters" && inTab.some(e => !e.all_day)) {
+    if (!exhibitionView && tab !== "oysters" && tab !== "classical" && inTab.some(e => !e.all_day)) {   // concerts are all evening shows
       row1.append(el("span", "sep"),
         opt("Early shows", slot === "early", cnt({ slot: "early" }), () => { slot = slot === "early" ? "any" : "early"; redo(); }),
         opt("Late night 10 pm+", slot === "late", cnt({ slot: "late" }), () => { slot = slot === "late" ? "any" : "late"; redo(); }));

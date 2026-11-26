@@ -4,7 +4,7 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 
 - `docs/index.html` – a filterable web page
 - one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
-  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `city.ics` (City Events), `oysters.ics` (Oysters), `museums.ics`, `movies.ics`.
+  `music.ics` (Music & Dance), `other.ics` (Other Events), `bars.ics` (Bar Nights), `city.ics` (City Events), `classical.ics` (Classical & Opera), `oysters.ics` (Oysters), `museums.ics`, `movies.ics`.
   `calendar.ics` is the original feed and still has Music & Dance and Other Events together.
 
 On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
@@ -57,6 +57,27 @@ Discounted oyster nights, by hand in `OYSTER_DEALS` in `scrape.py`: place, addre
 oyster, conditions, and where the deal was confirmed. Only deals confirmed by the place itself or a 2026 source
 are listed (checked 2026-11-26); each repeats for the next 3 weeks. Deals change with the season and supply
 (an Atlantic oyster parasite pushed prices up in 2026), so re-check them every few months.
+
+## Classical & Opera tab
+
+Concert halls and the opera, with kinds of concert (`CLASSICAL_TYPES`: Orchestral, Chamber Music, Opera, Choral &
+Vocal, Solo & Recitals, Early Music, Contemporary, Film in Concert, Jazz, Family, Holiday Season) instead of genres:
+
+- **Opéra de Montréal**: the season page (`/en/programs`) and each production's page (every performance with its
+  time, the hall, the lowest price). School shows and postponed productions are left out.
+- **Salle Bourgie**: the Bourgie Hall concert list (`mbam.qc.ca/en/bourgie-hall/?page=N`) and each concert's page
+  (date and time, general-public price, description). Talks are left out.
+- **McGill Schulich**: the School of Music calendar page (`mcgill.ca/music/events/calendar`), which holds the whole
+  season in one page. Talks, colloquia, masterclasses and auditions are left out; student recitals and class
+  concerts are marked free. Only that one page is read: McGill's other listings and event pages sit behind a bot
+  check when asked for many at once, so these events have no picture or description.
+- **Place des Arts**: every event page in the site's sitemap. Each page has its discipline in a small data block;
+  only classical music and opera are kept (not classical ballet), and Festival de Lanaudière concerts outside
+  Montreal are dropped. This is how the **OSM** and the **Orchestre Métropolitain** come in (osm.ca itself has a
+  bot check). Pages are read at most once a day and remembered in `docs/pda_cache.json`.
+
+The same performance from two of these (an Opéra production also sold by Place des Arts) is listed once, from the
+organizer (`dedupe_concerts`, order in `CLASSICAL_PRIORITY`).
 
 ## Alerts
 
