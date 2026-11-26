@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Montreal Events</title>
+<title>Go Out Montreal</title>
 <link rel="preload" href="fonts/YoungSerif-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/ShareTech-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="icon" type="image/png" href="favicon.png">
@@ -45,7 +45,9 @@
   /* logo at the top: its black background melts into the black header (lighten blend) */
   .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
   .logo { width: 104px; height: 104px; flex: none; display: block; mix-blend-mode: lighten; margin: -10px 0 -8px -10px; }
-  @media (max-width: 560px) { .logo { width: 76px; height: 76px; margin: -6px 0 -6px -8px; } h1 { font-size: 26px; } }
+  /* the site name, as an image */
+  .wordmark { display: block; height: 46px; width: auto; max-width: 100%; margin-bottom: 8px; }
+  @media (max-width: 560px) { .logo { width: 76px; height: 76px; margin: -6px 0 -6px -8px; } .wordmark { height: 32px; } }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
@@ -134,7 +136,7 @@
     <div class="brand">
       <img class="logo" src="logo.jpg" alt="Site logo" width="104" height="104">
       <div>
-        <h1 id="title">Montreal Events</h1>
+        <h1 id="title"><img class="wordmark" src="wordmark.webp" alt="Go Out Montreal" width="2000" height="461"></h1>
         <div class="meta" id="meta">Loading…</div>
       </div>
     </div>
@@ -331,7 +333,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (id === "date") { setDay(dayPick); return; }
     history.replaceState(null, "", "#" + id);
     const info = tabsInfo[id];
-    $("title").textContent = info.title; document.title = info.title;
+    document.title = "Go Out Montreal · " + (TAB_LABEL[id] || info.title);
     const url = feedUrl();
     $("webcal").href = url.replace(/^https?:/, "webcal:");
     $("gcal").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(url.replace(/^https?:/, "webcal:"));
@@ -349,8 +351,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     dayPick = day < today ? today : day;
     history.replaceState(null, "", "#date/" + dayPick);
     const n = events.filter(e => onDay(e, dayPick) && e.kind !== "exhibition").length;
-    $("title").textContent = dayFmt.format(noon(dayPick)); document.title = "Montreal · " + dayFmt.format(noon(dayPick));
-    $("meta").textContent = `${n} event${n === 1 ? "" : "s"} that day, grouped by type · updated ${gen}`;
+    document.title = "Go Out Montreal · " + dayFmt.format(noon(dayPick));
+    $("meta").textContent = `${dayFmt.format(noon(dayPick))} · ${n} event${n === 1 ? "" : "s"}, grouped by type · updated ${gen}`;
     $("hint").textContent = "Tick events (or tap movie showtimes) to add just those to your calendar.";
     buildChips(); render();
   }
