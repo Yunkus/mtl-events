@@ -1055,10 +1055,6 @@
 "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mf/d32f8edd-2c9d-440d-906a-2a592b1a28c6.png",
 "about": "Come spend an intimate, cozy evening crafting the 2027 you’ve been daydreaming about. Think warm energy, good music, gentle guidance, and a room full of people…"
 },
-"https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/": {
-"image": "https://billets.mbam.qc.ca/uploads/fb152667-c700-49b9-8810-5bbab651d46d.jpg",
-"about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\tADDITIONAL INFORMATION\n\tReservation terms for MMFA Members: Reservations are required, as spots are limited. Be sure to have your membership card handy when reserving so you can enjoy your complimentary beverage.\n\tACKNOWLEDGEMENTS\n\tLa Buvette is presented by Fréchette, Vins d’exception"
-},
 "https://www.eventbrite.ca/e/old-port-comedy-show-in-montreal-friday-pro-comedy-show-by-the-water-tickets-2003441019019": {
 "image": "https://www.eventbrite.ca/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195837269%252F2868175296431%252F1%252Foriginal.20261015-024710%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dd7a31b95154d579d45b3c8b7dfbab244&w=940&q=75",
 "about": "An evening of professional standup comedy right on the water, in one of Old Montreal's most beautiful event spaces."
@@ -1586,5 +1582,9 @@
 "https://cinemacinema.ca/fr/films/manas-2353": {
 "image": "https://img.cinemacinema.ca/Affiches/festivals/Bresilien/manas.jpg",
 "about": "FESTIVAL DU FILM BRÉSILIEN DE MONTRÉALMarcielle, treize ans, vit sur l’île de Marajó (PA). Elle commence à comprendre que l’avenir ne lui offre pas beaucoup d’options. Coincée par la résignation de sa mère et inspirée par le départ de sa sœur aînée, elle décide de se confronter à l’engrenage violent qui régit sa famille et les femmes de sa communauté."
+},
+"https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/": {
+"image": "https://billets.mbam.qc.ca/uploads/fb152667-c700-49b9-8810-5bbab651d46d.jpg",
+"about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\tADDITIONAL INFORMATION\n\tReservation terms for MMFA Members: Reservations are required, as spots are limited. Be sure to have your membership card handy when reserving so you can enjoy your complimentary beverage.\n\tACKNOWLEDGEMENTS\n\tLa Buvette is presented by Fréchette, Vins d’exception"
 }
 }

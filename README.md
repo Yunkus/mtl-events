@@ -157,6 +157,7 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Source | How it's fetched |
 |---|---|
 | Trivia Nights, Comedy Open Mics, Karaoke Nights | badslava.com Montreal listings (trivia, comedy open mics, karaoke). The site shows one week; nights its detail page marks "Weekly" are repeated for 4 weeks. No links, since these are bar nights. Free/price comes from the detail page's "Event Cost". |
+| Trivia Nights (more bars) | trivianearme.net/montreal: about 30 weekly bar quizzes, repeated for 4 weeks, with the venue's note (rounds, team size, entry fee) as the description. A bar already listed by badslava or by hand on the same night is skipped (matched by street address), so Honey Martin keeps its 9:30 start. Left out: quizzes held every other week (the listing doesn't say which weeks) and bars off the island (Laval, Saint-Hubert). |
 | Laugh It Off | the site's own events feed (comedy shows in bars, via Eventbrite), next 60 days only |
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 | Added by hand (one-off) | `ONE_OFF_BY_HAND` in `scrape.py`: single events from organizers whose pages can't be read automatically (e.g. Heures ouvrables on Instagram / Zeffy). The tab follows the source name; past dates drop off. |

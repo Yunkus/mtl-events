@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T01:31-05:00",
+ "generated": "2026-11-26T01:44-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -14,7 +14,7 @@
   "bars": {
    "title": "Montreal Bar Nights",
    "feed": "bars.ics",
-   "count": 184
+   "count": 284
   },
   "city": {
    "title": "Montreal City Events",
@@ -86,7 +86,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 15,
+   "zero_streak": 17,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -94,7 +94,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 44,
    "zero_alerted": true
   },
   "Stereo": {
@@ -166,7 +166,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 44,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -190,7 +190,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 44,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -230,7 +230,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 32,
+   "zero_streak": 34,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -246,7 +246,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 27,
+   "zero_streak": 29,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -302,7 +302,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 42,
+   "zero_streak": 44,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -334,6 +334,14 @@
    "count": 6,
    "tab": "bars",
    "last_count": 6,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "TriviaNearMe": {
+   "ok": true,
+   "count": 120,
+   "tab": "bars",
+   "last_count": 120,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -382,7 +390,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 32,
+   "zero_streak": 34,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -8376,6 +8384,27 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Madame Smith",
+   "start": "2026-11-26T20:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Madame Smith, 4061 Rue Ontario E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "49504ab286b5ae19d59c",
+   "about": "Trivia every Thursday at 8:30 PM (musical quiz theme).",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Karaoke Nights",
    "title": "Karaoke Night at Cafe Campus",
    "start": "2026-11-26T21:00:00-05:00",
@@ -8654,6 +8683,27 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Bishop & Bagg",
+   "start": "2026-11-29T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Bishop & Bagg, 52 Saint Viateur St. West Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ed920af6370dc91cd7d2",
+   "about": "Every Sunday we host a pub trivia at 7:30pm hosted by @moo_organ. Recommended to book for trivia as they can get crowded",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Grumpys Bar",
    "start": "2026-11-29T20:00:00-05:00",
    "url": "",
@@ -8714,6 +8764,153 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Chez Baptiste",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Chez Baptiste, 1045 Mont-Royal Ave E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b6240f100baa47a77573",
+   "about": "Quiz Night every Monday at 19:00. 3 rounds of questions.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar La Succursale",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar La Succursale, 3188 Rue Masson Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6d5d6597d772ae0ec424",
+   "about": "Trivia every Monday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barrelmans",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barrelmans, 410 Rue Saint-Pierre Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f078704c4d5b7511b0d7",
+   "about": "Weekly trivia night hosted by Pub Saint Pierre, moved upstairs to Barrelmans starting January 6th. Special menu for trivia nights.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Le Vestiaire",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Le Vestiaire, 6634 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "2bddb6af6c3a2f00cbd8",
+   "about": "Monday quiz night at 7pm hosted by Quiz Mtl. Teams of 2-6.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Lord William Pub",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Lord William Pub, 265 Rue des Seigneurs Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "deb1d58267bb3fcbadc0",
+   "about": "Lord William Pub Quiz:",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at McKibbin's (St-Laurent)",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "McKibbin's (St-Laurent), 3515 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "319bd8eabd4a949ba427",
+   "about": "Pub Quiz on Mondays at McKibbins St-Laurent location",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Nestor",
+   "start": "2026-11-30T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Nestor, 6289 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ba169a6a273c261c1f14",
+   "about": "Quiz night hosted by Alexis every Monday at 7pm, three rounds of questions",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Burgundy Lion",
    "start": "2026-11-30T19:30:00-05:00",
    "url": "",
@@ -8731,6 +8928,90 @@
    "tab": "bars",
    "id": "29079cb2495d941a2bb5",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Blind Pig",
+   "start": "2026-11-30T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Blind Pig, 3882 Ontario St E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$5",
+   "price_lo": 5.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8e3fb461600110ec572c",
+   "about": "Monday Night Trivia every Monday at 7:30 PM. $5 per person, teams up to 10.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barfly",
+   "start": "2026-11-30T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barfly, 4062 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "27a4402103fc1ea81eaf",
+   "about": "Bar quiz every Monday at 7:30 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub McCarold",
+   "start": "2026-11-30T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub McCarold, 5400 Chem. de la Côte-des-Neiges Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "11468148f933a4812fff",
+   "about": "Quiz night every Monday at 19:30.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Wolf & Workman",
+   "start": "2026-11-30T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Wolf & Workman, 139 Saint-Paul St W Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "125639c87d0c7e5914b2",
+   "about": "Trivia every Monday night at 7:30pm. Hosted by Morgan OLeary.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -8834,6 +9115,27 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at The Old Dublin Pub",
+   "start": "2026-11-30T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "The Old Dublin Pub, 636 Rue Cathcart Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6f75cdf6c4fb0c787691",
+   "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Hurley's Irish Pub",
    "start": "2026-11-30T22:30:00-05:00",
@@ -8873,6 +9175,90 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at 4 Origines (Pointe-St-Charles)",
+   "start": "2026-12-01T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "4 Origines (Pointe-St-Charles), 1304 Saint-Patrick St. Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8ae43bf4e4286918479f",
+   "about": "Trivia hosted by @Quiz Tonic every Tuesday at 19:00.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-01T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ced505bfc4f7c384b16c",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Maison Publique McLean's",
+   "start": "2026-12-01T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Maison Publique McLean's, 1420 Peel St Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "038b4fa3ec7a5041fde7",
+   "about": "Tuesday pub trivia at 7pm followed by karaoke at 8pm. Hosted by @jesseonthemic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Origine Brass (4 Origines, Dorval)",
+   "start": "2026-12-01T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Origine Brass (4 Origines, Dorval), 2220 Boul Hymus Dorval QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3f7381b85112c72f28aa",
+   "about": "Trivia every Tuesday at 7:00 PM, hosted by @QuizTonic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at MVP Resto-Bar Sportif",
    "start": "2026-12-01T19:30:00-05:00",
    "url": "",
@@ -8890,6 +9276,27 @@
    "tab": "bars",
    "id": "6c80a9b648ebfed1c98c",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Memento!",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Memento!, 2471 Rue Saint-Patrick Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b97910e36194450d50bc",
+   "about": "Trivia every Tuesday at 7:30 PM, hosted by @QuizMasterBrian.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -9031,6 +9438,69 @@
    "tab": "bars",
    "id": "7642c4bc7cdc14c181a2",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Waverly",
+   "start": "2026-12-02T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Waverly, 5550 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "a7f9dc0463517f0ae5a9",
+   "about": "Trivia every Wednesday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-02T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4a8721035c74905c45bd",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Microbrasserie Folklore",
+   "start": "2026-12-02T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Microbrasserie Folklore, 133 Labrosse Ave Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6ca5f0f8a3678b4ade55",
+   "about": "Weekly trivia every Wednesday at 19:00 hosted by Justin Mongeon.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -9194,6 +9664,69 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Hurley's Irish Pub",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Hurley's Irish Pub, 1225 Rue Crescent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7d16de9b299687c6baa5",
+   "about": "Trivia every Wednesday at 8:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Kellys Orchard",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Kellys Orchard, 88 Ave Donegani Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8e6bbaac249ab11f3687",
+   "about": "Weekly pub quiz every Wednesday night at 20:00. Prizes available.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Orchard Pub & Grill",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Orchard Pub & Grill, 5563 Monkland Ave Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8d4791e29cfe1ac7c1cc",
+   "about": "Wednesday night pub trivia at 8pm. Quiz Master Jay Devine brings 50 new questions every week. Winners get a $50 bar tab prize",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-12-03T20:00:00-05:00",
    "url": "",
@@ -9269,6 +9802,27 @@
    "tab": "bars",
    "id": "2399efbc4fa7528a99a6",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Madame Smith",
+   "start": "2026-12-03T20:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Madame Smith, 4061 Rue Ontario E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "fbb1d75946beeb58fea3",
+   "about": "Trivia every Thursday at 8:30 PM (musical quiz theme).",
+   "added": "2026-11-26"
   },
   {
    "source": "Karaoke Nights",
@@ -9591,6 +10145,27 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Bishop & Bagg",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Bishop & Bagg, 52 Saint Viateur St. West Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "01c97af80961d73773ea",
+   "about": "Every Sunday we host a pub trivia at 7:30pm hosted by @moo_organ. Recommended to book for trivia as they can get crowded",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Grumpys Bar",
    "start": "2026-12-06T20:00:00-05:00",
    "url": "",
@@ -9651,6 +10226,153 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Chez Baptiste",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Chez Baptiste, 1045 Mont-Royal Ave E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "d030512a58a870502222",
+   "about": "Quiz Night every Monday at 19:00. 3 rounds of questions.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar La Succursale",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar La Succursale, 3188 Rue Masson Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "09e02a6d7d123251a940",
+   "about": "Trivia every Monday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barrelmans",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barrelmans, 410 Rue Saint-Pierre Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ef816ee4b83a946c16a2",
+   "about": "Weekly trivia night hosted by Pub Saint Pierre, moved upstairs to Barrelmans starting January 6th. Special menu for trivia nights.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Le Vestiaire",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Le Vestiaire, 6634 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3740c46884ea62953c39",
+   "about": "Monday quiz night at 7pm hosted by Quiz Mtl. Teams of 2-6.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Lord William Pub",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Lord William Pub, 265 Rue des Seigneurs Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "d07aa7a52104a4844507",
+   "about": "Lord William Pub Quiz:",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at McKibbin's (St-Laurent)",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "McKibbin's (St-Laurent), 3515 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "428b45c3c264f724aa52",
+   "about": "Pub Quiz on Mondays at McKibbins St-Laurent location",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Nestor",
+   "start": "2026-12-07T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Nestor, 6289 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "259b7ed0fe87c74fcd7a",
+   "about": "Quiz night hosted by Alexis every Monday at 7pm, three rounds of questions",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Burgundy Lion",
    "start": "2026-12-07T19:30:00-05:00",
    "url": "",
@@ -9668,6 +10390,90 @@
    "tab": "bars",
    "id": "ed0bbdbde857be6fd03d",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Blind Pig",
+   "start": "2026-12-07T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Blind Pig, 3882 Ontario St E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$5",
+   "price_lo": 5.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "40e120defadb0164e7e2",
+   "about": "Monday Night Trivia every Monday at 7:30 PM. $5 per person, teams up to 10.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barfly",
+   "start": "2026-12-07T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barfly, 4062 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f95d100cc502450bc19e",
+   "about": "Bar quiz every Monday at 7:30 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub McCarold",
+   "start": "2026-12-07T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub McCarold, 5400 Chem. de la Côte-des-Neiges Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "1b4d18256849200ee04b",
+   "about": "Quiz night every Monday at 19:30.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Wolf & Workman",
+   "start": "2026-12-07T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Wolf & Workman, 139 Saint-Paul St W Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "042f123bc148f2087c1e",
+   "about": "Trivia every Monday night at 7:30pm. Hosted by Morgan OLeary.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -9771,6 +10577,27 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at The Old Dublin Pub",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "The Old Dublin Pub, 636 Rue Cathcart Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ff07f127ce52c916d7e1",
+   "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Hurley's Irish Pub",
    "start": "2026-12-07T22:30:00-05:00",
@@ -9810,6 +10637,90 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at 4 Origines (Pointe-St-Charles)",
+   "start": "2026-12-08T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "4 Origines (Pointe-St-Charles), 1304 Saint-Patrick St. Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b22ccda22724218d2d0f",
+   "about": "Trivia hosted by @Quiz Tonic every Tuesday at 19:00.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-08T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4eaa94c462d4cb1ef0dc",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Maison Publique McLean's",
+   "start": "2026-12-08T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Maison Publique McLean's, 1420 Peel St Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "89821d84ea393bde33bd",
+   "about": "Tuesday pub trivia at 7pm followed by karaoke at 8pm. Hosted by @jesseonthemic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Origine Brass (4 Origines, Dorval)",
+   "start": "2026-12-08T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Origine Brass (4 Origines, Dorval), 2220 Boul Hymus Dorval QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "08e4ff040dabe3c2959b",
+   "about": "Trivia every Tuesday at 7:00 PM, hosted by @QuizTonic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at MVP Resto-Bar Sportif",
    "start": "2026-12-08T19:30:00-05:00",
    "url": "",
@@ -9827,6 +10738,27 @@
    "tab": "bars",
    "id": "62eb5168536bdfe790eb",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Memento!",
+   "start": "2026-12-08T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Memento!, 2471 Rue Saint-Patrick Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4f0a0ff55d9306e65487",
+   "about": "Trivia every Tuesday at 7:30 PM, hosted by @QuizMasterBrian.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -9969,6 +10901,69 @@
    "tab": "bars",
    "id": "5807d735f3169255ad88",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Waverly",
+   "start": "2026-12-09T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Waverly, 5550 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "17ff3d49e8c0d50cf393",
+   "about": "Trivia every Wednesday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-09T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b89f1d7324f8e861abf3",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Microbrasserie Folklore",
+   "start": "2026-12-09T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Microbrasserie Folklore, 133 Labrosse Ave Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "34cfe0f8629f2dd3c7a6",
+   "about": "Weekly trivia every Wednesday at 19:00 hosted by Justin Mongeon.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -10132,6 +11127,69 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Hurley's Irish Pub",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Hurley's Irish Pub, 1225 Rue Crescent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "1006f8c15405c188ec40",
+   "about": "Trivia every Wednesday at 8:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Kellys Orchard",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Kellys Orchard, 88 Ave Donegani Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4de286f0169827c448b3",
+   "about": "Weekly pub quiz every Wednesday night at 20:00. Prizes available.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Orchard Pub & Grill",
+   "start": "2026-12-09T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Orchard Pub & Grill, 5563 Monkland Ave Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7383bc3119a14f5cd7f3",
+   "about": "Wednesday night pub trivia at 8pm. Quiz Master Jay Devine brings 50 new questions every week. Winners get a $50 bar tab prize",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-12-10T20:00:00-05:00",
    "url": "",
@@ -10207,6 +11265,27 @@
    "tab": "bars",
    "id": "53943f4e901fd5ddc653",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Madame Smith",
+   "start": "2026-12-10T20:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Madame Smith, 4061 Rue Ontario E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3637f4fdbc0fa292f8e4",
+   "about": "Trivia every Thursday at 8:30 PM (musical quiz theme).",
+   "added": "2026-11-26"
   },
   {
    "source": "Karaoke Nights",
@@ -10487,6 +11566,27 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Bishop & Bagg",
+   "start": "2026-12-13T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Bishop & Bagg, 52 Saint Viateur St. West Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "420bca247c158c57562b",
+   "about": "Every Sunday we host a pub trivia at 7:30pm hosted by @moo_organ. Recommended to book for trivia as they can get crowded",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Grumpys Bar",
    "start": "2026-12-13T20:00:00-05:00",
    "url": "",
@@ -10547,6 +11647,153 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Chez Baptiste",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Chez Baptiste, 1045 Mont-Royal Ave E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "34a0a916de57747b5337",
+   "about": "Quiz Night every Monday at 19:00. 3 rounds of questions.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar La Succursale",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar La Succursale, 3188 Rue Masson Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "1d4cb49a0ed498a188b8",
+   "about": "Trivia every Monday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barrelmans",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barrelmans, 410 Rue Saint-Pierre Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "2545949f4a1cf8db939e",
+   "about": "Weekly trivia night hosted by Pub Saint Pierre, moved upstairs to Barrelmans starting January 6th. Special menu for trivia nights.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Le Vestiaire",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Le Vestiaire, 6634 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8dfd45063ba43ee5c9c7",
+   "about": "Monday quiz night at 7pm hosted by Quiz Mtl. Teams of 2-6.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Lord William Pub",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Lord William Pub, 265 Rue des Seigneurs Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "10906f9e420e417671c1",
+   "about": "Lord William Pub Quiz:",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at McKibbin's (St-Laurent)",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "McKibbin's (St-Laurent), 3515 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b5279669b0cbe84449d8",
+   "about": "Pub Quiz on Mondays at McKibbins St-Laurent location",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Nestor",
+   "start": "2026-12-14T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Nestor, 6289 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "dbbaaeff590fea5ce018",
+   "about": "Quiz night hosted by Alexis every Monday at 7pm, three rounds of questions",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Burgundy Lion",
    "start": "2026-12-14T19:30:00-05:00",
    "url": "",
@@ -10564,6 +11811,90 @@
    "tab": "bars",
    "id": "568b18a079b3a1e74151",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Blind Pig",
+   "start": "2026-12-14T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Blind Pig, 3882 Ontario St E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$5",
+   "price_lo": 5.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "e75a981ff6f8bbe0fefa",
+   "about": "Monday Night Trivia every Monday at 7:30 PM. $5 per person, teams up to 10.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barfly",
+   "start": "2026-12-14T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barfly, 4062 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "fca7976dc16a7c03bfbb",
+   "about": "Bar quiz every Monday at 7:30 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub McCarold",
+   "start": "2026-12-14T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub McCarold, 5400 Chem. de la Côte-des-Neiges Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "0b4e24bdef17a888c5d9",
+   "about": "Quiz night every Monday at 19:30.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Wolf & Workman",
+   "start": "2026-12-14T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Wolf & Workman, 139 Saint-Paul St W Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8d92b88e2f30452ff030",
+   "about": "Trivia every Monday night at 7:30pm. Hosted by Morgan OLeary.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -10646,6 +11977,27 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at The Old Dublin Pub",
+   "start": "2026-12-14T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "The Old Dublin Pub, 636 Rue Cathcart Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "315c7c61d38f4121d153",
+   "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Hurley's Irish Pub",
    "start": "2026-12-14T22:30:00-05:00",
@@ -10685,6 +12037,90 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at 4 Origines (Pointe-St-Charles)",
+   "start": "2026-12-15T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "4 Origines (Pointe-St-Charles), 1304 Saint-Patrick St. Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "efc9793f2f9e6ac724f8",
+   "about": "Trivia hosted by @Quiz Tonic every Tuesday at 19:00.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-15T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "e31d4ad78c59813abac3",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Maison Publique McLean's",
+   "start": "2026-12-15T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Maison Publique McLean's, 1420 Peel St Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "a0a4a55b1c682a124118",
+   "about": "Tuesday pub trivia at 7pm followed by karaoke at 8pm. Hosted by @jesseonthemic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Origine Brass (4 Origines, Dorval)",
+   "start": "2026-12-15T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Origine Brass (4 Origines, Dorval), 2220 Boul Hymus Dorval QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b70b54c30519c889659d",
+   "about": "Trivia every Tuesday at 7:00 PM, hosted by @QuizTonic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at MVP Resto-Bar Sportif",
    "start": "2026-12-15T19:30:00-05:00",
    "url": "",
@@ -10702,6 +12138,27 @@
    "tab": "bars",
    "id": "4cef78a1d0152bd6ddee",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Memento!",
+   "start": "2026-12-15T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Memento!, 2471 Rue Saint-Patrick Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "a5c4dc0146416642431c",
+   "about": "Trivia every Tuesday at 7:30 PM, hosted by @QuizMasterBrian.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -10843,6 +12300,69 @@
    "tab": "bars",
    "id": "65e34816c7bef4772de5",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Waverly",
+   "start": "2026-12-16T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Waverly, 5550 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "19898e063392b2089df8",
+   "about": "Trivia every Wednesday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-16T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f7ad985e157492454ef8",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Microbrasserie Folklore",
+   "start": "2026-12-16T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Microbrasserie Folklore, 133 Labrosse Ave Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "92f1b2eb9acf528b34eb",
+   "about": "Weekly trivia every Wednesday at 19:00 hosted by Justin Mongeon.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -11007,6 +12527,69 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Hurley's Irish Pub",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Hurley's Irish Pub, 1225 Rue Crescent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "330d83da42881301cccc",
+   "about": "Trivia every Wednesday at 8:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Kellys Orchard",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Kellys Orchard, 88 Ave Donegani Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b581dc34d25df0f0f2d3",
+   "about": "Weekly pub quiz every Wednesday night at 20:00. Prizes available.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Orchard Pub & Grill",
+   "start": "2026-12-16T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Orchard Pub & Grill, 5563 Monkland Ave Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6a8fafe87dfd2080d6fe",
+   "about": "Wednesday night pub trivia at 8pm. Quiz Master Jay Devine brings 50 new questions every week. Winners get a $50 bar tab prize",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Ye Olde Orchard Pub and Grill",
    "start": "2026-12-17T20:00:00-05:00",
    "url": "",
@@ -11082,6 +12665,27 @@
    "tab": "bars",
    "id": "d3522bf1601127e94a51",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Madame Smith",
+   "start": "2026-12-17T20:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Madame Smith, 4061 Rue Ontario E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "ed31f3ae9bf3e26c31ed",
+   "about": "Trivia every Thursday at 8:30 PM (musical quiz theme).",
+   "added": "2026-11-26"
   },
   {
    "source": "Karaoke Nights",
@@ -11341,6 +12945,27 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Bishop & Bagg",
+   "start": "2026-12-20T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Bishop & Bagg, 52 Saint Viateur St. West Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "8b722cde58ff42a1ffb0",
+   "about": "Every Sunday we host a pub trivia at 7:30pm hosted by @moo_organ. Recommended to book for trivia as they can get crowded",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Grumpys Bar",
    "start": "2026-12-20T20:00:00-05:00",
    "url": "",
@@ -11401,6 +13026,153 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Chez Baptiste",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Chez Baptiste, 1045 Mont-Royal Ave E Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "e7737a019edea8de3c91",
+   "about": "Quiz Night every Monday at 19:00. 3 rounds of questions.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar La Succursale",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar La Succursale, 3188 Rue Masson Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "3ad427a5b5664ad2dae9",
+   "about": "Trivia every Monday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barrelmans",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barrelmans, 410 Rue Saint-Pierre Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4102a5dd051ac3ee3f8f",
+   "about": "Weekly trivia night hosted by Pub Saint Pierre, moved upstairs to Barrelmans starting January 6th. Special menu for trivia nights.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Le Vestiaire",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Le Vestiaire, 6634 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "d47864fffde937af3c7b",
+   "about": "Monday quiz night at 7pm hosted by Quiz Mtl. Teams of 2-6.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Lord William Pub",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Lord William Pub, 265 Rue des Seigneurs Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "34a54996464bfff09ef3",
+   "about": "Lord William Pub Quiz:",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at McKibbin's (St-Laurent)",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "McKibbin's (St-Laurent), 3515 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "0aa1a2aa06fe0898b64a",
+   "about": "Pub Quiz on Mondays at McKibbins St-Laurent location",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Nestor",
+   "start": "2026-12-21T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Nestor, 6289 Rue St-Hubert Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7725b1ae8db013bef275",
+   "about": "Quiz night hosted by Alexis every Monday at 7pm, three rounds of questions",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at Burgundy Lion",
    "start": "2026-12-21T19:30:00-05:00",
    "url": "",
@@ -11418,6 +13190,90 @@
    "tab": "bars",
    "id": "4afd01ca486e85ca846f",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Blind Pig",
+   "start": "2026-12-21T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Blind Pig, 3882 Ontario St E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$5",
+   "price_lo": 5.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7fb92854235134f55225",
+   "about": "Monday Night Trivia every Monday at 7:30 PM. $5 per person, teams up to 10.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Barfly",
+   "start": "2026-12-21T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Barfly, 4062 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "67ae2058356def9b7797",
+   "about": "Bar quiz every Monday at 7:30 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub McCarold",
+   "start": "2026-12-21T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub McCarold, 5400 Chem. de la Côte-des-Neiges Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "2d0d7558deddabf0723a",
+   "about": "Quiz night every Monday at 19:30.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Pub Wolf & Workman",
+   "start": "2026-12-21T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Pub Wolf & Workman, 139 Saint-Paul St W Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "2530d16bdf149bd7d65e",
+   "about": "Trivia every Monday night at 7:30pm. Hosted by Morgan OLeary.",
+   "added": "2026-11-26"
   },
   {
    "source": "Trivia Nights",
@@ -11500,6 +13356,27 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at The Old Dublin Pub",
+   "start": "2026-12-21T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "The Old Dublin Pub, 636 Rue Cathcart Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "04624e4c0729a666a49a",
+   "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Comedy Open Mics",
    "title": "Comedy Open Mic at Hurley's Irish Pub",
    "start": "2026-12-21T22:30:00-05:00",
@@ -11539,6 +13416,90 @@
   },
   {
    "source": "Trivia Nights",
+   "title": "Trivia Night at 4 Origines (Pointe-St-Charles)",
+   "start": "2026-12-22T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "4 Origines (Pointe-St-Charles), 1304 Saint-Patrick St. Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c8c3b9a734c32ca721c0",
+   "about": "Trivia hosted by @Quiz Tonic every Tuesday at 19:00.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-22T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "d1dbb84a913ef286c3cf",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Maison Publique McLean's",
+   "start": "2026-12-22T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Maison Publique McLean's, 1420 Peel St Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c3d6594ee1c43e6bc362",
+   "about": "Tuesday pub trivia at 7pm followed by karaoke at 8pm. Hosted by @jesseonthemic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Origine Brass (4 Origines, Dorval)",
+   "start": "2026-12-22T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Origine Brass (4 Origines, Dorval), 2220 Boul Hymus Dorval QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "a91e4629ce02bafc8444",
+   "about": "Trivia every Tuesday at 7:00 PM, hosted by @QuizTonic.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
    "title": "Trivia Night at MVP Resto-Bar Sportif",
    "start": "2026-12-22T19:30:00-05:00",
    "url": "",
@@ -11556,6 +13517,27 @@
    "tab": "bars",
    "id": "098f29272c4f900294e2",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Memento!",
+   "start": "2026-12-22T19:30:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Memento!, 2471 Rue Saint-Patrick Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "7ed8b211be013b47f904",
+   "about": "Trivia every Tuesday at 7:30 PM, hosted by @QuizMasterBrian.",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -11680,6 +13662,69 @@
    "added": ""
   },
   {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Bar Waverly",
+   "start": "2026-12-23T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Bar Waverly, 5550 Boul. Saint-Laurent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "9b850773cc2220b59799",
+   "about": "Trivia every Wednesday at 7:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at L'Adversaire",
+   "start": "2026-12-23T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "L'Adversaire, 4303 Rue Sainte-Catherine E Montreal QC",
+   "kind": "",
+   "free": false,
+   "price": "$3",
+   "price_lo": 3.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "af549631fcc6947f94e1",
+   "about": "Trivia every Tuesday and Wednesday at 7:00 PM ($3 entry).",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Microbrasserie Folklore",
+   "start": "2026-12-23T19:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Microbrasserie Folklore, 133 Labrosse Ave Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b79d09009b0bf1383f66",
+   "about": "Weekly trivia every Wednesday at 19:00 hosted by Justin Mongeon.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Laugh It Off",
    "title": "WEDNESDAY Night Comedy Show in Montreal | Open Mic Comedy in Griffintown",
    "start": "2026-12-23T20:00:00-05:00",
@@ -11698,6 +13743,69 @@
    "tab": "bars",
    "id": "63c7e970e9b72333665d",
    "added": ""
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Hurley's Irish Pub",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Hurley's Irish Pub, 1225 Rue Crescent Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "26e4d30cfbbf4df9ef99",
+   "about": "Trivia every Wednesday at 8:00 PM.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Kellys Orchard",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Kellys Orchard, 88 Ave Donegani Pointe-Claire QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "c4f787112580681da437",
+   "about": "Weekly pub quiz every Wednesday night at 20:00. Prizes available.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Trivia Nights",
+   "title": "Trivia Night at Orchard Pub & Grill",
+   "start": "2026-12-23T20:00:00-05:00",
+   "url": "",
+   "end": null,
+   "location": "Orchard Pub & Grill, 5563 Monkland Ave Montreal QC",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "69d7da5412004ee9a9a2",
+   "about": "Wednesday night pub trivia at 8pm. Quiz Master Jay Devine brings 50 new questions every week. Winners get a $50 bar tab prize",
+   "added": "2026-11-26"
   },
   {
    "source": "Laugh It Off",
@@ -12217,25 +14325,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Miroir éphémère - BOA expérience",
-   "start": "2026-11-27T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
-   "end": null,
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/12235467c04a1111.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "89c0aa739d90096f1077",
-   "about": "Miroir éphémère : le nouveau spectacle du duo BOA expérience, où la musique est un miroir des émotions en perpétuel changement, faisant de chaque note un moment unique et impermanent.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Hitch - Théâtre Globe Bulle Rouge",
    "start": "2026-11-27T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
@@ -12255,6 +14344,25 @@
    "tab": "city",
    "id": "62fc401572604815c411",
    "about": "Construite comme un polar, la pièce Hitch rend hommage aux suspenses de la grande époque du cinéma américain en noir et blanc. Elle s’inspire du mythique livre d’entretien entre Alfred Hitchcock et François Truffaut.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Miroir éphémère - BOA expérience",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
+   "end": null,
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/12235467c04a1111.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "89c0aa739d90096f1077",
+   "about": "Miroir éphémère : le nouveau spectacle du duo BOA expérience, où la musique est un miroir des émotions en perpétuel changement, faisant de chaque note un moment unique et impermanent.",
    "added": ""
   },
   {
@@ -12485,6 +14593,27 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Atelier d'écriture de lettres au père Noël",
    "start": "2026-11-28T14:00:00-05:00",
@@ -12505,27 +14634,6 @@
    "id": "70921de423e5d26a156c",
    "about": "Dans une ambiance festive, venez écrire une lettre au père Noël à la bibliothèque!",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -12937,27 +15045,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/9c01230ab86d83eb.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -12981,25 +15068,23 @@
   },
   {
    "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
+   "title": "Atelier création de nid",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/c077796121e86375.webp",
+   "image": "img/9c01230ab86d83eb.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
    "added": "2026-11-26"
   },
   {
@@ -13047,23 +15132,27 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -13084,6 +15173,25 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -13255,27 +15363,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -13295,6 +15382,27 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -13638,6 +15746,27 @@
   },
   {
    "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -13658,25 +15787,23 @@
    "added": ""
   },
   {
-   "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
+   "source": "Other city venues",
+   "title": "Introduction à la machine à coudre",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
+   "end": null,
+   "location": "Fabricathèque du Sud-Ouest",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
+   "genres": [],
+   "image": "img/5147650d3c801653.webp",
    "all_day": false,
    "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
+   "id": "25fc5f1a4831f6d1cd8b",
+   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -13701,25 +15828,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Introduction à la machine à coudre",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/introduction-la-machine-coudre-117192",
-   "end": null,
-   "location": "Fabricathèque du Sud-Ouest",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/5147650d3c801653.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "25fc5f1a4831f6d1cd8b",
-   "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Musique avec toi",
    "start": "2026-12-05T10:30:00-05:00",
@@ -13737,27 +15845,6 @@
    "id": "7ca6a1a836c9b6d159f9",
    "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Activité de cuisine",
-   "start": "2026-12-05T11:00:00-05:00",
-   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
-   "end": null,
-   "location": "Mini-bibliothèque de Chameran",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Food & Drink"
-   ],
-   "image": "img/0cc635d9e9dd2324.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "333639c0958f35fd4d94",
-   "about": "Avec C'est moi le chef!",
-   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -13783,6 +15870,27 @@
   },
   {
    "source": "Other city venues",
+   "title": "Activité de cuisine",
+   "start": "2026-12-05T11:00:00-05:00",
+   "url": "https://montreal.ca/evenements/activite-de-cuisine-119773",
+   "end": null,
+   "location": "Mini-bibliothèque de Chameran",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Food & Drink"
+   ],
+   "image": "img/0cc635d9e9dd2324.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "333639c0958f35fd4d94",
+   "about": "Avec C'est moi le chef!",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Callisthénie (complet / sold out)",
    "start": "2026-12-05T11:45:00-05:00",
    "url": "https://montreal.ca/evenements/callisthenie-118745",
@@ -13798,6 +15906,28 @@
    "tab": "city",
    "id": "d4a9f9b5623a24229fc2",
    "about": "Venez découvrir une mise forme sans équipement avec la callisthénie.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "Atelier de confection de couronne de Noël",
+   "start": "2026-12-05T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
+   "end": "2026-12-05T15:30:00-05:00",
+   "location": "Maison Robert-Bélanger",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Art & Workshops"
+   ],
+   "image": "img/24b6dcd0ea23b581.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "b6724db457192ee6518d",
+   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
    "added": "2026-11-26"
   },
   {
@@ -13822,28 +15952,6 @@
    "id": "3b46f9b3c244e8b0b516",
    "about": "Quelques jours avant Noël, un mononcle hirsute et malcommode voit sa chère quiétude troublée par l’arrivée des petits cousins, créatures sans foi ni loi dont l’enthousiasme débordant emporte tout sur son passage.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atelier de confection de couronne de Noël",
-   "start": "2026-12-05T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-de-confection-de-couronne-de-noel-121720",
-   "end": "2026-12-05T15:30:00-05:00",
-   "location": "Maison Robert-Bélanger",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Art & Workshops"
-   ],
-   "image": "img/24b6dcd0ea23b581.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "b6724db457192ee6518d",
-   "about": "Atelier convivial de deux heures où vous créez votre propre couronne de Noël, accompagné pas à pas par une animatrice.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -14959,6 +17067,28 @@
    "added": ""
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -14976,6 +17106,25 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -14999,47 +17148,6 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -15205,6 +17313,27 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "Voisinages – Le Vent du Nord",
+   "start": "2026-12-10T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
+   "end": "2026-12-10T21:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/dce433368540e265.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "10d070fcb5f7ba07a8a6",
+   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Spectacle en rodage - Virginie Fortin",
    "start": "2026-12-10T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/spectacle-en-rodage-virginie-fortin-108321",
@@ -15243,27 +17372,6 @@
    "tab": "city",
    "id": "02328a868b7193dd4c2e",
    "about": "Est-ce qu'un acteur orphelin de père peut devenir autre chose qu'un clown? René Bazinet et David-Alexandre Després, deux légendes circassiennes qui ont grandi sans papa, tentent d'y répondre en observant leur souffrance de l'abandon et leur désir de plaire.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Voisinages – Le Vent du Nord",
-   "start": "2026-12-10T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
-   "end": "2026-12-10T21:30:00-05:00",
-   "location": "Quai 5160 – Maison de la culture de Verdun",
-   "kind": "",
-   "free": false,
-   "price": "$14",
-   "price_lo": 14.5,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/dce433368540e265.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "10d070fcb5f7ba07a8a6",
-   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
    "added": ""
   },
   {

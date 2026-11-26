@@ -734,6 +734,81 @@ def badslava(path: str, source: str, default_type: str, weeks: int = 4) -> list[
     return out
 
 
+TNM_DAYS = {d: i for i, d in enumerate(["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"])}
+# short names for listings whose name is a whole sentence
+TNM_NAMES = {"le vieux/ the old dublin pub & resturant": "The Old Dublin Pub",
+             "origine brass / 4 origines - microbrasserie & restaurant": "Origine Brass (4 Origines, Dorval)",
+             "4 origines - microbrasserie / pointe-st-charles": "4 Origines (Pointe-St-Charles)",
+             "mckibbins irish pub": "McKibbin's (St-Laurent)"}
+TNM_SKIP_TOWNS = re.compile(r"\b(Laval|Saint-Hubert|Longueuil|Brossard)\b", re.I)   # off the island
+
+
+def trivianearme(weeks: int = 4) -> list[Ev]:
+    """trivianearme.net/montreal: weekly bar trivia (venue, day, time, often the price). Fills in the bars badslava
+    doesn't list; the same bar on the same night from badslava or WEEKLY_BY_HAND wins (see dedupe_bar_nights).
+    Nights held every other week are left out: the listing doesn't say which weeks."""
+    s = BeautifulSoup(get("https://trivianearme.net/montreal").content, "html.parser")
+    today = datetime.now(TZ).date()
+    out, seen = [], set()
+    for a in s.find_all("a", href=re.compile(r"^/montreal/venues/")):
+        h3 = a.find("h3")
+        if not h3 or a["href"] in seen:
+            continue
+        seen.add(a["href"])
+        card = a.find_parent("div", class_="bg-surface")
+        if not card:
+            continue
+        name = clean(h3.get_text())
+        lines = [clean(x) for x in card.stripped_strings]
+        lines = lines[lines.index(name) + 1:] if name in lines else lines
+        addr = next((x for x in lines if re.match(r"\d+\s", x)), "")
+        if not addr or TNM_SKIP_TOWNS.search(addr):
+            continue
+        slots = [re.fullmatch(r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) at (\d{1,2}:\d{2} [AP]M)", x)
+                 for x in lines]
+        notes = [x for x in lines if x != addr and len(x) > 25 and not x.startswith("+")]
+        desc = max(notes, key=len, default="")   # the venue's note: "Trivia every Monday at 7:30 PM. $5 per person…"
+        if re.search(r"every other|bi-?weekly|every (?:second|2nd)|toutes les deux", desc, re.I):
+            continue
+        name = TNM_NAMES.get(name.lower()) or re.split(r"\s+[-/|]\s+", name)[0]
+        street = re.sub(r",?\s*(Montr[ée]al|Pointe-Claire|Dorval)?,?\s*(Quebec|QC)\b.*$", "", addr).strip(" ,")
+        town = (re.search(r"(Pointe-Claire|Dorval)", addr) or [None])[0] or "Montreal"
+        loc = f"{name}, {street} {town} QC"
+        # an entry fee ("$5 per person", "($3 entry)"), not a prize ("$50 bar tab prize"), times or phone numbers
+        fee = re.search(r"\$\s?(\d+(?:\.\d\d)?)\s*(?:per\b|/|entry|cover|each|pp\b|par\b)|(?:entry|cover|cost)\D{0,12}\$\s?(\d+)",
+                        desc, re.I)
+        free, lo = (False, float(fee.group(1) or fee.group(2))) if fee else \
+            (True, 0.0) if re.search(r"\bfree\b|\bgratuite?\b", desc, re.I) else (None, None)
+        for m in filter(None, slots):
+            t = datetime.strptime(m.group(2), "%I:%M %p").time()
+            first = today + timedelta(days=(TNM_DAYS[m.group(1).lower()] - today.weekday()) % 7)
+            for w in range(weeks):
+                ev = Ev("Trivia Nights", f"Trivia Night at {name}", local(first + timedelta(weeks=w), t), "",
+                        location=loc)
+                ev.desc = desc if not desc.startswith("http") else ""
+                out.append(priced(ev, free, lo))
+    return out
+
+
+def dedupe_bar_nights(events: list[Ev]) -> list[Ev]:
+    """The same bar's trivia (or karaoke…) on the same night from two sources: keep the first one listed.
+    Bars are matched by street number + a word of the street name ("5752 Av de Monkland" = "5752 Monkland Ave"),
+    since bar names are spelled differently from site to site."""
+    out, seen = [], []
+    for e in events:
+        m = re.search(r",\s*(\d+)\s+([^,]+)", e.location)
+        if not m:
+            out.append(e)
+            continue
+        words = {w for w in plain_text(m.group(2)).split() if len(w) >= 4 and w not in ("montreal", "rue", "avenue")}
+        day = e.start.date() if isinstance(e.start, datetime) else e.start
+        if any(s == e.source and n == m.group(1) and d == day and words & ws for s, n, d, ws in seen):
+            continue
+        seen.append((e.source, m.group(1), day, words))
+        out.append(e)
+    return out
+
+
 # Weekly nights known first-hand, with no website to read.
 # (filter chip, title, weekday 0=Mon, start time, location, free)
 WEEKLY_BY_HAND = [
@@ -1331,6 +1406,8 @@ EVENT_SOURCES = {
                                          "Comedy Open Mic"),
     "Karaoke Nights": lambda: badslava("karaoke-nights.php?city=Montreal&state=QC", "Karaoke Nights", "Karaoke"),
     "Added by hand": by_hand,   # events carry their own chip name (e.g. "Trivia Nights")
+    # more bar trivia (after badslava and the by-hand list, so those win when both list the same night)
+    "TriviaNearMe": trivianearme,
 }
 
 
@@ -1555,7 +1632,7 @@ OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", 
 # Run by the City of Montreal (montreal.ca): their own tab
 CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues"}
 # Recurring bar nights get their own tab:
-BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand"}
+BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand", "TriviaNearMe"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
 OTHER_TITLES = re.compile(r"comed|stand-?up|humou?r|\broast\b|podcast|\bquiz\b|trivia|\blecture\b|"
                           r"book launch|lancement de livre|open mic comedy|conf[ée]rence", re.I)
@@ -1891,6 +1968,7 @@ def main() -> int:
                 print(f"  FAIL {home_tab(name):8} {name:20} {ex}")
                 traceback.print_exc(limit=2)
 
+    by_tab["bars"] = dedupe_bar_nights(by_tab["bars"])
     fill_page_info([e for evs in by_tab.values() for e in evs])
     localize_images([e for evs in by_tab.values() for e in evs])
     update_first_seen([e for evs in by_tab.values() for e in evs])
