@@ -631,6 +631,16 @@ WEEKLY_BY_HAND = [
 ]
 
 
+# One-off events known first-hand (organizers that only announce on Instagram / Zeffy / Linktree, which
+# can't be read automatically). The tab follows the source name: "Heures ouvrables" lands in Music & Dance.
+# Past dates drop off by themselves.
+# (source, title, date, start time or None, ticket link or "", location, free (True/False/None), price text)
+ONE_OFF_BY_HAND: list[tuple] = [
+    # ("Heures ouvrables", "Heures ouvrables 008", date(2027, 3, 5), time(22, 0),
+    #  "https://www.zeffy.com/fr-CA/ticketing/…", "Venue name, address", None, "$20"),
+]
+
+
 def by_hand(weeks: int = 4) -> list[Ev]:
     today = datetime.now(TZ).date()
     out = []
@@ -638,6 +648,9 @@ def by_hand(weeks: int = 4) -> list[Ev]:
         first = today + timedelta(days=(weekday - today.weekday()) % 7)
         for w in range(weeks):
             out.append(priced(Ev(source, title, local(first + timedelta(weeks=w), t), "", location=loc), free))
+    for source, title, d, t, url, loc, free, price in ONE_OFF_BY_HAND:
+        ev = Ev(source, title, local(d, t), url, location=loc)
+        out.append(priced(ev, True) if free else priced(ev, *price_from_text(price or "")))
     return out
 
 
