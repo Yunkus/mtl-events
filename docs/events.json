@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T15:32-05:00",
+ "generated": "2026-11-26T15:34-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -39,7 +39,7 @@
   "movies": {
    "title": "Montreal Movies",
    "feed": "movies.ics",
-   "count": 376
+   "count": 379
   }
  },
  "sources": {
@@ -136,7 +136,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 33,
+   "zero_streak": 34,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -144,7 +144,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 60,
+   "zero_streak": 61,
    "zero_alerted": true
   },
   "Stereo": {
@@ -216,7 +216,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 60,
+   "zero_streak": 61,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -248,7 +248,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 13,
+   "zero_streak": 14,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -288,7 +288,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 50,
+   "zero_streak": 51,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -304,7 +304,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 45,
+   "zero_streak": 46,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -360,7 +360,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 60,
+   "zero_streak": 61,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -456,7 +456,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 50,
+   "zero_streak": 51,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -509,9 +509,9 @@
   },
   "Cinéma Moderne": {
    "ok": true,
-   "count": 32,
+   "count": 35,
    "tab": "movies",
-   "last_count": 32,
+   "last_count": 35,
    "zero_streak": 0,
    "zero_alerted": false
   }
@@ -33401,6 +33401,25 @@
    "added": ""
   },
   {
+   "source": "Cinéma Moderne",
+   "title": "Nausicaä of the Valley of the Wind (VOSTA)",
+   "start": "2026-11-30T18:30:00-05:00",
+   "url": "https://www.cinemamoderne.com/films/details/nausicaa-of-the-valley-of-the-wind/",
+   "end": "2026-11-30T20:27:00-05:00",
+   "location": "Cinéma Moderne",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/2b170f84bc556639.webp",
+   "all_day": false,
+   "tab": "movies",
+   "id": "f0d117fbc37db63f140d",
+   "about": "Sur une Terre ravagée par la folie des hommes durant les « sept jours de feu », une poignée d’humains a réussi à survivre dans une vallée protégée par le vent.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Cinéma du Parc",
    "title": "CLUB KID: ENFANT DE LA NUIT (VOASTF)",
    "start": "2026-11-30T18:45:00-05:00",
@@ -35813,6 +35832,25 @@
    "added": ""
   },
   {
+   "source": "Cinéma Moderne",
+   "title": "Fatherland (VOSTF)",
+   "start": "2026-12-05T09:30:00-05:00",
+   "url": "https://www.cinemamoderne.com/films/details/fatherland/",
+   "end": "2026-12-05T10:52:00-05:00",
+   "location": "Cinéma Moderne",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/4fff44c7285770cf.webp",
+   "all_day": false,
+   "tab": "movies",
+   "id": "cefd9ae050dc65ef5274",
+   "about": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Cinéma du Musée",
    "title": "DIGGER (VOASTF)",
    "start": "2026-12-05T11:00:00-05:00",
@@ -36358,6 +36396,25 @@
    "all_day": false,
    "tab": "movies",
    "id": "92b2b26261070b4b50d3",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Cinéma Moderne",
+   "title": "Le petit prince – Petits Modernes (VF)",
+   "start": "2026-12-12T09:30:00-05:00",
+   "url": "https://www.cinemamoderne.com/films/details/le-petit-prince-petits-modernes/",
+   "end": "2026-12-12T11:16:00-05:00",
+   "location": "Cinéma Moderne",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/210ab9b6dafc9ab8.webp",
+   "all_day": false,
+   "tab": "movies",
+   "id": "f195bb1ec1799fa3fd0b",
+   "about": "C'est l'histoire d'une histoire. C'est l'histoire d'une petite fille, intrépide et curieuse, qui vit dans un monde d'adultes. C'est l'histoire d'un aviateur, excentrique et facétieux, qui n'a jamais vraiment grandi. C'est l'histoire du Petit Prince qui va les réunir dans une aventure extraordinaire.",
    "added": "2026-11-26"
   },
   {
