@@ -46,8 +46,9 @@
   .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
   .logo { width: 104px; height: 104px; flex: none; display: block; mix-blend-mode: lighten; margin: -10px 0 -8px -10px; }
   /* the site name, as an image */
-  .wordmark { display: block; height: 46px; width: auto; max-width: 100%; margin-bottom: 8px; }
-  @media (max-width: 560px) { .logo { width: 76px; height: 76px; margin: -6px 0 -6px -8px; } .wordmark { height: 32px; } }
+  .wordmark { display: block; width: min(440px, 100%); height: auto; margin-bottom: 10px; }
+  .brand > div { min-width: 0; flex: 1; }
+  @media (max-width: 560px) { .logo { width: 76px; height: 76px; margin: -6px 0 -6px -8px; } .wordmark { width: 100%; } }
   .meta { color: var(--muted); font-size: 13px; }
   .band .meta { color: var(--band-muted); }
   .sub { display: inline-flex; gap: 8px; flex-wrap: wrap; }
@@ -136,7 +137,7 @@
     <div class="brand">
       <img class="logo" src="logo.jpg?v=2" alt="Site logo" width="104" height="104">
       <div>
-        <h1 id="title"><img class="wordmark" src="wordmark.webp" alt="Go Out Montreal" width="2000" height="461"></h1>
+        <h1 id="title"><img class="wordmark" src="wordmark.webp?v=2" alt="Go Out Montreal" width="2000" height="139"></h1>
         <div class="meta" id="meta">Loading…</div>
       </div>
     </div>
