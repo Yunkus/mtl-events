@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:52-05:00",
+ "generated": "2026-11-26T03:24-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music & Dance",
@@ -19,7 +19,7 @@
   "city": {
    "title": "Montreal City Events",
    "feed": "city.ics",
-   "count": 163
+   "count": 162
   },
   "oysters": {
    "title": "Montreal Oyster Deals",
@@ -131,7 +131,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 29,
+   "zero_streak": 30,
    "zero_alerted": true
   },
   "Le Marché Vintage": {
@@ -139,7 +139,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 56,
+   "zero_streak": 57,
    "zero_alerted": true
   },
   "Stereo": {
@@ -211,7 +211,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 56,
+   "zero_streak": 57,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -243,7 +243,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 9,
+   "zero_streak": 10,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -283,7 +283,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -299,14 +299,14 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 41,
+   "zero_streak": 42,
    "zero_alerted": true
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 163,
+   "count": 162,
    "tab": "city",
-   "last_count": 163,
+   "last_count": 162,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -355,7 +355,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 56,
+   "zero_streak": 57,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -451,7 +451,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 46,
+   "zero_streak": 47,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -1386,20 +1386,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
+   "title": "Gabriel Béland en spectacles",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
    "end": null,
-   "location": "La Toscadura",
+   "location": "Casa del Popolo",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
    "genres": [],
-   "image": "img/4a04129555fa16ad.webp",
+   "image": "img/f15752548cb1e4ef.webp",
    "all_day": false,
    "tab": "music",
-   "id": "e88301d3fe7d38d97164",
+   "id": "b3e0e7bd1944c78b17ce",
    "added": ""
   },
   {
@@ -1422,20 +1422,20 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Gabriel Béland en spectacles",
+   "title": "STREGONERIA + BLOODSTONE + WOODEN + BRAINDOWN + SLAMMED INTO RUINS",
    "start": "2026-11-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-11-29-gabriel-beland-en-spectacle",
+   "url": "https://casadelpopolo.com/en/events/2026-11-29-stregoneria-bloodstone-wooden-braindown-slammed-into-ruins",
    "end": null,
-   "location": "Casa del Popolo",
+   "location": "La Toscadura",
    "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
+   "free": null,
+   "price": "",
+   "price_lo": null,
    "genres": [],
-   "image": "img/f15752548cb1e4ef.webp",
+   "image": "img/4a04129555fa16ad.webp",
    "all_day": false,
    "tab": "music",
-   "id": "b3e0e7bd1944c78b17ce",
+   "id": "e88301d3fe7d38d97164",
    "added": ""
   },
   {
@@ -2204,24 +2204,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Anthony Prégent",
-   "start": "2026-12-02T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
-   "end": null,
-   "location": "La Toscadura",
-   "kind": "",
-   "free": false,
-   "price": "$20",
-   "price_lo": 20.0,
-   "genres": [],
-   "image": "img/2a46fffc21aca73d.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "3ef1e8e7403420022ccc",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Rachella Wred, Couvo & Kerri",
    "start": "2026-12-02T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-03-rachella-wred-couva-kerri",
@@ -2254,6 +2236,24 @@
    "all_day": false,
    "tab": "music",
    "id": "8b1aff743f6ad8d03cfc",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Anthony Prégent",
+   "start": "2026-12-02T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-03-anthony-pregent",
+   "end": null,
+   "location": "La Toscadura",
+   "kind": "",
+   "free": false,
+   "price": "$20",
+   "price_lo": 20.0,
+   "genres": [],
+   "image": "img/2a46fffc21aca73d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3ef1e8e7403420022ccc",
    "added": ""
   },
   {
@@ -3584,24 +3584,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Emile Patenaude + Bubblegum Flavour",
-   "start": "2026-12-07T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$12",
-   "price_lo": 12.0,
-   "genres": [],
-   "image": "img/a52155c7884e15c0.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "1d9435ab29f764ec0d86",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "The Blogs + Bradford Barker + The Vauxhalls",
    "start": "2026-12-07T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-08-the-blogs-bradford-barker-the-vauxhalls",
@@ -3616,6 +3598,24 @@
    "all_day": false,
    "tab": "music",
    "id": "49c6ab53cd1bff1660aa",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Emile Patenaude + Bubblegum Flavour",
+   "start": "2026-12-07T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-08-emile-patenaude-bubblegum-flavour",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$12",
+   "price_lo": 12.0,
+   "genres": [],
+   "image": "img/a52155c7884e15c0.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "1d9435ab29f764ec0d86",
    "added": ""
   },
   {
@@ -3663,24 +3663,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Scott Helman",
-   "start": "2026-12-08T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$30",
-   "price_lo": 30.44,
-   "genres": [],
-   "image": "img/17fc8f35d20bef0a.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "d2997728a7e32bd16b79",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "JOON + PERFECT OUTFIT",
    "start": "2026-12-08T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-09-joon-perfect-outfit",
@@ -3695,6 +3677,24 @@
    "all_day": false,
    "tab": "music",
    "id": "8fc4fa580f5ef1bd4838",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Scott Helman",
+   "start": "2026-12-08T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-09-scott-helman-w-special-guests",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "price_lo": 30.44,
+   "genres": [],
+   "image": "img/17fc8f35d20bef0a.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d2997728a7e32bd16b79",
    "added": ""
   },
   {
@@ -3906,24 +3906,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "i cant keep up i wont",
-   "start": "2026-12-10T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$11",
-   "price_lo": 10.66,
-   "genres": [],
-   "image": "img/e1e2524c94a096b7.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "683630bb93cfe5b3a2d0",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "6flamencos / Entre mis manos",
    "start": "2026-12-10T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-11-6flamencos-entre-mis-manos",
@@ -3940,6 +3922,24 @@
    "all_day": false,
    "tab": "music",
    "id": "56f7aa0cde022bcb9f77",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "i cant keep up i wont",
+   "start": "2026-12-10T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-11-i-cant-keep-up-i-wont",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$11",
+   "price_lo": 10.66,
+   "genres": [],
+   "image": "img/e1e2524c94a096b7.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "683630bb93cfe5b3a2d0",
    "added": ""
   },
   {
@@ -4189,6 +4189,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
+   "start": "2026-12-11T20:30:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$22",
+   "price_lo": 21.74,
+   "genres": [],
+   "image": "img/a4b344461511e134.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c92565bfa82134693121",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Sauf les drones @ ce qui nous traverse",
    "start": "2026-12-11T20:30:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-12-sauf-les-drones-ce-qui-nous-traverse",
@@ -4205,24 +4223,6 @@
    "all_day": false,
    "tab": "music",
    "id": "f51da97f066e4bd8b794",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "Blue Skies Turn Black présente: LILY SEABIRD",
-   "start": "2026-12-11T20:30:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-12-blue-skies-turn-black-presente-lily-seabird",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$22",
-   "price_lo": 21.74,
-   "genres": [],
-   "image": "img/a4b344461511e134.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "c92565bfa82134693121",
    "added": ""
   },
   {
@@ -4474,6 +4474,24 @@
   },
   {
    "source": "Casa del Popolo",
+   "title": "John of Sound Album Release Party",
+   "start": "2026-12-12T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
+   "end": null,
+   "location": "La Sala Rossa",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/bad4594921acc15e.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "857682375b61680ace72",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
    "title": "Noise for Society Night 2",
    "start": "2026-12-12T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-13-noise-for-society-night-2",
@@ -4490,24 +4508,6 @@
    "all_day": false,
    "tab": "music",
    "id": "32c9ccb528827966b818",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
-   "title": "John of Sound Album Release Party",
-   "start": "2026-12-12T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-13-1h-john-papadimitriou-johnpapadimitriou57-gmail-com",
-   "end": null,
-   "location": "La Sala Rossa",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/bad4594921acc15e.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "857682375b61680ace72",
    "added": ""
   },
   {
@@ -5320,24 +5320,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
-   "start": "2026-12-17T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
-   "end": null,
-   "location": "P'tit Ours",
-   "kind": "",
-   "free": false,
-   "price": "$6",
-   "price_lo": 6.44,
-   "genres": [],
-   "image": "img/7f26124d8de55a2f.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "c02d7b071757167e28d9",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Ramures (et Lézart) : Lancement de Single",
    "start": "2026-12-17T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2026-12-18-ramures-et-lezart-lancement-de-single",
@@ -5352,6 +5334,24 @@
    "all_day": false,
    "tab": "music",
    "id": "3c3e88b432b3fc0e3801",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "X + Hayley Bleho + Steora (formally Paradise Sprites)",
+   "start": "2026-12-17T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2026-12-18-x-hayley-bleho-steora-formally-paradise-sprites",
+   "end": null,
+   "location": "P'tit Ours",
+   "kind": "",
+   "free": false,
+   "price": "$6",
+   "price_lo": 6.44,
+   "genres": [],
+   "image": "img/7f26124d8de55a2f.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c02d7b071757167e28d9",
    "added": ""
   },
   {
@@ -6954,24 +6954,6 @@
   },
   {
    "source": "Casa del Popolo",
-   "title": "Woody à la Casa Del Popolo",
-   "start": "2027-01-28T20:00:00-05:00",
-   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
-   "end": null,
-   "location": "Casa del Popolo",
-   "kind": "",
-   "free": false,
-   "price": "$15",
-   "price_lo": 14.88,
-   "genres": [],
-   "image": "img/9740b841ffb9f488.webp",
-   "all_day": false,
-   "tab": "music",
-   "id": "f5e827d5e9d0660905c4",
-   "added": ""
-  },
-  {
-   "source": "Casa del Popolo",
    "title": "Hayden + Invité(e)s",
    "start": "2027-01-28T20:00:00-05:00",
    "url": "https://casadelpopolo.com/en/events/2027-01-29-hayden-invite-e-s",
@@ -6986,6 +6968,24 @@
    "all_day": false,
    "tab": "music",
    "id": "1ba5c52e3d1b269a8d99",
+   "added": ""
+  },
+  {
+   "source": "Casa del Popolo",
+   "title": "Woody à la Casa Del Popolo",
+   "start": "2027-01-28T20:00:00-05:00",
+   "url": "https://casadelpopolo.com/en/events/2027-01-29-woody-a-la-casa-del-popolo",
+   "end": null,
+   "location": "Casa del Popolo",
+   "kind": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 14.88,
+   "genres": [],
+   "image": "img/9740b841ffb9f488.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "f5e827d5e9d0660905c4",
    "added": ""
   },
   {
@@ -17202,27 +17202,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/9c01230ab86d83eb.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -17246,25 +17225,23 @@
   },
   {
    "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
+   "title": "Atelier création de nid",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/c077796121e86375.webp",
+   "image": "img/9c01230ab86d83eb.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
    "added": "2026-11-26"
   },
   {
@@ -17312,23 +17289,27 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -17349,6 +17330,25 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -17520,27 +17520,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -17560,6 +17539,27 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -18173,6 +18173,48 @@
   },
   {
    "source": "Other city venues",
+   "title": "Étoile vagabonde - Compagnie musicale La Nef",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
+   "end": "2026-12-05T14:45:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows"
+   ],
+   "image": "img/4769cf2163815d8a.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "bf8463243dcad9cb9d4d",
+   "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "Rencontre avec Maya Cousineau Mollen",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-avec-maya-cousineau-mollen-118980",
+   "end": "2026-12-05T15:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/b961de1b4ba027ee.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "e9726f64f23531335eba",
+   "about": "Grâce à un aperçu sensible de l'histoire, celle qui n'a jamais été écrite, Maya Cousineau-Mollen tentera de mettre un contexte pertinent à la compréhension de ce qui s'est passé. Mini-conférence, lecture de poésies et discussions.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Rencontre informelle avec Hervé Mbelo",
    "start": "2026-12-05T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
@@ -18213,48 +18255,6 @@
    "id": "2ff7cb5fef98d04c23fb",
    "about": "Un Noël pas comme les autres attend Monsieur Bougris! 🎁 Inspiré des grands classiques du temps des Fêtes, ce spectacle mêle humour, musique, danse et tendresse pour raconter l’histoire d’un homme qui a oublié la magie de Noël. Une aventure festive qui réchauffe les cœurs de toute la famille. 🎄❤️",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Étoile vagabonde - Compagnie musicale La Nef",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
-   "end": "2026-12-05T14:45:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows"
-   ],
-   "image": "img/4769cf2163815d8a.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "bf8463243dcad9cb9d4d",
-   "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Rencontre avec Maya Cousineau Mollen",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-avec-maya-cousineau-mollen-118980",
-   "end": "2026-12-05T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/b961de1b4ba027ee.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "e9726f64f23531335eba",
-   "about": "Grâce à un aperçu sensible de l'histoire, celle qui n'a jamais été écrite, Maya Cousineau-Mollen tentera de mettre un contexte pertinent à la compréhension de ce qui s'est passé. Mini-conférence, lecture de poésies et discussions.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -18300,23 +18300,24 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
+   "title": "18.015 - Nouena Danse",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
-   "end": "2026-12-05T15:45:00-05:00",
-   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
+   "end": "2026-12-05T16:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows"
+    "Pop & Throwback",
+    "Dance"
    ],
-   "image": "img/438c8ae3a716a040.webp",
+   "image": "img/1abfecb4f7857f77.webp",
    "all_day": false,
    "tab": "city",
-   "id": "8969c605090a09e68316",
-   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
+   "id": "3fc85464ec2c113adb3c",
+   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
    "added": ""
   },
   {
@@ -18342,24 +18343,23 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "18.015 - Nouena Danse",
+   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
-   "end": "2026-12-05T16:15:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
+   "end": "2026-12-05T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Pop & Throwback",
-    "Dance"
+    "Theatre & Shows"
    ],
-   "image": "img/1abfecb4f7857f77.webp",
+   "image": "img/438c8ae3a716a040.webp",
    "all_day": false,
    "tab": "city",
-   "id": "3fc85464ec2c113adb3c",
-   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
+   "id": "8969c605090a09e68316",
+   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
    "added": ""
   },
   {
@@ -18492,6 +18492,25 @@
   },
   {
    "source": "Other city venues",
+   "title": "Des semis à l’assiette",
+   "start": "2026-12-06T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
+   "end": "2026-12-06T14:30:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/c862826e5210a55a.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "85b0a20b755dae09e655",
+   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Fabrication de couronnes des fêtes",
    "start": "2026-12-06T13:00:00-05:00",
    "url": "https://montreal.ca/evenements/fabrication-de-couronnes-des-fetes-120546",
@@ -18514,22 +18533,43 @@
   },
   {
    "source": "Other city venues",
-   "title": "Des semis à l’assiette",
-   "start": "2026-12-06T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
-   "end": "2026-12-06T14:30:00-05:00",
-   "location": "Centre Sanaaq",
+   "title": "Tous les matins d’Elinor - Elinor Frey",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
+   "end": "2026-12-06T15:15:00-05:00",
+   "location": "Centre des loisirs de Saint-Laurent",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [],
-   "image": "img/c862826e5210a55a.webp",
+   "image": "img/56dd3aaab4c76f9d.webp",
    "all_day": false,
    "tab": "city",
-   "id": "85b0a20b755dae09e655",
-   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
+   "id": "11168fbb434aeda405d2",
+   "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe (séance de décembre)",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
+   "end": "2026-12-06T16:00:00-05:00",
+   "location": "Bibliothèque Père-Ambroise",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/ac7824c0b8bd5c30.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ae1c1d4485712856e4b8",
+   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -18576,46 +18616,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Tous les matins d’Elinor - Elinor Frey",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
-   "end": "2026-12-06T15:15:00-05:00",
-   "location": "Centre des loisirs de Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/56dd3aaab4c76f9d.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "11168fbb434aeda405d2",
-   "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture féministe (séance de décembre)",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
-   "end": "2026-12-06T16:00:00-05:00",
-   "location": "Bibliothèque Père-Ambroise",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/ac7824c0b8bd5c30.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ae1c1d4485712856e4b8",
-   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
-   "added": ""
-  },
-  {
-   "source": "Other city venues",
    "title": "Noël s'invite chez vous - Marjolaine Morasse, Élie Dupuis et Élia Laure (complet / sold out)",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/noel-sinvite-chez-vous-marjolaine-morasse-elie-dupuis-et-elia-laure-115009",
@@ -18633,25 +18633,6 @@
    "tab": "city",
    "id": "e039157a74678c768846",
    "about": "Entrez dans la douceur et les souvenirs de la magie des Fêtes pour vivre un moment festif inoubliable.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Haydn : de Vienne à Londres - Andréanne Brisson-Paquin et Meagan Milatz",
-   "start": "2026-12-06T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/haydn-de-vienne-londres-andreanne-brisson-paquin-et-meagan-milatz-116964",
-   "end": "2026-12-06T16:15:00-05:00",
-   "location": "Salle Paul-Desmarais",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/8c19c806747ae1cd.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "5bad2f3f60f71f041152",
-   "about": "Explorez l’univers fascinant de l’un des maîtres du classicisme.",
    "added": "2026-11-26"
   },
   {
@@ -19224,28 +19205,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
-  },
-  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -19263,25 +19222,6 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
   },
   {
    "source": "Other city venues",
@@ -19305,6 +19245,47 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -19470,27 +19451,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Voisinages – Le Vent du Nord",
-   "start": "2026-12-10T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
-   "end": "2026-12-10T21:30:00-05:00",
-   "location": "Quai 5160 – Maison de la culture de Verdun",
-   "kind": "",
-   "free": false,
-   "price": "$14",
-   "price_lo": 14.5,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/dce433368540e265.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "10d070fcb5f7ba07a8a6",
-   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Spectacle en rodage - Virginie Fortin",
    "start": "2026-12-10T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/spectacle-en-rodage-virginie-fortin-108321",
@@ -19529,6 +19489,27 @@
    "tab": "city",
    "id": "02328a868b7193dd4c2e",
    "about": "Est-ce qu'un acteur orphelin de père peut devenir autre chose qu'un clown? René Bazinet et David-Alexandre Després, deux légendes circassiennes qui ont grandi sans papa, tentent d'y répondre en observant leur souffrance de l'abandon et leur désir de plaire.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Voisinages – Le Vent du Nord",
+   "start": "2026-12-10T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/voisinages-le-vent-du-nord-118276",
+   "end": "2026-12-10T21:30:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "img/dce433368540e265.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "10d070fcb5f7ba07a8a6",
+   "about": "Le Vent du Nord se lève avec un nouveau concert mis en scène par Michel Faubert. Encore inspiré par sa tournée internationale 20 Printemps, le légendaire quintette de chanteurs et multi-instrumentistes vous offre les pièces de son 13e album, Voisinages.",
    "added": ""
   },
   {
