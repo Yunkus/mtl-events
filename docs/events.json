@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-27T11:43-05:00",
+ "generated": "2026-11-27T11:58-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music",
    "feed": "music.ics",
-   "count": 497
+   "count": 490
   },
   "other": {
    "title": "Montreal Socials",
    "feed": "other.ics",
-   "count": 16
+   "count": 19
   },
   "bars": {
    "title": "Montreal Bar",
    "feed": "bars.ics",
-   "count": 334
+   "count": 332
   },
   "oysters": {
    "title": "Montreal Oyster Deals",
@@ -34,7 +34,7 @@
   "city": {
    "title": "Montreal City",
    "feed": "city.ics",
-   "count": 151
+   "count": 150
   },
   "classes": {
    "title": "Montreal Classes",
@@ -157,7 +157,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 67,
+   "zero_streak": 68,
    "zero_alerted": true
   },
   "Stereo": {
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 67,
+   "zero_streak": 68,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -261,7 +261,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 20,
+   "zero_streak": 21,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -301,7 +301,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 57,
+   "zero_streak": 58,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -317,14 +317,14 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 52,
+   "zero_streak": 53,
    "zero_alerted": true
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 162,
+   "count": 161,
    "tab": "city",
-   "last_count": 162,
+   "last_count": 161,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -337,12 +337,12 @@
    "zero_alerted": false
   },
   "Ateliers & Saveurs": {
-   "ok": true,
-   "count": 22,
+   "ok": false,
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.ateliersetsaveurs.com/agenda/cours-de-cuisine",
    "tab": "classes",
+   "kept": 22,
    "last_count": 22,
-   "zero_streak": 0,
-   "zero_alerted": false
+   "fail_streak": 1
   },
   "StereoBar": {
    "ok": true,
@@ -362,10 +362,10 @@
   },
   "New City Gas": {
    "ok": true,
-   "count": 9,
+   "count": 0,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 0,
+   "zero_streak": 1,
    "zero_alerted": false
   },
   "Eastern Bloc": {
@@ -373,7 +373,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 67,
+   "zero_streak": 68,
    "zero_alerted": true
   },
   "Rave.ca": {
@@ -397,7 +397,23 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 3,
+   "zero_streak": 4,
+   "zero_alerted": false
+  },
+  "La Récré": {
+   "ok": true,
+   "count": 2,
+   "tab": "music",
+   "last_count": 2,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
+  "Union Française": {
+   "ok": true,
+   "count": 1,
+   "tab": "music",
+   "last_count": 1,
+   "zero_streak": 0,
    "zero_alerted": false
   },
   "Trivia Nights": {
@@ -493,7 +509,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 57,
+   "zero_streak": 58,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -787,23 +803,25 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Union Francaise",
-   "title": "Idhem X Halo X .Ape X Achel X Offstat X Peypo X Zehd",
+   "source": "Union Française",
+   "title": "IDHEM x HALO x .ape x ACHEL x Offstat x Peypo x ZEHD",
    "start": "2026-11-27T20:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/57388/",
+   "url": "https://ra.co/events/2573628",
    "end": "2026-11-27T23:00:00-05:00",
-   "location": "Union Francaise, 429 Viger",
+   "location": "Union Française de Montréal",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "",
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
+   "genres": [
+    "Pop & Throwback",
+    "Electronic"
+   ],
+   "image": "img/fe782a4401580fdb.webp",
    "hood": "Village",
-   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "feee8b086eef58257cc2",
+   "id": "768fc1e434f4debce6f6",
    "about": "Sept artistes issus de la scène underground montréalaise se réunissent le temps d’une soirée pour explorer les frontières entre électro-pop et rap.\n\nAlliant sonorités avant-gardistes et production expérimentale, l’événement offre un aperçu de la nouvelle vague de la scène musicale alternative montréalaise.",
    "added": "2026-11-27"
   },
@@ -888,27 +906,6 @@
    "tab": "music",
    "id": "4cf642368cd47d20e32f",
    "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "IAN ASHER",
-   "start": "2026-11-27T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/ian-asher-208811/",
-   "end": "2026-11-28T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/bfd547c6a1c1b9ab.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "c9b4e66e1a3a7a85cbba",
-   "added": "2026-11-27"
   },
   {
    "source": "Rave.ca",
@@ -1147,24 +1144,26 @@
    "added": ""
   },
   {
-   "source": "La Récré",
-   "title": "Cidoine & Friends W, Frits Wentink",
+   "source": "New City Gas",
+   "title": "Ian Asher",
    "start": "2026-11-27T22:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/56991/",
+   "url": "https://www.rave.ca/en/event/57130/",
    "end": "2026-11-28T03:00:00-05:00",
-   "location": "La Récré, 5860 Avenue De Lorimier",
+   "location": "New City Gas",
    "kind": "",
-   "free": true,
+   "free": null,
    "price": "",
-   "price_lo": 0.0,
-   "genres": [],
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
    "image": "",
-   "hood": "Petite-Patrie",
+   "hood": "Griffintown",
    "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "74d15078fa38181c7aad",
-   "about": "After 10 years in the making, he’s finally back for a Poutinemaxxxing!\n\nHis tour kicks off in Montréal.",
+   "id": "ff173a59b9bbdd886714",
+   "about": "clubs",
    "added": "2026-11-27"
   },
   {
@@ -1186,6 +1185,29 @@
    "tab": "music",
    "id": "bdfd791357bccfa62ba3",
    "about": "NOS defines itself by what music does to people. A monthly home where music leads and the dancefloor becomes community. Built with intention, one full moon at a time by Nights of Solace.\n\nNO PICTURES, NO VIDEOS. Violation of this rule will result in immediate expulsion without warning.\n\n+++++++++++++++…",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "La Récré",
+   "title": "Cidoine & Friends W/Frits Wentink",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://ra.co/events/2545138",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "La Récré",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "img/0a9e1abc61ebce6b.webp",
+   "hood": "Petite-Patrie",
+   "all_day": false,
+   "tab": "music",
+   "id": "91d5c19bd55d56feae2f",
+   "about": "After 10 years in the making, he’s finally back for a Poutinemaxxxing!\n\nHis tour kicks off in Montréal.",
    "added": "2026-11-27"
   },
   {
@@ -1320,27 +1342,6 @@
    "id": "6081c41ab7b66f190396",
    "about": "After having so much fun during our Crescendo event with our friends from rznce.events, we come back home to Red Room for our seasonal event.We call all...",
    "added": ""
-  },
-  {
-   "source": "Café Social B Hive",
-   "title": "Interdependence Sunset Session Montréal",
-   "start": "2026-11-28T18:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/57098/",
-   "end": "2026-11-28T22:00:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [],
-   "image": "",
-   "hood": "Saint-Henri",
-   "via": "Rave.ca",
-   "all_day": false,
-   "tab": "music",
-   "id": "9c86144d77b8cff30107",
-   "about": "Interdependence presents a sunset session to close out an eventful 2026 calendar spanning Amsterdam, Berlin, Ibiza, Montréal, Seoul, and Toronto.\n\nJoseph Crime showcases his signature emotive melodic and deep house sound, exemplified in his sunset performances at Piknik Electronik and standout records platformed by Interdependence Music, Purified Records, SiriusXM Chill, and Spotify's Mint Canada.",
-   "added": "2026-11-27"
   },
   {
    "source": "Dièse Onze",
@@ -1664,27 +1665,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "[DSTRKT] LAYTON GIORDANI",
-   "start": "2026-11-28T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/layton-giordani-202728/",
-   "end": "2026-11-29T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/77ee957751401a9c.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "e566e1a63a4c154fcc24",
-   "added": "2026-11-27"
-  },
-  {
    "source": "Esc",
    "title": "Church Of AlpaKa 3.0 - Techno, Psy",
    "start": "2026-11-28T21:00:00-05:00",
@@ -1897,6 +1877,52 @@
    "tab": "music",
    "id": "85e6291da999506d1a1f",
    "about": "🩸⚰VAMPIRE DISKO ⚰🩸\n\nLimited advance tickets at\n\nbuytickets.at\n\nFor one November evening, Montreal descends into darkness as \"vampyres\" (don't worry, vampires aren't real...or are they?), goths, and nocturnal misfits gather on the dance floor for ...\n\n⚰† *VAMPIRE DISKO* †⚰…",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "[DSTRKT] Layton Giordani",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://www.rave.ca/en/event/56664/",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "New City Gas",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "",
+   "hood": "Griffintown",
+   "via": "Rave.ca",
+   "all_day": false,
+   "tab": "music",
+   "id": "23d95af2d57e3e8b3ea9",
+   "about": "clubs",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "Layton Giordani",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://www.rave.ca/en/event/57342/",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "New City Gas",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "",
+   "hood": "Griffintown",
+   "via": "Rave.ca",
+   "all_day": false,
+   "tab": "music",
+   "id": "23f1ea91a4678b5b8f88",
+   "about": "Produkt, Evenko et NEON présentent\n\nLAYTON GIORDANI\n\nSamedi 28 novembre 2026 | 22h à 3h\n\nAges 18+\n\nLes portes ouvrent à 22h00 // Doors open at 10pm\n\nDernière entrée à 2h15 du matin // Last entry at 2:15am\n\n• Réservations de tables disponibles via\n\nreservations.newcitygas.com\n\nTable reservations available via\n\nreservations.newcitygas.com…",
    "added": "2026-11-27"
   },
   {
@@ -4951,24 +4977,26 @@
   },
   {
    "source": "La Récré",
-   "title": "Syncopath Collective Proudly Presents: The Party En 3D",
+   "title": "Syncopath Collective Proudly presents: The Party En 3D",
    "start": "2026-12-11T19:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/57480/",
+   "url": "https://ra.co/events/2584249",
    "end": "2026-12-12T03:00:00-05:00",
-   "location": "La Récré, 5860 Avenue De Lorimier",
+   "location": "La Récré",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$15",
+   "price_lo": 15.0,
    "genres": [
+    "Techno",
+    "Bass & DnB",
+    "Electronic",
     "Art & Workshops"
    ],
-   "image": "",
+   "image": "img/a19a79fbf8ab8528.webp",
    "hood": "Petite-Patrie",
-   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "4d983259c57cfa1b9ea5",
+   "id": "3c55c9561421e63a1528",
    "about": "Syncopath Collective is proud to bring you their next event.\n\nAfter a successful launch last October we are proud to announce the next event ….In full 3D !\n\nYour favorite local Dj’s….IN 3D!\n\nBingo, prizes and drinks …IN 3D!\n\nTatoo parlour by Sarah Piche with EXCLUSIVE 3D flash tatoos!\n\nMore suprises ….IN 3D !\n\n3D glasses included with ticket purchase.\n\nSloan Porter-MTL…",
    "added": "2026-11-27"
   },
@@ -7261,27 +7289,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "DJ PAULY D",
-   "start": "2026-12-19T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/dj-pauly-d-216008/",
-   "end": "2026-12-20T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/751be238c2b8de4d.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "3212a7ff0599f3789e2f",
-   "added": "2026-11-27"
-  },
-  {
    "source": "Brutopia",
    "title": "Le Cypher X",
    "start": "2026-12-19T22:00:00-05:00",
@@ -8040,27 +8047,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "New City Gas",
-   "title": "Josh Baker, Jay Pryor",
-   "start": "2026-12-29T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/",
-   "end": "2026-12-30T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/ba55dfb1c75d90f3.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "dcb37b00f347abef4844",
-   "added": "2026-11-27"
-  },
-  {
    "source": "Le Red Room",
    "title": "Down2Techno",
    "start": "2026-12-30",
@@ -8121,48 +8107,6 @@
    "all_day": false,
    "tab": "music",
    "id": "b46d9b7fded4f5db996e",
-   "added": "2026-11-27"
-  },
-  {
-   "source": "New City Gas",
-   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
-   "start": "2026-12-31T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
-   "end": "2027-01-01T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/905013781b4e8fc9.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "9093d0621d0f2e51cc47",
-   "added": "2026-11-27"
-  },
-  {
-   "source": "New City Gas",
-   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
-   "start": "2026-12-31T21:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/pauza-214314/",
-   "end": "2027-01-01T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/8111e898c1d4fdb1.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "d331956490315be88dd5",
    "added": "2026-11-27"
   },
   {
@@ -9589,27 +9533,6 @@
    "added": ""
   },
   {
-   "source": "New City Gas",
-   "title": "TWINSICK",
-   "start": "2027-02-13T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/twinsick-206983/",
-   "end": "2027-02-14T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/1a28d38b1aa0b48d.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "2dc247f8b4acb2e2aa99",
-   "added": "2026-11-27"
-  },
-  {
    "source": "Quai des Brumes",
    "title": "ST-VALENTIN – Joe Evil Piano Show avec Vincent Peake + Steve & Ginie Jackson (Soirée Candle Punk)",
    "start": "2027-02-14T21:00:00-05:00",
@@ -9882,27 +9805,6 @@
    "tab": "music",
    "id": "ac3c3a390ffbaea7b7ee",
    "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "ELY OAKS",
-   "start": "2027-02-27T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/ely-oaks-207891/",
-   "end": "2027-02-28T03:00:00-05:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/2eb5aeed7f07683f.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "0bc63f97026ea3699a0e",
-   "added": "2026-11-27"
   },
   {
    "source": "Newspeak",
@@ -10188,27 +10090,6 @@
    "tab": "music",
    "id": "595b3e87cd0075e03783",
    "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "D.O.D",
-   "start": "2027-03-13T22:00:00-05:00",
-   "url": "https://newcitygas.com/en/event/d-o-d-211258/",
-   "end": "2027-03-14T03:00:00-04:00",
-   "location": "New City Gas, 950 rue Ottawa",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "img/7857851c4d042210.webp",
-   "hood": "Griffintown",
-   "all_day": false,
-   "tab": "music",
-   "id": "994417a4178055745341",
-   "added": "2026-11-27"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -11164,6 +11045,27 @@
    "added": ""
   },
   {
+   "source": "Café Social B Hive",
+   "title": "Interdependence Sunset Session Montréal",
+   "start": "2026-11-28T18:00:00-05:00",
+   "url": "https://www.rave.ca/en/event/57098/",
+   "end": "2026-11-28T22:00:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "",
+   "hood": "Saint-Henri",
+   "via": "Rave.ca",
+   "all_day": false,
+   "tab": "other",
+   "id": "9c86144d77b8cff30107",
+   "about": "Interdependence presents a sunset session to close out an eventful 2026 calendar spanning Amsterdam, Berlin, Ibiza, Montréal, Seoul, and Toronto.\n\nJoseph Crime showcases his signature emotive melodic and deep house sound, exemplified in his sunset performances at Piknik Electronik and standout records platformed by Interdependence Music, Purified Records, SiriusXM Chill, and Spotify's Mint Canada.",
+   "added": "2026-11-27"
+  },
+  {
    "source": "MBAM",
    "title": "La Buvette",
    "start": "2026-12-03T18:00:00-05:00",
@@ -11271,6 +11173,28 @@
    "all_day": false,
    "tab": "other",
    "id": "5505f03daeb699a41706",
+   "added": ""
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2026-12-06T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469",
+   "end": "2026-12-06T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "free": false,
+   "price": "$14–20",
+   "price_lo": 13.77,
+   "genres": [
+    "Comedy"
+   ],
+   "image": "img/93bc77ba2bb3b143.webp",
+   "hood": "Saint-Henri",
+   "all_day": false,
+   "tab": "other",
+   "id": "5382ef73a757f123640b",
+   "about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics.",
    "added": ""
   },
   {
@@ -11421,6 +11345,28 @@
    "all_day": false,
    "tab": "other",
    "id": "b0874798692b6e830cf3",
+   "added": ""
+  },
+  {
+   "source": "Laugh It Off",
+   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
+   "start": "2027-01-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883",
+   "end": "2027-01-03T21:30:00-05:00",
+   "location": "Café Social B Hive",
+   "kind": "",
+   "free": false,
+   "price": "$14–20",
+   "price_lo": 13.77,
+   "genres": [
+    "Comedy"
+   ],
+   "image": "img/93bc77ba2bb3b143.webp",
+   "hood": "Saint-Henri",
+   "all_day": false,
+   "tab": "other",
+   "id": "e5d2d6e4fcec398c2d3a",
+   "about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics.",
    "added": ""
   },
   {
@@ -13516,28 +13462,6 @@
    "id": "9f4b8dc0c9bca03749e0",
    "about": "Early acoustic set (blues, rock, folk, chanson). Free, tips welcome.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
-   "start": "2026-12-06T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-1997803306469",
-   "end": "2026-12-06T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "free": false,
-   "price": "$14–20",
-   "price_lo": 13.77,
-   "genres": [
-    "Comedy"
-   ],
-   "image": "img/93bc77ba2bb3b143.webp",
-   "hood": "Saint-Henri",
-   "all_day": false,
-   "tab": "bars",
-   "id": "5382ef73a757f123640b",
-   "about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics.",
-   "added": ""
   },
   {
    "source": "Trivia Nights",
@@ -18310,28 +18234,6 @@
    "all_day": false,
    "tab": "bars",
    "id": "bc37432de95e6efbd4d0",
-   "added": ""
-  },
-  {
-   "source": "Laugh It Off",
-   "title": "SUNDAY WEEKEND WRAP-UP | Social Mixer + Stand-up Comedy Show in Montreal",
-   "start": "2027-01-03T19:30:00-05:00",
-   "url": "https://www.eventbrite.ca/e/sunday-weekend-wrap-up-social-mixer-stand-up-comedy-show-in-montreal-tickets-2004632871883",
-   "end": "2027-01-03T21:30:00-05:00",
-   "location": "Café Social B Hive",
-   "kind": "",
-   "free": false,
-   "price": "$14–20",
-   "price_lo": 13.77,
-   "genres": [
-    "Comedy"
-   ],
-   "image": "img/93bc77ba2bb3b143.webp",
-   "hood": "Saint-Henri",
-   "all_day": false,
-   "tab": "bars",
-   "id": "e5d2d6e4fcec398c2d3a",
-   "about": "Wrap up your weekend right at B Hive Social Club with standup comedy, good food, cocktails, and a rotating lineup of Montreal comics.",
    "added": ""
   },
   {
@@ -28568,30 +28470,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Hitch - Théâtre Globe Bulle Rouge",
-   "start": "2026-11-27T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
-   "end": "2026-11-27T21:00:00-05:00",
-   "location": "Quai 5160 – Maison de la culture de Verdun",
-   "kind": "",
-   "free": false,
-   "price": "$14",
-   "price_lo": 14.5,
-   "genres": [
-    "Pop & Throwback",
-    "Theatre & Shows",
-    "Film"
-   ],
-   "image": "img/fa019ee37f6986d7.webp",
-   "hood": "Verdun",
-   "all_day": false,
-   "tab": "city",
-   "id": "62fc401572604815c411",
-   "about": "Construite comme un polar, la pièce Hitch rend hommage aux suspenses de la grande époque du cinéma américain en noir et blanc. Elle s’inspire du mythique livre d’entretien entre Alfred Hitchcock et François Truffaut.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Miroir éphémère - BOA expérience",
    "start": "2026-11-27T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
@@ -29560,6 +29438,28 @@
   },
   {
    "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -29579,28 +29479,6 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "hood": "Downtown",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -29959,28 +29837,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -29999,6 +29855,28 @@
    "tab": "city",
    "id": "5d3261ce84e3d1627887",
    "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
    "added": ""
   },
   {
@@ -30193,6 +30071,25 @@
   },
   {
    "source": "Other city venues",
+   "title": "Rencontre informelle avec Hervé Mbelo",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Galerie d’Outremont",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/3791545ac470025c.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "d43992aa4d0ec6969293",
+   "about": "Rencontrez Hervé Mbelo à la Galerie d’Outremont pour échanger autour de sa démarche artistique.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Étoile vagabonde - Compagnie musicale La Nef",
    "start": "2026-12-05T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
@@ -30211,25 +30108,6 @@
    "tab": "city",
    "id": "bf8463243dcad9cb9d4d",
    "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "Rencontre informelle avec Hervé Mbelo",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
-   "end": "2026-12-05T17:00:00-05:00",
-   "location": "Galerie d’Outremont",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/3791545ac470025c.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "d43992aa4d0ec6969293",
-   "about": "Rencontrez Hervé Mbelo à la Galerie d’Outremont pour échanger autour de sa démarche artistique.",
    "added": "2026-11-26"
   },
   {
@@ -30303,25 +30181,24 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "18.015 - Nouena Danse",
+   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
-   "end": "2026-12-05T16:15:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
+   "end": "2026-12-05T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Pop & Throwback",
-    "Dance"
+    "Theatre & Shows"
    ],
-   "image": "img/1abfecb4f7857f77.webp",
-   "hood": "Centre-Sud",
+   "image": "img/438c8ae3a716a040.webp",
+   "hood": "NDG",
    "all_day": false,
    "tab": "city",
-   "id": "3fc85464ec2c113adb3c",
-   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
+   "id": "8969c605090a09e68316",
+   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
    "added": ""
   },
   {
@@ -30347,24 +30224,25 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
+   "title": "18.015 - Nouena Danse",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
-   "end": "2026-12-05T15:45:00-05:00",
-   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
+   "end": "2026-12-05T16:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows"
+    "Pop & Throwback",
+    "Dance"
    ],
-   "image": "img/438c8ae3a716a040.webp",
-   "hood": "NDG",
+   "image": "img/1abfecb4f7857f77.webp",
+   "hood": "Centre-Sud",
    "all_day": false,
    "tab": "city",
-   "id": "8969c605090a09e68316",
-   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
+   "id": "3fc85464ec2c113adb3c",
+   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
    "added": ""
   },
   {
@@ -30480,26 +30358,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Des semis à l’assiette",
-   "start": "2026-12-06T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
-   "end": "2026-12-06T14:30:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/c862826e5210a55a.webp",
-   "hood": "Downtown",
-   "all_day": false,
-   "tab": "city",
-   "id": "85b0a20b755dae09e655",
-   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Fabrication de couronnes des fêtes",
    "start": "2026-12-06T13:00:00-05:00",
    "url": "https://montreal.ca/evenements/fabrication-de-couronnes-des-fetes-120546",
@@ -30523,6 +30381,48 @@
   },
   {
    "source": "Other city venues",
+   "title": "Des semis à l’assiette",
+   "start": "2026-12-06T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
+   "end": "2026-12-06T14:30:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/c862826e5210a55a.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "city",
+   "id": "85b0a20b755dae09e655",
+   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
+   "end": "2026-12-06T15:00:00-05:00",
+   "location": "Maison de la culture Claude-Léveillée",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/b91ef5929f5d66e0.webp",
+   "hood": "Villeray",
+   "all_day": false,
+   "tab": "city",
+   "id": "5e96d7625c31841e7ade",
+   "about": "Visite guidée de l'exposition en présence de l'artiste",
+   "added": ""
+  },
+  {
+   "source": "Other city venues",
    "title": "Tous les matins d’Elinor - Elinor Frey",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
@@ -30540,28 +30440,6 @@
    "id": "11168fbb434aeda405d2",
    "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture féministe (séance de décembre)",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
-   "end": "2026-12-06T16:00:00-05:00",
-   "location": "Bibliothèque Père-Ambroise",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/ac7824c0b8bd5c30.webp",
-   "hood": "Centre-Sud",
-   "all_day": false,
-   "tab": "city",
-   "id": "ae1c1d4485712856e4b8",
-   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
-   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -30587,25 +30465,25 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe (séance de décembre)",
    "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
-   "end": "2026-12-06T15:00:00-05:00",
-   "location": "Maison de la culture Claude-Léveillée",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
+   "end": "2026-12-06T16:00:00-05:00",
+   "location": "Bibliothèque Père-Ambroise",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Art & Workshops"
+    "Talks & Quizzes"
    ],
-   "image": "img/b91ef5929f5d66e0.webp",
-   "hood": "Villeray",
+   "image": "img/ac7824c0b8bd5c30.webp",
+   "hood": "Centre-Sud",
    "all_day": false,
    "tab": "city",
-   "id": "5e96d7625c31841e7ade",
-   "about": "Visite guidée de l'exposition en présence de l'artiste",
+   "id": "ae1c1d4485712856e4b8",
+   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
    "added": ""
   },
   {
@@ -30735,28 +30613,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "FAB-ZINES : Zine pop-up",
-   "start": "2026-12-07T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/fab-zines-zine-pop-119677",
-   "end": "2026-12-07T16:00:00-05:00",
-   "location": "FabricARThèque du Vieux-Saint-Laurent",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Pop & Throwback",
-    "Art & Workshops"
-   ],
-   "image": "img/776e49a4d8638758.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "d5372c20a9727722f90a",
-   "about": "Activité gratuite de création de zines de la FabricARThèque.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Plus fort que moi - Kirk Jones",
    "start": "2026-12-07T14:00:00-05:00",
@@ -30776,6 +30632,28 @@
    "tab": "city",
    "id": "1f4554339f9fb0efccae",
    "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "FAB-ZINES : Zine pop-up",
+   "start": "2026-12-07T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/fab-zines-zine-pop-119677",
+   "end": "2026-12-07T16:00:00-05:00",
+   "location": "FabricARThèque du Vieux-Saint-Laurent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Pop & Throwback",
+    "Art & Workshops"
+   ],
+   "image": "img/776e49a4d8638758.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "d5372c20a9727722f90a",
+   "about": "Activité gratuite de création de zines de la FabricARThèque.",
    "added": "2026-11-26"
   },
   {
@@ -31850,28 +31728,6 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Bibliothèques de Montréal",
-   "title": "Ateliers d’écriture",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/ateliers-decriture-116095",
-   "end": null,
-   "location": "Bibliothèque Saint-Henri",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/a7117b5a21686aff.webp",
-   "hood": "Saint-Henri",
-   "all_day": false,
-   "tab": "classes",
-   "id": "03986455e6e7740d89a2",
-   "about": "Dans une ambiance conviviale, laissez-vous aller à l'écriture créative.",
-   "added": ""
-  },
-  {
    "source": "Other city venues",
    "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
    "start": "2026-11-28T14:00:00-05:00",
@@ -31892,6 +31748,28 @@
    "id": "ed4e5aace2b69783bfb5",
    "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Ateliers d’écriture",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/ateliers-decriture-116095",
+   "end": null,
+   "location": "Bibliothèque Saint-Henri",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/a7117b5a21686aff.webp",
+   "hood": "Saint-Henri",
+   "all_day": false,
+   "tab": "classes",
+   "id": "03986455e6e7740d89a2",
+   "about": "Dans une ambiance conviviale, laissez-vous aller à l'écriture créative.",
+   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
