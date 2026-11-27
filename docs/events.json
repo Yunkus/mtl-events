@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T11:39-05:00",
+ "generated": "2026-11-27T11:43-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music",
@@ -157,7 +157,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 66,
+   "zero_streak": 67,
    "zero_alerted": true
   },
   "Stereo": {
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 66,
+   "zero_streak": 67,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -261,7 +261,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 19,
+   "zero_streak": 20,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -301,7 +301,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 56,
+   "zero_streak": 57,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -317,7 +317,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 51,
+   "zero_streak": 52,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -373,7 +373,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 66,
+   "zero_streak": 67,
    "zero_alerted": true
   },
   "Rave.ca": {
@@ -397,7 +397,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 2,
+   "zero_streak": 3,
    "zero_alerted": false
   },
   "Trivia Nights": {
@@ -493,7 +493,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 56,
+   "zero_streak": 57,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -617,7 +617,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "Basement of St Denis Church",
    "title": "Bloodmoon Ritual II",
    "start": "2026-11-27T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57271/",
@@ -632,14 +632,15 @@
    ],
    "image": "",
    "hood": "Ahuntsic-Cartierville",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "d401a40fd7f5a88a855b",
+   "id": "7cc8b4827f0a68ff9400",
    "about": "Antifascist Black Metal Festival\n\nFRIDAY NOVEMBER 27TH AT 7PM\n\nSkvm (Portland, ME)\n\nRessac\n\nThe Listener\n\nRitual Dust\n\nMarcheur de Nuit\n\nSATURDAY NOVEMBER 28TH AT 6PM\n\nPissChalice (Winnipeg)\n\nWyrmoon (Portland, ME)\n\nDismal Aura (Ottawa)\n\nKathexis\n\nDragg (1st show!)\n\nMarcheur de Nuit\n\nBoth days – Market 4pm with Tattoos, vendors, free food\n\nzeffy.com\n\nzeffy.com\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Breakglass Studio",
    "title": "Lulu Lamontagne — 'Unbecoming' Single Release With Plier Baggage, Great Dain",
    "start": "2026-11-27T19:30:00-05:00",
    "url": "https://www.rave.ca/en/event/57399/",
@@ -652,9 +653,10 @@
    "genres": [],
    "image": "",
    "hood": "Villeray",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "5a874e27942b5a9ef819",
+   "id": "4641ffb45611642d27a6",
    "about": "Lulu Lamontagne celebrates the release of their new single “Unbecoming” at Breakglass Studios, joined by friends Plier Baggage and Great Dain.\n\nPresented as part of Breakglass 20, celebrating 20 years of Breakglass Studios.\n\nFriday, November 27\n\nDoors 7:30 PM\n\nFirst band 8:00 PM\n\nEarly Bird: $10\n\nGA: $15…",
    "added": "2026-11-27"
   },
@@ -762,7 +764,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "MTELUS",
    "title": "Bonobo - Distance In Static (Live)",
    "start": "2026-11-27T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57546/",
@@ -777,14 +779,15 @@
    ],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "fe53b57bb35490aae1e0",
+   "id": "01b74a8dccd64d43ec40",
    "about": "Bonobo brings Distance In Static Live to MTELUS. The show supports his eighth album released September 11, 2026, on Ninja Tune. The stage production is designed by Pierre Claude, whose past work includes Air, Gesaffelstein, Phoenix and Caroline Polachek. It is his first live tour since 2022’s Fragments.",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Union Francaise",
    "title": "Idhem X Halo X .Ape X Achel X Offstat X Peypo X Zehd",
    "start": "2026-11-27T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57388/",
@@ -797,9 +800,10 @@
    "genres": [],
    "image": "",
    "hood": "Village",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "fbbf619332b2853daddd",
+   "id": "feee8b086eef58257cc2",
    "about": "Sept artistes issus de la scène underground montréalaise se réunissent le temps d’une soirée pour explorer les frontières entre électro-pop et rap.\n\nAlliant sonorités avant-gardistes et production expérimentale, l’événement offre un aperçu de la nouvelle vague de la scène musicale alternative montréalaise.",
    "added": "2026-11-27"
   },
@@ -823,7 +827,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "L'Escogriffe",
    "title": "HAYDEN PEDIGO, JENS KUROSS",
    "start": "2026-11-27T20:30:00-05:00",
    "url": "https://www.rave.ca/en/event/53258/",
@@ -838,9 +842,10 @@
    ],
    "image": "",
    "hood": "Plateau",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "5a0a0690f43880cc6010",
+   "id": "68573482b70b3ff51b37",
    "about": "HAYDEN PEDIGO\n\nhaydenpedigo.com\n\nJENS KUROSS\n\njenskuross.com\n\nREPORTÉ // POSTPONED\n\nPrésenté par Blue Skies Turn Black\n\nL'Escogriffe - 4461 Saint Denis - Montreal\n\nGA // 18+\n\nPORTES: 20H00 // SPECTACLE: 20H30\n\nEN VENTE VENDREDI 13 JUIN À 10h00 // ON SALE FRIDAY JUNE 13TH AT 10:00AM\n\nuniverse.com\n\nfacebook.com",
    "added": "2026-11-27"
   },
@@ -918,6 +923,7 @@
    "price_lo": null,
    "genres": [],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
    "id": "5c54bb957e7bae5fc5b0",
@@ -1141,7 +1147,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "La Récré",
    "title": "Cidoine & Friends W, Frits Wentink",
    "start": "2026-11-27T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/56991/",
@@ -1154,14 +1160,15 @@
    "genres": [],
    "image": "",
    "hood": "Petite-Patrie",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "53134986b4af7bdbbbad",
+   "id": "74d15078fa38181c7aad",
    "about": "After 10 years in the making, he’s finally back for a Poutinemaxxxing!\n\nHis tour kicks off in Montréal.",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "NWHR",
    "title": "NOS: Moonrise - Simbasōl, FAMÜ, Kbob",
    "start": "2026-11-27T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57410/",
@@ -1174,9 +1181,10 @@
    "genres": [],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "efa27992c2279caee12a",
+   "id": "bdfd791357bccfa62ba3",
    "about": "NOS defines itself by what music does to people. A monthly home where music leads and the dancefloor becomes community. Built with intention, one full moon at a time by Nights of Solace.\n\nNO PICTURES, NO VIDEOS. Violation of this rule will result in immediate expulsion without warning.\n\n+++++++++++++++…",
    "added": "2026-11-27"
   },
@@ -1238,6 +1246,7 @@
     "Electronic"
    ],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
    "id": "7d72592445648cb37105",
@@ -1313,7 +1322,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Café Social B Hive",
    "title": "Interdependence Sunset Session Montréal",
    "start": "2026-11-28T18:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57098/",
@@ -1326,9 +1335,10 @@
    "genres": [],
    "image": "",
    "hood": "Saint-Henri",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "1efffe2ac96e864d26c3",
+   "id": "9c86144d77b8cff30107",
    "about": "Interdependence presents a sunset session to close out an eventful 2026 calendar spanning Amsterdam, Berlin, Ibiza, Montréal, Seoul, and Toronto.\n\nJoseph Crime showcases his signature emotive melodic and deep house sound, exemplified in his sunset performances at Piknik Electronik and standout records platformed by Interdependence Music, Purified Records, SiriusXM Chill, and Spotify's Mint Canada.",
    "added": "2026-11-27"
   },
@@ -1355,7 +1365,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "Café Musette",
    "title": "\"First Snow Freak Show\"",
    "start": "2026-11-28T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57548/",
@@ -1370,14 +1380,15 @@
    ],
    "image": "",
    "hood": "Mile End",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "d77c5c1b3e6e51daeb4f",
+   "id": "42c6e10c070234d56ce9",
    "about": "PWYC\n\nfreak folk\n\nipad punk\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Cegep du Vieux Montréal",
    "title": "The Snatchers Alma Matter Hat Man Vision Ursule Cassé",
    "start": "2026-11-28T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57553/",
@@ -1392,14 +1403,15 @@
    ],
    "image": "",
    "hood": "Quartier Latin",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "41dc24abd3288968bb8a",
+   "id": "04cea5090558b7b3740b",
    "about": "Portes: 18h30\n\nShow: 19h\n\nBillet: 15$ à la porte\n\nOrganisé par le comité du profil actions pour le changement en sciences humaines\n\ndu cégep du Vieux Montréal. Alcool sur place!\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Exhibit A",
    "title": "Last Retch (Hamilton), Zero State, Patent, Ghidorah",
    "start": "2026-11-28T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57381/",
@@ -1414,9 +1426,10 @@
    ],
    "image": "",
    "hood": "Côte-Saint-Paul",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "1c7d9c448c8029b6c7c0",
+   "id": "57f70e736dc40b7f74ce",
    "about": "TO THE DEATH Presents...\n\nLast Retch (Hamilton)\n\nlastretch.bandcamp.com\n\nZero State\n\nzerostatemtl.bandcamp.com\n\nPatent\n\npatentmtl.bandcamp.com\n\nGhidorah\n\nghidorah.bandcamp.com\n\nExhibit A - Always All Ages\n\nDoors 7\n\nShow 8\n\n$20\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -1564,7 +1577,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "L'Hemisphere Gauche",
    "title": "Trial By Fire Vol2: A Wrestling, Music Event",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57496/",
@@ -1579,14 +1592,15 @@
    ],
    "image": "",
    "hood": "Little Italy",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "10c4c1f594ecf5b4e8de",
+   "id": "6244a7bdd78daff382d1",
    "about": "Join us for the second Trial by Fire event featuring 3 No-Ring Matches and bands\n\nNo Helmet and Dumbass\n\nMarquise Wildkard vs Benny P\n\nNathan Yarymowich vs Alex Maze\n\nBray Dello Russo vs Jonny Holmes\n\nSaturday, November 28th\n\nDoors: 8:00 pm\n\nShow: 9:00 pm\n\n15$\n\nfacebook.com\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Le Cheval Blanc",
    "title": "Tenaz - Mortier - Nuclear Family",
    "start": "2026-11-28T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57494/",
@@ -1601,9 +1615,10 @@
    ],
    "image": "",
    "hood": "Quartier Latin",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "f34ae029fca29ab94dcc",
+   "id": "6a931d8c8c49b2e5f85d",
    "about": "Tenaz\n\ntenaz.bandcamp.com\n\ntenaz.bandcamp.com\n\nMortier\n\nmortiermtl.bandcamp.com\n\nmortiermtl.bandcamp.com\n\nNuclear Family\n\nnuclearfamilymtl.bandcamp.com\n\nnuclearfamilymtl.bandcamp.com\n\nat cheval\n\nstarts by 9, ends by midnight\n\nDonations will be collected for the Humminbird Healing Lodge :\n\nitstartswithus-mmiw.com\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -1670,7 +1685,7 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Esc",
    "title": "Church Of AlpaKa 3.0 - Techno, Psy",
    "start": "2026-11-28T21:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57430/",
@@ -1686,9 +1701,10 @@
    ],
    "image": "",
    "hood": "Saint-Laurent",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "2877fa8af8420c1cf603",
+   "id": "9617d11ea3f0030f0049",
    "about": "Worked for 18s\n\nCHURCH OF ALPAKA 3.0\n\nSaturday, November 28, 2026 · ESC Warehouse, Montréal\n\nHEADLINERS FROM FRANCE\n\n- SMOOTH CRIMINAL\n\n- SOMBRRR\n\n- ODDWAVE\n\n- EARTHWORM\n\nLOCAL SUPPORT\n\n- BEATHEAD\n\n- LARA S vs KOZY\n\n- SOLARPUNK (BLACK MARVIN)\n\nWIZARD TRIBE SHOWCASE\n\n- LE ZESTE\n\n- KRONIK NOIZE vs ROGEURX\n\n- L’D\n\nBURLESQUE\n\n- MISS ROSAY",
    "added": "2026-11-27"
   },
@@ -1855,6 +1871,7 @@
     "Electronic"
    ],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
    "id": "4aba46db52693d4ca690",
@@ -1862,7 +1879,7 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Cabaret Berlin",
    "title": "Vampire Disko Debut At Cabaret",
    "start": "2026-11-28T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57471/",
@@ -1875,9 +1892,10 @@
    "genres": [],
    "image": "",
    "hood": "Centre-Sud",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "dfb0e2f7f26fa4606f9d",
+   "id": "85e6291da999506d1a1f",
    "about": "🩸⚰VAMPIRE DISKO ⚰🩸\n\nLimited advance tickets at\n\nbuytickets.at\n\nFor one November evening, Montreal descends into darkness as \"vampyres\" (don't worry, vampires aren't real...or are they?), goths, and nocturnal misfits gather on the dance floor for ...\n\n⚰† *VAMPIRE DISKO* †⚰…",
    "added": "2026-11-27"
   },
@@ -1967,7 +1985,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Breakglass Studio",
    "title": "Eavesdrop",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57507/",
@@ -1980,9 +1998,10 @@
    "genres": [],
    "image": "",
    "hood": "Villeray",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "d3a7131d76f7ca7f70ae",
+   "id": "1b33733a8a6f76055b25",
    "about": "mu and Chez.Kito.Kat present EAVESDROP\n\nwe invite you to come do some horizontal listening at Breakglass Studios, lay down to 4 vinyl sets, somewhere between ambient (whatever that means), downtempo, post folk, dub, who knows what else…\n\nBring books, arts and crafts projects, pillows, come enjoy the visuals, the tea and sweet treats we'll have prepared and listen to four special sets:…",
    "added": "2026-11-27"
   },
@@ -2970,7 +2989,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "Café La Ligne Verte",
    "title": "Molotov Mtl Authority Fails Random Assault Contrebande",
    "start": "2026-12-04T19:30:00-05:00",
    "url": "https://www.rave.ca/en/event/57486/",
@@ -2985,9 +3004,10 @@
    ],
    "image": "",
    "hood": "Centre-Sud",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "8f4834d42b43f73d66c1",
+   "id": "e5a37ba45c21ec5a6c38",
    "about": "Le s’quatre décembre au soir, y va y avoir de l’action en face du métro\n\nFrontenac.\n\nManque pas ça!\n\nAvec :\n\nMOLOTOV MTL\n\nmolotovmtl.bandcamp.com\n\nAUTHORITY FAILS\n\nauthorityfails.bandcamp.com\n\nRANDOM ASSAULT\n\nrandomassaultmtl.bandcamp.com\n\nCONTREBANDE\n\ncontrebande2.bandcamp.com\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -3196,7 +3216,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Entre-Nous",
    "title": "Youngsta. & GUNS: UK Bass Invasion Presented By Bass Brigade",
    "start": "2026-12-04T21:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57422/",
@@ -3212,9 +3232,10 @@
    ],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "52479b2fba9779a336dd",
+   "id": "4a85cc67a7d0839f0912",
    "about": "BASS BRIGADE PRESENTS: UK BASS INVASION!\n\nYOUNGSTA. (UK)\n\nGUNS (UK)\n\nJ_MURKZ (UK)\n\nHOODSHIT | MAGNIPHI | KIO\n\nSPOTLIGHT: YOUNGSTA. (UK)…",
    "added": "2026-11-27"
   },
@@ -3395,7 +3416,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Ctrllab",
    "title": "The Sweat House",
    "start": "2026-12-04T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57450/",
@@ -3411,9 +3432,10 @@
    ],
    "image": "",
    "hood": "Saint-Laurent",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "93e4bfb12f8886a94868",
+   "id": "2fbc2bf8ff6b8bd8906b",
    "about": "Celebrate the Holidays with your favourite Local Lineup!\n\nOur Christmas Sweathouse edition bounces along the winter season with your local bounce master @ratchet.mp3 and founder @p3co.mtl\n\nIt’s getting colder so enjoy some grooves with @emn.musix and keep warm by sweating it off with some schranz from @hurion.groove.\n\nTickets can be found on my IG Bio\n\nDecember 4th - 10 - 3AM\n\n@ctrllabmtl…",
    "added": "2026-11-27"
   },
@@ -3633,7 +3655,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Error 403",
    "title": "YlangYlang (Album Launch) NPNP (Instrument Premiere) Casi Opeia",
    "start": "2026-12-05T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57554/",
@@ -3648,9 +3670,10 @@
    ],
    "image": "",
    "hood": "Villeray",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "6a4d58a6f3b8e21fa60f",
+   "id": "042255d055a86ef20e07",
    "about": "Casi Opeia + NPNP (Instrument Premiere) + YlangYlang ('Will to Love' Album\n\nLaunch)\n\nSaturday, December 5th\n\nDoors at 8pm / Show at 8:30pm\n\n$15, NOTAFLOF\n\nAt Error 403 (Text 613.447.6528 for address)\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -3875,7 +3898,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Cabaret Berlin",
    "title": "Daddy",
    "start": "2026-12-05T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57470/",
@@ -3888,9 +3911,10 @@
    "genres": [],
    "image": "",
    "hood": "Centre-Sud",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "d196626beb9507c171b5",
+   "id": "457805cb742e066d7309",
    "about": "Daddy lance la saison des fêtes! Lutins sexy en prime 😘\n\nIan Jackman, Plastik Patrik en ouverture\n\nHouse, Disco, Gay anthems\n\nDaddy\n\nSamedi 5 décembre\n\nCabaret Berlin\n\n1982 Ste-Catherine Est\n\nPS Daddy aime tout le monde 🏳️‍🌈🏳️‍⚧️🤎\n\nvestiaire inc.",
    "added": "2026-11-27"
   },
@@ -3979,7 +4003,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Les Sans Taverne",
    "title": "Record Swap @Sans Taverne (Bâtiment 7)",
    "start": "2026-12-06T13:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57550/",
@@ -3993,14 +4017,15 @@
     "Live Music"
    ],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "1dff0bacff8c4052bab0",
+   "id": "725c697406413c8286ef",
    "about": "Distro Frigo has invited vendors and collectives to exchange, sell and give away\n\ntheir beautiful merch.\n\nAll afternoon. Come hang out, have some vegan snacks and drinks.\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Error 403",
    "title": "Magic Tuber String Band And Soledad Coyoli",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57425/",
@@ -4015,9 +4040,10 @@
    ],
    "image": "",
    "hood": "Villeray",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "53b4117f6a014d71e1d8",
+   "id": "017ead585a709a84f3d6",
    "about": "Heavy Trip is very excited to be welcoming Magic Tuber Stringband to Montreal in\n\nDec for two special shows, an evening and a matinee. Both are co-presented and\n\ncurated by Negative Capabilities. Both are limited capacity and expected to sell\n\nout.\n\nHailing from North Carolina, Magic Tuber Stringband are a trio at the forefront\n\nof artists inhabiting the living musical traditions of the Appalachian region.",
    "added": "2026-11-27"
   },
@@ -4188,7 +4214,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "Exhibit A",
    "title": "Brain Tourniquet (DC), Lobotomite, Cafard",
    "start": "2026-12-07T13:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57474/",
@@ -4203,9 +4229,10 @@
    ],
    "image": "",
    "hood": "Côte-Saint-Paul",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "373b73f4c45915d3bec8",
+   "id": "19165502791e4f8eb6eb",
    "about": "IFO invites you to sink deeper into madness...\n\nBRAIN TOURNIQUET (Washington, D.C.)\n\nReturn of power violence powerhouse on Iron Lung records\n\nbraintourniquet.bandcamp.com\n\nLOBOTOMITE\n\nLocal lecherous trio invites you to hit your head against the wall\n\nlobotomitemtl.bandcamp.com\n\nCAFARD\n\nThrash for punks sake 😇\n\ncafard666.bandcamp.com\n\nVOID BRINGER (Vermont)\n\nAnguished power violece from the Appalachians…",
    "added": "2026-11-27"
   },
@@ -4923,7 +4950,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "La Récré",
    "title": "Syncopath Collective Proudly Presents: The Party En 3D",
    "start": "2026-12-11T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57480/",
@@ -4938,9 +4965,10 @@
    ],
    "image": "",
    "hood": "Petite-Patrie",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "70fa004496f0256dd474",
+   "id": "4d983259c57cfa1b9ea5",
    "about": "Syncopath Collective is proud to bring you their next event.\n\nAfter a successful launch last October we are proud to announce the next event ….In full 3D !\n\nYour favorite local Dj’s….IN 3D!\n\nBingo, prizes and drinks …IN 3D!\n\nTatoo parlour by Sarah Piche with EXCLUSIVE 3D flash tatoos!\n\nMore suprises ….IN 3D !\n\n3D glasses included with ticket purchase.\n\nSloan Porter-MTL…",
    "added": "2026-11-27"
   },
@@ -5158,7 +5186,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Church of St. John the Evangelist (Red Roof Church)",
    "title": "Nights Of Worship With Headless Horseman LIVE & Shokh DJ Set",
    "start": "2026-12-11T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57439/",
@@ -5173,9 +5201,10 @@
    ],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "e871dbe1f94145022d1b",
+   "id": "e48927173992b4cfdf5d",
    "about": "Night of Worship Presents Headless Horseman (Live), with dj Set by Shokh.\n\n18+\n\nRed Roof Church",
    "added": "2026-11-27"
   },
@@ -5373,7 +5402,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Error 403",
    "title": "Small Scale Music, Lancement K7 : Alex St-Onge & Simon Brown Rosalie Chretien, Samuel Bobony (Black",
    "start": "2026-12-12T19:45:00-05:00",
    "url": "https://www.rave.ca/en/event/57552/",
@@ -5388,9 +5417,10 @@
    ],
    "image": "",
    "hood": "Villeray",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "fe10ea888f46c3b12a1a",
+   "id": "05984c8bce17d3bdcbe2",
    "about": "Small Scale Music présente:\n\nAlexandre St-Éponge (St-Onge) / Simon Beige (Brown)\n\nLancement de «Le second et le seul souffle»\n\nRosalie Chretien\n\nSamuel Bobony (Black Givre)\n\nAcrostiche:\n\nBelinda Campbell\n\nRaphaël Foisy\n\n@Error 403\n\n15-20$ NOTAFLOF\n\n19h30 portes\n\n20h show\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -5477,7 +5507,7 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Rave.ca",
+   "source": "Exhibit A",
    "title": "Migracion Animal (tape Release), Egide, Armistix, Subita Benefit For Oso Blanco",
    "start": "2026-12-12T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57556/",
@@ -5492,9 +5522,10 @@
    ],
    "image": "",
    "hood": "Côte-Saint-Paul",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "6c5404e63c53fd169395",
+   "id": "84bf8dbdfe9a2acf8eee",
    "about": "TAPE RELEASE SHOW\n\nIn support of oso blAnco\n\nEgide: o\n\negide-crust.bandcamp.com\n\nBlackened Crust\n\nMigracion\n\nAnimal: m/migraicon-animal-full-ep\n\nmigracionanimal.bandcamp.com\n\n(Tape Releasers) Anarcho-Crust\n\nArmistix: RRctGM\n\nyoutube.com\n\nRaw Curst D-Beat\n\nSúbita: (New band) First Show\n\nD-beat-TupaTupa\n\nDonationes and part of the funds gather will go to\n\nfreeosoblanco.org\n\nfreeosoblanco.org\n\nDec 12\n\nDOORS; 8 PM…",
    "added": "2026-11-27"
   },
@@ -5551,6 +5582,7 @@
    "price_lo": 20.0,
    "genres": [],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
    "id": "b278a96a15235c0e6510",
@@ -5666,7 +5698,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Le Ministère",
    "title": "Dubwise Meeting #10: Yarra Sound Invites Dan I, Imperial Sound Army (It)",
    "start": "2026-12-12T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57293/",
@@ -5679,14 +5711,15 @@
    "genres": [],
    "image": "",
    "hood": "Mile End",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "20bbc02c1c2628458618",
+   "id": "24a3ddf3d4b00ab82bcf",
    "about": "For the tenth edition of Dubwise Meeting, Yarra Sound is thrilled to welcome Dan I, voice, producer and operator of Imperial Sound Army, coming straight from northern Italy for the first time in Canada !\n\n* DAN I / IMPERIAL SOUND ARMY (Italy) - Singer, producer & Sound System operator\n\nBIO:…",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Le Studio TD",
    "title": "ÎLESONIQ Présente: Stoned Level",
    "start": "2026-12-12T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57397/",
@@ -5699,14 +5732,15 @@
    "genres": [],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "8a6361d90d6351c44c01",
+   "id": "db76475ed09d29b197cd",
    "about": "îLESONIQ présente STONED LEVEL au Studio TD le 12 décembre 2026 de 10PM-3AM\n\nAchetez vos billets maintenant!\n\nîLESONIQ presents STONED LEVEL at Studio TD December 12th 2026 from 10PM-3AM\n\nGet your tickets now!",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "NWHR",
    "title": "Arder: Markus Suckut",
    "start": "2026-12-12T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57071/",
@@ -5719,9 +5753,10 @@
    "genres": [],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "f8786509fb620a94dbea",
+   "id": "8b03a1037497ea41279f",
    "about": "clubs",
    "added": "2026-11-27"
   },
@@ -5944,7 +5979,7 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "Never Club",
    "title": "Noise For Socety II Night Three",
    "start": "2026-12-13T19:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57488/",
@@ -5959,9 +5994,10 @@
    ],
    "image": "",
    "hood": "Mile End",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "f2ab45b3edeaa9448b30",
+   "id": "a6614ff957b0da368f05",
    "about": "NOISE FOR SOCIETY II\n\nARTIST CURATED BENEFIT SHOWS\n\n20$ PWYC\n\nNOTAFLOF\n\nDEC 13TH\n\nNEVERCLUB\n\nS.D.\n\nDonating to Cactus Montreal\n\ncactusmontreal.org\n\ncactusmontreal.org\n\nMOTHER MARY\n\nDonating to Prisoners Correspondance Project\n\nprisonercorrespondenceproject.com\n\nSTAN K\n\nDonating to Santropol Rolant\n\nsantropolroulant.org\n\nsantropolroulant.org\n\nWIDDERSHINS\n\nDonating to El Mejunje de Silverio\n\nSECRETAIRE PARTICULAIRE…",
    "added": "2026-11-27"
   },
@@ -6840,7 +6876,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Exhibit A",
    "title": "DULF Fundraiser & Sagittarius Szn Birthday Soirée",
    "start": "2026-12-18T20:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57555/",
@@ -6855,9 +6891,10 @@
    ],
    "image": "",
    "hood": "Côte-Saint-Paul",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "3744932b38e4a75642c4",
+   "id": "66944160dcf98c88de4a",
    "about": "Fundraiser for the Drug User Liberation Front and celebrating the birthdays of\n\nAmanda, Ariel and Morgan! Featuring the bands Compactors (first show in\n\nMontreal) Subordinates, Public Relations and Verify! The party will continue\n\nafter the bands, DULF shirts will be available for purchase!\n\nSOURCE:\n\nmontreal.askapunk.net",
    "added": "2026-11-27"
   },
@@ -6964,7 +7001,7 @@
    "added": ""
   },
   {
-   "source": "Rave.ca",
+   "source": "Cabaret Berlin",
    "title": "Solstice Noir",
    "start": "2026-12-18T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57469/",
@@ -6977,14 +7014,15 @@
    "genres": [],
    "image": "",
    "hood": "Centre-Sud",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "4b69db45d69a3faf6f3f",
+   "id": "7d58936aad5f2b0e7c61",
    "about": "Vous êtes chaleureusement convié à notre 4ième édition de Yule pour célébrer le solstice d’hiver. Venez-vous réchauffer au son de la musique alternative, métal-industriel, dark électro et bien d’autres… Nous reprenons le flambeau avec les 2 djs de la première heure et notre photographe qui immortalisera nos souvenirs d’une longue nuit de retrouvaille.",
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "MTELUS",
    "title": "ÎLESONIQ Présente: Virtual Riot & Blanke - Far From Home Tour",
    "start": "2026-12-18T22:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57343/",
@@ -6997,9 +7035,10 @@
    "genres": [],
    "image": "",
    "hood": "Quartier des spectacles",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "music",
-   "id": "af5c8c72ff37bc18262b",
+   "id": "76f7ecd18075fbddb1e3",
    "about": "clubs",
    "added": "2026-11-27"
   },
@@ -28965,6 +29004,29 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Film"
+   ],
+   "image": "img/bd32f61f9b548c6f.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -28987,27 +29049,29 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows",
-    "Film"
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
    ],
-   "image": "img/bd32f61f9b548c6f.webp",
-   "hood": "Hochelaga",
+   "image": "img/27174f84671e64c1.webp",
+   "hood": "Downtown",
    "all_day": false,
    "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -29074,31 +29138,6 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
-   ],
-   "image": "img/27174f84671e64c1.webp",
-   "hood": "Downtown",
-   "all_day": false,
-   "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -29233,6 +29272,30 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "city",
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Création de zines - Exposition-dégustation",
    "start": "2026-12-01T18:00:00-05:00",
@@ -29279,28 +29342,24 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Art & Workshops"
-   ],
-   "image": "img/c077796121e86375.webp",
-   "hood": "Downtown",
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "hood": "Centre-Sud",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
-   "added": "2026-11-26"
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -29322,26 +29381,6 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "hood": "Centre-Sud",
-   "all_day": false,
-   "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -29920,28 +29959,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Conférence musicale : De lutte en turlutte",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
-   "end": "2026-12-05T12:00:00-05:00",
-   "location": "Bibliothèque Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/6560a4eff48cb428.webp",
-   "hood": "Mercier",
-   "all_day": false,
-   "tab": "city",
-   "id": "5d3261ce84e3d1627887",
-   "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Écrire un texte littéraire",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
@@ -29960,6 +29977,28 @@
    "tab": "city",
    "id": "db5248f599c2742085e3",
    "about": "Avec Jennifer Tremblay Pour les adultes",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Conférence musicale : De lutte en turlutte",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
+   "end": "2026-12-05T12:00:00-05:00",
+   "location": "Bibliothèque Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/6560a4eff48cb428.webp",
+   "hood": "Mercier",
+   "all_day": false,
+   "tab": "city",
+   "id": "5d3261ce84e3d1627887",
+   "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
    "added": ""
   },
   {
@@ -30154,25 +30193,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Rencontre informelle avec Hervé Mbelo",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
-   "end": "2026-12-05T17:00:00-05:00",
-   "location": "Galerie d’Outremont",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/3791545ac470025c.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "d43992aa4d0ec6969293",
-   "about": "Rencontrez Hervé Mbelo à la Galerie d’Outremont pour échanger autour de sa démarche artistique.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
    "title": "Étoile vagabonde - Compagnie musicale La Nef",
    "start": "2026-12-05T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/etoile-vagabonde-compagnie-musicale-la-nef-119149",
@@ -30191,6 +30211,25 @@
    "tab": "city",
    "id": "bf8463243dcad9cb9d4d",
    "about": "Assistez en famille à un conte musical pour enfants avec vidéo pour les enfants de 4 à 9 ans, dans lequel Gabriel est guidé par une étoile mystérieuse et se lance dans une aventure fantastique à travers la prairie et les forêts enneigées.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
+   "title": "Rencontre informelle avec Hervé Mbelo",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/rencontre-informelle-avec-herve-mbelo-120851",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Galerie d’Outremont",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/3791545ac470025c.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "d43992aa4d0ec6969293",
+   "about": "Rencontrez Hervé Mbelo à la Galerie d’Outremont pour échanger autour de sa démarche artistique.",
    "added": "2026-11-26"
   },
   {
@@ -30264,24 +30303,25 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
+   "title": "18.015 - Nouena Danse",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
-   "end": "2026-12-05T15:45:00-05:00",
-   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
+   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
+   "end": "2026-12-05T16:15:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Theatre & Shows"
+    "Pop & Throwback",
+    "Dance"
    ],
-   "image": "img/438c8ae3a716a040.webp",
-   "hood": "NDG",
+   "image": "img/1abfecb4f7857f77.webp",
+   "hood": "Centre-Sud",
    "all_day": false,
    "tab": "city",
-   "id": "8969c605090a09e68316",
-   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
+   "id": "3fc85464ec2c113adb3c",
+   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
    "added": ""
   },
   {
@@ -30307,25 +30347,24 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "18.015 - Nouena Danse",
+   "title": "Archipel - L’Illusion, Théâtre de marionnettes",
    "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/18015-nouena-danse-117462",
-   "end": "2026-12-05T16:15:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "url": "https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnettes-115200",
+   "end": "2026-12-05T15:45:00-05:00",
+   "location": "Maison de la culture Notre-Dame-de-Grâce – Monkland",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Pop & Throwback",
-    "Dance"
+    "Theatre & Shows"
    ],
-   "image": "img/1abfecb4f7857f77.webp",
-   "hood": "Centre-Sud",
+   "image": "img/438c8ae3a716a040.webp",
+   "hood": "NDG",
    "all_day": false,
    "tab": "city",
-   "id": "3fc85464ec2c113adb3c",
-   "about": "Entre danse, installation et expérience humaine, 18.015 – la masse molaire de l’eau – est un hommage à l’interconnexion du vivant.",
+   "id": "8969c605090a09e68316",
+   "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
    "added": ""
   },
   {
@@ -31112,6 +31151,29 @@
    "added": ""
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -31129,6 +31191,26 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "hood": "Mercier",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31153,49 +31235,6 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "hood": "Mercier",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31811,28 +31850,6 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "hood": "Nuns' Island",
-   "all_day": false,
-   "tab": "classes",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Ateliers d’écriture",
    "start": "2026-11-28T14:00:00-05:00",
@@ -31853,6 +31870,28 @@
    "id": "03986455e6e7740d89a2",
    "about": "Dans une ambiance conviviale, laissez-vous aller à l'écriture créative.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "hood": "Nuns' Island",
+   "all_day": false,
+   "tab": "classes",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -32240,7 +32279,7 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Rave.ca",
+   "source": "100Lux",
    "title": "Atelier De Danse Waacking: Nubian Néné",
    "start": "2026-12-05T16:00:00-05:00",
    "url": "https://www.rave.ca/en/event/57505/",
@@ -32255,9 +32294,10 @@
     "Art & Workshops"
    ],
    "image": "",
+   "via": "Rave.ca",
    "all_day": false,
    "tab": "classes",
-   "id": "7dfbd48f4c5877a6d3da",
+   "id": "f4f5a320b3ef613dc87d",
    "about": "Plongez dans l’univers du waacking aux côtés de Nubian Néné pour un atelier à l'Espace Sans Luxe, dédié à l’expression, au groove et à la liberté de mouvement. Au programme : introduction aux techniques et la musicalité, attitude et exploration de votre propre style, dans une ambiance bienveillante et énergique.",
    "added": "2026-11-27"
   },
