@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-27T12:19-05:00",
+ "generated": "2026-11-27T16:22-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music",
    "feed": "music.ics",
-   "count": 496
+   "count": 498
   },
   "other": {
    "title": "Montreal Socials",
@@ -34,7 +34,7 @@
   "city": {
    "title": "Montreal City",
    "feed": "city.ics",
-   "count": 153
+   "count": 152
   },
   "classes": {
    "title": "Montreal Classes",
@@ -44,7 +44,7 @@
   "movies": {
    "title": "Montreal Film",
    "feed": "movies.ics",
-   "count": 341
+   "count": 343
   }
  },
  "sources": {
@@ -157,7 +157,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 69,
+   "zero_streak": 70,
    "zero_alerted": true
   },
   "Stereo": {
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 69,
+   "zero_streak": 70,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -261,7 +261,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 22,
+   "zero_streak": 23,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -282,9 +282,9 @@
   },
   "Sans Soleil": {
    "ok": true,
-   "count": 1,
+   "count": 2,
    "tab": "music",
-   "last_count": 1,
+   "last_count": 2,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -301,7 +301,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 59,
+   "zero_streak": 60,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -317,14 +317,14 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 54,
+   "zero_streak": 55,
    "zero_alerted": true
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 162,
+   "count": 161,
    "tab": "city",
-   "last_count": 162,
+   "last_count": 161,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -373,14 +373,14 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 69,
+   "zero_streak": 70,
    "zero_alerted": true
   },
   "Rave.ca": {
    "ok": true,
-   "count": 140,
+   "count": 156,
    "tab": "music",
-   "last_count": 140,
+   "last_count": 156,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -397,7 +397,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 5,
+   "zero_streak": 6,
    "zero_alerted": false
   },
   "La Récré": {
@@ -509,7 +509,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 59,
+   "zero_streak": 60,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -554,9 +554,9 @@
   },
   "Cinéma Cinéma": {
    "ok": true,
-   "count": 295,
+   "count": 297,
    "tab": "movies",
-   "last_count": 295,
+   "last_count": 297,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -778,6 +778,29 @@
    "tab": "music",
    "id": "99174e3ed7b085753c08",
    "added": ""
+  },
+  {
+   "source": "Rave.ca",
+   "title": "House Party",
+   "start": "2026-11-27T20:00:00-05:00",
+   "url": "https://www.rave.ca/en/event/57615/",
+   "end": "2026-11-28T06:00:00-05:00",
+   "location": "Location TBA",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Electronic"
+   ],
+   "image": "",
+   "via": "Rave.ca",
+   "all_day": false,
+   "tab": "music",
+   "id": "b49c42a76d6929503aaa",
+   "about": "Downtown Montreal\n\nWe’re hosting a house party, and everyone’s invited!\n\nIt’s happening in an apartment, so space is limited. Make sure to RSVP in advance, and we’ll send you the exact location.\n\nCome through, meet new people, enjoy some good vibes, and have a great time with us!\n\nLimited spots — RSVP to secure yours!",
+   "added": "2026-11-27"
   },
   {
    "source": "MTELUS",
@@ -4213,6 +4236,30 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Sans Soleil",
+   "title": "moodswings",
+   "start": "2026-12-06T22:00:00-05:00",
+   "url": "https://ra.co/events/2595588",
+   "end": "2026-12-07T03:00:00-05:00",
+   "location": "Sans Soleil",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "House",
+    "Bass & DnB",
+    "Electronic"
+   ],
+   "image": "img/7fafb0b8e83d61b1.webp",
+   "hood": "Quartier des spectacles",
+   "all_day": false,
+   "tab": "music",
+   "id": "54e3517144903e7518e1",
+   "about": "moodswings returns to the bassment!",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Exhibit A",
    "title": "Brain Tourniquet (DC), Lobotomite, Cafard",
    "start": "2026-12-07T13:00:00-05:00",
@@ -5254,15 +5301,15 @@
   },
   {
    "source": "Bar Datcha",
-   "title": "Datcha Nonstop: x3butterfly, Fieldnote, Karuna",
+   "title": "Datcha Nonstop: x3butterfly, Fieldnote, Karuna, Syd Woz",
    "start": "2026-12-11T23:00:00-05:00",
    "url": "https://ra.co/events/2584289",
    "end": "2026-12-12T06:00:00-05:00",
    "location": "Bar Datcha",
    "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
+   "free": false,
+   "price": "$10–15",
+   "price_lo": 10.0,
    "genres": [
     "Electronic"
    ],
@@ -28590,26 +28637,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "Miroir éphémère - BOA expérience",
-   "start": "2026-11-27T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
-   "end": null,
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/12235467c04a1111.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "89c0aa739d90096f1077",
-   "about": "Miroir éphémère : le nouveau spectacle du duo BOA expérience, où la musique est un miroir des émotions en perpétuel changement, faisant de chaque note un moment unique et impermanent.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Hitch - Théâtre Globe Bulle Rouge",
    "start": "2026-11-27T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
@@ -28631,6 +28658,26 @@
    "id": "62fc401572604815c411",
    "about": "Construite comme un polar, la pièce Hitch rend hommage aux suspenses de la grande époque du cinéma américain en noir et blanc. Elle s’inspire du mythique livre d’entretien entre Alfred Hitchcock et François Truffaut.",
    "added": "2026-11-27"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Miroir éphémère - BOA expérience",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/miroir-ephemere-boa-experience-115768",
+   "end": null,
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/12235467c04a1111.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "89c0aa739d90096f1077",
+   "about": "Miroir éphémère : le nouveau spectacle du duo BOA expérience, où la musique est un miroir des émotions en perpétuel changement, faisant de chaque note un moment unique et impermanent.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -28781,28 +28828,6 @@
    "id": "d32fbcde8bba86b0c437",
    "about": "Découvrez comment transformer vos retailles ou vos déchets de papier en une nouvelle surface qui peut vous servir pour créer des cartes ou des œuvres d'art originales !",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Atchoum - Le Concert d’hiver",
-   "start": "2026-11-28T13:30:00-05:00",
-   "url": "https://montreal.ca/evenements/atchoum-le-concert-dhiver-119270",
-   "end": "2026-11-28T14:20:00-05:00",
-   "location": "Centre communautaire d'Anjou",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Live Music"
-   ],
-   "image": "img/a215e0d957d69724.webp",
-   "hood": "Anjou",
-   "all_day": false,
-   "tab": "city",
-   "id": "c95eda75ef037afce1d7",
-   "about": "Spectacle jeunesse : place à la folie des Fêtes avec Atchoum!",
-   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -30275,31 +30300,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "L’étrange Noël de monsieur Bougris - Qu’en dit Raton?",
-   "start": "2026-12-05T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letrange-noel-de-monsieur-bougris-quen-dit-raton-114807",
-   "end": "2026-12-05T15:00:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Dance",
-    "Comedy",
-    "Holiday Season",
-    "Markets & Fairs"
-   ],
-   "image": "img/95cdd138b2a81b19.webp",
-   "hood": "Mercier",
-   "all_day": false,
-   "tab": "city",
-   "id": "2ff7cb5fef98d04c23fb",
-   "about": "Un Noël pas comme les autres attend Monsieur Bougris! 🎁 Inspiré des grands classiques du temps des Fêtes, ce spectacle mêle humour, musique, danse et tendresse pour raconter l’histoire d’un homme qui a oublié la magie de Noël. Une aventure festive qui réchauffe les cœurs de toute la famille. 🎄❤️",
-   "added": ""
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Concert de Noël baroque",
    "start": "2026-12-05T14:30:00-05:00",
@@ -30413,6 +30413,29 @@
   },
   {
    "source": "Other city venues",
+   "title": "Célébrations II - Là où le rythme devient fête",
+   "start": "2026-12-05T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/celebrations-ii-la-ou-le-rythme-devient-fete-123297",
+   "end": "2026-12-05T21:30:00-05:00",
+   "location": "Théâtre Mirella et Lino Saputo",
+   "kind": "",
+   "free": false,
+   "price": "$30",
+   "price_lo": 30.0,
+   "genres": [
+    "Afro & Latin",
+    "Jazz & Blues",
+    "Rock & Indie"
+   ],
+   "image": "img/3acea8bff600560d.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "f242dd1852f35a0a7ddc",
+   "about": "Une soirée festive où le jazz, le funk, les rythmes latins et le rock se rencontrent dans une ambiance dynamique, énergique et rassembleuse.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Other city venues",
    "title": "Tire-toi une bûche! - Théâtre des Petites Âmes",
    "start": "2026-12-06T10:00:00-05:00",
    "url": "https://montreal.ca/evenements/tire-toi-une-buche-theatre-des-petites-ames-121027",
@@ -30502,6 +30525,26 @@
   },
   {
    "source": "Other city venues",
+   "title": "Des semis à l’assiette",
+   "start": "2026-12-06T13:00:00-05:00",
+   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
+   "end": "2026-12-06T14:30:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/c862826e5210a55a.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "city",
+   "id": "85b0a20b755dae09e655",
+   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Fabrication de couronnes des fêtes",
    "start": "2026-12-06T13:00:00-05:00",
    "url": "https://montreal.ca/evenements/fabrication-de-couronnes-des-fetes-120546",
@@ -30525,48 +30568,6 @@
   },
   {
    "source": "Other city venues",
-   "title": "Des semis à l’assiette",
-   "start": "2026-12-06T13:00:00-05:00",
-   "url": "https://montreal.ca/evenements/des-semis-lassiette-120677",
-   "end": "2026-12-06T14:30:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/c862826e5210a55a.webp",
-   "hood": "Downtown",
-   "all_day": false,
-   "tab": "city",
-   "id": "85b0a20b755dae09e655",
-   "about": "Venez cuisinez les végétaux qui poussent dans la serre du centre Sanaaq.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
-   "end": "2026-12-06T15:00:00-05:00",
-   "location": "Maison de la culture Claude-Léveillée",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/b91ef5929f5d66e0.webp",
-   "hood": "Villeray",
-   "all_day": false,
-   "tab": "city",
-   "id": "5e96d7625c31841e7ade",
-   "about": "Visite guidée de l'exposition en présence de l'artiste",
-   "added": ""
-  },
-  {
-   "source": "Other city venues",
    "title": "Tous les matins d’Elinor - Elinor Frey",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118447",
@@ -30584,6 +30585,28 @@
    "id": "11168fbb434aeda405d2",
    "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Club de lecture féministe (séance de décembre)",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
+   "end": "2026-12-06T16:00:00-05:00",
+   "location": "Bibliothèque Père-Ambroise",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/ac7824c0b8bd5c30.webp",
+   "hood": "Centre-Sud",
+   "all_day": false,
+   "tab": "city",
+   "id": "ae1c1d4485712856e4b8",
+   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
+   "added": ""
   },
   {
    "source": "Maisons de la culture",
@@ -30609,25 +30632,25 @@
    "added": ""
   },
   {
-   "source": "Bibliothèques de Montréal",
-   "title": "Club de lecture féministe (séance de décembre)",
+   "source": "Maisons de la culture",
+   "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
    "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/club-de-lecture-feministe-seance-de-decembre-120011",
-   "end": "2026-12-06T16:00:00-05:00",
-   "location": "Bibliothèque Père-Ambroise",
+   "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
+   "end": "2026-12-06T15:00:00-05:00",
+   "location": "Maison de la culture Claude-Léveillée",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Talks & Quizzes"
+    "Art & Workshops"
    ],
-   "image": "img/ac7824c0b8bd5c30.webp",
-   "hood": "Centre-Sud",
+   "image": "img/b91ef5929f5d66e0.webp",
+   "hood": "Villeray",
    "all_day": false,
    "tab": "city",
-   "id": "ae1c1d4485712856e4b8",
-   "about": "Nouveau club de lecture sous le thème des imaginaires féminins et féministes ! Venez (re)découvrir des œuvres d'autrices à l'imagination débordante.",
+   "id": "5e96d7625c31841e7ade",
+   "about": "Visite guidée de l'exposition en présence de l'artiste",
    "added": ""
   },
   {
@@ -30757,28 +30780,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Plus fort que moi - Kirk Jones",
-   "start": "2026-12-07T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
-   "end": "2026-12-07T15:00:00-05:00",
-   "location": "L’Entrepôt - maison de la culture de Lachine",
-   "kind": "",
-   "free": false,
-   "price": "$6",
-   "price_lo": 6.5,
-   "genres": [
-    "Film"
-   ],
-   "image": "img/ed19f3fae0e8559f.webp",
-   "hood": "Lachine",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4554339f9fb0efccae",
-   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Other city venues",
    "title": "FAB-ZINES : Zine pop-up",
    "start": "2026-12-07T14:00:00-05:00",
@@ -30798,6 +30799,28 @@
    "tab": "city",
    "id": "d5372c20a9727722f90a",
    "about": "Activité gratuite de création de zines de la FabricARThèque.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Plus fort que moi - Kirk Jones",
+   "start": "2026-12-07T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566",
+   "end": "2026-12-07T15:00:00-05:00",
+   "location": "L’Entrepôt - maison de la culture de Lachine",
+   "kind": "",
+   "free": false,
+   "price": "$6",
+   "price_lo": 6.5,
+   "genres": [
+    "Film"
+   ],
+   "image": "img/ed19f3fae0e8559f.webp",
+   "hood": "Lachine",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4554339f9fb0efccae",
+   "about": "Ce film britannique inspiré d'une histoire vraie raconte la vie de John Davidson atteint du syndrome de Gilles de la Tourette. De son adolescence à l'âge adulte, on suit entre rire et larme la vie de cet homme d'exception.",
    "added": "2026-11-26"
   },
   {
@@ -31173,6 +31196,29 @@
    "added": ""
   },
   {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -31190,6 +31236,26 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "hood": "Mercier",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31214,49 +31280,6 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "hood": "Mercier",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31894,6 +31917,28 @@
    "added": ""
   },
   {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "hood": "Nuns' Island",
+   "all_day": false,
+   "tab": "classes",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Bibliothèques de Montréal",
    "title": "Atelier d'écriture de lettres au père Noël",
    "start": "2026-11-28T14:00:00-05:00",
@@ -31915,28 +31960,6 @@
    "id": "70921de423e5d26a156c",
    "about": "Dans une ambiance festive, venez écrire une lettre au père Noël à la bibliothèque!",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "hood": "Nuns' Island",
-   "all_day": false,
-   "tab": "classes",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
   },
   {
    "source": "Ateliers & Saveurs",
@@ -38657,9 +38680,9 @@
   },
   {
    "source": "Cinéma du Musée",
-   "title": "MINOTAUR (VOSTA)",
+   "title": "MINOTAURE (VOSTF)",
    "start": "2026-12-05T16:55:00-05:00",
-   "url": "https://cinemacinema.ca/fr/films/minotaur-2291",
+   "url": "https://cinemacinema.ca/fr/films/minotaure-2290",
    "end": "2026-12-05T19:17:00-05:00",
    "location": "Cinéma du Musée",
    "kind": "",
@@ -38667,13 +38690,13 @@
    "price": "",
    "price_lo": null,
    "genres": [],
-   "image": "img/8f675c9155810664.webp",
+   "image": "img/ce98fe146896c7e5.webp",
    "hood": "Downtown",
    "all_day": false,
    "tab": "movies",
-   "id": "fd5d5b57a26863856511",
-   "about": "Séance spéciale présenté en collaboration avec The Russian Canadian Democratic Alliance (RDCA), suivie d'une discussion avec invité.e.s - Jeudi 19 novembre à 19h30 au Cinéma du Musée. Billets ici.The Russian Canadian Democratic Alliance (RCDA) est un organisme canadien à but non lucratif qui favorise les liens entre les Canadiennes et Canadiens russophones et toutes les personnes qui s’intéressent à la Russie…",
-   "added": "2026-11-26"
+   "id": "1a884653106657e25a1c",
+   "about": "*Grand Prix - Festival de Cannes 2026.*Candidat de la France aux Oscars 2027.Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable.",
+   "added": "2026-11-27"
   },
   {
    "source": "Cinéma du Parc",
@@ -38853,6 +38876,46 @@
    "id": "499af76804c234bf60ea",
    "about": "CINÉPSYPrésenté par l'Association des psychothérapeutes psychanalytiques du Québec (APPQ).La réalisatrice Marya Zarif et la psychologue et psychanalyste Jessica Abdelmoumene commenteront le film, puis échangeront avec les enfants et les adultes après la projection.SynopsisDounia, 6 ans, est élevée en Syrie par ses grands-parents, après la mort de sa mère et l’arrestation de son père.",
    "added": ""
+  },
+  {
+   "source": "Cinéma du Musée",
+   "title": "FATHERLAND (VOSTA)",
+   "start": "2026-12-06T14:25:00-05:00",
+   "url": "https://cinemacinema.ca/fr/films/fatherland-2273",
+   "end": "2026-12-06T15:47:00-05:00",
+   "location": "Cinéma du Musée",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/bc5d16cccf6c2767.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "movies",
+   "id": "d26a20e37731f908c46d",
+   "about": "*Prix de la mise en scène (ex æquo) - Festival de Cannes 2026.En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Cinéma du Musée",
+   "title": "MINOTAUR (VOSTA)",
+   "start": "2026-12-06T16:25:00-05:00",
+   "url": "https://cinemacinema.ca/fr/films/minotaur-2291",
+   "end": "2026-12-06T18:47:00-05:00",
+   "location": "Cinéma du Musée",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [],
+   "image": "img/8f675c9155810664.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "movies",
+   "id": "6dc0655a59c3f0c47fa7",
+   "about": "Séance spéciale présenté en collaboration avec The Russian Canadian Democratic Alliance (RDCA), suivie d'une discussion avec invité.e.s - Jeudi 19 novembre à 19h30 au Cinéma du Musée. Billets ici.The Russian Canadian Democratic Alliance (RCDA) est un organisme canadien à but non lucratif qui favorise les liens entre les Canadiennes et Canadiens russophones et toutes les personnes qui s’intéressent à la Russie…",
+   "added": "2026-11-27"
   },
   {
    "source": "Cinéma du Parc",
