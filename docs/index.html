@@ -338,26 +338,28 @@
 </dialog>
 <div class="toast" id="toast">Copied</div>
 <script>
-const TAB_LABEL = { music: "Music", other: "Social", bars: "Bar", oysters: "Oysters", museums: "Exhibition",
-                    classical: "Traditional", city: "City", movies: "Film", date: "By Date" };
-const TAB_SHORT = { music: "Music", other: "Social", bars: "Bar", oysters: "Oysters", museums: "Exhibition",
-                    classical: "Traditional", city: "City", movies: "Film", date: "By Date" };   // narrow screens
+const TAB_LABEL = { music: "Music", other: "Socials", bars: "Bar", oysters: "Oysters", museums: "Exhibitions",
+                    classical: "Traditional", city: "City", classes: "Classes", movies: "Film", date: "By Date" };
+const TAB_SHORT = { music: "Music", other: "Socials", bars: "Bar", oysters: "Oysters", museums: "Exhibitions",
+                    classical: "Traditional", city: "City", classes: "Classes", movies: "Film", date: "By Date" };   // narrow screens
 const PLACEHOLDER = { music: "Search artists, titles, rooms…", classical: "Search composers, performers, halls…", other: "Search events, venues…",
                       bars: "Search bars, streets…", city: "Search shows, libraries, boroughs…", oysters: "Search restaurants, streets…", museums: "Search exhibitions, museums, galleries…", movies: "Search films, cinemas…",
+                      classes: "Search cooking, writing, dance…",
                       date: "Search this day…" };
 // "By Date" view: everything on one day, in this order of types
 const DAY_GROUPS = [
   ["Music", e => e.tab === "music"],
-  ["Social", e => e.tab === "other"],
+  ["Socials", e => e.tab === "other"],
   ["Bar", e => e.tab === "bars"],
   ["Oyster deals", e => e.tab === "oysters"],
   ["Exhibition events", e => e.tab === "museums" && e.kind !== "exhibition"],
   ["Exhibitions on view", e => e.tab === "museums" && e.kind === "exhibition"],
   ["Traditional", e => e.tab === "classical"],
   ["City", e => e.tab === "city"],
+  ["Classes", e => e.tab === "classes"],
   ["Film", e => e.tab === "movies"],
 ];
-const EVENT_TABS = ["music", "classical", "other", "bars", "city", "oysters"];   // tabs filtered by venue chips
+const EVENT_TABS = ["music", "classical", "other", "bars", "city", "classes", "oysters"];   // tabs filtered by venue chips
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -370,10 +372,11 @@ let placeKinds = new Set(store.get("placeKinds", ["museum", "gallery"]));
 const MUSEUM_SOURCES = new Set(["Musées Montréal", "MBAM", "McCord Museum"]);   // everything else in that tab is a gallery / art centre
 const placeKind = e => (MUSEUM_SOURCES.has(e.source) ? "museum" : "gallery");
 // quick filters: price ("any" | "free" | "under20"), when ("any" | "tonight" | "weekend"),
-// start time ("any" | "early" | "late"), genres (any of the ticked ones)
+// start time ("any" | "early" | "late"), neighbourhoods (any of the ticked ones)
 let price = store.get("priceFilter", store.get("freeOnly", false) ? "free" : "any");
 let when = "any", slot = "any", fresh = false;   // fresh: only "New since your last visit"
-let genreSel = new Set();
+let genreSel = new Set();   // ticked neighbourhoods
+const hoodOf = e => (e.hood ? [e.hood] : []);
 let picksOnly = false;
 let picked = new Set(store.get("picked", []));
 
@@ -524,9 +527,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     $("q").placeholder = PLACEHOLDER[id] || "Search…";
     $("sub").style.display = id === "date" ? "none" : "";   // no feed for a single day
     $("sub").open = false;
-    if (id === "music") genreSel.forEach(g => { if (!MUSIC_GENRES.has(g)) genreSel.delete(g); });   // not listed there
     if (id === "classical" || id === "oysters") slot = "any";   // no Early / Late buttons there to switch it off
-    if (id !== "date") genreSel.forEach(g => { if (!events.some(e => e.tab === id && (e.genres || []).includes(g))) genreSel.delete(g); });   // a type this tab doesn't have would hide everything
+    if (id !== "date") genreSel.forEach(g => { if (!events.some(e => e.tab === id && e.hood === g)) genreSel.delete(g); });   // an area with nothing in this tab would hide everything
     $("subnote").textContent = `Every event in ${TAB_LABEL[id] || "this tab"}, in your calendar. It updates by itself.`;
     if (id === "date") { setDay(dayPick); return; }
     history.replaceState(null, "", "#" + id);
@@ -587,10 +589,6 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   })();
   const priceKnown = e => e.free || e.price_lo != null;
   const hasPrices = list => list.some(priceKnown);
-  const genreTabs = ["music", "classical", "other", "city", "date"];
-  const MUSIC_GENRES = new Set(["Techno", "House", "Disco", "Bass & DnB", "Hip-hop & R&B", "Afro & Latin", "Flamenco",
-    "Jazz & Blues", "Classical & Choral", "Folk & Country", "Punk & Hardcore", "Metal", "Rock & Indie", "Experimental",
-    "Pop & Throwback", "Electronic", "Dance", "Listening Party"]);
   let genresOpen = false;
   // Current filter settings; counts pass overrides to ask "how many if this button were on?"
   const cur = () => ({ when, slot, price, genres: genreSel, fresh });
@@ -604,7 +602,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
       if (st.price === "free" && !e.free) return false;
       if (st.price === "under20" && !(e.free || e.price_lo < 20)) return false;
     }
-    if (st.genres.size && genreTabs.includes(tab) && !(e.genres || []).some(g => st.genres.has(g))) return false;
+    if (st.genres.size && !st.genres.has(e.hood)) return false;
     return true;
   }
   function opt(label, on, n, onclick, cls = "") {
@@ -682,21 +680,15 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
             setPrice("under20"), "free-chip"));
     }
     chips.appendChild(row1);
-    if (genreTabs.includes(tab)) {
-      const all = new Set(inTab.flatMap(e => e.genres || []));
+    {   // Area: the neighbourhoods with events here, the 8 biggest (plus any switched on); the rest behind "More"
+      const all = new Set(inTab.flatMap(hoodOf));
       const counts = {};
-      all.forEach(g => counts[g] = cnt({ genres: new Set() }, e => (e.genres || []).includes(g)));
-      // Music & Dance lists music styles only; the other tabs list kinds of event
-      const fits = g => tab !== "music" || MUSIC_GENRES.has(g);
-      const names = [...all].filter(g => fits(g) && (counts[g] || genreSel.has(g)));
-      if (names.length) {
-        // the 8 biggest (plus any switched on); the rest behind "More"
-        const byCount = [...names].sort((a, b) => counts[b] - counts[a]);
-        const top = new Set(byCount.slice(0, 8));
-        const order = data.genres || [...all];   // the scraper's genre order
-        const shownG = names.filter(g => genresOpen || top.has(g) || genreSel.has(g))
-                            .sort((a, b) => order.indexOf(a) - order.indexOf(b));
-        const row = chipRow(el("span", "rowlabel", tab === "music" ? "Genre" : "Type"));
+      all.forEach(g => counts[g] = cnt({ genres: new Set() }, e => e.hood === g));
+      const names = [...all].filter(g => counts[g] || genreSel.has(g)).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+      if (names.length > 1 || genreSel.size) {
+        const top = new Set(names.slice(0, 8));
+        const shownG = names.filter(g => genresOpen || top.has(g) || genreSel.has(g));
+        const row = chipRow(el("span", "rowlabel", "Area"));
         shownG.forEach(g => row.appendChild(
           opt(g, genreSel.has(g), counts[g], () => { genreSel.has(g) ? genreSel.delete(g) : genreSel.add(g); redo(); }, "genre")));
         const rest = names.length - shownG.length;
@@ -755,7 +747,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
   }
 
   function matches(e, term) {
-    return !term || (e.title + " " + e.location + " " + e.source + " " + (e.kind || "") + (e.free ? " free gratuit" : ""))
+    return !term || (e.title + " " + e.location + " " + e.source + " " + (e.kind || "") + " " + (e.hood || "") + " " + (e.genres || []).join(" ") + (e.free ? " free gratuit" : ""))
       .toLowerCase().includes(term);
   }
 
@@ -837,7 +829,7 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     if (!e.free && e.price) w.append(" · " + e.price);
     else if (!e.free && price !== "any" && e.tab !== "museums") w.appendChild(el("span", "unknown", " · price unknown"));
     body.appendChild(w);
-    if (e.genres && e.genres.length) body.appendChild(el("div", "tags", e.genres.join(" · ")));
+    if (e.hood) body.appendChild(el("div", "tags", e.hood));
     row.append(body, thumb(e)); openable(row, e); sec.appendChild(row);
   }
 
@@ -1004,8 +996,8 @@ fetch("events.json", { cache: "no-cache" }).then(r => r.json()).then(data => {
     }
     line("Where", [e.source, e.location && !sameish(e.location, e.source) ? e.location : ""].filter(Boolean).join(" · "));
     line("Price", e.free ? "Free" : e.price);   // no line at all when there's no price
-    if (e.genres && e.genres.length) line("Genre", e.genres.join(" · "));
-    else if (e.kind && e.kind !== "exhibition") line("Type", e.kind);
+    if (e.hood) line("Area", e.hood);
+    if (e.kind && e.kind !== "exhibition") line("Type", e.kind);
     b.appendChild(meta);
     if (e.about) b.appendChild(el("div", "dabout", e.about));
     if (e.tab === "movies") {   // the film's other showtimes that day at that cinema

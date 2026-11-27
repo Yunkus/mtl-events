@@ -4,8 +4,8 @@ Scrapes upcoming events from a list of Montreal venues every 6 hours and publish
 
 - `docs/index.html` – a filterable web page
 - one calendar feed per tab, to subscribe to in Google / Apple / Outlook Calendar:
-  `music.ics` (Music), `other.ics` (Social), `bars.ics` (Bar), `city.ics` (City), `classical.ics` (Traditional), `oysters.ics` (Oysters), `museums.ics` (Exhibition), `movies.ics` (Film).
-  `calendar.ics` is the original feed and still has Music and Social together.
+  `music.ics` (Music), `other.ics` (Socials), `bars.ics` (Bar), `city.ics` (City), `classical.ics` (Traditional), `oysters.ics` (Oysters), `museums.ics` (Exhibitions), `classes.ics` (Classes), `movies.ics` (Film).
+  `calendar.ics` is the original feed and still has Music and Socials together.
 
 On the page you can also tick individual events (tap showtimes for movies). The bar at the bottom then
 downloads just those as a `.ics` file (opens in Apple Calendar / Outlook, or import into Google Calendar),
@@ -18,7 +18,7 @@ Laugh It Off, Universe), "GRATUIT // FREE" (Turbo Haüs), a museum page whose pr
 "free of charge", or a title that says free / gratuit. Paid events show their price when the source has it.
 Le Red Room, Le Belmont, Favourite Library and the cinemas don't publish prices in a readable form.
 
-## Cleanup, genres and filters
+## Cleanup, neighbourhoods and filters
 
 Every source goes through a cleanup step (`clean_events` in `scrape.py`):
 
@@ -31,7 +31,8 @@ Every source goes through a cleanup step (`clean_events` in `scrape.py`):
 - dates that can't be right are dropped (a show more than 18 months out, or ending before it starts).
   Long-running exhibitions keep their real opening date (the Planétarium's *Aurorae* has run since 2015).
 
-Genres (`GENRES` in `scrape.py`) come from keywords in the title and, for Théâtre Fairmount and Bar Le Ritz, the
+Genres (`GENRES` in `scrape.py`) aren't shown any more, but they still feed the search box, the Tonight cards and the
+no-image art. They come from keywords in the title and, for Théâtre Fairmount and Bar Le Ritz, the
 show description; Resident Advisor's own genre tags; who presents the show (`PRESENTER_GENRES`: Extensive Enterprise
 → Metal, Blue Skies Turn Black → Rock & Indie…); and, only for venues that book one kind of night, a venue default
 (`VENUE_GENRES`: Stereo, New City Gas and the other clubs → Electronic, Turbo Haüs → Punk and Rock). Live-band rooms
@@ -41,12 +42,12 @@ than guessed.
 Stand-up shows billed under a name only are caught by the presenter (Outback, Juste pour rire…), comedy words in
 the description, or `COMEDIANS` in `scrape.py` (add a name there if one lands in Music).
 
-In Exhibition, the views are On now / Coming up / Events, and Museums vs Galleries can be
+In Exhibitions, the views are On now / Coming up / Events, and Museums vs Galleries can be
 switched separately (Musées Montréal counts as museums; the rest are galleries and art centres).
 
 On the page: Tonight, This weekend, Early shows / Late night (10 pm+), Free / Under $20 (events with no
-known price stay listed, marked "price unknown"), and a Genre row on Music (music styles only) and a
-Type row on Social, City and By Date: the 8 biggest, the rest behind "More". Every count, including
+known price stay listed, marked "price unknown"), and an **Area** row on every tab: the neighbourhoods with events
+there, the 8 biggest, the rest behind "More". Each event also shows its neighbourhood. Every count, including
 the counts on the tabs, follows the other active filters and the search box, so a combination with no results
 shows 0 before you tap it. Venues with nothing upcoming
 get no button.
@@ -57,6 +58,22 @@ Discounted oyster nights, by hand in `OYSTER_DEALS` in `scrape.py`: place, addre
 oyster, conditions, and where the deal was confirmed. Only deals confirmed by the place itself or a 2026 source
 are listed (checked 2026-11-26); each repeats for the next 3 weeks. Deals change with the season and supply
 (an Atlantic oyster parasite pushed prices up in 2026), so re-check them every few months.
+
+## Neighbourhoods
+
+Each event's venue gets coordinates (`place_events` in `scrape.py`): fixed ones for the main venues
+(`VENUE_COORDS`), everything else looked up once on OpenStreetMap (at most 1 request a second, remembered in
+`docs/geo_cache.json`). The point is then placed in the City of Montreal's 91 "quartiers de référence en habitation"
+(`data/quartiers.json`, from donnees.montreal.ca, CC BY 4.0) and given the name people use (`HOOD_NAMES`: Saint-Louis
+→ Plateau, Montagne → Downtown, Saint-Édouard → Little Italy…). The Quartier Latin and the Village share one city
+quartier, split at Saint-Hubert; Griffintown and Little Burgundy likewise. Places outside Montreal proper are named
+by town (Westmount, Outremont…), the West Island towns together. An event whose place can't be found has no
+neighbourhood and only shows when no Area is ticked.
+
+## Classes tab
+
+Ateliers & Saveurs (cooking, cocktail, wine classes), and any class or workshop from the Socials, Music and City
+sources (`CLASS_TITLES`: "atelier de…", "cours de…", "workshop", "masterclass"; not "Class of 91", a band).
 
 ## Traditional tab
 
@@ -100,13 +117,13 @@ Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
   downloaded keep their original address and are retried after 3 days (`docs/img/failed.json`).
 - **No image**: events without one (or whose image fails to load) get amber-on-black art with the venue's name;
   the pattern is chosen by genre, so all the techno nights match.
-- **Detail panel**: tapping an event shows its image, time, place, price, genres and a short description (the
+- **Detail panel**: tapping an event shows its image, time, place, price, neighbourhood and a short description (the
   source's own text, RA's event text, or the event page's `og:description`; site-wide taglines and text that only
   repeats the title are skipped), with Tickets, Map, Add to calendar, Share and "Listen": one row per act on the
   bill (split at +, /, w/, with, x, &, b2b and commas; "presents", tour and album-launch wording dropped), each
   with YouTube / Spotify / Bandcamp searches.
   Shared links look like `…/mtl-events/#e/<id>`.
-- **Tonight**: up to 4 picture cards on top of Music, Social and City. Favoured: `EDITOR_PICKS` in
+- **Tonight**: up to 4 picture cards on top of Music, Socials and City. Favoured: `EDITOR_PICKS` in
   `scrape.py` (title fragments; those events also get an "Editor's pick" badge), then newly listed events.
 - **New**: `docs/first_seen.json` keeps the day each event first appeared; the page marks anything added since
   your previous visit, and a "New" filter shows only those.
@@ -117,7 +134,7 @@ Bloc, L'Escogriffe, Le Marché Vintage) don't trigger it.
   Link previews use `og-image.jpg`.
 - Past events are hidden by the visitor's own clock, not the time of the last update.
 
-## Music vs Social
+## Music vs Socials
 
 Each event in the venue list below goes to **Music** unless:
 
@@ -128,7 +145,7 @@ Each event in the venue list below goes to **Music** unless:
 
 "Closed" and "private event" placeholders are dropped.
 
-## Sources (Music and Social tabs)
+## Sources (Music and Socials tabs)
 
 | Venue | How it's fetched |
 |---|---|
@@ -169,7 +186,7 @@ Each event in the venue list below goes to **Music** unless:
 | White Wall Studio | Resident Advisor venue 270118 (4532 av. Laval; ambient / experimental release parties, about one a month) |
 | Brasserie Beaubien | Resident Advisor venue 98180 (73 rue Beaubien E; a DJ night every few months, none listed since May 2026, so it's in `QUIET_OK`) |
 
-### Exhibition tab (`docs/museums.ics`)
+### Exhibitions tab (`docs/museums.ics`)
 
 | Source | How it's fetched |
 |---|---|
@@ -179,8 +196,8 @@ Each event in the venue list below goes to **Music** unless:
 | Fais-moi l'art | faismoilart.org/en-cours: 'Du 4 au 19 décembre 2026' blocks → exhibitions, 'Vernissage le …' → events |
 | FOIL (Finer Objects in Life) | homepage events list (date + title per row, time from each row's detail panel) |
 | Espace Transmission | espacetransmission.ca/événements ('14.11.24. …' entries; currently only past ones) and, for its parties, Resident Advisor venue 235410 (Music) |
-| MBAM (La Buvette) — Social tab | each date has its own page (`/activities/la-buvette-DD-MM-YY/`), found through the museum's calendar pages (`/en/calendar/?page=N`; the sitemap took ~50 s and stopped listing them); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
-| McCord After Hours — Social tab | the page's "Next event" spot; nothing is listed until it shows a date (now: "Stay tuned!") |
+| MBAM (La Buvette) — Socials tab | each date has its own page (`/activities/la-buvette-DD-MM-YY/`), found through the museum's calendar pages (`/en/calendar/?page=N`; the sitemap took ~50 s and stopped listing them); date from its schema.org data, time / length / price from its text. `mbam_series()` can follow other series. |
+| McCord After Hours — Socials tab | the page's "Next event" spot; nothing is listed until it shows a date (now: "Stay tuned!") |
 | Montreal Art Center | montrealartcenter.com/our-events (Wix events). Film screenings go to the Film tab; exhibitions and events here. |
 
 ### Film tab (`docs/movies.ics`)
@@ -202,9 +219,9 @@ The movies feed has every showtime (several hundred). Subscribe to it only if yo
 | Added by hand | `WEEKLY_BY_HAND` in `scrape.py`: weekly nights with no website (Tuesday trivia at Honey Martin, 9:30 PM, free). Add a line there to add another. |
 | Added by hand (one-off) | `ONE_OFF_BY_HAND` in `scrape.py`: single events from organizers whose pages can't be read automatically (e.g. Heures ouvrables on Instagram / Zeffy). The tab follows the source name; past dates drop off. |
 | Ville de Montréal — **City tab** (`docs/city.ics`) | montreal.ca/evenements, next 14 days, everything put on by the City: every Maison de la culture event; adult cultural library events (talks, author meetings, readings, concerts, screenings; no storytime, homework help, chess…); and shows, concerts, talks, workshops and park events at other city venues (cultural and community centres, halls, parks). Left out: council meetings, fitness classes, conversation groups, kids'/teen activities, postponed events. Sold-out shows are marked. (biblio.montreal.ca itself sits behind a bot check.) |
-| Marchés publics — Social | marchespublics-mtl.com events: each weekend range ('4 - 6 décembre 2026') is one multi-day entry; toddler workshops skipped |
-| Ateliers & Saveurs — Social | the public agenda pages (cooking, cocktail, wine): Montreal branches, next 14 days, classes with places left. Their JSON feed answers 403, so it isn't used. |
-| Holiday markets — Social | `SEASONAL_BY_HAND` in `scrape.py` (Grand Marché de Noël, Village de Noël at Atwater; dates from mtl.org). Multi-day entries show under "Ongoing". |
+| Marchés publics — Socials | marchespublics-mtl.com events: each weekend range ('4 - 6 décembre 2026') is one multi-day entry; toddler workshops skipped |
+| Ateliers & Saveurs — Classes | the public agenda pages (cooking, cocktail, wine): Montreal branches, next 14 days, classes with places left. Their JSON feed answers 403, so it isn't used. |
+| Holiday markets — Socials | `SEASONAL_BY_HAND` in `scrape.py` (Grand Marché de Noël, Village de Noël at Atwater; dates from mtl.org). Multi-day entries show under "Ongoing". |
 
 **Not included: Jeudis du MAC** (macm.org sits behind Cloudflare's bot check), **Heures ouvrables** (Linktree refuses requests from GitHub's servers), **Vidéographe** (its program loads from a data service that refuses automated requests), **Supersystème** (a graphic design studio's portfolio, not a venue), **Aire Commune.** Its site has no dated events, and its Tixr page blocks automated access.
 
