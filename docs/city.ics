@@ -1,123 +1,14 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Montreal Event Calendar//EN
-X-WR-CALNAME:Montreal City Events
+X-WR-CALNAME:Montreal City
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-TIMEZONE:America/Montreal
-BEGIN:VEVENT
-SUMMARY:FREE · Peinture sur bois @ Other city venues
-DTSTART;TZID=America/Montreal:20261126T110000
-DTEND;TZID=America/Montreal:20261126T133000
-DTSTAMP:20261126T213910Z
-UID:aae8f84949b4b10e7a14@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/peintu
- re-sur-bois-121583
-LOCATION:FabricARThèque du Vieux-Saint-Laurent
-URL:https://montreal.ca/evenements/peinture-sur-bois-121583
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Forum citoyen sur la mise à jour du Plan climat de MHM - 
- première séance @ Other city venues
-DTSTART;TZID=America/Montreal:20261126T160000
-DTEND;TZID=America/Montreal:20261126T174500
-DTSTAMP:20261126T213910Z
-UID:eb2fece9ee5a44a19549@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/forum-
- citoyen-sur-la-mise-jour-du-plan-climat-de-mhm-premiere-seance-120599
-LOCATION:CRC Saint-Donat
-URL:https://montreal.ca/evenements/forum-citoyen-sur-la-mise-jour-du-plan-
- climat-de-mhm-premiere-seance-120599
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Forum citoyen sur la mise à jour du Plan climat de MHM - 
- seconde séance @ Other city venues
-DTSTART;TZID=America/Montreal:20261126T181500
-DTEND;TZID=America/Montreal:20261126T200000
-DTSTAMP:20261126T213910Z
-UID:5c911ebd982d47fa5905@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/forum-
- citoyen-sur-la-mise-jour-du-plan-climat-de-mhm-seconde-seance-120602
-LOCATION:CRC Saint-Donat
-URL:https://montreal.ca/evenements/forum-citoyen-sur-la-mise-jour-du-plan-
- climat-de-mhm-seconde-seance-120602
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Sam Vigneault en rodage @ Other city venues
-DTSTART;TZID=America/Montreal:20261126T190000
-DTEND;TZID=America/Montreal:20261126T203000
-DTSTAMP:20261126T213910Z
-UID:b402dd3180be97a24b13@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/sam-vi
- gneault-en-rodage-117294
-LOCATION:Centre culturel et communautaire Henri-Lemieux
-URL:https://montreal.ca/evenements/sam-vigneault-en-rodage-117294
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Club de lecture de manga @ Bibliothèques de Montréal
-DTSTART;TZID=America/Montreal:20261126T190000
-DTEND;TZID=America/Montreal:20261126T200000
-DTSTAMP:20261126T213910Z
-UID:6d28a216251b5473346d@mtl-events
-DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
- nts/club-de-lecture-de-manga-117612
-LOCATION:Bibliothèque de Pierrefonds
-URL:https://montreal.ca/evenements/club-de-lecture-de-manga-117612
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Méthadone Bertrand - Les Fauves @ Maisons de la culture
-DTSTART;TZID=America/Montreal:20261126T193000
-DTEND;TZID=America/Montreal:20261126T223000
-DTSTAMP:20261126T213910Z
-UID:e18a3b23ecaf11712655@mtl-events
-DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/me
- thadone-bertrand-les-fauves-120175
-LOCATION:Maison de la culture Janine-Sutto
-URL:https://montreal.ca/evenements/methadone-bertrand-les-fauves-120175
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Catherine Major & Jeff Moran - Bunker à ciel ouvert @ Maisons de 
- la culture
-DTSTART;TZID=America/Montreal:20261126T193000
-DTEND;TZID=America/Montreal:20261126T210000
-DTSTAMP:20261126T213910Z
-UID:1f81e3f8d6047ca2d1ed@mtl-events
-DESCRIPTION:Maisons de la culture\n$25\nhttps://montreal.ca/evenements/cat
- herine-major-jeff-moran-bunker-ciel-ouvert-118260
-LOCATION:Quai 5160 – Maison de la culture de Verdun
-URL:https://montreal.ca/evenements/catherine-major-jeff-moran-bunker-ciel-
- ouvert-118260
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · L’espace entre nous - Production Pendar @ Maisons de la 
- culture
-DTSTART;TZID=America/Montreal:20261126T193000
-DTEND;TZID=America/Montreal:20261126T210000
-DTSTAMP:20261126T213910Z
-UID:c3cd739999e455f1d57f@mtl-events
-DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/le
- space-entre-nous-production-pendar-109276
-LOCATION:Maison de la culture Claude-Léveillée
-URL:https://montreal.ca/evenements/lespace-entre-nous-production-pendar-10
- 9276
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Simon et le temps perdu - Productions à l'écart @ Maison
- s de la culture
-DTSTART;TZID=America/Montreal:20261126T200000
-DTEND;TZID=America/Montreal:20261126T204500
-DTSTAMP:20261126T213910Z
-UID:83e6550632ce288dd916@mtl-events
-DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/si
- mon-et-le-temps-perdu-productions-lecart-115195
-LOCATION:Maison de la culture Notre-Dame-de-Grâce – Monkland
-URL:https://montreal.ca/evenements/simon-et-le-temps-perdu-productions-lec
- art-115195
-END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FREE · Création textile @ Other city venues
 DTSTART;TZID=America/Montreal:20261127T130000
 DTEND;TZID=America/Montreal:20261127T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:8ccc944291ec59e62b4a@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/creati
  on-textile-121181
@@ -129,7 +20,7 @@ SUMMARY:FREE · Prima di Scomparire - Les Soeurs Schmutt (Sortie de résid
  ence) @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261127T140000
 DTEND;TZID=America/Montreal:20261127T144500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5b4ce42901579d665753@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/pr
  ima-di-scomparire-les-soeurs-schmutt-sortie-de-residence-119479
@@ -142,7 +33,7 @@ SUMMARY:FREE · Atelier d’écriture optimiste @ Bibliothèques de Montr
  éal
 DTSTART;TZID=America/Montreal:20261127T140000
 DTEND;TZID=America/Montreal:20261127T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2890b1bd05f9d91a2617@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-optimiste-117550
@@ -153,7 +44,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Chantons! @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261127T150000
 DTEND;TZID=America/Montreal:20261127T164500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:0938fa373dfadbe664ee@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ch
  antons-119925
@@ -164,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Cours de dessin @ Other city venues
 DTSTART;TZID=America/Montreal:20261127T151500
 DTEND;TZID=America/Montreal:20261127T164500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ac79fffc2efbaeadce94@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/cours-
  de-dessin-115615
@@ -176,7 +67,7 @@ SUMMARY:FREE · RECONSTRUCTION - Drê-D\, Laetitia Zonzambe et Lydol @ Oth
  er city venues
 DTSTART;TZID=America/Montreal:20261127T190000
 DTEND;TZID=America/Montreal:20261127T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f2402d2ed121313aabfd@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/recons
  truction-dre-d-laetitia-zonzambe-et-lydol-119254
@@ -189,7 +80,7 @@ SUMMARY:FREE · L'histoire s'invite à NDG #4 (conférence) @ Maisons de l
  a culture
 DTSTART;TZID=America/Montreal:20261127T190000
 DTEND;TZID=America/Montreal:20261127T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:632d06824acf9835b1b1@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/lh
  istoire-sinvite-ndg-4-conference-111595
@@ -201,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:Hitch - Théâtre Globe Bulle Rouge @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261127T193000
 DTEND;TZID=America/Montreal:20261127T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:62fc401572604815c411@mtl-events
 DESCRIPTION:Maisons de la culture\n$14\nhttps://montreal.ca/evenements/hit
  ch-theatre-globe-bulle-rouge-118261
@@ -213,7 +104,7 @@ SUMMARY:FREE · Miroir éphémère - BOA expérience @ Maisons de la cultu
  re
 DTSTART;TZID=America/Montreal:20261127T193000
 DTEND;TZID=America/Montreal:20261127T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:89c0aa739d90096f1077@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/mi
  roir-ephemere-boa-experience-115768
@@ -225,7 +116,7 @@ SUMMARY:FREE · Une journée dans la vie d’un ours - Simon Proulx et Eti
  enne Lafrance @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261127T193000
 DTEND;TZID=America/Montreal:20261127T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:91625bbeff3dbae3b609@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/un
  e-journee-dans-la-vie-dun-ours-simon-proulx-et-etienne-lafrance-117671
@@ -237,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:On s’lâche pas! - Hubert Proulx @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261127T200000
 DTEND;TZID=America/Montreal:20261127T220000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:68eee59065a373a3aaa7@mtl-events
 DESCRIPTION:Maisons de la culture\n$39\nhttps://montreal.ca/evenements/sla
  che-pas-hubert-proulx-108339
@@ -249,7 +140,7 @@ SUMMARY:Opens: Le temps des Fêtes au Marché Maisonneuve @ Marché Maison
  neuve
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c75ba1c721bd835cfe0b@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-maisonneuve
@@ -262,7 +153,7 @@ SUMMARY:Last day: Le temps des Fêtes au Marché Maisonneuve @ Marché Mai
  sonneuve
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c75ba1c721bd835cfe0b-1@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-maisonneuve
@@ -274,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Café Réparation de Saint-Laurent @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T100000
 DTEND;TZID=America/Montreal:20261128T133000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2eb2fa37b108fc5d65bb@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/cafe-r
  eparation-de-saint-laurent-116946
@@ -286,7 +177,7 @@ SUMMARY:FREE · Club de lecture féministe: Histoire de l'avortement au Qu
  ébec (avec l'autrice Marie-Laurence Raby) @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261128T100000
 DTEND;TZID=America/Montreal:20261128T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:0debed6580955a8d0de3@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-feministe-histoire-de-lavortement-au-quebec-avec-lautr
@@ -300,7 +191,7 @@ SUMMARY:FREE · Introduction à Cricut et Cricut Design Space @ Other city
   venues
 DTSTART;TZID=America/Montreal:20261128T103000
 DTEND;TZID=America/Montreal:20261128T133000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:1d5de91b38167cdb12a4@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/introd
  uction-cricut-et-cricut-design-space-117648
@@ -312,7 +203,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Noël au Village @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T110000
 DTEND;TZID=America/Montreal:20261128T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ea9d45f2554d32034b71@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/noel-a
  u-village-121233
@@ -324,7 +215,7 @@ SUMMARY:FREE · Atelier de sculptures en papier journal – Julie Picard @
   Other city venues
 DTSTART;TZID=America/Montreal:20261128T120000
 DTEND;TZID=America/Montreal:20261128T140000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b4d68b55d9a935a963e1@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-sculptures-en-papier-journal-julie-picard-116489
@@ -337,7 +228,7 @@ SUMMARY:FREE · Carnet 04 : Papier artisanal recyclé @ Maisons de la cult
  ure
 DTSTART;TZID=America/Montreal:20261128T130000
 DTEND;TZID=America/Montreal:20261128T143000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d32fbcde8bba86b0c437@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ca
  rnet-04-papier-artisanal-recycle-120406
@@ -349,7 +240,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Atchoum - Le Concert d’hiver @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T133000
 DTEND;TZID=America/Montreal:20261128T142000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c95eda75ef037afce1d7@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atchou
  m-le-concert-dhiver-119270
@@ -361,7 +252,7 @@ SUMMARY:FREE · Carnet V01 : atelier de dessin et de collage inspirés d'e
  nluminure du Moyen-Âge (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ed4e5aace2b69783bfb5@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/carnet
  -v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116
@@ -374,7 +265,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Après-midi cinéma @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ea1fed4683074e757b0d@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/apres-midi-cinema-120297
@@ -385,7 +276,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Ateliers d’écriture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T170000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:03986455e6e7740d89a2@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/ateliers-decriture-116095
@@ -397,7 +288,7 @@ SUMMARY:FREE · Atelier d'écriture de lettres au père Noël @ Bibliothè
  ques de Montréal
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:70921de423e5d26a156c@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-de-lettres-au-pere-noel-115820
@@ -410,7 +301,7 @@ SUMMARY:FREE · Dans l'univers d'Astor - Ensemble Mistral (complet / sold
  out) @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T151500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:64e9a952f57432fa3655@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/da
  ns-lunivers-dastor-ensemble-mistral-119910
@@ -423,7 +314,7 @@ SUMMARY:Quelqu'un t'aime monsieur Hatch - Théâtre Axis @ Other city venu
  es
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T145000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:6fb407074fb1620b2b22@mtl-events
 DESCRIPTION:Other city venues\n$3\nhttps://montreal.ca/evenements/quelquun
  -taime-monsieur-hatch-theatre-axis-123184
@@ -435,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · 3D Mania @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T150000
 DTEND;TZID=America/Montreal:20261128T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:eae3cc0457862210c1a3@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/3d-man
  ia-115455
@@ -447,7 +338,7 @@ SUMMARY:FREE · Va falloir toujours toujours- Le Petit Théâtre de Sherbr
  ooke et La [parenthèse] @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T160000
 DTEND;TZID=America/Montreal:20261128T165000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f97a6d8d5f94b5632523@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/va-fal
  loir-toujours-toujours-le-petit-theatre-de-sherbrooke-et-la-parenthese-118
@@ -460,7 +351,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Hitch - Théâtre Globe bulle rouge @ Other city venues
 DTSTART;TZID=America/Montreal:20261128T193000
 DTEND;TZID=America/Montreal:20261128T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:168f63fba19081625aaa@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/hitch-
  theatre-globe-bulle-rouge-117715
@@ -471,7 +362,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Reflets du temps - Quatuor Cobalt @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261128T193000
 DTEND;TZID=America/Montreal:20261128T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f908e145559f0a16f5bc@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/re
  flets-du-temps-quatuor-cobalt-111191
@@ -483,7 +374,7 @@ SUMMARY:Dernier Noël - Quatuor Quartom (complet / sold out) @ Other city
  venues
 DTSTART;TZID=America/Montreal:20261128T193000
 DTEND;TZID=America/Montreal:20261128T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:41ca304732c05fdc3ae2@mtl-events
 DESCRIPTION:Other city venues\nhttps://montreal.ca/evenements/dernier-noel
  -quatuor-quartom-116465
@@ -495,7 +386,7 @@ SUMMARY:FREE · Voyage de Noël : de Paris à Buenos Aires @ Other city ve
  nues
 DTSTART;TZID=America/Montreal:20261129T110000
 DTEND;TZID=America/Montreal:20261129T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:48af3b8ec9431cf0f03d@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/voyage
  -de-noel-de-paris-buenos-aires-118575
@@ -508,7 +399,7 @@ SUMMARY:FREE · Voyage de Noël : de Paris à Buenos Aires @ Other city ve
  nues
 DTSTART;TZID=America/Montreal:20261129T133000
 DTEND;TZID=America/Montreal:20261129T143000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2214ea4d7a20d7984061@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/voyage
  -de-noel-de-paris-buenos-aires-118576
@@ -517,21 +408,10 @@ URL:https://montreal.ca/evenements/voyage-de-noel-de-paris-buenos-aires-11
  8576
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Bidule man - Théâtre à Tempo @ Maisons de la culture
-DTSTART;TZID=America/Montreal:20261129T140000
-DTEND;TZID=America/Montreal:20261129T144500
-DTSTAMP:20261126T213910Z
-UID:27cb4ab692d8c7275f24@mtl-events
-DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/bi
- dule-man-theatre-tempo-114806
-LOCATION:Maison de la culture Mercier
-URL:https://montreal.ca/evenements/bidule-man-theatre-tempo-114806
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · L'Étoile vagabonde - La Nef @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261129T140000
 DTEND;TZID=America/Montreal:20261129T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2287e963278c1ab9d008@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/le
  toile-vagabonde-la-nef-116259
@@ -539,10 +419,32 @@ LOCATION:Maison de la culture Maisonneuve
 URL:https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Bidule man - Théâtre à Tempo @ Maisons de la culture
+DTSTART;TZID=America/Montreal:20261129T140000
+DTEND;TZID=America/Montreal:20261129T144500
+DTSTAMP:20261127T084137Z
+UID:27cb4ab692d8c7275f24@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/bi
+ dule-man-theatre-tempo-114806
+LOCATION:Maison de la culture Mercier
+URL:https://montreal.ca/evenements/bidule-man-theatre-tempo-114806
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · SPIN - Sacré Tympan @ Other city venues
+DTSTART;TZID=America/Montreal:20261129T150000
+DTEND;TZID=America/Montreal:20261129T160000
+DTSTAMP:20261127T084137Z
+UID:25a2a7f50c68eb708177@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/spin-s
+ acre-tympan-119151
+LOCATION:Centre Sanaaq
+URL:https://montreal.ca/evenements/spin-sacre-tympan-119151
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Reflets du temps - Quatuor Cobalt @ Other city venues
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:be1c2f3572c719647fb4@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/reflet
  s-du-temps-quatuor-cobalt-114625
@@ -553,7 +455,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · ZhongYi - MCCCA @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T163000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:282047d5d7c411c68cfc@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/zh
  ongyi-mccca-115197
@@ -564,7 +466,7 @@ BEGIN:VEVENT
 SUMMARY:Beatlemania Big Band - Jazz Kartel @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T170000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:59e409415a534e06363b@mtl-events
 DESCRIPTION:Maisons de la culture\n$14\nhttps://montreal.ca/evenements/bea
  tlemania-big-band-jazz-kartel-118262
@@ -572,22 +474,11 @@ LOCATION:Quai 5160 – Maison de la culture de Verdun
 URL:https://montreal.ca/evenements/beatlemania-big-band-jazz-kartel-118262
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · SPIN - Sacré Tympan @ Other city venues
-DTSTART;TZID=America/Montreal:20261129T150000
-DTEND;TZID=America/Montreal:20261129T160000
-DTSTAMP:20261126T213910Z
-UID:25a2a7f50c68eb708177@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/spin-s
- acre-tympan-119151
-LOCATION:Centre Sanaaq
-URL:https://montreal.ca/evenements/spin-sacre-tympan-119151
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · Juju et Marcelle - Et l'incroyable heure du bain - Théât
  re Omnivore @ Other city venues
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T154000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:4f9e59c6b9e50aacb97b@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/juju-e
  t-marcelle-et-lincroyable-heure-du-bain-theatre-omnivore-117042
@@ -600,7 +491,7 @@ SUMMARY:FREE · Les fantaisies de l'Archiduc - Émilie Auclair\, Julien Si
  ino et Samuel Blanchette-Gagnon (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261129T150000
 DTEND;TZID=America/Montreal:20261129T161500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b7226fc3d231e72c5ba2@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/les-fa
  ntaisies-de-larchiduc-emilie-auclair-julien-siino-et-samuel-blanchette-gag
@@ -610,25 +501,25 @@ URL:https://montreal.ca/evenements/les-fantaisies-de-larchiduc-emilie-aucl
  air-julien-siino-et-samuel-blanchette-gagnon-116865
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Le Noël de Charlie Brown - Les Chambriste du Grand Montr
- éal et le Rozan Trio (complet / sold out) @ Other city venues
+SUMMARY:FREE · Le Noël de Charlie Brown - hommage - Les Chambriste du Gr
+ and Montréal et le Rozan Trio (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261129T160000
 DTEND;TZID=America/Montreal:20261129T170000
-DTSTAMP:20261126T213910Z
-UID:1292d513cdc75833224e@mtl-events
+DTSTAMP:20261127T084137Z
+UID:f3cbb2c1ed603b2aa008@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/le-noe
- l-de-charlie-brown-les-chambriste-du-grand-montreal-et-le-rozan-trio-11703
- 3
+ l-de-charlie-brown-hommage-les-chambriste-du-grand-montreal-et-le-rozan-tr
+ io-117033
 LOCATION:Église Saint-René-Goupil
-URL:https://montreal.ca/evenements/le-noel-de-charlie-brown-les-chambriste
- -du-grand-montreal-et-le-rozan-trio-117033
+URL:https://montreal.ca/evenements/le-noel-de-charlie-brown-hommage-les-ch
+ ambriste-du-grand-montreal-et-le-rozan-trio-117033
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FREE · Rencontre citoyenne : Halte-chaleur Pavillon La Fontaine @
   Other city venues
 DTSTART;TZID=America/Montreal:20261130T170000
 DTEND;TZID=America/Montreal:20261130T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:bcc585c599c5c43c5890@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/rencon
  tre-citoyenne-halte-chaleur-pavillon-la-fontaine-122745
@@ -640,7 +531,7 @@ BEGIN:VEVENT
 SUMMARY:La méthode scandinave - Anik Salas @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261130T193000
 DTEND;TZID=America/Montreal:20261130T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ebff8760ef7f32673a54@mtl-events
 DESCRIPTION:Maisons de la culture\n$6\nhttps://montreal.ca/evenements/la-m
  ethode-scandinave-anik-salas-115475
@@ -651,7 +542,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Atelier création de nid @ Other city venues
 DTSTART;TZID=America/Montreal:20261201T140000
 DTEND;TZID=America/Montreal:20261201T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2d10d7a2d892e7675ccd@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-creation-de-nid-121240
@@ -663,7 +554,7 @@ SUMMARY:FREE · Toi... comme hier - productions et Jules à mes côtés...
   @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261201T140000
 DTEND;TZID=America/Montreal:20261201T154500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:fb6775ac683f042f9f16@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/to
  i-comme-hier-productions-et-jules-mes-cotes-115199
@@ -675,7 +566,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Origami des Fêtes @ Other city venues
 DTSTART;TZID=America/Montreal:20261201T180000
 DTEND;TZID=America/Montreal:20261201T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c21a62c77580839cc962@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/origam
  i-des-fetes-118979
@@ -687,7 +578,7 @@ SUMMARY:FREE · Création de zines - Exposition-dégustation @ Bibliothèq
  ues de Montréal
 DTSTART;TZID=America/Montreal:20261201T180000
 DTEND;TZID=America/Montreal:20261201T190000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9cea3f1670f81313e661@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/creation-de-zines-exposition-degustation-115887
@@ -700,7 +591,7 @@ SUMMARY:FREE · Club de lecture de BD féministe @ Bibliothèques de Montr
  éal
 DTSTART;TZID=America/Montreal:20261201T180000
 DTEND;TZID=America/Montreal:20261201T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f69b998fa530e5bce0ff@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-de-bd-feministe-119096
@@ -711,7 +602,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Tehrani Drom @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261201T193000
 DTEND;TZID=America/Montreal:20261201T204500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:780d2fbb9112055fea32@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/te
  hrani-drom-117892
@@ -723,7 +614,7 @@ SUMMARY:FREE · Juste une illusion de Eric Toledano et Olivier Nakache - C
  iné-Club du Plateau-Mont-Royal @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261201T193000
 DTEND;TZID=America/Montreal:20261201T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2d60c5c1326445559949@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ju
  ste-une-illusion-de-eric-toledano-et-olivier-nakache-cine-club-du-plateau-
@@ -736,7 +627,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Nos échos - Philippe Arsenault @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261202T133000
 DTEND;TZID=America/Montreal:20261202T144800
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b752063060e547ce6490@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/no
  s-echos-philippe-arsenault-115428
@@ -748,7 +639,7 @@ SUMMARY:FREE · Café rencontre des personnes aînées de Pierrefonds @ Bi
  bliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261202T133000
 DTEND;TZID=America/Montreal:20261202T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:420e9bf9a33be4c00e73@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/cafe-rencontre-des-personnes-ainees-de-pierrefonds-116529
@@ -760,7 +651,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Vernissage de Topographie du chaos @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261202T173000
 DTEND;TZID=America/Montreal:20261202T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:a4aaa1747d888287d06e@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ve
  rnissage-de-topographie-du-chaos-121093
@@ -772,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Soirée tricot-cinéma @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261202T180000
 DTEND;TZID=America/Montreal:20261202T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:a2c87f210f565d9a12cc@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/so
  iree-tricot-cinema-119209
@@ -784,7 +675,7 @@ SUMMARY:FREE · Conférence : à la découverte Vietnam @ Bibliothèques d
  e Montréal
 DTSTART;TZID=America/Montreal:20261202T180000
 DTEND;TZID=America/Montreal:20261202T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:725d9e18e1dc52e2237e@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/conference-la-decouverte-vietnam-115504
@@ -796,7 +687,7 @@ SUMMARY:FREE · Rencontre d'auteur: Marie Laberge @ Bibliothèques de Mont
  réal
 DTSTART;TZID=America/Montreal:20261202T183000
 DTEND;TZID=America/Montreal:20261202T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ec70120bbf04d6fb9100@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/rencontre-dauteur-marie-laberge-120274
@@ -807,7 +698,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture à Ducharme @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261202T183000
 DTEND;TZID=America/Montreal:20261202T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:4ab31054951233f83102@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-ducharme-115058
@@ -818,7 +709,7 @@ BEGIN:VEVENT
 SUMMARY:Conifères Mélomanes - Mauve Fougère @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261202T190000
 DTEND;TZID=America/Montreal:20261202T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:adde29869b7e85b84f8f@mtl-events
 DESCRIPTION:Maisons de la culture\n$10\nhttps://montreal.ca/evenements/con
  iferes-melomanes-mauve-fougere-118263
@@ -827,24 +718,11 @@ URL:https://montreal.ca/evenements/coniferes-melomanes-mauve-fougere-11826
  3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · MUJER - Flavia Garcia et José Maria Gianelli @ Other city
-  venues
-DTSTART;TZID=America/Montreal:20261202T193000
-DTEND;TZID=America/Montreal:20261202T210000
-DTSTAMP:20261126T213910Z
-UID:c57e826106fa18c384c6@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/mujer-
- flavia-garcia-et-jose-maria-gianelli-119150
-LOCATION:Centre Sanaaq
-URL:https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-giane
- lli-119150
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · La guitare de Schubert et Paganini - Ensemble l'Atelier Ro
  mantique @ Other city venues
 DTSTART;TZID=America/Montreal:20261202T193000
 DTEND;TZID=America/Montreal:20261202T204500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:8d382a2be73744aa8f93@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/la-gui
  tare-de-schubert-et-paganini-ensemble-latelier-romantique-116954
@@ -853,10 +731,23 @@ URL:https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ense
  mble-latelier-romantique-116954
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · MUJER - Flavia Garcia et José Maria Gianelli @ Other city
+  venues
+DTSTART;TZID=America/Montreal:20261202T193000
+DTEND;TZID=America/Montreal:20261202T210000
+DTSTAMP:20261127T084137Z
+UID:c57e826106fa18c384c6@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/mujer-
+ flavia-garcia-et-jose-maria-gianelli-119150
+LOCATION:Centre Sanaaq
+URL:https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-giane
+ lli-119150
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261203T140000
 DTEND;TZID=America/Montreal:20261203T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f00ccf69e9bbc8124ae3@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-117556
@@ -868,7 +759,7 @@ SUMMARY:FREE · Lancement du Café Alcôve à la Bibliothèque de Pierrefo
  nds @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261203T150000
 DTEND;TZID=America/Montreal:20261203T170000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d7922c53dbd8c7b4bcda@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/lancement-du-cafe-alcove-la-bibliotheque-de-pierrefonds-122724
@@ -880,7 +771,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Qui je suis par Gabriel Fredette @ Other city venues
 DTSTART;TZID=America/Montreal:20261203T190000
 DTEND;TZID=America/Montreal:20261203T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:a7e8d98930e36c079eab@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/qui-je
  -suis-par-gabriel-fredette-117300
@@ -892,7 +783,7 @@ SUMMARY:FREE · Noëls baroques français et mélodies d'hiver @ Other cit
  y venues
 DTSTART;TZID=America/Montreal:20261203T190000
 DTEND;TZID=America/Montreal:20261203T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d0951004fd9d2bbac4fc@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/noels-
  baroques-francais-et-melodies-dhiver-119942
@@ -901,24 +792,11 @@ URL:https://montreal.ca/evenements/noels-baroques-francais-et-melodies-dhi
  ver-119942
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Marie Denise Pelletier - Noël\, parle‑moi @ Other city 
- venues
-DTSTART;TZID=America/Montreal:20261203T193000
-DTEND;TZID=America/Montreal:20261203T223000
-DTSTAMP:20261126T213910Z
-UID:1f4e51d5791c7dcb5222@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/marie-
- denise-pelletier-noel-parle-moi-119285
-LOCATION:Salle de spectacle de l’église Jean XXIII
-URL:https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-1
- 19285
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:La ferme ou comment nourrir un futur intelligent ATSA @ Maisons de
   la culture
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:fe4f58e00ec86e33fb91@mtl-events
 DESCRIPTION:Maisons de la culture\n$14\nhttps://montreal.ca/evenements/la-
  ferme-ou-comment-nourrir-un-futur-intelligent-atsa-118264
@@ -927,11 +805,24 @@ URL:https://montreal.ca/evenements/la-ferme-ou-comment-nourrir-un-futur-in
  telligent-atsa-118264
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Marie Denise Pelletier - Noël\, parle‑moi @ Other city 
+ venues
+DTSTART;TZID=America/Montreal:20261203T193000
+DTEND;TZID=America/Montreal:20261203T223000
+DTSTAMP:20261127T084137Z
+UID:1f4e51d5791c7dcb5222@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/marie-
+ denise-pelletier-noel-parle-moi-119285
+LOCATION:Salle de spectacle de l’église Jean XXIII
+URL:https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-1
+ 19285
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Racines - Zal Sissokho et Laurent Perrault-Jolicoeur @ Mai
  sons de la culture
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T204000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:51a3605779dc2fc91d1f@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ra
  cines-zal-sissokho-et-laurent-perrault-jolicoeur-114567
@@ -944,7 +835,7 @@ SUMMARY:FREE · L’espace entre nous - Production Pendar @ Maisons de la
  culture
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:306bbe3b7c962fdcdb7d@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/le
  space-entre-nous-production-pendar-111325
@@ -957,7 +848,7 @@ SUMMARY:FREE · Trésors de répertoire (complet / sold out) @ Maisons de
  la culture
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:165667364b548d21617b@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/tr
  esors-de-repertoire-117438
@@ -969,7 +860,7 @@ SUMMARY:FREE · Djata : Conversations du Manden - Kira Arts @ Maisons de l
  a culture
 DTSTART;TZID=America/Montreal:20261203T193000
 DTEND;TZID=America/Montreal:20261203T201500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f57fd9cc45fc30c6f536@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/dj
  ata-conversations-du-manden-kira-arts-110089
@@ -982,7 +873,7 @@ SUMMARY:FREE · 6.58 : Manifesto - Andrea Peña & Artists @ Maisons de la
  culture
 DTSTART;TZID=America/Montreal:20261203T200000
 DTEND;TZID=America/Montreal:20261203T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:36a5c4629cb4609189f8@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/65
  8-manifesto-andrea-pena-artists-111505
@@ -995,7 +886,7 @@ SUMMARY:Opens: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean-Ta
  lon
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f1ecc333322673945c85@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
@@ -1008,7 +899,7 @@ SUMMARY:Last day: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean
  -Talon
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f1ecc333322673945c85-1@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
@@ -1021,7 +912,7 @@ SUMMARY:FREE · Le balafon pour mieux communiquer - Centre des Musiciens d
  u Monde @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261204T140000
 DTEND;TZID=America/Montreal:20261204T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9c3327e768f4a9439554@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/le
  -balafon-pour-mieux-communiquer-centre-des-musiciens-du-monde-121574
@@ -1033,7 +924,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Chantons! @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261204T150000
 DTEND;TZID=America/Montreal:20261204T164500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:801ca6877945b80f8274@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ch
  antons-119926
@@ -1044,7 +935,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Reflets du temps - Quatuor Cobalt @ Other city venues
 DTSTART;TZID=America/Montreal:20261204T193000
 DTEND;TZID=America/Montreal:20261204T223000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:569c9037db1c6bc3e8a1@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/reflet
  s-du-temps-quatuor-cobalt-110373
@@ -1056,7 +947,7 @@ SUMMARY:FREE · Noël autour du monde - Montréal Guitare Trio (MG3) @ Oth
  er city venues
 DTSTART;TZID=America/Montreal:20261204T193000
 DTEND;TZID=America/Montreal:20261204T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d31928b450a423e26046@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/noel-a
  utour-du-monde-montreal-guitare-trio-mg3-118606
@@ -1068,7 +959,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Atelier création de nid @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T100000
 DTEND;TZID=America/Montreal:20261205T110000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ddfacd9ea7cdc9f8c884@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-creation-de-nid-121239
@@ -1076,11 +967,22 @@ LOCATION:Centre Sanaaq
 URL:https://montreal.ca/evenements/atelier-creation-de-nid-121239
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Écrire un texte littéraire @ Bibliothèques de Montréal
+DTSTART;TZID=America/Montreal:20261205T101500
+DTEND;TZID=America/Montreal:20261205T121500
+DTSTAMP:20261127T084137Z
+UID:db5248f599c2742085e3@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/ecrire-un-texte-litteraire-116401
+LOCATION:Bibliothèque Maisonneuve
+URL:https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Conférence musicale : De lutte en turlutte @ Bibliothèqu
  es de Montréal
 DTSTART;TZID=America/Montreal:20261205T101500
 DTEND;TZID=America/Montreal:20261205T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5d3261ce84e3d1627887@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/conference-musicale-de-lutte-en-turlutte-116137
@@ -1089,22 +991,11 @@ URL:https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutt
  e-116137
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Écrire un texte littéraire @ Bibliothèques de Montréal
-DTSTART;TZID=America/Montreal:20261205T101500
-DTEND;TZID=America/Montreal:20261205T121500
-DTSTAMP:20261126T213910Z
-UID:db5248f599c2742085e3@mtl-events
-DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
- nts/ecrire-un-texte-litteraire-116401
-LOCATION:Bibliothèque Maisonneuve
-URL:https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · Le thé : Conférence et dégustation @ Bibliothèques de 
  Montréal
 DTSTART;TZID=America/Montreal:20261205T103000
 DTEND;TZID=America/Montreal:20261205T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:07b141bd2d6d160d33a4@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/le-conference-et-degustation-113315
@@ -1115,7 +1006,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Musique avec toi @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261205T103000
 DTEND;TZID=America/Montreal:20261205T113000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:7ca6a1a836c9b6d159f9@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/musique-avec-toi-117816
@@ -1126,7 +1017,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Introduction à la machine à coudre @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T103000
 DTEND;TZID=America/Montreal:20261205T133000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:25fc5f1a4831f6d1cd8b@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/introd
  uction-la-machine-coudre-117192
@@ -1137,7 +1028,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Activité de cuisine @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T110000
 DTEND;TZID=America/Montreal:20261205T140000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:333639c0958f35fd4d94@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/activi
  te-de-cuisine-119773
@@ -1148,7 +1039,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Callisthénie (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T114500
 DTEND;TZID=America/Montreal:20261205T124500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d4a9f9b5623a24229fc2@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/callis
  thenie-118745
@@ -1159,7 +1050,7 @@ BEGIN:VEVENT
 SUMMARY:Conte d'hiver - BOP @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T140000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:3b46f9b3c244e8b0b516@mtl-events
 DESCRIPTION:Maisons de la culture\n$7\nhttps://montreal.ca/evenements/cont
  e-dhiver-bop-110863
@@ -1171,7 +1062,7 @@ SUMMARY:FREE · Atelier de confection de couronne de Noël @ Other city ve
  nues
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b6724db457192ee6518d@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-confection-de-couronne-de-noel-121720
@@ -1184,7 +1075,7 @@ SUMMARY:FREE · Carnet 04 : Broderie sur papier avec Robie Schuler @ Maiso
  ns de la culture
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T143000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2ac9684c04a482f8b4f3@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ca
  rnet-04-broderie-sur-papier-avec-robie-schuler-120407
@@ -1197,7 +1088,7 @@ SUMMARY:FREE · Courrier des lutins et illumination des sapins @ Other cit
  y venues
 DTSTART;TZID=America/Montreal:20261205T133000
 DTEND;TZID=America/Montreal:20261205T180000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:6f37d03fb27a40a40200@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/courri
  er-des-lutins-et-illumination-des-sapins-78178
@@ -1209,7 +1100,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Les Illusionnistes @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T151500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:96984533ae5fc79b313e@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/les-il
  lusionnistes-117305
@@ -1220,7 +1111,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Rencontre informelle avec Hervé Mbelo @ Other city venues
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T170000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d43992aa4d0ec6969293@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/rencon
  tre-informelle-avec-herve-mbelo-120851
@@ -1233,7 +1124,7 @@ SUMMARY:FREE · Étoile vagabonde - Compagnie musicale La Nef @ Other city
   venues
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T144500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:bf8463243dcad9cb9d4d@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/etoile
  -vagabonde-compagnie-musicale-la-nef-119149
@@ -1245,7 +1136,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Mario a un incroyable talent @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T145500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:918626990d06b016a40c@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ma
  rio-un-incroyable-talent-118330
@@ -1257,7 +1148,7 @@ SUMMARY:FREE · L’étrange Noël de monsieur Bougris - Qu’en dit Raton
  ? @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261205T140000
 DTEND;TZID=America/Montreal:20261205T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2ff7cb5fef98d04c23fb@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/le
  trange-noel-de-monsieur-bougris-quen-dit-raton-114807
@@ -1269,7 +1160,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Concert de Noël baroque @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261205T143000
 DTEND;TZID=America/Montreal:20261205T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:58cdbedebae8e42f7809@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/concert-de-noel-baroque-119775
@@ -1277,11 +1168,22 @@ LOCATION:Bibliothèque du Boisé
 URL:https://montreal.ca/evenements/concert-de-noel-baroque-119775
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Créer une courte bande dessinée @ Other city venues
+DTSTART;TZID=America/Montreal:20261205T150000
+DTEND;TZID=America/Montreal:20261205T160000
+DTSTAMP:20261127T084137Z
+UID:5bfee1863c8802565ab0@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/creer-
+ une-courte-bande-dessinee-97096
+LOCATION:Benny Fab
+URL:https://montreal.ca/evenements/creer-une-courte-bande-dessinee-97096
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Archipel - L’Illusion\, Théâtre de marionnettes @ Mais
  ons de la culture
 DTSTART;TZID=America/Montreal:20261205T150000
 DTEND;TZID=America/Montreal:20261205T154500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:8969c605090a09e68316@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ar
  chipel-lillusion-theatre-de-marionnettes-115200
@@ -1290,21 +1192,10 @@ URL:https://montreal.ca/evenements/archipel-lillusion-theatre-de-marionnet
  tes-115200
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Créer une courte bande dessinée @ Other city venues
-DTSTART;TZID=America/Montreal:20261205T150000
-DTEND;TZID=America/Montreal:20261205T160000
-DTSTAMP:20261126T213910Z
-UID:5bfee1863c8802565ab0@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/creer-
- une-courte-bande-dessinee-97096
-LOCATION:Benny Fab
-URL:https://montreal.ca/evenements/creer-une-courte-bande-dessinee-97096
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · 18.015 - Nouena Danse @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261205T150000
 DTEND;TZID=America/Montreal:20261205T161500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:3fc85464ec2c113adb3c@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/18
  015-nouena-danse-117462
@@ -1315,7 +1206,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Des mots sur mesure @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261205T193000
 DTEND;TZID=America/Montreal:20261205T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:3554b55517dfcc4c7a4e@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/de
  s-mots-sur-mesure-119943
@@ -1327,7 +1218,7 @@ SUMMARY:FREE · Tire-toi une bûche! - Théâtre des Petites Âmes @ Other
   city venues
 DTSTART;TZID=America/Montreal:20261206T100000
 DTEND;TZID=America/Montreal:20261206T104500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:268eb4593204be3299de@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/tire-t
  oi-une-buche-theatre-des-petites-ames-121027
@@ -1339,7 +1230,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · L'arrivée du père Noël à Outremont @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T100000
 DTEND;TZID=America/Montreal:20261206T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:e9b040822cb960a6edba@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/larriv
  ee-du-pere-noel-outremont-80633
@@ -1351,7 +1242,7 @@ SUMMARY:FREE · Tire-toi une bûche! - Théâtre des Petites Âmes @ Other
   city venues
 DTSTART;TZID=America/Montreal:20261206T110000
 DTEND;TZID=America/Montreal:20261206T114500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c35019b91d77ee8dd316@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/tire-t
  oi-une-buche-theatre-des-petites-ames-121028
@@ -1364,7 +1255,7 @@ SUMMARY:FREE · Notes et brioches - Jeunes espoirs du Conservatoire de mus
  ique de Montréal @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261206T110000
 DTEND;TZID=America/Montreal:20261206T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c133cc0ca3e2ff6020eb@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/no
  tes-et-brioches-jeunes-espoirs-du-conservatoire-de-musique-de-montreal-116
@@ -1377,7 +1268,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Fabrication de couronnes des fêtes @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T130000
 DTEND;TZID=America/Montreal:20261206T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:87b1f61acaaba1a8f458@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/fabric
  ation-de-couronnes-des-fetes-120546
@@ -1389,7 +1280,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Des semis à l’assiette @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T130000
 DTEND;TZID=America/Montreal:20261206T143000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:85b0a20b755dae09e655@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/des-se
  mis-lassiette-120677
@@ -1397,24 +1288,11 @@ LOCATION:Centre Sanaaq
 URL:https://montreal.ca/evenements/des-semis-lassiette-120677
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Célébrations 30e saison - Quatuor Molinari @ Maisons de 
- la culture
-DTSTART;TZID=America/Montreal:20261206T140000
-DTEND;TZID=America/Montreal:20261206T153000
-DTSTAMP:20261126T213910Z
-UID:5e5fffe4dcde8ae9a4f9@mtl-events
-DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ce
- lebrations-30e-saison-quatuor-molinari-119480
-LOCATION:Maison de la culture du Plateau-Mont-Royal
-URL:https://montreal.ca/evenements/celebrations-30e-saison-quatuor-molinar
- i-119480
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · Visite guidée de l'exposition Revoir et relire avec Mimi 
  et Jeanne d'Ève K Tremblay @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261206T140000
 DTEND;TZID=America/Montreal:20261206T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5e96d7625c31841e7ade@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/vi
  site-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tre
@@ -1428,7 +1306,7 @@ SUMMARY:FREE · Tous les matins d’Elinor - Elinor Frey @ Other city venu
  es
 DTSTART;TZID=America/Montreal:20261206T140000
 DTEND;TZID=America/Montreal:20261206T151500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:11168fbb434aeda405d2@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/tous-l
  es-matins-delinor-elinor-frey-118447
@@ -1437,11 +1315,24 @@ URL:https://montreal.ca/evenements/tous-les-matins-delinor-elinor-frey-118
  447
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Célébrations 30e saison - Quatuor Molinari @ Maisons de 
+ la culture
+DTSTART;TZID=America/Montreal:20261206T140000
+DTEND;TZID=America/Montreal:20261206T153000
+DTSTAMP:20261127T084137Z
+UID:5e5fffe4dcde8ae9a4f9@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ce
+ lebrations-30e-saison-quatuor-molinari-119480
+LOCATION:Maison de la culture du Plateau-Mont-Royal
+URL:https://montreal.ca/evenements/celebrations-30e-saison-quatuor-molinar
+ i-119480
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture féministe (séance de décembre) @ Biblio
  thèques de Montréal
 DTSTART;TZID=America/Montreal:20261206T140000
 DTEND;TZID=America/Montreal:20261206T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ae1c1d4485712856e4b8@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-feministe-seance-de-decembre-120011
@@ -1454,7 +1345,7 @@ SUMMARY:FREE · Noël s'invite chez vous - Marjolaine Morasse\, Élie Dupu
  is et Élia Laure (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T140000
 DTEND;TZID=America/Montreal:20261206T151500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:e039157a74678c768846@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/noel-s
  invite-chez-vous-marjolaine-morasse-elie-dupuis-et-elia-laure-115009
@@ -1467,7 +1358,7 @@ SUMMARY:FREE · Haydn : de Vienne à Londres - Andréanne Brisson-Paquin e
  t Meagan Milatz @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T150000
 DTEND;TZID=America/Montreal:20261206T161500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5bad2f3f60f71f041152@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/haydn-
  de-vienne-londres-andreanne-brisson-paquin-et-meagan-milatz-116964
@@ -1479,7 +1370,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Noël jazzé - Rémi Bolduc @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261206T150000
 DTEND;TZID=America/Montreal:20261206T161500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:bee3d7f6360e8c826536@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/no
  el-jazze-remi-bolduc-114890
@@ -1491,7 +1382,7 @@ SUMMARY:FREE · Rythmo-rigolo - Jeunesses Musicales Canada @ Maisons de la
   culture
 DTSTART;TZID=America/Montreal:20261206T150000
 DTEND;TZID=America/Montreal:20261206T163000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:8477ee4ee81e99fc790f@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ry
  thmo-rigolo-jeunesses-musicales-canada-116197
@@ -1504,7 +1395,7 @@ SUMMARY:FREE · Minime rencontre les grands compositeurs | Benoît Brière
   et l’Ensemble Quatre Saisons @ Other city venues
 DTSTART;TZID=America/Montreal:20261206T160000
 DTEND;TZID=America/Montreal:20261206T173000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:a7f45e0a4e3e692265aa@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/minime
  -rencontre-les-grands-compositeurs-benoit-briere-et-lensemble-quatre-saiso
@@ -1517,7 +1408,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Couper le cordon d'Émilie Porry @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261207T133000
 DTEND;TZID=America/Montreal:20261207T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:7b42663ccd84ef3288f1@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/co
  uper-le-cordon-demilie-porry-118271
@@ -1525,21 +1416,10 @@ LOCATION:Quai 5160 – Maison de la culture de Verdun
 URL:https://montreal.ca/evenements/couper-le-cordon-demilie-porry-118271
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · FAB-ZINES : Zine pop-up @ Other city venues
-DTSTART;TZID=America/Montreal:20261207T140000
-DTEND;TZID=America/Montreal:20261207T160000
-DTSTAMP:20261126T213910Z
-UID:d5372c20a9727722f90a@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/fab-zi
- nes-zine-pop-119677
-LOCATION:FabricARThèque du Vieux-Saint-Laurent
-URL:https://montreal.ca/evenements/fab-zines-zine-pop-119677
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Plus fort que moi - Kirk Jones @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261207T140000
 DTEND;TZID=America/Montreal:20261207T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:1f4554339f9fb0efccae@mtl-events
 DESCRIPTION:Maisons de la culture\n$6\nhttps://montreal.ca/evenements/plus
  -fort-que-moi-kirk-jones-115566
@@ -1547,10 +1427,21 @@ LOCATION:L’Entrepôt - maison de la culture de Lachine
 URL:https://montreal.ca/evenements/plus-fort-que-moi-kirk-jones-115566
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · FAB-ZINES : Zine pop-up @ Other city venues
+DTSTART;TZID=America/Montreal:20261207T140000
+DTEND;TZID=America/Montreal:20261207T160000
+DTSTAMP:20261127T084137Z
+UID:d5372c20a9727722f90a@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/fab-zi
+ nes-zine-pop-119677
+LOCATION:FabricARThèque du Vieux-Saint-Laurent
+URL:https://montreal.ca/evenements/fab-zines-zine-pop-119677
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kaïros de Jennifer Alleyn @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261207T190000
 DTEND;TZID=America/Montreal:20261207T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:eee950c6df8fb79a00fd@mtl-events
 DESCRIPTION:Maisons de la culture\n$10\nhttps://montreal.ca/evenements/kai
  ros-de-jennifer-alleyn-118273
@@ -1561,7 +1452,7 @@ BEGIN:VEVENT
 SUMMARY:Plus fort que moi - Kirk Jones @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261207T193000
 DTEND;TZID=America/Montreal:20261207T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:e72f9ae622858fa4b9da@mtl-events
 DESCRIPTION:Maisons de la culture\n$6\nhttps://montreal.ca/evenements/plus
  -fort-que-moi-kirk-jones-115481
@@ -1573,7 +1464,7 @@ SUMMARY:FREE · Atelier culinaire pour personnes aînées @ Other city ven
  ues
 DTSTART;TZID=America/Montreal:20261208T100000
 DTEND;TZID=America/Montreal:20261208T130000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ee7fbe5c1ed25afa0ae2@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-culinaire-pour-personnes-ainees-118076
@@ -1586,7 +1477,7 @@ SUMMARY:FREE · Atelier d'écriture : le chocolat comme déclencheur d'emp
  athie et d'écriture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261208T101500
 DTEND;TZID=America/Montreal:20261208T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c926fdfd0d02028f884f@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-le-chocolat-comme-declencheur-dempathie-et-decriture
@@ -1600,7 +1491,7 @@ SUMMARY:FREE · Club de lecture de la bibliothèque du Plateau-Mont-Royal
  @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261208T130000
 DTEND;TZID=America/Montreal:20261208T141500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9e8b03a0adc7e3f00c77@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-de-la-bibliotheque-du-plateau-mont-royal-116827
@@ -1613,7 +1504,7 @@ SUMMARY:FREE · Portes ouvertes sur la modernisation de la réglementation
   d'urbanisme de Côte-des-Neiges @ Other city venues
 DTSTART;TZID=America/Montreal:20261208T130000
 DTEND;TZID=America/Montreal:20261208T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:0ca7819f91d6f470a423@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/portes
  -ouvertes-sur-la-modernisation-de-la-reglementation-durbanisme-de-cote-des
@@ -1627,7 +1518,7 @@ SUMMARY:FREE · Café rencontre des personnes aînées @ Bibliothèques de
   Montréal
 DTSTART;TZID=America/Montreal:20261208T133000
 DTEND;TZID=America/Montreal:20261208T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f0151a145a8563b19e57@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/cafe-rencontre-des-personnes-ainees-117363
@@ -1636,11 +1527,34 @@ URL:https://montreal.ca/evenements/cafe-rencontre-des-personnes-ainees-117
  363
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Rencontre avec Jimmy Suzan @ Bibliothèques de Montréal
+DTSTART;TZID=America/Montreal:20261208T180000
+DTEND;TZID=America/Montreal:20261208T193000
+DTSTAMP:20261127T084137Z
+UID:e771523b006807350535@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/rencontre-avec-jimmy-suzan-114936
+LOCATION:Bibliothèque de Parc-Extension
+URL:https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Club de lecture du mardi soir @ Bibliothèques de Montréa
+ l
+DTSTART;TZID=America/Montreal:20261208T180000
+DTEND;TZID=America/Montreal:20261208T194500
+DTSTAMP:20261127T084137Z
+UID:a0a6e10499530cd8c28c@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/club-de-lecture-du-mardi-soir-121045
+LOCATION:Bibliothèque Langelier
+URL:https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · Séance d'information avec Service Canada - l’Assurance-
  emploi (AE) et le Guichet-Emplois @ Other city venues
 DTSTART;TZID=America/Montreal:20261208T180000
 DTEND;TZID=America/Montreal:20261208T194500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:0b988f6569252d2ff1c3@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/seance
  -dinformation-avec-service-canada-lassurance-emploi-ae-et-le-guichet-emplo
@@ -1653,7 +1567,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Atelier de sérigraphie @ Other city venues
 DTSTART;TZID=America/Montreal:20261208T180000
 DTEND;TZID=America/Montreal:20261208T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:56286bbd5c8fc1903a20@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-serigraphie-118981
@@ -1661,34 +1575,11 @@ LOCATION:Centre Sanaaq
 URL:https://montreal.ca/evenements/atelier-de-serigraphie-118981
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Club de lecture du mardi soir @ Bibliothèques de Montréa
- l
-DTSTART;TZID=America/Montreal:20261208T180000
-DTEND;TZID=America/Montreal:20261208T194500
-DTSTAMP:20261126T213910Z
-UID:a0a6e10499530cd8c28c@mtl-events
-DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
- nts/club-de-lecture-du-mardi-soir-121045
-LOCATION:Bibliothèque Langelier
-URL:https://montreal.ca/evenements/club-de-lecture-du-mardi-soir-121045
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FREE · Rencontre avec Jimmy Suzan @ Bibliothèques de Montréal
-DTSTART;TZID=America/Montreal:20261208T180000
-DTEND;TZID=America/Montreal:20261208T193000
-DTSTAMP:20261126T213910Z
-UID:e771523b006807350535@mtl-events
-DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
- nts/rencontre-avec-jimmy-suzan-114936
-LOCATION:Bibliothèque de Parc-Extension
-URL:https://montreal.ca/evenements/rencontre-avec-jimmy-suzan-114936
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · Ciné‑Rencontres Wapikoni – Voix autochtones en courts
   métrages @ Other city venues
 DTSTART;TZID=America/Montreal:20261208T183000
 DTEND;TZID=America/Montreal:20261208T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2cea172c7f4b5aaa9d77@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/cine-r
  encontres-wapikoni-voix-autochtones-en-courts-metrages-119420
@@ -1700,7 +1591,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture du mercredi @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261209T133000
 DTEND;TZID=America/Montreal:20261209T153000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:349238048947528b39d2@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-du-mercredi-115644
@@ -1712,7 +1603,7 @@ SUMMARY:FREE · À travers tes yeux - Brigitte Poupart et Fabiola Pierre M
  onty @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261209T140000
 DTEND;TZID=America/Montreal:20261209T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:436a128e08e0921ac801@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/tr
  avers-tes-yeux-brigitte-poupart-et-fabiola-pierre-monty-121083
@@ -1725,7 +1616,7 @@ SUMMARY:FREE · Festivités inclusives et intergénérationnelles | La Por
  te jaune (complet / sold out) @ Other city venues
 DTSTART;TZID=America/Montreal:20261209T140000
 DTEND;TZID=America/Montreal:20261209T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:c8df45bb7a516dc52c78@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/festiv
  ites-inclusives-et-intergenerationnelles-la-porte-jaune-119163
@@ -1738,7 +1629,7 @@ SUMMARY:FREE · Personnalisation de décoration en gravure laser @ Other c
  ity venues
 DTSTART;TZID=America/Montreal:20261209T163000
 DTEND;TZID=America/Montreal:20261209T180000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b5f847510da72641ef0c@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/person
  nalisation-de-decoration-en-gravure-laser-117634
@@ -1751,7 +1642,7 @@ SUMMARY:FREE · Atelier d'écriture (adultes) @ Bibliothèques de Montréa
  l
 DTSTART;TZID=America/Montreal:20261209T170000
 DTEND;TZID=America/Montreal:20261209T190000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9a2659256851eacc6f2f@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-adultes-117499
@@ -1763,7 +1654,7 @@ SUMMARY:FREE · Broderie : le point droit dans tous ses états @ Other cit
  y venues
 DTSTART;TZID=America/Montreal:20261209T170000
 DTEND;TZID=America/Montreal:20261209T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:2140d9c37a2a0f726f39@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/broder
  ie-le-point-droit-dans-tous-ses-etats-117664
@@ -1776,7 +1667,7 @@ SUMMARY:FREE · Activité de création de décorations de Noël avec des m
  atériaux de récupération @ Other city venues
 DTSTART;TZID=America/Montreal:20261209T173000
 DTEND;TZID=America/Montreal:20261209T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:08811a030d14c410c0fc@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/activi
  te-de-creation-de-decorations-de-noel-avec-des-materiaux-de-recuperation-1
@@ -1790,7 +1681,7 @@ SUMMARY:FREE · Comité de démolition de LaSalle - 15\, 7e avenue @ Other
   city venues
 DTSTART;TZID=America/Montreal:20261209T183000
 DTEND;TZID=America/Montreal:20261209T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:0ac54f9aa92daea6f1ff@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/comite
  -de-demolition-de-lasalle-15-7e-avenue-122578
@@ -1802,7 +1693,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture queer @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261209T190000
 DTEND;TZID=America/Montreal:20261209T200000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:ff0c78d4b3db2cdfa73f@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-queer-113971
@@ -1814,7 +1705,7 @@ SUMMARY:FREE · Cabarets scientifiques - Itinérance au féminin @ Maisons
   de la culture
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:739872a939761956a528@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ca
  barets-scientifiques-itinerance-au-feminin-122330
@@ -1827,7 +1718,7 @@ SUMMARY:FREE · Schulich@Bon-Pasteur - Nelson Lee\, Denise Djokic et Kyoko
   Hashimoto @ Other city venues
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T204500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f822953fe288517c08ef@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/schuli
  chbon-pasteur-nelson-lee-denise-djokic-et-kyoko-hashimoto-118821
@@ -1839,7 +1730,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Alexandre Forest en rodage @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T204500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:4bddbe9faa5511a22479@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/al
  exandre-forest-en-rodage-114811
@@ -1850,7 +1741,7 @@ BEGIN:VEVENT
 SUMMARY:6.58: Manifesto Andrea Peña & artists @ Other city venues
 DTSTART;TZID=America/Montreal:20261209T193000
 DTEND;TZID=America/Montreal:20261209T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:1475406c41ade8cc5ac6@mtl-events
 DESCRIPTION:Other city venues\nhttps://montreal.ca/evenements/658-manifest
  o-andrea-pena-artists-114450
@@ -1863,7 +1754,7 @@ SUMMARY:FREE · Nourrir le cachalot : ateliers d’écriture créative (co
  mplet / sold out) @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261210T103000
 DTEND;TZID=America/Montreal:20261210T120000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:4a57e69b8e4fbb5a9e1e@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/nourrir-le-cachalot-ateliers-decriture-creative-115893
@@ -1876,7 +1767,7 @@ SUMMARY:FREE · Jeunes souffles - Classe de flûtes du Conservatoire de mu
  sique de Montréal @ Other city venues
 DTSTART;TZID=America/Montreal:20261210T120000
 DTEND;TZID=America/Montreal:20261210T130000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b0cd0112d6edcd7df222@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/jeunes
  -souffles-classe-de-flutes-du-conservatoire-de-musique-de-montreal-114810
@@ -1888,7 +1779,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Clinique de soutien informatique @ Other city venues
 DTSTART;TZID=America/Montreal:20261210T130000
 DTEND;TZID=America/Montreal:20261210T160000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:99e2c2f279e8679b5741@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/cliniq
  ue-de-soutien-informatique-115659
@@ -1900,7 +1791,7 @@ SUMMARY:FREE · Club de lecture de Roxboro en anglais @ Bibliothèques de
  Montréal
 DTSTART;TZID=America/Montreal:20261210T133000
 DTEND;TZID=America/Montreal:20261210T150000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b6a9a0f3748d698d4e23@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-de-roxboro-en-anglais-117034
@@ -1912,7 +1803,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Club de lecture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261210T140000
 DTEND;TZID=America/Montreal:20261210T170000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:dea286789c34635a37e5@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/club-de-lecture-116102
@@ -1923,7 +1814,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Zoolecture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261210T183000
 DTEND;TZID=America/Montreal:20261210T193000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:d93243275192052f7c6e@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/zoolecture-117741
@@ -1934,7 +1825,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Couper le cordon - Émilie Porry @ Other city venues
 DTSTART;TZID=America/Montreal:20261210T190000
 DTEND;TZID=America/Montreal:20261210T202000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5e884d5421e11632867b@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/couper
  -le-cordon-emilie-porry-117023
@@ -1946,7 +1837,7 @@ SUMMARY:FREE · Sous ma peau de femme par Marie Denise Pelletier @ Other c
  ity venues
 DTSTART;TZID=America/Montreal:20261210T190000
 DTEND;TZID=America/Montreal:20261210T203000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:b8b154fbbea9459cb431@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/sous-m
  a-peau-de-femme-par-marie-denise-pelletier-117310
@@ -1958,7 +1849,7 @@ BEGIN:VEVENT
 SUMMARY:Spectacle en rodage - Virginie Fortin @ Maisons de la culture
 DTSTART;TZID=America/Montreal:20261210T193000
 DTEND;TZID=America/Montreal:20261210T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:3d95abf1ef0482450b19@mtl-events
 DESCRIPTION:Maisons de la culture\n$34\nhttps://montreal.ca/evenements/spe
  ctacle-en-rodage-virginie-fortin-108321
@@ -1971,7 +1862,7 @@ SUMMARY:FREE · Chant Jazz - Faculté de musique de l'UDeM @ Maisons de la
   culture
 DTSTART;TZID=America/Montreal:20261210T193000
 DTEND;TZID=America/Montreal:20261210T210000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:5aa0219ecac28b08f90d@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ch
  ant-jazz-faculte-de-musique-de-ludem-120499
@@ -1984,7 +1875,7 @@ SUMMARY:FREE · La tête ailleurs - Benoit Paradis Trio @ Maisons de la cu
  lture
 DTSTART;TZID=America/Montreal:20261210T193000
 DTEND;TZID=America/Montreal:20261210T204500
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:f97f46e15113edd9177c@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/la
  -tete-ailleurs-benoit-paradis-trio-115429
@@ -1997,7 +1888,7 @@ SUMMARY:FREE · Fils manqués? - La Tourbière (complet / sold out) @ Mais
  ons de la culture
 DTSTART;TZID=America/Montreal:20261210T193000
 DTEND;TZID=America/Montreal:20261210T204000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:02328a868b7193dd4c2e@mtl-events
 DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/fi
  ls-manques-la-tourbiere-111193
@@ -2009,7 +1900,7 @@ SUMMARY:Voisinages – Le Vent du Nord (complet / sold out) @ Maisons de l
  a culture
 DTSTART;TZID=America/Montreal:20261210T193000
 DTEND;TZID=America/Montreal:20261210T213000
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:10d070fcb5f7ba07a8a6@mtl-events
 DESCRIPTION:Maisons de la culture\n$14\nhttps://montreal.ca/evenements/voi
  sinages-le-vent-du-nord-118276
@@ -2021,7 +1912,7 @@ SUMMARY:Opens: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean-Ta
  lon
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9c915786e45494fea664@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
@@ -2034,7 +1925,7 @@ SUMMARY:Last day: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean
  -Talon
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:9c915786e45494fea664-1@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
@@ -2043,11 +1934,145 @@ URL:https://www.marchespublics-mtl.com/fr/evenements/le-temps-fetes-marche
  -jean-talon
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Club de lecture de Roxboro en français @ Bibliothèques d
+ e Montréal
+DTSTART;TZID=America/Montreal:20261211T100000
+DTEND;TZID=America/Montreal:20261211T113000
+DTSTAMP:20261127T084137Z
+UID:0ba24dc53fcf44119184@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/club-de-lecture-de-roxboro-en-francais-117336
+LOCATION:Bibliothèque William-G.-Boll
+URL:https://montreal.ca/evenements/club-de-lecture-de-roxboro-en-francais-
+ 117336
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Causeries Chaï & Tchat @ Bibliothèques de Montréal
+DTSTART;TZID=America/Montreal:20261211T100000
+DTEND;TZID=America/Montreal:20261211T113000
+DTSTAMP:20261127T084137Z
+UID:1e04f49bf8d6901f6ac4@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/causeries-chai-tchat-114588
+LOCATION:Bibliothèque de Parc-Extension
+URL:https://montreal.ca/evenements/causeries-chai-tchat-114588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Danse-impro / expression corporelle @ Bibliothèques de Mo
+ ntréal
+DTSTART;TZID=America/Montreal:20261211T101500
+DTEND;TZID=America/Montreal:20261211T113000
+DTSTAMP:20261127T084137Z
+UID:6807858e542510d18779@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/danse-impro-expression-corporelle-121184
+LOCATION:Bibliothèque Saul-Bellow
+URL:https://montreal.ca/evenements/danse-impro-expression-corporelle-12118
+ 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Conférence : testaments @ Bibliothèques de Montréal
+DTSTART;TZID=America/Montreal:20261211T103000
+DTEND;TZID=America/Montreal:20261211T120000
+DTSTAMP:20261127T084137Z
+UID:0570a9630ed3b663c36e@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/conference-testaments-122002
+LOCATION:Bibliothèque Benny
+URL:https://montreal.ca/evenements/conference-testaments-122002
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Atelier d’écriture optimiste @ Bibliothèques de Montr
+ éal
+DTSTART;TZID=America/Montreal:20261211T140000
+DTEND;TZID=America/Montreal:20261211T153000
+DTSTAMP:20261127T084137Z
+UID:51ac6e3ad784b979cca6@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/atelier-decriture-optimiste-117551
+LOCATION:Bibliothèque de Saint-Léonard
+URL:https://montreal.ca/evenements/atelier-decriture-optimiste-117551
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Club de lecture de la bibliothèque Mordecai-Richler @ Bib
+ liothèques de Montréal
+DTSTART;TZID=America/Montreal:20261211T140000
+DTEND;TZID=America/Montreal:20261211T160000
+DTSTAMP:20261127T084137Z
+UID:63be767e49d54bd15730@mtl-events
+DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
+ nts/club-de-lecture-de-la-bibliotheque-mordecai-richler-114444
+LOCATION:Bibliothèque Mordecai-Richler
+URL:https://montreal.ca/evenements/club-de-lecture-de-la-bibliotheque-mord
+ ecai-richler-114444
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chantons! @ Maisons de la culture
+DTSTART;TZID=America/Montreal:20261211T150000
+DTEND;TZID=America/Montreal:20261211T164500
+DTSTAMP:20261127T084137Z
+UID:442b57c1d2d432a807ea@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ch
+ antons-119927
+LOCATION:Maison de la culture Marie-Uguay
+URL:https://montreal.ca/evenements/chantons-119927
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Fils manqués? - La Tourbière @ Maisons de la culture
+DTSTART;TZID=America/Montreal:20261211T193000
+DTEND;TZID=America/Montreal:20261211T204000
+DTSTAMP:20261127T084137Z
+UID:fad836033fc94bcf47b5@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/fi
+ ls-manques-la-tourbiere-110114
+LOCATION:Maison de la culture Janine-Sutto
+URL:https://montreal.ca/evenements/fils-manques-la-tourbiere-110114
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Chant Jazz - Faculté de musique de l'UDeM @ Maisons de la
+  culture
+DTSTART;TZID=America/Montreal:20261211T193000
+DTEND;TZID=America/Montreal:20261211T210000
+DTSTAMP:20261127T084137Z
+UID:fc98ee7b12efcec32633@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/ch
+ ant-jazz-faculte-de-musique-de-ludem-120500
+LOCATION:Maison de la culture de Côte-des-Neiges
+URL:https://montreal.ca/evenements/chant-jazz-faculte-de-musique-de-ludem-
+ 120500
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Djata : Conversations du Manden - Kira Arts @ Maisons de l
+ a culture
+DTSTART;TZID=America/Montreal:20261211T193000
+DTEND;TZID=America/Montreal:20261211T201500
+DTSTAMP:20261127T084137Z
+UID:1a83b228d017a1bf278b@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/dj
+ ata-conversations-du-manden-kira-arts-109520
+LOCATION:Maison de la culture Mercier
+URL:https://montreal.ca/evenements/djata-conversations-du-manden-kira-arts
+ -109520
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FREE · Spectacle de lutte - Promotion de la lutte professionnelle
+  (PLP) @ Maisons de la culture
+DTSTART;TZID=America/Montreal:20261211T200000
+DTEND;TZID=America/Montreal:20261211T220000
+DTSTAMP:20261127T084137Z
+UID:d61e5132bb1d184fe604@mtl-events
+DESCRIPTION:Maisons de la culture\nFree\nhttps://montreal.ca/evenements/sp
+ ectacle-de-lutte-promotion-de-la-lutte-professionnelle-plp-116284
+LOCATION:Maison de la culture Maisonneuve
+URL:https://montreal.ca/evenements/spectacle-de-lutte-promotion-de-la-lutt
+ e-professionnelle-plp-116284
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Opens: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean-Ta
  lon
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:fad610f58c38650de051@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
@@ -2060,7 +2085,7 @@ SUMMARY:Last day: Le temps des Fêtes au Marché Jean-Talon @ Marché Jean
  -Talon
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20261126T213910Z
+DTSTAMP:20261127T084137Z
 UID:fad610f58c38650de051-1@mtl-events
 DESCRIPTION:Marchés publics\nhttps://www.marchespublics-mtl.com/fr/evenem
  ents/le-temps-fetes-marche-jean-talon
