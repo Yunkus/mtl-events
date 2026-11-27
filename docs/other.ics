@@ -9,7 +9,7 @@ SUMMARY:Last day: Le Grand Marché de Noël de Montréal @ Place des Festi
  vals\, Quartier des spectacles
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:3eee69e82165a0185d95@mtl-events
 DESCRIPTION:Holiday markets\nFree\nhttps://www.mtl.org/fr/quoi-faire/festi
  vals-et-evenements/le-grand-marche-de-noel
@@ -22,7 +22,7 @@ SUMMARY:Last day: Le Village de Noël de Montréal @ Place du Marché Atwa
  ter\, 3325 rue Saint-Ambroise
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:0c8913a8cb7a0621d462@mtl-events
 DESCRIPTION:Holiday markets\nFree\nhttps://www.mtl.org/fr/quoi-faire/festi
  vals-et-evenements/le-village-de-noel-de-montreal
@@ -31,20 +31,113 @@ URL:https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-d
  e-noel-de-montreal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tendance Cocktails: Sensual @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261128T120000
+DTEND;TZID=America/Montreal:20261128T140000
+DTSTAMP:20261127T161629Z
+UID:739dd27ac7c7c9e96cca@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$65\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/21134/on-part-au-bresil-avec-la-cachaca/62780
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil
+ -avec-la-cachaca/62780
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Fameux Tapas Chics: Financier citron\, pavot\, Amaretto\, gla
+ çage citron @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T170000
+DTSTAMP:20261127T161629Z
+UID:791682877ab847316d13@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou
+ -de-bulles-offert/62727
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Fameux Tapas Chics: Tartelette chocolat mi-cuite\, glaçage ch
+ ocolat marbré @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T170000
+DTSTAMP:20261127T161629Z
+UID:184ebf7945c9c1dbebce@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742
+LOCATION:Ateliers & Saveurs Plateau Mont-Royal
+URL:https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou
+ -de-bulles-offert/62742
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:1 year anniversary ★ @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261128T173000
 DTEND;TZID=America/Montreal:20261128T203000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:deac52723d022fcabc67@mtl-events
 DESCRIPTION:Soft Studio Days\n$40\nhttps://luma.com/kukqhsgv
 LOCATION:Soft Studio Days\, 2000 av. Northcliffe #216
 URL:https://luma.com/kukqhsgv
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cuisine Du Monde: Ladoo coco @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261129T113000
+DTEND;TZID=America/Montreal:20261129T143000
+DTSTAMP:20261127T161629Z
+UID:080d43898ba289ae9d02@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$105\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/16693/sur-la-route-de-linde-un-voyage-tout-en-saveurs-a-votre-a
+ rrivee-un-tamarin-indian-sour-vous-sera-servi-une-invitation-a-levasion-de
+ s-la-premiere-gorgee/62730
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/16693/sur-la-route-de-l
+ inde-un-voyage-tout-en-saveurs-a-votre-arrivee-un-tamarin-indian-sour-vous
+ -sera-servi-une-invitation-a-levasion-des-la-premiere-gorgee/62730
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Menu Gourmand: Millefeuille croustillant\, crème au chocolat n
+ oir et crème anglaise @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261129T153000
+DTEND;TZID=America/Montreal:20261129T183000
+DTSTAMP:20261127T161629Z
+UID:bfccaa567f2e8abf46d6@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/18256/recevoir-comme-un-chef-a-la-maison/62729
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un
+ -chef-a-la-maison/62729
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Menu Gourmand: Crème Diplomate\, biscuits doigts de dame\, fru
+ its rouges\, coulis de fraise @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261129T180000
+DTEND;TZID=America/Montreal:20261129T210000
+DTSTAMP:20261127T161629Z
+UID:0e21a34afea848063164@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/18944/recevoir-comme-un-chef-a-la-maison-un-verre-de-bulles-off
+ ert/62700
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/18944/recevoir-comme-un
+ -chef-a-la-maison-un-verre-de-bulles-offert/62700
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cuisine Du Monde: Salade gourmande de Tataki de bœuf aux épices 
+ douces\, sauce gremolata au Parmigiano Reggiano @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261201T180000
+DTEND;TZID=America/Montreal:20261201T210000
+DTSTAMP:20261127T161629Z
+UID:d63cd529a5fe394405ab@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie
+ -verre-de-prosecco-a-lapero/63013
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:La Buvette @ MBAM
 DTSTART;TZID=America/Montreal:20261203T180000
 DTEND;TZID=America/Montreal:20261203T220000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:88dd243a2b4183277b72@mtl-events
 DESCRIPTION:MBAM\n$32\nhttps://www.mbam.qc.ca/en/activities/la-buvette-03-
  12-26/
@@ -52,11 +145,50 @@ LOCATION:Montreal Museum of Fine Arts\, 1380 rue Sherbrooke O
 URL:https://www.mbam.qc.ca/en/activities/la-buvette-03-12-26/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tendance Cocktails: Vive l'apéro en gin @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261203T180000
+DTEND;TZID=America/Montreal:20261203T200000
+DTSTAMP:20261127T161629Z
+UID:c5b78054892a906b6eda@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$62\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/1192/special-gin-bombay-sapphire/63118
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay
+ -sapphire/63118
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5 à Set: "SOS" by SZA - Séance d'écoute - Listening Party @ 5 
+ à Set
+DTSTART;TZID=America/Montreal:20261203T193000
+DTEND;TZID=America/Montreal:20261203T223000
+DTSTAMP:20261127T161629Z
+UID:540c56c21d81d47387dd@mtl-events
+DESCRIPTION:5 à Set\n$18\nhttps://www.eventbrite.com/e/5-a-set-sos-by-sza
+ -seance-decoute-listening-party-tickets-2005516641261
+LOCATION:Savsav
+URL:https://www.eventbrite.com/e/5-a-set-sos-by-sza-seance-decoute-listeni
+ ng-party-tickets-2005516641261
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Midi Chic Express: Choux de Bruxelles au bacon fumé et fromage bl
+ eu @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261204T120000
+DTEND;TZID=America/Montreal:20261204T130000
+DTSTAMP:20261127T161629Z
+UID:ad29fb673e06a2201550@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$50\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plais
+ ir/63306
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-
+ cuisine-30-min-de-degustation-1h-de-plaisir/63306
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FREE · CONFÉRENCE DE DANSE - Construction de la communauté de l
  a house danse à Montréal @ Ausgang Plaza
 DTSTART;TZID=America/Montreal:20261204T170000
 DTEND;TZID=America/Montreal:20261204T190000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:b706fb854a84316ba2be@mtl-events
 DESCRIPTION:Ausgang Plaza\nFree\nhttps://ra.co/events/2584817
 LOCATION:Ausgang Plaza
@@ -66,17 +198,41 @@ BEGIN:VEVENT
 SUMMARY:Handmade 03 @ Favourite Library
 DTSTART;TZID=America/Montreal:20261204T190000
 DTEND;TZID=America/Montreal:20261204T220000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:908b9159653524f819fd@mtl-events
 DESCRIPTION:Favourite Library\nhttps://www.favouritelibrary.com/#shows
 LOCATION:House show
 URL:https://www.favouritelibrary.com/#shows
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:La Pâtisserie: Biscuit roulé chocolat @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T093000
+DTEND;TZID=America/Montreal:20261205T123000
+DTSTAMP:20261127T161629Z
+UID:d23db993acf1d8f4ee12@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire
+ -vos-buchettes-de-noel/62913
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T120000
+DTEND;TZID=America/Montreal:20261205T140000
+DTSTAMP:20261127T161629Z
+UID:62c41152e31b8163fb7e@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-
+ la-distillerie-blue-pearl/63070
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LA CLASH PODCAST ... LIVE! @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T160000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:5505f03daeb699a41706@mtl-events
 DESCRIPTION:Turbo Haüs\nhttps://turbohaus.ca/calendrier/2026/12/5/la-clas
  h-podcast--live
@@ -84,10 +240,158 @@ LOCATION:Turbo Haüs
 URL:https://turbohaus.ca/calendrier/2026/12/5/la-clash-podcast--live
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Les Fameux Tapas Chics: Beignet passion\, ananas caramélisé au r
+ hum\, sucre glace @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T140000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T161629Z
+UID:431a102d907df0b75057@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-o
+ u-de-bulles-offert/63245
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T150000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T161629Z
+UID:60193a0a9d7bdb6c765f@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-
+ la-distillerie-blue-pearl/63072
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Samedi Daiquiri !!: Tropicana Mood ! @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T153000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T161629Z
+UID:052e379dc31ef12042e3@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$55\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-co
+ cktail-party-au-rhum/63106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261205T180000
+DTEND;TZID=America/Montreal:20261205T200000
+DTSTAMP:20261127T161629Z
+UID:c3efe72b9b9b310e8870@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-
+ la-distillerie-blue-pearl/63074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produit D'Exception À L'Honneur !: Pouding au pain brioché\, cha
+ ntilly au bourbon et foie gras\, gelée de vin aux épices @ Ateliers & Sa
+ veurs
+DTSTART;TZID=America/Montreal:20261205T180000
+DTEND;TZID=America/Montreal:20261205T210000
+DTSTAMP:20261127T161629Z
+UID:c9b6de67fb533017ce23@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$165\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-deli
+ cieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuis
+ inez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-av
+ ec-3-verres-de-vin/62951
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Pâtisserie: Macarons Noix de coco\, ganache chocolat noir @ At
+ eliers & Saveurs
+DTSTART;TZID=America/Montreal:20261206T093000
+DTEND;TZID=America/Montreal:20261206T123000
+DTSTAMP:20261127T161629Z
+UID:a909e550c99a56eab4b2@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$105\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/15049/les-macarons-pour-emporter/63027
+LOCATION:Ateliers & Saveurs Plateau Mont-Royal
+URL:https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour
+ -emporter/63027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Bon Brunch: Saucisses glacées au sirop d'érable et romarin fr
+ ais @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261206T100000
+DTEND;TZID=America/Montreal:20261206T130000
+DTSTAMP:20261127T161629Z
+UID:e717f2acf234ab82cf64@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$115\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/629
+ 16
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch
+ -festif-atelier-de-mimosa-a-larrivee/62916
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Les Cocktails Classiques Historiques !: Pornstar Martini @ Atelier
+ s & Saveurs
+DTSTART;TZID=America/Montreal:20261206T143000
+DTEND;TZID=America/Montreal:20261206T163000
+DTSTAMP:20261127T161629Z
+UID:c158e078b68fe3bfa391@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$70\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-cla
+ ssiques-3-cocktails-historiques/63076
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Menu Gourmand: Financier\, crème citron\, rosace de meringue b
+ rulée\, zestes de citron @ Ateliers & Saveurs
+DTSTART;TZID=America/Montreal:20261206T153000
+DTEND;TZID=America/Montreal:20261206T183000
+DTSTAMP:20261127T161629Z
+UID:f9372e946d8aba82afe5@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-rea
+ lisez-un-delicieux-repas-3-services/63248
+LOCATION:Ateliers & Saveurs Time Out Market
+URL:https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entr
+ ainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-service
+ s/63248
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produit D'Exception À L'Honneur !: Pain perdu au jasmin\, sauce c
+ aramel au beurre salé et pépites de foie gras\, zeste d'orange @ Atelier
+ s & Saveurs
+DTSTART;TZID=America/Montreal:20261206T180000
+DTEND;TZID=America/Montreal:20261206T210000
+DTSTAMP:20261127T161629Z
+UID:e70265abbc57cf51595d@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
+ urs/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicie
+ ux-menu-tapas/62953
+LOCATION:Ateliers & Saveurs Vieux-Montréal
+URL:https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisine
+ z-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Collection Voyage: Voyage en ESPAGNE et au PORTUGAL ! @ Ateliers &
+  Saveurs
+DTSTART;TZID=America/Montreal:20261206T180000
+DTEND;TZID=America/Montreal:20261206T210000
+DTSTAMP:20261127T161629Z
+UID:fcd7b3413d599a58a48e@mtl-events
+DESCRIPTION:Ateliers & Saveurs\n$95\nhttps://www.ateliersetsaveurs.com/cou
+ rs/detail/6148/voyage-en-espagne-et-au-portugal/63038
+LOCATION:Ateliers & Saveurs Plateau Mont-Royal
+URL:https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-
+ et-au-portugal/63038
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ceramic picture frame @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261213T120000
 DTEND;TZID=America/Montreal:20261213T140000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:1ac5db9aeaa2b8682f67@mtl-events
 DESCRIPTION:Soft Studio Days\n$65\nhttps://luma.com/36q3zngt
 LOCATION:Soft Studio Days\, 2000 av. Northcliffe #216
@@ -97,7 +401,7 @@ BEGIN:VEVENT
 SUMMARY:MTL Holiday Cookie Swap @ MTL Cookbook Club
 DTSTART;TZID=America/Montreal:20261213T150000
 DTEND;TZID=America/Montreal:20261213T170000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:f2775b1dae62ca676949@mtl-events
 DESCRIPTION:MTL Cookbook Club\n$25\nhttps://luma.com/eimb8vme
 URL:https://luma.com/eimb8vme
@@ -107,7 +411,7 @@ SUMMARY:LECTURE ET LEVÉE DE FONDS - COCO\, de Nathalie Doummar @ Casa del
   Popolo
 DTSTART;TZID=America/Montreal:20261214T190000
 DTEND;TZID=America/Montreal:20261214T220000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:b5b2f4849abf8a2990c2@mtl-events
 DESCRIPTION:Casa del Popolo\nhttps://casadelpopolo.com/en/events/2026-12-1
  5-lecture-et-levee-de-fonds-coco-de-nathalie-doummar
@@ -120,7 +424,7 @@ SUMMARY:Raquel and friends - a stand-up comedy show - EARLY SHOW @ Casa de
  l Popolo
 DTSTART;TZID=America/Montreal:20261218T193000
 DTEND;TZID=America/Montreal:20261218T223000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:4599be07fdff86d6786f@mtl-events
 DESCRIPTION:Casa del Popolo\n$10\nhttps://casadelpopolo.com/en/events/2026
  -12-19-raquel-and-friends-a-stand-up-comedy-show
@@ -132,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:The Roast Of 2026 @ Casa del Popolo
 DTSTART;TZID=America/Montreal:20261218T210000
 DTEND;TZID=America/Montreal:20261219T000000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:299f6321d63b30b96bd9@mtl-events
 DESCRIPTION:Casa del Popolo\n$22\nhttps://casadelpopolo.com/en/events/2026
  -12-19-the-roast-of-2026
@@ -143,7 +447,7 @@ BEGIN:VEVENT
 SUMMARY:Vision board 2027 @ Soft Studio Days
 DTSTART;TZID=America/Montreal:20261220T180000
 DTEND;TZID=America/Montreal:20261220T200000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:ece5c438a1b74f820854@mtl-events
 DESCRIPTION:Soft Studio Days\n$32\nhttps://luma.com/drbw07zz
 LOCATION:Soft Studio Days\, 2000 av. Northcliffe #216
@@ -153,7 +457,7 @@ BEGIN:VEVENT
 SUMMARY:LE QUIZ DES SIMPSONS @ Turbo Haüs
 DTSTART;TZID=America/Montreal:20261222T193000
 DTEND;TZID=America/Montreal:20261222T223000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:b0874798692b6e830cf3@mtl-events
 DESCRIPTION:Turbo Haüs\n$10\nhttps://turbohaus.ca/calendrier/2026/12/22/l
  e-quiz-des-simpsons
@@ -164,7 +468,7 @@ BEGIN:VEVENT
 SUMMARY:ZAINAB JOHNSON @ Théâtre Fairmount
 DTSTART;TZID=America/Montreal:20270320T200000
 DTEND;TZID=America/Montreal:20270320T233000
-DTSTAMP:20261127T084136Z
+DTSTAMP:20261127T161629Z
 UID:08b594a762018040e666@mtl-events
 DESCRIPTION:Théâtre Fairmount\n$40\nhttps://www.theatrefairmount.com/vne
  ments/zainab-johnson-theatre-fairmount/20270320-g3bn5-a4zkr-hwk6t-44pc7-td

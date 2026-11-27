@@ -1,8 +1,282 @@
 {
+"https://www.placedesarts.com/en/event/isabelle-boulay-chante-francis-cabrel-symphonique": {
+"day": "2026-11-27",
+"discipline": "French Song",
+"sub": "French Song"
+},
 "https://www.placedesarts.com/en/event/burton-cummings": {
 "day": "2026-11-27",
 "discipline": "Rock Music",
 "sub": "Music • Rock"
+},
+"https://www.placedesarts.com/en/event/roch-voisine-the-lightfoot-sessions": {
+"day": "2026-11-27",
+"discipline": "Blues, Country and Folk Music",
+"sub": "Folk Music"
+},
+"https://www.placedesarts.com/en/event/tu-devrais-consulter-live": {
+"day": "2026-11-27",
+"discipline": "Spoken Word",
+"sub": "Discussion"
+},
+"https://www.placedesarts.com/en/event/stephane-lafleur-avec-pas-dcasque": {
+"day": "2026-11-27",
+"discipline": "French Song",
+"sub": "French Song"
+},
+"https://www.placedesarts.com/en/event/dumas-francos": {
+"day": "2026-11-27",
+"discipline": "Pop Music",
+"sub": "Pop Music"
+},
+"https://www.placedesarts.com/en/event/the-brotherhood-trilogia-cadela-forca-capitulo-ii": {
+"day": "2026-11-27",
+"discipline": "Theatre",
+"sub": "Theatre"
+},
+"https://www.placedesarts.com/en/event/amene-toi-chez-nous": {
+"day": "2026-11-27",
+"discipline": "French Song",
+"sub": "French Song"
+},
+"https://www.placedesarts.com/en/event/beethoven-forever": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Beethoven Forever!",
+"place": "Maison symphonique",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Tuesday June 8, 2027",
+"7:30 p.m.",
+"$79.49 to $95.58",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Beethovenpourtoujours-2400x1035.jpg?mtime=1795362851",
+"desc": "Celebration of Beethoven featuring Kerson Leong at Montreal's Maison symphonique in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/beethoven-meets-shostakovich": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Coffee Concert | Beethoven meets Chostakovich",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Thursday June 10, 2027",
+"11:00 a.m.",
+"$31.99",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-BeethovenrencontreChostakovitch-2400x1035.jpg?mtime=1795379030",
+"desc": "The Miró String Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/rite-of-spring-fmcm": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "The Rite of Spring",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Thursday June 17, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-LeSacreduprintemps-2400x1035.jpg?mtime=1795530494",
+"desc": "Discover the work that caused a scandal in 1913, performed in a version for two pianos at Salle Bourgie in Montréal in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/in-love-with-bach": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Coffee Concert | In Love with Bach",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Thursday June 17, 2027",
+"11:00 a.m.",
+"$31.99",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-PourlamourdeBach-2400x1035.jpg?mtime=1795529846",
+"desc": "Carter Brey and Luc Beauséjour perform all three Gamba Sonatas at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/beethoven-the-immortal-beloved": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Beethoven and The Immortal Beloved",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Tuesday June 15, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Limmortellebien-aimee-2400x1035.jpg?mtime=1795529150",
+"desc": "Love letters, a scandalous novel, and two passionate sonatas at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/family-fun-stories-music": {
+"day": "2026-11-27",
+"discipline": "Young Audiences",
+"sub": "Young Audiences"
+},
+"https://www.placedesarts.com/en/event/romantic-delights-dvorak-meets-tchaikovsky": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Romantic Delights: Dvořák meets Tchaikovsky",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Sunday June 20, 2027",
+"3:00 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Delicesromantiques-2400x1035.jpg?mtime=1795533226",
+"desc": "The Balourdet Quartet, along with pianists Alexander Kashpurin and Derek Wang at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/in-praise-of-clara": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "In Praise of Clara!",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Saturday June 19, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-AlagloiredeClara-2400x1035.jpg?mtime=1795532564",
+"desc": "Kashpurin, Wang, Brey, and the Balourdet Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/night-at-copacabana": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "A Night at Copacabana",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Friday June 18, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-SoireeCopacabana-2400x1035.jpg?mtime=1795532364",
+"desc": "Brazilian rhythms, jazz standards and Argentine tango come together at Salle Bourgie in Montreal in June 2027. Get your tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/song-of-thanksgiving": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Coffee Concert | Song of Thanksgiving",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Friday June 18, 2027",
+"11:00 a.m.",
+"$31.99",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Chantdactiondegrace-2400x1035.jpg?mtime=1795532926",
+"desc": "The Balourdet Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/soiree-tzigane-fiddles-on-fire": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Soirée Tzigane: Virtuosi on Fire!",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Saturday June 12, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-SoireeTzigane-2400x1035.jpg?mtime=1795653610",
+"desc": "Works by Haydn, Ravel et Brahms performed at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/memorial-tribute-oliver-jones": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "We Love You, Oliver! A Memorial Tribute to Oliver Jones",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Friday June 11, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-HommageOliverJones-2400x1035.jpg?mtime=1795392677",
+"desc": "A tribute to jazz legend Oliver Jones at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/solo-cello": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Coffee Concert | Solo Cello",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Friday June 11, 2027",
+"11:00 a.m.",
+"$31.99",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Levioloncellesolo-2400x1035.jpg?mtime=1795391553",
+"desc": "Queen Elisabeth champion Hayoung Choi at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
+},
+"https://www.placedesarts.com/en/event/gold-medal-winner-queen-elisabeth-competition-first-prize": {
+"day": "2026-11-27",
+"discipline": "Classical Music",
+"sub": "Classical Music • Chamber Music",
+"title": "Gold Medal Winner Queen Elisabeth Competition First Prize",
+"place": "Salle Bourgie",
+"producer": "Festival de musique de chambre de Montréal",
+"perfs": [
+[
+"Thursday June 10, 2027",
+"7:30 p.m.",
+"$61.96 to $79.49",
+false
+]
+],
+"image": "https://cdn.placedesarts.com/tranforms/_1200x630_crop_center-center_82_none_ns/FMCM2027-Medailledor-2400x1035.jpg?mtime=1795379872",
+"desc": "Works by Chopin and Tchaikovsky at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!"
 },
 "https://www.placedesarts.com/en/event/tadam-les-lutins-magnifiques": {
 "day": "2026-11-27",

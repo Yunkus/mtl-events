@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-27T03:41-05:00",
+ "generated": "2026-11-27T11:16-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music",
    "feed": "music.ics",
-   "count": 428
+   "count": 456
   },
   "other": {
    "title": "Montreal Social",
    "feed": "other.ics",
-   "count": 15
+   "count": 38
   },
   "bars": {
    "title": "Montreal Bar",
    "feed": "bars.ics",
-   "count": 324
+   "count": 334
   },
   "oysters": {
    "title": "Montreal Oyster Deals",
@@ -29,7 +29,7 @@
   "classical": {
    "title": "Montreal Traditional",
    "feed": "classical.ics",
-   "count": 318
+   "count": 331
   },
   "city": {
    "title": "Montreal City",
@@ -115,6 +115,14 @@
    "zero_streak": 0,
    "zero_alerted": false
   },
+  "Brutopia": {
+   "ok": true,
+   "count": 29,
+   "tab": "music",
+   "last_count": 29,
+   "zero_streak": 0,
+   "zero_alerted": false
+  },
   "Bootlegger": {
    "ok": true,
    "count": 17,
@@ -133,18 +141,18 @@
   },
   "5 à Set": {
    "ok": true,
-   "count": 0,
+   "count": 1,
    "tab": "other",
    "last_count": 1,
-   "zero_streak": 36,
-   "zero_alerted": true
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "Le Marché Vintage": {
    "ok": true,
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 63,
+   "zero_streak": 64,
    "zero_alerted": true
   },
   "Stereo": {
@@ -216,7 +224,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 63,
+   "zero_streak": 64,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -248,7 +256,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 16,
+   "zero_streak": 17,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -288,7 +296,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 53,
+   "zero_streak": 54,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -304,7 +312,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 48,
+   "zero_streak": 49,
    "zero_alerted": true
   },
   "Ville de Montréal": {
@@ -324,11 +332,12 @@
    "zero_alerted": false
   },
   "Ateliers & Saveurs": {
-   "ok": false,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.ateliersetsaveurs.com/agenda/cours-de-cuisine",
+   "ok": true,
+   "count": 22,
    "tab": "other",
-   "last_count": 24,
-   "fail_streak": 2
+   "last_count": 22,
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "StereoBar": {
    "ok": true,
@@ -348,10 +357,10 @@
   },
   "New City Gas": {
    "ok": true,
-   "count": 0,
+   "count": 9,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 2,
+   "zero_streak": 0,
    "zero_alerted": false
   },
   "Eastern Bloc": {
@@ -359,7 +368,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 63,
+   "zero_streak": 64,
    "zero_alerted": true
   },
   "Trivia Nights": {
@@ -455,7 +464,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 53,
+   "zero_streak": 54,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -492,9 +501,9 @@
   },
   "Place des Arts": {
    "ok": true,
-   "count": 131,
+   "count": 144,
    "tab": "classical",
-   "last_count": 131,
+   "last_count": 144,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -732,6 +741,26 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "IAN ASHER",
+   "start": "2026-11-27T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ian-asher-208811/",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/bfd547c6a1c1b9ab.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "c9b4e66e1a3a7a85cbba",
+   "added": "2026-11-27"
+  },
+  {
    "source": "SAT",
    "title": "ALL NIGHT x Dure Vie",
    "start": "2026-11-27T22:00:00-05:00",
@@ -815,6 +844,24 @@
    "id": "bc707869bd17eb27ed15",
    "about": "Deep cuts and Club Bangers from 3 DJs from the Montreal Underground.\n\nSpecial Guest Venus in Foil (Toronto) is a veteran of the circuit with impeccable taste, and sets full of unexpected gems.\n\nExpect:\n\nBass,\n\nUK House and Techno,\n\nElectro,\n\nand maybe some Eddy Grant tracks\n\n:))))))))))))))))))))))))))))))))))))))))))))))))\n\nC U THERE!",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Papa's Sons",
+   "start": "2026-11-27T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9ff3d63533e674f21935",
+   "added": "2026-11-27"
   },
   {
    "source": "LATEX.",
@@ -1201,6 +1248,26 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "[DSTRKT] LAYTON GIORDANI",
+   "start": "2026-11-28T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/layton-giordani-202728/",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/77ee957751401a9c.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "e566e1a63a4c154fcc24",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Belmont",
    "title": "Bomba Retro - Fiesta 80s, 90s 2000",
    "start": "2026-11-28T21:30:00-05:00",
@@ -1219,6 +1286,24 @@
    "tab": "music",
    "id": "4110f28659a566a1af23",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "West Over Clarke",
+   "start": "2026-11-28T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2e9c9b865328986a1e37",
+   "added": "2026-11-27"
   },
   {
    "source": "Newspeak",
@@ -1997,6 +2082,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Brutopia",
+   "title": "Steve Creep",
+   "start": "2026-12-02T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "c0e36e646469ff1817fe",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Red Room",
    "title": "Groove pour la cause",
    "start": "2026-12-03",
@@ -2217,6 +2320,24 @@
    "tab": "music",
    "id": "472e901afc75b537a3bf",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Jeff Starzenski",
+   "start": "2026-12-03T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "9e7ae04704bc74e2ccc6",
+   "added": "2026-11-27"
   },
   {
    "source": "Système",
@@ -2539,6 +2660,24 @@
    "id": "55b1fb3fac95d0996895",
    "about": "South African deep house and amapiano, beyond the usual selections. Live edits, unreleased tracks and a taste of what's next.",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Danny Laj and the Looks",
+   "start": "2026-12-04T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "8ae896b245d3523393d8",
+   "added": "2026-11-27"
   },
   {
    "source": "Newspeak",
@@ -2957,6 +3096,24 @@
    "tab": "music",
    "id": "1352a6f0ebe9b387db14",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Cobra Kai",
+   "start": "2026-12-05T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "2fc97b0207566fa4d3bd",
+   "added": "2026-11-27"
   },
   {
    "source": "Stereo",
@@ -3619,6 +3776,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Brutopia",
+   "title": "Bud Rice",
+   "start": "2026-12-09T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "eb0e984f31f422144697",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Red Room",
    "title": "Jingle Bass",
    "start": "2026-12-10",
@@ -3799,6 +3974,24 @@
    "tab": "music",
    "id": "22a273c3138edd25fd49",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Mike Hand",
+   "start": "2026-12-10T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "70c3b9cefa57fca3014e",
+   "added": "2026-11-27"
   },
   {
    "source": "Système",
@@ -4023,6 +4216,24 @@
    "tab": "music",
    "id": "c92565bfa82134693121",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Ten to MIdnight",
+   "start": "2026-12-11T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e7cc5bb4c50d87a2547a",
+   "added": "2026-11-27"
   },
   {
    "source": "Blue Room",
@@ -4388,6 +4599,26 @@
    "tab": "music",
    "id": "4b23300784cf8cbb09eb",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Paolo Stante Band",
+   "start": "2026-12-12T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Live Music"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "8613577b3f64ad66f706",
+   "added": "2026-11-27"
   },
   {
    "source": "Salon Daomé",
@@ -5135,6 +5366,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Brutopia",
+   "title": "CHAZ",
+   "start": "2026-12-16T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "8178c6256ba91d97073c",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Red Room",
    "title": "V I IV le vent II",
    "start": "2026-12-17",
@@ -5291,6 +5540,24 @@
    "all_day": false,
    "tab": "music",
    "id": "b72b34868e5b6facff1a",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Erik Fines",
+   "start": "2026-12-17T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "406d7a366d40920c4e82",
    "added": "2026-11-27"
   },
   {
@@ -5513,6 +5780,24 @@
    "tab": "music",
    "id": "7559ff33804de0080312",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Jamazon Prime",
+   "start": "2026-12-18T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "13345e5ad3f0ae19390e",
+   "added": "2026-11-27"
   },
   {
    "source": "StereoBar",
@@ -5762,6 +6047,44 @@
    "tab": "music",
    "id": "4ce5e84e2bc3500a045a",
    "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "DJ PAULY D",
+   "start": "2026-12-19T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/dj-pauly-d-216008/",
+   "end": "2026-12-20T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/751be238c2b8de4d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "3212a7ff0599f3789e2f",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Le Cypher X",
+   "start": "2026-12-19T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "87624661d30f8cf3f9d9",
+   "added": "2026-11-27"
   },
   {
    "source": "StereoBar",
@@ -6120,6 +6443,42 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Reid Thomas",
+   "start": "2026-12-23T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d51d1f30b4a4f8d37147",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Jordan Lazar",
+   "start": "2026-12-24T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "e6ae9c9de54dd2d2fb42",
+   "added": "2026-11-27"
+  },
+  {
    "source": "StereoBar",
    "title": "Ugly Sweater Xmas x In Too Deep: Manu - Manuel Falardeau - Latour",
    "start": "2026-12-25T22:00:00-05:00",
@@ -6184,6 +6543,24 @@
    "id": "74be27970bca3ec022f0",
    "about": "details a venir\n\n1er spectacle 19h\n\n2ieme spectacle 21h30",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Bar Star",
+   "start": "2026-12-26T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "10ebc667bad4609b5395",
+   "added": "2026-11-27"
   },
   {
    "source": "StereoBar",
@@ -6415,6 +6792,26 @@
    "added": "2026-11-26"
   },
   {
+   "source": "New City Gas",
+   "title": "Josh Baker, Jay Pryor",
+   "start": "2026-12-29T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/",
+   "end": "2026-12-30T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/ba55dfb1c75d90f3.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "dcb37b00f347abef4844",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Red Room",
    "title": "Down2Techno",
    "start": "2026-12-30",
@@ -6457,6 +6854,64 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Doc Livingstone",
+   "start": "2026-12-30T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "b46d9b7fded4f5db996e",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/905013781b4e8fc9.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "9093d0621d0f2e51cc47",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/pauza-214314/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/8111e898c1d4fdb1.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "d331956490315be88dd5",
+   "added": "2026-11-27"
+  },
+  {
    "source": "SAT",
    "title": "SAT NYE 2026 (ALL NIGHT)",
    "start": "2026-12-31T22:00:00-05:00",
@@ -6495,6 +6950,26 @@
    "tab": "music",
    "id": "821231da9ec005f7dd05",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Brutopia's New Year Eve Bash featuring West Over Clarke",
+   "start": "2026-12-31T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "music",
+   "id": "d2654f24e7bcd096b7e5",
+   "added": "2026-11-27"
   },
   {
    "source": "Salon Daomé",
@@ -7792,6 +8267,26 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "TWINSICK",
+   "start": "2027-02-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/twinsick-206983/",
+   "end": "2027-02-14T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/1a28d38b1aa0b48d.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "2dc247f8b4acb2e2aa99",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Quai des Brumes",
    "title": "ST-VALENTIN – Joe Evil Piano Show avec Vincent Peake + Steve & Ginie Jackson (Soirée Candle Punk)",
    "start": "2027-02-14T21:00:00-05:00",
@@ -8051,6 +8546,26 @@
    "tab": "music",
    "id": "ac3c3a390ffbaea7b7ee",
    "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "ELY OAKS",
+   "start": "2027-02-27T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ely-oaks-207891/",
+   "end": "2027-02-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/2eb5aeed7f07683f.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "0bc63f97026ea3699a0e",
+   "added": "2026-11-27"
   },
   {
    "source": "Newspeak",
@@ -8322,6 +8837,26 @@
    "tab": "music",
    "id": "595b3e87cd0075e03783",
    "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "D.O.D",
+   "start": "2027-03-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/d-o-d-211258/",
+   "end": "2027-03-14T03:00:00-04:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/7857851c4d042210.webp",
+   "all_day": false,
+   "tab": "music",
+   "id": "994417a4178055745341",
+   "added": "2026-11-27"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -9210,6 +9745,72 @@
    "added": ""
   },
   {
+   "source": "Ateliers & Saveurs",
+   "title": "Tendance Cocktails: Sensual",
+   "start": "2026-11-28T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil-avec-la-cachaca/62780",
+   "end": "2026-11-28T14:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$65",
+   "price_lo": 65.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/f063ede37834f544.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "739dd27ac7c7c9e96cca",
+   "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 28 novembre 12:00 à 14:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Financier citron, pavot, Amaretto, glaçage citron",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727",
+   "end": "2026-11-28T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/761bbf0310c59de3.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "791682877ab847316d13",
+   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 28 novembre 14:00 à 17:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Tartelette chocolat mi-cuite, glaçage chocolat marbré",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742",
+   "end": "2026-11-28T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/7bb28d0dffdcade6.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "184ebf7945c9c1dbebce",
+   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 28 novembre 14:00 à 17:00.",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Soft Studio Days",
    "title": "1 year anniversary ★",
    "start": "2026-11-28T17:30:00-05:00",
@@ -9229,6 +9830,92 @@
    "id": "deac52723d022fcabc67",
    "about": "We are celebrating 1 year of soft studio days. When i started this studio it was so that i could be surrounded by other people who wanted to create. To make…",
    "added": ""
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Cuisine Du Monde: Ladoo coco",
+   "start": "2026-11-29T11:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/16693/sur-la-route-de-linde-un-voyage-tout-en-saveurs-a-votre-arrivee-un-tamarin-indian-sour-vous-sera-servi-une-invitation-a-levasion-des-la-premiere-gorgee/62730",
+   "end": "2026-11-29T14:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$105",
+   "price_lo": 105.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/90fdb0cffe80fe34.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "080d43898ba289ae9d02",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Millefeuille croustillant, crème au chocolat noir et crème anglaise",
+   "start": "2026-11-29T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/18256/recevoir-comme-un-chef-a-la-maison/62729",
+   "end": "2026-11-29T18:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/765265a4ef585bbf.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "bfccaa567f2e8abf46d6",
+   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 15:30 à 18:30.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Crème Diplomate, biscuits doigts de dame, fruits rouges, coulis de fraise",
+   "start": "2026-11-29T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/18944/recevoir-comme-un-chef-a-la-maison-un-verre-de-bulles-offert/62700",
+   "end": "2026-11-29T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/2e900dd1069b119f.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "0e21a34afea848063164",
+   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 29 novembre 18:00 à 21:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Cuisine Du Monde: Salade gourmande de Tataki de bœuf aux épices douces, sauce gremolata au Parmigiano Reggiano",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013",
+   "end": "2026-12-01T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/dfb78205f2bfabd8.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "d63cd529a5fe394405ab",
+   "added": "2026-11-27"
   },
   {
    "source": "MBAM",
@@ -9252,6 +9939,71 @@
    "id": "88dd243a2b4183277b72",
    "about": "About Ellxandra Montreal-based vocalist, DJ and producer Ellxandra brings a contagious energy to her sets, which reflect her deep passion for an array of genres and vacillate between mercurial and ecstatic, but always with a swing. Ellxandra is a regular performer at major electronic festivals such as Piknic Électronik and MUTEK Montréal.\n\nADDITIONAL INFORMATION…",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Tendance Cocktails: Vive l'apéro en gin",
+   "start": "2026-12-03T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/1192/special-gin-bombay-sapphire/63118",
+   "end": "2026-12-03T20:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$62",
+   "price_lo": 62.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/8fedef9281492707.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "c5b78054892a906b6eda",
+   "about": "Régalez-vous avec notre cours de cocktail tendance cocktails le 03 décembre 18:00 à 20:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "5 à Set",
+   "title": "5 à Set: \"SOS\" by SZA - Séance d'écoute - Listening Party",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://www.eventbrite.com/e/5-a-set-sos-by-sza-seance-decoute-listening-party-tickets-2005516641261",
+   "end": "2026-12-03T19:30:00-05:00",
+   "location": "Savsav",
+   "kind": "",
+   "free": false,
+   "price": "$18",
+   "price_lo": 17.59,
+   "genres": [
+    "Listening Party"
+   ],
+   "image": "img/e8a9625a23c3bbd2.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "540c56c21d81d47387dd",
+   "about": "Célébrez avec nous le 4e anniversaire de cet album, entouré d'amoureux de ce projet hautement acclamé lors d’une séance d’écoute au Savsav.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Midi Chic Express: Choux de Bruxelles au bacon fumé et fromage bleu",
+   "start": "2026-12-04T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plaisir/63306",
+   "end": "2026-12-04T13:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$50",
+   "price_lo": 50.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/ee882212af12986d.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "ad29fb673e06a2201550",
+   "about": "Régalez-vous avec notre cours de cuisine midi chic express le 04 décembre 12:00 à 13:00.",
+   "added": "2026-11-27"
   },
   {
    "source": "Ausgang Plaza",
@@ -9296,6 +10048,49 @@
    "added": ""
   },
   {
+   "source": "Ateliers & Saveurs",
+   "title": "La Pâtisserie: Biscuit roulé chocolat",
+   "start": "2026-12-05T09:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913",
+   "end": "2026-12-05T12:30:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/81afd1a8dbf30469.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "d23db993acf1d8f4ee12",
+   "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 05 décembre 09:30 à 12:30.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T12:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070",
+   "end": "2026-12-05T14:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "image": "img/1d9a5fb245f3eecc.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "62c41152e31b8163fb7e",
+   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 12:00 à 14:00.",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Turbo Haüs",
    "title": "LA CLASH PODCAST ... LIVE!",
    "start": "2026-12-05T13:00:00-05:00",
@@ -9314,6 +10109,245 @@
    "tab": "other",
    "id": "5505f03daeb699a41706",
    "added": ""
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Fameux Tapas Chics: Beignet passion, ananas caramélisé au rhum, sucre glace",
+   "start": "2026-12-05T14:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/35bfaad6032e61a5.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "431a102d907df0b75057",
+   "about": "Régalez-vous avec notre cours de cuisine les fameux tapas chics le 05 décembre 14:00 à 17:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "image": "img/1d9a5fb245f3eecc.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "60193a0a9d7bdb6c765f",
+   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 15:00 à 17:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Samedi Daiquiri !!: Tropicana Mood !",
+   "start": "2026-12-05T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106",
+   "end": "2026-12-05T17:00:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$55",
+   "price_lo": 55.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/882388c196ca2dae.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "052e379dc31ef12042e3",
+   "about": "Régalez-vous avec notre cours de cocktail samedi daiquiri !! le 05 décembre 15:30 à 17:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "100% Terroir: Pina Tropicale",
+   "start": "2026-12-05T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074",
+   "end": "2026-12-05T20:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$68",
+   "price_lo": 68.0,
+   "genres": [
+    "Afro & Latin"
+   ],
+   "image": "img/1d9a5fb245f3eecc.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "c3efe72b9b9b310e8870",
+   "about": "Régalez-vous avec notre cours de cocktail 100% terroir le 05 décembre 18:00 à 20:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Produit D'Exception À L'Honneur !: Pouding au pain brioché, chantilly au bourbon et foie gras, gelée de vin aux épices",
+   "start": "2026-12-05T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-3-services-en-accord-avec-3-verres-de-vin/62951",
+   "end": "2026-12-05T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$165",
+   "price_lo": 165.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/1323d2fa22b7799b.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "c9b6de67fb533017ce23",
+   "about": "Régalez-vous avec notre cours de cuisine produit d'exception à l'honneur ! le 05 décembre 18:00 à 21:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "La Pâtisserie: Macarons Noix de coco, ganache chocolat noir",
+   "start": "2026-12-06T09:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/15049/les-macarons-pour-emporter/63027",
+   "end": "2026-12-06T12:30:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$105",
+   "price_lo": 105.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/be3b747d72ae29be.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "a909e550c99a56eab4b2",
+   "about": "Régalez-vous avec notre cours de cuisine la pâtisserie le 06 décembre 09:30 à 12:30.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Bon Brunch: Saucisses glacées au sirop d'érable et romarin frais",
+   "start": "2026-12-06T10:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/62916",
+   "end": "2026-12-06T13:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$115",
+   "price_lo": 115.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/76e87da8fdc9ca4f.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "e717f2acf234ab82cf64",
+   "about": "Régalez-vous avec notre cours de cuisine le bon brunch le 06 décembre 10:00 à 13:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Les Cocktails Classiques Historiques !: Pornstar Martini",
+   "start": "2026-12-06T14:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076",
+   "end": "2026-12-06T16:30:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cocktail class",
+   "free": false,
+   "price": "$70",
+   "price_lo": 70.0,
+   "genres": [
+    "Classical & Choral"
+   ],
+   "image": "img/6e0f8f00e3c503d3.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "c158e078b68fe3bfa391",
+   "about": "Régalez-vous avec notre cours de cocktail les cocktails classiques historiques ! le 06 décembre 14:30 à 16:30.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Le Menu Gourmand: Financier, crème citron, rosace de meringue brulée, zestes de citron",
+   "start": "2026-12-06T15:30:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-realisez-un-delicieux-repas-3-services/63248",
+   "end": "2026-12-06T18:30:00-05:00",
+   "location": "Ateliers & Saveurs Time Out Market",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$110",
+   "price_lo": 110.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/4e5b4b61b50f1531.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "f9372e946d8aba82afe5",
+   "about": "Régalez-vous avec notre cours de cuisine le menu gourmand le 06 décembre 15:30 à 18:30.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Produit D'Exception À L'Honneur !: Pain perdu au jasmin, sauce caramel au beurre salé et pépites de foie gras, zeste d'orange",
+   "start": "2026-12-06T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicieux-menu-tapas/62953",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Vieux-Montréal",
+   "kind": "Cooking class",
+   "free": false,
+   "price": "$120",
+   "price_lo": 120.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/067171f4dbdfa09a.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "e70265abbc57cf51595d",
+   "about": "Régalez-vous avec notre cours de cuisine produit d'exception à l'honneur ! le 06 décembre 18:00 à 21:00.",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Ateliers & Saveurs",
+   "title": "Collection Voyage: Voyage en ESPAGNE et au PORTUGAL !",
+   "start": "2026-12-06T18:00:00-05:00",
+   "url": "https://www.ateliersetsaveurs.com/cours/detail/6148/voyage-en-espagne-et-au-portugal/63038",
+   "end": "2026-12-06T21:00:00-05:00",
+   "location": "Ateliers & Saveurs Plateau Mont-Royal",
+   "kind": "Wine tasting",
+   "free": false,
+   "price": "$95",
+   "price_lo": 95.0,
+   "genres": [
+    "Art & Workshops",
+    "Food & Drink"
+   ],
+   "image": "img/94c186c9b9420a68.webp",
+   "all_day": false,
+   "tab": "other",
+   "id": "fcd7b3413d599a58a48e",
+   "about": "Régalez-vous avec notre dégustation de vin collection voyage le 06 décembre 18:00 à 21:00.",
+   "added": "2026-11-27"
   },
   {
    "source": "Soft Studio Days",
@@ -9888,6 +10922,24 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Open Mic With FUZION",
+   "start": "2026-11-29T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f71f6e8a72938971d197",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Bistro à Jojo",
    "title": "Mick Martel",
    "start": "2026-11-30T17:00:00-05:00",
@@ -10279,6 +11331,26 @@
    "id": "6f75cdf6c4fb0c787691",
    "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Monday Madness Trivia with The Green Phantom",
+   "start": "2026-11-30T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "Trivia",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "73ec92e64ac14edba08d",
+   "added": "2026-11-27"
   },
   {
    "source": "Comedy Open Mics",
@@ -11538,6 +12610,24 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Open Mic with FUZION",
+   "start": "2026-12-06T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "dd05d9fca42ace8e368d",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Bistro à Jojo",
    "title": "Mick Martel",
    "start": "2026-12-07T17:00:00-05:00",
@@ -11930,6 +13020,26 @@
    "id": "ff07f127ce52c916d7e1",
    "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Monday Madness Trivia with The Green Phantom",
+   "start": "2026-12-07T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "Trivia",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "4fba0a3c2298d080428d",
+   "added": "2026-11-27"
   },
   {
    "source": "Comedy Open Mics",
@@ -13148,6 +14258,24 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Open Mic with Chris Clarke",
+   "start": "2026-12-13T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "6c9242c66428d830984c",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Bistro à Jojo",
    "title": "Mick Martel",
    "start": "2026-12-14T17:00:00-05:00",
@@ -13519,6 +14647,26 @@
    "id": "315c7c61d38f4121d153",
    "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Monday Madness Trivia with The Green Phantom",
+   "start": "2026-12-14T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "Trivia",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "f7f04ecdc793833bd587",
+   "added": "2026-11-27"
   },
   {
    "source": "Comedy Open Mics",
@@ -14653,6 +15801,24 @@
    "added": ""
   },
   {
+   "source": "Brutopia",
+   "title": "Open Mic with Emma",
+   "start": "2026-12-20T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "b3f0f9608ec4a7a4eefc",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Trivia Nights",
    "title": "Trivia Night at Bar Chez Baptiste",
    "start": "2026-12-21T19:00:00-05:00",
@@ -15003,6 +16169,26 @@
    "id": "04624e4c0729a666a49a",
    "about": "Monday trivia quiz night at the Old Dublin Pub, one of Montreal longest-running quiz nights.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Brutopia",
+   "title": "Monday Madness Trivia with The Green Phantom",
+   "start": "2026-12-21T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "Trivia",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "9668e2a0408f79927848",
+   "added": "2026-11-27"
   },
   {
    "source": "Comedy Open Mics",
@@ -15793,6 +16979,24 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Brutopia",
+   "title": "Open Mic with Mike Hand",
+   "start": "2026-12-27T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "bcb36e472c941772eeff",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Laugh It Off",
    "title": "MONDAY Stand-Up Comedy Show | FREE Comedy Show in Montreal",
    "start": "2026-12-28T20:00:00-05:00",
@@ -15811,6 +17015,26 @@
    "tab": "bars",
    "id": "13471164f7f464e551af",
    "added": ""
+  },
+  {
+   "source": "Brutopia",
+   "title": "Monday Madness Trivia with The Green Phantom",
+   "start": "2026-12-28T22:00:00-05:00",
+   "url": "https://www.brutopia.net/entertainment",
+   "end": null,
+   "location": "Brutopia, 1219 rue Crescent",
+   "kind": "Trivia",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "",
+   "all_day": false,
+   "tab": "bars",
+   "id": "af8eeb1fb1b01322f97a",
+   "added": "2026-11-27"
   },
   {
    "source": "Laugh It Off",
@@ -18127,6 +19351,7 @@
    "all_day": false,
    "tab": "museums",
    "id": "341d0387d3ba5f8d7829",
+   "about": "An online boutique by Foil, curating books, magazines, crafted objects, and more.",
    "added": ""
   },
   {
@@ -18164,6 +19389,7 @@
    "all_day": true,
    "tab": "museums",
    "id": "e84961cb9f408c9bc233",
+   "about": "An online boutique by Foil, curating books, magazines, crafted objects, and more.",
    "added": ""
   },
   {
@@ -25141,6 +26367,69 @@
   },
   {
    "source": "Place des Arts",
+   "title": "Beethoven Forever!",
+   "start": "2027-06-08T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/beethoven-forever",
+   "end": null,
+   "location": "Maison symphonique, Place des Arts",
+   "kind": "",
+   "free": false,
+   "price": "$79–96",
+   "price_lo": 79.49,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/ccf72e4be9c7743e.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "10e78596fad1f9ba49bc",
+   "about": "Celebration of Beethoven featuring Kerson Leong at Montreal's Maison symphonique in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Coffee Concert | Beethoven meets Chostakovich",
+   "start": "2027-06-10T11:00:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/beethoven-meets-shostakovich",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "price_lo": 31.99,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/8c424de0125c3549.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "d825b7e9f8f6314a0032",
+   "about": "The Miró String Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Gold Medal Winner Queen Elisabeth Competition First Prize",
+   "start": "2027-06-10T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/gold-medal-winner-queen-elisabeth-competition-first-prize",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/216a4f0d9ec59a98.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "5c937c7b2a3be61ee381",
+   "about": "Works by Chopin and Tchaikovsky at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
    "title": "La Belle Hélène",
    "start": "2027-06-10T19:30:00-04:00",
    "url": "https://www.placedesarts.com/en/event/la-belle-helene",
@@ -25160,6 +26449,69 @@
    "id": "46b8a979783cf5cf5d74",
    "about": "Concert with the Orchestre classique de Montréal and the Festival Classica in June 2027. Reserve your tickets on the Place des Arts official website!",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Coffee Concert | Solo Cello",
+   "start": "2027-06-11T11:00:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/solo-cello",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "price_lo": 31.99,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/5083a33746bdc73a.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "e875b70780b0cbd27efd",
+   "about": "Queen Elisabeth champion Hayoung Choi at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "We Love You, Oliver! A Memorial Tribute to Oliver Jones",
+   "start": "2027-06-11T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/memorial-tribute-oliver-jones",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/c6cad2d606ecc568.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "219d8fde256067eb184d",
+   "about": "A tribute to jazz legend Oliver Jones at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Soirée Tzigane: Virtuosi on Fire!",
+   "start": "2027-06-12T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/soiree-tzigane-fiddles-on-fire",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/80f8c879aa1992f3.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "2d9957d1db69d64fac5c",
+   "about": "Works by Haydn, Ravel et Brahms performed at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
   },
   {
    "source": "Place des Arts",
@@ -25185,6 +26537,27 @@
   },
   {
    "source": "Place des Arts",
+   "title": "Beethoven and The Immortal Beloved",
+   "start": "2027-06-15T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/beethoven-the-immortal-beloved",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/eeed02af3003c6ff.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "2ef31ca782d6bf3545e7",
+   "about": "Love letters, a scandalous novel, and two passionate sonatas at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
    "title": "Dream Requiem",
    "start": "2027-06-15T19:30:00-04:00",
    "url": "https://www.placedesarts.com/en/event/dream-requiem",
@@ -25203,6 +26576,133 @@
    "id": "96d9fc280f3ff734c47f",
    "about": "Around Rufus Wainwright’s narration, Yannick Nézet-Séguin conducts the OM at Montreal's Maison symphonique in June 2027. Tickets on the Place des Arts website!",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Coffee Concert | In Love with Bach",
+   "start": "2027-06-17T11:00:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/in-love-with-bach",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "price_lo": 31.99,
+   "genres": [
+    "Chamber Music",
+    "Early Music"
+   ],
+   "image": "img/dd72332ade09cd1c.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "163b658bd02ed93262f5",
+   "about": "Carter Brey and Luc Beauséjour perform all three Gamba Sonatas at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "The Rite of Spring",
+   "start": "2027-06-17T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/rite-of-spring-fmcm",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/ba7da841263cb99e.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "298c8c7fddfd84db2755",
+   "about": "Discover the work that caused a scandal in 1913, performed in a version for two pianos at Salle Bourgie in Montréal in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Coffee Concert | Song of Thanksgiving",
+   "start": "2027-06-18T11:00:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/song-of-thanksgiving",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$32",
+   "price_lo": 31.99,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/58eb425093a69323.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "fafbe1007a4635986f12",
+   "about": "The Balourdet Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "A Night at Copacabana",
+   "start": "2027-06-18T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/night-at-copacabana",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/9456ac76d5e3f1f2.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "4bcbea00afe15a8af305",
+   "about": "Brazilian rhythms, jazz standards and Argentine tango come together at Salle Bourgie in Montreal in June 2027. Get your tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "In Praise of Clara!",
+   "start": "2027-06-19T19:30:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/in-praise-of-clara",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/bbe4bf6b9390a390.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "304ac6afd7d2a894e5f6",
+   "about": "Kashpurin, Wang, Brey, and the Balourdet Quartet at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "Place des Arts",
+   "title": "Romantic Delights: Dvořák meets Tchaikovsky",
+   "start": "2027-06-20T15:00:00-04:00",
+   "url": "https://www.placedesarts.com/en/event/romantic-delights-dvorak-meets-tchaikovsky",
+   "end": null,
+   "location": "Bourgie Hall",
+   "kind": "",
+   "free": false,
+   "price": "$62–79",
+   "price_lo": 61.96,
+   "genres": [
+    "Chamber Music"
+   ],
+   "image": "img/1a87367754309de8.webp",
+   "all_day": false,
+   "tab": "classical",
+   "id": "11f2ccbcb23b52ef59d1",
+   "about": "The Balourdet Quartet, along with pianists Alexander Kashpurin and Derek Wang at Montreal's Salle Bourgie in June 2027. Tickets on the official Place des Arts website!",
+   "added": "2026-11-27"
   },
   {
    "source": "Place des Arts",
@@ -25641,27 +27141,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Après-midi cinéma",
    "start": "2026-11-28T14:00:00-05:00",
@@ -25703,6 +27182,27 @@
    "id": "03986455e6e7740d89a2",
    "about": "Dans une ambiance conviviale, laissez-vous aller à l'écriture créative.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
   },
   {
    "source": "Bibliothèques de Montréal",
@@ -25921,28 +27421,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Film"
-   ],
-   "image": "img/bd32f61f9b548c6f.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -25964,28 +27442,26 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
+    "Theatre & Shows",
+    "Film"
    ],
-   "image": "img/27174f84671e64c1.webp",
+   "image": "img/bd32f61f9b548c6f.webp",
    "all_day": false,
    "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -26052,6 +27528,30 @@
   },
   {
    "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
+   ],
+   "image": "img/27174f84671e64c1.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "Juju et Marcelle - Et l'incroyable heure du bain - Théâtre Omnivore",
    "start": "2026-11-29T15:00:00-05:00",
    "url": "https://montreal.ca/evenements/juju-et-marcelle-et-lincroyable-heure-du-bain-theatre-omnivore-117042",
@@ -26092,9 +27592,9 @@
   },
   {
    "source": "Other city venues",
-   "title": "Le Noël de Charlie Brown - hommage - Les Chambriste du Grand Montréal et le Rozan Trio (complet / sold out)",
+   "title": "Le Noël de Charlie Brown - hommage - Les Chambristes du Grand Montréal et le Rozan Trio (complet / sold out)",
    "start": "2026-11-29T16:00:00-05:00",
-   "url": "https://montreal.ca/evenements/le-noel-de-charlie-brown-hommage-les-chambriste-du-grand-montreal-et-le-rozan-trio-117033",
+   "url": "https://montreal.ca/evenements/le-noel-de-charlie-brown-hommage-les-chambristes-du-grand-montreal-et-le-rozan-trio-117033",
    "end": "2026-11-29T17:00:00-05:00",
    "location": "Église Saint-René-Goupil",
    "kind": "",
@@ -26111,7 +27611,7 @@
    "image": "img/ef6f0285e749a787.webp",
    "all_day": false,
    "tab": "city",
-   "id": "f3cbb2c1ed603b2aa008",
+   "id": "ef773d5163f7c3f3a440",
    "about": "Un concert chaleureux qui revisite les mélodies emblématiques de A Charlie Brown Christmas . Entre jazz et musique de chambre, cette rencontre musicale évoque la nostalgie, la douceur et l’esprit rassembleur du temps des Fêtes, pour petits et grands.",
    "added": "2026-11-27"
   },
@@ -26158,27 +27658,6 @@
    "added": "2026-11-26"
   },
   {
-   "source": "Other city venues",
-   "title": "Atelier création de nid",
-   "start": "2026-12-01T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
-   "end": "2026-12-01T15:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/9c01230ab86d83eb.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "2d10d7a2d892e7675ccd",
-   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Toi... comme hier - productions et Jules à mes côtés...",
    "start": "2026-12-01T14:00:00-05:00",
@@ -26202,25 +27681,23 @@
   },
   {
    "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
+   "title": "Atelier création de nid (complet / sold out)",
+   "start": "2026-12-01T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121240",
+   "end": "2026-12-01T15:00:00-05:00",
    "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
     "Art & Workshops"
    ],
-   "image": "img/c077796121e86375.webp",
+   "image": "img/9c01230ab86d83eb.webp",
    "all_day": false,
    "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "id": "2d10d7a2d892e7675ccd",
+   "about": "En découvrant les bases du façonnage à l'argile, crée un petit refuge inspiré du vivant, puis rapporte-le chez toi et observe comment la nature le transforme au fil des saisons.",
    "added": "2026-11-26"
   },
   {
@@ -26268,23 +27745,27 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
    "all_day": false,
    "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -26305,6 +27786,25 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -26476,6 +27976,27 @@
   },
   {
    "source": "Other city venues",
+   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
+   "start": "2026-12-02T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
+   "end": "2026-12-02T21:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/40229feb7592c012.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "c57e826106fa18c384c6",
+   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
+   "added": "2026-11-26"
+  },
+  {
+   "source": "Other city venues",
    "title": "La guitare de Schubert et Paganini - Ensemble l'Atelier Romantique",
    "start": "2026-12-02T19:30:00-05:00",
    "url": "https://montreal.ca/evenements/la-guitare-de-schubert-et-paganini-ensemble-latelier-romantique-116954",
@@ -26495,27 +28016,6 @@
    "tab": "city",
    "id": "8d382a2be73744aa8f93",
    "about": "Ne manquez pas cette chance de découvrir la guitare sous un nouveau jour.",
-   "added": "2026-11-26"
-  },
-  {
-   "source": "Other city venues",
-   "title": "MUJER - Flavia Garcia et José Maria Gianelli",
-   "start": "2026-12-02T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/mujer-flavia-garcia-et-jose-maria-gianelli-119150",
-   "end": "2026-12-02T21:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/40229feb7592c012.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "c57e826106fa18c384c6",
-   "about": "Flavia Garcia, poète, autrice-compositrice-interprète, et José Maria Gianelli, pianiste et auteur-compositeur, proposent un spectacle musical qui revisite les rythmes du folklore argentin, mêlés aux accents du tango, de la milonga, du candombe.",
    "added": "2026-11-26"
   },
   {
@@ -26601,6 +28101,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Other city venues",
+   "title": "Marie Denise Pelletier - Noël, parle‑moi",
+   "start": "2026-12-03T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
+   "end": null,
+   "location": "Salle de spectacle de l’église Jean XXIII",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season"
+   ],
+   "image": "img/736881ef640e4b21.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "1f4e51d5791c7dcb5222",
+   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
+   "added": "2026-11-26"
+  },
+  {
    "source": "Maisons de la culture",
    "title": "La ferme ou comment nourrir un futur intelligent ATSA",
    "start": "2026-12-03T19:30:00-05:00",
@@ -26622,27 +28143,6 @@
    "id": "fe4f58e00ec86e33fb91",
    "about": "La FERME ou comment nourrir un futur intelligent est une pièce de théâtre documentaire qui dénonce avec humour et poésie les impacts non choisis de l'intelligence artificielle dans nos vies. Public : 14 ans et +",
    "added": ""
-  },
-  {
-   "source": "Other city venues",
-   "title": "Marie Denise Pelletier - Noël, parle‑moi",
-   "start": "2026-12-03T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/marie-denise-pelletier-noel-parle-moi-119285",
-   "end": null,
-   "location": "Salle de spectacle de l’église Jean XXIII",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season"
-   ],
-   "image": "img/736881ef640e4b21.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "1f4e51d5791c7dcb5222",
-   "about": "Depuis la parution de son album Noël, Parle-moi en 2005, Marie Denise Pelletier a instauré une véritable tradition.",
-   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -26861,7 +28361,7 @@
   },
   {
    "source": "Other city venues",
-   "title": "Atelier création de nid",
+   "title": "Atelier création de nid (complet / sold out)",
    "start": "2026-12-05T10:00:00-05:00",
    "url": "https://montreal.ca/evenements/atelier-creation-de-nid-121239",
    "end": "2026-12-05T11:00:00-05:00",
@@ -26882,27 +28382,6 @@
   },
   {
    "source": "Bibliothèques de Montréal",
-   "title": "Écrire un texte littéraire",
-   "start": "2026-12-05T10:15:00-05:00",
-   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
-   "end": "2026-12-05T12:15:00-05:00",
-   "location": "Bibliothèque Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Talks & Quizzes"
-   ],
-   "image": "img/c05419313478d8b3.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "db5248f599c2742085e3",
-   "about": "Avec Jennifer Tremblay Pour les adultes",
-   "added": ""
-  },
-  {
-   "source": "Bibliothèques de Montréal",
    "title": "Conférence musicale : De lutte en turlutte",
    "start": "2026-12-05T10:15:00-05:00",
    "url": "https://montreal.ca/evenements/conference-musicale-de-lutte-en-turlutte-116137",
@@ -26920,6 +28399,27 @@
    "tab": "city",
    "id": "5d3261ce84e3d1627887",
    "about": "Retraçant les événements marquants de l'histoire du Québec, cette conférence musicale fait découvrir l'importance de la chanson comme outil de de lutte, de combat et de transformation sociale. 🎶 Présenté dans le cadre du mois de la musique à la bibliothèque Mercier. 🎶",
+   "added": ""
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Écrire un texte littéraire",
+   "start": "2026-12-05T10:15:00-05:00",
+   "url": "https://montreal.ca/evenements/ecrire-un-texte-litteraire-116401",
+   "end": "2026-12-05T12:15:00-05:00",
+   "location": "Bibliothèque Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Talks & Quizzes"
+   ],
+   "image": "img/c05419313478d8b3.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "db5248f599c2742085e3",
+   "about": "Avec Jennifer Tremblay Pour les adultes",
    "added": ""
   },
   {
@@ -26945,25 +28445,6 @@
    "added": ""
   },
   {
-   "source": "Bibliothèques de Montréal",
-   "title": "Musique avec toi",
-   "start": "2026-12-05T10:30:00-05:00",
-   "url": "https://montreal.ca/evenements/musique-avec-toi-117816",
-   "end": "2026-12-05T11:30:00-05:00",
-   "location": "Bibliothèque Hélène-Charbonneau (bibliothèque d'Ahuntsic)",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/c01e932cd2ea5487.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "7ca6a1a836c9b6d159f9",
-   "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
-   "added": ""
-  },
-  {
    "source": "Other city venues",
    "title": "Introduction à la machine à coudre",
    "start": "2026-12-05T10:30:00-05:00",
@@ -26981,6 +28462,25 @@
    "id": "25fc5f1a4831f6d1cd8b",
    "about": "Apprenez les bases de la machine à coudre à la Fabricathèque du Sud-Ouest.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Bibliothèques de Montréal",
+   "title": "Musique avec toi",
+   "start": "2026-12-05T10:30:00-05:00",
+   "url": "https://montreal.ca/evenements/musique-avec-toi-117816",
+   "end": "2026-12-05T11:30:00-05:00",
+   "location": "Bibliothèque Hélène-Charbonneau (bibliothèque d'Ahuntsic)",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/c01e932cd2ea5487.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "7ca6a1a836c9b6d159f9",
+   "about": "Bébé aussi veut découvrir la musique ! Les tout-petits s'émerveilleront par l'exploration de plusieurs instruments et les sons produits.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -27235,27 +28735,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Créer une courte bande dessinée",
-   "start": "2026-12-05T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/creer-une-courte-bande-dessinee-97096",
-   "end": "2026-12-05T16:00:00-05:00",
-   "location": "Benny Fab",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/0ae8994de84ef843.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "5bfee1863c8802565ab0",
-   "about": "Plongez dans l'univers de la bande dessinée!",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Maisons de la culture",
    "title": "Archipel - L’Illusion, Théâtre de marionnettes",
    "start": "2026-12-05T15:00:00-05:00",
@@ -27275,6 +28754,27 @@
    "id": "8969c605090a09e68316",
    "about": "Venez voir une pièce de théâtre cosmique, qui vous emmènera à la découverte d'êtres fabuleux!",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Créer une courte bande dessinée",
+   "start": "2026-12-05T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/creer-une-courte-bande-dessinee-97096",
+   "end": "2026-12-05T16:00:00-05:00",
+   "location": "Benny Fab",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/0ae8994de84ef843.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "5bfee1863c8802565ab0",
+   "about": "Plongez dans l'univers de la bande dessinée!",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -27447,6 +28947,28 @@
   },
   {
    "source": "Maisons de la culture",
+   "title": "Célébrations 30e saison - Quatuor Molinari",
+   "start": "2026-12-06T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/celebrations-30e-saison-quatuor-molinari-119480",
+   "end": "2026-12-06T15:30:00-05:00",
+   "location": "Maison de la culture du Plateau-Mont-Royal",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Live Music"
+   ],
+   "image": "img/8f94505e6b9c2690.webp",
+   "all_day": false,
+   "tab": "city",
+   "id": "5e5fffe4dcde8ae9a4f9",
+   "about": "Retrouvez le Quatuor Molinari pour cette répétition publique du concert qui soulignera la 30 e saison d'activités du quatuor.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
    "title": "Visite guidée de l'exposition Revoir et relire avec Mimi et Jeanne d'Ève K Tremblay",
    "start": "2026-12-06T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/visite-guidee-de-lexposition-revoir-et-relire-avec-mimi-et-jeanne-deve-k-tremblay-119303",
@@ -27484,28 +29006,6 @@
    "id": "11168fbb434aeda405d2",
    "about": "Seule sur scène, entourée d’instruments à cordes, Elinor Frey nous invite à découvrir leur personnalité distincte et leurs couleurs tout en relatant l’histoire de chacun d’eux.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Célébrations 30e saison - Quatuor Molinari",
-   "start": "2026-12-06T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/celebrations-30e-saison-quatuor-molinari-119480",
-   "end": "2026-12-06T15:30:00-05:00",
-   "location": "Maison de la culture du Plateau-Mont-Royal",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Classical & Choral",
-    "Live Music"
-   ],
-   "image": "img/8f94505e6b9c2690.webp",
-   "all_day": false,
-   "tab": "city",
-   "id": "5e5fffe4dcde8ae9a4f9",
-   "about": "Retrouvez le Quatuor Molinari pour cette répétition publique du concert qui soulignera la 30 e saison d'activités du quatuor.",
-   "added": ""
   },
   {
    "source": "Bibliothèques de Montréal",
