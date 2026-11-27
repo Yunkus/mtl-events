@@ -2508,8 +2508,7 @@ def tag_genres(e: Ev, tab: str) -> None:
 # Events are split into "Music and Dance" and "Other Events".
 # Whole sources that are never music:
 OTHER_SOURCES = {"MTL Cookbook Club", "Soft Studio Days", "Le Marché Vintage", "5 à Set", "Favourite Library",
-                 "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours",
-                 "Holiday markets"}
+                 "MBAM", "MBAM La Buvette", "McCord Museum", "McCord After Hours"}
 # Classes and workshops get their own tab: these sources, and any class / workshop title in Socials, Music or City
 CLASS_SOURCES = {"Ateliers & Saveurs"}
 CLASS_TITLES = re.compile(r"\bateliers?\s+(?:de|d['’]|culinaire|cr[ée]ati)|^\W*ateliers?\b|\bworkshops?\b|"
@@ -2517,7 +2516,8 @@ CLASS_TITLES = re.compile(r"\bateliers?\s+(?:de|d['’]|culinaire|cr[ée]ati)|^\
 # Run by the City of Montreal (montreal.ca): their own tab
 FREE_TO_BARS = {"Bootlegger", "Bistro à Jojo"}   # their free nights go in Bar Nights; paid ones stay in Music & Dance
 CITY_SOURCES = {"Ville de Montréal", "Maisons de la culture", "Bibliothèques de Montréal", "Other city venues",
-                "Marchés publics"}   # the public markets (Jean-Talon, Atwater, Maisonneuve…)
+                "Marchés publics",   # the public markets (Jean-Talon, Atwater, Maisonneuve…)
+                "Holiday markets"}   # the Christmas markets (Grand Marché de Noël, Village de Noël)
 # Recurring bar nights get their own tab:
 BAR_SOURCES = {"Trivia Nights", "Comedy Open Mics", "Karaoke Nights", "Laugh It Off", "Added by hand", "TriviaNearMe"}
 # Non-music nights at music venues (comedy, talks, quizzes...):
