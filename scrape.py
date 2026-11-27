@@ -57,6 +57,7 @@ class Ev:
     lat: float | None = None             # where it is (see place_events)
     lng: float | None = None
     hood: str = ""                       # neighbourhood (see neighbourhood())
+    via: str = ""                        # a listings site it came from (Rave.ca), when `source` is the venue itself
 
     @property
     def all_day(self) -> bool:
@@ -1253,8 +1254,10 @@ def rave_ca(budget: int = 150) -> list[Ev]:
         town = re.search(r",\s*([^,\d]+?),\s*(?:QC|Qu[ée]bec)\b", loc)
         if town and not re.match(r"(?i)montr[ée]al", town.group(1).strip()):   # off-island (Sainte-Thérèse, Laval…)
             continue
-        ev = Ev("Rave.ca", title[:140], start, url, end, loc, "",
-                blurb=cat, desc=info.get("desc", ""))
+        # listed under its venue ("Breakglass Studio"), not the listings site; via= keeps track of where it came from
+        name = venue.title() if venue.islower() else venue
+        ev = Ev(name or "Rave.ca", title[:140], start, url, end, loc, "",
+                blurb=cat, desc=info.get("desc", ""), via="Rave.ca")
         desc = info.get("desc", "")
         amounts = [float(a or b) for a, b in re.findall(r"\$\s*(\d+(?:\.\d\d)?)|(\d+(?:[.,]\d\d)?)\s*\$", desc.replace(",", "."))]
         amounts = [a for a in amounts if 0 < a < 500]
@@ -1291,7 +1294,7 @@ def dedupe_aggregator(by_tab: dict[str, list[Ev]], source: str = "Rave.ca") -> N
     others: dict[date, list[Ev]] = {}
     for evs in by_tab.values():
         for o in evs:
-            if o.source != source:
+            if (o.via or o.source) != source:
                 others.setdefault(day(o), []).append(o)
     def same(e, o):
         v, tw = name(e.location), words(e.title)
@@ -1304,7 +1307,7 @@ def dedupe_aggregator(by_tab: dict[str, list[Ev]], source: str = "Rave.ca") -> N
         num = number(e.location)
         return bool(num) and re.search(rf"(?<!\d){num}(?!\d)", o.location or "") is not None and near(e, o)
     for tab, evs in by_tab.items():
-        by_tab[tab] = [e for e in evs if e.source != source or not any(same(e, o) for o in others.get(day(e), []))]
+        by_tab[tab] = [e for e in evs if (e.via or e.source) != source or not any(same(e, o) for o in others.get(day(e), []))]
 
 
 def livenation_venue(venue: str, source: str, location: str) -> list[Ev]:
@@ -2616,6 +2619,8 @@ def to_json(e: Ev, tab: str) -> dict:
     d.pop("lat", None); d.pop("lng", None)
     if not e.hood:
         d.pop("hood", None)
+    if not e.via:
+        d.pop("via", None)
     d["added"] = FIRST_SEEN.get(d["id"], "")
     if any(p.lower() in e.title.lower() for p in EDITOR_PICKS):
         d["pick"] = True
@@ -3237,10 +3242,10 @@ def previous_listings() -> dict[str, list[tuple[str, Ev]]]:
             e = Ev(d["source"], d["title"], when(d["start"], d.get("all_day")), d.get("url", ""),
                    when(d.get("end"), d.get("all_day")), d.get("location", ""), d.get("kind", ""), d.get("free"),
                    d.get("price", ""), d.get("price_lo"), list(d.get("genres") or []), "", d.get("image", ""),
-                   d.get("about", ""))
+                   d.get("about", ""), via=d.get("via", ""))
         except (KeyError, ValueError, TypeError):
             continue
-        out.setdefault(d["source"], []).append((d.get("tab", ""), e))
+        out.setdefault(d.get("via") or d["source"], []).append((d.get("tab", ""), e))   # filed under the source that read it
     return out
 
 
