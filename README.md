@@ -165,6 +165,8 @@ Each event in the venue list below goes to **Music** unless:
 | StereoBar | Resident Advisor venue 138829 (its Tixr page blocks automated access) |
 | Sans Soleil | Resident Advisor venue 203475 (its own site is an Instagram page) |
 | Blue Room | Resident Advisor venue 290582 (its own site is an Instagram page) |
+| White Wall Studio | Resident Advisor venue 270118 (4532 av. Laval; ambient / experimental release parties, about one a month) |
+| Brasserie Beaubien | Resident Advisor venue 98180 (73 rue Beaubien E; a DJ night every few months, none listed since May 2026, so it's in `QUIET_OK`) |
 
 ### Exhibition tab (`docs/museums.ics`)
 

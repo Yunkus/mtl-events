@@ -2109,6 +2109,8 @@ EVENT_SOURCES = {
     "New City Gas": new_city_gas,
     # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
     "Eastern Bloc": lambda: ra_events("venue", "147287", "Eastern Bloc"),
+    "White Wall Studio": lambda: ra_events("venue", "270118", "White Wall Studio"),   # 4532 av. Laval; ambient / experimental nights
+    "Brasserie Beaubien": lambda: ra_events("venue", "98180", "Brasserie Beaubien"),   # 73 Beaubien E; DJ nights now and then
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
@@ -2256,7 +2258,7 @@ _GENRE_RX = [(g, re.compile(p, re.I)) for g, p in GENRES]
 ELECTRONIC_KIDS = {"Techno", "House", "Disco", "Bass & DnB"}
 # When a title says nothing about the music: what the venue mostly does.
 VENUE_GENRES = {
-    "LATEX.": ["Electronic", "Techno"], "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"],
+    "LATEX.": ["Electronic", "Techno"], "Stereo": ["Electronic", "House"], "StereoBar": ["Electronic", "House"], "Sans Soleil": ["Electronic"], "White Wall Studio": ["Electronic", "Experimental"], "Brasserie Beaubien": ["Electronic"],
     "Blue Room": ["Electronic"], "Heures ouvrables": ["Dance", "Electronic"], "New City Gas": ["Electronic"], "Système": ["Electronic"],
     "Salon Daomé": ["Electronic", "House"], "Bar Datcha": ["Electronic"], "Vino Disco": ["Disco", "House", "Electronic"],
     "Ausgang Plaza": ["House", "Electronic"], "Le Red Room": ["Electronic", "Techno"], "SAT": ["Electronic"],
@@ -2811,6 +2813,7 @@ QUIET_OK = {
     "McCord After Hours",        # page says "Stay tuned!" until the next date is set
     "Boiler Room",               # no Montreal show announced (last: March 2025)
     "Eastern Bloc",              # RA venue; last event May 2025, announces mostly on Instagram
+    "Brasserie Beaubien",        # RA venue; a DJ night every few months (last: May 2026)
     "L'Escogriffe",              # Live Nation lists only the shows it sells there (a few a season)
     "L'Escogriffe (RA)",         # club nights on RA only occasionally (last: Aug 2026)
     "Le Marché Vintage",         # Eventbrite organizer between markets (last: Nov 21)
