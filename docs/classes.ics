@@ -9,7 +9,7 @@ SUMMARY:FREE · Atelier d’écriture optimiste @ Bibliothèques de Montr
  éal
 DTSTART;TZID=America/Montreal:20261127T140000
 DTEND;TZID=America/Montreal:20261127T153000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:2890b1bd05f9d91a2617@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-optimiste-117550
@@ -20,7 +20,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Cours de dessin @ Other city venues
 DTSTART;TZID=America/Montreal:20261127T151500
 DTEND;TZID=America/Montreal:20261127T164500
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:ac79fffc2efbaeadce94@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/cours-
  de-dessin-115615
@@ -32,7 +32,7 @@ SUMMARY:FREE · Atelier de sculptures en papier journal – Julie Picard @
   Other city venues
 DTSTART;TZID=America/Montreal:20261128T120000
 DTEND;TZID=America/Montreal:20261128T140000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:b4d68b55d9a935a963e1@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-sculptures-en-papier-journal-julie-picard-116489
@@ -42,9 +42,9 @@ URL:https://montreal.ca/evenements/atelier-de-sculptures-en-papier-journal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tendance Cocktails: Sensual @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261128T120000
-DTEND;TZID="UTC-05:00":20261128T140000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261128T120000
+DTEND;TZID=America/Montreal:20261128T140000
+DTSTAMP:20261127T171940Z
 UID:739dd27ac7c7c9e96cca@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$65\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/21134/on-part-au-bresil-avec-la-cachaca/62780
@@ -53,24 +53,10 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/21134/on-part-au-bresil
  -avec-la-cachaca/62780
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FREE · Carnet V01 : atelier de dessin et de collage inspirés d'e
- nluminure du Moyen-Âge (complet / sold out) @ Other city venues
-DTSTART;TZID=America/Montreal:20261128T140000
-DTEND;TZID=America/Montreal:20261128T160000
-DTSTAMP:20261127T165824Z
-UID:ed4e5aace2b69783bfb5@mtl-events
-DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/carnet
- -v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116
- 614
-LOCATION:Centre communautaire Elgar
-URL:https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-coll
- age-inspires-denluminure-du-moyen-age-116614
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE · Ateliers d’écriture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T170000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:03986455e6e7740d89a2@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/ateliers-decriture-116095
@@ -82,7 +68,7 @@ SUMMARY:FREE · Atelier d'écriture de lettres au père Noël @ Bibliothè
  ques de Montréal
 DTSTART;TZID=America/Montreal:20261128T140000
 DTEND;TZID=America/Montreal:20261128T150000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:70921de423e5d26a156c@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-de-lettres-au-pere-noel-115820
@@ -91,11 +77,25 @@ URL:https://montreal.ca/evenements/atelier-decriture-de-lettres-au-pere-no
  el-115820
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FREE · Carnet V01 : atelier de dessin et de collage inspirés d'e
+ nluminure du Moyen-Âge (complet / sold out) @ Other city venues
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T160000
+DTSTAMP:20261127T171940Z
+UID:ed4e5aace2b69783bfb5@mtl-events
+DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/carnet
+ -v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116
+ 614
+LOCATION:Centre communautaire Elgar
+URL:https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-coll
+ age-inspires-denluminure-du-moyen-age-116614
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Les Fameux Tapas Chics: Financier citron\, pavot\, Amaretto\, gla
  çage citron @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261128T140000
-DTEND;TZID="UTC-05:00":20261128T170000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T170000
+DTSTAMP:20261127T171940Z
 UID:791682877ab847316d13@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/19976/1-verre-de-vin-ou-de-bulles-offert/62727
@@ -106,9 +106,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Fameux Tapas Chics: Tartelette chocolat mi-cuite\, glaçage ch
  ocolat marbré @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261128T140000
-DTEND;TZID="UTC-05:00":20261128T170000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261128T140000
+DTEND;TZID=America/Montreal:20261128T170000
+DTSTAMP:20261127T171940Z
 UID:184ebf7945c9c1dbebce@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/11478/1-verre-de-vin-ou-de-bulles-offert/62742
@@ -118,9 +118,9 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/11478/1-verre-de-vin-ou
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cuisine Du Monde: Ladoo coco @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261129T113000
-DTEND;TZID="UTC-05:00":20261129T143000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261129T113000
+DTEND;TZID=America/Montreal:20261129T143000
+DTSTAMP:20261127T171940Z
 UID:080d43898ba289ae9d02@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$105\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/16693/sur-la-route-de-linde-un-voyage-tout-en-saveurs-a-votre-a
@@ -134,9 +134,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Menu Gourmand: Millefeuille croustillant\, crème au chocolat n
  oir et crème anglaise @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261129T153000
-DTEND;TZID="UTC-05:00":20261129T183000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261129T153000
+DTEND;TZID=America/Montreal:20261129T183000
+DTSTAMP:20261127T171940Z
 UID:bfccaa567f2e8abf46d6@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/18256/recevoir-comme-un-chef-a-la-maison/62729
@@ -147,9 +147,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Menu Gourmand: Crème Diplomate\, biscuits doigts de dame\, fru
  its rouges\, coulis de fraise @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261129T180000
-DTEND;TZID="UTC-05:00":20261129T210000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261129T180000
+DTEND;TZID=America/Montreal:20261129T210000
+DTSTAMP:20261127T171940Z
 UID:0e21a34afea848063164@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/18944/recevoir-comme-un-chef-a-la-maison-un-verre-de-bulles-off
@@ -163,7 +163,7 @@ SUMMARY:FREE · Atelier création de nid (complet / sold out) @ Other city
   venues
 DTSTART;TZID=America/Montreal:20261201T140000
 DTEND;TZID=America/Montreal:20261201T150000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:2d10d7a2d892e7675ccd@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-creation-de-nid-121240
@@ -173,9 +173,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cuisine Du Monde: Salade gourmande de Tataki de bœuf aux épices 
  douces\, sauce gremolata au Parmigiano Reggiano @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261201T180000
-DTEND;TZID="UTC-05:00":20261201T210000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261201T180000
+DTEND;TZID=America/Montreal:20261201T210000
+DTSTAMP:20261127T171940Z
 UID:d63cd529a5fe394405ab@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/5707/escapade-en-italie-verre-de-prosecco-a-lapero/63013
@@ -185,9 +185,9 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/5707/escapade-en-italie
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tendance Cocktails: Vive l'apéro en gin @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261203T180000
-DTEND;TZID="UTC-05:00":20261203T200000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261203T180000
+DTEND;TZID=America/Montreal:20261203T200000
+DTSTAMP:20261127T171940Z
 UID:c5b78054892a906b6eda@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$62\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/1192/special-gin-bombay-sapphire/63118
@@ -198,9 +198,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Midi Chic Express: Choux de Bruxelles au bacon fumé et fromage bl
  eu @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261204T120000
-DTEND;TZID="UTC-05:00":20261204T130000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261204T120000
+DTEND;TZID=America/Montreal:20261204T130000
+DTSTAMP:20261127T171940Z
 UID:ad29fb673e06a2201550@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$50\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/2471/30min-de-cours-de-cuisine-30-min-de-degustation-1h-de-plais
@@ -211,9 +211,9 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/2471/30min-de-cours-de-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Pâtisserie: Biscuit roulé chocolat @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T093000
-DTEND;TZID="UTC-05:00":20261205T123000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T093000
+DTEND;TZID=America/Montreal:20261205T123000
+DTSTAMP:20261127T171940Z
 UID:d23db993acf1d8f4ee12@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/15940/apprendre-a-faire-vos-buchettes-de-noel/62913
@@ -226,7 +226,7 @@ SUMMARY:FREE · Atelier création de nid (complet / sold out) @ Other city
   venues
 DTSTART;TZID=America/Montreal:20261205T100000
 DTEND;TZID=America/Montreal:20261205T110000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:ddfacd9ea7cdc9f8c884@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-creation-de-nid-121239
@@ -235,9 +235,9 @@ URL:https://montreal.ca/evenements/atelier-creation-de-nid-121239
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T120000
-DTEND;TZID="UTC-05:00":20261205T140000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T120000
+DTEND;TZID=America/Montreal:20261205T140000
+DTSTAMP:20261127T171940Z
 UID:62c41152e31b8163fb7e@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63070
@@ -250,7 +250,7 @@ SUMMARY:FREE · Atelier de confection de couronne de Noël @ Other city ve
  nues
 DTSTART;TZID=America/Montreal:20261205T130000
 DTEND;TZID=America/Montreal:20261205T153000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:b6724db457192ee6518d@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-confection-de-couronne-de-noel-121720
@@ -261,9 +261,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Fameux Tapas Chics: Beignet passion\, ananas caramélisé au r
  hum\, sucre glace @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T140000
-DTEND;TZID="UTC-05:00":20261205T170000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T140000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T171940Z
 UID:431a102d907df0b75057@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/20732/un-verre-de-vin-ou-de-bulles-offert/63245
@@ -273,9 +273,9 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/20732/un-verre-de-vin-o
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T150000
-DTEND;TZID="UTC-05:00":20261205T170000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T150000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T171940Z
 UID:60193a0a9d7bdb6c765f@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63072
@@ -285,9 +285,9 @@ URL:https://www.ateliersetsaveurs.com/cours/detail/20036/100-terroir-avec-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Samedi Daiquiri !!: Tropicana Mood ! @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T153000
-DTEND;TZID="UTC-05:00":20261205T170000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T153000
+DTEND;TZID=America/Montreal:20261205T170000
+DTSTAMP:20261127T171940Z
 UID:052e379dc31ef12042e3@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$55\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/20214/le-samedi-cest-cocktail-party-au-rhum/63106
@@ -299,7 +299,7 @@ BEGIN:VEVENT
 SUMMARY:Atelier De Danse Waacking: Nubian Néné @ 100Lux
 DTSTART;TZID=America/Montreal:20261205T160000
 DTEND;TZID=America/Montreal:20261205T173000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:f4f5a320b3ef613dc87d@mtl-events
 DESCRIPTION:100Lux\nhttps://www.rave.ca/en/event/57505/
 LOCATION:100Lux
@@ -307,9 +307,9 @@ URL:https://www.rave.ca/en/event/57505/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:100% Terroir: Pina Tropicale @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261205T180000
-DTEND;TZID="UTC-05:00":20261205T200000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T180000
+DTEND;TZID=America/Montreal:20261205T200000
+DTSTAMP:20261127T171940Z
 UID:c3efe72b9b9b310e8870@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$68\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/20036/100-terroir-avec-la-distillerie-blue-pearl/63074
@@ -321,9 +321,9 @@ BEGIN:VEVENT
 SUMMARY:Produit D'Exception À L'Honneur !: Pouding au pain brioché\, cha
  ntilly au bourbon et foie gras\, gelée de vin aux épices @ Ateliers & Sa
  veurs
-DTSTART;TZID="UTC-05:00":20261205T180000
-DTEND;TZID="UTC-05:00":20261205T210000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261205T180000
+DTEND;TZID=America/Montreal:20261205T210000
+DTSTAMP:20261127T171940Z
 UID:c9b6de67fb533017ce23@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$165\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/20929/le-foie-gras-cuisinez-ce-merveilleux-produit-dans-un-deli
@@ -336,9 +336,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:La Pâtisserie: Macarons Noix de coco\, ganache chocolat noir @ At
  eliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261206T093000
-DTEND;TZID="UTC-05:00":20261206T123000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T093000
+DTEND;TZID=America/Montreal:20261206T123000
+DTSTAMP:20261127T171940Z
 UID:a909e550c99a56eab4b2@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$105\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/15049/les-macarons-pour-emporter/63027
@@ -349,9 +349,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Bon Brunch: Saucisses glacées au sirop d'érable et romarin fr
  ais @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261206T100000
-DTEND;TZID="UTC-05:00":20261206T130000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T100000
+DTEND;TZID=America/Montreal:20261206T130000
+DTSTAMP:20261127T171940Z
 UID:e717f2acf234ab82cf64@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$115\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/20664/les-fameux-brunch-festif-atelier-de-mimosa-a-larrivee/629
@@ -363,9 +363,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Les Cocktails Classiques Historiques !: Pornstar Martini @ Atelier
  s & Saveurs
-DTSTART;TZID="UTC-05:00":20261206T143000
-DTEND;TZID="UTC-05:00":20261206T163000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T143000
+DTEND;TZID=America/Montreal:20261206T163000
+DTSTAMP:20261127T171940Z
 UID:c158e078b68fe3bfa391@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$70\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/21693/les-cocktails-classiques-3-cocktails-historiques/63076
@@ -376,9 +376,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Le Menu Gourmand: Financier\, crème citron\, rosace de meringue b
  rulée\, zestes de citron @ Ateliers & Saveurs
-DTSTART;TZID="UTC-05:00":20261206T153000
-DTEND;TZID="UTC-05:00":20261206T183000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T153000
+DTEND;TZID=America/Montreal:20261206T183000
+DTSTAMP:20261127T171940Z
 UID:f9372e946d8aba82afe5@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$110\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/23360/laissez-vous-entrainer-dans-lunivers-de-votre-chef-et-rea
@@ -392,9 +392,9 @@ BEGIN:VEVENT
 SUMMARY:Produit D'Exception À L'Honneur !: Pain perdu au jasmin\, sauce c
  aramel au beurre salé et pépites de foie gras\, zeste d'orange @ Atelier
  s & Saveurs
-DTSTART;TZID="UTC-05:00":20261206T180000
-DTEND;TZID="UTC-05:00":20261206T210000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T180000
+DTEND;TZID=America/Montreal:20261206T210000
+DTSTAMP:20261127T171940Z
 UID:e70265abbc57cf51595d@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$120\nhttps://www.ateliersetsaveurs.com/co
  urs/detail/21108/le-canard-cuisinez-ce-merveilleux-produit-dans-un-delicie
@@ -406,9 +406,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Collection Voyage: Voyage en ESPAGNE et au PORTUGAL ! @ Ateliers &
   Saveurs
-DTSTART;TZID="UTC-05:00":20261206T180000
-DTEND;TZID="UTC-05:00":20261206T210000
-DTSTAMP:20261127T165824Z
+DTSTART;TZID=America/Montreal:20261206T180000
+DTEND;TZID=America/Montreal:20261206T210000
+DTSTAMP:20261127T171940Z
 UID:fcd7b3413d599a58a48e@mtl-events
 DESCRIPTION:Ateliers & Saveurs\n$95\nhttps://www.ateliersetsaveurs.com/cou
  rs/detail/6148/voyage-en-espagne-et-au-portugal/63038
@@ -421,7 +421,7 @@ SUMMARY:FREE · Atelier culinaire pour personnes aînées @ Other city ven
  ues
 DTSTART;TZID=America/Montreal:20261208T100000
 DTEND;TZID=America/Montreal:20261208T130000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:ee7fbe5c1ed25afa0ae2@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-culinaire-pour-personnes-ainees-118076
@@ -434,7 +434,7 @@ SUMMARY:FREE · Atelier d'écriture : le chocolat comme déclencheur d'emp
  athie et d'écriture @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261208T101500
 DTEND;TZID=America/Montreal:20261208T120000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:c926fdfd0d02028f884f@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-le-chocolat-comme-declencheur-dempathie-et-decriture
@@ -447,7 +447,7 @@ BEGIN:VEVENT
 SUMMARY:FREE · Atelier de sérigraphie @ Other city venues
 DTSTART;TZID=America/Montreal:20261208T180000
 DTEND;TZID=America/Montreal:20261208T200000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:56286bbd5c8fc1903a20@mtl-events
 DESCRIPTION:Other city venues\nFree\nhttps://montreal.ca/evenements/atelie
  r-de-serigraphie-118981
@@ -459,7 +459,7 @@ SUMMARY:FREE · Atelier d'écriture (adultes) @ Bibliothèques de Montréa
  l
 DTSTART;TZID=America/Montreal:20261209T170000
 DTEND;TZID=America/Montreal:20261209T190000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:9a2659256851eacc6f2f@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-adultes-117499
@@ -471,7 +471,7 @@ SUMMARY:FREE · Nourrir le cachalot : ateliers d’écriture créative (co
  mplet / sold out) @ Bibliothèques de Montréal
 DTSTART;TZID=America/Montreal:20261210T103000
 DTEND;TZID=America/Montreal:20261210T120000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:4a57e69b8e4fbb5a9e1e@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/nourrir-le-cachalot-ateliers-decriture-creative-115893
@@ -484,7 +484,7 @@ SUMMARY:FREE · Atelier d’écriture optimiste @ Bibliothèques de Montr
  éal
 DTSTART;TZID=America/Montreal:20261211T140000
 DTEND;TZID=America/Montreal:20261211T153000
-DTSTAMP:20261127T165824Z
+DTSTAMP:20261127T171940Z
 UID:51ac6e3ad784b979cca6@mtl-events
 DESCRIPTION:Bibliothèques de Montréal\nFree\nhttps://montreal.ca/eveneme
  nts/atelier-decriture-optimiste-117551

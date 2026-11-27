@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-27T11:58-05:00",
+ "generated": "2026-11-27T12:19-05:00",
  "tabs": {
   "music": {
    "title": "Montreal Music",
    "feed": "music.ics",
-   "count": 490
+   "count": 496
   },
   "other": {
    "title": "Montreal Socials",
    "feed": "other.ics",
-   "count": 19
+   "count": 17
   },
   "bars": {
    "title": "Montreal Bar",
@@ -34,7 +34,7 @@
   "city": {
    "title": "Montreal City",
    "feed": "city.ics",
-   "count": 150
+   "count": 153
   },
   "classes": {
    "title": "Montreal Classes",
@@ -157,7 +157,7 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 68,
+   "zero_streak": 69,
    "zero_alerted": true
   },
   "Stereo": {
@@ -229,7 +229,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 68,
+   "zero_streak": 69,
    "zero_alerted": true
   },
   "Bar Le Ritz PDB": {
@@ -261,7 +261,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 21,
+   "zero_streak": 22,
    "zero_alerted": true
   },
   "Ausgang Plaza": {
@@ -301,7 +301,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 58,
+   "zero_streak": 59,
    "zero_alerted": true
   },
   "MBAM La Buvette": {
@@ -317,14 +317,14 @@
    "count": 0,
    "tab": "other",
    "last_count": 0,
-   "zero_streak": 53,
+   "zero_streak": 54,
    "zero_alerted": true
   },
   "Ville de Montréal": {
    "ok": true,
-   "count": 161,
+   "count": 162,
    "tab": "city",
-   "last_count": 161,
+   "last_count": 162,
    "zero_streak": 0,
    "zero_alerted": false
   },
@@ -337,12 +337,12 @@
    "zero_alerted": false
   },
   "Ateliers & Saveurs": {
-   "ok": false,
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.ateliersetsaveurs.com/agenda/cours-de-cuisine",
+   "ok": true,
+   "count": 22,
    "tab": "classes",
-   "kept": 22,
    "last_count": 22,
-   "fail_streak": 1
+   "zero_streak": 0,
+   "zero_alerted": false
   },
   "StereoBar": {
    "ok": true,
@@ -362,10 +362,10 @@
   },
   "New City Gas": {
    "ok": true,
-   "count": 0,
+   "count": 9,
    "tab": "music",
    "last_count": 9,
-   "zero_streak": 1,
+   "zero_streak": 0,
    "zero_alerted": false
   },
   "Eastern Bloc": {
@@ -373,7 +373,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 68,
+   "zero_streak": 69,
    "zero_alerted": true
   },
   "Rave.ca": {
@@ -397,7 +397,7 @@
    "count": 0,
    "tab": "music",
    "last_count": 0,
-   "zero_streak": 4,
+   "zero_streak": 5,
    "zero_alerted": false
   },
   "La Récré": {
@@ -509,7 +509,7 @@
    "count": 0,
    "tab": "museums",
    "last_count": 0,
-   "zero_streak": 58,
+   "zero_streak": 59,
    "zero_alerted": true
   },
   "Montreal Art Center": {
@@ -908,6 +908,27 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "IAN ASHER",
+   "start": "2026-11-27T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ian-asher-208811/",
+   "end": "2026-11-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/bfd547c6a1c1b9ab.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "c9b4e66e1a3a7a85cbba",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Rave.ca",
    "title": "Niche Party",
    "start": "2026-11-27T21:00:00-05:00",
@@ -1142,29 +1163,6 @@
    "tab": "music",
    "id": "e33efb60dde5b829b372",
    "added": ""
-  },
-  {
-   "source": "New City Gas",
-   "title": "Ian Asher",
-   "start": "2026-11-27T22:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/57130/",
-   "end": "2026-11-28T03:00:00-05:00",
-   "location": "New City Gas",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "",
-   "hood": "Griffintown",
-   "via": "Rave.ca",
-   "all_day": false,
-   "tab": "music",
-   "id": "ff173a59b9bbdd886714",
-   "about": "clubs",
-   "added": "2026-11-27"
   },
   {
    "source": "NWHR",
@@ -1665,6 +1663,27 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "[DSTRKT] LAYTON GIORDANI",
+   "start": "2026-11-28T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/layton-giordani-202728/",
+   "end": "2026-11-29T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/77ee957751401a9c.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "e566e1a63a4c154fcc24",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Esc",
    "title": "Church Of AlpaKa 3.0 - Techno, Psy",
    "start": "2026-11-28T21:00:00-05:00",
@@ -1877,52 +1896,6 @@
    "tab": "music",
    "id": "85e6291da999506d1a1f",
    "about": "🩸⚰VAMPIRE DISKO ⚰🩸\n\nLimited advance tickets at\n\nbuytickets.at\n\nFor one November evening, Montreal descends into darkness as \"vampyres\" (don't worry, vampires aren't real...or are they?), goths, and nocturnal misfits gather on the dance floor for ...\n\n⚰† *VAMPIRE DISKO* †⚰…",
-   "added": "2026-11-27"
-  },
-  {
-   "source": "New City Gas",
-   "title": "[DSTRKT] Layton Giordani",
-   "start": "2026-11-28T22:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/56664/",
-   "end": "2026-11-29T03:00:00-05:00",
-   "location": "New City Gas",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "",
-   "hood": "Griffintown",
-   "via": "Rave.ca",
-   "all_day": false,
-   "tab": "music",
-   "id": "23d95af2d57e3e8b3ea9",
-   "about": "clubs",
-   "added": "2026-11-27"
-  },
-  {
-   "source": "New City Gas",
-   "title": "Layton Giordani",
-   "start": "2026-11-28T22:00:00-05:00",
-   "url": "https://www.rave.ca/en/event/57342/",
-   "end": "2026-11-29T03:00:00-05:00",
-   "location": "New City Gas",
-   "kind": "",
-   "free": null,
-   "price": "",
-   "price_lo": null,
-   "genres": [
-    "Electronic"
-   ],
-   "image": "",
-   "hood": "Griffintown",
-   "via": "Rave.ca",
-   "all_day": false,
-   "tab": "music",
-   "id": "23f1ea91a4678b5b8f88",
-   "about": "Produkt, Evenko et NEON présentent\n\nLAYTON GIORDANI\n\nSamedi 28 novembre 2026 | 22h à 3h\n\nAges 18+\n\nLes portes ouvrent à 22h00 // Doors open at 10pm\n\nDernière entrée à 2h15 du matin // Last entry at 2:15am\n\n• Réservations de tables disponibles via\n\nreservations.newcitygas.com\n\nTable reservations available via\n\nreservations.newcitygas.com…",
    "added": "2026-11-27"
   },
   {
@@ -7289,6 +7262,27 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "DJ PAULY D",
+   "start": "2026-12-19T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/dj-pauly-d-216008/",
+   "end": "2026-12-20T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/751be238c2b8de4d.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "3212a7ff0599f3789e2f",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Brutopia",
    "title": "Le Cypher X",
    "start": "2026-12-19T22:00:00-05:00",
@@ -8047,6 +8041,27 @@
    "added": "2026-11-26"
   },
   {
+   "source": "New City Gas",
+   "title": "Josh Baker, Jay Pryor",
+   "start": "2026-12-29T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/josh-baker-jay-pryor-211074/",
+   "end": "2026-12-30T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/ba55dfb1c75d90f3.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "dcb37b00f347abef4844",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Le Red Room",
    "title": "Down2Techno",
    "start": "2026-12-30",
@@ -8107,6 +8122,48 @@
    "all_day": false,
    "tab": "music",
    "id": "b46d9b7fded4f5db996e",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/bakermat-vandelux-dj-set-214225/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/905013781b4e8fc9.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "9093d0621d0f2e51cc47",
+   "added": "2026-11-27"
+  },
+  {
+   "source": "New City Gas",
+   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
+   "start": "2026-12-31T21:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/pauza-214314/",
+   "end": "2027-01-01T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/8111e898c1d4fdb1.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "d331956490315be88dd5",
    "added": "2026-11-27"
   },
   {
@@ -9533,6 +9590,27 @@
    "added": ""
   },
   {
+   "source": "New City Gas",
+   "title": "TWINSICK",
+   "start": "2027-02-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/twinsick-206983/",
+   "end": "2027-02-14T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/1a28d38b1aa0b48d.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "2dc247f8b4acb2e2aa99",
+   "added": "2026-11-27"
+  },
+  {
    "source": "Quai des Brumes",
    "title": "ST-VALENTIN – Joe Evil Piano Show avec Vincent Peake + Steve & Ginie Jackson (Soirée Candle Punk)",
    "start": "2027-02-14T21:00:00-05:00",
@@ -9805,6 +9883,27 @@
    "tab": "music",
    "id": "ac3c3a390ffbaea7b7ee",
    "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "ELY OAKS",
+   "start": "2027-02-27T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/ely-oaks-207891/",
+   "end": "2027-02-28T03:00:00-05:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/2eb5aeed7f07683f.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "0bc63f97026ea3699a0e",
+   "added": "2026-11-27"
   },
   {
    "source": "Newspeak",
@@ -10090,6 +10189,27 @@
    "tab": "music",
    "id": "595b3e87cd0075e03783",
    "added": ""
+  },
+  {
+   "source": "New City Gas",
+   "title": "D.O.D",
+   "start": "2027-03-13T22:00:00-05:00",
+   "url": "https://newcitygas.com/en/event/d-o-d-211258/",
+   "end": "2027-03-14T03:00:00-04:00",
+   "location": "New City Gas, 950 rue Ottawa",
+   "kind": "",
+   "free": null,
+   "price": "",
+   "price_lo": null,
+   "genres": [
+    "Electronic"
+   ],
+   "image": "img/7857851c4d042210.webp",
+   "hood": "Griffintown",
+   "all_day": false,
+   "tab": "music",
+   "id": "994417a4178055745341",
+   "added": "2026-11-27"
   },
   {
    "source": "Bar Le Ritz PDB",
@@ -10972,54 +11092,6 @@
    "all_day": false,
    "tab": "music",
    "id": "cc1c0931b20cb78dd31d",
-   "added": ""
-  },
-  {
-   "source": "Holiday markets",
-   "title": "Le Grand Marché de Noël de Montréal",
-   "start": "2026-11-13",
-   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel",
-   "end": "2027-01-03",
-   "location": "Place des Festivals, Quartier des spectacles",
-   "kind": "exhibition",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "img/26cd93ea6f0cb94c.webp",
-   "hood": "Quartier des spectacles",
-   "all_day": true,
-   "tab": "other",
-   "id": "3eee69e82165a0185d95",
-   "about": "Le Grand Marché de Noël de Montréal transforme la ville en un véritable havre de magie des fêtes au centre-ville. Avec près de 60 artisanes et artisans se relayant dans de charmants chalets, le marché de Noël est l’endroit parfait pour découvrir des créations uniques, des produits locaux et des délices gourmands qui réchauffent le cœur. Les décors et animations enchanteront petits et grands.",
-   "added": ""
-  },
-  {
-   "source": "Holiday markets",
-   "title": "Le Village de Noël de Montréal",
-   "start": "2026-11-26",
-   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal",
-   "end": "2026-12-24",
-   "location": "Place du Marché Atwater, 3325 rue Saint-Ambroise",
-   "kind": "exhibition",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Food & Drink"
-   ],
-   "image": "img/a84eed10fa28e62e.webp",
-   "hood": "Saint-Henri",
-   "all_day": true,
-   "tab": "other",
-   "id": "0c8913a8cb7a0621d462",
-   "about": "Installé aux abords du Marché Atwater, le Village de Noël de Montréal s’étend sur quatre fins de semaine de festivités. Ce rendez-vous incontournable de la saison invite le public à plonger dans une ambiance magique et propice aux découvertes! Tous les samedis et dimanches, le Père Noël en personne vous attend dans son charmant bureau pour une séance photo gratuite.",
    "added": ""
   },
   {
@@ -28362,6 +28434,54 @@
    "added": "2026-11-26"
   },
   {
+   "source": "Holiday markets",
+   "title": "Le Grand Marché de Noël de Montréal",
+   "start": "2026-11-13",
+   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-grand-marche-de-noel",
+   "end": "2027-01-03",
+   "location": "Place des Festivals, Quartier des spectacles",
+   "kind": "exhibition",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "img/26cd93ea6f0cb94c.webp",
+   "hood": "Quartier des spectacles",
+   "all_day": true,
+   "tab": "city",
+   "id": "3eee69e82165a0185d95",
+   "about": "Le Grand Marché de Noël de Montréal transforme la ville en un véritable havre de magie des fêtes au centre-ville. Avec près de 60 artisanes et artisans se relayant dans de charmants chalets, le marché de Noël est l’endroit parfait pour découvrir des créations uniques, des produits locaux et des délices gourmands qui réchauffent le cœur. Les décors et animations enchanteront petits et grands.",
+   "added": ""
+  },
+  {
+   "source": "Holiday markets",
+   "title": "Le Village de Noël de Montréal",
+   "start": "2026-11-26",
+   "url": "https://www.mtl.org/fr/quoi-faire/festivals-et-evenements/le-village-de-noel-de-montreal",
+   "end": "2026-12-24",
+   "location": "Place du Marché Atwater, 3325 rue Saint-Ambroise",
+   "kind": "exhibition",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Food & Drink"
+   ],
+   "image": "img/a84eed10fa28e62e.webp",
+   "hood": "Saint-Henri",
+   "all_day": true,
+   "tab": "city",
+   "id": "0c8913a8cb7a0621d462",
+   "about": "Installé aux abords du Marché Atwater, le Village de Noël de Montréal s’étend sur quatre fins de semaine de festivités. Ce rendez-vous incontournable de la saison invite le public à plonger dans une ambiance magique et propice aux découvertes! Tous les samedis et dimanches, le Père Noël en personne vous attend dans son charmant bureau pour une séance photo gratuite.",
+   "added": ""
+  },
+  {
    "source": "Other city venues",
    "title": "Création textile",
    "start": "2026-11-27T13:00:00-05:00",
@@ -28487,6 +28607,30 @@
    "id": "89c0aa739d90096f1077",
    "about": "Miroir éphémère : le nouveau spectacle du duo BOA expérience, où la musique est un miroir des émotions en perpétuel changement, faisant de chaque note un moment unique et impermanent.",
    "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Hitch - Théâtre Globe Bulle Rouge",
+   "start": "2026-11-27T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/hitch-theatre-globe-bulle-rouge-118261",
+   "end": "2026-11-27T21:00:00-05:00",
+   "location": "Quai 5160 – Maison de la culture de Verdun",
+   "kind": "",
+   "free": false,
+   "price": "$14",
+   "price_lo": 14.5,
+   "genres": [
+    "Pop & Throwback",
+    "Theatre & Shows",
+    "Film"
+   ],
+   "image": "img/fa019ee37f6986d7.webp",
+   "hood": "Verdun",
+   "all_day": false,
+   "tab": "city",
+   "id": "62fc401572604815c411",
+   "about": "Construite comme un polar, la pièce Hitch rend hommage aux suspenses de la grande époque du cinéma américain en noir et blanc. Elle s’inspire du mythique livre d’entretien entre Alfred Hitchcock et François Truffaut.",
+   "added": "2026-11-27"
   },
   {
    "source": "Maisons de la culture",
@@ -28882,29 +29026,6 @@
   },
   {
    "source": "Maisons de la culture",
-   "title": "L'Étoile vagabonde - La Nef",
-   "start": "2026-11-29T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
-   "end": "2026-11-29T15:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Film"
-   ],
-   "image": "img/bd32f61f9b548c6f.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "2287e963278c1ab9d008",
-   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
-   "added": ""
-  },
-  {
-   "source": "Maisons de la culture",
    "title": "Bidule man - Théâtre à Tempo",
    "start": "2026-11-29T14:00:00-05:00",
    "url": "https://montreal.ca/evenements/bidule-man-theatre-tempo-114806",
@@ -28927,29 +29048,27 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "SPIN - Sacré Tympan",
-   "start": "2026-11-29T15:00:00-05:00",
-   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
-   "end": "2026-11-29T16:00:00-05:00",
-   "location": "Centre Sanaaq",
+   "source": "Maisons de la culture",
+   "title": "L'Étoile vagabonde - La Nef",
+   "start": "2026-11-29T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/letoile-vagabonde-la-nef-116259",
+   "end": "2026-11-29T15:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
    "genres": [
-    "Classical & Choral",
-    "Rock & Indie",
-    "Pop & Throwback",
-    "Theatre & Shows"
+    "Theatre & Shows",
+    "Film"
    ],
-   "image": "img/27174f84671e64c1.webp",
-   "hood": "Downtown",
+   "image": "img/bd32f61f9b548c6f.webp",
+   "hood": "Hochelaga",
    "all_day": false,
    "tab": "city",
-   "id": "25a2a7f50c68eb708177",
-   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
-   "added": "2026-11-26"
+   "id": "2287e963278c1ab9d008",
+   "about": "Dans ce conte hivernal, les musiciens tissent un univers sonore unique, où des mélodies envoûtantes et des rythmes entraînants prennent vie et font vibrer le cœur des enfants de tous âges. Un spectacle immersif conjuguant musique et conte, appuyé par la projection de paysages oniriques du Québec.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -29016,6 +29135,31 @@
    "id": "59e409415a534e06363b",
    "about": "« Beatlemania Big Band » revisite les classiques des Beatles en leur donnant la puissance et la sophistication d’un big band jazz.",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "SPIN - Sacré Tympan",
+   "start": "2026-11-29T15:00:00-05:00",
+   "url": "https://montreal.ca/evenements/spin-sacre-tympan-119151",
+   "end": "2026-11-29T16:00:00-05:00",
+   "location": "Centre Sanaaq",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Classical & Choral",
+    "Rock & Indie",
+    "Pop & Throwback",
+    "Theatre & Shows"
+   ],
+   "image": "img/27174f84671e64c1.webp",
+   "hood": "Downtown",
+   "all_day": false,
+   "tab": "city",
+   "id": "25a2a7f50c68eb708177",
+   "about": "Cette pièce de théâtre musical s'adressant aux jeunes de 9 à 12 ans est comme un opéra rock-pop éclaté. Tout est chanté. C’est musical, c’est ludique et aussi porteur d’une réflexion pertinente sur l’anxiété que peuvent vivre des jeunes (et aussi des adultes) à notre époque.",
+   "added": "2026-11-26"
   },
   {
    "source": "Other city venues",
@@ -29150,30 +29294,6 @@
    "added": ""
   },
   {
-   "source": "Other city venues",
-   "title": "Origami des Fêtes",
-   "start": "2026-12-01T18:00:00-05:00",
-   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
-   "end": "2026-12-01T20:00:00-05:00",
-   "location": "Centre Sanaaq",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Holiday Season",
-    "Markets & Fairs",
-    "Art & Workshops"
-   ],
-   "image": "img/c077796121e86375.webp",
-   "hood": "Downtown",
-   "all_day": false,
-   "tab": "city",
-   "id": "c21a62c77580839cc962",
-   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Création de zines - Exposition-dégustation",
    "start": "2026-12-01T18:00:00-05:00",
@@ -29220,24 +29340,28 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Tehrani Drom",
-   "start": "2026-12-01T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
-   "end": "2026-12-01T20:45:00-05:00",
-   "location": "Maison de la culture Janine-Sutto",
+   "source": "Other city venues",
+   "title": "Origami des Fêtes",
+   "start": "2026-12-01T18:00:00-05:00",
+   "url": "https://montreal.ca/evenements/origami-des-fetes-118979",
+   "end": "2026-12-01T20:00:00-05:00",
+   "location": "Centre Sanaaq",
    "kind": "",
    "free": true,
    "price": "",
    "price_lo": 0.0,
-   "genres": [],
-   "image": "img/ca36d9261554aa51.webp",
-   "hood": "Centre-Sud",
+   "genres": [
+    "Holiday Season",
+    "Markets & Fairs",
+    "Art & Workshops"
+   ],
+   "image": "img/c077796121e86375.webp",
+   "hood": "Downtown",
    "all_day": false,
    "tab": "city",
-   "id": "780d2fbb9112055fea32",
-   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
-   "added": ""
+   "id": "c21a62c77580839cc962",
+   "about": "Atelier d’initiation à l’origami sur le thème de l’hiver et du temps des Fêtes. Exploration des techniques de pliage et création de bonhommes de neige, de sapins, de maisonnettes ou d’anges décoratifs.",
+   "added": "2026-11-26"
   },
   {
    "source": "Maisons de la culture",
@@ -29259,6 +29383,26 @@
    "tab": "city",
    "id": "2d60c5c1326445559949",
    "about": "Le Ciné-Club du Plateau-Mont-Royal présente Juste une illusion la dernière comédie dramatique de Eric Toledano et Olivier Nakache, avec Camille Cottin et Louis Garrel.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Tehrani Drom",
+   "start": "2026-12-01T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/tehrani-drom-117892",
+   "end": "2026-12-01T20:45:00-05:00",
+   "location": "Maison de la culture Janine-Sutto",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/ca36d9261554aa51.webp",
+   "hood": "Centre-Sud",
+   "all_day": false,
+   "tab": "city",
+   "id": "780d2fbb9112055fea32",
+   "about": "Tehrani Drom , qui signifie « Voyage de/vers Téhéran », relie les communautés domani (peuple rom) de Syrie et de Perse, également connues en Iran sous les noms de Dom, Kauli (Kowli, Qawli) ou, selon les régions, sous d’autres appellations locales.",
    "added": ""
   },
   {
@@ -31029,29 +31173,6 @@
    "added": ""
   },
   {
-   "source": "Maisons de la culture",
-   "title": "Cabarets scientifiques - Itinérance au féminin",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
-   "end": "2026-12-09T21:00:00-05:00",
-   "location": "Maison de la culture Maisonneuve",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Theatre & Shows",
-    "Talks & Quizzes"
-   ],
-   "image": "img/e1dd324a766a19c6.webp",
-   "hood": "Hochelaga",
-   "all_day": false,
-   "tab": "city",
-   "id": "739872a939761956a528",
-   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
-   "added": ""
-  },
-  {
    "source": "Other city venues",
    "title": "Schulich@Bon-Pasteur - Nelson Lee, Denise Djokic et Kyoko Hashimoto",
    "start": "2026-12-09T19:30:00-05:00",
@@ -31069,26 +31190,6 @@
    "id": "f822953fe288517c08ef",
    "about": "Plongez dans un voyage musical présenté par des membres du corps professoral de l’École de musique Schulich de l’Université McGill.",
    "added": "2026-11-26"
-  },
-  {
-   "source": "Maisons de la culture",
-   "title": "Alexandre Forest en rodage",
-   "start": "2026-12-09T19:30:00-05:00",
-   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
-   "end": "2026-12-09T20:45:00-05:00",
-   "location": "Maison de la culture Mercier",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [],
-   "image": "img/4dd68ad727a2d855.webp",
-   "hood": "Mercier",
-   "all_day": false,
-   "tab": "city",
-   "id": "4bddbe9faa5511a22479",
-   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
-   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31113,6 +31214,49 @@
    "id": "1475406c41ade8cc5ac6",
    "about": "Venez explorer comment l’artificialité façonne l’humanité contemporaine, en suivant 5 danseurs et danseuses, une machine, une chanteuse d’opéra et un DJ à travers 3 scènes fragmentées où la technologie gouverne corps et esprit.",
    "added": "2026-11-26"
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Alexandre Forest en rodage",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/alexandre-forest-en-rodage-114811",
+   "end": "2026-12-09T20:45:00-05:00",
+   "location": "Maison de la culture Mercier",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [],
+   "image": "img/4dd68ad727a2d855.webp",
+   "hood": "Mercier",
+   "all_day": false,
+   "tab": "city",
+   "id": "4bddbe9faa5511a22479",
+   "about": "Alexandre Forest présente le rodage de son premier one man show, un univers où l’autodérision et la finesse d’esprit se rencontrent pour transformer le quotidien en une source inépuisable de rires.",
+   "added": ""
+  },
+  {
+   "source": "Maisons de la culture",
+   "title": "Cabarets scientifiques - Itinérance au féminin",
+   "start": "2026-12-09T19:30:00-05:00",
+   "url": "https://montreal.ca/evenements/cabarets-scientifiques-itinerance-au-feminin-122330",
+   "end": "2026-12-09T21:00:00-05:00",
+   "location": "Maison de la culture Maisonneuve",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Theatre & Shows",
+    "Talks & Quizzes"
+   ],
+   "image": "img/e1dd324a766a19c6.webp",
+   "hood": "Hochelaga",
+   "all_day": false,
+   "tab": "city",
+   "id": "739872a939761956a528",
+   "about": "Ce cabaret scientifique, de Science pour tous, nous informe sur un sujet sensible et souvent invisible. Une occasion d'en apprendre davantage sur l'itinérance chez les femmes.",
+   "added": ""
   },
   {
    "source": "Other city venues",
@@ -31728,28 +31872,6 @@
    "added": "2026-11-27"
   },
   {
-   "source": "Other city venues",
-   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
-   "start": "2026-11-28T14:00:00-05:00",
-   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
-   "end": "2026-11-28T16:00:00-05:00",
-   "location": "Centre communautaire Elgar",
-   "kind": "",
-   "free": true,
-   "price": "",
-   "price_lo": 0.0,
-   "genres": [
-    "Art & Workshops"
-   ],
-   "image": "img/263c6b9f35e1aadf.webp",
-   "hood": "Nuns' Island",
-   "all_day": false,
-   "tab": "classes",
-   "id": "ed4e5aace2b69783bfb5",
-   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
-   "added": "2026-11-26"
-  },
-  {
    "source": "Bibliothèques de Montréal",
    "title": "Ateliers d’écriture",
    "start": "2026-11-28T14:00:00-05:00",
@@ -31793,6 +31915,28 @@
    "id": "70921de423e5d26a156c",
    "about": "Dans une ambiance festive, venez écrire une lettre au père Noël à la bibliothèque!",
    "added": ""
+  },
+  {
+   "source": "Other city venues",
+   "title": "Carnet V01 : atelier de dessin et de collage inspirés d'enluminure du Moyen-Âge (complet / sold out)",
+   "start": "2026-11-28T14:00:00-05:00",
+   "url": "https://montreal.ca/evenements/carnet-v01-atelier-de-dessin-et-de-collage-inspires-denluminure-du-moyen-age-116614",
+   "end": "2026-11-28T16:00:00-05:00",
+   "location": "Centre communautaire Elgar",
+   "kind": "",
+   "free": true,
+   "price": "",
+   "price_lo": 0.0,
+   "genres": [
+    "Art & Workshops"
+   ],
+   "image": "img/263c6b9f35e1aadf.webp",
+   "hood": "Nuns' Island",
+   "all_day": false,
+   "tab": "classes",
+   "id": "ed4e5aace2b69783bfb5",
+   "about": "L'artiste Anouk Looten propose un atelier de dessin et de collage inspiré des enluminures médiévales, pour susciter la créativité dans le cadre de Carnet V01.",
+   "added": "2026-11-26"
   },
   {
    "source": "Ateliers & Saveurs",
