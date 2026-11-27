@@ -1120,6 +1120,44 @@ def bistro_a_jojo() -> list[Ev]:
     return out
 
 
+def brutopia() -> list[Ev]:
+    """Brutopia (brewpub, 1219 Crescent): brutopia.net/entertainment lists one act a night as "Friday Nov 27" + name,
+    no year. Shows start at 10 pm ("SHOWTIME 10PM NIGHTLY") and there's no cover charge (the home page says so).
+    Sunday open mic and Monday trivia go to the Bar tab, the bands to Music."""
+    s = soup("https://www.brutopia.net/entertainment")
+    loc = "Brutopia, 1219 rue Crescent"
+    out, seen = [], set()
+    for col in s.select("div.dmRespCol"):
+        h = col.find("h4")
+        if not h:
+            continue
+        head = clean(h.get_text(" "))
+        m = re.match(r"(?i)(mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?\s+([a-z]{3})[a-z]*\.?\s*(\d{1,2})$", head)
+        mo = next((i for name, i in EN_MONTHS.items() if m and name.startswith(m.group(2).lower())), None)
+        if not mo:
+            continue
+        day = int(m.group(3))
+        d = date(guess_year(mo, day), mo, day)
+        if d.strftime("%a").lower() != m.group(1).lower()[:3]:   # the weekday must match, or the year guess is off
+            continue
+        h.decompose()
+        title = clean(col.get_text(" ").replace("�", " ")).strip(" ;!")
+        title = re.sub(r"(?i)\bopen mike\b", "Open Mic", re.sub(r"\s+;\s*", ", ", title))
+        if not title or re.search(r"(?i)ferm[ée]|closed", title) or d in seen:
+            continue
+        seen.add(d)
+        trivia = re.search(r"(?i)trivia|monday madness", title)
+        if trivia:
+            title = re.sub(r"(?i)^happy hour\s+", "", title)
+            if "trivia" not in title.lower():   # some weeks just say "Monday Madness with The Green Phantom"
+                title = title.replace("Madness", "Madness Trivia", 1)
+            title = re.sub(r"(?i)\s+with the\s*$", "", title)   # "…Trivia with The" (name cut off on the page)
+        ev = Ev("Brutopia", title[:140], datetime.combine(d, time(22, 0), TZ), "https://www.brutopia.net/entertainment",
+                None, loc, "Trivia" if trivia else "")
+        out.append(priced(ev, True))
+    return out
+
+
 def livenation_venue(venue: str, source: str, location: str) -> list[Ev]:
     """A venue's Live Nation page (livenation.com/venue/<id>/<name>-events): a schema.org event per show Live Nation
     or evenko sells there. (Songkick has more, but refuses requests from GitHub's servers.)"""
@@ -2026,6 +2064,7 @@ EVENT_SOURCES = {
     # jazz & blues rooms
     "Dièse Onze": dieseonze,
     "Bistro à Jojo": bistro_a_jojo,
+    "Brutopia": brutopia,
     "Bootlegger": bootlegger,   # jazz Wed & Sun, DJs Fri & Sat (its Tuesday comedy comes from Laugh It Off)
     # LATEX. (latexrave.com): queer fetish rave, 20+; tickets on Ticket Tailor (organizer "slataprod")
     "LATEX.": lambda: tickettailor("slataprod", "LATEX."),
@@ -2330,6 +2369,8 @@ SKIP_TITLES = re.compile(r"^\W*(ferm[ée]s?\s*//\s*closed|[ée]v[ée]nement priv
 def event_tab(e: Ev) -> str:
     if e.kind == "Oyster deal":
         return "oysters"
+    if e.source == "Brutopia" and re.search(r"(?i)trivia|open mic", e.title):   # its open mic and trivia are bar nights
+        return "bars"
     if e.source in FREE_TO_BARS and e.free:   # free bar music (Jojo's 5 pm sets, Bootlegger's DJs) sits with the bar nights
         return "bars"
     if e.source in CITY_SOURCES:
