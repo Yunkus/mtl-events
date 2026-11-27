@@ -1158,6 +1158,152 @@ def brutopia() -> list[Ev]:
     return out
 
 
+RAVE_CACHE = OUT / "rave_cache.json"   # rave.ca event id -> what its page says; each page re-read at most every 3 days
+RAVE_WHEN = re.compile(r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4}) @ (\d{1,2}):(\d{2})([ap]m)")
+
+
+def rave_ca(budget: int = 150) -> list[Ev]:
+    """Rave.ca's events calendar. Its page for a date (/en/calendar/2026/november/27/) lists about a month of nights
+    from that day, so today's date is put in the address on every run. Montreal listings only. Each event's own page
+    gives the time ("Fri Nov 27, 2026 @ 7:30pm till …"), the address and the description; those are read once and
+    remembered in docs/rave_cache.json. Nights another source already lists are dropped later (dedupe_aggregator)."""
+    from concurrent.futures import ThreadPoolExecutor
+    today = datetime.now(TZ).date()
+    base = "https://www.rave.ca/en"
+    s = soup(f"{base}/calendar/{today.year}/{today.strftime('%B').lower()}/{today.day}/")
+    day, city, rows = None, "", []
+    head = re.compile(r"^[A-Z][a-z]+day, ([A-Z][a-z]+) (\d{1,2}) (\d{4})$")
+    for node in s.descendants:
+        if isinstance(node, str):
+            t = clean(node)
+            m = head.match(t)
+            if m:
+                day = date(int(m.group(3)), EN_MONTHS[m.group(1).lower()], int(m.group(2)))
+            elif t.startswith("Canada, ") or t.startswith("USA, ") or t == "A Planet Called Earth":
+                city = t
+            continue
+        if node.name != "a" or not re.search(r"/en/event/\d+/", node.get("href", "")) or not day:
+            continue
+        if city != "Canada, Quebec, Montreal" or day < today:
+            continue
+        tr = node.find_parent("tr")
+        venue = tr.find("a", href=re.compile(r"/locations_info/")) if tr else None
+        span = node.find("span")
+        rows.append((day, clean(node.get_text(" ")), node["href"], clean(venue.get_text(" ")) if venue else "",
+                     (span.get("class") or [""])[0].replace("events_", "") if span else ""))
+
+    try:
+        cache = json.loads(RAVE_CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    eid = lambda url: re.search(r"/event/(\d+)/", url).group(1)
+    stale = lambda i: i not in cache or (today - date.fromisoformat(cache[i]["day"])).days >= 3
+    todo = list(dict.fromkeys(eid(r[2]) for r in rows if stale(eid(r[2]))))[:budget]
+
+    def read(i):
+        try:
+            p = BeautifulSoup(get(f"{base}/event/{i}/").content, "html.parser")
+        except Exception:
+            return i, None
+        for x in p(["script", "style"]):
+            x.decompose()
+        lines = [clean(x) for x in p.get_text("\n").split("\n") if clean(x)]
+        def after(label, stop):
+            if label not in lines:
+                return []
+            k = lines.index(label) + 1
+            out = []
+            while k < len(lines) and lines[k] not in stop:
+                out.append(lines[k]); k += 1
+            return out
+        when = " ".join(after("Time:", {"Location:", "Description:"}))
+        loc = " ".join(after("Location:", {"Description:", "Added:"})).replace(" ,", ",")
+        desc = "\n".join(after("Description:", {"Added:", "Updates:"}))
+        return i, {"day": today.isoformat(), "when": when, "location": loc, "desc": desc}
+    with ThreadPoolExecutor(4) as pool:
+        for i, info in pool.map(read, todo):
+            if info:
+                cache[i] = info
+    live = {eid(r[2]) for r in rows}
+    cache = {i: v for i, v in cache.items() if i in live}
+    RAVE_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
+
+    def stamp(m):
+        h = int(m.group(4)) % 12 + (12 if m.group(6) == "pm" else 0)
+        return datetime(int(m.group(3)), {k[:3]: v for k, v in EN_MONTHS.items()}[m.group(1).lower()], int(m.group(2)), h, int(m.group(5)), tzinfo=TZ)
+    out, seen = [], set()
+    for day, title, url, venue, cat in rows:
+        info = cache.get(eid(url), {})
+        times = [stamp(m) for m in RAVE_WHEN.finditer(info.get("when", ""))]
+        start = times[0] if times and times[0].date() == day else day
+        end = times[1] if len(times) > 1 and isinstance(start, datetime) and times[1] > start else None
+        if (url, day) in seen or re.fullmatch(r"(?i)[a-z]+day", title):   # a few listings are titled just "Saturday"
+            continue
+        seen.add((url, day))
+        title = re.sub(r"\s*,\s*,+", ",", title).strip(" ,")
+        loc = info.get("location") or venue
+        loc = re.split(r"\s+(?:\+?1\s*)?\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}|\s+\[|\s+\S+@", loc)[0].strip(" ,")   # no phone / email
+        if re.search(r"//|#\d{1,2}[a-z]{3}\d", loc):   # "Friday #27nov26 // 11h-6h // TBA": address secret until the day
+            loc = venue or "Location TBA"
+        elif re.match(r"(?i)TBA\b", loc):
+            loc = re.sub(r"(?i)^TBA\s*-\s*", "", loc) if re.search(r"\d", loc) else "Location TBA"
+        town = re.search(r",\s*([^,\d]+?),\s*(?:QC|Qu[ée]bec)\b", loc)
+        if town and not re.match(r"(?i)montr[ée]al", town.group(1).strip()):   # off-island (Sainte-Thérèse, Laval…)
+            continue
+        ev = Ev("Rave.ca", title[:140], start, url, end, loc, "",
+                blurb=cat, desc=info.get("desc", ""))
+        desc = info.get("desc", "")
+        amounts = [float(a or b) for a, b in re.findall(r"\$\s*(\d+(?:\.\d\d)?)|(\d+(?:[.,]\d\d)?)\s*\$", desc.replace(",", "."))]
+        amounts = [a for a in amounts if 0 < a < 500]
+        if amounts:
+            ev = priced(ev, False, min(amounts), max(amounts))
+        elif re.search(r"(?i)\bfree\b|gratuit|no cover", desc + " " + title):
+            ev = priced(ev, True)
+        out.append(ev)
+    return out
+
+
+def dedupe_aggregator(by_tab: dict[str, list[Ev]], source: str = "Rave.ca") -> None:
+    """Drop an aggregator's listing when another source already has that night, on the same day:
+    - same venue (one name contains the other as whole words: "Datcha" / "Bar Datcha", but not "Stereo" / "StereoBar")
+      and either starting within 2 hours or sharing a title word; or
+    - the same street number in the address (the place goes by another name: "Esc" = 2023 Saint-Laurent); or
+    - two or more distinctive title words in common."""
+    common = {"with", "presents", "present", "presente", "live", "night", "nights", "party", "release", "launch",
+              "invites", "avec", "band", "album", "sound", "session", "sessions", "dance", "house", "club", "atelier",
+              "cafe", "friends", "debut", "rave", "black", "music", "musique", "soiree", "show", "christmas", "noel"}
+    def words(x):
+        return {w for w in _plain(plain_text(x)).split() if len(w) > 3 and w not in FILLER_WORDS and w not in common}
+    aliases = {"societe des arts technologiques": "sat", "systeme mtl": "systeme", "stereo bar": "stereobar"}
+    def name(x):
+        n = " ".join(_plain(plain_text(x.split(",")[0])).split())
+        return " " + aliases.get(n, n) + " "
+    def number(x):
+        m = re.search(r"\b(\d{2,5})\s*[a-z]?\s*,?\s*(?:rue|av|ave|avenue|boul|blvd|boulevard|st|chemin)?\b", x.split(",", 1)[-1] if "," in x else "", re.I)
+        return m.group(1) if m else ""
+    def day(e):
+        return e.start.date() if isinstance(e.start, datetime) else e.start
+    def near(a, b):
+        return not (isinstance(a.start, datetime) and isinstance(b.start, datetime)) or abs(a.start - b.start) <= timedelta(hours=2)
+    others: dict[date, list[Ev]] = {}
+    for evs in by_tab.values():
+        for o in evs:
+            if o.source != source:
+                others.setdefault(day(o), []).append(o)
+    def same(e, o):
+        v, tw = name(e.location), words(e.title)
+        shared = tw & words(o.title)
+        if len(shared) >= 2:
+            return True
+        names = [name(o.source), name(o.location)]
+        if any(n == v or min(len(n), len(v)) >= 6 and (n in v or v in n) for n in names) and (near(e, o) or shared):
+            return True
+        num = number(e.location)
+        return bool(num) and re.search(rf"(?<!\d){num}(?!\d)", o.location or "") is not None and near(e, o)
+    for tab, evs in by_tab.items():
+        by_tab[tab] = [e for e in evs if e.source != source or not any(same(e, o) for o in others.get(day(e), []))]
+
+
 def livenation_venue(venue: str, source: str, location: str) -> list[Ev]:
     """A venue's Live Nation page (livenation.com/venue/<id>/<name>-events): a schema.org event per show Live Nation
     or evenko sells there. (Songkick has more, but refuses requests from GitHub's servers.)"""
@@ -2109,6 +2255,7 @@ EVENT_SOURCES = {
     "New City Gas": new_city_gas,
     # Eastern Bloc posts mostly on Instagram; its parties and Sight+Sound festival go on RA venue 147287
     "Eastern Bloc": lambda: ra_events("venue", "147287", "Eastern Bloc"),
+    "Rave.ca": rave_ca,   # listings site; its nights that another source has are dropped (dedupe_aggregator)
     "White Wall Studio": lambda: ra_events("venue", "270118", "White Wall Studio"),   # 4532 av. Laval; ambient / experimental nights
     "Brasserie Beaubien": lambda: ra_events("venue", "98180", "Brasserie Beaubien"),   # 73 Beaubien E; DJ nights now and then
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
@@ -2542,7 +2689,7 @@ def last_moment(e: Ev) -> datetime:
 
 # ------------------------------------------------------------------ images & descriptions
 IMAGE_CACHE = OUT / "image_cache.json"   # event page URL -> {"image": share image, "about": description}; kept between runs
-NO_IMAGE_LOOKUP = ("mcgill.ca",   # its event pages sit behind a bot check when asked for many at once
+NO_IMAGE_LOOKUP = ("mcgill.ca", "rave.ca",   # its event pages sit behind a bot check when asked for many at once
                    "ra.co", "linktr.ee", "zeffy.com", "facebook.com", "tixr.com", "macm.org", "instagram.com")
 
 
@@ -2719,6 +2866,7 @@ def main() -> int:
                     status[name]["kept"] = len(kept)
                     print(f"       kept {len(kept)} earlier listings")
 
+    dedupe_aggregator(by_tab)
     by_tab["bars"] = dedupe_bar_nights(by_tab["bars"])
     by_tab["classical"] = dedupe_concerts(by_tab["classical"])
     by_tab["music"] = merge_repeats(sorted(by_tab["music"], key=sort_key))
