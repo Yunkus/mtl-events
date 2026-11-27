@@ -185,6 +185,8 @@ Each event in the venue list below goes to **Music** unless:
 | Blue Room | Resident Advisor venue 290582 (its own site is an Instagram page) |
 | White Wall Studio | Resident Advisor venue 270118 (4532 av. Laval; ambient / experimental release parties, about one a month) |
 | Brasserie Beaubien | Resident Advisor venue 98180 (73 rue Beaubien E; a DJ night every few months, none listed since May 2026, so it's in `QUIET_OK`) |
+| La Récré | Resident Advisor venue 280806 (5860 De Lorimier) |
+| Union Française | Resident Advisor venue 141219 (429 Viger E) |
 
 ### Exhibitions tab (`docs/museums.ics`)
 

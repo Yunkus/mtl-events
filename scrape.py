@@ -2264,6 +2264,8 @@ EVENT_SOURCES = {
     "Rave.ca": rave_ca,   # listings site; its nights that another source has are dropped (dedupe_aggregator)
     "White Wall Studio": lambda: ra_events("venue", "270118", "White Wall Studio"),   # 4532 av. Laval; ambient / experimental nights
     "Brasserie Beaubien": lambda: ra_events("venue", "98180", "Brasserie Beaubien"),   # 73 Beaubien E; DJ nights now and then
+    "La Récré": lambda: ra_events("venue", "280806", "La Récré"),   # 5860 De Lorimier
+    "Union Française": lambda: ra_events("venue", "141219", "Union Française"),   # 429 Viger E
     "Trivia Nights": lambda: badslava("trivia-nights.php?city=Montreal&state=QC", "Trivia Nights", "Trivia Night"),
     "Comedy Open Mics": lambda: badslava("open-mics.php?city=Montreal&state=QC&type=Comedy", "Comedy Open Mics",
                                          "Comedy Open Mic"),
@@ -2532,6 +2534,8 @@ def event_tab(e: Ev) -> str:
         return "classes"
     if e.source == "Brutopia" and re.search(r"(?i)trivia|open mic", e.title):   # its open mic and trivia are bar nights
         return "bars"
+    if re.search(r"(?i)\bB[- ]?Hive\b", e.location + " " + e.source):   # Café Social B Hive: mixers, sunset sessions
+        return "other"
     if e.source in FREE_TO_BARS and e.free:   # free bar music (Jojo's 5 pm sets, Bootlegger's DJs) sits with the bar nights
         return "bars"
     if e.source in CITY_SOURCES:
@@ -2911,6 +2915,8 @@ VENUE_COORDS: dict[str, tuple[float, float]] = {
     "Quai Jacques-Cartier": (45.50752, -73.54956),
     "White Wall Studio": (45.52157, -73.58337),     # 4532 av. Laval
     "Brasserie Beaubien": (45.53317, -73.60457),    # 73 Beaubien E
+    "La Récré": (45.54244, -73.58845),              # 5860 De Lorimier
+    "Union Française": (45.51227, -73.55555),       # 429 Viger E
     "Le Studio TD": (45.50812, -73.56608),
     "Salle Ludger-Duvernay du Monument-National": (45.51010, -73.56270),   # 1182 Saint-Laurent
     "Hydro-Québec Studio": (45.51010, -73.56270),   # Monument-National
