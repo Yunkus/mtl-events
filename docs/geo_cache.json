@@ -86,6 +86,10 @@
 45.58168,
 -73.54415
 ],
+"Bibliothèque Le Prévost": [
+45.54386,
+-73.61457
+],
 "Bibliothèque Maisonneuve": [
 45.55063,
 -73.54058
@@ -138,6 +142,10 @@
 "Bibliothèque de Rivière-des-Prairies": [
 45.64992,
 -73.57907
+],
+"Bibliothèque de Rosemont": [
+45.55193,
+-73.58224
 ],
 "Bibliothèque de Saint-Léonard": [
 45.58666,
@@ -650,6 +658,10 @@
 45.51806,
 -73.59171
 ],
+"carrefour angrignon": [
+45.44722,
+-73.61848
+],
 "soft studio days, 2000 Av. Northcliffe #216, Montréal, QC H4A 3K5, Canada": [
 45.47345,
 -73.60572
@@ -670,5 +682,6 @@
 "Église Saint-Édouard": [
 45.53449,
 -73.60502
-]
+],
+"Église catholique Saint-Enfant-Jésus": "2026-11-28"
 }
